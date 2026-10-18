@@ -1,4 +1,4 @@
-// 限免日报前端：按地区拉取对应 data/free-today-{region}.json 并渲染
+// 限免雷达前端：按地区拉取对应 data/free-today-{region}.json 并渲染
 (function () {
   var YEAR = document.getElementById('year');
   if (YEAR) YEAR.textContent = new Date().getFullYear();

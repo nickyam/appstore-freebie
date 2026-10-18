@@ -123,4 +123,7 @@ ins.adsbygoogle { background: #f1f4f9; border-radius: 10px; }
   }
   ins.adsbygoogle { background: #141b22; }
   .intro { color: #c2ccd6; }
+  .site-header { background: rgba(20, 26, 33, .88); }
+  .badge { background: #10321f; }
+  .card img { background: #242c35; }
 }
