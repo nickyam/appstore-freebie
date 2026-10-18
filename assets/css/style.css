@@ -141,10 +141,10 @@ ins.adsbygoogle { background: #f1f4f9; border-radius: 10px; }
   :root:not([data-theme]) {
     --bg: #0f1419; --surface: #1a2027; --text: #e6edf3; --muted: #9aa7b4;
     --border: #2a323c; --accent-soft: #16263f; --shadow: 0 1px 3px rgba(0,0,0,.3);
-    ins.adsbygoogle { background: #141b22; }
-    .intro { color: #c2ccd6; }
-    .site-header { background: rgba(20, 26, 33, .88); }
-    .badge { background: #10321f; }
-    .card img { background: #242c35; }
   }
+  :root:not([data-theme]) ins.adsbygoogle { background: #141b22; }
+  :root:not([data-theme]) .intro { color: #c2ccd6; }
+  :root:not([data-theme]) .site-header { background: rgba(20, 26, 33, .88); }
+  :root:not([data-theme]) .badge { background: #10321f; }
+  :root:not([data-theme]) .card img { background: #242c35; }
 }
