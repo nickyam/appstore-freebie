@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>限免雷达 · App Store 每日限免清单（中国区 / 美国区）</title>
+  <title>苹果限免雷达 · App Store 每日限免清单（中国区 / 美国区）</title>
   <meta name="description" content="每日自动比对苹果中国区与美国区 App Store 官方价格，找出当天「平时收费、限时免费」的优质 App 与降价特价，附原创导购点评。数据来自 Apple 官方接口。" />
   <meta name="keywords" content="限免,App Store 限免,苹果限免,免费 App,今日限免,iOS 限免,应用限免,美区限免" />
 
@@ -12,12 +12,12 @@
   <meta property="og:type" content="website" />
   <meta property="og:locale" content="zh_CN" />
   <meta property="og:locale:alternate" content="en" />
-  <meta property="og:site_name" content="限免雷达" />
-  <meta property="og:title" content="限免雷达 · App Store 每日限免清单（中国区 / 美国区）" />
+  <meta property="og:site_name" content="苹果限免雷达" />
+  <meta property="og:title" content="苹果限免雷达 · App Store 每日限免清单（中国区 / 美国区）" />
   <meta property="og:description" content="每日自动比对苹果中国区与美国区官方价格，找出当天限时免费的优质 App 与降价特价，附原创导购点评。" />
   <meta property="og:url" content="https://freebie.nickyam.com/" />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="限免雷达 · App Store 每日限免清单" />
+  <meta name="twitter:title" content="苹果限免雷达 · App Store 每日限免清单" />
   <meta name="twitter:description" content="每天自动挑出苹果商店限时免费的优质 App，省下每一分钱。" />
   <meta name="theme-color" content="#f6f8fb" media="(prefers-color-scheme: light)" />
   <meta name="theme-color" content="#0f1419" media="(prefers-color-scheme: dark)" />
@@ -25,7 +25,7 @@
   {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    "name": "限免雷达",
+    "name": "苹果限免雷达",
     "url": "https://freebie.nickyam.com/",
     "description": "每日自动比对苹果中国区与美国区 App Store 官方价格，找出限时免费的优质 App 与降价特价。",
     "potentialAction": {
@@ -43,7 +43,7 @@
 <body>
   <header class="site-header">
     <div class="header-inner">
-      <div class="logo"><span class="dot"></span><span data-i18n="logo">限免雷达</span></div>
+      <div class="logo" id="logoHome" title="点击刷新"><span class="dot"></span><span data-i18n="logo">苹果限免雷达</span></div>
       <div class="header-actions">
         <button type="button" class="icon-btn" id="langBtn" aria-label="切换语言">EN</button>
         <button type="button" class="icon-btn" id="themeBtn" aria-label="切换深色模式">🌙</button>
@@ -56,13 +56,18 @@
     <section class="hero">
       <span class="badge" id="regionBadge">🍎 中国区 · 每日 09:00 自动更新</span>
       <h1 data-i18n="hero_title">今日 App Store 限免清单</h1>
-      <p data-i18n="hero_sub">每天自动扫描苹果官方价格，捕捉「昨天还收费、今天免费领」的降价信号——限免雷达帮你盯住每一次捡漏机会。</p>
+      <p data-i18n="hero_sub">每天自动扫描苹果官方价格，捕捉「昨天还收费、今天免费领」的降价信号——苹果限免雷达帮你盯住每一次捡漏机会。</p>
       <div class="region-switch" id="regionSwitch">
         <button type="button" class="region-btn active" data-region="cn" data-i18n="region_cn">🇨🇳 中国区</button>
         <button type="button" class="region-btn" data-region="us" data-i18n="region_us">🇺🇸 美国区</button>
       </div>
       <div class="date-line" id="dateLine">数据加载中…</div>
     </section>
+
+    <div class="toolbar">
+      <input type="search" id="searchInput" class="search-input" data-i18n-ph="search_ph" placeholder="搜索 App 名称 / 开发者…" />
+      <select id="genreFilter" class="genre-select"><option value="">全部分类</option></select>
+    </div>
 
     <!-- 原创编辑内容：说明限免是什么、我们怎么算，满足 AdSense 原创价值要求 -->
     <section class="intro" id="about">
@@ -109,7 +114,7 @@
       <div class="disclaimer" data-i18n="footer_disclaimer">
         ⚠️ 免责声明：本页价格与可用性来自 Apple 官方接口，可能随时变动；限免/特价活动由开发者设定，本页不构成购买建议。请以下单时 App Store 内显示为准。
       </div>
-      <div>© <span id="year">2026</span> <span data-i18n="footer_copyright">限免雷达 · 数据每日自动更新 · 非苹果官方站点</span></div>
+      <div>© <span id="year">2026</span> <span data-i18n="footer_copyright">苹果限免雷达 · 数据每日自动更新 · 非苹果官方站点</span></div>
     </div>
   </footer>
 

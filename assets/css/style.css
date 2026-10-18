@@ -38,7 +38,8 @@ a:hover { text-decoration: underline; }
   max-width: 980px; margin: 0 auto; padding: 12px 20px;
   display: flex; align-items: center; justify-content: space-between;
 }
-.logo { font-weight: 800; font-size: 18px; display: flex; align-items: center; gap: 8px; }
+.logo { font-weight: 800; font-size: 18px; display: flex; align-items: center; gap: 8px; cursor: pointer; user-select: none; }
+.logo:hover { opacity: .82; }
 .logo .dot { width: 10px; height: 10px; border-radius: 50%; background: var(--free); display: inline-block; }
 
 /* 右上角控件区：语言 + 主题切换 */
@@ -62,6 +63,19 @@ main { padding: 28px 0 56px; }
   background: #e7f7ee; padding: 3px 10px; border-radius: 999px; margin-bottom: 12px;
 }
 .date-line { color: var(--muted); font-size: 13px; margin-top: 10px; }
+
+/* 搜索 + 分类筛选工具栏 */
+.toolbar { display: flex; gap: 10px; margin: 18px 0 0; flex-wrap: wrap; }
+.search-input {
+  flex: 1; min-width: 200px; padding: 10px 14px; font: inherit; font-size: 14px;
+  border: 1px solid var(--border); border-radius: 10px; background: var(--surface); color: var(--text);
+}
+.search-input:focus { outline: none; border-color: var(--accent); }
+.genre-select {
+  padding: 10px 12px; font: inherit; font-size: 14px; min-width: 140px;
+  border: 1px solid var(--border); border-radius: 10px; background: var(--surface); color: var(--text);
+}
+.genre-select:focus { outline: none; border-color: var(--accent); }
 
 /* 区域切换菜单 */
 .region-switch { display: inline-flex; gap: 6px; margin-top: 16px; padding: 4px; background: var(--surface); border: 1px solid var(--border); border-radius: 999px; box-shadow: var(--shadow); }

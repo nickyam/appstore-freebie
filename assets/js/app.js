@@ -1,14 +1,14 @@
-// 限免雷达前端：地区数据渲染 + 中英双语 i18n + 日/夜主题切换
+// 苹果限免雷达前端：地区数据渲染 + 中英双语 i18n + 日/夜主题切换 + 搜索/分类筛选
 (function () {
   'use strict';
 
   // ===== 双语字典 =====
   var I18N = {
     zh: {
-      logo: '限免雷达',
+      logo: '苹果限免雷达',
       nav_about: '关于 / 怎么算',
       hero_title: '今日 App Store 限免清单',
-      hero_sub: '每天自动扫描苹果官方价格，捕捉「昨天还收费、今天免费领」的降价信号——限免雷达帮你盯住每一次捡漏机会。',
+      hero_sub: '每天自动扫描苹果官方价格，捕捉「昨天还收费、今天免费领」的降价信号——苹果限免雷达帮你盯住每一次捡漏机会。',
       region_cn: '🇨🇳 中国区',
       region_us: '🇺🇸 美国区',
       intro_h2: '什么是「限免」？我们怎么挑？',
@@ -26,8 +26,11 @@
       loading: '加载中…',
       free_empty: '今天没有检出限免 App，明天再来看看～',
       deal_empty: '今天没有降价的特价 App。',
+      filter_empty: '没有符合当前筛选条件的 App。',
+      search_ph: '搜索 App 名称 / 开发者…',
+      genre_all: '全部分类',
       footer_disclaimer: '⚠️ 免责声明：本页价格与可用性来自 Apple 官方接口，可能随时变动；限免/特价活动由开发者设定，本页不构成购买建议。请以下单时 App Store 内显示为准。',
-      footer_copyright: '限免雷达 · 数据每日自动更新 · 非苹果官方站点',
+      footer_copyright: '苹果限免雷达 · 数据每日自动更新 · 非苹果官方站点',
       card_store: 'App Store',
       card_free_price: '免费',
       date_prefix: '数据日期：',
@@ -37,7 +40,7 @@
       badge_us: '🍎 美国区 · 每日 09:00 自动更新'
     },
     en: {
-      logo: 'Freebie Radar',
+      logo: 'Apple Freebie Radar',
       nav_about: 'About',
       hero_title: "Today's App Store Freebies",
       hero_sub: 'We scan Apple’s official prices every day and catch the drop signals — paid yesterday, free today. Freebie Radar keeps an eye on every steal for you.',
@@ -58,6 +61,9 @@
       loading: 'Loading…',
       free_empty: 'No limited-time free apps found today. Check back tomorrow.',
       deal_empty: 'No price-drop deals found today.',
+      filter_empty: 'No apps match the current filter.',
+      search_ph: 'Search app name or developer…',
+      genre_all: 'All categories',
       footer_disclaimer: '⚠️ Disclaimer: prices and availability on this page come from Apple’s official API and may change anytime; free/deal events are set by developers and this page is not purchase advice. Always rely on what shows in the App Store at checkout.',
       footer_copyright: 'Freebie Radar · updated daily · not an official Apple site',
       card_store: 'App Store',
@@ -71,6 +77,8 @@
   };
 
   var CURRENT_LANG = 'zh';
+  var state = { search: '', genre: '' };        // 筛选状态
+  var currentData = { free: [], deals: [] };     // 当前区已加载数据
 
   // ===== 地区配置 =====
   var REGIONS = {
@@ -98,12 +106,19 @@
       var key = nodes[i].getAttribute('data-i18n');
       if (dict[key] != null) nodes[i].innerHTML = dict[key];
     }
+    var phNodes = document.querySelectorAll('[data-i18n-ph]');
+    for (var j = 0; j < phNodes.length; j++) {
+      var pk = phNodes[j].getAttribute('data-i18n-ph');
+      if (dict[pk] != null) phNodes[j].setAttribute('placeholder', dict[pk]);
+    }
     var y = document.getElementById('year');
     if (y) y.textContent = new Date().getFullYear();
     REGIONS.cn.badge = dict.badge_cn;
     REGIONS.us.badge = dict.badge_us;
     var lb = document.getElementById('langBtn');
     if (lb) lb.textContent = CURRENT_LANG === 'en' ? '中' : 'EN';
+    var allOpt = document.querySelector('#genreFilter option[value=""]');
+    if (allOpt) allOpt.textContent = dict.genre_all;
     var og = document.querySelector('meta[property="og:locale"]');
     if (og) og.setAttribute('content', CURRENT_LANG === 'en' ? 'en' : 'zh_CN');
   }
@@ -181,7 +196,6 @@
   }
 
   function renderList(containerId, data, kind, emptyText) {
-    var dict = I18N[CURRENT_LANG];
     var box = document.getElementById(containerId);
     box.innerHTML = '';
     if (!data || data.length === 0) {
@@ -191,6 +205,48 @@
     var grid = el('div', 'grid');
     data.forEach(function (a) { grid.appendChild(appCard(a, kind)); });
     box.appendChild(grid);
+  }
+
+  // ===== 筛选 =====
+  function filterApps(list) {
+    if (!list || !list.length) return [];
+    var q = state.search.trim().toLowerCase();
+    return list.filter(function (a) {
+      if (state.genre && a.genre !== state.genre) return false;
+      if (q) {
+        var hay = ((a.name || '') + ' ' + (a.dev || '') + ' ' + (a.genre || '')).toLowerCase();
+        if (hay.indexOf(q) === -1) return false;
+      }
+      return true;
+    });
+  }
+
+  function fillGenres() {
+    var sel = document.getElementById('genreFilter');
+    if (!sel) return;
+    var set = {};
+    currentData.free.concat(currentData.deals).forEach(function (a) { if (a.genre) set[a.genre] = 1; });
+    var genres = Object.keys(set).sort();
+    var keep = sel.querySelector('option[value=""]');
+    sel.innerHTML = '';
+    if (keep) sel.appendChild(keep);
+    genres.forEach(function (g) {
+      var o = el('option', null, esc(g));
+      o.value = g;
+      sel.appendChild(o);
+    });
+    if (state.genre && !set[state.genre]) state.genre = ''; // 当前区无此分类则重置
+    sel.value = state.genre;
+  }
+
+  function renderFiltered() {
+    var dict = I18N[CURRENT_LANG];
+    var free = filterApps(currentData.free);
+    var deals = filterApps(currentData.deals);
+    var freeEmpty = currentData.free.length === 0 ? dict.free_empty : dict.filter_empty;
+    var dealEmpty = currentData.deals.length === 0 ? dict.deal_empty : dict.filter_empty;
+    renderList('freeList', free, 'free', freeEmpty);
+    renderList('dealList', deals, 'deal', dealEmpty);
   }
 
   function showError() {
@@ -228,10 +284,12 @@
         }
         var free = d.freebies || [];
         var deals = d.deals || [];
+        currentData.free = free;
+        currentData.deals = deals;
         var fc = document.getElementById('freeCount'); if (fc) fc.textContent = free.length;
         var dc = document.getElementById('dealCount'); if (dc) dc.textContent = deals.length;
-        renderList('freeList', free, 'free', dict.free_empty);
-        renderList('dealList', deals, 'deal', dict.deal_empty);
+        fillGenres();
+        renderFiltered();
       })
       .catch(function () { showError(); });
   }
@@ -260,6 +318,31 @@
         load(r);
       });
     }
+
+    // 搜索 + 分类筛选（纯前端过滤已加载数据，不发网请求）
+    var si = document.getElementById('searchInput');
+    if (si) si.addEventListener('input', function () {
+      state.search = this.value;
+      renderFiltered();
+    });
+    var gf = document.getElementById('genreFilter');
+    if (gf) gf.addEventListener('change', function () {
+      state.genre = this.value;
+      renderFiltered();
+    });
+
+    // 点击站名「苹果限免雷达」刷新数据（轻量刷新：重拉清单、不整页 reload）
+    var logo = document.getElementById('logoHome');
+    if (logo) logo.addEventListener('click', function () {
+      var dict = I18N[CURRENT_LANG];
+      var dl = document.getElementById('dateLine');
+      if (dl) dl.textContent = dict.loading;
+      ['freeList', 'dealList'].forEach(function (id) {
+        var b = document.getElementById(id);
+        if (b) b.innerHTML = '<div class="loading">' + dict.loading + '</div>';
+      });
+      load(getRegion());
+    });
   }
 
   function getRegion() {
