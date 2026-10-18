@@ -94,6 +94,7 @@ ins.adsbygoogle { background: #f1f4f9; border-radius: 10px; }
 .card .name { font-weight: 700; font-size: 15px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .card .dev { color: var(--muted); font-size: 12px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .card .genre { color: var(--muted); font-size: 12px; margin-top: 2px; }
+.card .rating { color: #f59e0b; font-size: 12px; font-weight: 700; margin-top: 3px; }
 .card .price { margin-top: 8px; font-size: 13px; }
 .card .price .old { color: var(--muted); text-decoration: line-through; margin-right: 8px; }
 .card .price .new.free { color: var(--free); font-weight: 800; }

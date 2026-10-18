@@ -48,6 +48,9 @@
     info.appendChild(el('div', 'name', esc(app.name || '未命名')));
     info.appendChild(el('div', 'dev', esc(app.dev || '')));
     if (app.genre) info.appendChild(el('div', 'genre', esc(app.genre)));
+    if (app.rating && app.rating > 0) {
+      info.appendChild(el('div', 'rating', '★ ' + (Math.round(app.rating * 10) / 10).toFixed(1)));
+    }
     var price = el('div', 'price');
     if (app.normal) {
       price.appendChild(el('span', 'old', esc(app.normal)));

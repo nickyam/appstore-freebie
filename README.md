@@ -12,16 +12,17 @@
 ## 工作原理
 
 1. **GitHub Actions** 每天 09:00（北京时间）分别运行 `scripts/generate.py --country cn` 与 `--country us`：
-   - 抓取苹果 `topfreeapplications` / `toppaidapplications`（对应区）Top 200；
-   - 用官方 `lookup` 接口核对每个 App 的实时价格；
-   - 与本地保存的「常规价基线」(`data/baseline-{country}.json`) 对比：
-     - 当前价 = 0 且基线 > 0 → **限免**
+   - 构建「宽监控池」：抓取苹果 **22 个分类的付费榜 Top100** + 免费榜 Top100（覆盖约 1500 个易做限免的付费 App），
+     再与本地历史「常规价基线」(`data/baseline-{country}.json`) 取并集——**哪怕 App 跌出榜单也持续跟踪**；
+   - 用官方 `lookup` 接口逐个核对实时价格（按 100 个/批、礼貌限速）；
+   - 与基线价格对比：
+     - 当前价 = 0 且基线 > 0 → **限免**（价格归零即判，不再依赖付费榜——数学上付费榜永远抓不到限免）
      - 当前价 > 0 且 < 基线 → **特价**
-   - 输出 `data/free-today-{country}.json`，并更新基线，commit 回仓库。
+   - 按**用户评分降序**排序（优先展示优质 App），输出 `data/free-today-{country}.json`，基线漂移为当前价后回写，commit 回仓库。
 2. **Cloudflare Pages** 部署仓库静态文件；前端 `assets/js/app.js` 按所选地区拉取
-   同域 `data/free-today-{country}.json` 渲染，顶部菜单可在「🇨🇳 中国区 / 🇺🇸 美国区」间切换。
+   同域 `data/free-today-{country}.json` 渲染，顶部菜单可在「🇨🇳 中国区 / 🇺🇸 美国区」间切换，卡片展示图标 / 开发者 / 分类 / 评分 / 价格。
 
-> 首次运行只播种基线（不报限免）；**第二天起**即可检出限免。
+> 首次运行只播种基线（不报限免）；**第二天起**即可稳定检出限免 / 特价。基线随每日比价自然增长，监控池越跑越准。
 
 ---
 
@@ -50,8 +51,8 @@ python3 scripts/generate.py --country us
 ### 2. Cloudflare Pages 接入
 - Pages → 连接 Git 仓库 → 选该仓库。
 - Build 设置：**Build command 留空**，**Output directory 填 `/`**（根目录即静态站）。
-- 部署完成后绑定你的域名（如 `freebie.your-domain.com`）。
-- 把 `robots.txt` / `sitemap.xml` 里的 `YOUR-DOMAIN.example` 换成真实域名。
+- 自定义域已配置：`freebie.nickyam.com`（Pages 后台添加，SSL 已启用，状态活动）。
+- `index.html` / `robots.txt` / `sitemap.xml` 内已写入该域名，无需再改。
 
 ### 3. 启用每日更新
 - 推送后 GitHub Actions 自动激活（`daily.yml` 里的 `cron`）。
@@ -79,7 +80,8 @@ python3 scripts/generate.py --country us
 
 - **加更多地区**：在 `daily.yml` 增加一步 `python scripts/generate.py --country <区码>`，
   并在 `assets/js/app.js` 的 `REGIONS` 里加对应项（区码如 `jp`、`gb`、`hk` 等）。
-- **扩分类/数量**：`scripts/generate.py` 里 `FREE_LIMIT` / `PAID_LIMIT` 可调（RSS 上限 200）。
+- **调监控池 / 展示量**：`scripts/generate.py` 顶部 `GENRE_LIMIT`（每分类付费榜条数，RSS 实测每源上限 100）、
+  `FREE_LIMIT`（免费榜条数）、`MAX_DISPLAY`（前端最多展示的限免/特价数）可调。
 - **出英文版拉海外流量**：复制一套 `index.html` 文案为英文，可抬高 AdSense RPM（中国区流量 RPM 偏低）。
 
 ---
