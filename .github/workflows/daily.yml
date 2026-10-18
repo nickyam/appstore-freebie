@@ -21,14 +21,17 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Generate freebie list
-        run: python scripts/generate.py
+      - name: Generate freebie list (cn)
+        run: python scripts/generate.py --country cn
+
+      - name: Generate freebie list (us)
+        run: python scripts/generate.py --country us
 
       - name: Commit & push
         run: |
           git config user.email "freebie-bot@users.noreply.github.com"
           git config user.name "Freebie Bot"
-          git add data/free-today.json data/baseline.json
+          git add data/free-today-cn.json data/free-today-us.json data/baseline-cn.json data/baseline-us.json
           if git diff --cached --quiet; then
             echo "无变化，跳过提交"
           else

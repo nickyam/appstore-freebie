@@ -1,13 +1,36 @@
-// 限免日报前端：拉取同域 data/free-today.json 并渲染
+// 限免日报前端：按地区拉取对应 data/free-today-{region}.json 并渲染
 (function () {
   var YEAR = document.getElementById('year');
   if (YEAR) YEAR.textContent = new Date().getFullYear();
+
+  var REGIONS = {
+    cn: { label: '中国区', file: 'data/free-today-cn.json', badge: '🍎 中国区 · 每日 09:00 自动更新' },
+    us: { label: '美国区', file: 'data/free-today-us.json', badge: '🍎 美国区 · 每日 09:00 自动更新' }
+  };
+  var STORE_KEY = 'freebie-region';
+
+  function getRegion() {
+    var saved = null;
+    try { saved = localStorage.getItem(STORE_KEY); } catch (e) {}
+    if (saved && REGIONS[saved]) return saved;
+    return 'cn';
+  }
+
+  function setRegion(r) {
+    try { localStorage.setItem(STORE_KEY, r); } catch (e) {}
+  }
 
   function el(tag, cls, html) {
     var e = document.createElement(tag);
     if (cls) e.className = cls;
     if (html != null) e.innerHTML = html;
     return e;
+  }
+
+  function esc(s) {
+    return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) {
+      return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
+    });
   }
 
   function appCard(app, kind) {
@@ -43,12 +66,6 @@
     return card;
   }
 
-  function esc(s) {
-    return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) {
-      return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
-    });
-  }
-
   function renderList(containerId, data, kind, emptyText) {
     var box = document.getElementById(containerId);
     box.innerHTML = '';
@@ -70,8 +87,19 @@
     if (dl) dl.textContent = '数据暂时无法加载，请稍后刷新';
   }
 
-  function init() {
-    fetch('data/free-today.json', { cache: 'no-cache' })
+  function load(region) {
+    var meta = REGIONS[region];
+    if (!meta) region = 'cn', meta = REGIONS.cn;
+
+    // 更新菜单高亮
+    var btns = document.querySelectorAll('#regionSwitch .region-btn');
+    btns.forEach(function (b) {
+      b.classList.toggle('active', b.getAttribute('data-region') === region);
+    });
+    var badge = document.getElementById('regionBadge');
+    if (badge) badge.textContent = meta.badge;
+
+    fetch(meta.file, { cache: 'no-cache' })
       .then(function (r) {
         if (!r.ok) throw new Error('HTTP ' + r.status);
         return r.json();
@@ -80,7 +108,7 @@
         var dl = document.getElementById('dateLine');
         if (dl) {
           var gen = d.generated_at ? '（更新于 ' + d.generated_at + ' UTC）' : '';
-          dl.textContent = '数据日期：' + (d.date || '—') + ' · 中国区' + gen;
+          dl.textContent = '数据日期：' + (d.date || '—') + ' · ' + meta.label + gen;
         }
         var free = d.freebies || [];
         var deals = d.deals || [];
@@ -90,6 +118,21 @@
         renderList('dealList', deals, 'deal', '今天没有降价的特价 App。');
       })
       .catch(function (e) { showError('加载失败：' + e.message); });
+  }
+
+  function init() {
+    var region = getRegion();
+    setRegion(region);
+    var btns = document.querySelectorAll('#regionSwitch .region-btn');
+    btns.forEach(function (b) {
+      b.addEventListener('click', function () {
+        var r = b.getAttribute('data-region');
+        if (r === getRegion()) return;
+        setRegion(r);
+        load(r);
+      });
+    });
+    load(region);
   }
 
   if (document.readyState === 'loading') {

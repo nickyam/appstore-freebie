@@ -1,14 +1,15 @@
 #!/usr/bin/env python3
 """
-App Store 限免清单生成器（cn 中国商店）
-========================================
+App Store 限免清单生成器（支持 cn 中国区 / us 美国区）
+====================================================
 思路：
 - 苹果的 iTunes RSS 榜单与 Search API 均为官方、免密钥接口。
-- 每天抓取「免费榜」与「付费榜」Top 200，再用 lookup 拿到每个 App 的精确价格。
-- 与本地保存的「常规价基线」(baseline.json) 对比：
+- 通过 --country 参数指定地区（cn / us），每天抓取「免费榜」与「付费榜」Top 200，
+  再用 lookup 拿到每个 App 的精确价格。
+- 与本地保存的「常规价基线」(baseline-{country}.json) 对比：
     * 当前价格=0 且基线>0  → 限免（平时收费，今天免费）
     * 当前价格>0 且 <基线   → 特价（降价但未免费）
-- 输出 data/free-today.json 供前端渲染；更新 baseline.json。
+- 输出 data/free-today-{country}.json 供前端渲染；更新 baseline-{country}.json。
 
 首次运行仅播种基线（不报限免）；次日 09:00 起即可检出限免。
 全部数据来自 Apple 官方，图标/截图均走苹果 CDN 链接，不转存。
@@ -21,19 +22,14 @@ import time
 import datetime
 import urllib.request
 import urllib.error
+import argparse
 
-COUNTRY = "cn"
 FREE_LIMIT = 200
 PAID_LIMIT = 200
-RSS_BASE = f"https://itunes.apple.com/{COUNTRY}/rss"
-LOOKUP = f"https://itunes.apple.com/lookup?country={COUNTRY}&entity=software&id="
-
 UA = "Mozilla/5.0 (compatible; AppFreebieBot/1.0; +https://example.com)"
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA_DIR = os.path.join(BASE_DIR, "data")
-BASELINE_PATH = os.path.join(DATA_DIR, "baseline.json")
-OUT_PATH = os.path.join(DATA_DIR, "free-today.json")
 
 
 def http_get_json(url):
@@ -42,12 +38,13 @@ def http_get_json(url):
         return json.loads(resp.read().decode("utf-8"))
 
 
-def fetch_chart(kind, limit):
-    url = f"{RSS_BASE}/{kind}/limit={limit}/json"
+def fetch_chart(country, kind, limit):
+    rss_base = f"https://itunes.apple.com/{country}/rss"
+    url = f"{rss_base}/{kind}/limit={limit}/json"
     try:
         data = http_get_json(url)
     except Exception as e:
-        print(f"[warn] 拉取榜单失败 {kind}: {e}", file=sys.stderr)
+        print(f"[warn] 拉取榜单失败 {country}/{kind}: {e}", file=sys.stderr)
         return []
     entries = data.get("feed", {}).get("entry", [])
     if not isinstance(entries, list):
@@ -72,17 +69,18 @@ def fetch_chart(kind, limit):
     return apps
 
 
-def lookup(ids):
+def lookup(country, ids):
+    lookup_url = f"https://itunes.apple.com/lookup?country={country}&entity=software&id="
     out = {}
     if not ids:
         return out
     for i in range(0, len(ids), 100):
         batch = ids[i:i + 100]
-        url = LOOKUP + ",".join(batch)
+        url = lookup_url + ",".join(batch)
         try:
             data = http_get_json(url)
         except Exception as e:
-            print(f"[warn] lookup 失败 batch {i}: {e}", file=sys.stderr)
+            print(f"[warn] lookup 失败 {country} batch {i}: {e}", file=sys.stderr)
             time.sleep(2)
             continue
         for r in data.get("results", []):
@@ -94,19 +92,27 @@ def lookup(ids):
 
 
 def main():
-    free_apps = fetch_chart("topfreeapplications", FREE_LIMIT)
-    paid_apps = fetch_chart("toppaidapplications", PAID_LIMIT)
+    parser = argparse.ArgumentParser(description="App Store 限免清单生成器")
+    parser.add_argument("--country", required=True, choices=["cn", "us"], help="地区：cn 中国区 / us 美国区")
+    args = parser.parse_args()
+    country = args.country
+
+    baseline_path = os.path.join(DATA_DIR, f"baseline-{country}.json")
+    out_path = os.path.join(DATA_DIR, f"free-today-{country}.json")
+
+    free_apps = fetch_chart(country, "topfreeapplications", FREE_LIMIT)
+    paid_apps = fetch_chart(country, "toppaidapplications", PAID_LIMIT)
 
     baseline = {}
-    if os.path.exists(BASELINE_PATH):
+    if os.path.exists(baseline_path):
         try:
-            with open(BASELINE_PATH, encoding="utf-8") as f:
+            with open(baseline_path, encoding="utf-8") as f:
                 baseline = json.load(f)
         except Exception:
             baseline = {}
 
     ids = [a["id"] for a in (free_apps + paid_apps) if a.get("id")]
-    details = lookup(ids)
+    details = lookup(country, ids)
 
     freebies = []
     deals = []
@@ -137,7 +143,7 @@ def main():
                 "dev": d.get("artistName", ""),
                 "genre": d.get("genre", ""),
                 "normal": prev.get("formatted", ""),
-                "current": d.get("formattedPrice", "免费"),
+                "current": "免费",  # 限免统一以中文展示
                 "icon": d.get("artworkUrl100", "") or d.get("artworkUrl512", ""),
                 "url": d.get("trackViewUrl", ""),
             })
@@ -171,19 +177,19 @@ def main():
     today = datetime.date.today().isoformat()
     result = {
         "date": today,
-        "country": COUNTRY,
+        "country": country,
         "generated_at": datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "freebies": freebies,
         "deals": deals,
     }
 
     os.makedirs(DATA_DIR, exist_ok=True)
-    with open(OUT_PATH, "w", encoding="utf-8") as f:
+    with open(out_path, "w", encoding="utf-8") as f:
         json.dump(result, f, ensure_ascii=False, indent=2)
-    with open(BASELINE_PATH, "w", encoding="utf-8") as f:
+    with open(baseline_path, "w", encoding="utf-8") as f:
         json.dump(baseline, f, ensure_ascii=False, indent=2)
 
-    print(f"[ok] date={today} freebies={len(freebies)} deals={len(deals)} baseline_size={len(baseline)}")
+    print(f"[ok] country={country} date={today} freebies={len(freebies)} deals={len(deals)} baseline_size={len(baseline)}")
 
 
 if __name__ == "__main__":

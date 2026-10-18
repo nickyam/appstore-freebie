@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>限免日报 · App Store 每日限免清单（中国区）</title>
-  <meta name="description" content="每日自动比对苹果中国区 App Store 官方价格，找出当天「平时收费、限时免费」的优质 App 与降价特价，附原创导购点评。数据来自 Apple 官方接口。" />
-  <meta name="keywords" content="限免,App Store 限免,苹果限免,免费 App,今日限免,iOS 限免,应用限免" />
+  <title>限免日报 · App Store 每日限免清单（中国区 / 美国区）</title>
+  <meta name="description" content="每日自动比对苹果中国区与美国区 App Store 官方价格，找出当天「平时收费、限时免费」的优质 App 与降价特价，附原创导购点评。数据来自 Apple 官方接口。" />
+  <meta name="keywords" content="限免,App Store 限免,苹果限免,免费 App,今日限免,iOS 限免,应用限免,美区限免" />
   <link rel="stylesheet" href="assets/css/style.css" />
   <!-- Google AdSense（请先在后台添加本站点并通过审核） -->
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7114121088728794" crossorigin="anonymous"></script>
@@ -20,9 +20,13 @@
 
   <main class="container">
     <section class="hero">
-      <span class="badge">🍎 中国区 · 每日 09:00 自动更新</span>
+      <span class="badge" id="regionBadge">🍎 中国区 · 每日 09:00 自动更新</span>
       <h1>今日 App Store 限免清单</h1>
       <p>每天自动比对苹果官方价格，把「平时要花钱、今天免费领」的优质 App 挑出来，省下你的每一分钱。</p>
+      <div class="region-switch" id="regionSwitch">
+        <button type="button" class="region-btn active" data-region="cn">🇨🇳 中国区</button>
+        <button type="button" class="region-btn" data-region="us">🇺🇸 美国区</button>
+      </div>
       <div class="date-line" id="dateLine">数据加载中…</div>
     </section>
 
@@ -30,6 +34,7 @@
     <section class="intro" id="about">
       <h2>什么是「限免」？我们怎么挑？</h2>
       <p><b>限免（限时免费）</b>指的是开发者把平时收费的 App 在一段时间内免费开放下载——你今天下了就永久免费，过后恢复原价。这类活动在 App Store 上每天都在发生，但散落在海量应用里，肉眼根本盯不过来。</p>
+      <p>我们同时覆盖<b>中国区</b>与<b>美国区</b>两个商店：用顶部菜单切换，列表与价格会自动刷新。无论你在哪个区，都能一眼看到当天的好货。</p>
       <p>我们的做法很直接，也最可靠：</p>
       <ul>
         <li>每天抓取苹果<b>官方</b>免费榜与付费榜 Top 200，再用苹果官方接口逐个核对实时价格；</li>
@@ -37,7 +42,7 @@
         <li>价格只是降低但没到免费的，单独归到<b>特价</b>一栏，方便比价；</li>
         <li>所有价格与可用性以苹果商店为准，可能随时变动，<b>下单前请务必在 App Store 内确认</b>。</li>
       </ul>
-      <p>所有数据来自 Apple 公开接口，App 图标均直接引用苹果 CDN，不做转存。点击任意 App 即可跳转 App Store 详情页。</p>
+      <p>所有数据来自 Apple 公开接口，App 图标均直接引用苹果 CDN，不做转存。点击任意 App 即可跳转对应地区的 App Store 详情页。</p>
     </section>
 
     <div class="ad-slot">

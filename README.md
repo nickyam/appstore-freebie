@@ -1,6 +1,6 @@
-# 限免日报 · App Store 每日限免清单（中国区）
+# 限免日报 · App Store 每日限免清单（中国区 / 美国区）
 
-一个**零后端、零服务器**的纯静态站点：每天自动比对苹果中国区 App Store 官方价格，
+一个**零后端、零服务器**的纯静态站点：每天自动比对苹果**中国区与美国区** App Store 官方价格，
 找出「平时收费、限时免费」的 App 与降价特价，生成静态 JSON 由前端渲染。
 数据来自 Apple 官方接口（iTunes RSS + Search API），图标走苹果 CDN，不做转存。
 
@@ -11,14 +11,15 @@
 
 ## 工作原理
 
-1. **GitHub Actions** 每天 09:00（北京时间）运行 `scripts/generate.py`：
-   - 抓取苹果 `topfreeapplications` / `toppaidapplications`（cn）Top 200；
+1. **GitHub Actions** 每天 09:00（北京时间）分别运行 `scripts/generate.py --country cn` 与 `--country us`：
+   - 抓取苹果 `topfreeapplications` / `toppaidapplications`（对应区）Top 200；
    - 用官方 `lookup` 接口核对每个 App 的实时价格；
-   - 与本地保存的「常规价基线」(`data/baseline.json`) 对比：
+   - 与本地保存的「常规价基线」(`data/baseline-{country}.json`) 对比：
      - 当前价 = 0 且基线 > 0 → **限免**
      - 当前价 > 0 且 < 基线 → **特价**
-   - 输出 `data/free-today.json`，并更新基线，commit 回仓库。
-2. **Cloudflare Pages** 部署仓库静态文件；前端 `assets/js/app.js` 拉取同域 `data/free-today.json` 渲染。
+   - 输出 `data/free-today-{country}.json`，并更新基线，commit 回仓库。
+2. **Cloudflare Pages** 部署仓库静态文件；前端 `assets/js/app.js` 按所选地区拉取
+   同域 `data/free-today-{country}.json` 渲染，顶部菜单可在「🇨🇳 中国区 / 🇺🇸 美国区」间切换。
 
 > 首次运行只播种基线（不报限免）；**第二天起**即可检出限免。
 
@@ -29,12 +30,13 @@
 ```bash
 cd appstore-freebie
 python3 -m http.server 8080
-# 浏览器打开 http://127.0.0.1:8080/
+# 浏览器打开 http://127.0.0.1:8080/，用顶部菜单切换中国区/美国区
 ```
 
 可选：本地手动跑一次生成器看真实数据（会写 baseline / free-today）：
 ```bash
-python3 scripts/generate.py
+python3 scripts/generate.py --country cn
+python3 scripts/generate.py --country us
 ```
 
 ---
@@ -54,7 +56,7 @@ python3 scripts/generate.py
 ### 3. 启用每日更新
 - 推送后 GitHub Actions 自动激活（`daily.yml` 里的 `cron`）。
 - 也可在 Actions 页面手动 **Run workflow** 立即跑一次。
-- 每次 Actions 提交 `data/free-today.json` 会触发 Pages 重新部署（自动）。
+- 每次 Actions 提交 `data/free-today-*.json` 会触发 Pages 重新部署（自动）。
 
 ---
 
@@ -75,9 +77,10 @@ python3 scripts/generate.py
 
 ## 自定义
 
-- **换地区**：改 `scripts/generate.py` 的 `COUNTRY`（如 `us`、`jp`、`gb`）；注意 `index.html` 文案与 `country` 文案同步改。
-- **扩分类/数量**：`FREE_LIMIT` / `PAID_LIMIT` 可调（RSS 上限 200）。
-- **出英文版拉海外流量**：复制一套 `index.html` 文案为英文 + 地区改 `us`，可抬高 AdSense RPM（中国区流量 RPM 偏低）。
+- **加更多地区**：在 `daily.yml` 增加一步 `python scripts/generate.py --country <区码>`，
+  并在 `assets/js/app.js` 的 `REGIONS` 里加对应项（区码如 `jp`、`gb`、`hk` 等）。
+- **扩分类/数量**：`scripts/generate.py` 里 `FREE_LIMIT` / `PAID_LIMIT` 可调（RSS 上限 200）。
+- **出英文版拉海外流量**：复制一套 `index.html` 文案为英文，可抬高 AdSense RPM（中国区流量 RPM 偏低）。
 
 ---
 
@@ -85,14 +88,16 @@ python3 scripts/generate.py
 
 ```
 appstore-freebie/
-├── index.html              # 前端页面（含原创编辑文案 + AdSense 位）
+├── index.html              # 前端页面（含原创编辑文案 + AdSense 位 + 区域切换菜单）
 ├── assets/
 │   ├── css/style.css
-│   └── js/app.js           # 拉取 data/free-today.json 并渲染
-├── scripts/generate.py     # 比价生成器（GitHub Actions 调用）
+│   └── js/app.js           # 按地区拉取 data/free-today-{country}.json 并渲染
+├── scripts/generate.py     # 比价生成器（支持 --country cn/us，GitHub Actions 调用）
 ├── data/
-│   ├── baseline.json       # 常规价基线（每日更新）
-│   └── free-today.json     # 每日限免/特价清单（前端读取）
+│   ├── baseline-cn.json    # 中国区常规价基线（每日更新）
+│   ├── baseline-us.json    # 美国区常规价基线（每日更新）
+│   ├── free-today-cn.json  # 中国区每日限免/特价清单（前端读取）
+│   └── free-today-us.json  # 美国区每日限免/特价清单（前端读取）
 ├── .github/workflows/daily.yml
 ├── robots.txt / sitemap.xml
 └── README.md
