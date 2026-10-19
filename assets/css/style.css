@@ -84,6 +84,20 @@ main { padding: 0 0 96px; }
 }
 .date-line { color: var(--muted); font-size: 14px; margin-top: 14px; }
 
+/* 统计条：限免/特价条数 + 今日可省（仿 Apple 数据看板） */
+.stats {
+  display: inline-flex; gap: 0; margin: 22px auto 0; padding: 0;
+  background: var(--surface); border: 1px solid var(--border); border-radius: 18px;
+  box-shadow: var(--shadow); overflow: hidden;
+}
+.stats .stat { padding: 14px 30px; min-width: 120px; }
+.stats .stat + .stat { border-left: 1px solid var(--border); }
+.stats .stat-num { font-size: 30px; font-weight: 700; letter-spacing: -.02em; line-height: 1.1; color: var(--text); }
+.stats .stat:first-child .stat-num { color: var(--free); }
+.stats .stat:nth-child(2) .stat-num { color: var(--deal); }
+.stats .stat:last-child .stat-num { color: var(--accent); }
+.stats .stat-label { font-size: 13px; color: var(--muted); margin-top: 4px; font-weight: 500; }
+
 /* 搜索 + 分类筛选工具栏（iOS 胶囊风） */
 .toolbar { display: flex; gap: 10px; margin: 28px 0 0; flex-wrap: wrap; }
 .search-input {
@@ -145,10 +159,15 @@ ins.adsbygoogle { background: #ececf0; border-radius: var(--radius); }
 .card .info { min-width: 0; flex: 1; }
 /* 名称与开发者允许折行显示完整内容，最多两行；超出省略。
    （原本是 nowrap + ellipsis 一行截断，两列后空间变大，仍保留两行上限以防超长名撑高卡片） */
+.card .name-row { display: flex; align-items: center; gap: 8px; }
 .card .name {
   font-weight: 600; font-size: 17px; letter-spacing: -.01em;
   display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;
   overflow: hidden; word-break: break-word; line-height: 1.3;
+}
+.card .new-badge {
+  flex: none; font-size: 10px; font-weight: 700; letter-spacing: .04em; color: #fff;
+  background: var(--accent); padding: 2px 7px; border-radius: 6px; line-height: 1.5;
 }
 .card .dev {
   color: var(--muted); font-size: 13px;
@@ -161,6 +180,13 @@ ins.adsbygoogle { background: #ececf0; border-radius: var(--radius); }
 .card .price .old { color: var(--muted); text-decoration: line-through; margin-right: 8px; }
 .card .price .new.free { color: var(--free); font-weight: 700; }
 .card .price .new.deal { color: var(--deal); font-weight: 700; }
+/* 价格迷你曲线 + 历史最低标记 */
+.card .price-extra { display: flex; align-items: center; gap: 8px; margin-top: 8px; }
+.card .spark { display: block; flex: none; }
+.card .low-tag {
+  flex: none; font-size: 11px; font-weight: 600; color: var(--deal);
+  background: rgba(255, 159, 10, .14); padding: 2px 8px; border-radius: 999px; line-height: 1.5;
+}
 .card .go { flex: none; font-size: 13px; background: var(--accent); color: #fff; border-radius: 999px; padding: 7px 16px; font-weight: 600; }
 .card .go:hover { background: #0077ed; text-decoration: none; }
 
@@ -210,6 +236,9 @@ ins.adsbygoogle { background: #ececf0; border-radius: var(--radius); }
   .card .name { font-size: 16px; }
   .section-title h2 { font-size: 23px; }
   .section-title { margin: 28px 0 12px; }
+  .stats { width: 100%; justify-content: center; }
+  .stats .stat { padding: 12px 16px; min-width: 0; flex: 1; }
+  .stats .stat-num { font-size: 24px; }
   .ad-slot { margin: 20px 0; }
   .intro-mini { padding: 12px 14px; font-size: 13px; }
   .site-footer { padding: 22px 0; }

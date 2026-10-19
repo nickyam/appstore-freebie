@@ -47,7 +47,12 @@
       about_q3: '<b>数据多久更新一次？</b>每天北京时间 09:00 自动更新；页面加载失败时，点击左上角站名即可立即刷新。',
       about_note: '⚠️ 本站为非官方独立站点，与 Apple Inc. 无任何隶属关系。所有价格与可用性以 App Store 实时显示为准，本页不构成购买建议。',
       home_intro_text: '每天自动扫描苹果官方价格，捕捉「昨天还收费、今天免费领」的降价信号，覆盖中国区与美国区。',
-      home_intro_link: '了解我们怎么挑 →'
+      home_intro_link: '了解我们怎么挑 →',
+      stat_free: '今日限免',
+      stat_deal: '今日特价',
+      stat_saved: '今日可省',
+      badge_new: 'NEW',
+      lowest_30: '30天最低'
     },
     en: {
       logo: 'Apple Freebie Radar',
@@ -92,7 +97,12 @@
       about_q3: '<b>How often is data updated?</b> Automatically every day at 09:00 Beijing time; if loading fails, click the site name at the top-left to refresh immediately.',
       about_note: '⚠️ This is an independent, unofficial site with no affiliation to Apple Inc. All prices and availability are subject to the App Store. This page is not purchase advice.',
       home_intro_text: 'We scan official App Store prices daily to catch the drop signals — paid yesterday, free today — across the China and US stores.',
-      home_intro_link: 'How we pick →'
+      home_intro_link: 'How we pick →',
+      stat_free: 'Free today',
+      stat_deal: 'Deals today',
+      stat_saved: 'You save',
+      badge_new: 'NEW',
+      lowest_30: '30-day low'
     }
   };
 
@@ -178,6 +188,41 @@
     });
   }
 
+  // 从格式化价格串（如 "¥98.00" / "$9.99" / "免费"）中提取数值；免费/无法解析返回 null
+  function parsePrice(s) {
+    if (s == null) return null;
+    var cleaned = String(s).replace(/[^0-9.,]/g, '').replace(/,/g, '');
+    if (cleaned === '') return null;
+    var v = parseFloat(cleaned);
+    return isNaN(v) ? null : v;
+  }
+
+  // 聚合金额格式化：用地区货币符号 + 千分位、取整（用于「今日可省」大数展示）
+  function formatMoney(country, v) {
+    var sym = country === 'us' ? '$' : '¥';
+    return sym + Math.round(v || 0).toLocaleString('en-US');
+  }
+
+  // 30 天价格迷你曲线（inline SVG sparkline）
+  function sparkline(series, kind) {
+    if (!series || series.length < 2) return '';
+    var W = 118, H = 30, pad = 3;
+    var vals = series.map(function (v) { return v || 0; });
+    var min = Math.min.apply(null, vals);
+    var max = Math.max.apply(null, vals);
+    var n = vals.length;
+    var range = (max - min) || 1;
+    var pts = vals.map(function (v, i) {
+      var x = pad + (W - 2 * pad) * (i / (n - 1));
+      var y = (H - pad) - (H - 2 * pad) * ((v - min) / range);
+      return x.toFixed(1) + ',' + y.toFixed(1);
+    });
+    var color = kind === 'free' ? '#34c759' : '#ff9f0a';
+    return '<svg class="spark" width="' + W + '" height="' + H + '" viewBox="0 0 ' + W + ' ' + H + '" ' +
+      'aria-hidden="true" focusable="false"><polyline points="' + pts.join(' ') + '" fill="none" ' +
+      'stroke="' + color + '" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/></svg>';
+  }
+
   function appCard(app, kind) {
     var dict = I18N[CURRENT_LANG];
     var card = el('div', 'card');
@@ -191,7 +236,10 @@
       card.appendChild(el('div', null, '📱'));
     }
     var info = el('div', 'info');
-    info.appendChild(el('div', 'name', esc(app.name || '—')));
+    var nameRow = el('div', 'name-row');
+    nameRow.appendChild(el('span', 'name', esc(app.name || '—')));
+    if (app.is_new) nameRow.appendChild(el('span', 'new-badge', esc(dict.badge_new)));
+    info.appendChild(nameRow);
     info.appendChild(el('div', 'dev', esc(app.dev || '')));
     if (app.genre) info.appendChild(el('div', 'genre', esc(app.genre)));
     if (app.rating && app.rating > 0) {
@@ -203,6 +251,16 @@
     var newText = app.current || (kind === 'free' ? dict.card_free_price : '');
     price.appendChild(el('span', newCls, esc(newText)));
     info.appendChild(price);
+    // 30 天价格迷你曲线 + 历史最低标记
+    var series = app.series || [];
+    var curVal = series.length ? (series[series.length - 1] || 0) : 0;
+    var minVal = series.length ? Math.min.apply(null, series) : 0;
+    var isLow = series.length >= 1 && curVal <= minVal;
+    var extra = el('div', 'price-extra');
+    var sp = sparkline(series, kind);
+    if (sp) extra.innerHTML = sp;
+    if (isLow) extra.appendChild(el('span', 'low-tag', esc(dict.lowest_30)));
+    if (sp || isLow) info.appendChild(extra);
     card.appendChild(info);
     if (app.url) {
       var go = el('a', 'go', dict.card_store);
@@ -276,6 +334,9 @@
     });
     var dl = document.getElementById('dateLine');
     if (dl) dl.textContent = dict.err_line;
+    var sf = document.getElementById('statFree'); if (sf) sf.textContent = '0';
+    var sd = document.getElementById('statDeal'); if (sd) sd.textContent = '0';
+    var ss = document.getElementById('statSaved'); if (ss) ss.textContent = '¥0';
   }
 
   function load(region) {
@@ -308,6 +369,17 @@
         currentData.deals = deals;
         var fc = document.getElementById('freeCount'); if (fc) fc.textContent = free.length;
         var dc = document.getElementById('dealCount'); if (dc) dc.textContent = deals.length;
+        // 统计条：限免/特价条数 + 今日可省总额（限免按原价计，特价按差额计）
+        var sf = document.getElementById('statFree'); if (sf) sf.textContent = free.length;
+        var sd = document.getElementById('statDeal'); if (sd) sd.textContent = deals.length;
+        var saved = 0;
+        free.forEach(function (a) { var p = parsePrice(a.normal); if (p) saved += p; });
+        deals.forEach(function (a) {
+          var anc = parsePrice(a.normal), cur = parsePrice(a.current);
+          if (anc != null && cur != null) saved += (anc - cur);
+          else if (anc != null) saved += anc;
+        });
+        var ss = document.getElementById('statSaved'); if (ss) ss.textContent = formatMoney(region, saved);
         fillGenres();
         renderFiltered();
       })

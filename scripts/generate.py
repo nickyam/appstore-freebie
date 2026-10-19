@@ -262,6 +262,8 @@ def main():
             newly = (cur == 0 and prev > 0)  # 本轮/本日新触发
             # 原价锚点：优先用 30 天历史最高价（限免/降价都适用），否则回落 prev / 当前
             anchor = max_price if max_price > 0 else (prev if prev > 0 else cur)
+            # 近 30 天每日末价序列（旧→新），供前端画价格曲线 / 算历史最低
+            series = [e.get("l", 0) or 0 for e in history[cid]]
             item = {
                 "id": cid,
                 "name": name,
@@ -274,13 +276,14 @@ def main():
                 "url": url,
                 "region": country,
                 "type": "free" if is_free else "deal",
-                "_new": newly,
+                "is_new": newly,
+                "series": series,
             }
             (freebies if is_free else deals).append(item)
 
     # 排序：新触发的限免/降价优先，其次评分高、名称
     def sort_key(x):
-        return (-(1 if x.get("_new") else 0), -(x.get("rating") or 0), x.get("name") or "")
+        return (-(1 if x.get("is_new") else 0), -(x.get("rating") or 0), x.get("name") or "")
     freebies.sort(key=sort_key)
     deals.sort(key=sort_key)
 
@@ -288,8 +291,8 @@ def main():
         "date": today,
         "country": country,
         "generated_at": datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
-        "freebies": [{k: v for k, v in it.items() if k != "_new"} for it in freebies[:MAX_DISPLAY]],
-        "deals": [{k: v for k, v in it.items() if k != "_new"} for it in deals[:MAX_DISPLAY]],
+        "freebies": freebies[:MAX_DISPLAY],
+        "deals": deals[:MAX_DISPLAY],
     }
 
     save_json(out_path, result)
