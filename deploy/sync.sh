@@ -18,10 +18,17 @@
 set -e
 
 REPO_SSH="git@github.com:nickyam/appstore-freebie.git"
-DEPLOY_DIR="/www/sites/freebie.limzero.com/html"
+# 注意：本脚本运行在 ECS 宿主机上，必须写【宿主机真实路径】。
+# OpenResty 容器把宿主机 /opt/1panel/apps/openresty/openresty/www 挂载为容器内 /www，
+# 因此容器内 /www/sites/freebie.limzero.com/html 对应的宿主机路径就是下面这个。
+DEPLOY_DIR="/opt/1panel/apps/openresty/openresty/www/sites/freebie.limzero.com/html"
 BRANCH="main"
 TOKEN_FILE="/root/.freebie-github-token"
 DEPLOY_KEY="${DEPLOY_KEY:-}"   # 可选：指定部署私钥路径（如 /root/.ssh/freebie_deploy）
+# 若未显式传入 DEPLOY_KEY，但本机存在部署私钥则自动启用（保证 cron 也能用）
+if [ -z "$DEPLOY_KEY" ] && [ -f /root/.ssh/freebie_deploy ]; then
+  DEPLOY_KEY="/root/.ssh/freebie_deploy"
+fi
 
 # 首次 SSH 连接自动信任 github 主机密钥（避免 cron 非交互时卡住）
 if [ -n "$DEPLOY_KEY" ]; then

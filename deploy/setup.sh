@@ -12,7 +12,8 @@
 # ============================================================
 set -e
 
-DEPLOY_DIR="/www/sites/freebie.limzero.com/html"
+# 宿主机真实路径（OpenResty 容器把该目录挂载为容器内 /www/sites/...）
+DEPLOY_DIR="/opt/1panel/apps/openresty/openresty/www/sites/freebie.limzero.com/html"
 CRON_FILE="/etc/cron.d/freebie-sync"
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 SYNC_SCRIPT="$SCRIPT_DIR/sync.sh"
