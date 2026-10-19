@@ -352,9 +352,13 @@
       renderFiltered();
     });
 
-    // 点击站名「苹果限免雷达」刷新数据（轻量刷新：重拉清单、不整页 reload）
+    // 点击站名「苹果限免雷达」：首页=刷新数据；关于页=回首页
     var logo = document.getElementById('logoHome');
     if (logo) logo.addEventListener('click', function () {
+      if (!document.getElementById('freeList')) {
+        location.href = 'index.html';
+        return;
+      }
       var dict = I18N[CURRENT_LANG];
       var dl = document.getElementById('dateLine');
       if (dl) dl.textContent = dict.loading;
