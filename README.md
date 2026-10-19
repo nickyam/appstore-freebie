@@ -11,18 +11,18 @@
 
 ## 工作原理
 
-1. **GitHub Actions** 每天 09:00（北京时间）分别运行 `scripts/generate.py --country cn` 与 `--country us`：
-   - 构建「宽监控池」：抓取苹果 **22 个分类的付费榜 Top100** + 免费榜 Top100（去重后每区约 2000 个易做限免的付费 App），
-     再与本地历史「常规价基线」(`data/baseline-{country}.json`) 取并集——**哪怕 App 跌出榜单也持续跟踪**；
+1. **GitHub Actions** 每 6 小时（北京时间 08:00 / 14:00 / 20:00 / 02:00）分别运行 `scripts/generate.py --country cn` 与 `--country us`：
+   - 构建「宽监控池」：抓取苹果 **22 个分类的付费榜 Top100 + 畅销榜 Top100** + 整体免费榜 Top200（去重后每区数千个易做限免的 App），
+     再与本地 **30 天价格历史**(`data/history-{country}.json`) 取并集——**哪怕 App 跌出榜单也持续跟踪**；
    - 用官方 `lookup` 接口逐个核对实时价格（按 100 个/批、礼貌限速）；
-   - 与基线价格对比：
-     - 当前价 = 0 且基线 > 0 → **限免**（价格归零即判，不再依赖付费榜——数学上付费榜永远抓不到限免）
-     - 当前价 > 0 且 < 基线 → **特价**
-   - 按**用户评分降序**排序（优先展示优质 App），输出 `data/free-today-{country}.json`，基线漂移为当前价后回写，commit 回仓库。
+   - 以 **30 天历史价格基线**判定（取代旧版「只和前一天比」），每 App 每区独立保存价格快照：
+     - 限免：当前价 = 0，且 30 天历史中**曾 > 0**，且连续为 0 的天数 ≤ 7（排除永久免费 / 长期免费）；天然覆盖「日内闪免」与「跨天」两种触发；
+     - 降价（特价）：当前价 < 30 天最高价，且**降幅 ≥ 50%**；
+   - 按「新触发优先、其次用户评分降序」排序，输出 `data/free-today-{country}.json`（每类最多展示 100 条，历史仍全量保留），历史回写后 commit 回仓库。
 2. **Cloudflare Pages** 部署仓库静态文件；前端 `assets/js/app.js` 按所选地区拉取
    同域 `data/free-today-{country}.json` 渲染，顶部菜单可在「🇨🇳 中国区 / 🇺🇸 美国区」间切换，卡片展示图标 / 开发者 / 分类 / 评分 / 价格。
 
-> 首次运行只播种基线（不报限免）；**第二天起**即可稳定检出限免 / 特价。基线随每日比价自然增长，监控池越跑越准。
+> 历史为空时首次运行只初始化（不报限免）；**1~2 天后** 30 天基线逐步建立即可稳定检出。监控池与历史越跑越准，限免/特价覆盖随天数提升。
 
 ---
 
@@ -34,7 +34,7 @@ python3 -m http.server 8080
 # 浏览器打开 http://127.0.0.1:8080/，用顶部菜单切换中国区/美国区
 ```
 
-可选：本地手动跑一次生成器看真实数据（会写 baseline / free-today）：
+可选：本地手动跑一次生成器看真实数据（会写 history / free-today）：
 ```bash
 python3 scripts/generate.py --country cn
 python3 scripts/generate.py --country us
@@ -81,7 +81,9 @@ python3 scripts/generate.py --country us
 - **加更多地区**：在 `daily.yml` 增加一步 `python scripts/generate.py --country <区码>`，
   并在 `assets/js/app.js` 的 `REGIONS` 里加对应项（区码如 `jp`、`gb`、`hk` 等）。
 - **调监控池 / 展示量**：`scripts/generate.py` 顶部 `GENRE_LIMIT`（每分类付费榜条数，RSS 实测每源上限 100）、
-  `FREE_LIMIT`（免费榜条数）、`MAX_DISPLAY`（前端最多展示的限免/特价数）可调。
+  `GROSS_LIMIT`（每分类畅销榜条数）、`FREE_LIMIT`（免费榜条数）、`HISTORY_DAYS`（价格历史天数）、
+  `DEAL_DROP_PCT`（降价判定降幅阈值）、`MAX_DISPLAY`（前端最多展示的限免/特价数）均可调。
+- **改调度频率**：`.github/workflows/daily.yml` 的 cron（当前每 6 小时）与阿里云 ECS `/etc/cron.d/freebie-sync`（镜像同步）保持一致即可。
 - **出英文版拉海外流量**：复制一套 `index.html` 文案为英文，可抬高 AdSense RPM（中国区流量 RPM 偏低）。
 
 ---
@@ -96,8 +98,8 @@ appstore-freebie/
 │   └── js/app.js           # 按地区拉取 data/free-today-{country}.json 并渲染
 ├── scripts/generate.py     # 比价生成器（支持 --country cn/us，GitHub Actions 调用）
 ├── data/
-│   ├── baseline-cn.json    # 中国区常规价基线（每日更新）
-│   ├── baseline-us.json    # 美国区常规价基线（每日更新）
+│   ├── history-cn.json     # 中国区 30 天价格历史（每 App 每区独立快照，自动累积）
+│   ├── history-us.json     # 美国区 30 天价格历史
 │   ├── free-today-cn.json  # 中国区每日限免/特价清单（前端读取）
 │   └── free-today-us.json  # 美国区每日限免/特价清单（前端读取）
 ├── .github/workflows/daily.yml

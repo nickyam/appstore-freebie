@@ -4,25 +4,27 @@ App Store 限免清单生成器（支持 cn 中国区 / us 美国区）
 ====================================================
 核心思路
 --------
-- 苹果 iTunes RSS 榜单 + Search API 均为官方、免密钥接口。
+- 苹果 iTunes RSS 榜单 + Lookup 接口均为官方、免密钥接口。
 - 限免（价格=0）的 App 永远不会出现在「付费榜」，而刚变免费的 App 也未必挤进
   「免费榜 TopN」，所以单纯扫描当天榜单在数学上几乎抓不到限免。
-- 本生成器采用「**宽监控池 + 全量回查 + 促销粘性（promo watchlist）**」策略：
-    1. 按 22 个分类抓取各自「付费榜 Top100」→ 覆盖数千个"容易做限免"的付费 App；
-    2. 附带抓取「免费榜 Top100」→ 兜住已经冲上免费榜的限免 App；
-    3. 与本地历史基线(baseline)、促销观察名单(promo-watch)取并集，全部用 lookup 核对实时价；
-    4. 促销粘性规则（核心约定）：
-       - 新发现「昨天收费、今天 0 元」→ 限免；「降价但未免费」→ 特价；
-         同时写入 promo-watch，并**锚定其原价 normal**；
-       - 已在 promo-watch 中的 App 每日继续回查：
-         · 价格仍为 0              → 继续按限免展示；
-         · 价格仍低于锚定原价      → 继续按特价展示；
-         · 价格恢复原价及以上      → **自动下架**，移出 promo-watch；
-       - 促销期间**基线价格不漂移**（保持锚定原价），只有恢复原价后才漂移为新常规价。
-    5. 因此一旦某 App 进入促销，只要活动没结束（价格维持在促销水平），条目就会持续
-       留在网站上，不会因为"基线被漂移成促销价"而在次日消失。
-- 首次运行仅播种基线（不报限免）；次日 09:00 起即可稳定检出。
+- 本生成器采用「**宽监控池 + 30 天历史价格基线 + 日内轮询 + 促销粘性**」策略：
+
+  1. 宽监控池：22 个一级分类的「付费榜 Top100」+「畅销榜 Top100」+ 整体「免费榜 Top200」，
+     覆盖数千个"容易做限免"的 App；
+  2. 叠加本地 30 天价格历史（history）与历史基线，哪怕 App 跌出榜单也持续跟踪；
+  3. 每个 App 每区独立保存至少 30 天价格快照（每日首价 f / 末价 l）；
+  4. 判定：
+     · 限免：当前价=0 且 30 天历史中曾>0（基线判定），且连续为 0 的天数≤7（排除长期免费）；
+       同时天然覆盖「日内闪免」（今日首价>0、末价=0）与「跨天」（昨日>0、今日=0）；
+     · 降价：当前价 < 30 天最高价 且 降幅≥50%；
+  5. 促销粘性：已在促销（限免/降价）中的 App 每日继续回查，价格回升到原价及以上自动下架；
+  6. 排除永久免费：30 天全程为 0、从未收费的 App 不收录。
+
+- 首次运行：若历史为空但有旧 baseline，则以 baseline 当日价播种一天；否则仅初始化，
+  次日 09:00 起即可稳定检出（30 天基线约一个月内逐步填满）。
 - 所有数据来自 Apple 官方，图标直接引用苹果 CDN，不转存。
+- 调度：GitHub Actions 每 2 小时全量跑一次（含榜单重建 + 全量回查），
+  捕捉日内临时限免/闪免；Cloudflare 自动部署、阿里云镜像每 2 小时同步。
 """
 import json
 import os
@@ -33,11 +35,15 @@ import datetime
 import urllib.request
 import argparse
 
-# 各分类付费榜 Top100 共同组成"易限免监控池"
-GENRE_LIMIT = 100
-FREE_LIMIT = 100
+# ===== 监控池规模 =====
+GENRE_LIMIT = 100       # 每分类 付费榜 TopN（RSS 单源上限 100）
+GROSS_LIMIT = 100       # 每分类 畅销榜 TopN
+FREE_LIMIT = 200        # 整体 免费榜 TopN（RSS 可能截断到 100，无害）
+HISTORY_DAYS = 30       # 价格历史保留天数
+LONG_FREE_DAYS = 7       # 连续为 0 超过该天数 → 不再算限时免费
+DEAL_DROP_PCT = 0.50    # 降价判定：降幅 ≥ 50%（相对 30 天最高价）
 UA = "Mozilla/5.0 (compatible; AppFreebieBot/1.0; +https://freebie.nickyam.com)"
-MAX_DISPLAY = 100  # 前端最多展示的限免/特价数量（基线仍全量保留）
+MAX_DISPLAY = 100       # 前端最多展示的限免/特价数量（历史仍全量保留）
 
 # iOS App 全部一级分类 genre id
 GENRE_IDS = [
@@ -64,6 +70,12 @@ def load_json(path):
         except Exception:
             return {}
     return {}
+
+
+def save_json(path, obj):
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(obj, f, ensure_ascii=False, indent=2)
 
 
 def fetch_chart(country, kind, limit, genre=None):
@@ -125,6 +137,60 @@ def app_genre(d):
     return d.get("primaryGenreName", "") or ""
 
 
+def fmt_price(country, price):
+    if price == 0:
+        return "免费" if country == "cn" else "Free"
+    return ("¥%.2f" % price) if country == "cn" else ("$%.2f" % price)
+
+
+def load_history(path):
+    return load_json(path)
+
+
+def seed_from_baseline(history, baseline):
+    """首次无历史时，用旧 baseline 的当日价播种一天，给跨天判定一个起点。"""
+    today = datetime.date.today().isoformat()
+    for cid, rec in (baseline or {}).items():
+        p = rec.get("price", 0) or 0
+        history[cid] = [{"d": today, "f": p, "l": p}]
+    return history
+
+
+def update_history(history, cid, today, price):
+    h = history.get(cid)
+    if h and h[-1].get("d") == today:
+        h[-1]["l"] = price          # 今日多次轮询：末价更新，首价保留
+    else:
+        h = (h or []) + [{"d": today, "f": price, "l": price}]
+        history[cid] = h
+    # 裁剪到 HISTORY_DAYS
+    cutoff = (datetime.date.today() - datetime.timedelta(days=HISTORY_DAYS - 1)).isoformat()
+    history[cid] = [e for e in history[cid] if e.get("d", "") >= cutoff]
+
+
+def derive(history):
+    days = history or []
+    vals = [p for e in days for p in (e.get("f", 0) or 0, e.get("l", 0) or 0)]
+    ever_charged = any(p > 0 for p in vals)
+    max_price = max(vals) if vals else 0
+    # 连续为 0 的天数（从最新一天往前数，当天需首末均为 0 才算零天）
+    cz = 0
+    for e in reversed(days):
+        if (e.get("f", 0) or 0) == 0 and (e.get("l", 0) or 0) == 0:
+            cz += 1
+        else:
+            break
+    # 上一轮价格（用于"新触发"排序/闪免识别）
+    if len(days) >= 2:
+        prev = days[-2].get("l", 0) or 0
+    elif days:
+        prev = days[-1].get("f", 0) or 0
+    else:
+        prev = 0
+    cur = days[-1].get("l", 0) if days else 0
+    return ever_charged, max_price, cz, prev, cur
+
+
 def main():
     parser = argparse.ArgumentParser(description="App Store 限免清单生成器")
     parser.add_argument("--country", required=True, choices=["cn", "us"], help="地区：cn 中国区 / us 美国区")
@@ -132,21 +198,26 @@ def main():
     country = args.country
     free_label = "免费" if country == "cn" else "Free"
 
-    baseline_path = os.path.join(DATA_DIR, f"baseline-{country}.json")
+    history_path = os.path.join(DATA_DIR, f"history-{country}.json")
     out_path = os.path.join(DATA_DIR, f"free-today-{country}.json")
-    promo_path = os.path.join(DATA_DIR, f"promo-watch-{country}.json")
 
-    # 1) 构建宽监控池：22 个分类付费榜 + 免费榜
+    # 1) 构建宽监控池：22 分类 付费榜 + 畅销榜 + 整体免费榜
     watch_ids = []
     for g in GENRE_IDS:
         watch_ids += fetch_chart(country, "toppaidapplications", GENRE_LIMIT, genre=g)
+        watch_ids += fetch_chart(country, "topgrossingapplications", GROSS_LIMIT, genre=g)
     watch_ids += fetch_chart(country, "topfreeapplications", FREE_LIMIT)
 
-    # 2) 加载历史基线 + 促销观察名单，并叠加进监控池（持久跟踪，哪怕跌出榜单）
-    baseline = load_json(baseline_path)
-    promo = load_json(promo_path)
-    watch_ids += list(baseline.keys())
-    watch_ids += list(promo.keys())
+    # 2) 加载 30 天历史；若为空用旧 baseline 播种一天
+    history = load_history(history_path)
+    if not history:
+        baseline = load_json(os.path.join(DATA_DIR, f"baseline-{country}.json"))
+        if baseline:
+            history = seed_from_baseline(history, baseline)
+            print(f"[info] seeded history from baseline: {len(history)} apps")
+
+    # 3) 叠加历史中的所有 App（持续跟踪，哪怕跌出榜单）
+    watch_ids += list(history.keys())
 
     # 去重保序
     seen = set()
@@ -157,27 +228,13 @@ def main():
             union.append(x)
 
     details = lookup(country, union)
+    today = datetime.date.today().isoformat()
 
     freebies = []
     deals = []
-    new_promo = {}  # 今日促销状态快照（恢复原价的 App 自然被剔除）
-
-    def record(cid, d):
-        baseline[cid] = {
-            "name": d.get("trackName", ""),
-            "dev": d.get("artistName", ""),
-            "genre": app_genre(d),
-            "price": d.get("price", 0) or 0,
-            "formatted": d.get("formattedPrice", ""),
-            "icon": d.get("artworkUrl512") or d.get("artworkUrl100", ""),
-            "rating": d.get("averageUserRating") or 0,
-            "url": d.get("trackViewUrl", ""),
-        }
 
     for cid, d in details.items():
         cur = d.get("price", 0) or 0
-        prev = baseline.get(cid) or {}
-        base_price = prev.get("price", 0) or 0
         name = d.get("trackName", "")
         dev = d.get("artistName", "")
         genre = app_genre(d)
@@ -185,70 +242,62 @@ def main():
         rating = d.get("averageUserRating") or 0
         url = d.get("trackViewUrl", "")
 
-        in_promo = cid in promo
-        # 原价锚点：促销中的 App 用 watchlist 锚定价；新 App 用基线价
-        if in_promo:
-            normal_price = promo[cid].get("normal") or base_price or 0
-            normal_fmt = promo[cid].get("normal_fmt") or prev.get("formatted", "")
+        # 写入/更新今日价格快照
+        update_history(history, cid, today, cur)
+        ever_charged, max_price, cz, prev, cur = derive(history[cid])
+
+        is_free = False
+        is_deal = False
+        if cur == 0:
+            # 限免：曾收费 + 非长期免费
+            if ever_charged and cz <= LONG_FREE_DAYS:
+                is_free = True
         else:
-            normal_price = base_price
-            normal_fmt = prev.get("formatted", "")
-
-        is_free = normal_price > 0 and cur == 0
-        is_deal = normal_price > 0 and cur > 0 and cur < normal_price
-
-        if in_promo and not is_free and not is_deal:
-            # 已恢复原价（或高于原价）→ 自动下架：移出观察名单，基线漂移为新常规价
-            record(cid, d)
-            continue
+            # 降价：相对 30 天最高价降幅 ≥ 50%
+            if ever_charged and max_price > 0 and cur < max_price \
+                    and (max_price - cur) / max_price >= DEAL_DROP_PCT:
+                is_deal = True
 
         if is_free or is_deal:
-            # 进入/维持促销：保持原价锚点，促销期间基线不漂移
-            new_promo[cid] = promo[cid] if in_promo else {"normal": normal_price, "normal_fmt": normal_fmt}
-            if prev:
-                baseline[cid] = dict(prev)  # 保留原价条目（含 price/formatted 锚点）
+            newly = (cur == 0 and prev > 0)  # 本轮/本日新触发
+            # 原价锚点：优先用 30 天历史最高价（限免/降价都适用），否则回落 prev / 当前
+            anchor = max_price if max_price > 0 else (prev if prev > 0 else cur)
             item = {
                 "id": cid,
                 "name": name,
                 "dev": dev,
                 "genre": genre,
-                "normal": normal_fmt,
-                "current": free_label if is_free else d.get("formattedPrice", ""),
+                "normal": fmt_price(country, anchor),
+                "current": free_label if is_free else fmt_price(country, cur),
                 "icon": icon,
                 "rating": rating,
                 "url": url,
+                "region": country,
+                "type": "free" if is_free else "deal",
+                "_new": newly,
             }
             (freebies if is_free else deals).append(item)
-        else:
-            # 正常价 → 基线漂移为当前价（反映最新常规价）
-            record(cid, d)
 
-    # 按评分降序 → 名称升序，优先展示优质 App
+    # 排序：新触发的限免/降价优先，其次评分高、名称
     def sort_key(x):
-        return (-(x.get("rating") or 0), x.get("name") or "")
+        return (-(1 if x.get("_new") else 0), -(x.get("rating") or 0), x.get("name") or "")
     freebies.sort(key=sort_key)
     deals.sort(key=sort_key)
 
-    today = datetime.date.today().isoformat()
     result = {
         "date": today,
         "country": country,
         "generated_at": datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
-        "freebies": freebies[:MAX_DISPLAY],
-        "deals": deals[:MAX_DISPLAY],
+        "freebies": [{k: v for k, v in it.items() if k != "_new"} for it in freebies[:MAX_DISPLAY]],
+        "deals": [{k: v for k, v in it.items() if k != "_new"} for it in deals[:MAX_DISPLAY]],
     }
 
-    os.makedirs(DATA_DIR, exist_ok=True)
-    with open(out_path, "w", encoding="utf-8") as f:
-        json.dump(result, f, ensure_ascii=False, indent=2)
-    with open(baseline_path, "w", encoding="utf-8") as f:
-        json.dump(baseline, f, ensure_ascii=False, indent=2)
-    with open(promo_path, "w", encoding="utf-8") as f:
-        json.dump(new_promo, f, ensure_ascii=False, indent=2)
+    save_json(out_path, result)
+    save_json(history_path, history)
 
     print(f"[ok] country={country} date={today} monitored={len(union)} "
-          f"freebies={len(freebies)} deals={len(deals)} "
-          f"promo_watch={len(new_promo)} baseline_size={len(baseline)}")
+          f"history={len(history)} freebies={len(freebies)} deals={len(deals)} "
+          f"(display free≤{MAX_DISPLAY}, deal≤{MAX_DISPLAY})")
 
 
 if __name__ == "__main__":

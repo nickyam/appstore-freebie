@@ -2,8 +2,9 @@ name: daily-freebie
 
 on:
   schedule:
-    # 每天 01:00 UTC = 北京时间 09:00
-    - cron: "0 1 * * *"
+    # 每 6 小时跑一次（00:00 / 06:00 / 12:00 / 18:00 UTC）
+    # = 北京时间 08:00 / 14:00 / 20:00 / 02:00，捕捉日内临时限免/闪免
+    - cron: "0 */6 * * *"
   workflow_dispatch: {}
 
 permissions:
@@ -31,7 +32,7 @@ jobs:
         run: |
           git config user.email "freebie-bot@users.noreply.github.com"
           git config user.name "Freebie Bot"
-          git add data/free-today-cn.json data/free-today-us.json data/baseline-cn.json data/baseline-us.json data/promo-watch-cn.json data/promo-watch-us.json
+          git add data/free-today-cn.json data/free-today-us.json data/history-cn.json data/history-us.json
           if git diff --cached --quiet; then
             echo "无变化，跳过提交"
           else
