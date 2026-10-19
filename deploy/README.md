@@ -22,20 +22,17 @@
 - 配置文件（额外配置）：把 `nginx-freebie.limzero.com.conf` 末尾【额外配置片段】
   里的规则粘贴进去（deny .git + 静态/json 缓存策略）
 
-### 3. 首次部署
-SSH 登录 ECS，执行：
+### 3. 首次部署 + 每日同步（一步到位）
+SSH 登录 ECS（root 或 sudo 用户），执行**一次** `setup.sh`：
 ```bash
-bash /path/to/sync.sh
+bash /path/to/setup.sh
 ```
-脚本会 clone 仓库到根目录。
+它会：克隆仓库到根目录 + 修正 www 权限 + 注册**系统级 cron**（每日 09:30 自动 `git pull` 最新站点与数据）。
+> 不需要在 1Panel 里单独建计划任务——setup.sh 已用 `/etc/cron.d` 直接挂好。
+> 若不想用系统 cron，也可在 1Panel → 计划任务 加 Shell 脚本每天 09:30 跑 `sync.sh`。
 
-### 4. 每日同步（关键）
-GitHub Actions 每天 09:00（北京时间）重新生成 `data/*.json` 并提交。
-在 1Panel → 计划任务 → 添加「Shell 脚本」任务，每天 **09:30** 跑一次：
-```bash
-bash /path/to/sync.sh
-```
-这样国内镜像每天自动拿到最新限免数据，比 Cloudflare 边缘晚约 30 分钟，可接受。
+GitHub Actions 每天 09:00（北京时间）重新生成 `data/*.json` 并提交，ECS 09:30 拉取，
+国内镜像比 Cloudflare 边缘晚约 30 分钟，可接受。
 
 ### 5. 验证
 - 国内网络访问 `https://freebie.limzero.com`，确认列表/分类/搜索正常；
