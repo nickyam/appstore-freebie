@@ -147,9 +147,18 @@ def load_history(path):
     return load_json(path)
 
 
+def beijing_today():
+    """以北京时间为准取「今天」。
+    GitHub Actions 机器是 UTC 时区，直接用 date.today() 会导致：
+    北京时间 0点~16点 之间跑的批次被记成「昨天」，日期行永远慢一天，
+    且当天多次快照被写进同一个历史日期键。站点受众与调度班次（北京 02/08/14/20 点）
+    都按北京时间定义，这里统一用 UTC+8。"""
+    return datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=8))).date()
+
+
 def seed_from_baseline(history, baseline):
     """首次无历史时，用旧 baseline 的当日价播种一天，给跨天判定一个起点。"""
-    today = datetime.date.today().isoformat()
+    today = beijing_today().isoformat()
     for cid, rec in (baseline or {}).items():
         p = rec.get("price", 0) or 0
         history[cid] = [{"d": today, "f": p, "l": p}]
@@ -164,7 +173,7 @@ def update_history(history, cid, today, price):
         h = (h or []) + [{"d": today, "f": price, "l": price}]
         history[cid] = h
     # 裁剪到 HISTORY_DAYS
-    cutoff = (datetime.date.today() - datetime.timedelta(days=HISTORY_DAYS - 1)).isoformat()
+    cutoff = (beijing_today() - datetime.timedelta(days=HISTORY_DAYS - 1)).isoformat()
     history[cid] = [e for e in history[cid] if e.get("d", "") >= cutoff]
 
 
@@ -228,7 +237,7 @@ def main():
             union.append(x)
 
     details = lookup(country, union)
-    today = datetime.date.today().isoformat()
+    today = beijing_today().isoformat()
 
     freebies = []
     deals = []
