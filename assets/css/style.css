@@ -50,6 +50,22 @@ a:hover { text-decoration: underline; }
   line-height: 1; cursor: pointer; transition: border-color .15s, background .15s;
 }
 .icon-btn:hover { border-color: var(--accent); }
+.icon-btn .ic { display: block; width: 18px; height: 18px; }
+/* 主题图标：用 currentColor 自动随主题变黑/白，无彩色；按 data-theme / 系统偏好切换 太阳/月亮 */
+.theme-ic-moon { display: none; }
+.theme-ic-sun { display: block; }
+:root[data-theme="dark"] .theme-ic-moon { display: block; }
+:root[data-theme="dark"] .theme-ic-sun { display: none; }
+:root[data-theme="light"] .theme-ic-moon { display: none; }
+:root[data-theme="light"] .theme-ic-sun { display: block; }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme]) .theme-ic-moon { display: block; }
+  :root:not([data-theme]) .theme-ic-sun { display: none; }
+}
+@media (prefers-color-scheme: light) {
+  :root:not([data-theme]) .theme-ic-moon { display: none; }
+  :root:not([data-theme]) .theme-ic-sun { display: block; }
+}
 .header-actions a { color: var(--muted); font-size: 13px; font-weight: 600; }
 .header-actions a:hover { color: var(--text); text-decoration: none; }
 

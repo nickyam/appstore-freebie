@@ -142,7 +142,7 @@
     REGIONS.cn.badge = dict.badge_cn;
     REGIONS.us.badge = dict.badge_us;
     var lb = document.getElementById('langBtn');
-    if (lb) lb.textContent = CURRENT_LANG === 'en' ? '中' : 'EN';
+    if (lb) lb.textContent = CURRENT_LANG === 'en' ? '🇨🇳' : '🇺🇸';
     var allOpt = document.querySelector('#genreFilter option[value=""]');
     if (allOpt) allOpt.textContent = dict.genre_all;
     var og = document.querySelector('meta[property="og:locale"]');
@@ -166,7 +166,6 @@
     var dark = isDarkNow();
     var tb = document.getElementById('themeBtn');
     if (tb) {
-      tb.textContent = dark ? '☀️' : '🌙';
       tb.setAttribute('aria-label', dark ? '切换浅色模式' : '切换深色模式');
     }
   }
