@@ -3,7 +3,7 @@
 # sync.sh —— 阿里云 ECS 上同步 appstore-freebie 静态站
 # 用法：
 #   首次： bash /path/to/sync.sh
-#   日常： setup.sh 已注册系统 cron，每日 09:30 自动跑
+#   日常： setup.sh 已注册系统 cron，每 6 小时（每班 :30）自动跑
 #
 # 【重要】同步方式说明：
 #   早期版本用 git clone 直接到站点根目录，导致 .git / scripts / deploy /
