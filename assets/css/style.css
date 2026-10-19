@@ -160,14 +160,6 @@ ins.adsbygoogle { background: #f1f4f9; border-radius: 10px; }
 .intro-mini p { margin: 0; flex: 1; min-width: 220px; }
 .intro-mini a { font-weight: 700; font-size: 13px; white-space: nowrap; }
 
-/* 关于页返回按钮 */
-.back-home { margin: 26px 0 0; }
-.back-home .go {
-  display: inline-block; background: var(--accent-soft); color: var(--accent);
-  border-radius: 8px; padding: 10px 18px; font-weight: 600;
-}
-.back-home .go:hover { background: var(--accent); color: #fff; text-decoration: none; }
-
 @media (max-width: 640px) {
   .hero h1 { font-size: 23px; }
   .grid { grid-template-columns: 1fr; }
