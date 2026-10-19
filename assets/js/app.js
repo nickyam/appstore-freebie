@@ -102,8 +102,8 @@
 
   // ===== 地区配置 =====
   var REGIONS = {
-    cn: { file: 'data/free-today-cn.json', label: '中国区', badge: '🍎 中国区 · 每日 09:00 自动更新' },
-    us: { file: 'data/free-today-us.json', label: '美国区', badge: '🍎 美国区 · 每日 09:00 自动更新' }
+    cn: { file: 'data/free-today-cn.json', label: '中国区', label_en: 'China', badge: '🍎 中国区 · 每日 09:00 自动更新' },
+    us: { file: 'data/free-today-us.json', label: '美国区', label_en: 'United States', badge: '🍎 美国区 · 每日 09:00 自动更新' }
   };
   var REGION_KEY = 'freebie-region';
   var LANG_KEY = 'freebie-lang';
@@ -298,8 +298,9 @@
       .then(function (d) {
         var dl = document.getElementById('dateLine');
         if (dl) {
-          var gen = d.generated_at ? '（' + (CURRENT_LANG === 'en' ? 'updated ' : '更新于 ') + d.generated_at + ' UTC）' : '';
-          dl.textContent = dict.date_prefix + (d.date || '—') + ' · ' + meta.label + gen;
+          var gen = d.generated_at ? (CURRENT_LANG === 'en' ? ' (updated ' + d.generated_at + ' UTC)' : '（更新于 ' + d.generated_at + ' UTC）') : '';
+          var regionLabel = CURRENT_LANG === 'en' ? (meta.label_en || meta.label) : meta.label;
+          dl.textContent = dict.date_prefix + (d.date || '—') + ' · ' + regionLabel + gen;
         }
         var free = d.freebies || [];
         var deals = d.deals || [];
