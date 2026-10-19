@@ -8,14 +8,14 @@
   <meta name="keywords" content="限免,App Store 限免,苹果限免,免费 App,今日限免,iOS 限免,应用限免,美区限免" />
 
   <!-- SEO -->
-  <link rel="canonical" href="https://freebie.nickyam.com/" />
+  <link rel="canonical" href="https://freebie.limzero.com/" />
   <meta property="og:type" content="website" />
   <meta property="og:locale" content="zh_CN" />
   <meta property="og:locale:alternate" content="en" />
   <meta property="og:site_name" content="苹果限免雷达" />
   <meta property="og:title" content="苹果限免雷达 · App Store 每日限免清单（中国区 / 美国区）" />
   <meta property="og:description" content="每日自动比对苹果中国区与美国区官方价格，找出当天限时免费的优质 App 与降价特价，附原创导购点评。" />
-  <meta property="og:url" content="https://freebie.nickyam.com/" />
+  <meta property="og:url" content="https://freebie.limzero.com/" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="苹果限免雷达 · App Store 每日限免清单" />
   <meta name="twitter:description" content="每天自动挑出苹果商店限时免费的优质 App，省下每一分钱。" />
@@ -26,11 +26,11 @@
     "@context": "https://schema.org",
     "@type": "WebSite",
     "name": "苹果限免雷达",
-    "url": "https://freebie.nickyam.com/",
+    "url": "https://freebie.limzero.com/",
     "description": "每日自动比对苹果中国区与美国区 App Store 官方价格，找出限时免费的优质 App 与降价特价。",
     "potentialAction": {
       "@type": "SearchAction",
-      "target": "https://freebie.nickyam.com/",
+      "target": "https://freebie.limzero.com/",
       "query-input": "required name=search_term_string"
     }
   }
@@ -39,6 +39,16 @@
   <link rel="stylesheet" href="assets/css/style.css" />
   <!-- Google AdSense（请先在后台添加本站点并通过审核） -->
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7114121088728794" crossorigin="anonymous"></script>
+
+  <!-- HTTPS 优先：http 输入一律跳 https（服务器 80 端口受阿里云合规拦截，
+       nginx 的 301 可能发不出去，这里用 JS 兜底） -->
+  <script>
+    if (location.protocol === 'http:') {
+      location.replace('https://' + location.host + location.pathname + location.search + location.hash);
+    }
+  </script>
+  <!-- HSTS：告诉浏览器一年只允许用 https 访问本站，从源头杜绝明文 http -->
+  <meta http-equiv="Strict-Transport-Security" content="max-age=31536000; includeSubDomains" />
 </head>
 <body>
   <header class="site-header">
@@ -106,6 +116,7 @@
         ⚠️ 免责声明：本页价格与可用性来自 Apple 官方接口，可能随时变动；限免/特价活动由开发者设定，本页不构成购买建议。请以下单时 App Store 内显示为准。
       </div>
       <div>© <span id="year">2026</span> <span data-i18n="footer_copyright">苹果限免雷达 · 数据每日自动更新 · 非苹果官方站点</span></div>
+      <div class="beian"><a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener nofollow">浙ICP备2023026603号-1</a></div>
     </div>
   </footer>
 

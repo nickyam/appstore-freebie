@@ -8,14 +8,14 @@
   <meta name="keywords" content="限免,App Store 限免,苹果限免,免费 App,今日限免,美区限免,特价 App" />
 
   <!-- SEO -->
-  <link rel="canonical" href="https://freebie.nickyam.com/about.html" />
+  <link rel="canonical" href="https://freebie.limzero.com/about.html" />
   <meta property="og:type" content="website" />
   <meta property="og:locale" content="zh_CN" />
   <meta property="og:locale:alternate" content="en" />
   <meta property="og:site_name" content="苹果限免雷达" />
   <meta property="og:title" content="关于 · 苹果限免雷达" />
   <meta property="og:description" content="了解苹果限免雷达：每天自动扫描 App Store 官方价格，挑出限免与降价特价的优质 App。" />
-  <meta property="og:url" content="https://freebie.nickyam.com/about.html" />
+  <meta property="og:url" content="https://freebie.limzero.com/about.html" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="关于 · 苹果限免雷达" />
   <meta name="twitter:description" content="了解苹果限免雷达的挑选方法与数据来源。" />
@@ -25,6 +25,15 @@
   <link rel="stylesheet" href="assets/css/style.css" />
   <!-- Google AdSense -->
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7114121088728794" crossorigin="anonymous"></script>
+
+  <!-- HTTPS 优先：http 输入一律跳 https（服务器 80 端口受阿里云合规拦截，nginx 的 301 可能发不出去，这里用 JS 兜底） -->
+  <script>
+    if (location.protocol === 'http:') {
+      location.replace('https://' + location.host + location.pathname + location.search + location.hash);
+    }
+  </script>
+  <!-- HSTS：告诉浏览器一年只允许用 https 访问本站，从源头杜绝明文 http -->
+  <meta http-equiv="Strict-Transport-Security" content="max-age=31536000; includeSubDomains" />
 </head>
 <body>
   <header class="site-header">
@@ -81,6 +90,7 @@
         ⚠️ 本站为非官方独立站点，与 Apple Inc. 无任何隶属关系。所有价格与可用性以 App Store 实时显示为准，本页不构成购买建议。
       </div>
       <div>© <span id="year">2026</span> <span data-i18n="footer_copyright">苹果限免雷达 · 数据每日自动更新 · 非苹果官方站点</span></div>
+      <div class="beian"><a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener nofollow">浙ICP备2023026603号-1</a></div>
     </div>
   </footer>
 

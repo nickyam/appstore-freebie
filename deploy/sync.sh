@@ -20,8 +20,9 @@ set -e
 REPO_SSH="git@github.com:nickyam/appstore-freebie.git"
 # 注意：本脚本运行在 ECS 宿主机上，必须写【宿主机真实路径】。
 # OpenResty 容器把宿主机 /opt/1panel/apps/openresty/openresty/www 挂载为容器内 /www，
-# 因此容器内 /www/sites/freebie.limzero.com/html 对应的宿主机路径就是下面这个。
-DEPLOY_DIR="/opt/1panel/apps/openresty/openresty/www/sites/freebie.limzero.com/html"
+# 因此容器内 /www/sites/freebie.limzero.com/index 对应的宿主机路径就是下面这个。
+# 注意目录名是 index（1Panel 静态网站约定），不是默认的 html。
+DEPLOY_DIR="/opt/1panel/apps/openresty/openresty/www/sites/freebie.limzero.com/index"
 BRANCH="main"
 TOKEN_FILE="/root/.freebie-github-token"
 DEPLOY_KEY="${DEPLOY_KEY:-}"   # 可选：指定部署私钥路径（如 /root/.ssh/freebie_deploy）
