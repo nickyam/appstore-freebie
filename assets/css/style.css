@@ -172,8 +172,9 @@ ins.adsbygoogle { background: #f1f4f9; border-radius: 10px; }
   .header-actions { gap: 6px; }
   .icon-btn { padding: 5px 9px; font-size: 12px; }
   .header-actions a { font-size: 12px; }
-  .toolbar { margin-top: 14px; }
-  .search-input { min-width: 100%; }
+  .toolbar { margin-top: 14px; flex-wrap: nowrap; }
+  .search-input { min-width: 0; }
+  .genre-select { min-width: 0; flex: 0 0 auto; padding: 10px 30px 10px 12px; font-size: 13px; }
   .card { padding: 12px; gap: 10px; }
   .card img { width: 56px; height: 56px; border-radius: 12px; }
   .section-title h2 { font-size: 18px; }
