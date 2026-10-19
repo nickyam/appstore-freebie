@@ -36,5 +36,7 @@ jobs:
             echo "无变化，跳过提交"
           else
             git commit -m "daily: App Store 限免更新 $(date -u +%Y-%m-%d)"
+            # 推送前先 rebase 远端最新，避免与手动推送撞车导致 push 被拒、数据不更新
+            git pull --rebase origin main
             git push
           fi
