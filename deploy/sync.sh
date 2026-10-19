@@ -21,9 +21,14 @@ REPO_SSH="git@github.com:nickyam/appstore-freebie.git"
 DEPLOY_DIR="/www/wwwroot/freebie.limzero.com"
 BRANCH="main"
 TOKEN_FILE="/root/.freebie-github-token"
+DEPLOY_KEY="${DEPLOY_KEY:-}"   # 可选：指定部署私钥路径（如 /root/.ssh/freebie_deploy）
 
 # 首次 SSH 连接自动信任 github 主机密钥（避免 cron 非交互时卡住）
-export GIT_SSH_COMMAND="ssh -o StrictHostKeyChecking=accept-new -o BatchMode=yes"
+if [ -n "$DEPLOY_KEY" ]; then
+  export GIT_SSH_COMMAND="ssh -i $DEPLOY_KEY -o StrictHostKeyChecking=accept-new -o BatchMode=yes"
+else
+  export GIT_SSH_COMMAND="ssh -o StrictHostKeyChecking=accept-new -o BatchMode=yes"
+fi
 
 if [ -f "$TOKEN_FILE" ]; then
   TOKEN="$(cat "$TOKEN_FILE" | tr -d '[:space:]')"
