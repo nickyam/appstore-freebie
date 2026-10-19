@@ -3,23 +3,46 @@
 # sync.sh —— 阿里云 ECS 上拉取最新静态站（含每日生成的 data/*.json）
 # 用法：
 #   首次： bash /path/to/sync.sh
-#   日常： 在 1Panel → 计划任务 → Shell 脚本，每天 09:30 跑一次（等 GitHub Actions 09:00 跑完）
-# 前置： ECS 已装 git；若仓库为私有，REPO_URL 需换成带 token 的地址。
+#   日常： setup.sh 已注册系统 cron，每日 09:30 自动跑
+#
+# 仓库为【私有】时的授权（二选一，推荐方案 1）：
+#   方案 1 · 只读 Deploy Key（SSH，无明文 token）：
+#     在 ECS 执行： ssh-keygen -t ed25519 -C "freebie-deploy" -N "" -f /root/.ssh/freebie_deploy
+#     把 /root/.ssh/freebie_deploy.pub 的内容，加到 GitHub 仓库
+#     Settings → Deploy keys（勾选 Allow write? 不勾，只读即可）。
+#     本脚本默认用 SSH 地址拉取，并自动接受 github 主机密钥。
+#   方案 2 · Personal Access Token（HTTPS）：
+#     生成一个仅 repo 读权限的 PAT，写入 /root/.freebie-github-token（chmod 600），
+#     脚本检测到该文件会自动拼成 https 地址。
 # ============================================================
 set -e
 
-REPO_URL="https://github.com/nickyam/appstore-freebie.git"
+REPO_SSH="git@github.com:nickyam/appstore-freebie.git"
 DEPLOY_DIR="/www/wwwroot/freebie.limzero.com"
 BRANCH="main"
+TOKEN_FILE="/root/.freebie-github-token"
+
+# 首次 SSH 连接自动信任 github 主机密钥（避免 cron 非交互时卡住）
+export GIT_SSH_COMMAND="ssh -o StrictHostKeyChecking=accept-new -o BatchMode=yes"
+
+if [ -f "$TOKEN_FILE" ]; then
+  TOKEN="$(cat "$TOKEN_FILE" | tr -d '[:space:]')"
+  REPO_URL="https://${TOKEN}@github.com/nickyam/appstore-freebie.git"
+  AUTH="HTTPS+PAT"
+else
+  REPO_URL="$REPO_SSH"
+  AUTH="SSH(deploy-key)"
+fi
 
 mkdir -p "$DEPLOY_DIR"
 
 if [ ! -d "$DEPLOY_DIR/.git" ]; then
-  echo "[sync] 首次克隆仓库…"
+  echo "[sync] 首次克隆（${AUTH}）…"
   git clone --depth 1 --branch "$BRANCH" "$REPO_URL" "$DEPLOY_DIR"
 else
-  echo "[sync] 拉取最新提交（浅克隆，避免历史堆积）…"
+  echo "[sync] 拉取最新（${AUTH}）…"
   cd "$DEPLOY_DIR"
+  git remote set-url origin "$REPO_URL" 2>/dev/null || true
   git fetch --depth 1 origin "$BRANCH"
   git reset --hard "origin/$BRANCH"
   git clean -fd data/   # 清掉本地可能残留的未跟踪数据文件

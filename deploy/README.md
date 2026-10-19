@@ -8,6 +8,31 @@
 
 ## 步骤
 
+### 0. 私有仓库授权（必须，否则 ECS 拉取会 401）
+仓库是私有的，ECS 上 `git clone` 需要授权。**推荐方案 1（只读 Deploy Key，无明文 token）**：
+
+方案 1 · 只读 Deploy Key（SSH）：
+```bash
+# 在 ECS 上执行，生成一对密钥（无密码）
+ssh-keygen -t ed25519 -C "freebie-deploy" -N "" -f /root/.ssh/freebie_deploy
+# 打印公钥，复制它
+cat /root/.ssh/freebie_deploy.pub
+```
+把上面输出的公钥内容，加到 GitHub 仓库 **Settings → Deploy keys → Add deploy key**：
+- Title 随便填（如 `freebie-ecs`）
+- Key 粘贴公钥
+- **不要**勾选 Allow write access（只读即可）
+
+方案 2 · Personal Access Token（HTTPS，备选）：
+生成一个仅 `repo` 读权限的 PAT，在 ECS 上保存：
+```bash
+echo -n 'ghp_你的PAT' > /root/.freebie-github-token
+chmod 600 /root/.freebie-github-token
+```
+`sync.sh` 检测到该文件会自动改用 HTTPS+PAT 拉取。
+
+> `sync.sh` 默认走 SSH（方案 1），并自动接受 github 主机密钥，cron 里不会卡住。
+
 ### 1. DNS
 在 limzero.com 的 DNS（阿里云云解析）加一条记录：
 - 主机记录：`freebie`
@@ -41,8 +66,7 @@ GitHub Actions 每天 09:00（北京时间）重新生成 `data/*.json` 并提�
 ## 可选增强
 - 在 `freebie.nickyam.com` 首页加一行提示：「国内访问慢？改用 freebie.limzero.com」。
   （若不想要双域名，可后续再加 Cloudflare Worker 按访客国家 302 跳转，见对话记录。）
-- 若仓库设为私有，`sync.sh` 里的 `REPO_URL` 需改为带 PAT 的地址
-  （如 `https://<token>@github.com/nickyam/appstore-freebie.git`）。
+- 仓库为私有，**必须**先完成「步骤 0」的授权（Deploy Key 或 PAT），否则 ECS 无法克隆。
 
 ## 文件说明
 - `nginx-freebie.limzero.com.conf`：OpenResty/Nginx 配置（含 1Panel 额外配置片段）
