@@ -128,16 +128,28 @@ ins.adsbygoogle { background: #f1f4f9; border-radius: 10px; }
 .section-title .count.deal { background: var(--deal); }
 
 /* App cards */
-.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 14px; }
+/* 桌面端两列：minmax 提高到 440px，配合 auto-fit 在宽屏下排两列而非三列，
+   给卡片更多横向空间，让 App 名称与开发者名称完整显示（配合下面的换行规则）。 */
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(440px, 1fr)); gap: 14px; }
 .card {
   background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
   padding: 16px; box-shadow: var(--shadow); display: flex; gap: 14px; align-items: center;
 }
 .card img { width: 64px; height: 64px; border-radius: 14px; border: 1px solid var(--border); background: #fff; flex: none; object-fit: cover; }
 .card .info { min-width: 0; flex: 1; }
-.card .name { font-weight: 700; font-size: 15px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-.card .dev { color: var(--muted); font-size: 12px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-.card .genre { color: var(--muted); font-size: 12px; margin-top: 2px; }
+/* 名称与开发者允许折行显示完整内容，最多两行；超出省略。
+   （原本是 nowrap + ellipsis 一行截断，两列后空间变大，仍保留两行上限以防超长名撑高卡片） */
+.card .name {
+  font-weight: 700; font-size: 15px;
+  display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;
+  overflow: hidden; word-break: break-word; line-height: 1.35;
+}
+.card .dev {
+  color: var(--muted); font-size: 12px;
+  display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;
+  overflow: hidden; word-break: break-word; line-height: 1.35; margin-top: 2px;
+}
+.card .genre { color: var(--muted); font-size: 12px; margin-top: 4px; }
 .card .rating { color: #f59e0b; font-size: 12px; font-weight: 700; margin-top: 3px; }
 .card .price { margin-top: 8px; font-size: 13px; }
 .card .price .old { color: var(--muted); text-decoration: line-through; margin-right: 8px; }
@@ -162,6 +174,11 @@ ins.adsbygoogle { background: #f1f4f9; border-radius: 10px; }
 }
 .intro-mini p { margin: 0; flex: 1; min-width: 220px; }
 .intro-mini a { font-weight: 700; font-size: 13px; white-space: nowrap; }
+
+/* 中屏（平板/窄桌面）：卡片放不下两列完整信息时退回单列，避免挤压截断 */
+@media (max-width: 900px) {
+  .grid { grid-template-columns: 1fr; }
+}
 
 @media (max-width: 640px) {
   .hero h1 { font-size: 23px; }
