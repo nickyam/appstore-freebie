@@ -141,6 +141,17 @@
       var pk = phNodes[j].getAttribute('data-i18n-ph');
       if (dict[pk] != null) phNodes[j].setAttribute('placeholder', dict[pk]);
     }
+    // 品牌名按域名替换（同仓库多域名：limzero=极零限免 / nickyam=涯木限免）
+    var brand = siteName();
+    for (var k = 0; k < nodes.length; k++) {
+      var html = nodes[k].innerHTML;
+      if (!html) continue;
+      if (html.indexOf('苹果限免雷达') >= 0) {
+        nodes[k].innerHTML = html.split('苹果限免雷达').join(brand);
+      } else if (html.indexOf('Freebie Radar') >= 0) {
+        nodes[k].innerHTML = html.split('Freebie Radar').join(brand);
+      }
+    }
     var y = document.getElementById('year');
     if (y) y.textContent = new Date().getFullYear();
     REGIONS.cn.badge = dict.badge_cn;
@@ -466,28 +477,32 @@
     m.setAttribute('content', val);
   }
 
-  // 把品牌名写进可见文案 + SEO 元信息（按当前域名自动取值）
+  // 把品牌名写进可见文案 + SEO 元信息（按当前域名自动取值，兼容首页/关于页）
   function applyBrand() {
     var name = siteName();
-    var origin = location.origin;
+    var url = location.origin + location.pathname;
     var logo = document.getElementById('siteLogo');
     if (logo) logo.textContent = name;
     var fs = document.getElementById('footerSiteName');
     if (fs) fs.textContent = name;
-    var title = name + ' · App Store 每日限免清单（中国区 / 美国区）';
-    document.title = title;
-    setMeta('og:site_name', name);
-    setMeta('og:title', title);
-    setMeta('twitter:title', name + ' · App Store 每日限免清单');
-    setMeta('og:url', origin + '/');
+    var title = document.title || '';
+    if (title.indexOf('苹果限免雷达') >= 0) document.title = title.split('苹果限免雷达').join(name);
+    ['og:site_name', 'og:title', 'twitter:title', 'og:description', 'twitter:description', 'description'].forEach(function (key) {
+      var m = document.querySelector('meta[property="' + key + '"]') ||
+              document.querySelector('meta[name="' + key + '"]');
+      if (!m) return;
+      var c = m.getAttribute('content') || '';
+      if (c.indexOf('苹果限免雷达') >= 0) m.setAttribute('content', c.split('苹果限免雷达').join(name));
+    });
     var canon = document.querySelector('link[rel="canonical"]');
-    if (canon) canon.setAttribute('href', origin + '/');
+    if (canon) canon.setAttribute('href', url);
+    setMeta('og:url', url);
     try {
       var ld = document.querySelector('script[type="application/ld+json"]');
       if (ld) {
         var o = JSON.parse(ld.textContent);
-        o.name = name;
-        o.url = origin + '/';
+        if (o.name) o.name = name;
+        o.url = url;
         ld.textContent = JSON.stringify(o);
       }
     } catch (e) {}
