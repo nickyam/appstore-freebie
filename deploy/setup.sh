@@ -12,7 +12,7 @@
 # ============================================================
 set -e
 
-DEPLOY_DIR="/www/wwwroot/freebie.limzero.com"
+DEPLOY_DIR="/www/sites/freebie.limzero.com/html"
 CRON_FILE="/etc/cron.d/freebie-sync"
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 SYNC_SCRIPT="$SCRIPT_DIR/sync.sh"

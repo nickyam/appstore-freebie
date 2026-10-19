@@ -42,7 +42,7 @@ chmod 600 /root/.freebie-github-token
 
 ### 2. 1Panel 建站
 - 网站 → 创建「静态网站」，域名填 `freebie.limzero.com`
-- 根目录：`/www/wwwroot/freebie.limzero.com`
+- 根目录：`/www/sites/freebie.limzero.com/html`（1Panel OpenResty 的站点根在 `/www/sites/<域名>/html`，已挂载进容器）
 - SSL：网站设置 → 证书 → 一键申请 Let's Encrypt（免费）
 - 配置文件（额外配置）：把 `nginx-freebie.limzero.com.conf` 末尾【额外配置片段】
   里的规则粘贴进去（deny .git + 静态/json 缓存策略）

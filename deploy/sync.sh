@@ -18,7 +18,7 @@
 set -e
 
 REPO_SSH="git@github.com:nickyam/appstore-freebie.git"
-DEPLOY_DIR="/www/wwwroot/freebie.limzero.com"
+DEPLOY_DIR="/www/sites/freebie.limzero.com/html"
 BRANCH="main"
 TOKEN_FILE="/root/.freebie-github-token"
 DEPLOY_KEY="${DEPLOY_KEY:-}"   # 可选：指定部署私钥路径（如 /root/.ssh/freebie_deploy）
