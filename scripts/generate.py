@@ -7,24 +7,26 @@ App Store 限免清单生成器（支持 cn 中国区 / us 美国区）
 - 苹果 iTunes RSS 榜单 + Lookup 接口均为官方、免密钥接口。
 - 限免（价格=0）的 App 永远不会出现在「付费榜」，而刚变免费的 App 也未必挤进
   「免费榜 TopN」，所以单纯扫描当天榜单在数学上几乎抓不到限免。
-- 本生成器采用「**宽监控池 + 30 天历史价格基线 + 日内轮询 + 促销粘性**」策略：
+- 本生成器采用「**宽监控池 + 补充追踪池 + 30 天历史价格基线 + 促销粘性**」策略：
 
   1. 宽监控池：22 个一级分类的「付费榜 Top100」+「畅销榜 Top100」+ 整体「免费榜 Top200」，
      覆盖数千个"容易做限免"的 App；
-  2. 叠加本地 30 天价格历史（history）与历史基线，哪怕 App 跌出榜单也持续跟踪；
-  3. 每个 App 每区独立保存至少 30 天价格快照（每日首价 f / 末价 l）；
-  4. 判定：
+  2. 补充追踪池（watch）：昨日限免/特价的 App（含长尾、掉榜的）按 id 续查，不依赖榜单在榜，
+     并记录原价锚点（跨 30 天历史窗口保鲜「省了多少」），促销结束或追满 WATCH_DAYS 天后移除；
+  3. 叠加本地 30 天价格历史（history）与历史基线，哪怕 App 跌出榜单也持续跟踪；
+  4. 每个 App 每区独立保存至少 30 天价格快照（每日首价 f / 末价 l）；
+  5. 判定：
      · 限免：当前价=0 且 30 天历史中曾>0（基线判定），且连续为 0 的天数≤7（排除长期免费）；
        同时天然覆盖「日内闪免」（今日首价>0、末价=0）与「跨天」（昨日>0、今日=0）；
      · 降价：当前价 < 30 天最高价 且 降幅≥50%；
-  5. 促销粘性：已在促销（限免/降价）中的 App 每日继续回查，价格回升到原价及以上自动下架；
-  6. 排除永久免费：30 天全程为 0、从未收费的 App 不收录。
+  6. 促销粘性：已在促销（限免/降价）中的 App 每日继续回查，价格回升到原价及以上自动下架；
+  7. 排除永久免费：30 天全程为 0、从未收费的 App 不收录。
 
 - 首次运行：若历史为空但有旧 baseline，则以 baseline 当日价播种一天；否则仅初始化，
   次日 09:00 起即可稳定检出（30 天基线约一个月内逐步填满）。
 - 所有数据来自 Apple 官方，图标直接引用苹果 CDN，不转存。
-- 调度：GitHub Actions 每 2 小时全量跑一次（含榜单重建 + 全量回查），
-  捕捉日内临时限免/闪免；Cloudflare 自动部署、阿里云镜像每 2 小时同步。
+- 调度：GitHub Actions 每 6 小时全量跑一次（含榜单重建 + 全量回查），
+  捕捉日内临时限免/闪免；Cloudflare 自动部署、阿里云镜像每 6 小时同步。
 """
 import json
 import os
@@ -42,6 +44,7 @@ FREE_LIMIT = 200        # 整体 免费榜 TopN（RSS 可能截断到 100，无�
 HISTORY_DAYS = 30       # 价格历史保留天数
 LONG_FREE_DAYS = 7       # 连续为 0 超过该天数 → 不再算限时免费
 DEAL_DROP_PCT = 0.50    # 降价判定：降幅 ≥ 50%（相对 30 天最高价）
+WATCH_DAYS = 30         # 补充追踪池保留天数：昨日限免/特价 App 续查窗口
 UA = "Mozilla/5.0 (compatible; AppFreebieBot/1.0; +https://freebie.nickyam.com)"
 MAX_DISPLAY = 100       # 前端最多展示的限免/特价数量（历史仍全量保留）
 
@@ -209,6 +212,7 @@ def main():
 
     history_path = os.path.join(DATA_DIR, f"history-{country}.json")
     out_path = os.path.join(DATA_DIR, f"free-today-{country}.json")
+    watch_path = os.path.join(DATA_DIR, f"watch-{country}.json")
 
     # 1) 构建宽监控池：22 分类 付费榜 + 畅销榜 + 整体免费榜
     watch_ids = []
@@ -228,6 +232,19 @@ def main():
     # 3) 叠加历史中的所有 App（持续跟踪，哪怕跌出榜单）
     watch_ids += list(history.keys())
 
+    # 4) 补充追踪池：昨日限免/特价的 App（含长尾、掉榜的）按 id 续查，
+    #    不看榜单在不在榜；首跑时从已提交的昨日清单兜底播种，避免长尾漏抓。
+    watch = load_json(watch_path)
+    if not watch:
+        seed = load_json(out_path)
+        for it in (seed.get("freebies", []) + seed.get("deals", [])):
+            cid = str(it.get("id"))
+            if cid:
+                watch[cid] = {"anchor": 0, "first": today, "last": today}
+        if watch:
+            print(f"[info] watch seeded from previous free-today: {len(watch)} apps")
+    watch_ids += list(watch.keys())
+
     # 去重保序
     seen = set()
     union = []
@@ -241,6 +258,8 @@ def main():
 
     freebies = []
     deals = []
+    promo_ids = set()  # 本轮实际命中促销（限免/降价）的 App，用于追踪池续期
+    promo_anchor = {}  # cid -> 本轮算出的原价锚点（数值），供追踪池保鲜
 
     for cid, d in details.items():
         cur = d.get("price", 0) or 0
@@ -269,8 +288,11 @@ def main():
 
         if is_free or is_deal:
             newly = (cur == 0 and prev > 0)  # 本轮/本日新触发
-            # 原价锚点：优先用 30 天历史最高价（限免/降价都适用），否则回落 prev / 当前
-            anchor = max_price if max_price > 0 else (prev if prev > 0 else cur)
+            # 原价锚点：优先用追踪池里记录的原价（跨 30 天历史窗口仍保鲜），
+            # 否则回落到 30 天历史最高价 / prev / 当前
+            anchor = (watch.get(cid, {}) or {}).get("anchor") or 0
+            if anchor <= 0:
+                anchor = max_price if max_price > 0 else (prev if prev > 0 else cur)
             # 近 30 天每日末价序列（旧→新），供前端画价格曲线 / 算历史最低
             series = [e.get("l", 0) or 0 for e in history[cid]]
             item = {
@@ -289,12 +311,34 @@ def main():
                 "series": series,
             }
             (freebies if is_free else deals).append(item)
+            promo_ids.add(cid)
+            promo_anchor[cid] = anchor
 
     # 排序：新触发的限免/降价优先，其次评分高、名称
     def sort_key(x):
         return (-(1 if x.get("is_new") else 0), -(x.get("rating") or 0), x.get("name") or "")
     freebies.sort(key=sort_key)
     deals.sort(key=sort_key)
+
+    # 维护补充追踪池：续期仍在促销的 App（记录原价锚点）；促销结束（现价回升至原价）
+    # 或追了 WATCH_DAYS 天无动静的，移除以免无限回查死 App。
+    new_watch = {}
+    for cid, w in watch.items():
+        d = details.get(cid)
+        cur = (d.get("price", 0) or 0) if d else None
+        if cid in promo_ids:
+            # 仍在促销：用本轮算出的原价锚点保鲜
+            anc = promo_anchor.get(cid) or (w.get("anchor") or 0)
+            new_watch[cid] = {"anchor": anc, "first": w.get("first", today), "last": today}
+        else:
+            if cur is not None and cur > 0 and cur >= (w.get("anchor") or 0):
+                continue  # 现价已回升至原价 → 促销结束，丢弃
+            if (beijing_today() - datetime.date.fromisoformat(w.get("last", today))).days < WATCH_DAYS:
+                w = dict(w); w["last"] = today  # 续期（可能掉榜但仍可能促销）
+                new_watch[cid] = w
+            # 否则过期丢弃
+    watch = new_watch
+    save_json(watch_path, watch)
 
     result = {
         "date": today,
