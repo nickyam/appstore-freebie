@@ -58,7 +58,7 @@
       logo: 'Apple Freebie Radar',
       nav_about: 'About',
       hero_title: "Today's App Store Freebies",
-      hero_sub: 'We scan Apple’s official prices every day and catch the drop signals — paid yesterday, free today. Freebie Radar keeps an eye on every steal for you.',
+      hero_sub: 'We scan Apple’s official prices every day and catch the drop signals — paid yesterday, free today — so you never miss a steal.',
       region_cn: '🇨🇳 China',
       region_us: '🇺🇸 United States',
       intro_h2: 'What is a "limited-time freebie" and how we pick?',
@@ -447,9 +447,56 @@
     return 'cn';
   }
 
+  // 站点品牌：按域名区分（同仓库部署到 limzero / nickyam 两套域名）
+  function siteName() {
+    var h = location.hostname;
+    if (h.indexOf('limzero') >= 0) return '极零限免';
+    if (h.indexOf('nickyam') >= 0) return '涯木限免';
+    return '苹果限免雷达';
+  }
+
+  function setMeta(key, val) {
+    var m = document.querySelector('meta[property="' + key + '"]') ||
+            document.querySelector('meta[name="' + key + '"]');
+    if (!m) {
+      m = document.createElement('meta');
+      m.setAttribute('property', key);
+      document.head.appendChild(m);
+    }
+    m.setAttribute('content', val);
+  }
+
+  // 把品牌名写进可见文案 + SEO 元信息（按当前域名自动取值）
+  function applyBrand() {
+    var name = siteName();
+    var origin = location.origin;
+    var logo = document.getElementById('siteLogo');
+    if (logo) logo.textContent = name;
+    var fs = document.getElementById('footerSiteName');
+    if (fs) fs.textContent = name;
+    var title = name + ' · App Store 每日限免清单（中国区 / 美国区）';
+    document.title = title;
+    setMeta('og:site_name', name);
+    setMeta('og:title', title);
+    setMeta('twitter:title', name + ' · App Store 每日限免清单');
+    setMeta('og:url', origin + '/');
+    var canon = document.querySelector('link[rel="canonical"]');
+    if (canon) canon.setAttribute('href', origin + '/');
+    try {
+      var ld = document.querySelector('script[type="application/ld+json"]');
+      if (ld) {
+        var o = JSON.parse(ld.textContent);
+        o.name = name;
+        o.url = origin + '/';
+        ld.textContent = JSON.stringify(o);
+      }
+    } catch (e) {}
+  }
+
   function init() {
     applyTheme(getTheme());   // 主题（null=跟随系统）
     applyLang(getLang());     // 语言
+    applyBrand();             // 站点品牌（域名自适应）
     bindControls();
     load(getRegion());        // 拉数据
   }
