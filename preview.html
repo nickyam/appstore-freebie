@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>功能预览 · 苹果限免雷达（本地 mock，不会部署）</title>
+  <link rel="stylesheet" href="assets/css/style.css?v=20261024" />
+  <style>
+    /* 仅预览页用的容器，方便在浏览器里直接看效果 */
+    body { padding: 24px; }
+    .preview-note { max-width: 980px; margin: 0 auto 20px; color: var(--muted); font-size: 13px; }
+    .preview-note b { color: var(--text); }
+  </style>
+</head>
+<body>
+  <div class="preview-note">
+    ⚠️ 这是 <b>本地功能预览（mock 数据）</b>，用于确认新 UI 的视觉效果，<b>不会被部署到线上</b>。
+    线上今日真实数据为 0 条（30 天价格基线还在累积中），功能代码已就绪，随基线变厚会自动填充。
+  </div>
+
+  <!-- 统计条（feature 1）：直接复用 index.html 的 .stats -->
+  <main class="container">
+    <section class="hero" style="padding-top:12px;">
+      <div class="stats" id="statsBar">
+        <div class="stat"><div class="stat-num" id="statFree">23</div><div class="stat-label">今日限免</div></div>
+        <div class="stat"><div class="stat-num" id="statDeal">11</div><div class="stat-label">今日特价</div></div>
+        <div class="stat"><div class="stat-num" id="statSaved">¥1,847</div><div class="stat-label">今日可省</div></div>
+      </div>
+    </section>
+
+    <!-- 卡片区：复刻 appCard 的真实 DOM 结构 -->
+    <div class="section-title"><h2>🔓 今日限免</h2><span class="count free">23</span></div>
+    <div class="grid">
+      <!-- 卡片 A：限免 + NEW 角标 + 曲线末端归零 + 30天最低 -->
+      <div class="card">
+        <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9a/fd/21/9afd21c3-a89b-8a81-546d-f27125bdc0/icon.png/200x200bb.png" alt="app" />
+        <div class="info">
+          <div class="name-row"><span class="name">ProCamera 专业相机</span><span class="new-badge">NEW</span></div>
+          <div class="dev">Cocologics</div>
+          <div class="genre">摄影与录像</div>
+          <div class="rating">★ 4.7</div>
+          <div class="price"><span class="old">¥98.00</span><span class="new free">免费</span></div>
+          <div class="price-extra">
+            <svg class="spark" width="118" height="30" viewBox="0 0 118 30" aria-hidden="true" focusable="false"><polyline points="3.0,3.0 25.4,3.0 47.8,3.0 70.2,3.0 92.6,3.0 115.0,27.0" fill="none" stroke="#34c759" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/></svg>
+            <span class="low-tag">30天最低</span>
+          </div>
+        </div>
+        <a class="go" href="#" target="_blank" rel="noopener">App Store</a>
+      </div>
+
+      <!-- 卡片 B：限免 + 无 NEW（老条目） + 曲线末端归零 + 30天最低 -->
+      <div class="card">
+        <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/aa/bb/cc/aabbcc/icon.png/200x200bb.png" alt="app" />
+        <div class="info">
+          <div class="name-row"><span class="name">Weather Live 天气助手（名字较长用于测试两行截断效果演示）</span></div>
+          <div class="dev">Apalon Apps</div>
+          <div class="genre">天气</div>
+          <div class="rating">★ 4.3</div>
+          <div class="price"><span class="old">¥30.00</span><span class="new free">免费</span></div>
+          <div class="price-extra">
+            <svg class="spark" width="118" height="30" viewBox="0 0 118 30" aria-hidden="true" focusable="false"><polyline points="3.0,3.0 25.4,3.0 47.8,3.0 70.2,3.0 92.6,3.0 115.0,27.0" fill="none" stroke="#34c759" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/></svg>
+            <span class="low-tag">30天最低</span>
+          </div>
+        </div>
+        <a class="go" href="#" target="_blank" rel="noopener">App Store</a>
+      </div>
+    </div>
+
+    <div class="section-title"><h2>💰 今日特价（降价未免费）</h2><span class="count deal">11</span></div>
+    <div class="grid">
+      <!-- 卡片 C：特价 + NEW + 大幅降价 + 30天最低 -->
+      <div class="card">
+        <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/dd/ee/ff/ddeeff/icon.png/200x200bb.png" alt="app" />
+        <div class="info">
+          <div class="name-row"><span class="name">Facetune 人像精修</span><span class="new-badge">NEW</span></div>
+          <div class="dev">Lightricks</div>
+          <div class="genre">摄影与录像</div>
+          <div class="rating">★ 4.6</div>
+          <div class="price"><span class="old">¥98.00</span><span class="new deal">¥39.00</span></div>
+          <div class="price-extra">
+            <svg class="spark" width="118" height="30" viewBox="0 0 118 30" aria-hidden="true" focusable="false"><polyline points="3.0,3.0 25.4,3.0 47.8,3.0 70.2,3.0 92.6,3.0 115.0,17.5" fill="none" stroke="#ff9f0a" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/></svg>
+            <span class="low-tag">30天最低</span>
+          </div>
+        </div>
+        <a class="go" href="#" target="_blank" rel="noopener">App Store</a>
+      </div>
+
+      <!-- 卡片 D：特价 + 无 NEW + 中等降价 -->
+      <div class="card">
+        <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/11/22/33/112233/icon.png/200x200bb.png" alt="app" />
+        <div class="info">
+          <div class="name-row"><span class="name">Calm 冥想睡眠</span></div>
+          <div class="dev">Calm.com</div>
+          <div class="genre">健康健美</div>
+          <div class="rating">★ 4.8</div>
+          <div class="price"><span class="old">¥98.00</span><span class="new deal">¥68.00</span></div>
+          <div class="price-extra">
+            <svg class="spark" width="118" height="30" viewBox="0 0 118 30" aria-hidden="true" focusable="false"><polyline points="3.0,3.0 25.4,3.0 47.8,3.0 70.2,3.0 92.6,3.0 115.0,10.3" fill="none" stroke="#ff9f0a" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/></svg>
+          </div>
+        </div>
+        <a class="go" href="#" target="_blank" rel="noopener">App Store</a>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
