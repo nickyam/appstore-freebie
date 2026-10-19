@@ -6,7 +6,7 @@
   var I18N = {
     zh: {
       logo: '苹果限免雷达',
-      nav_about: '关于 / 怎么算',
+      nav_about: '关于',
       hero_title: '今日 App Store 限免清单',
       hero_sub: '每天自动扫描苹果官方价格，捕捉「昨天还收费、今天免费领」的降价信号——苹果限免雷达帮你盯住每一次捡漏机会。',
       region_cn: '🇨🇳 中国区',
@@ -37,7 +37,20 @@
       err_line: '数据暂时无法加载，请稍后刷新',
       err_box: '数据暂时无法加载，请稍后刷新重试。',
       badge_cn: '🍎 中国区 · 每日 09:00 自动更新',
-      badge_us: '🍎 美国区 · 每日 09:00 自动更新'
+      badge_us: '🍎 美国区 · 每日 09:00 自动更新',
+      nav_home: '返回首页',
+      about_badge: '🍎 关于本站',
+      about_h1: '关于苹果限免雷达',
+      about_lead: '「苹果限免雷达」每天自动扫描 App Store 官方价格，把「昨天还收费、今天免费领」的优质 App 挑出来，附原价对比与用户评分，帮你省下每一分钱。',
+      intro_p5: 'App 一旦进入限免或特价，只要活动没结束（价格还维持在促销水平），就会一直留在当天的清单里；等价格恢复原价后自动下架——所以你隔几天回来看，好货不会悄悄消失。',
+      about_q_h2: '常见问题',
+      about_q1: '<b>限免下载的 App，以后还收费吗？</b>不会。限免期间用 Apple ID 下载后会永久绑定你的账户，以后再下载也免费；卸载重装同样免费。',
+      about_q2: '<b>为什么列表里有些 App 标着原价？</b>那是为了方便你判断省了多少——「¥98 ← 免费」表示该 App 原价 ¥98、当前限时免费。',
+      about_q3: '<b>数据多久更新一次？</b>每天北京时间 09:00 自动更新；页面加载失败时，点击左上角站名即可立即刷新。',
+      about_back: '← 返回今日限免清单',
+      about_note: '⚠️ 本站为非官方独立站点，与 Apple Inc. 无任何隶属关系。所有价格与可用性以 App Store 实时显示为准，本页不构成购买建议。',
+      home_intro_text: '每天自动扫描苹果官方价格，捕捉「昨天还收费、今天免费领」的降价信号，覆盖中国区与美国区。',
+      home_intro_link: '了解我们怎么挑 →'
     },
     en: {
       logo: 'Apple Freebie Radar',
@@ -72,7 +85,20 @@
       err_line: 'Data temporarily unavailable, please refresh later',
       err_box: 'Data temporarily unavailable, please refresh and retry.',
       badge_cn: '🍎 China · auto-updated daily at 09:00',
-      badge_us: '🍎 United States · auto-updated daily at 09:00'
+      badge_us: '🇺🇸 United States · auto-updated daily at 09:00',
+      nav_home: 'Home',
+      about_badge: '🍎 About',
+      about_h1: 'About Apple Freebie Radar',
+      about_lead: 'Apple Freebie Radar scans official App Store prices every day, surfacing apps that went from paid yesterday to free today — with original-price comparison and user ratings.',
+      intro_p5: 'Once an app goes free or discounted, it stays in the daily list as long as the promo lasts (price remains below the regular price); it drops off automatically once the price returns — so good deals won’t quietly disappear when you check back days later.',
+      about_q_h2: 'FAQ',
+      about_q1: '<b>Will an app I claimed during a freebie cost money later?</b> No. Downloading during the free window binds it to your Apple ID permanently — future downloads and re-installs stay free.',
+      about_q2: '<b>Why do some apps show a struck-through price?</b> So you can see the saving — “$9.99 → Free” means the regular price is $9.99 and it’s free right now.',
+      about_q3: '<b>How often is data updated?</b> Automatically every day at 09:00 Beijing time; if loading fails, click the site name at the top-left to refresh immediately.',
+      about_back: '← Back to today’s list',
+      about_note: '⚠️ This is an independent, unofficial site with no affiliation to Apple Inc. All prices and availability are subject to the App Store. This page is not purchase advice.',
+      home_intro_text: 'We scan official App Store prices daily to catch the drop signals — paid yesterday, free today — across the China and US stores.',
+      home_intro_link: 'How we pick →'
     }
   };
 

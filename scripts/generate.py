@@ -117,6 +117,14 @@ def lookup(country, ids):
     return out
 
 
+def app_genre(d):
+    # iTunes lookup 已不再返回单数 genre 字段，改用本地化分类数组 / 英文主分类
+    g = d.get("genres")
+    if isinstance(g, list) and g:
+        return g[0]
+    return d.get("primaryGenreName", "") or ""
+
+
 def main():
     parser = argparse.ArgumentParser(description="App Store 限免清单生成器")
     parser.add_argument("--country", required=True, choices=["cn", "us"], help="地区：cn 中国区 / us 美国区")
@@ -158,7 +166,7 @@ def main():
         baseline[cid] = {
             "name": d.get("trackName", ""),
             "dev": d.get("artistName", ""),
-            "genre": d.get("genre", ""),
+            "genre": app_genre(d),
             "price": d.get("price", 0) or 0,
             "formatted": d.get("formattedPrice", ""),
             "icon": d.get("artworkUrl512") or d.get("artworkUrl100", ""),
@@ -172,7 +180,7 @@ def main():
         base_price = prev.get("price", 0) or 0
         name = d.get("trackName", "")
         dev = d.get("artistName", "")
-        genre = d.get("genre", "")
+        genre = app_genre(d)
         icon = d.get("artworkUrl512") or d.get("artworkUrl100", "")
         rating = d.get("averageUserRating") or 0
         url = d.get("trackViewUrl", "")

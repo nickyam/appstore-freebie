@@ -1,13 +1,13 @@
 {
   "date": "2026-10-19",
   "country": "us",
-  "generated_at": "2026-10-19T02:34:05Z",
+  "generated_at": "2026-10-19T02:44:26Z",
   "freebies": [
     {
       "id": "6792056184",
       "name": "Tidal Arc: Tide Times High Low",
       "dev": "Spruzzo Labs Inc.",
-      "genre": "",
+      "genre": "Weather",
       "normal": "$2.99",
       "current": "Free",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ee/e2/e4/eee2e443-354e-6f27-d106-b44e99790ac6/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
@@ -20,7 +20,7 @@
       "id": "1564964107",
       "name": "AFI Explorer",
       "dev": "William Walker",
-      "genre": "",
+      "genre": "Reference",
       "normal": "$4.99",
       "current": "$2.99",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8f/9e/e9/8f9ee984-9a0d-a7a9-ff0c-a01edbc3e003/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
@@ -31,7 +31,7 @@
       "id": "1314407112",
       "name": "Fishing Barometer - Fishermen",
       "dev": "LionsApp di Nallbati Elton",
-      "genre": "",
+      "genre": "Weather",
       "normal": "$7.99",
       "current": "$4.99",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d5/52/4b/d5524b67-9b75-2c58-1c0f-f816c68ab3e8/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",

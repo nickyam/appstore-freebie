@@ -135,9 +135,40 @@ ins.adsbygoogle { background: #f1f4f9; border-radius: 10px; }
 .site-footer .container { display: flex; flex-direction: column; gap: 6px; }
 .disclaimer { font-size: 12px; color: var(--muted); }
 
+/* 首页精简摘要（完整说明在 about.html） */
+.intro-mini {
+  display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap;
+  background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
+  padding: 12px 16px; margin: 18px 0 0; font-size: 13px; color: var(--muted);
+}
+.intro-mini p { margin: 0; flex: 1; min-width: 220px; }
+.intro-mini a { font-weight: 700; font-size: 13px; white-space: nowrap; }
+
+/* 关于页返回按钮 */
+.back-home { margin: 26px 0 0; }
+.back-home .go {
+  display: inline-block; background: var(--accent-soft); color: var(--accent);
+  border-radius: 8px; padding: 10px 18px; font-weight: 600;
+}
+.back-home .go:hover { background: var(--accent); color: #fff; text-decoration: none; }
+
 @media (max-width: 640px) {
   .hero h1 { font-size: 23px; }
   .grid { grid-template-columns: 1fr; }
+  .header-inner { padding: 10px 14px; }
+  .logo { font-size: 16px; }
+  .header-actions { gap: 6px; }
+  .icon-btn { padding: 5px 9px; font-size: 12px; }
+  .header-actions a { font-size: 12px; }
+  .toolbar { margin-top: 14px; }
+  .search-input { min-width: 100%; }
+  .card { padding: 12px; gap: 10px; }
+  .card img { width: 56px; height: 56px; border-radius: 12px; }
+  .section-title h2 { font-size: 18px; }
+  .ad-slot { margin: 16px 0; }
+  .intro-mini { padding: 10px 12px; font-size: 12px; }
+  .site-footer { padding: 18px 0; }
+  main { padding: 20px 0 40px; }
 }
 
 /* 深色主题：手动 data-theme="dark" 强制深色；无 data-theme 时跟随系统 */
