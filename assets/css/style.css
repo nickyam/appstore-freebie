@@ -200,6 +200,20 @@ ins.adsbygoogle { background: #ececf0; border-radius: var(--radius); }
 .copyright { font-size: 13px; color: var(--muted); }
 .copyright .cr-word { font-weight: 600; letter-spacing: .02em; margin-right: 2px; }
 
+/* 页脚导航行（参考反斗限免：左链接 / 右数据来源说明） */
+.footer-row {
+  display: flex; align-items: baseline; justify-content: space-between;
+  gap: 8px 18px; flex-wrap: wrap; margin-bottom: 10px;
+}
+.footer-nav { display: flex; align-items: baseline; gap: 9px; flex-wrap: wrap; }
+.footer-nav a { color: var(--text); opacity: .85; text-decoration: none; font-size: 13px; font-weight: 600; }
+.footer-nav a:hover { opacity: 1; text-decoration: underline; }
+.footer-nav .sep { color: var(--muted); opacity: .55; font-size: 12px; user-select: none; }
+.footer-meta { font-size: 12px; color: var(--muted); text-align: right; }
+
+/* 法务页（隐私政策/使用条款）最后更新时间 */
+.legal-updated { color: var(--muted); font-size: 13px; margin-top: 20px; }
+
 /* 首页精简摘要（完整说明在 about.html） */
 .intro-mini {
   display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap;

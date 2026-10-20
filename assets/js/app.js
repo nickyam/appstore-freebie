@@ -52,7 +52,52 @@
       stat_deal: '今日特价',
       stat_saved: '今日可省',
       badge_new: 'NEW',
-      lowest_30: '30天最低'
+      lowest_30: '30天最低',
+      foot_privacy: '隐私政策',
+      foot_terms: '使用条款',
+      foot_data_note: '数据来自 App Store 公开信息自动汇总',
+      foot_not_apple: '非苹果官方站点',
+      foot_rights: '保留所有权利',
+      pv_badge: '📋 隐私政策',
+      pv_h1: '隐私政策',
+      pv_lead: '「苹果限免雷达」（下称「本站」）非常重视你的隐私。本政策说明本站收集哪些信息、如何使用，以及你拥有的选择权。',
+      pv_s1h: '一、我们不收集个人信息',
+      pv_s1: '本站为纯静态信息聚合站点：无需注册、无需登录，不设账号系统，不主动收集你的姓名、邮箱、手机号等任何个人信息。',
+      pv_s2h: '二、服务器日志',
+      pv_s2: '与绝大多数网站一样，托管与 CDN 服务商会记录访问日志（如 IP 地址、浏览器类型、访问时间、所请求页面），仅用于安全防护（防盗链、防攻击、速率限制）与必要的流量统计，不用于用户画像，也不会与第三方共享用于营销目的。',
+      pv_s3h: '三、Cookie 与本地存储',
+      pv_s3: '本站仅在你的浏览器 localStorage 中保存偏好设置（界面语言、深色模式、地区选择），以便下次访问时保持你的选择。这些数据只存在你自己的设备上，不含任何跟踪标识；清除浏览器数据即可删除。',
+      pv_s4h: '四、第三方服务',
+      pv_s4a: '<b>Apple</b>：本站数据来自 App Store 公开接口；点击 App 卡片会跳转到 Apple 的页面，后续受 Apple 隐私政策约束。',
+      pv_s4b: '<b>Google AdSense</b>：本站展示 Google 提供的广告。Google 及其合作伙伴可能使用 Cookie 根据你的访问投放广告；你可以在「Google 广告设置」中关闭个性化广告。',
+      pv_s4c: '<b>Cloudflare / 阿里云</b>：为本站提供 CDN 加速与托管服务。',
+      pv_s5h: '五、数据安全',
+      pv_s5: '本站全站强制 HTTPS 加密传输；不设任何用户数据上传通道。',
+      pv_s6h: '六、未成年人',
+      pv_s6: '本站不面向未成年人收集任何数据。',
+      pv_s7h: '七、政策更新',
+      pv_s7: '本政策如有修订，将在本页发布并更新「最后更新」日期；继续使用本站即视为接受修订后的政策。',
+      pv_s8h: '八、联系我们',
+      pv_s8: '如对本政策有任何疑问或建议，欢迎通过运营者的博客站点与我们联系。',
+      pv_updated: '最后更新：2026-10-20',
+      tm_badge: '📋 使用条款',
+      tm_h1: '使用条款',
+      tm_lead: '访问或使用「苹果限免雷达」（下称「本站」）即表示你已阅读并同意本条款；如不同意，请停止使用本站。',
+      tm_s1h: '一、服务性质',
+      tm_s1: '本站是免费的信息聚合站点，通过苹果官方公开接口自动汇总 App Store（中国区 / 美国区）的价格变动信息，供个人参考使用。',
+      tm_s2h: '二、信息准确性',
+      tm_s2: '限免与特价活动由 App 开发者自行设定，价格与可用性随时可能变动。本站尽力保证数据及时、准确，但不承诺实时无误；<b>一切请以 App Store 内实际显示为准</b>。',
+      tm_s3h: '三、非官方声明',
+      tm_s3: '本站为独立站点，与 Apple Inc. 及其关联公司无任何隶属或合作关系；App Store、iPhone 等商标归 Apple Inc. 所有。',
+      tm_s4h: '四、知识产权',
+      tm_s4: 'App 名称、图标、开发者信息等归其权利人所有，本站仅作信息引用。本站自行撰写的文字与站点设计版权归本站所有，未经书面许可不得转载、镜像或批量抓取。',
+      tm_s5h: '五、广告',
+      tm_s5: '本站通过 Google AdSense 等方式展示广告以维持运营；广告内容由广告主负责，不代表本站立场，本站不对广告中的产品或服务作担保。',
+      tm_s6h: '六、责任限制',
+      tm_s6: '在适用法律允许的最大范围内，本站不对因使用或依赖本站信息而产生的任何直接或间接损失（包括但不限于误购、错过促销）承担责任。',
+      tm_s7h: '七、条款变更',
+      tm_s7: '本条款可能随时修订，修订后在本页公布；修订后继续使用本站即视为接受新条款。',
+      tm_updated: '最后更新：2026-10-20'
     },
     en: {
       logo: 'Apple Freebie Radar',
@@ -102,7 +147,52 @@
       stat_deal: 'Deals today',
       stat_saved: 'You save',
       badge_new: 'NEW',
-      lowest_30: '30-day low'
+      lowest_30: '30-day low',
+      foot_privacy: 'Privacy Policy',
+      foot_terms: 'Terms of Use',
+      foot_data_note: 'Aggregated from public App Store data',
+      foot_not_apple: 'Not an official Apple site',
+      foot_rights: 'All rights reserved',
+      pv_badge: '📋 Privacy Policy',
+      pv_h1: 'Privacy Policy',
+      pv_lead: 'Apple Freebie Radar ("this site") takes your privacy seriously. This policy explains what information we collect, how it is used, and the choices you have.',
+      pv_s1h: '1. We do not collect personal information',
+      pv_s1: 'This site is a static information aggregator: no sign-up, no login, no account system. We do not collect your name, email, phone number, or any other personal information.',
+      pv_s2h: '2. Server logs',
+      pv_s2: "Like most websites, our hosting and CDN providers record access logs (such as IP address, browser type, time of visit, and requested pages), used solely for security protection (anti-hotlinking, anti-abuse, rate limiting) and essential traffic statistics — never for user profiling, and never shared with third parties for marketing.",
+      pv_s3h: '3. Cookies and local storage',
+      pv_s3: "We only store your preferences (language, dark mode, region) in your browser's localStorage so your choices persist. This data lives on your own device, contains no tracking identifiers, and can be removed anytime by clearing browser data.",
+      pv_s4h: '4. Third-party services',
+      pv_s4a: "<b>Apple</b>: data comes from public App Store APIs; tapping an app card takes you to Apple's pages, which are governed by Apple's privacy policy.",
+      pv_s4b: '<b>Google AdSense</b>: this site shows ads served by Google. Google and its partners may use cookies to serve ads based on your visits; you can opt out of personalized ads in Google Ads Settings.',
+      pv_s4c: '<b>Cloudflare / Aliyun</b>: provide CDN acceleration and hosting for this site.',
+      pv_s5h: '5. Data security',
+      pv_s5: 'This site enforces HTTPS for all traffic and provides no channel for uploading user data.',
+      pv_s6h: '6. Minors',
+      pv_s6: 'This site does not knowingly collect any data from minors.',
+      pv_s7h: '7. Updates to this policy',
+      pv_s7: 'If this policy is revised, it will be published on this page with an updated "Last updated" date. Continued use of the site constitutes acceptance of the revised policy.',
+      pv_s8h: '8. Contact us',
+      pv_s8: "If you have any questions or suggestions about this policy, feel free to reach us via the operator's blog.",
+      pv_updated: 'Last updated: 2026-10-20',
+      tm_badge: '📋 Terms of Use',
+      tm_h1: 'Terms of Use',
+      tm_lead: 'By accessing or using Apple Freebie Radar ("this site"), you agree to these terms. If you do not agree, please stop using the site.',
+      tm_s1h: '1. Nature of the service',
+      tm_s1: "This site is a free information aggregator that automatically compiles App Store (China / US) price changes via Apple's official public APIs, for personal reference only.",
+      tm_s2h: '2. Accuracy of information',
+      tm_s2: 'Freebie and deal events are set by app developers and may change at any time. We strive for timely, accurate data but do not guarantee real-time correctness — <b>always rely on what the App Store actually shows</b>.',
+      tm_s3h: '3. Unofficial declaration',
+      tm_s3: 'This site is independent and has no affiliation or partnership with Apple Inc. or its subsidiaries. App Store, iPhone and related trademarks belong to Apple Inc.',
+      tm_s4h: '4. Intellectual property',
+      tm_s4: "App names, icons and developer info belong to their respective owners and are cited for informational purposes only. This site's original text and design are copyrighted; reproduction, mirroring or bulk scraping without written permission is prohibited.",
+      tm_s5h: '5. Advertising',
+      tm_s5: "This site displays ads (e.g., Google AdSense) to sustain operations. Ad content is the responsibility of advertisers, does not represent this site's views, and is not warranted by this site.",
+      tm_s6h: '6. Limitation of liability',
+      tm_s6: 'To the maximum extent permitted by applicable law, this site is not liable for any direct or indirect losses arising from the use of or reliance on its information (including but not limited to mistaken purchases or missed promotions).',
+      tm_s7h: '7. Changes to these terms',
+      tm_s7: 'These terms may be revised at any time and will be published on this page. Continued use after revision constitutes acceptance of the new terms.',
+      tm_updated: 'Last updated: 2026-10-20'
     }
   };
 
@@ -285,6 +375,7 @@
 
   function renderList(containerId, data, kind, emptyText) {
     var box = document.getElementById(containerId);
+    if (!box) return;   // 非首页（关于/隐私/条款页）无列表容器，直接跳过
     box.innerHTML = '';
     if (!data || data.length === 0) {
       box.appendChild(el('div', 'empty', emptyText));
@@ -374,6 +465,11 @@
           var regionLabel = CURRENT_LANG === 'en' ? (meta.label_en || meta.label) : meta.label;
           dl.textContent = dict.date_prefix + (d.date || '—') + ' · ' + regionLabel + gen;
         }
+        // 页脚「更新于」时间戳（所有页面共用 footer）
+        var fu = document.getElementById('footerUpdated');
+        if (fu) fu.textContent = d.generated_at
+          ? ((CURRENT_LANG === 'en' ? ' · updated ' : ' · 更新于 ') + d.generated_at + ' UTC')
+          : '';
         var free = d.freebies || [];
         var deals = d.deals || [];
         currentData.free = free;
