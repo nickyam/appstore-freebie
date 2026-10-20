@@ -60,8 +60,11 @@
       dt_price_history: '近 30 天价格走势',
       dt_cross: '中美两区现价对比',
       dt_qr: '扫码前往 App Store',
+      dt_qr_btn: '手机扫码',
+      dt_close_hint: '点击任意处关闭',
+      dt_genre_link: '查看该分类的今日限免',
       dt_related: '同类推荐',
-      dt_go: '前往 App Store 下载',
+      dt_go: '在 App Store 打开',
       dt_ver: '版本',
       dt_size: '大小',
       dt_age: '年龄分级',
@@ -168,8 +171,11 @@
       dt_price_history: 'Price trend (last 30 days)',
       dt_cross: 'CN vs US current price',
       dt_qr: 'Scan to open in App Store',
+      dt_qr_btn: 'Scan to download',
+      dt_close_hint: 'Tap anywhere to close',
+      dt_genre_link: 'Browse today\u2019s deals in this category',
       dt_related: 'Similar picks',
-      dt_go: 'Get it on the App Store',
+      dt_go: 'Open in App Store',
       dt_ver: 'Version',
       dt_size: 'Size',
       dt_age: 'Age rating',
@@ -699,14 +705,18 @@
       (app.is_new ? '<span class="new-badge">' + esc(dict.badge_new) + '</span>' : '') + '</h2>' +
       '<div class="dt-dev">' + esc(app.dev || '') + '</div>' +
       '<div class="dt-meta">' +
-      (app.genre ? '<span class="dt-chip">' + esc(app.genre) + '</span>' : '') +
+      (app.genre ? '<a class="dt-chip chip-link" href="/index.html?genre=' + encodeURIComponent(app.genre) + '&region=' + esc(app.region || 'cn') + '" title="' + esc(dict.dt_genre_link) + '">' + esc(app.genre) + '</a>' : '') +
       (ratingStr ? '<span class="dt-chip">⭐ ' + esc(ratingStr.replace('★ ', '')) + '</span>' : '') +
       '</div>' +
       '<div class="dt-price"><span class="dt-cur ' + (app.type === 'free' ? 'free' : 'deal') + '" id="dtPrice">' + esc(app.current || (app.type === 'free' ? dict.card_free_price : '')) + '</span>' +
       (app.normal ? '<span class="dt-old" id="dtOld">' + esc(app.normal) + '</span>' : '') + '</div>' +
       '</div>' +
       '<div class="dt-side">' +
-      '<div class="dt-qr"><img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&margin=0&data=' + encodeURIComponent(app.url || '') + '" alt="QR" loading="lazy"/><span>' + esc(dict.dt_qr) + '</span></div>' +
+      '<button type="button" class="dt-qr-btn" id="dtQrBtn" aria-label="' + esc(dict.dt_qr_btn) + '">' +
+        '<svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">' +
+        '<rect x="3" y="3" width="7" height="7" rx="1.2"/><rect x="14" y="3" width="7" height="7" rx="1.2"/><rect x="3" y="14" width="7" height="7" rx="1.2"/>' +
+        '<path stroke-linecap="round" d="M14 14h3v3h-3zM20 14h1M14 20h1M17.5 20H21M20 17v1.5"/></svg>' +
+        '<span>' + esc(dict.dt_qr_btn) + '</span></button>' +
       '<a class="dt-go-sm" href="' + esc(app.url || '#') + '" target="_blank" rel="noopener">' + esc(dict.dt_go) + '</a>' +
       '</div>' +
       '</div>' +
@@ -790,12 +800,55 @@
       '<span class="dt-cr-price">' + price + '</span></div>';
   }
 
-  // 同类推荐卡片：在独立页上点击 → 跳对应 App 独立页
+  // 灯箱：应用截图放大 / 二维码浮层 共用（点击任意处或 Esc 关闭）
+  var lbEl = null;
+  function openLightbox(html) {
+    if (!lbEl) {
+      lbEl = document.createElement('div');
+      lbEl.className = 'dt-lightbox';
+      lbEl.innerHTML = '<div class="dt-lb-inner"></div>';
+      lbEl.addEventListener('click', closeLightbox);
+      document.body.appendChild(lbEl);
+      document.addEventListener('keydown', function (e) {
+        if (e.key === 'Escape' && lbEl && !lbEl.hidden) closeLightbox();
+      });
+    }
+    lbEl.firstChild.innerHTML = html;
+    lbEl.hidden = false;
+    document.body.style.overflow = 'hidden';
+  }
+  function closeLightbox() {
+    if (!lbEl) return;
+    lbEl.hidden = true;
+    lbEl.firstChild.innerHTML = '';
+    document.body.style.overflow = '';
+  }
+
+  // 独立页事件委托：同类推荐跳页 / 截图点击放大 / 二维码按钮弹浮层
   function setupDetailEvents() {
     if (detailSetup) return;
     detailSetup = true;
     var body = document.getElementById('detailBody');
     if (body) body.addEventListener('click', function (e) {
+      // 截图放大
+      var shot = e.target.closest('.dt-shots img');
+      if (shot) {
+        openLightbox('<img class="dt-lb-img" src="' + shot.getAttribute('src') + '" alt=""/>');
+        return;
+      }
+      // 二维码浮层
+      if (e.target.closest('#dtQrBtn')) {
+        var dict = I18N[CURRENT_LANG];
+        var ap = window.__APP__;
+        if (ap && ap.url) {
+          openLightbox('<div class="dt-lb-card">' +
+            '<img src="https://api.qrserver.com/v1/create-qr-code/?size=300x300&margin=10&data=' + encodeURIComponent(ap.url) + '" alt="QR"/>' +
+            '<div class="dt-lb-cap">' + esc(dict.dt_qr) + '</div>' +
+            '<div class="dt-lb-hint">' + esc(dict.dt_close_hint) + '</div></div>');
+        }
+        return;
+      }
+      // 同类推荐 → 跳对应 App 独立页
       var rc = e.target.closest('.rel-card');
       if (!rc) return;
       var id = rc.getAttribute('data-appid');
@@ -821,6 +874,13 @@
       load(ap.region || 'cn');   // 供同类推荐使用
       renderDetail(ap, document.getElementById('detailBody'), null);
       return;
+    }
+    // 首页支持 URL 参数：/index.html?genre=工具&region=cn（独立页分类标签跳转过来）
+    if (!window.__APP__ && typeof URLSearchParams === 'function') {
+      var qs = new URLSearchParams(location.search);
+      var qRegion = qs.get('region'), qGenre = qs.get('genre');
+      if (qRegion && REGIONS[qRegion]) lsSet(REGION_KEY, qRegion);
+      if (qGenre) state.genre = qGenre;
     }
     load(getRegion());        // 拉数据
   }
