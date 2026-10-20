@@ -31,11 +31,9 @@
       footer_copyright: '苹果限免雷达 · 数据每日自动更新 · 非苹果官方站点',
       card_store: 'App Store',
       card_free_price: '免费',
-      date_prefix: '数据日期：',
+      date_prefix: '数据时间：',
       err_line: '数据暂时无法加载，请稍后刷新',
       err_box: '数据暂时无法加载，请稍后刷新重试。',
-      badge_cn: '🍎 中国区 · 每 6 小时自动更新',
-      badge_us: '🍎 美国区 · 每 6 小时自动更新',
       about_badge: '🍎 关于本站',
       about_h1: '关于苹果限免雷达',
       about_lead: '「苹果限免雷达」每天自动扫描 App Store 官方价格，把「昨天还收费、今天免费领」的优质 App 挑出来，附原价对比与用户评分，帮你省下每一分钱。',
@@ -125,11 +123,9 @@
       footer_copyright: 'Freebie Radar · updated daily · not an official Apple site',
       card_store: 'App Store',
       card_free_price: 'Free',
-      date_prefix: 'Data date: ',
+      date_prefix: 'Data updated: ',
       err_line: 'Data temporarily unavailable, please refresh later',
       err_box: 'Data temporarily unavailable, please refresh and retry.',
-      badge_cn: '🍎 China · auto-updated every 6 hours',
-      badge_us: '🇺🇸 United States · auto-updated every 6 hours',
       about_badge: '🍎 About',
       about_h1: 'About Apple Freebie Radar',
       about_lead: 'Apple Freebie Radar scans official App Store prices every day, surfacing apps that went from paid yesterday to free today — with original-price comparison and user ratings.',
@@ -200,8 +196,8 @@
 
   // ===== 地区配置 =====
   var REGIONS = {
-    cn: { file: 'data/free-today-cn.json', label: '中国区', label_en: 'China', badge: '🍎 中国区 · 每 6 小时自动更新' },
-    us: { file: 'data/free-today-us.json', label: '美国区', label_en: 'United States', badge: '🍎 美国区 · 每 6 小时自动更新' }
+    cn: { file: 'data/free-today-cn.json', label: '中国区', label_en: 'China' },
+    us: { file: 'data/free-today-us.json', label: '美国区', label_en: 'United States' }
   };
   var REGION_KEY = 'freebie-region';
   var LANG_KEY = 'freebie-lang';
@@ -242,8 +238,6 @@
     }
     var y = document.getElementById('year');
     if (y) y.textContent = new Date().getFullYear();
-    REGIONS.cn.badge = dict.badge_cn;
-    REGIONS.us.badge = dict.badge_us;
     var lb = document.getElementById('langBtn');
     if (lb) lb.textContent = CURRENT_LANG === 'en' ? '🇨🇳' : '🇺🇸';
     var allOpt = document.querySelector('#genreFilter option[value=""]');
@@ -448,8 +442,6 @@
     for (var i = 0; i < btns.length; i++) {
       btns[i].classList.toggle('active', btns[i].getAttribute('data-region') === region);
     }
-    var badge = document.getElementById('regionBadge');
-    if (badge) badge.textContent = meta.badge;
 
     fetch(meta.file, { cache: 'no-cache' })
       .then(function (r) {
@@ -459,9 +451,8 @@
       .then(function (d) {
         var dl = document.getElementById('dateLine');
         if (dl) {
-          var gen = d.generated_at ? (CURRENT_LANG === 'en' ? ' (updated ' + d.generated_at + ' UTC)' : '（更新于 ' + d.generated_at + ' UTC）') : '';
-          var regionLabel = CURRENT_LANG === 'en' ? (meta.label_en || meta.label) : meta.label;
-          dl.textContent = dict.date_prefix + (d.date || '—') + ' · ' + regionLabel + gen;
+          var stamp = d.generated_at ? d.generated_at + ' UTC' : (d.date || '—');
+          dl.textContent = dict.date_prefix + stamp;
         }
         var free = d.freebies || [];
         var deals = d.deals || [];
