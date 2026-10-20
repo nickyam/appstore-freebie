@@ -158,7 +158,7 @@ ins.adsbygoogle { background: #ececf0; border-radius: var(--radius); }
   transition: transform .2s ease, box-shadow .2s ease;
 }
 .card:hover { transform: translateY(-3px); box-shadow: 0 8px 24px rgba(0, 0, 0, .1); }
-.card img { width: 68px; height: 68px; border-radius: 16px; border: 1px solid var(--border); background: #fff; flex: none; object-fit: cover; }
+.card img { width: 88px; height: 88px; border-radius: 20px; border: 1px solid var(--border); background: #fff; flex: none; object-fit: cover; }
 .card .info { min-width: 0; flex: 1; }
 /* 名称与开发者允许折行显示完整内容，最多两行；超出省略。
    （原本是 nowrap + ellipsis 一行截断，两列后空间变大，仍保留两行上限以防超长名撑高卡片） */
@@ -183,16 +183,6 @@ ins.adsbygoogle { background: #ececf0; border-radius: var(--radius); }
 .card .price .old { color: var(--muted); text-decoration: line-through; margin-right: 8px; }
 .card .price .new.free { color: var(--free); font-weight: 700; }
 .card .price .new.deal { color: var(--deal); font-weight: 700; }
-/* 价格迷你曲线 + 历史最低标记 */
-.card .price-extra { display: flex; align-items: center; gap: 8px; margin-top: 8px; }
-.card .spark { display: block; flex: none; }
-.card .low-tag {
-  flex: none; font-size: 11px; font-weight: 600; color: var(--deal);
-  background: rgba(255, 159, 10, .14); padding: 2px 8px; border-radius: 999px; line-height: 1.5;
-}
-.card .go { flex: none; font-size: 13px; background: var(--accent); color: #fff; border-radius: 999px; padding: 7px 16px; font-weight: 600; }
-.card .go:hover { background: #0077ed; text-decoration: none; }
-
 .empty { text-align: center; color: var(--muted); padding: 36px; background: var(--surface); border: 1px dashed var(--border); border-radius: var(--radius); }
 .loading { text-align: center; color: var(--muted); padding: 36px; }
 
@@ -257,7 +247,7 @@ ins.adsbygoogle { background: #ececf0; border-radius: var(--radius); }
   .search-input { min-width: 0; padding: 10px 16px; font-size: 14px; }
   .genre-select { min-width: 0; flex: 0 0 auto; padding: 10px 32px 10px 14px; font-size: 14px; }
   .card { padding: 14px; gap: 12px; }
-  .card img { width: 58px; height: 58px; border-radius: 14px; }
+  .card img { width: 72px; height: 72px; border-radius: 18px; }
   .card .name { font-size: 16px; }
   .section-title h2 { font-size: 23px; }
   .section-title { margin: 28px 0 12px; }

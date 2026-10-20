@@ -51,7 +51,6 @@
       stat_deal: '今日特价',
       stat_saved: '今日可省',
       badge_new: 'NEW',
-      lowest_30: '30天最低',
       foot_privacy: '隐私政策',
       foot_terms: '使用条款',
       foot_rights: '保留所有权利',
@@ -160,7 +159,6 @@
       stat_deal: 'Deals today',
       stat_saved: 'You save',
       badge_new: 'NEW',
-      lowest_30: '30-day low',
       foot_privacy: 'Privacy Policy',
       foot_terms: 'Terms of Use',
       foot_rights: 'All rights reserved',
@@ -330,26 +328,6 @@
     return sym + Math.round(v || 0).toLocaleString('en-US');
   }
 
-  // 30 天价格迷你曲线（inline SVG sparkline）
-  function sparkline(series, kind) {
-    if (!series || series.length < 2) return '';
-    var W = 118, H = 30, pad = 3;
-    var vals = series.map(function (v) { return v || 0; });
-    var min = Math.min.apply(null, vals);
-    var max = Math.max.apply(null, vals);
-    var n = vals.length;
-    var range = (max - min) || 1;
-    var pts = vals.map(function (v, i) {
-      var x = pad + (W - 2 * pad) * (i / (n - 1));
-      var y = (H - pad) - (H - 2 * pad) * ((v - min) / range);
-      return x.toFixed(1) + ',' + y.toFixed(1);
-    });
-    var color = kind === 'free' ? '#34c759' : '#ff9f0a';
-    return '<svg class="spark" width="' + W + '" height="' + H + '" viewBox="0 0 ' + W + ' ' + H + '" ' +
-      'aria-hidden="true" focusable="false"><polyline points="' + pts.join(' ') + '" fill="none" ' +
-      'stroke="' + color + '" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/></svg>';
-  }
-
   function appCard(app, kind) {
     var dict = I18N[CURRENT_LANG];
     var card = el('div', 'card');
@@ -378,16 +356,6 @@
     var newText = app.current || (kind === 'free' ? dict.card_free_price : '');
     price.appendChild(el('span', newCls, esc(newText)));
     info.appendChild(price);
-    // 30 天价格迷你曲线 + 历史最低标记
-    var series = app.series || [];
-    var curVal = series.length ? (series[series.length - 1] || 0) : 0;
-    var minVal = series.length ? Math.min.apply(null, series) : 0;
-    var isLow = series.length >= 1 && curVal <= minVal;
-    var extra = el('div', 'price-extra');
-    var sp = sparkline(series, kind);
-    if (sp) extra.innerHTML = sp;
-    if (isLow) extra.appendChild(el('span', 'low-tag', esc(dict.lowest_30)));
-    if (sp || isLow) info.appendChild(extra);
     card.appendChild(info);
     // 卡片整体可点 → 直接跳该 App 的独立详情页（无独立页则忽略）
     card.classList.add('card-click');
