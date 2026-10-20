@@ -1,55 +1,2907 @@
 {
   "date": "2026-10-20",
   "country": "cn",
-  "generated_at": "2026-10-20T03:08:59Z",
+  "generated_at": "2026-10-20T05:17:34Z",
   "freebies": [
     {
-      "id": "6761341923",
-      "name": "NekoAI",
-      "dev": "Shanghai Candy Rectangle Technology Co., Ltd.",
+      "id": "6799355833",
+      "name": "Bars：AI用量与节点流量",
+      "dev": "Noah General Group Inc.",
       "genre": "工具",
-      "normal": "¥1.00",
-      "current": "免费",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d4/74/d5/d474d5a1-d9e0-3ffe-14cc-84f7597f34fa/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-      "rating": 5,
-      "url": "https://apps.apple.com/cn/app/nekoai/id6761341923?uo=4",
-      "region": "cn",
-      "type": "free",
-      "is_new": false,
-      "series": [
-        0
-      ],
-      "phistory": [
-        {
-          "d": "2026-10-20",
-          "p": 0
-        }
-      ],
-      "page": "app/cn-6761341923.html"
-    },
-    {
-      "id": "1561444285",
-      "name": "Monk Mode: Silent Meditation",
-      "dev": "Kevin David Tanner",
-      "genre": "健康健美",
       "normal": "¥38.00",
       "current": "免费",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b5/35/68/b535687c-d255-034c-02c8-3c8eef7795ed/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
-      "rating": 0,
-      "url": "https://apps.apple.com/cn/app/monk-mode-silent-meditation/id1561444285?uo=4",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8f/7d/e7/8f7de737-5deb-3388-7d92-a0f84c79de2c/BarsIcon-63-green-slash-0-0-1x_U007ephone-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+      "rating": 5,
+      "url": "https://apps.apple.com/cn/app/bars-ai%E7%94%A8%E9%87%8F%E4%B8%8E%E8%8A%82%E7%82%B9%E6%B5%81%E9%87%8F/id6799355833?uo=4",
       "region": "cn",
       "type": "free",
-      "is_new": false,
+      "is_new": true,
       "series": [
+        38.0,
         0
       ],
       "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 38.0
+        },
         {
           "d": "2026-10-20",
           "p": 0
         }
       ],
-      "page": "app/cn-1561444285.html"
+      "page": "app/cn-6799355833.html"
+    },
+    {
+      "id": "1483376887",
+      "name": "Braincup - Brain Training",
+      "dev": "Simon Schubert",
+      "genre": "教育",
+      "normal": "¥8.00",
+      "current": "免费",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4d/1f/f9/4d1ff9aa-bcdd-8ef1-3cae-308d61ee2af7/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "rating": 5,
+      "url": "https://apps.apple.com/cn/app/braincup-brain-training/id1483376887?uo=4",
+      "region": "cn",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        8.0,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 8.0
+        },
+        {
+          "d": "2026-10-20",
+          "p": 0
+        }
+      ],
+      "page": "app/cn-1483376887.html"
+    },
+    {
+      "id": "6812764518",
+      "name": "Calc Plus - Calculator",
+      "dev": "Neue Software",
+      "genre": "工具",
+      "normal": "¥0.99",
+      "current": "免费",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/69/4f/dc/694fdca1-164f-cdd8-4355-76d6b2a5f8c1/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "rating": 5,
+      "url": "https://apps.apple.com/cn/app/calc-plus-calculator/id6812764518?uo=4",
+      "region": "cn",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        0.99,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 0.99
+        },
+        {
+          "d": "2026-10-20",
+          "p": 0
+        }
+      ],
+      "page": "app/cn-6812764518.html"
+    },
+    {
+      "id": "6799973308",
+      "name": "Galplay: 多引擎Galgame 播放器",
+      "dev": "Zhaoyu ZHONG",
+      "genre": "工具",
+      "normal": "¥38.00",
+      "current": "免费",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/77/04/ea/7704eabb-4ba9-2bbe-a35c-6b185396fc9a/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+      "rating": 5,
+      "url": "https://apps.apple.com/cn/app/galplay-%E5%A4%9A%E5%BC%95%E6%93%8Egalgame-%E6%92%AD%E6%94%BE%E5%99%A8/id6799973308?uo=4",
+      "region": "cn",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        38.0,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 38.0
+        },
+        {
+          "d": "2026-10-20",
+          "p": 0
+        }
+      ],
+      "page": "app/cn-6799973308.html"
+    },
+    {
+      "id": "6739967953",
+      "name": "Luna Subscriptions",
+      "dev": "Juan Carlos Munoz",
+      "genre": "财务",
+      "normal": "¥8.00",
+      "current": "免费",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/06/9f/0f/069f0fa4-a650-c49b-859c-60375ba2c539/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+      "rating": 5,
+      "url": "https://apps.apple.com/cn/app/luna-subscriptions/id6739967953?uo=4",
+      "region": "cn",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        8.0,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 8.0
+        },
+        {
+          "d": "2026-10-20",
+          "p": 0
+        }
+      ],
+      "page": "app/cn-6739967953.html"
+    },
+    {
+      "id": "6814895879",
+      "name": "Notea便利贴",
+      "dev": "镓聪 杨",
+      "genre": "效率",
+      "normal": "¥8.00",
+      "current": "免费",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/80/67/f6/8067f638-fa4d-34ad-9d9e-bce6d0a7e148/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+      "rating": 5,
+      "url": "https://apps.apple.com/cn/app/notea%E4%BE%BF%E5%88%A9%E8%B4%B4/id6814895879?uo=4",
+      "region": "cn",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        8.0,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 8.0
+        },
+        {
+          "d": "2026-10-20",
+          "p": 0
+        }
+      ],
+      "page": "app/cn-6814895879.html"
+    },
+    {
+      "id": "6794823541",
+      "name": "Notice – Mindful Screen Time",
+      "dev": "DJAMSHID JURAYEV",
+      "genre": "健康健美",
+      "normal": "¥9.99",
+      "current": "免费",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f0/25/e6/f025e6c9-6d26-ef19-d815-0b6cf9f7eea5/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "rating": 5,
+      "url": "https://apps.apple.com/cn/app/notice-mindful-screen-time/id6794823541?uo=4",
+      "region": "cn",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        9.99,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 9.99
+        },
+        {
+          "d": "2026-10-20",
+          "p": 0
+        }
+      ],
+      "page": "app/cn-6794823541.html"
+    },
+    {
+      "id": "436311293",
+      "name": "Ratio Calc!",
+      "dev": "David Mills",
+      "genre": "体育",
+      "normal": "¥2.99",
+      "current": "免费",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0c/0f/52/0c0f52a2-8ecb-fbe1-b577-446eb8d35824/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+      "rating": 5,
+      "url": "https://apps.apple.com/cn/app/ratio-calc/id436311293?uo=4",
+      "region": "cn",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        2.99,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 2.99
+        },
+        {
+          "d": "2026-10-20",
+          "p": 0
+        }
+      ],
+      "page": "app/cn-436311293.html"
+    },
+    {
+      "id": "1513271477",
+      "name": "Revisits - Service Reports",
+      "dev": "Francisco Landero",
+      "genre": "效率",
+      "normal": "¥38.00",
+      "current": "免费",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d8/b1/1e/d8b11e3a-b7c7-3d3f-d3ee-48fbe12387ba/NewIconBlue-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-85-220.png/512x512bb.jpg",
+      "rating": 5,
+      "url": "https://apps.apple.com/cn/app/revisits-service-reports/id1513271477?uo=4",
+      "region": "cn",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        38.0,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 38.0
+        },
+        {
+          "d": "2026-10-20",
+          "p": 0
+        }
+      ],
+      "page": "app/cn-1513271477.html"
+    },
+    {
+      "id": "6793025405",
+      "name": "一日: 关注今日待办",
+      "dev": "悠然 廖",
+      "genre": "效率",
+      "normal": "¥8.00",
+      "current": "免费",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d2/66/1f/d2661f01-0ce2-2609-08b6-e201287ad57e/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+      "rating": 5,
+      "url": "https://apps.apple.com/cn/app/%E4%B8%80%E6%97%A5-%E5%85%B3%E6%B3%A8%E4%BB%8A%E6%97%A5%E5%BE%85%E5%8A%9E/id6793025405?uo=4",
+      "region": "cn",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        8.0,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 8.0
+        },
+        {
+          "d": "2026-10-20",
+          "p": 0
+        }
+      ],
+      "page": "app/cn-6793025405.html"
+    },
+    {
+      "id": "1500086470",
+      "name": "公式重組拼AC方法 专业的",
+      "dev": "Glindemann, Sennoun, Langer GbR",
+      "genre": "教育",
+      "normal": "¥15.00",
+      "current": "免费",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6e/d6/2e/6ed62eb4-ca77-00aa-b9b2-2a1c9d580757/AppIcon-AC-PRO-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "rating": 5,
+      "url": "https://apps.apple.com/cn/app/%E5%85%AC%E5%BC%8F%E9%87%8D%E7%B5%84%E6%8B%BCac%E6%96%B9%E6%B3%95-%E4%B8%93%E4%B8%9A%E7%9A%84/id1500086470?uo=4",
+      "region": "cn",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        15.0,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 15.0
+        },
+        {
+          "d": "2026-10-20",
+          "p": 0
+        }
+      ],
+      "page": "app/cn-1500086470.html"
+    },
+    {
+      "id": "1494505052",
+      "name": "因式分解二次式 专业的",
+      "dev": "Glindemann, Sennoun, Langer GbR",
+      "genre": "教育",
+      "normal": "¥15.00",
+      "current": "免费",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1b/e8/02/1be8024d-e851-3cb5-5b8f-cc504c395e8d/AppIcon-FQ-PRO-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "rating": 5,
+      "url": "https://apps.apple.com/cn/app/%E5%9B%A0%E5%BC%8F%E5%88%86%E8%A7%A3%E4%BA%8C%E6%AC%A1%E5%BC%8F-%E4%B8%93%E4%B8%9A%E7%9A%84/id1494505052?uo=4",
+      "region": "cn",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        15.0,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 15.0
+        },
+        {
+          "d": "2026-10-20",
+          "p": 0
+        }
+      ],
+      "page": "app/cn-1494505052.html"
+    },
+    {
+      "id": "1628826081",
+      "name": "数字幂的高级计算专业的",
+      "dev": "Glindemann, Sennoun, Langer GbR",
+      "genre": "教育",
+      "normal": "¥15.00",
+      "current": "免费",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/31/89/a2/3189a22a-f049-f3a7-512f-b7c30dbe4f59/AppIcon-APC-PRO-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "rating": 5,
+      "url": "https://apps.apple.com/cn/app/%E6%95%B0%E5%AD%97%E5%B9%82%E7%9A%84%E9%AB%98%E7%BA%A7%E8%AE%A1%E7%AE%97%E4%B8%93%E4%B8%9A%E7%9A%84/id1628826081?uo=4",
+      "region": "cn",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        15.0,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 15.0
+        },
+        {
+          "d": "2026-10-20",
+          "p": 0
+        }
+      ],
+      "page": "app/cn-1628826081.html"
+    },
+    {
+      "id": "1568944096",
+      "name": "等腰三角形 专业的",
+      "dev": "Glindemann, Sennoun, Langer GbR",
+      "genre": "教育",
+      "normal": "¥22.00",
+      "current": "免费",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fa/19/11/fa1911d3-19f5-1d51-028b-e10b74cbabd5/AppIcon-IT-PRO-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "rating": 5,
+      "url": "https://apps.apple.com/cn/app/%E7%AD%89%E8%85%B0%E4%B8%89%E8%A7%92%E5%BD%A2-%E4%B8%93%E4%B8%9A%E7%9A%84/id1568944096?uo=4",
+      "region": "cn",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        22.0,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 22.0
+        },
+        {
+          "d": "2026-10-20",
+          "p": 0
+        }
+      ],
+      "page": "app/cn-1568944096.html"
+    },
+    {
+      "id": "1273600793",
+      "name": "解决一次方程 专业的",
+      "dev": "Glindemann, Sennoun, Langer GbR",
+      "genre": "教育",
+      "normal": "¥15.00",
+      "current": "免费",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d0/bd/8e/d0bd8eb0-dde2-dbd1-4a8d-2ac632d846c5/AppIcon-LE-PRO-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "rating": 5,
+      "url": "https://apps.apple.com/cn/app/%E8%A7%A3%E5%86%B3%E4%B8%80%E6%AC%A1%E6%96%B9%E7%A8%8B-%E4%B8%93%E4%B8%9A%E7%9A%84/id1273600793?uo=4",
+      "region": "cn",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        15.0,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 15.0
+        },
+        {
+          "d": "2026-10-20",
+          "p": 0
+        }
+      ],
+      "page": "app/cn-1273600793.html"
+    },
+    {
+      "id": "6792625493",
+      "name": "一划清",
+      "dev": "梅 李",
+      "genre": "摄影与录像",
+      "normal": "¥0.99",
+      "current": "免费",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/28/11/35/28113522-0a6c-d14c-277b-590074d8601e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "rating": 4.94564,
+      "url": "https://apps.apple.com/cn/app/%E4%B8%80%E5%88%92%E6%B8%85/id6792625493?uo=4",
+      "region": "cn",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        0.99,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 0.99
+        },
+        {
+          "d": "2026-10-20",
+          "p": 0
+        }
+      ],
+      "page": "app/cn-6792625493.html"
+    },
+    {
+      "id": "1410053842",
+      "name": "小渔排班: 倒班日历与轮班闹钟",
+      "dev": "Jiawen Sun",
+      "genre": "效率",
+      "normal": "¥0.99",
+      "current": "免费",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/bb/c2/63bbc249-4cef-9dfc-9621-19d0295ccef6/AppIcon-1-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg",
+      "rating": 4.87858,
+      "url": "https://apps.apple.com/cn/app/%E5%B0%8F%E6%B8%94%E6%8E%92%E7%8F%AD-%E5%80%92%E7%8F%AD%E6%97%A5%E5%8E%86%E4%B8%8E%E8%BD%AE%E7%8F%AD%E9%97%B9%E9%92%9F/id1410053842?uo=4",
+      "region": "cn",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        0.99,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 0.99
+        },
+        {
+          "d": "2026-10-20",
+          "p": 0
+        }
+      ],
+      "page": "app/cn-1410053842.html"
+    },
+    {
+      "id": "942099999",
+      "name": "佛音大悲咒  天籁音乐帮您化解烦恼和忧愁",
+      "dev": "敬超 薛",
+      "genre": "医疗",
+      "normal": "¥8.00",
+      "current": "免费",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/02/8b/8b/028b8b4e-c6ac-6b98-9a59-444ac22f3cf7/AppIcon-0-0-1x_U007emarketing-0-8-0-0-sRGB-85-220.png/512x512bb.jpg",
+      "rating": 4.85724,
+      "url": "https://apps.apple.com/cn/app/%E4%BD%9B%E9%9F%B3%E5%A4%A7%E6%82%B2%E5%92%92-%E5%A4%A9%E7%B1%81%E9%9F%B3%E4%B9%90%E5%B8%AE%E6%82%A8%E5%8C%96%E8%A7%A3%E7%83%A6%E6%81%BC%E5%92%8C%E5%BF%A7%E6%84%81/id942099999?uo=4",
+      "region": "cn",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        8.0,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 8.0
+        },
+        {
+          "d": "2026-10-20",
+          "p": 0
+        }
+      ],
+      "page": "app/cn-942099999.html"
+    },
+    {
+      "id": "1396913168",
+      "name": "备忘录-录音机",
+      "dev": "莉 朱",
+      "genre": "工具",
+      "normal": "¥22.00",
+      "current": "免费",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/5b/fd/af/5bfdafb6-90e6-d755-e442-5bb0ae417b33/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
+      "rating": 4.82918,
+      "url": "https://apps.apple.com/cn/app/%E5%A4%87%E5%BF%98%E5%BD%95-%E5%BD%95%E9%9F%B3%E6%9C%BA/id1396913168?uo=4",
+      "region": "cn",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        22.0,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 22.0
+        },
+        {
+          "d": "2026-10-20",
+          "p": 0
+        }
+      ],
+      "page": "app/cn-1396913168.html"
+    },
+    {
+      "id": "1225490847",
+      "name": "电子相册大师(专业版)",
+      "dev": "丽譞 牛",
+      "genre": "摄影与录像",
+      "normal": "¥22.00",
+      "current": "免费",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/bd/ee/0f/bdee0f46-9fd8-1686-15bc-f5b7394c365f/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.jpeg/512x512bb.jpg",
+      "rating": 4.80804,
+      "url": "https://apps.apple.com/cn/app/%E7%94%B5%E5%AD%90%E7%9B%B8%E5%86%8C%E5%A4%A7%E5%B8%88-%E4%B8%93%E4%B8%9A%E7%89%88/id1225490847?uo=4",
+      "region": "cn",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        22.0,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 22.0
+        },
+        {
+          "d": "2026-10-20",
+          "p": 0
+        }
+      ],
+      "page": "app/cn-1225490847.html"
+    },
+    {
+      "id": "1391571907",
+      "name": "Fine修图",
+      "dev": "巧霞 詹",
+      "genre": "摄影与录像",
+      "normal": "¥6.99",
+      "current": "免费",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1b/6c/8a/1b6c8a87-b4b3-6f37-2a5c-833c531909b8/AppIcon-0-0-1x_U007epad-0-0-0-11-0-0-85-220.png/512x512bb.jpg",
+      "rating": 4.79546,
+      "url": "https://apps.apple.com/cn/app/fine%E4%BF%AE%E5%9B%BE/id1391571907?uo=4",
+      "region": "cn",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        6.99,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 6.99
+        },
+        {
+          "d": "2026-10-20",
+          "p": 0
+        }
+      ],
+      "page": "app/cn-1391571907.html"
+    },
+    {
+      "id": "6752566600",
+      "name": "像素模拟器-GBA世嘉小霸王红白机掌机街机怀旧童年游戏",
+      "dev": "一文 陈",
+      "genre": "娱乐",
+      "normal": "¥0.99",
+      "current": "免费",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7c/ec/06/7cec06bb-03b3-afd9-f91a-d46c96955202/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "rating": 4.73913,
+      "url": "https://apps.apple.com/cn/app/%E5%83%8F%E7%B4%A0%E6%A8%A1%E6%8B%9F%E5%99%A8-gba%E4%B8%96%E5%98%89%E5%B0%8F%E9%9C%B8%E7%8E%8B%E7%BA%A2%E7%99%BD%E6%9C%BA%E6%8E%8C%E6%9C%BA%E8%A1%97%E6%9C%BA%E6%80%80%E6%97%A7%E7%AB%A5%E5%B9%B4%E6%B8%B8%E6%88%8F/id6752566600?uo=4",
+      "region": "cn",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        0.99,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 0.99
+        },
+        {
+          "d": "2026-10-20",
+          "p": 0
+        }
+      ],
+      "page": "app/cn-6752566600.html"
+    },
+    {
+      "id": "1200952700",
+      "name": "Fotospot Road Trip Community",
+      "dev": "I Heart Travel Inc.",
+      "genre": "旅游",
+      "normal": "¥38.00",
+      "current": "免费",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/32/35/9e/32359ede-b286-7c59-50ed-a6f59d51a2b6/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+      "rating": 4.66667,
+      "url": "https://apps.apple.com/cn/app/fotospot-road-trip-community/id1200952700?uo=4",
+      "region": "cn",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        38.0,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 38.0
+        },
+        {
+          "d": "2026-10-20",
+          "p": 0
+        }
+      ],
+      "page": "app/cn-1200952700.html"
+    },
+    {
+      "id": "6775106021",
+      "name": "简册",
+      "dev": "晨阳 成",
+      "genre": "摄影与录像",
+      "normal": "¥8.00",
+      "current": "免费",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/51/e0/be/51e0beb3-70ad-07fe-533f-6488aa5ac4ee/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/512x512bb.jpg",
+      "rating": 4.66667,
+      "url": "https://apps.apple.com/cn/app/%E7%AE%80%E5%86%8C/id6775106021?uo=4",
+      "region": "cn",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        8.0,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 8.0
+        },
+        {
+          "d": "2026-10-20",
+          "p": 0
+        }
+      ],
+      "page": "app/cn-6775106021.html"
+    },
+    {
+      "id": "6799760170",
+      "name": "Pralo-构图引导氛围感相机",
+      "dev": "Yiwu Aolinai Network Technology Co., Ltd.",
+      "genre": "摄影与录像",
+      "normal": "¥8.00",
+      "current": "免费",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1c/d9/f8/1cd9f838-b70b-b856-f716-70b79d2de4ca/AppIcon-0-0-1x_U007ephone-0-1-0-P3-85-220.png/512x512bb.jpg",
+      "rating": 4.63636,
+      "url": "https://apps.apple.com/cn/app/pralo-%E6%9E%84%E5%9B%BE%E5%BC%95%E5%AF%BC%E6%B0%9B%E5%9B%B4%E6%84%9F%E7%9B%B8%E6%9C%BA/id6799760170?uo=4",
+      "region": "cn",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        8.0,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 8.0
+        },
+        {
+          "d": "2026-10-20",
+          "p": 0
+        }
+      ],
+      "page": "app/cn-6799760170.html"
+    },
+    {
+      "id": "1587301632",
+      "name": "全能记(录音,备忘,流水)",
+      "dev": "莉 朱",
+      "genre": "工具",
+      "normal": "¥28.00",
+      "current": "免费",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/89/59/96/8959968b-9509-d517-6970-bf90d931691e/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+      "rating": 4.61538,
+      "url": "https://apps.apple.com/cn/app/%E5%85%A8%E8%83%BD%E8%AE%B0-%E5%BD%95%E9%9F%B3-%E5%A4%87%E5%BF%98-%E6%B5%81%E6%B0%B4/id1587301632?uo=4",
+      "region": "cn",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        28.0,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 28.0
+        },
+        {
+          "d": "2026-10-20",
+          "p": 0
+        }
+      ],
+      "page": "app/cn-1587301632.html"
+    },
+    {
+      "id": "1565641091",
+      "name": "Text Editor - Document Editor",
+      "dev": "Supagarn Pattananuchart",
+      "genre": "软件开发工具",
+      "normal": "¥1.99",
+      "current": "免费",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/85/dc/2e/85dc2eed-c97d-4879-3b9c-2cca397d598a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "rating": 4.57895,
+      "url": "https://apps.apple.com/cn/app/text-editor-document-editor/id1565641091?uo=4",
+      "region": "cn",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        1.99,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 1.99
+        },
+        {
+          "d": "2026-10-20",
+          "p": 0
+        }
+      ],
+      "page": "app/cn-1565641091.html"
+    },
+    {
+      "id": "1422480068",
+      "name": "Notes Writer Browser: Nautilus",
+      "dev": "Kairoos Solutions SL",
+      "genre": "效率",
+      "normal": "¥14.99",
+      "current": "免费",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/15/fa/cb/15facb99-6d36-1fa7-5c62-8b19aa632849/NautilusAppIcon-0-0-1x_U007epad-0-0-0-1-0-0-85-220.png/512x512bb.jpg",
+      "rating": 4.51028,
+      "url": "https://apps.apple.com/cn/app/notes-writer-browser-nautilus/id1422480068?uo=4",
+      "region": "cn",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        14.99,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 14.99
+        },
+        {
+          "d": "2026-10-20",
+          "p": 0
+        }
+      ],
+      "page": "app/cn-1422480068.html"
+    },
+    {
+      "id": "1255345512",
+      "name": "录音机 - 备忘,录音",
+      "dev": "莉 朱",
+      "genre": "工具",
+      "normal": "¥28.00",
+      "current": "免费",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/d4/2a/c6/d42ac6d3-6760-317d-6a56-0054a1beaa73/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
+      "rating": 4.47581,
+      "url": "https://apps.apple.com/cn/app/%E5%BD%95%E9%9F%B3%E6%9C%BA-%E5%A4%87%E5%BF%98-%E5%BD%95%E9%9F%B3/id1255345512?uo=4",
+      "region": "cn",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        28.0,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 28.0
+        },
+        {
+          "d": "2026-10-20",
+          "p": 0
+        }
+      ],
+      "page": "app/cn-1255345512.html"
+    },
+    {
+      "id": "6748287593",
+      "name": "问题盒子-清空大脑，告别内耗",
+      "dev": "22F",
+      "genre": "健康健美",
+      "normal": "¥6.00",
+      "current": "免费",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0b/d8/53/0bd85368-4003-728c-a7e0-b2a98ebbba66/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "rating": 4.44827,
+      "url": "https://apps.apple.com/cn/app/%E9%97%AE%E9%A2%98%E7%9B%92%E5%AD%90-%E6%B8%85%E7%A9%BA%E5%A4%A7%E8%84%91-%E5%91%8A%E5%88%AB%E5%86%85%E8%80%97/id6748287593?uo=4",
+      "region": "cn",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        6.0,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 6.0
+        },
+        {
+          "d": "2026-10-20",
+          "p": 0
+        }
+      ],
+      "page": "app/cn-6748287593.html"
+    },
+    {
+      "id": "1590485332",
+      "name": "记办猫",
+      "dev": "镔钥 陆",
+      "genre": "生活",
+      "normal": "¥1.00",
+      "current": "免费",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/97/38/d0/9738d01a-a2ae-cd84-2cb4-78c0b20d46d4/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "rating": 4.43478,
+      "url": "https://apps.apple.com/cn/app/%E8%AE%B0%E5%8A%9E%E7%8C%AB/id1590485332?uo=4",
+      "region": "cn",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        1.0,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 1.0
+        },
+        {
+          "d": "2026-10-20",
+          "p": 0
+        }
+      ],
+      "page": "app/cn-1590485332.html"
+    },
+    {
+      "id": "1396346170",
+      "name": "Daily English Grammar Practice",
+      "dev": "Hau Bui Van",
+      "genre": "教育",
+      "normal": "¥15.00",
+      "current": "免费",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/83/75/79837501-27f2-0555-5379-b303c95fb171/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "rating": 4.29955,
+      "url": "https://apps.apple.com/cn/app/daily-english-grammar-practice/id1396346170?uo=4",
+      "region": "cn",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        15.0,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 15.0
+        },
+        {
+          "d": "2026-10-20",
+          "p": 0
+        }
+      ],
+      "page": "app/cn-1396346170.html"
+    },
+    {
+      "id": "6754768925",
+      "name": "音频提取器: 视频转音频&格式转换&MP3转换器&铃声制作",
+      "dev": "一文 陈",
+      "genre": "工具",
+      "normal": "¥0.99",
+      "current": "免费",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ac/f4/09/acf409fe-a633-2ab8-206f-225e768b6ead/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "rating": 4.2,
+      "url": "https://apps.apple.com/cn/app/%E9%9F%B3%E9%A2%91%E6%8F%90%E5%8F%96%E5%99%A8-%E8%A7%86%E9%A2%91%E8%BD%AC%E9%9F%B3%E9%A2%91-%E6%A0%BC%E5%BC%8F%E8%BD%AC%E6%8D%A2-mp3%E8%BD%AC%E6%8D%A2%E5%99%A8-%E9%93%83%E5%A3%B0%E5%88%B6%E4%BD%9C/id6754768925?uo=4",
+      "region": "cn",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        0.99,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 0.99
+        },
+        {
+          "d": "2026-10-20",
+          "p": 0
+        }
+      ],
+      "page": "app/cn-6754768925.html"
+    },
+    {
+      "id": "364502063",
+      "name": "PDF Reader Pro Edition®",
+      "dev": "iTECH DEVELOPMENT SYSTEMS INC.",
+      "genre": "商务",
+      "normal": "¥1.99",
+      "current": "免费",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/06/ed/e9/06ede90a-d8a3-a0fa-de47-256e8c015f7e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "rating": 4.08333,
+      "url": "https://apps.apple.com/cn/app/pdf-reader-pro-edition/id364502063?uo=4",
+      "region": "cn",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        1.99,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 1.99
+        },
+        {
+          "d": "2026-10-20",
+          "p": 0
+        }
+      ],
+      "page": "app/cn-364502063.html"
+    },
+    {
+      "id": "1617819308",
+      "name": "任意三角形 专业的",
+      "dev": "Glindemann, Sennoun, Langer GbR",
+      "genre": "教育",
+      "normal": "¥22.00",
+      "current": "免费",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1a/9a/2d/1a9a2df8-558f-5e04-7436-d586f9b72a4b/AppIcon-AT-PRO-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "rating": 4,
+      "url": "https://apps.apple.com/cn/app/%E4%BB%BB%E6%84%8F%E4%B8%89%E8%A7%92%E5%BD%A2-%E4%B8%93%E4%B8%9A%E7%9A%84/id1617819308?uo=4",
+      "region": "cn",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        22.0,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 22.0
+        },
+        {
+          "d": "2026-10-20",
+          "p": 0
+        }
+      ],
+      "page": "app/cn-1617819308.html"
+    },
+    {
+      "id": "1497475541",
+      "name": "百分比计算器 专业的",
+      "dev": "Glindemann, Sennoun, Langer GbR",
+      "genre": "教育",
+      "normal": "¥15.00",
+      "current": "免费",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c5/4d/64/c54d64e2-05e1-46bd-6690-dd672b6832e3/AppIcon-PC-PRO-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "rating": 3.66667,
+      "url": "https://apps.apple.com/cn/app/%E7%99%BE%E5%88%86%E6%AF%94%E8%AE%A1%E7%AE%97%E5%99%A8-%E4%B8%93%E4%B8%9A%E7%9A%84/id1497475541?uo=4",
+      "region": "cn",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        15.0,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 15.0
+        },
+        {
+          "d": "2026-10-20",
+          "p": 0
+        }
+      ],
+      "page": "app/cn-1497475541.html"
+    },
+    {
+      "id": "918925756",
+      "name": "iMonitor - 系统监视器",
+      "dev": "UniversalWind",
+      "genre": "工具",
+      "normal": "¥1.99",
+      "current": "免费",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/41/f0/5f/41f05f7f-21b2-b9f3-250f-4dadb61472ef/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "rating": 3.17544,
+      "url": "https://apps.apple.com/cn/app/imonitor-%E7%B3%BB%E7%BB%9F%E7%9B%91%E8%A7%86%E5%99%A8/id918925756?uo=4",
+      "region": "cn",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        1.99,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 1.99
+        },
+        {
+          "d": "2026-10-20",
+          "p": 0
+        }
+      ],
+      "page": "app/cn-918925756.html"
+    },
+    {
+      "id": "1234575605",
+      "name": "一战时间轴 - 一战历史",
+      "dev": "子浩 张",
+      "genre": "参考资料",
+      "normal": "¥22.00",
+      "current": "免费",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/cb/e0/21/cbe021f7-efdb-4f6a-6f5c-55b404df2e1c/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
+      "rating": 3,
+      "url": "https://apps.apple.com/cn/app/%E4%B8%80%E6%88%98%E6%97%B6%E9%97%B4%E8%BD%B4-%E4%B8%80%E6%88%98%E5%8E%86%E5%8F%B2/id1234575605?uo=4",
+      "region": "cn",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        22.0,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 22.0
+        },
+        {
+          "d": "2026-10-20",
+          "p": 0
+        }
+      ],
+      "page": "app/cn-1234575605.html"
+    },
+    {
+      "id": "1606376541",
+      "name": "单位圆 专业的",
+      "dev": "Glindemann, Sennoun, Langer GbR",
+      "genre": "教育",
+      "normal": "¥15.00",
+      "current": "免费",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/00/1a/56/001a5626-7769-b5d2-83cc-b1a3858ff804/AppIcon-UC-PRO-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "rating": 3,
+      "url": "https://apps.apple.com/cn/app/%E5%8D%95%E4%BD%8D%E5%9C%86-%E4%B8%93%E4%B8%9A%E7%9A%84/id1606376541?uo=4",
+      "region": "cn",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        15.0,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 15.0
+        },
+        {
+          "d": "2026-10-20",
+          "p": 0
+        }
+      ],
+      "page": "app/cn-1606376541.html"
+    },
+    {
+      "id": "1567415905",
+      "name": "直角三角形 专业的",
+      "dev": "Glindemann, Sennoun, Langer GbR",
+      "genre": "教育",
+      "normal": "¥22.00",
+      "current": "免费",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7c/6f/d8/7c6fd81b-92c9-17ec-d4dd-9c248ca978bd/AppIcon-RT-PRO-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "rating": 3,
+      "url": "https://apps.apple.com/cn/app/%E7%9B%B4%E8%A7%92%E4%B8%89%E8%A7%92%E5%BD%A2-%E4%B8%93%E4%B8%9A%E7%9A%84/id1567415905?uo=4",
+      "region": "cn",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        22.0,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 22.0
+        },
+        {
+          "d": "2026-10-20",
+          "p": 0
+        }
+      ],
+      "page": "app/cn-1567415905.html"
+    },
+    {
+      "id": "1500087480",
+      "name": "简化与求解方程 专业的",
+      "dev": "Glindemann, Sennoun, Langer GbR",
+      "genre": "教育",
+      "normal": "¥15.00",
+      "current": "免费",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/be/36/2a/be362a10-f1c3-3adf-48ed-a28ae709f406/AppIcon-FX-PRO-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "rating": 3,
+      "url": "https://apps.apple.com/cn/app/%E7%AE%80%E5%8C%96%E4%B8%8E%E6%B1%82%E8%A7%A3%E6%96%B9%E7%A8%8B-%E4%B8%93%E4%B8%9A%E7%9A%84/id1500087480?uo=4",
+      "region": "cn",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        15.0,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 15.0
+        },
+        {
+          "d": "2026-10-20",
+          "p": 0
+        }
+      ],
+      "page": "app/cn-1500087480.html"
+    },
+    {
+      "id": "1273601215",
+      "name": "解决毕达哥拉斯 专业的",
+      "dev": "Glindemann, Sennoun, Langer GbR",
+      "genre": "教育",
+      "normal": "¥15.00",
+      "current": "免费",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/75/42/ee/7542eeb2-fd88-a578-518c-2a2e73afe55a/AppIcon-PY-PRO-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "rating": 3,
+      "url": "https://apps.apple.com/cn/app/%E8%A7%A3%E5%86%B3%E6%AF%95%E8%BE%BE%E5%93%A5%E6%8B%89%E6%96%AF-%E4%B8%93%E4%B8%9A%E7%9A%84/id1273601215?uo=4",
+      "region": "cn",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        15.0,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 15.0
+        },
+        {
+          "d": "2026-10-20",
+          "p": 0
+        }
+      ],
+      "page": "app/cn-1273601215.html"
+    },
+    {
+      "id": "302036335",
+      "name": "iTruco",
+      "dev": "CR Net Consultoria em Informacao Ltda",
+      "genre": "游戏",
+      "normal": "¥8.00",
+      "current": "免费",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ed/39/ef/ed39ef7d-e7bd-a59b-9160-8a28e99c9098/itruco-0-0-1x_U007epad-0-1-sRGB-85-220.png/512x512bb.jpg",
+      "rating": 1.5,
+      "url": "https://apps.apple.com/cn/app/itruco/id302036335?uo=4",
+      "region": "cn",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        8.0,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 8.0
+        },
+        {
+          "d": "2026-10-20",
+          "p": 0
+        }
+      ],
+      "page": "app/cn-302036335.html"
+    },
+    {
+      "id": "972378706",
+      "name": "Mosaic Camera モザイクカメラ +",
+      "dev": "Han-Chung Lin",
+      "genre": "摄影与录像",
+      "normal": "¥0.99",
+      "current": "免费",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/be/c5/22/bec5223f-85ff-1e2e-837d-7696d21e1d1d/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
+      "rating": 1,
+      "url": "https://apps.apple.com/cn/app/mosaic-camera-%E3%83%A2%E3%82%B6%E3%82%A4%E3%82%AF%E3%82%AB%E3%83%A1%E3%83%A9/id972378706?uo=4",
+      "region": "cn",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        0.99,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 0.99
+        },
+        {
+          "d": "2026-10-20",
+          "p": 0
+        }
+      ],
+      "page": "app/cn-972378706.html"
+    },
+    {
+      "id": "1019723700",
+      "name": "A Level Economics Revision",
+      "dev": "GCSE Exams",
+      "genre": "教育",
+      "normal": "¥8.00",
+      "current": "免费",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/28/04/6328044e-69b5-3e42-9c43-c222a968ed5c/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "rating": 0,
+      "url": "https://apps.apple.com/cn/app/a-level-economics-revision/id1019723700?uo=4",
+      "region": "cn",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        8.0,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 8.0
+        },
+        {
+          "d": "2026-10-20",
+          "p": 0
+        }
+      ],
+      "page": "app/cn-1019723700.html"
+    },
+    {
+      "id": "6809153754",
+      "name": "Accrue",
+      "dev": "Hayden Kong",
+      "genre": "健康健美",
+      "normal": "¥15.00",
+      "current": "免费",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a2/7f/32/a27f3207-93dd-bdc7-9ffa-91861ae97dac/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "rating": 0,
+      "url": "https://apps.apple.com/cn/app/accrue/id6809153754?uo=4",
+      "region": "cn",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        15.0,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 15.0
+        },
+        {
+          "d": "2026-10-20",
+          "p": 0
+        }
+      ],
+      "page": "app/cn-6809153754.html"
+    },
+    {
+      "id": "6811657028",
+      "name": "Afters: Disposable Camera",
+      "dev": "Furkan Alp Gunay",
+      "genre": "摄影与录像",
+      "normal": "¥8.00",
+      "current": "免费",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f3/4d/55/f34d5502-0bba-75eb-c89a-8ae33617744e/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+      "rating": 0,
+      "url": "https://apps.apple.com/cn/app/afters-disposable-camera/id6811657028?uo=4",
+      "region": "cn",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        8.0,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 8.0
+        },
+        {
+          "d": "2026-10-20",
+          "p": 0
+        }
+      ],
+      "page": "app/cn-6811657028.html"
+    },
+    {
+      "id": "6757513032",
+      "name": "AiGoodbye",
+      "dev": "Dmitry Mikhaylov",
+      "genre": "工具",
+      "normal": "¥22.00",
+      "current": "免费",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d8/49/66/d8496668-f2c4-42a9-c74a-67808392ade3/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "rating": 0,
+      "url": "https://apps.apple.com/cn/app/aigoodbye/id6757513032?uo=4",
+      "region": "cn",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        22.0,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 22.0
+        },
+        {
+          "d": "2026-10-20",
+          "p": 0
+        }
+      ],
+      "page": "app/cn-6757513032.html"
+    },
+    {
+      "id": "6814068506",
+      "name": "Ankipan",
+      "dev": "Zeyi Fan",
+      "genre": "教育",
+      "normal": "¥0.99",
+      "current": "免费",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/23/9c/3a/239c3a02-b8cc-5a50-1d6b-b2226747b2b4/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+      "rating": 0,
+      "url": "https://apps.apple.com/cn/app/ankipan/id6814068506?uo=4",
+      "region": "cn",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        0.99,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 0.99
+        },
+        {
+          "d": "2026-10-20",
+          "p": 0
+        }
+      ],
+      "page": "app/cn-6814068506.html"
+    },
+    {
+      "id": "6790925809",
+      "name": "Are We There Yet Bloopbert?",
+      "dev": "H Valeur",
+      "genre": "旅游",
+      "normal": "¥8.00",
+      "current": "免费",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fc/9a/74/fc9a7465-b83a-84ab-090b-92412584b784/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+      "rating": 0,
+      "url": "https://apps.apple.com/cn/app/are-we-there-yet-bloopbert/id6790925809?uo=4",
+      "region": "cn",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        8.0,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 8.0
+        },
+        {
+          "d": "2026-10-20",
+          "p": 0
+        }
+      ],
+      "page": "app/cn-6790925809.html"
+    },
+    {
+      "id": "6771382240",
+      "name": "AspectArc",
+      "dev": "Robert Corbin",
+      "genre": "摄影与录像",
+      "normal": "¥0.99",
+      "current": "免费",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/78/ee/6f/78ee6f4b-78e5-3f82-b90c-69c83230f5bd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "rating": 0,
+      "url": "https://apps.apple.com/cn/app/aspectarc/id6771382240?uo=4",
+      "region": "cn",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        0.99,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 0.99
+        },
+        {
+          "d": "2026-10-20",
+          "p": 0
+        }
+      ],
+      "page": "app/cn-6771382240.html"
+    },
+    {
+      "id": "6773369340",
+      "name": "AstroSpell",
+      "dev": "Robert Corbin",
+      "genre": "游戏",
+      "normal": "¥8.00",
+      "current": "免费",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5d/98/8a/5d988afe-13b8-1d80-3d57-ee524e7f468a/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "rating": 0,
+      "url": "https://apps.apple.com/cn/app/astrospell/id6773369340?uo=4",
+      "region": "cn",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        8.0,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 8.0
+        },
+        {
+          "d": "2026-10-20",
+          "p": 0
+        }
+      ],
+      "page": "app/cn-6773369340.html"
+    },
+    {
+      "id": "6443764014",
+      "name": "Basketball Game #1",
+      "dev": "H Valeur",
+      "genre": "游戏",
+      "normal": "¥8.00",
+      "current": "免费",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/6e/48/ee/6e48ee6b-90b4-b6b0-9b7c-cc527469ae25/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+      "rating": 0,
+      "url": "https://apps.apple.com/cn/app/basketball-game-1/id6443764014?uo=4",
+      "region": "cn",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        8.0,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 8.0
+        },
+        {
+          "d": "2026-10-20",
+          "p": 0
+        }
+      ],
+      "page": "app/cn-6443764014.html"
+    },
+    {
+      "id": "6788859931",
+      "name": "Body Log: Calisthenics",
+      "dev": "Spruzzo Labs Inc.",
+      "genre": "健康健美",
+      "normal": "¥0.99",
+      "current": "免费",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/df/75/6f/df756f0e-e8d2-7f52-69e9-21eedf2d1190/AppIcon-0-0-1x_U007ephone-0-0-0-1-0-85-220.png/512x512bb.jpg",
+      "rating": 0,
+      "url": "https://apps.apple.com/cn/app/body-log-calisthenics/id6788859931?uo=4",
+      "region": "cn",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        0.99,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 0.99
+        },
+        {
+          "d": "2026-10-20",
+          "p": 0
+        }
+      ],
+      "page": "app/cn-6788859931.html"
+    },
+    {
+      "id": "6771948686",
+      "name": "Boltloft",
+      "dev": "Robert Corbin",
+      "genre": "游戏",
+      "normal": "¥8.00",
+      "current": "免费",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e8/bc/e7/e8bce7f5-2544-bfae-5bd4-9524f4aacdee/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "rating": 0,
+      "url": "https://apps.apple.com/cn/app/boltloft/id6771948686?uo=4",
+      "region": "cn",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        8.0,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 8.0
+        },
+        {
+          "d": "2026-10-20",
+          "p": 0
+        }
+      ],
+      "page": "app/cn-6771948686.html"
+    },
+    {
+      "id": "6796486391",
+      "name": "BreakThree",
+      "dev": "Makoto Fukuoka",
+      "genre": "健康健美",
+      "normal": "¥3.00",
+      "current": "免费",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/32/28/49/322849fd-f892-2f5c-8d91-4c8c5d058d47/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "rating": 0,
+      "url": "https://apps.apple.com/cn/app/breakthree/id6796486391?uo=4",
+      "region": "cn",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        3.0,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 3.0
+        },
+        {
+          "d": "2026-10-20",
+          "p": 0
+        }
+      ],
+      "page": "app/cn-6796486391.html"
+    },
+    {
+      "id": "6816500543",
+      "name": "BurnClub - Song Discovery",
+      "dev": "Michael Martinho",
+      "genre": "音乐",
+      "normal": "¥0.99",
+      "current": "免费",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/79/fc/42/79fc4221-4f67-a7cd-518e-cd7025551b76/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/512x512bb.jpg",
+      "rating": 0,
+      "url": "https://apps.apple.com/cn/app/burnclub-song-discovery/id6816500543?uo=4",
+      "region": "cn",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        0.99,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 0.99
+        },
+        {
+          "d": "2026-10-20",
+          "p": 0
+        }
+      ],
+      "page": "app/cn-6816500543.html"
+    },
+    {
+      "id": "6757181256",
+      "name": "Byondbites",
+      "dev": "Sharish Khandia Abdulhusain",
+      "genre": "美食佳饮",
+      "normal": "¥38.00",
+      "current": "免费",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/37/1b/53/371b53b9-4d21-69ff-cdbb-a238216fe23f/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+      "rating": 0,
+      "url": "https://apps.apple.com/cn/app/byondbites/id6757181256?uo=4",
+      "region": "cn",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        38.0,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 38.0
+        },
+        {
+          "d": "2026-10-20",
+          "p": 0
+        }
+      ],
+      "page": "app/cn-6757181256.html"
+    },
+    {
+      "id": "6818876548",
+      "name": "Calpaper: Today at a Glance",
+      "dev": "Daniel Garcia",
+      "genre": "效率",
+      "normal": "¥22.00",
+      "current": "免费",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3e/ec/d5/3eecd560-5206-c434-ce66-9774b9484560/AppIcon-BurntOrange-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+      "rating": 0,
+      "url": "https://apps.apple.com/cn/app/calpaper-today-at-a-glance/id6818876548?uo=4",
+      "region": "cn",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        22.0,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 22.0
+        },
+        {
+          "d": "2026-10-20",
+          "p": 0
+        }
+      ],
+      "page": "app/cn-6818876548.html"
+    },
+    {
+      "id": "6821034945",
+      "name": "Charcoal Studio",
+      "dev": "Digital Hole Pvt. Ltd.",
+      "genre": "图形与设计",
+      "normal": "¥8.00",
+      "current": "免费",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/12/98/07/1298074e-3155-90be-6bee-aaae4d487ed4/charcolicon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "rating": 0,
+      "url": "https://apps.apple.com/cn/app/charcoal-studio/id6821034945?uo=4",
+      "region": "cn",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        8.0,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 8.0
+        },
+        {
+          "d": "2026-10-20",
+          "p": 0
+        }
+      ],
+      "page": "app/cn-6821034945.html"
+    },
+    {
+      "id": "6760746571",
+      "name": "Chronometer : World Clock",
+      "dev": "Chathushka Rodrigo",
+      "genre": "工具",
+      "normal": "¥0.99",
+      "current": "免费",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ba/c0/d7/bac0d778-d9ed-2d68-fc1d-52d6563277ed/AppIcon-0-1x_U007epad-0-1-85-220-0.png/512x512bb.jpg",
+      "rating": 0,
+      "url": "https://apps.apple.com/cn/app/chronometer-world-clock/id6760746571?uo=4",
+      "region": "cn",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        0.99,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 0.99
+        },
+        {
+          "d": "2026-10-20",
+          "p": 0
+        }
+      ],
+      "page": "app/cn-6760746571.html"
+    },
+    {
+      "id": "6763320866",
+      "name": "CleanBite",
+      "dev": "贺 周",
+      "genre": "工具",
+      "normal": "¥0.99",
+      "current": "免费",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/78/6a/00/786a0018-432e-3d0c-43e3-d0bd1168aa1d/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "rating": 0,
+      "url": "https://apps.apple.com/cn/app/cleanbite/id6763320866?uo=4",
+      "region": "cn",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        0.99,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 0.99
+        },
+        {
+          "d": "2026-10-20",
+          "p": 0
+        }
+      ],
+      "page": "app/cn-6763320866.html"
+    },
+    {
+      "id": "6765813810",
+      "name": "ContactVault Pro",
+      "dev": "贺 周",
+      "genre": "工具",
+      "normal": "¥0.99",
+      "current": "免费",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bf/a0/b7/bfa0b70b-42c0-6b61-0492-bb9b07c286cc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "rating": 0,
+      "url": "https://apps.apple.com/cn/app/contactvault-pro/id6765813810?uo=4",
+      "region": "cn",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        0.99,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 0.99
+        },
+        {
+          "d": "2026-10-20",
+          "p": 0
+        }
+      ],
+      "page": "app/cn-6765813810.html"
+    },
+    {
+      "id": "6795683248",
+      "name": "Contactmend: Safe Merge",
+      "dev": "Robert Corbin",
+      "genre": "效率",
+      "normal": "¥0.99",
+      "current": "免费",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/08/f1/3c/08f13c23-63e9-2cf6-f6ba-fc2b90f87f67/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "rating": 0,
+      "url": "https://apps.apple.com/cn/app/contactmend-safe-merge/id6795683248?uo=4",
+      "region": "cn",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        0.99,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 0.99
+        },
+        {
+          "d": "2026-10-20",
+          "p": 0
+        }
+      ],
+      "page": "app/cn-6795683248.html"
+    },
+    {
+      "id": "6810394106",
+      "name": "Cooked Focus Lock",
+      "dev": "haehun ryu",
+      "genre": "效率",
+      "normal": "¥38.00",
+      "current": "免费",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/76/fd/0a/76fd0ab0-d982-b657-02a2-3f1dcff17a69/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "rating": 0,
+      "url": "https://apps.apple.com/cn/app/cooked-focus-lock/id6810394106?uo=4",
+      "region": "cn",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        38.0,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 38.0
+        },
+        {
+          "d": "2026-10-20",
+          "p": 0
+        }
+      ],
+      "page": "app/cn-6810394106.html"
+    },
+    {
+      "id": "1571341672",
+      "name": "DIAX - AnatoQuiz",
+      "dev": "SANTOS DIAS MEDICAL CARE SS",
+      "genre": "医疗",
+      "normal": "¥15.00",
+      "current": "免费",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ba/c9/03/bac903bc-dcac-303f-556f-1547680c9091/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
+      "rating": 0,
+      "url": "https://apps.apple.com/cn/app/diax-anatoquiz/id1571341672?uo=4",
+      "region": "cn",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        15.0,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 15.0
+        },
+        {
+          "d": "2026-10-20",
+          "p": 0
+        }
+      ],
+      "page": "app/cn-1571341672.html"
+    },
+    {
+      "id": "6804723908",
+      "name": "DataFastView",
+      "dev": "Moscoso Pacheco, Gonzalo Juvenal",
+      "genre": "工具",
+      "normal": "¥8.00",
+      "current": "免费",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a4/d6/e8/a4d6e8ab-9f42-8cbd-4dec-efd1624a6136/AppIcon-1x_U007ephone-0-1-0-85-220-0.png/512x512bb.jpg",
+      "rating": 0,
+      "url": "https://apps.apple.com/cn/app/datafastview/id6804723908?uo=4",
+      "region": "cn",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        8.0,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 8.0
+        },
+        {
+          "d": "2026-10-20",
+          "p": 0
+        }
+      ],
+      "page": "app/cn-6804723908.html"
+    },
+    {
+      "id": "6742457882",
+      "name": "Deco: Wallpaper & Stickers",
+      "dev": "William Jones",
+      "genre": "摄影与录像",
+      "normal": "¥22.00",
+      "current": "免费",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/ec/75/09ec75d9-9d2f-8575-b4da-a1c46bcd7e7c/Default-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-85-220.png/512x512bb.jpg",
+      "rating": 0,
+      "url": "https://apps.apple.com/cn/app/deco-wallpaper-stickers/id6742457882?uo=4",
+      "region": "cn",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        22.0,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 22.0
+        },
+        {
+          "d": "2026-10-20",
+          "p": 0
+        }
+      ],
+      "page": "app/cn-6742457882.html"
+    },
+    {
+      "id": "6818038868",
+      "name": "Dozi - Your Bedtime Companion",
+      "dev": "Josh Bradley Cimanes",
+      "genre": "健康健美",
+      "normal": "¥2.99",
+      "current": "免费",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3e/91/86/3e9186a3-039d-230c-3de0-701d8dc93278/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+      "rating": 0,
+      "url": "https://apps.apple.com/cn/app/dozi-your-bedtime-companion/id6818038868?uo=4",
+      "region": "cn",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        2.99,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 2.99
+        },
+        {
+          "d": "2026-10-20",
+          "p": 0
+        }
+      ],
+      "page": "app/cn-6818038868.html"
+    },
+    {
+      "id": "6771949933",
+      "name": "Driftpulse Racer: Drift Game",
+      "dev": "Robert Corbin",
+      "genre": "游戏",
+      "normal": "¥8.00",
+      "current": "免费",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d0/1a/2f/d01a2f66-a1cc-e9a8-65ed-78a3977023e2/AppIcon-1x_U007epad-0-1-85-220-0.png/512x512bb.jpg",
+      "rating": 0,
+      "url": "https://apps.apple.com/cn/app/driftpulse-racer-drift-game/id6771949933?uo=4",
+      "region": "cn",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        8.0,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 8.0
+        },
+        {
+          "d": "2026-10-20",
+          "p": 0
+        }
+      ],
+      "page": "app/cn-6771949933.html"
+    },
+    {
+      "id": "6770382278",
+      "name": "Drive Case",
+      "dev": "Robert Corbin",
+      "genre": "效率",
+      "normal": "¥8.00",
+      "current": "免费",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/af/13/42/af134270-ba50-9344-b0c0-8be456b79d1e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "rating": 0,
+      "url": "https://apps.apple.com/cn/app/drive-case/id6770382278?uo=4",
+      "region": "cn",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        8.0,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 8.0
+        },
+        {
+          "d": "2026-10-20",
+          "p": 0
+        }
+      ],
+      "page": "app/cn-6770382278.html"
+    },
+    {
+      "id": "6752997612",
+      "name": "Easy FA",
+      "dev": "LASSE MAHNKE",
+      "genre": "教育",
+      "normal": "¥8.00",
+      "current": "免费",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/72/81/91/728191b2-e3ac-cc8e-ae67-9c032727ee2b/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+      "rating": 0,
+      "url": "https://apps.apple.com/cn/app/easy-fa/id6752997612?uo=4",
+      "region": "cn",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        8.0,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 8.0
+        },
+        {
+          "d": "2026-10-20",
+          "p": 0
+        }
+      ],
+      "page": "app/cn-6752997612.html"
+    },
+    {
+      "id": "6749265146",
+      "name": "Echoes of Vasteria",
+      "dev": "Blindsided Games",
+      "genre": "游戏",
+      "normal": "¥8.00",
+      "current": "免费",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8f/9c/a8/8f9ca826-d7d8-28de-3004-2313ef10ae0a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "rating": 0,
+      "url": "https://apps.apple.com/cn/app/echoes-of-vasteria/id6749265146?uo=4",
+      "region": "cn",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        8.0,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 8.0
+        },
+        {
+          "d": "2026-10-20",
+          "p": 0
+        }
+      ],
+      "page": "app/cn-6749265146.html"
+    },
+    {
+      "id": "6795683809",
+      "name": "Expiryloom: Document Dates",
+      "dev": "Robert Corbin",
+      "genre": "效率",
+      "normal": "¥8.00",
+      "current": "免费",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c4/7c/22/c47c223c-0e46-b147-3f74-c15a69dbc4c3/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "rating": 0,
+      "url": "https://apps.apple.com/cn/app/expiryloom-document-dates/id6795683809?uo=4",
+      "region": "cn",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        8.0,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 8.0
+        },
+        {
+          "d": "2026-10-20",
+          "p": 0
+        }
+      ],
+      "page": "app/cn-6795683809.html"
+    },
+    {
+      "id": "1041734680",
+      "name": "Fitness Test Pro Elite",
+      "dev": "Nathan Edkin",
+      "genre": "健康健美",
+      "normal": "¥8.00",
+      "current": "免费",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7a/b8/dd/7ab8dd31-56e5-e873-d869-30539cc6b1a8/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "rating": 0,
+      "url": "https://apps.apple.com/cn/app/fitness-test-pro-elite/id1041734680?uo=4",
+      "region": "cn",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        8.0,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 8.0
+        },
+        {
+          "d": "2026-10-20",
+          "p": 0
+        }
+      ],
+      "page": "app/cn-1041734680.html"
+    },
+    {
+      "id": "6815546981",
+      "name": "Flip Clock: Desk & Alarm Clock",
+      "dev": "Umesh Ghimire",
+      "genre": "工具",
+      "normal": "¥0.99",
+      "current": "免费",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d3/ae/5d/d3ae5dea-2197-cc88-e77b-c9dea51860af/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+      "rating": 0,
+      "url": "https://apps.apple.com/cn/app/flip-clock-desk-alarm-clock/id6815546981?uo=4",
+      "region": "cn",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        0.99,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 0.99
+        },
+        {
+          "d": "2026-10-20",
+          "p": 0
+        }
+      ],
+      "page": "app/cn-6815546981.html"
+    },
+    {
+      "id": "6770367820",
+      "name": "Fur Vault Care: Pet Records",
+      "dev": "Robert Corbin",
+      "genre": "生活",
+      "normal": "¥8.00",
+      "current": "免费",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bc/d9/1a/bcd91a14-82b6-2679-4c99-bd89a1f115b3/AppIcon-1x_U007epad-0-1-85-220-0.png/512x512bb.jpg",
+      "rating": 0,
+      "url": "https://apps.apple.com/cn/app/fur-vault-care-pet-records/id6770367820?uo=4",
+      "region": "cn",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        8.0,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 8.0
+        },
+        {
+          "d": "2026-10-20",
+          "p": 0
+        }
+      ],
+      "page": "app/cn-6770367820.html"
+    },
+    {
+      "id": "6779552510",
+      "name": "GT7 调校计算器",
+      "dev": "Alex Gameli Heyman",
+      "genre": "工具",
+      "normal": "¥38.00",
+      "current": "免费",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/7b/b2/f37bb29f-7441-017d-52e9-42276378b739/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "rating": 0,
+      "url": "https://apps.apple.com/cn/app/gt7-%E8%B0%83%E6%A0%A1%E8%AE%A1%E7%AE%97%E5%99%A8/id6779552510?uo=4",
+      "region": "cn",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        38.0,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 38.0
+        },
+        {
+          "d": "2026-10-20",
+          "p": 0
+        }
+      ],
+      "page": "app/cn-6779552510.html"
+    },
+    {
+      "id": "562713600",
+      "name": "Gann 9",
+      "dev": "CIT Dates",
+      "genre": "财务",
+      "normal": "¥19.99",
+      "current": "免费",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1c/d8/bb/1cd8bbf2-72b2-3653-c8f8-c53253af40b3/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "rating": 0,
+      "url": "https://apps.apple.com/cn/app/gann-9/id562713600?uo=4",
+      "region": "cn",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        19.99,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 19.99
+        },
+        {
+          "d": "2026-10-20",
+          "p": 0
+        }
+      ],
+      "page": "app/cn-562713600.html"
+    },
+    {
+      "id": "6748658545",
+      "name": "Gymini: Quick Workouts",
+      "dev": "Moses Smith",
+      "genre": "健康健美",
+      "normal": "¥2.99",
+      "current": "免费",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d4/49/70/d44970d2-5c3c-6e3a-558d-d3c65b7bbb6f/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "rating": 0,
+      "url": "https://apps.apple.com/cn/app/gymini-quick-workouts/id6748658545?uo=4",
+      "region": "cn",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        2.99,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 2.99
+        },
+        {
+          "d": "2026-10-20",
+          "p": 0
+        }
+      ],
+      "page": "app/cn-6748658545.html"
+    },
+    {
+      "id": "6795486179",
+      "name": "Hexweft: Spell Roguelite",
+      "dev": "Robert Corbin",
+      "genre": "游戏",
+      "normal": "¥8.00",
+      "current": "免费",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f5/16/e3/f516e36d-d0a4-8c9f-abf1-c2be3a3e3ece/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "rating": 0,
+      "url": "https://apps.apple.com/cn/app/hexweft-spell-roguelite/id6795486179?uo=4",
+      "region": "cn",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        8.0,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 8.0
+        },
+        {
+          "d": "2026-10-20",
+          "p": 0
+        }
+      ],
+      "page": "app/cn-6795486179.html"
+    },
+    {
+      "id": "6769058003",
+      "name": "Hook Caption",
+      "dev": "Robert Corbin",
+      "genre": "摄影与录像",
+      "normal": "¥8.00",
+      "current": "免费",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/62/bc/62/62bc6286-e778-c19f-a774-824c4450da5a/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "rating": 0,
+      "url": "https://apps.apple.com/cn/app/hook-caption/id6769058003?uo=4",
+      "region": "cn",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        8.0,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 8.0
+        },
+        {
+          "d": "2026-10-20",
+          "p": 0
+        }
+      ],
+      "page": "app/cn-6769058003.html"
+    },
+    {
+      "id": "1489039761",
+      "name": "I Like Colors - Kids Learning",
+      "dev": "Burleigh Creative Apps",
+      "genre": "教育",
+      "normal": "¥8.00",
+      "current": "免费",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ac/7c/9b/ac7c9b81-85eb-4710-0d70-488c500111a7/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "rating": 0,
+      "url": "https://apps.apple.com/cn/app/i-like-colors-kids-learning/id1489039761?uo=4",
+      "region": "cn",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        8.0,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 8.0
+        },
+        {
+          "d": "2026-10-20",
+          "p": 0
+        }
+      ],
+      "page": "app/cn-1489039761.html"
+    },
+    {
+      "id": "6781424540",
+      "name": "Inner Tempo",
+      "dev": "Pedro Lanhoso",
+      "genre": "健康健美",
+      "normal": "¥0.99",
+      "current": "免费",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c5/a2/81/c5a281e5-b1cb-d137-bfb6-bc0d1197ae1e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "rating": 0,
+      "url": "https://apps.apple.com/cn/app/inner-tempo/id6781424540?uo=4",
+      "region": "cn",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        0.99,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 0.99
+        },
+        {
+          "d": "2026-10-20",
+          "p": 0
+        }
+      ],
+      "page": "app/cn-6781424540.html"
+    },
+    {
+      "id": "6797684994",
+      "name": "Iriora",
+      "dev": "天朔 张",
+      "genre": "摄影与录像",
+      "normal": "¥1.00",
+      "current": "免费",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7b/ef/b4/7befb403-b20f-b476-8ebc-d5bef2443b41/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "rating": 0,
+      "url": "https://apps.apple.com/cn/app/iriora/id6797684994?uo=4",
+      "region": "cn",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        1.0,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 1.0
+        },
+        {
+          "d": "2026-10-20",
+          "p": 0
+        }
+      ],
+      "page": "app/cn-6797684994.html"
+    },
+    {
+      "id": "1059257184",
+      "name": "JackArcher",
+      "dev": "Centro Studi Informatica di Danilo Priore",
+      "genre": "游戏",
+      "normal": "¥8.00",
+      "current": "免费",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c4/fd/79/c4fd797e-c35b-96dd-329f-7dc07f85a903/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+      "rating": 0,
+      "url": "https://apps.apple.com/cn/app/jackarcher/id1059257184?uo=4",
+      "region": "cn",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        8.0,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 8.0
+        },
+        {
+          "d": "2026-10-20",
+          "p": 0
+        }
+      ],
+      "page": "app/cn-1059257184.html"
+    },
+    {
+      "id": "310558966",
+      "name": "Jass",
+      "dev": "Sensetrails LLC",
+      "genre": "游戏",
+      "normal": "¥1.99",
+      "current": "免费",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/55/ea/98/55ea98a3-b734-1276-b2c8-6ae7559349dd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "rating": 0,
+      "url": "https://apps.apple.com/cn/app/jass/id310558966?uo=4",
+      "region": "cn",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        1.99,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 1.99
+        },
+        {
+          "d": "2026-10-20",
+          "p": 0
+        }
+      ],
+      "page": "app/cn-310558966.html"
+    },
+    {
+      "id": "541407651",
+      "name": "LearnType PRO",
+      "dev": "Bogovic Petar",
+      "genre": "教育",
+      "normal": "¥22.00",
+      "current": "免费",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2f/c4/c1/2fc4c1b7-a397-449e-0a2c-20f94ed0b3df/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "rating": 0,
+      "url": "https://apps.apple.com/cn/app/learntype-pro/id541407651?uo=4",
+      "region": "cn",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        22.0,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 22.0
+        },
+        {
+          "d": "2026-10-20",
+          "p": 0
+        }
+      ],
+      "page": "app/cn-541407651.html"
+    },
+    {
+      "id": "6788341894",
+      "name": "LiftLoggr",
+      "dev": "Pedro Lanhoso",
+      "genre": "健康健美",
+      "normal": "¥0.99",
+      "current": "免费",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/10/64/90/10649076-8c41-be32-4aae-479e7bb752cf/LiftLoggr-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "rating": 0,
+      "url": "https://apps.apple.com/cn/app/liftloggr/id6788341894?uo=4",
+      "region": "cn",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        0.99,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 0.99
+        },
+        {
+          "d": "2026-10-20",
+          "p": 0
+        }
+      ],
+      "page": "app/cn-6788341894.html"
+    },
+    {
+      "id": "6776309020",
+      "name": "Linejots",
+      "dev": "Robert Corbin",
+      "genre": "生活",
+      "normal": "¥0.99",
+      "current": "免费",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c5/8c/7c/c58c7c7c-cdc0-6754-a701-f28ea5964c41/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "rating": 0,
+      "url": "https://apps.apple.com/cn/app/linejots/id6776309020?uo=4",
+      "region": "cn",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        0.99,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 0.99
+        },
+        {
+          "d": "2026-10-20",
+          "p": 0
+        }
+      ],
+      "page": "app/cn-6776309020.html"
+    },
+    {
+      "id": "1219649976",
+      "name": "Linux Command Library",
+      "dev": "Simon Schubert",
+      "genre": "教育",
+      "normal": "¥8.00",
+      "current": "免费",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/aa/b6/4b/aab64b1d-cc3a-6d6b-ff86-d1267e59e258/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+      "rating": 0,
+      "url": "https://apps.apple.com/cn/app/linux-command-library/id1219649976?uo=4",
+      "region": "cn",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        8.0,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 8.0
+        },
+        {
+          "d": "2026-10-20",
+          "p": 0
+        }
+      ],
+      "page": "app/cn-1219649976.html"
+    },
+    {
+      "id": "6777675968",
+      "name": "Lucky 7 Machines",
+      "dev": "Sang Young Oh",
+      "genre": "娱乐",
+      "normal": "¥0.99",
+      "current": "免费",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/36/6c/53/366c53a1-73db-4b18-9f3a-974712b44ff9/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "rating": 0,
+      "url": "https://apps.apple.com/cn/app/lucky-7-machines/id6777675968?uo=4",
+      "region": "cn",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        0.99,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 0.99
+        },
+        {
+          "d": "2026-10-20",
+          "p": 0
+        }
+      ],
+      "page": "app/cn-6777675968.html"
+    },
+    {
+      "id": "1628010803",
+      "name": "Malrechnen",
+      "dev": "Christian Urff",
+      "genre": "教育",
+      "normal": "¥8.00",
+      "current": "免费",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/17/16/1e/17161ea2-70eb-ea53-7af6-5a75a2099245/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "rating": 0,
+      "url": "https://apps.apple.com/cn/app/malrechnen/id1628010803?uo=4",
+      "region": "cn",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        8.0,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 8.0
+        },
+        {
+          "d": "2026-10-20",
+          "p": 0
+        }
+      ],
+      "page": "app/cn-1628010803.html"
+    },
+    {
+      "id": "6795684042",
+      "name": "Marginlane: Seller Profit",
+      "dev": "Robert Corbin",
+      "genre": "商务",
+      "normal": "¥8.00",
+      "current": "免费",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/da/88/4e/da884ef0-cb90-333b-97c4-82e91715cf52/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "rating": 0,
+      "url": "https://apps.apple.com/cn/app/marginlane-seller-profit/id6795684042?uo=4",
+      "region": "cn",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        8.0,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 8.0
+        },
+        {
+          "d": "2026-10-20",
+          "p": 0
+        }
+      ],
+      "page": "app/cn-6795684042.html"
+    },
+    {
+      "id": "6794026946",
+      "name": "Mavlattice: Flight Logs",
+      "dev": "Robert Corbin",
+      "genre": "软件开发工具",
+      "normal": "¥8.00",
+      "current": "免费",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e9/1a/59/e91a59a5-51c1-b0fc-5ba2-1a169c66e810/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "rating": 0,
+      "url": "https://apps.apple.com/cn/app/mavlattice-flight-logs/id6794026946?uo=4",
+      "region": "cn",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        8.0,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 8.0
+        },
+        {
+          "d": "2026-10-20",
+          "p": 0
+        }
+      ],
+      "page": "app/cn-6794026946.html"
+    },
+    {
+      "id": "6776307931",
+      "name": "Migloom",
+      "dev": "Robert Corbin",
+      "genre": "生活",
+      "normal": "¥8.00",
+      "current": "免费",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2c/2e/a0/2c2ea03c-045f-447a-f430-199ca4d2c85a/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "rating": 0,
+      "url": "https://apps.apple.com/cn/app/migloom/id6776307931?uo=4",
+      "region": "cn",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        8.0,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 8.0
+        },
+        {
+          "d": "2026-10-20",
+          "p": 0
+        }
+      ],
+      "page": "app/cn-6776307931.html"
+    },
+    {
+      "id": "974051921",
+      "name": "Mortgage Calculator +",
+      "dev": "Adam Fahlman",
+      "genre": "财务",
+      "normal": "¥2.99",
+      "current": "免费",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a9/b3/72/a9b372c1-81d3-4058-65da-6be8aeeaf37d/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg",
+      "rating": 0,
+      "url": "https://apps.apple.com/cn/app/mortgage-calculator/id974051921?uo=4",
+      "region": "cn",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        2.99,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 2.99
+        },
+        {
+          "d": "2026-10-20",
+          "p": 0
+        }
+      ],
+      "page": "app/cn-974051921.html"
+    },
+    {
+      "id": "6753773076",
+      "name": "My Star Mugs",
+      "dev": "Operax Ltd",
+      "genre": "生活",
+      "normal": "¥8.00",
+      "current": "免费",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/91/0f/c7/910fc79f-16a6-3952-5f40-fc3ef1e2a547/Appicon-0-0-1x_U007epad-0-1-85-220.jpeg/512x512bb.jpg",
+      "rating": 0,
+      "url": "https://apps.apple.com/cn/app/my-star-mugs/id6753773076?uo=4",
+      "region": "cn",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        8.0,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 8.0
+        },
+        {
+          "d": "2026-10-20",
+          "p": 0
+        }
+      ],
+      "page": "app/cn-6753773076.html"
+    },
+    {
+      "id": "6764438055",
+      "name": "NoteQuick: Notas y Dictado IA",
+      "dev": "luis reynaldo cedeno manzanilla",
+      "genre": "效率",
+      "normal": "¥2.99",
+      "current": "免费",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/98/14/20/98142062-09dd-d36c-9781-bd74b9f14d87/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+      "rating": 0,
+      "url": "https://apps.apple.com/cn/app/notequick-notas-y-dictado-ia/id6764438055?uo=4",
+      "region": "cn",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        2.99,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 2.99
+        },
+        {
+          "d": "2026-10-20",
+          "p": 0
+        }
+      ],
+      "page": "app/cn-6764438055.html"
+    },
+    {
+      "id": "6762288185",
+      "name": "PCOS Cycle",
+      "dev": "贺 周",
+      "genre": "工具",
+      "normal": "¥0.99",
+      "current": "免费",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a2/39/03/a23903be-1e85-4091-4258-bbba14ec2eac/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "rating": 0,
+      "url": "https://apps.apple.com/cn/app/pcos-cycle/id6762288185?uo=4",
+      "region": "cn",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        0.99,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 0.99
+        },
+        {
+          "d": "2026-10-20",
+          "p": 0
+        }
+      ],
+      "page": "app/cn-6762288185.html"
     }
   ],
   "deals": [
