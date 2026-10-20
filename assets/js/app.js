@@ -642,17 +642,32 @@
     return mb >= 1024 ? (mb / 1024).toFixed(2) + ' GB' : mb.toFixed(1) + ' MB';
   }
 
+  var jsonpSeq = 0;
+  // JSONP 拉取（iTunes lookup 原生支持 callback=，绕开 CORS，兼容性最好）
+  // 返回：结果对象 / 'NOT_IN_STORE'（接口通但该区无此 App）/ null（网络失败）
   function fetchLookup(id, country) {
-    var lang = country === 'cn' ? 'zh_cn' : 'en_us';
-    var url = 'https://itunes.apple.com/lookup?id=' + encodeURIComponent(id) +
-              '&country=' + country + '&entity=software&lang=' + lang;
-    return fetch(url, { cache: 'no-cache' })
-      .then(function (r) { return r.ok ? r.json() : null; })
-      .then(function (j) {
-        if (!j || !j.results || !j.results.length) return null;
-        return j.results[0];
-      })
-      .catch(function () { return null; });
+    return new Promise(function (resolve) {
+      var lang = country === 'cn' ? 'zh_cn' : 'en_us';
+      var cb = 'dtCbp' + (++jsonpSeq) + '_' + Date.now();
+      var url = 'https://itunes.apple.com/lookup?id=' + encodeURIComponent(id) +
+                '&country=' + country + '&entity=software&lang=' + lang + '&callback=' + cb;
+      var script = document.createElement('script');
+      var done = false;
+      function cleanup() {
+        try { delete window[cb]; } catch (e) { window[cb] = undefined; }
+        if (script.parentNode) script.parentNode.removeChild(script);
+      }
+      window[cb] = function (data) {
+        done = true;
+        cleanup();
+        var r = (data && data.results && data.results.length) ? data.results[0] : null;
+        resolve(r || 'NOT_IN_STORE');
+      };
+      script.onerror = function () { if (!done) { done = true; cleanup(); resolve(null); } };
+      setTimeout(function () { if (!done) { done = true; cleanup(); resolve(null); } }, 8000);
+      script.src = url;
+      document.head.appendChild(script);
+    });
   }
 
   // 价格历史大图（带日期轴 / 最小值标记）
@@ -725,9 +740,9 @@
       '</div>' +
       '<div class="dt-price"><span class="dt-cur ' + (app.type === 'free' ? 'free' : 'deal') + '">' + esc(app.current || (app.type === 'free' ? dict.card_free_price : '')) + '</span>' +
       (app.normal ? '<span class="dt-old">' + esc(app.normal) + '</span>' : '') + '</div>' +
-      '</div></div>' +
-      '<div class="dt-actions"><a class="dt-go" href="' + esc(app.url || '#') + '" target="_blank" rel="noopener">' + esc(dict.dt_go) + '</a>' +
-      '<div class="dt-qr"><img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&margin=0&data=' + encodeURIComponent(app.url || '') + '" alt="QR" loading="lazy"/><span>' + esc(dict.dt_qr) + '</span></div></div>' +
+      '</div>' +
+      '<div class="dt-qr"><img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&margin=0&data=' + encodeURIComponent(app.url || '') + '" alt="QR" loading="lazy"/><span>' + esc(dict.dt_qr) + '</span></div>' +
+      '</div>' +
       '<div class="dt-section" id="dtExtra"><div class="dt-loading">' + esc(dict.dt_loading) + '</div></div>';
     body.innerHTML = base;
 
@@ -787,9 +802,10 @@
 
   function crossRow(label, info, isCurrent) {
     var dict = I18N[CURRENT_LANG];
-    var price = (info && typeof info.price === 'number')
-      ? fmtCur(info.currency, info.price)
-      : esc(dict.dt_not_in);
+    var price;
+    if (info === 'NOT_IN_STORE') price = esc(dict.dt_not_in);
+    else if (info && typeof info.price === 'number') price = esc(fmtCur(info.currency, info.price));
+    else price = '—';   // 查询失败（网络等），不误标「未上架」
     return '<div class="dt-cross-row' + (isCurrent ? ' cur' : '') + '">' +
       '<span class="dt-cr-label">' + label + (isCurrent ? ' <span class="dt-cur-tag">' + (CURRENT_LANG === 'en' ? 'current' : '当前') + '</span>' : '') + '</span>' +
       '<span class="dt-cr-price">' + price + '</span></div>';
