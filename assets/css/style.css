@@ -288,18 +288,19 @@ ins.adsbygoogle { background: #ececf0; border-radius: var(--radius); }
   .site-footer { padding: 22px 0; }
   main { padding: 0 0 56px; }
 
-  /* 手机端：搜索面板改为「顶栏下方居中通栏」——左右各留 12px，搜索框与分类各占整行 */
+  /* 手机端：搜索面板改为「顶栏下方居中通栏」——左右各留 12px，搜索框与分类同一行 */
   .search-wrap { position: static; }
   .search-pop {
     position: absolute; top: calc(100% - 1px); left: 12px; right: 12px;
     width: auto; max-width: none;
-    flex-direction: column; gap: 8px; padding: 12px; border-radius: 14px;
+    flex-direction: row; gap: 8px; padding: 12px; border-radius: 14px;
     box-shadow: 0 14px 34px rgba(0, 0, 0, .2);
   }
   .search-pop::before { display: none; }   /* 通栏面板不需要指向箭头 */
   .search-pop .search-input,
-  .search-pop .genre-select { width: 100%; min-width: 0; padding: 11px 14px; font-size: 15px; }
-  .search-pop .genre-select { padding-right: 32px; }
+  .search-pop .genre-select { padding: 11px 14px; font-size: 15px; }
+  .search-pop .search-input { flex: 1 1 auto; min-width: 0; }
+  .search-pop .genre-select { flex: 0 0 auto; width: auto; min-width: 104px; padding-right: 30px; }
 }
 
 /* 深色主题：手动 data-theme="dark" 强制深色；无 data-theme 时跟随系统（苹果纯黑 + #1c1c1e 面板） */
