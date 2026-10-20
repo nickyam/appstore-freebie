@@ -3,21 +3,33 @@
   <url>
     <loc>https://freebie.limzero.com/</loc>
     <changefreq>daily</changefreq>
-    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://freebie.limzero.com/about.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>https://freebie.limzero.com/privacy.html</loc>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
+    <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>https://freebie.limzero.com/terms.html</loc>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://freebie.limzero.com/app/cn-1561444285.html</loc>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://freebie.limzero.com/app/cn-1644917705.html</loc>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://freebie.limzero.com/app/cn-6752586685.html</loc>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://freebie.limzero.com/app/cn-6761341923.html</loc>
+    <changefreq>daily</changefreq>
   </url>
 </urlset>

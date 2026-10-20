@@ -71,6 +71,7 @@
       dt_loadfail: '详情加载失败，请稍后重试或直接前往 App Store。',
       dt_not_in: '该区暂未上架',
       dt_none: '无',
+      dt_fullpage: '查看完整页面',
       pv_badge: '📋 隐私政策',
       pv_h1: '隐私政策',
       pv_lead: '「苹果限免雷达」（下称「本站」）非常重视你的隐私。本政策说明本站收集哪些信息、如何使用，以及你拥有的选择权。',
@@ -179,6 +180,7 @@
       dt_loadfail: 'Failed to load details. Please retry or open the App Store directly.',
       dt_not_in: 'Not available in this store',
       dt_none: 'None',
+      dt_fullpage: 'Full page',
       pv_badge: '📋 Privacy Policy',
       pv_h1: 'Privacy Policy',
       pv_lead: 'Apple Freebie Radar ("this site") takes your privacy seriously. This policy explains what information we collect, how it is used, and the choices you have.',
@@ -520,6 +522,11 @@
       var next = (CURRENT_LANG === 'en') ? 'zh' : 'en';
       lsSet(LANG_KEY, next);
       applyLang(next);
+      // 独立页模式：语言切换后重渲染详情（文案随语言变）
+      if (window.__APP__ && document.getElementById('detailBody')) {
+        renderDetail(window.__APP__, document.getElementById('detailBody'), null);
+        return;
+      }
       load(getRegion());
     });
     var themeBtn = document.getElementById('themeBtn');
@@ -616,15 +623,16 @@
     var canon = document.querySelector('link[rel="canonical"]');
     if (canon) canon.setAttribute('href', url);
     setMeta('og:url', url);
-    try {
-      var ld = document.querySelector('script[type="application/ld+json"]');
-      if (ld) {
-        var o = JSON.parse(ld.textContent);
-        if (o.name) o.name = name;
-        o.url = url;
-        ld.textContent = JSON.stringify(o);
-      }
-    } catch (e) {}
+      try {
+        var ld = document.querySelector('script[type="application/ld+json"]');
+        if (ld) {
+          var o = JSON.parse(ld.textContent);
+          // 独立页的 JSON-LD 是 App 级 SoftwareApplication，不能被站点品牌覆盖
+          if (!window.__APP__ && o.name) o.name = name;
+          o.url = url;
+          ld.textContent = JSON.stringify(o);
+        }
+      } catch (e) {}
   }
 
   // ===== 应用详情浮层 =====
@@ -717,8 +725,8 @@
     return html;
   }
 
+  // 打开浮层（首页模式）；独立页模式直接调 renderDetail
   function openDetail(app) {
-    var dict = I18N[CURRENT_LANG];
     var overlay = document.getElementById('detailOverlay');
     var body = document.getElementById('detailBody');
     if (!overlay || !body) return;
@@ -726,9 +734,17 @@
     document.body.style.overflow = 'hidden';
     var panel = document.getElementById('detailPanel');
     if (panel) panel.scrollTop = 0;
+    renderDetail(app, body, panel);
+  }
+
+  // 渲染详情内容（浮层与独立页共用；panel 为空时为独立页模式）
+  function renderDetail(app, body, panel) {
+    var dict = I18N[CURRENT_LANG];
+    if (!body) return;
 
     // 基础信息（无需网络）
     var ratingStr = (app.rating && app.rating > 0) ? ('★ ' + (Math.round(app.rating * 10) / 10).toFixed(1)) : '';
+    var pageLink = app.page ? '<a class="dt-page-link" href="' + esc(app.page) + '">' + esc(dict.dt_fullpage) + ' ↗</a>' : '';
     var base = '<div class="dt-head">' +
       (app.icon ? '<img class="dt-icon" src="' + esc(app.icon) + '" alt=""/>' : '<div class="dt-icon dt-ic">📱</div>') +
       '<div class="dt-hinfo"><h2 class="dt-name">' + esc(app.name || '') +
@@ -744,10 +760,15 @@
       '<div class="dt-side">' +
       '<div class="dt-qr"><img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&margin=0&data=' + encodeURIComponent(app.url || '') + '" alt="QR" loading="lazy"/><span>' + esc(dict.dt_qr) + '</span></div>' +
       '<a class="dt-go-sm" href="' + esc(app.url || '#') + '" target="_blank" rel="noopener">' + esc(dict.dt_go) + '</a>' +
+      pageLink +
       '</div>' +
       '</div>' +
       '<div class="dt-section" id="dtExtra"><div class="dt-loading">' + esc(dict.dt_loading) + '</div></div>';
     body.innerHTML = base;
+
+    // 独立页面包屑
+    var crumb = document.getElementById('appCrumb');
+    if (crumb) crumb.textContent = (app.name || '') + (app.genre ? ' · ' + app.genre : '');
 
     // 实时拉 iTunes：当前区（截图/介绍/版本等）+ 对区（现价对比）
     var other = app.region === 'cn' ? 'us' : 'cn';
@@ -832,7 +853,10 @@
       var app = currentData.free.concat(currentData.deals).filter(function (a) {
         return String(a.id) === id && a.region === region;
       })[0];
-      if (app) openDetail(app);
+      if (!app) return;
+      // 独立页模式下，同类推荐直接跳对应 App 独立页
+      if (window.__APP__ && app.page) { location.href = app.page; return; }
+      openDetail(app);
     });
   }
   function closeDetail() {
@@ -847,6 +871,13 @@
     applyBrand();             // 站点品牌（域名自适应）
     bindControls();
     setupDetailEvents();      // 详情浮层事件
+    // 独立详情页模式：页面 URL 形如 app/{region}-{id}.html，数据内联于 window.__APP__
+    if (window.__APP__ && document.getElementById('detailBody')) {
+      var ap = window.__APP__;
+      load(ap.region || 'cn');   // 供同类推荐使用
+      renderDetail(ap, document.getElementById('detailBody'), null);
+      return;
+    }
     load(getRegion());        // 拉数据
   }
 

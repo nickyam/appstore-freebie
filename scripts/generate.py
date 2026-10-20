@@ -61,6 +61,115 @@ GENRE_IDS = [
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA_DIR = os.path.join(BASE_DIR, "data")
+APP_DIR = os.path.join(BASE_DIR, "app")                      # App 详情独立页目录
+PAGE_TEMPLATE = os.path.join(BASE_DIR, "app-page.html")     # 独立页模板
+PAGE_KEEP_DAYS = 30                                          # 独立页保留天数（超期清理）
+
+
+def esc_html(s):
+    return (s or "").replace("&", "&amp;").replace("<", "&lt;") \
+                      .replace(">", "&gt;").replace('"', "&quot;")
+
+
+def write_app_pages(items, country, today):
+    """为当期限免/特价 App 生成独立详情页（SEO + 可分享 URL）。
+
+    同时给每个 item 写入 page 字段（供首页浮层里的「完整页面」链接使用）。
+    """
+    if not os.path.exists(PAGE_TEMPLATE):
+        print("[warn] app-page.html 模板缺失，跳过独立页生成")
+        return 0
+    with open(PAGE_TEMPLATE, encoding="utf-8") as f:
+        tpl = f.read()
+    os.makedirs(APP_DIR, exist_ok=True)
+    count = 0
+    for item in items:
+        page_rel = "app/%s-%s.html" % (country, item["id"])
+        item["page"] = page_rel
+        is_free = item.get("type") == "free"
+        name = item.get("name", "")
+        if is_free:
+            title = "%s 正在限时免费 · 苹果限免雷达" % name
+            desc = "%s（%s）原价 %s，现在限时免费。附中美两区价格对比、近 30 天价格走势、官方截图与介绍。" % (
+                name, item.get("dev", ""), item.get("normal", ""))
+        else:
+            title = "%s 正在降价（%s → %s）· 苹果限免雷达" % (
+                name, item.get("normal", ""), item.get("current", ""))
+            desc = "%s（%s）现价 %s（原价 %s）。附中美两区价格对比、近 30 天价格走势、官方截图与介绍。" % (
+                name, item.get("dev", ""), item.get("current", ""), item.get("normal", ""))
+        ld = {
+            "@context": "https://schema.org",
+            "@type": "SoftwareApplication",
+            "name": name,
+            "operatingSystem": "iOS",
+            "applicationCategory": item.get("genre", ""),
+            "offers": {
+                "@type": "Offer",
+                "price": "0" if is_free else "",
+                "priceCurrency": "CNY" if country == "cn" else "USD",
+            },
+            "url": item.get("url", ""),
+        }
+        html = tpl
+        html = html.replace("__TITLE__", esc_html(title))
+        html = html.replace("__DESC__", esc_html(desc))
+        html = html.replace("__OG_TITLE__", esc_html(title))
+        html = html.replace("__OG_DESC__", esc_html(desc))
+        html = html.replace("__APP_NAME__", esc_html(name))
+        html = html.replace("__PAGE_DATE__", today)
+        html = html.replace("__APP_LD__", json.dumps(ld, ensure_ascii=False, indent=2))
+        app_json = json.dumps(item, ensure_ascii=False).replace("</", "<\\/")
+        html = html.replace("window.__APP__ = null;", "window.__APP__ = " + app_json + ";")
+        with open(os.path.join(BASE_DIR, page_rel), "w", encoding="utf-8") as f:
+            f.write(html)
+        count += 1
+    return count
+
+
+def prune_app_pages(today):
+    """删除 PAGE_KEEP_DAYS 天前的 App 独立页（控制仓库体积）"""
+    if not os.path.isdir(APP_DIR):
+        return 0
+    try:
+        cutoff = datetime.date.fromisoformat(today) - datetime.timedelta(days=PAGE_KEEP_DAYS)
+    except Exception:
+        return 0
+    removed = 0
+    for fn in os.listdir(APP_DIR):
+        if not fn.endswith(".html"):
+            continue
+        fp = os.path.join(APP_DIR, fn)
+        try:
+            with open(fp, encoding="utf-8") as f:
+                head = f.read(4096)
+            m = re.search(r'data-page-date="(\d{4}-\d{2}-\d{2})"', head)
+            if m and datetime.date.fromisoformat(m.group(1)) < cutoff:
+                os.remove(fp)
+                removed += 1
+        except Exception:
+            pass
+    return removed
+
+
+def write_sitemap():
+    """重写 sitemap.xml：主页面 + 现存所有 App 独立页"""
+    base = "https://freebie.limzero.com"
+    paths = ["", "about.html", "privacy.html", "terms.html"]
+    if os.path.isdir(APP_DIR):
+        paths += ["app/" + fn for fn in sorted(os.listdir(APP_DIR)) if fn.endswith(".html")]
+    lines = [
+        '<?xml version="1.0" encoding="UTF-8"?>',
+        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',
+    ]
+    for p in paths:
+        lines.append("  <url>")
+        lines.append("    <loc>%s/%s</loc>" % (base, p))
+        lines.append("    <changefreq>daily</changefreq>")
+        lines.append("  </url>")
+    lines.append("</urlset>")
+    with open(os.path.join(BASE_DIR, "sitemap.xml"), "w", encoding="utf-8") as f:
+        f.write("\n".join(lines) + "\n")
+    return len(paths)
 
 
 def http_get_json(url):
@@ -417,12 +526,21 @@ def main():
         "deals": deals[:MAX_DISPLAY],
     }
 
+    # App 详情独立页（写入 page 字段供首页浮层「完整页面」链接；须在 save_json 前执行）
+    page_items = result["freebies"] + result["deals"]
+    pages_written = write_app_pages(page_items, country, today)
+
     save_json(out_path, result)
     save_json(history_path, history)
+
+    # 清理过期独立页 + 重写 sitemap
+    pruned = prune_app_pages(today)
+    sm_urls = write_sitemap()
 
     print(f"[ok] country={country} full={full} date={today} monitored={len(union)} "
           f"library={len(history)} freebies={len(freebies)} deals={len(deals)} "
           f"(display free≤{MAX_DISPLAY}, deal≤{MAX_DISPLAY})")
+    print(f"[ok] app pages written={pages_written} pruned={pruned} sitemap_urls={sm_urls}")
 
 
 if __name__ == "__main__":

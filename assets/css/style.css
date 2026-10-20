@@ -371,3 +371,18 @@ ins.adsbygoogle { background: #ececf0; border-radius: var(--radius); }
   .dt-name { font-size: 20px; }
   .dt-shots img { height: 260px; }
 }
+
+/* ===== App 详情独立页 ===== */
+.app-page-top { display: flex; justify-content: space-between; align-items: center; gap: 12px; padding: 28px 0 16px; }
+.app-back { font-size: 14px; font-weight: 500; color: var(--accent); text-decoration: none; }
+.app-back:hover { text-decoration: underline; }
+.app-page-crumb { font-size: 13px; color: var(--muted); }
+main > .detail-body {
+  background: var(--bg); border: 1px solid var(--border); border-radius: 18px;
+  box-shadow: var(--shadow); padding: 26px 26px 30px; margin-bottom: 24px;
+}
+.dt-page-link { font-size: 12px; color: var(--accent); text-decoration: none; }
+.dt-page-link:hover { text-decoration: underline; }
+@media (max-width: 560px) {
+  main > .detail-body { padding: 20px 16px 24px; }
+}
