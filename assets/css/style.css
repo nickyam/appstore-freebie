@@ -44,10 +44,10 @@ a.logo { color: inherit; text-decoration: none; }   /* 独立页 logo 是链接�
   display: flex; align-items: center; justify-content: space-between; gap: 14px;
 }
 .header-inner .logo { flex: none; }
-/* 搜索 + 分类工具栏移入顶栏：搜索框向右延伸至语言胶囊前 */
-.header-inner .toolbar { flex: 1; min-width: 0; margin: 0; flex-wrap: nowrap; }
-.header-inner .search-input { min-width: 120px; padding: 7px 16px; font-size: 14px; }
-.header-inner .genre-select { min-width: 118px; padding: 7px 32px 7px 14px; font-size: 14px; }
+/* 搜索 + 分类工具栏移入顶栏：收窄并右对齐，不侵入左半屏 */
+.header-inner .toolbar { flex: 0 0 auto; max-width: 360px; width: 360px; margin: 0 0 0 auto; flex-wrap: nowrap; }
+.header-inner .search-input { min-width: 90px; padding: 7px 16px; font-size: 14px; }
+.header-inner .genre-select { min-width: 104px; padding: 7px 32px 7px 14px; font-size: 14px; }
 .logo { font-weight: 600; font-size: 19px; letter-spacing: -.01em; display: flex; align-items: center; gap: 8px; cursor: pointer; user-select: none; }
 .logo:hover { opacity: .82; }
 .logo .radar { color: var(--accent); flex: none; }
