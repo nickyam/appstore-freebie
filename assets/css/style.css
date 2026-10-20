@@ -209,7 +209,7 @@ ins.adsbygoogle { background: #ececf0; border-radius: var(--radius); }
 .footer-nav a { color: var(--text); opacity: .85; text-decoration: none; font-size: 13px; font-weight: 600; }
 .footer-nav a:hover { opacity: 1; text-decoration: underline; }
 .footer-nav .sep { color: var(--muted); opacity: .55; font-size: 12px; user-select: none; }
-.footer-bar .copyright { text-align: right; }
+.footer-bar .copyright { text-align: left; }
 .footer-bar #footerSiteName { color: var(--text); opacity: .9; text-decoration: none; font-weight: 600; }
 .footer-bar #footerSiteName:hover { opacity: 1; text-decoration: underline; }
 @media (max-width: 600px) {
