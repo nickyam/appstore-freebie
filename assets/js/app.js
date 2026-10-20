@@ -61,6 +61,7 @@
       dt_cross: '中美两区现价对比',
       dt_qr: '扫码前往 App Store',
       dt_qr_btn: '手机扫码',
+      back_home: '← 返回首页',
       dt_close_hint: '点击任意处关闭',
       dt_genre_link: '查看该分类的今日限免',
       dt_related: '同类推荐',
@@ -172,6 +173,7 @@
       dt_cross: 'CN vs US current price',
       dt_qr: 'Scan to open in App Store',
       dt_qr_btn: 'Scan to download',
+      back_home: '← Back to home',
       dt_close_hint: 'Tap anywhere to close',
       dt_genre_link: 'Browse today\u2019s deals in this category',
       dt_related: 'Similar picks',
@@ -237,6 +239,20 @@
     cn: { file: 'data/free-today-cn.json', label: '中国区', label_en: 'China' },
     us: { file: 'data/free-today-us.json', label: '美国区', label_en: 'United States' }
   };
+  // App Store 中文分类 → 英文（数据里 genre 存的是中文，英文界面显示时转换）
+  var GENRE_EN = {
+    '工具': 'Utilities', '健康健美': 'Health & Fitness', '旅游': 'Travel', '教育': 'Education',
+    '游戏': 'Games', '财务': 'Finance', '摄影与录像': 'Photo & Video', '效率': 'Productivity',
+    '社交': 'Social Networking', '音乐': 'Music', '娱乐': 'Entertainment', '生活': 'Lifestyle',
+    '新闻': 'News', '购物': 'Shopping', '图书': 'Books', '美食佳饮': 'Food & Drink',
+    '导航': 'Navigation', '商务': 'Business', '天气': 'Weather', '体育': 'Sports',
+    '参考资料': 'Reference', '医疗': 'Medical', '商品指南': 'Catalogs', '杂志报刊': 'Magazines & Newspapers',
+    '开发者工具': 'Developer Tools', '图形和设计': 'Graphics & Design', '公用程序': 'Utilities'
+  };
+  function genreLabel(g) {
+    if (!g) return g;
+    return (CURRENT_LANG === 'en' && GENRE_EN[g]) ? GENRE_EN[g] : g;
+  }
   var REGION_KEY = 'freebie-region';
   var LANG_KEY = 'freebie-lang';
   var THEME_KEY = 'freebie-theme';
@@ -408,7 +424,7 @@
     sel.innerHTML = '';
     if (keep) sel.appendChild(keep);
     genres.forEach(function (g) {
-      var o = el('option', null, esc(g));
+      var o = el('option', null, esc(genreLabel(g)));
       o.value = g;
       sel.appendChild(o);
     });
@@ -607,7 +623,7 @@
   function curSym(region) { return region === 'us' ? '$' : '¥'; }
   function fmtCur(currency, price) {
     if (price == null) return '—';
-    if (price === 0) return '免费';
+    if (price === 0) return I18N[CURRENT_LANG].card_free_price;
     var sym = currency === 'USD' ? '$' : (currency === 'CNY' ? '¥' : (currency || ''));
     return sym + (Math.round(price * 100) / 100).toFixed(2);
   }
@@ -705,10 +721,10 @@
       (app.is_new ? '<span class="new-badge">' + esc(dict.badge_new) + '</span>' : '') + '</h2>' +
       '<div class="dt-dev">' + esc(app.dev || '') + '</div>' +
       '<div class="dt-meta">' +
-      (app.genre ? '<a class="dt-chip chip-link" href="/index.html?genre=' + encodeURIComponent(app.genre) + '&region=' + esc(app.region || 'cn') + '" title="' + esc(dict.dt_genre_link) + '">' + esc(app.genre) + '</a>' : '') +
+      (app.genre ? '<a class="dt-chip chip-link" href="/index.html?genre=' + encodeURIComponent(app.genre) + '&region=' + esc(app.region || 'cn') + '" title="' + esc(dict.dt_genre_link) + '">' + esc(genreLabel(app.genre)) + '</a>' : '') +
       (ratingStr ? '<span class="dt-chip">⭐ ' + esc(ratingStr.replace('★ ', '')) + '</span>' : '') +
       '</div>' +
-      '<div class="dt-price"><span class="dt-cur ' + (app.type === 'free' ? 'free' : 'deal') + '" id="dtPrice">' + esc(app.current || (app.type === 'free' ? dict.card_free_price : '')) + '</span>' +
+      '<div class="dt-price"><span class="dt-cur ' + (app.type === 'free' ? 'free' : 'deal') + '" id="dtPrice">' + esc(app.type === 'free' ? dict.card_free_price : (app.current || '')) + '</span>' +
       (app.normal ? '<span class="dt-old" id="dtOld">' + esc(app.normal) + '</span>' : '') + '</div>' +
       '</div>' +
       '<div class="dt-side">' +
@@ -725,7 +741,7 @@
 
     // 独立页面包屑
     var crumb = document.getElementById('appCrumb');
-    if (crumb) crumb.textContent = (app.name || '') + (app.genre ? ' · ' + app.genre : '');
+    if (crumb) crumb.textContent = (app.name || '') + (app.genre ? ' · ' + genreLabel(app.genre) : '');
 
     // 实时拉 iTunes：当前区（截图/介绍/版本等）+ 对区（现价对比）
     var other = app.region === 'cn' ? 'us' : 'cn';
