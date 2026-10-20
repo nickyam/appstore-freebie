@@ -389,10 +389,10 @@
     if (isLow) extra.appendChild(el('span', 'low-tag', esc(dict.lowest_30)));
     if (sp || isLow) info.appendChild(extra);
     card.appendChild(info);
-    // 卡片整体可点（进详情浮层）；下载入口统一放在浮层/独立页里
+    // 卡片整体可点 → 直接跳该 App 的独立详情页（无独立页则忽略）
     card.classList.add('card-click');
     card.addEventListener('click', function () {
-      openDetail(app);
+      if (app.page) location.href = app.page;
     });
     return card;
   }
@@ -718,26 +718,13 @@
     return html;
   }
 
-  // 打开浮层（首页模式）；独立页模式直接调 renderDetail
-  function openDetail(app) {
-    var overlay = document.getElementById('detailOverlay');
-    var body = document.getElementById('detailBody');
-    if (!overlay || !body) return;
-    overlay.hidden = false;
-    document.body.style.overflow = 'hidden';
-    var panel = document.getElementById('detailPanel');
-    if (panel) panel.scrollTop = 0;
-    renderDetail(app, body, panel);
-  }
-
-  // 渲染详情内容（浮层与独立页共用；panel 为空时为独立页模式）
+  // 渲染详情内容（独立详情页；panel 为空表示独立页模式）
   function renderDetail(app, body, panel) {
     var dict = I18N[CURRENT_LANG];
     if (!body) return;
 
-    // 基础信息（无需网络）
+    // 基础信息（无需网络，价格后续用实时 iTunes 数据覆盖）
     var ratingStr = (app.rating && app.rating > 0) ? ('★ ' + (Math.round(app.rating * 10) / 10).toFixed(1)) : '';
-    var pageLink = app.page ? '<a class="dt-page-link" href="' + esc(app.page) + '">' + esc(dict.dt_fullpage) + ' ↗</a>' : '';
     var base = '<div class="dt-head">' +
       (app.icon ? '<img class="dt-icon" src="' + esc(app.icon) + '" alt=""/>' : '<div class="dt-icon dt-ic">📱</div>') +
       '<div class="dt-hinfo"><h2 class="dt-name">' + esc(app.name || '') +
@@ -747,13 +734,12 @@
       (app.genre ? '<span class="dt-chip">' + esc(app.genre) + '</span>' : '') +
       (ratingStr ? '<span class="dt-chip">⭐ ' + esc(ratingStr.replace('★ ', '')) + '</span>' : '') +
       '</div>' +
-      '<div class="dt-price"><span class="dt-cur ' + (app.type === 'free' ? 'free' : 'deal') + '">' + esc(app.current || (app.type === 'free' ? dict.card_free_price : '')) + '</span>' +
-      (app.normal ? '<span class="dt-old">' + esc(app.normal) + '</span>' : '') + '</div>' +
+      '<div class="dt-price"><span class="dt-cur ' + (app.type === 'free' ? 'free' : 'deal') + '" id="dtPrice">' + esc(app.current || (app.type === 'free' ? dict.card_free_price : '')) + '</span>' +
+      (app.normal ? '<span class="dt-old" id="dtOld">' + esc(app.normal) + '</span>' : '') + '</div>' +
       '</div>' +
       '<div class="dt-side">' +
       '<div class="dt-qr"><img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&margin=0&data=' + encodeURIComponent(app.url || '') + '" alt="QR" loading="lazy"/><span>' + esc(dict.dt_qr) + '</span></div>' +
       '<a class="dt-go-sm" href="' + esc(app.url || '#') + '" target="_blank" rel="noopener">' + esc(dict.dt_go) + '</a>' +
-      pageLink +
       '</div>' +
       '</div>' +
       '<div class="dt-section" id="dtExtra"><div class="dt-loading">' + esc(dict.dt_loading) + '</div></div>';
@@ -770,6 +756,16 @@
         var self = res[0], ot = res[1];
         var extra = document.getElementById('dtExtra');
         if (!extra) return;
+
+        // 头部价格用 iTunes 实时值覆盖快照：当前 App 已恢复原价也照实显示
+        var pe = document.getElementById('dtPrice'), oe = document.getElementById('dtOld');
+        var live = (self && typeof self.price === 'number') ? self.price : null;
+        var liveCur = (self && self.currency) || null;
+        if (pe) {
+          if (live === 0) { pe.textContent = dict.card_free_price; pe.className = 'dt-cur free'; if (oe) oe.style.display = 'none'; }
+          else if (live != null) { pe.textContent = esc(fmtCur(liveCur, live)); pe.className = 'dt-cur deal'; if (oe) oe.style.display = 'none'; }
+        }
+
         var html = '';
 
         // 中美两区现价对比
@@ -826,36 +822,23 @@
       '<span class="dt-cr-price">' + price + '</span></div>';
   }
 
+  // 同类推荐卡片：在独立页上点击 → 跳对应 App 独立页
   function setupDetailEvents() {
     if (detailSetup) return;
     detailSetup = true;
-    var overlay = document.getElementById('detailOverlay');
-    var close = document.getElementById('detailClose');
-    var backdrop = document.getElementById('detailBackdrop');
     var body = document.getElementById('detailBody');
-    if (close) close.addEventListener('click', closeDetail);
-    if (backdrop) backdrop.addEventListener('click', closeDetail);
-    document.addEventListener('keydown', function (e) {
-      if (e.key === 'Escape' && overlay && !overlay.hidden) closeDetail();
-    });
     if (body) body.addEventListener('click', function (e) {
       var rc = e.target.closest('.rel-card');
       if (!rc) return;
       var id = rc.getAttribute('data-appid');
       var region = rc.getAttribute('data-region') || getRegion();
-      var app = currentData.free.concat(currentData.deals).filter(function (a) {
-        return String(a.id) === id && a.region === region;
-      })[0];
-      if (!app) return;
-      // 独立页模式下，同类推荐直接跳对应 App 独立页
-      if (window.__APP__ && app.page) { location.href = app.page; return; }
-      openDetail(app);
+      var app = window.__APP__
+        ? (String(window.__APP__.id) === id && window.__APP__.region === region ? window.__APP__ : null)
+        : currentData.free.concat(currentData.deals).filter(function (a) {
+            return String(a.id) === id && a.region === region;
+          })[0];
+      if (app && app.page) location.href = app.page;
     });
-  }
-  function closeDetail() {
-    var overlay = document.getElementById('detailOverlay');
-    if (overlay) overlay.hidden = true;
-    document.body.style.overflow = '';
   }
 
   function init() {
@@ -863,7 +846,7 @@
     applyLang(getLang());     // 语言
     applyBrand();             // 站点品牌（域名自适应）
     bindControls();
-    setupDetailEvents();      // 详情浮层事件
+    setupDetailEvents();      // 独立页同类推荐跳页事件
     // 独立详情页模式：页面 URL 形如 app/{region}-{id}.html，数据内联于 window.__APP__
     if (window.__APP__ && document.getElementById('detailBody')) {
       var ap = window.__APP__;
