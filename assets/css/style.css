@@ -200,15 +200,22 @@ ins.adsbygoogle { background: #ececf0; border-radius: var(--radius); }
 .copyright { font-size: 13px; color: var(--muted); }
 .copyright .cr-word { font-weight: 600; letter-spacing: .02em; margin-right: 2px; }
 
-/* 页脚单行：导航链接 · 版权（居中对齐，移动端自动换行） */
-.footer-single {
-  display: flex; align-items: baseline; justify-content: center;
-  gap: 8px 14px; flex-wrap: wrap;
+/* 页脚双栏：左导航链接 / 右版权（移动端自动换行居中） */
+.footer-bar {
+  display: flex; align-items: baseline; justify-content: space-between;
+  gap: 8px 16px; flex-wrap: wrap;
 }
 .footer-nav { display: flex; align-items: baseline; gap: 9px; flex-wrap: wrap; }
 .footer-nav a { color: var(--text); opacity: .85; text-decoration: none; font-size: 13px; font-weight: 600; }
 .footer-nav a:hover { opacity: 1; text-decoration: underline; }
-.footer-single .sep, .footer-single .dot { color: var(--muted); opacity: .55; font-size: 12px; user-select: none; }
+.footer-nav .sep { color: var(--muted); opacity: .55; font-size: 12px; user-select: none; }
+.footer-bar .copyright { text-align: right; }
+.footer-bar #footerSiteName { color: var(--text); opacity: .9; text-decoration: none; font-weight: 600; }
+.footer-bar #footerSiteName:hover { opacity: 1; text-decoration: underline; }
+@media (max-width: 600px) {
+  .footer-bar { justify-content: center; text-align: center; }
+  .footer-bar .copyright { text-align: center; }
+}
 
 /* 法务页（隐私政策/使用条款）最后更新时间 */
 .legal-updated { color: var(--muted); font-size: 13px; margin-top: 20px; }
