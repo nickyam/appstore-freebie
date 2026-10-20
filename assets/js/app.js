@@ -60,6 +60,7 @@
       dt_price_history: '近 30 天价格走势',
       dt_cross: '中美两区现价对比',
       dt_qr: '扫码前往 App Store',
+      dt_mt_note: '· 内容由机器翻译，仅供参考',
       dt_qr_btn: '手机扫码',
       back_home: '← 返回首页',
       dt_close_hint: '点击任意处关闭',
@@ -172,6 +173,7 @@
       dt_price_history: 'Price trend (last 30 days)',
       dt_cross: 'CN vs US current price',
       dt_qr: 'Scan to open in App Store',
+      dt_mt_note: '· Machine translation, for reference only',
       dt_qr_btn: 'Scan to download',
       back_home: '← Back to home',
       dt_close_hint: 'Tap anywhere to close',
@@ -816,6 +818,24 @@
         html += relatedApps(app);
 
         extra.innerHTML = html;
+        // 介绍原文语言与页面语言不一致 → 自动机器翻译（段落级缓存，失败保留原文）
+        var descEl = extra.querySelector('.dt-desc');
+        if (descEl && desc) {
+          var needTr = (CURRENT_LANG === 'en' && cjkRatio(desc) > 0.15) ||
+                       (CURRENT_LANG === 'zh' && cjkRatio(desc) <= 0.15);
+          if (needTr) {
+            translateDesc(desc, CURRENT_LANG).then(function (r) {
+              if (!r || !r.text || r.text === desc || !document.contains(descEl)) return;
+              descEl.innerHTML = esc(r.text).replace(/\n/g, '<br/>');
+              if (r.ok) {
+                var note = document.createElement('div');
+                note.className = 'dt-mt-note';
+                note.textContent = I18N[CURRENT_LANG].dt_mt_note;
+                descEl.appendChild(note);
+              }
+            });
+          }
+        }
         if (panel) panel.scrollTop = 0;
       })
       .catch(function () {
@@ -833,6 +853,78 @@
     return '<div class="dt-cross-row' + (isCurrent ? ' cur' : '') + '">' +
       '<span class="dt-cr-label">' + label + (isCurrent ? ' <span class="dt-cur-tag">' + (CURRENT_LANG === 'en' ? 'current' : '当前') + '</span>' : '') + '</span>' +
       '<span class="dt-cr-price">' + price + '</span></div>';
+  }
+
+  // ===== 应用介绍自动翻译（免费接口 + localStorage 缓存 + 失败回退原文） =====
+  function cjkRatio(s) {
+    var cjk = (s.match(/[\u4e00-\u9fff]/g) || []).length;
+    return cjk / Math.max(1, s.replace(/\s/g, '').length);
+  }
+  function hashStr(s) {
+    var h = 5381;
+    for (var i = 0; i < s.length; i++) h = ((h << 5) + h + s.charCodeAt(i)) >>> 0;
+    return h.toString(36);
+  }
+  function trGet(key) {
+    try { var c = lsGet(key); return c ? JSON.parse(c).v : null; } catch (e) { return null; }
+  }
+  function trSet(key, val) {
+    try { lsSet(key, JSON.stringify({ t: Date.now(), v: val })); } catch (e) {}
+  }
+  function translateChunk(text, sl, tl) {
+    // Google 质量更好但大陆网络不可达；失败自动切 MyMemory 兜底
+    var g = fetch('https://translate.googleapis.com/translate_a/single?client=gtx&sl=' + sl + '&tl=' + tl + '&dt=t&q=' + encodeURIComponent(text))
+      .then(function (r) { return r.json(); })
+      .then(function (j) {
+        if (!j || !j[0]) throw new Error('bad');
+        var out = j[0].map(function (seg) { return seg[0]; }).join('');
+        if (!out) throw new Error('empty');
+        return out;
+      });
+    var m = fetch('https://api.mymemory.translated.net/get?q=' + encodeURIComponent(text) + '&langpair=' + sl + '|' + tl)
+      .then(function (r) { return r.json(); })
+      .then(function (j) {
+        var t = j && j.responseData && j.responseData.translatedText;
+        if (!t || /MYMEMORY WARNING/i.test(t)) throw new Error('bad');
+        return t;
+      });
+    return g.catch(function () { return m; });
+  }
+  // 整段介绍按段落拆分翻译（MyMemory 单次限 500 字节），返回 Promise<{text, ok}>
+  function translateDesc(text, targetLang) {
+    var sl = cjkRatio(text) > 0.15 ? 'zh' : 'en';
+    var tl = targetLang === 'en' ? 'en' : 'zh';
+    if (sl === tl) return Promise.resolve(null);
+    var paras = text.split('\n');
+    var pieces = [];
+    paras.forEach(function (p, idx) {
+      if (!p.trim()) return;
+      for (var i = 0; i < Math.max(1, Math.ceil(p.length / 450)); i++) {
+        pieces.push({ idx: idx, seg: p.slice(i * 450, (i + 1) * 450) });
+      }
+    });
+    var out = {};
+    var failed = false;
+    var chain = Promise.resolve();
+    pieces.forEach(function (pc) {
+      chain = chain.then(function () {
+        var key = 'freebie-tr:' + tl + ':' + hashStr(pc.seg);
+        var cached = trGet(key);
+        if (cached) { (out[pc.idx] = out[pc.idx] || []).push(cached); return; }
+        return translateChunk(pc.seg, sl, tl).then(function (v) {
+          trSet(key, v);
+          (out[pc.idx] = out[pc.idx] || []).push(v);
+        }).catch(function () {
+          failed = true;
+          (out[pc.idx] = out[pc.idx] || []).push(pc.seg);   // 回退原文
+        });
+      });
+    });
+    return chain.then(function () {
+      var result = [];
+      paras.forEach(function (p, idx) { result.push((out[idx] || []).join('')); });
+      return { text: result.join('\n'), ok: !failed };
+    });
   }
 
   // 灯箱：应用截图放大 / 二维码浮层 共用（点击任意处或 Esc 关闭）
