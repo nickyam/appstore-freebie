@@ -55,6 +55,22 @@
       foot_privacy: '隐私政策',
       foot_terms: '使用条款',
       foot_rights: '保留所有权利',
+      dt_screenshots: '应用截图',
+      dt_about: '应用介绍',
+      dt_no_desc: '暂无官方介绍。',
+      dt_price_history: '近 30 天价格走势',
+      dt_cross: '中美两区现价对比',
+      dt_qr: '扫码前往 App Store',
+      dt_related: '同类推荐',
+      dt_go: '前往 App Store 下载',
+      dt_ver: '版本',
+      dt_size: '大小',
+      dt_age: '年龄分级',
+      dt_rating_count: '个评分',
+      dt_loading: '详情加载中…',
+      dt_loadfail: '详情加载失败，请稍后重试或直接前往 App Store。',
+      dt_not_in: '该区暂未上架',
+      dt_none: '无',
       pv_badge: '📋 隐私政策',
       pv_h1: '隐私政策',
       pv_lead: '「苹果限免雷达」（下称「本站」）非常重视你的隐私。本政策说明本站收集哪些信息、如何使用，以及你拥有的选择权。',
@@ -147,6 +163,22 @@
       foot_privacy: 'Privacy Policy',
       foot_terms: 'Terms of Use',
       foot_rights: 'All rights reserved',
+      dt_screenshots: 'Screenshots',
+      dt_about: 'About this app',
+      dt_no_desc: 'No official description available.',
+      dt_price_history: 'Price trend (last 30 days)',
+      dt_cross: 'CN vs US current price',
+      dt_qr: 'Scan to open in App Store',
+      dt_related: 'Similar picks',
+      dt_go: 'Get it on the App Store',
+      dt_ver: 'Version',
+      dt_size: 'Size',
+      dt_age: 'Age rating',
+      dt_rating_count: ' ratings',
+      dt_loading: 'Loading details…',
+      dt_loadfail: 'Failed to load details. Please retry or open the App Store directly.',
+      dt_not_in: 'Not available in this store',
+      dt_none: 'None',
       pv_badge: '📋 Privacy Policy',
       pv_h1: 'Privacy Policy',
       pv_lead: 'Apple Freebie Radar ("this site") takes your privacy seriously. This policy explains what information we collect, how it is used, and the choices you have.',
@@ -362,6 +394,11 @@
       go.rel = 'noopener';
       card.appendChild(go);
     }
+    card.classList.add('card-click');
+    card.addEventListener('click', function (e) {
+      if (e.target.closest('a.go')) return;   // 点「App Store」按钮直接外跳
+      openDetail(app);
+    });
     return card;
   }
 
@@ -590,11 +627,209 @@
     } catch (e) {}
   }
 
+  // ===== 应用详情浮层 =====
+  var detailSetup = false;
+  function curSym(region) { return region === 'us' ? '$' : '¥'; }
+  function fmtCur(currency, price) {
+    if (price == null) return '—';
+    if (price === 0) return '免费';
+    var sym = currency === 'USD' ? '$' : (currency === 'CNY' ? '¥' : (currency || ''));
+    return sym + (Math.round(price * 100) / 100).toFixed(2);
+  }
+  function fmtSize(bytes) {
+    if (!bytes) return '';
+    var mb = bytes / (1024 * 1024);
+    return mb >= 1024 ? (mb / 1024).toFixed(2) + ' GB' : mb.toFixed(1) + ' MB';
+  }
+
+  function fetchLookup(id, country) {
+    var lang = country === 'cn' ? 'zh_cn' : 'en_us';
+    var url = 'https://itunes.apple.com/lookup?id=' + encodeURIComponent(id) +
+              '&country=' + country + '&entity=software&lang=' + lang;
+    return fetch(url, { cache: 'no-cache' })
+      .then(function (r) { return r.ok ? r.json() : null; })
+      .then(function (j) {
+        if (!j || !j.results || !j.results.length) return null;
+        return j.results[0];
+      })
+      .catch(function () { return null; });
+  }
+
+  // 价格历史大图（带日期轴 / 最小值标记）
+  function priceChart(phistory, kind, region) {
+    if (!phistory || phistory.length < 2) return '';
+    var W = 600, H = 180, padL = 8, padR = 8, padT = 16, padB = 22;
+    var pts = phistory.map(function (x) { return x.p; });
+    var min = Math.min.apply(null, pts), max = Math.max.apply(null, pts);
+    var range = (max - min) || 1;
+    var color = kind === 'free' ? '#34c759' : '#ff9f0a';
+    var sym = curSym(region);
+    function xy(i, v) {
+      var x = padL + (W - padL - padR) * (i / (phistory.length - 1));
+      var y = (H - padB) - (H - padT - padB) * ((v - min) / range);
+      return [x, y];
+    }
+    var line = phistory.map(function (x, i) { var p = xy(i, x.p); return p[0].toFixed(1) + ',' + p[1].toFixed(1); }).join(' ');
+    var area = 'M' + padL + ',' + (H - padB) + ' L' + line.split(' ').join(' L') + ' L' + (W - padR) + ',' + (H - padB) + ' Z';
+    var minIdx = pts.indexOf(min), minP = xy(minIdx, min);
+    var last = xy(phistory.length - 1, pts[pts.length - 1]);
+    var firstDate = phistory[0].d.slice(5), lastDate = phistory[phistory.length - 1].d.slice(5);
+    return '<svg class="pc-chart" viewBox="0 0 ' + W + ' ' + H + '" preserveAspectRatio="none" aria-hidden="true">' +
+      '<path d="' + area + '" fill="' + color + '" opacity="0.10"/>' +
+      '<polyline points="' + line + '" fill="none" stroke="' + color + '" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>' +
+      '<circle cx="' + minP[0].toFixed(1) + '" cy="' + minP[1].toFixed(1) + '" r="3.5" fill="' + color + '"/>' +
+      '<text x="' + minP[0].toFixed(1) + '" y="' + (minP[1] - 7).toFixed(1) + '" font-size="11" fill="' + color + '" text-anchor="middle">' + sym + min.toFixed(0) + '</text>' +
+      '<text x="' + padL + '" y="' + (H - 6) + '" font-size="11" fill="var(--muted)">' + firstDate + '</text>' +
+      '<text x="' + (W - padR) + '" y="' + (H - 6) + '" font-size="11" fill="var(--muted)" text-anchor="end">' + lastDate + '</text>' +
+      '</svg>';
+  }
+
+  function relatedApps(app) {
+    var dict = I18N[CURRENT_LANG];
+    var pool = currentData.free.concat(currentData.deals).filter(function (a) {
+      return a.id !== app.id && a.genre === app.genre;
+    }).slice(0, 4);
+    if (!pool.length) return '';
+    var html = '<div class="dt-related"><h3>' + esc(dict.dt_related) + '</h3><div class="rel-grid">';
+    pool.forEach(function (a) {
+      html += '<button class="rel-card" data-appid="' + esc(String(a.id)) + '" data-region="' + esc(a.region) + '">' +
+        (a.icon ? '<img src="' + esc(a.icon) + '" alt="" loading="lazy"/>' : '<span class="rel-ic">📱</span>') +
+        '<span class="rel-name">' + esc(a.name || '') + '</span>' +
+        '<span class="rel-price">' + (a.current ? esc(a.current) : '') + '</span>' +
+        '</button>';
+    });
+    html += '</div></div>';
+    return html;
+  }
+
+  function openDetail(app) {
+    var dict = I18N[CURRENT_LANG];
+    var overlay = document.getElementById('detailOverlay');
+    var body = document.getElementById('detailBody');
+    if (!overlay || !body) return;
+    overlay.hidden = false;
+    document.body.style.overflow = 'hidden';
+    var panel = document.getElementById('detailPanel');
+    if (panel) panel.scrollTop = 0;
+
+    // 基础信息（无需网络）
+    var ratingStr = (app.rating && app.rating > 0) ? ('★ ' + (Math.round(app.rating * 10) / 10).toFixed(1)) : '';
+    var base = '<div class="dt-head">' +
+      (app.icon ? '<img class="dt-icon" src="' + esc(app.icon) + '" alt=""/>' : '<div class="dt-icon dt-ic">📱</div>') +
+      '<div class="dt-hinfo"><h2 class="dt-name">' + esc(app.name || '') +
+      (app.is_new ? '<span class="new-badge">' + esc(dict.badge_new) + '</span>' : '') + '</h2>' +
+      '<div class="dt-dev">' + esc(app.dev || '') + '</div>' +
+      '<div class="dt-meta">' +
+      (app.genre ? '<span class="dt-chip">' + esc(app.genre) + '</span>' : '') +
+      (ratingStr ? '<span class="dt-chip">⭐ ' + esc(ratingStr.replace('★ ', '')) + '</span>' : '') +
+      '</div>' +
+      '<div class="dt-price"><span class="dt-cur ' + (app.type === 'free' ? 'free' : 'deal') + '">' + esc(app.current || (app.type === 'free' ? dict.card_free_price : '')) + '</span>' +
+      (app.normal ? '<span class="dt-old">' + esc(app.normal) + '</span>' : '') + '</div>' +
+      '</div></div>' +
+      '<div class="dt-actions"><a class="dt-go" href="' + esc(app.url || '#') + '" target="_blank" rel="noopener">' + esc(dict.dt_go) + '</a>' +
+      '<div class="dt-qr"><img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&margin=0&data=' + encodeURIComponent(app.url || '') + '" alt="QR" loading="lazy"/><span>' + esc(dict.dt_qr) + '</span></div></div>' +
+      '<div class="dt-section" id="dtExtra"><div class="dt-loading">' + esc(dict.dt_loading) + '</div></div>';
+    body.innerHTML = base;
+
+    // 实时拉 iTunes：当前区（截图/介绍/版本等）+ 对区（现价对比）
+    var other = app.region === 'cn' ? 'us' : 'cn';
+    Promise.all([fetchLookup(app.id, app.region), fetchLookup(app.id, other)])
+      .then(function (res) {
+        var self = res[0], ot = res[1];
+        var extra = document.getElementById('dtExtra');
+        if (!extra) return;
+        var html = '';
+
+        // 中美两区现价对比
+        html += '<div class="dt-section"><h3>' + esc(dict.dt_cross) + '</h3><div class="dt-cross">';
+        html += crossRow('🇨🇳 ' + (CURRENT_LANG === 'en' ? 'China' : '中国区'), self, app.region === 'cn');
+        html += crossRow('🇺🇸 ' + (CURRENT_LANG === 'en' ? 'United States' : '美国区'), ot, app.region === 'us');
+        html += '</div></div>';
+
+        // 价格历史曲线
+        var chart = priceChart(app.phistory, app.type, app.region);
+        if (chart) html += '<div class="dt-section"><h3>' + esc(dict.dt_price_history) + '</h3>' + chart + '</div>';
+
+        // 截图
+        var shots = (self && self.screenshotUrls) ? self.screenshotUrls.slice(0, 6) : [];
+        if (shots.length) {
+          html += '<div class="dt-section"><h3>' + esc(dict.dt_screenshots) + '</h3><div class="dt-shots">';
+          shots.forEach(function (s) { html += '<img src="' + esc(s) + '" alt="" loading="lazy"/>'; });
+          html += '</div></div>';
+        }
+
+        // 基本信息（版本/大小/分级）
+        var metaBits = [];
+        if (self && self.version) metaBits.push(esc(dict.dt_ver) + ' ' + esc(self.version));
+        if (self && self.fileSizeBytes) metaBits.push(esc(dict.dt_size) + ' ' + esc(fmtSize(self.fileSizeBytes)));
+        if (self && self.trackContentRating) metaBits.push(esc(dict.dt_age) + ' ' + esc(self.trackContentRating));
+        if (self && self.userRatingCount) metaBits.push(esc(String(self.userRatingCount)) + esc(dict.dt_rating_count));
+        if (metaBits.length) html += '<div class="dt-metarow">' + metaBits.join('<span class="dt-dot">·</span>') + '</div>';
+
+        // 介绍
+        var desc = (self && self.description) ? self.description : '';
+        html += '<div class="dt-section"><h3>' + esc(dict.dt_about) + '</h3>' +
+          '<div class="dt-desc">' + (desc ? esc(desc).replace(/\n/g, '<br/>') : esc(dict.dt_no_desc)) + '</div></div>';
+
+        // 同类推荐
+        html += relatedApps(app);
+
+        html += '<div class="dt-foot"><a class="dt-go" href="' + esc(app.url || '#') + '" target="_blank" rel="noopener">' + esc(dict.dt_go) + '</a></div>';
+
+        extra.innerHTML = html;
+        if (panel) panel.scrollTop = 0;
+      })
+      .catch(function () {
+        var extra = document.getElementById('dtExtra');
+        if (extra) extra.innerHTML = '<div class="dt-section"><div class="dt-loading">' + esc(dict.dt_loadfail) + '</div></div>';
+      });
+  }
+
+  function crossRow(label, info, isCurrent) {
+    var dict = I18N[CURRENT_LANG];
+    var price = (info && typeof info.price === 'number')
+      ? fmtCur(info.currency, info.price)
+      : esc(dict.dt_not_in);
+    return '<div class="dt-cross-row' + (isCurrent ? ' cur' : '') + '">' +
+      '<span class="dt-cr-label">' + label + (isCurrent ? ' <span class="dt-cur-tag">' + (CURRENT_LANG === 'en' ? 'current' : '当前') + '</span>' : '') + '</span>' +
+      '<span class="dt-cr-price">' + price + '</span></div>';
+  }
+
+  function setupDetailEvents() {
+    if (detailSetup) return;
+    detailSetup = true;
+    var overlay = document.getElementById('detailOverlay');
+    var close = document.getElementById('detailClose');
+    var backdrop = document.getElementById('detailBackdrop');
+    var body = document.getElementById('detailBody');
+    if (close) close.addEventListener('click', closeDetail);
+    if (backdrop) backdrop.addEventListener('click', closeDetail);
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape' && overlay && !overlay.hidden) closeDetail();
+    });
+    if (body) body.addEventListener('click', function (e) {
+      var rc = e.target.closest('.rel-card');
+      if (!rc) return;
+      var id = rc.getAttribute('data-appid');
+      var region = rc.getAttribute('data-region') || getRegion();
+      var app = currentData.free.concat(currentData.deals).filter(function (a) {
+        return String(a.id) === id && a.region === region;
+      })[0];
+      if (app) openDetail(app);
+    });
+  }
+  function closeDetail() {
+    var overlay = document.getElementById('detailOverlay');
+    if (overlay) overlay.hidden = true;
+    document.body.style.overflow = '';
+  }
+
   function init() {
     applyTheme(getTheme());   // 主题（null=跟随系统）
     applyLang(getLang());     // 语言
     applyBrand();             // 站点品牌（域名自适应）
     bindControls();
+    setupDetailEvents();      // 详情浮层事件
     load(getRegion());        // 拉数据
   }
 

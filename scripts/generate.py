@@ -369,7 +369,10 @@ def main():
             if anchor <= 0:
                 anchor = max_price if max_price > 0 else (prev if prev > 0 else cur)
             # 每日末价序列（旧→新），供前端画价格曲线 / 算历史最低
-            series = [x.get("l", 0) or 0 for x in (history[cid].get("h") or [])]
+            hlist = history[cid].get("h") or []
+            series = [x.get("l", 0) or 0 for x in hlist]
+            # 带日期的价格历史（旧→新），供详情页大曲线
+            phistory = [{"d": x.get("d", ""), "p": x.get("l", 0) or 0} for x in hlist]
             item = {
                 "id": cid,
                 "name": name,
@@ -384,6 +387,7 @@ def main():
                 "type": "free" if is_free else "deal",
                 "is_new": newly,
                 "series": series,
+                "phistory": phistory,
             }
             (freebies if is_free else deals).append(item)
 
