@@ -49,7 +49,7 @@ LONG_FREE_DAYS = 7       # 连续为 0 超过该天数 → 不再算限时免费
 DEAL_DROP_PCT = 0.50    # 降价判定：降幅 ≥ 50%（相对历史最高价）
 HISTORY_CAP = 120       # 每 App 保留的每日价格快照上限（用于曲线），标量基线永久保存
 DELIST_MISS = 3         # 连续 N 次 lookup 查不到（下架）→ 从库删除
-UA = "Mozilla/5.0 (compatible; AppFreebieBot/1.0; +https://freebie.nickyam.com)"
+UA = "Mozilla/5.0 (compatible; AppFreebieBot/1.0; +https://appstore.nickyam.com)"
 
 # iOS App 全部一级分类 genre id
 GENRE_IDS = [

@@ -36,7 +36,7 @@ import argparse
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA_DIR = os.path.join(BASE_DIR, "data")
 SNAPSHOT_URL = "https://monitor-appstore.apprcn.com/api/v1/snapshot?region=cn&type=free"
-UA = "Mozilla/5.0 (compatible; AppFreebieBot/1.0; +https://freebie.nickyam.com)"
+UA = "Mozilla/5.0 (compatible; AppFreebieBot/1.0; +https://appstore.nickyam.com)"
 HISTORY_CAP = 120
 FREE_DAYS_MAX = 7  # 与 generate.py LONG_FREE_DAYS 对齐
 

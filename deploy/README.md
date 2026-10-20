@@ -1,6 +1,6 @@
 # 国内加速部署：freebie.limzero.com（阿里云 ECS 镜像）
 
-背景：freebie.nickyam.com 走 Cloudflare 免费版，大陆无合规节点，国内访问慢。
+背景：appstore.nickyam.com 走 Cloudflare 免费版，大陆无合规节点，国内访问慢。
 本方案把同一套**纯静态**站点到已备案的 limzero.com 子域，国内访客直连阿里云 ECS。
 
 > 合规说明：limzero.com 已在阿里云完成 ICP 备案，子域 freebie.limzero.com 继承备案，
@@ -38,7 +38,7 @@ chmod 600 /root/.freebie-github-token
 - 主机记录：`freebie`
 - 记录类型：`A`
 - 记录值：你的 ECS 公网 IP
-- 线路：默认（国内默认即可；海外仍可走 Cloudflare 的 freebie.nickyam.com）
+- 线路：默认（国内默认即可；海外仍可走 Cloudflare 的 appstore.nickyam.com）
 
 ### 2. 1Panel 建站
 - 网站 → 创建「静态网站」，域名填 `freebie.limzero.com`
@@ -64,7 +64,7 @@ GitHub Actions 每 6 小时（北京时间 02/08/14/20 点）重新生成 `data/
 - 观察一天，确认 09:30 后数据已更新。
 
 ## 可选增强
-- 在 `freebie.nickyam.com` 首页加一行提示：「国内访问慢？改用 freebie.limzero.com」。
+- 在 `appstore.nickyam.com` 首页加一行提示：「国内访问慢？改用 freebie.limzero.com」。
   （若不想要双域名，可后续再加 Cloudflare Worker 按访客国家 302 跳转，见对话记录。）
 - 仓库为私有，**必须**先完成「步骤 0」的授权（Deploy Key 或 PAT），否则 ECS 无法克隆。
 

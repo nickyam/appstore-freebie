@@ -51,7 +51,7 @@ python3 scripts/generate.py --country us
 ### 2. Cloudflare Pages 接入
 - Pages → 连接 Git 仓库 → 选该仓库。
 - Build 设置：**Build command 留空**，**Output directory 填 `/`**（根目录即静态站）。
-- 自定义域已配置：`freebie.nickyam.com`（Pages 后台添加，SSL 已启用，状态活动）。
+- 自定义域已配置：`appstore.nickyam.com`（Pages 后台添加，SSL 已启用，状态活动）。
 - `index.html` / `robots.txt` / `sitemap.xml` 内已写入该域名，无需再改。
 
 ### 3. 启用每日更新
