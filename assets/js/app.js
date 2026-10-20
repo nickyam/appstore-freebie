@@ -595,7 +595,7 @@
     function swap(s) {
       if (!s) return s;
       if (lastBrand) s = s.split(lastBrand).join(name);
-      return s.split(苹果限免雷达).join(name).split('Apple Freebie Radar').join(name);
+      return s.split('苹果限免雷达').join(name).split('Apple Freebie Radar').join(name);
     }
     var url = location.origin + location.pathname;
     var logo = document.getElementById('siteLogo');
@@ -758,13 +758,25 @@
         var extra = document.getElementById('dtExtra');
         if (!extra) return;
 
-        // 头部价格用 iTunes 实时值覆盖快照：当前 App 已恢复原价也照实显示
+        // 头部价格用 iTunes 实时值覆盖快照：原价划掉 + 现价/免费（已恢复原价则不划）
         var pe = document.getElementById('dtPrice'), oe = document.getElementById('dtOld');
         var live = (self && typeof self.price === 'number') ? self.price : null;
         var liveCur = (self && self.currency) || null;
+        var normalNum = app.normal ? parseFloat(String(app.normal).replace(/[^0-9.]/g, '')) : NaN;
         if (pe) {
-          if (live === 0) { pe.textContent = dict.card_free_price; pe.className = 'dt-cur free'; if (oe) oe.style.display = 'none'; }
-          else if (live != null) { pe.textContent = esc(fmtCur(liveCur, live)); pe.className = 'dt-cur deal'; if (oe) oe.style.display = 'none'; }
+          if (live === 0) {
+            pe.textContent = dict.card_free_price; pe.className = 'dt-cur free';
+            if (oe && app.normal) { oe.textContent = app.normal; oe.style.display = ''; }
+          } else if (live != null) {
+            if (!isNaN(normalNum) && normalNum > 0 && live >= normalNum - 0.005) {
+              // 已恢复原价：现价=原价，只显示现价，不再划线
+              pe.textContent = esc(fmtCur(liveCur, live)); pe.className = 'dt-cur';
+              if (oe) oe.style.display = 'none';
+            } else {
+              pe.textContent = esc(fmtCur(liveCur, live)); pe.className = 'dt-cur deal';
+              if (oe && app.normal) { oe.textContent = app.normal; oe.style.display = ''; }
+            }
+          }
         }
 
         var html = '';

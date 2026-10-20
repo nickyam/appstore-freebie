@@ -27,6 +27,7 @@ body {
 }
 a { color: var(--accent); text-decoration: none; }
 a:hover { text-decoration: underline; }
+a.logo { color: inherit; }   /* 独立页 logo 是链接，颜色风格与首页 div.logo 一致 */
 .container { max-width: 980px; margin: 0 auto; padding: 0 20px; }
 
 /* Header */
