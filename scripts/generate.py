@@ -50,7 +50,6 @@ DEAL_DROP_PCT = 0.50    # 降价判定：降幅 ≥ 50%（相对历史最高价�
 HISTORY_CAP = 120       # 每 App 保留的每日价格快照上限（用于曲线），标量基线永久保存
 DELIST_MISS = 3         # 连续 N 次 lookup 查不到（下架）→ 从库删除
 UA = "Mozilla/5.0 (compatible; AppFreebieBot/1.0; +https://freebie.nickyam.com)"
-MAX_DISPLAY = 100       # 前端最多展示的限免/特价数量（历史仍全量保留）
 
 # iOS App 全部一级分类 genre id
 GENRE_IDS = [
@@ -496,8 +495,8 @@ def main():
         "date": today,
         "country": country,
         "generated_at": datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
-        "freebies": freebies[:MAX_DISPLAY],
-        "deals": deals[:MAX_DISPLAY],
+        "freebies": freebies,
+        "deals": deals,
     }
 
     # App 详情独立页（写入 page 字段供首页卡片直接跳转；须在 save_json 前执行）
@@ -512,7 +511,7 @@ def main():
 
     print(f"[ok] country={country} full={full} date={today} monitored={len(union)} "
           f"library={len(history)} freebies={len(freebies)} deals={len(deals)} "
-          f"(display free≤{MAX_DISPLAY}, deal≤{MAX_DISPLAY})")
+          f"(全量输出，无展示上限)")
     print(f"[ok] app pages written={pages_written} sitemap_urls={sm_urls}")
 
 
