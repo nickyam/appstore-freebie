@@ -7,26 +7,29 @@ App Store 限免清单生成器（支持 cn 中国区 / us 美国区）
 - 苹果 iTunes RSS 榜单 + Lookup 接口均为官方、免密钥接口。
 - 限免（价格=0）的 App 永远不会出现在「付费榜」，而刚变免费的 App 也未必挤进
   「免费榜 TopN」，所以单纯扫描当天榜单在数学上几乎抓不到限免。
-- 本生成器采用「**宽监控池 + 补充追踪池 + 30 天历史价格基线 + 促销粘性**」策略：
+- 本生成器采用「**宽监控池 + 永久 App 库（以 id 为键）**」策略：
 
   1. 宽监控池：22 个一级分类的「付费榜 Top100」+「畅销榜 Top100」+ 整体「免费榜 Top200」，
      覆盖数千个"容易做限免"的 App；
-  2. 补充追踪池（watch）：昨日限免/特价的 App（含长尾、掉榜的）按 id 续查，不依赖榜单在榜，
-     并记录原价锚点（跨 30 天历史窗口保鲜「省了多少」），促销结束或追满 WATCH_DAYS 天后移除；
-  3. 叠加本地 30 天价格历史（history）与历史基线，哪怕 App 跌出榜单也持续跟踪；
-  4. 每个 App 每区独立保存至少 30 天价格快照（每日首价 f / 末价 l）；
-  5. 判定：
-     · 限免：当前价=0 且 30 天历史中曾>0（基线判定），且连续为 0 的天数≤7（排除长期免费）；
+  2. 永久 App 库（history）：任何被拉取过的 App 都建档（每日价格快照 + 标量基线），
+     · 标量基线（ever_charged / 历史最高价 / 原价锚点）**永久保存**，不再因超期丢失，
+       解决「见过一次的原常规价」随 30 天窗口消失的问题；
+     · 每日新增的榜单 App-id 自动入库；下架 App（连续 3 次 lookup 查不到）自动删除；
+  3. 每轮回查集合 union：始终含榜单 App（抓新鲜限免）；
+     常规 6 小时班次仅额外含「促销中可能掉榜」的库内 App（现价=0 或仍处折扣）以提速；
+     「每日一班」全量模式(--full) 把库内全部 App 一并回查，捕获长尾/掉榜 App 的缓慢价格变化；
+  4. 判定：
+     · 限免：当前价=0 且 曾>0（基线判定），且连续为 0 的天数≤7（排除长期免费）；
        同时天然覆盖「日内闪免」（今日首价>0、末价=0）与「跨天」（昨日>0、今日=0）；
-     · 降价：当前价 < 30 天最高价 且 降幅≥50%；
-  6. 促销粘性：已在促销（限免/降价）中的 App 每日继续回查，价格回升到原价及以上自动下架；
-  7. 排除永久免费：30 天全程为 0、从未收费的 App 不收录。
+     · 降价：当前价 < 历史最高价 且 降幅≥50%；
+  5. 促销粘性：已在促销（限免/降价）中的 App 持续回查，价格回升到原价及以上自动下架；
+  6. 排除永久免费：全程为 0、从未收费的 App 不收录。
 
-- 首次运行：若历史为空但有旧 baseline，则以 baseline 当日价播种一天；否则仅初始化，
-  次日 09:00 起即可稳定检出（30 天基线约一个月内逐步填满）。
+- 首次运行：若库为空但有旧 baseline，则以 baseline 当日价播种一天；否则仅初始化，
+  基线随每日回查逐月填满。
 - 所有数据来自 Apple 官方，图标直接引用苹果 CDN，不转存。
-- 调度：GitHub Actions 每 6 小时全量跑一次（含榜单重建 + 全量回查），
-  捕捉日内临时限免/闪免；Cloudflare 自动部署、阿里云镜像每 6 小时同步。
+- 调度：GitHub Actions 每 6 小时跑常规班次（榜单 + 促销中 App，快）；
+  每日一班 --full 全量回查（抓长尾/掉榜 App）；Cloudflare 自动部署、阿里云镜像每 6 小时同步。
 """
 import json
 import os
@@ -41,10 +44,11 @@ import argparse
 GENRE_LIMIT = 100       # 每分类 付费榜 TopN（RSS 单源上限 100）
 GROSS_LIMIT = 100       # 每分类 畅销榜 TopN
 FREE_LIMIT = 200        # 整体 免费榜 TopN（RSS 可能截断到 100，无害）
-HISTORY_DAYS = 30       # 价格历史保留天数
+HISTORY_DAYS = 30       # （保留常量名，仅用于向后兼容注释）
 LONG_FREE_DAYS = 7       # 连续为 0 超过该天数 → 不再算限时免费
-DEAL_DROP_PCT = 0.50    # 降价判定：降幅 ≥ 50%（相对 30 天最高价）
-WATCH_DAYS = 30         # 补充追踪池保留天数：昨日限免/特价 App 续查窗口
+DEAL_DROP_PCT = 0.50    # 降价判定：降幅 ≥ 50%（相对历史最高价）
+HISTORY_CAP = 120       # 每 App 保留的每日价格快照上限（用于曲线），标量基线永久保存
+DELIST_MISS = 3         # 连续 N 次 lookup 查不到（下架）→ 从库删除
 UA = "Mozilla/5.0 (compatible; AppFreebieBot/1.0; +https://freebie.nickyam.com)"
 MAX_DISPLAY = 100       # 前端最多展示的限免/特价数量（历史仍全量保留）
 
@@ -147,7 +151,28 @@ def fmt_price(country, price):
 
 
 def load_history(path):
-    return load_json(path)
+    """加载永久 App 库；兼容旧版「列表」格式（cid -> [{d,f,l}]）并按需迁移。"""
+    raw = load_json(path)
+    if not raw:
+        return {}
+    out = {}
+    for cid, v in raw.items():
+        if isinstance(v, list):
+            # 旧格式：价格快照列表 → 转换为带标量基线的库条目
+            h = v
+            vals = [p for e in h for p in (e.get("f", 0) or 0, e.get("l", 0) or 0)]
+            out[cid] = {
+                "h": h[-HISTORY_CAP:],
+                "ec": any(p > 0 for p in vals),
+                "mx": max(vals) if vals else 0,
+                "anchor": max(vals) if vals else 0,
+                "first": h[0].get("d", "") if h else "",
+                "last": h[-1].get("d", "") if h else "",
+                "miss": 0,
+            }
+        else:
+            out[cid] = v
+    return out
 
 
 def utc_today():
@@ -160,107 +185,158 @@ def utc_today():
 
 
 def seed_from_baseline(history, baseline):
-    """首次无历史时，用旧 baseline 的当日价播种一天，给跨天判定一个起点。"""
+    """首次无库时，用旧 baseline 的当日价播种一天，给跨天判定一个起点。"""
     today = utc_today().isoformat()
     for cid, rec in (baseline or {}).items():
         p = rec.get("price", 0) or 0
-        history[cid] = [{"d": today, "f": p, "l": p}]
+        history[cid] = {
+            "h": [{"d": today, "f": p, "l": p}],
+            "ec": p > 0,
+            "mx": p,
+            "anchor": p if p > 0 else 0,
+            "first": today,
+            "last": today,
+            "miss": 0,
+        }
     return history
 
 
-def update_history(history, cid, today, price):
-    h = history.get(cid)
-    if h and h[-1].get("d") == today:
-        h[-1]["l"] = price          # 今日多次轮询：末价更新，首价保留
+def new_entry():
+    return {"h": [], "ec": False, "mx": 0, "anchor": 0, "first": "", "last": "", "miss": 0}
+
+
+def update_history(history, cid, today, price, found):
+    """更新库条目：found=是否本次 lookup 命中（命中刷新价格/基线，未命中 miss+1）。"""
+    e = history.get(cid) or new_entry()
+    if not e.get("first"):
+        e["first"] = today
+    if found:
+        e["miss"] = 0
+        e["last"] = today
+        h = e["h"]
+        if h and h[-1].get("d") == today:
+            h[-1]["l"] = price          # 今日多次轮询：末价更新，首价保留
+        else:
+            h = h + [{"d": today, "f": price, "l": price}]
+            e["h"] = h[-HISTORY_CAP:]
+        if price > 0:
+            e["ec"] = True
+            if price > e["mx"]:
+                e["mx"] = price
+            if price > e["anchor"]:
+                e["anchor"] = price     # 原价锚点 = 历史最高收费价
     else:
-        h = (h or []) + [{"d": today, "f": price, "l": price}]
-        history[cid] = h
-    # 裁剪到 HISTORY_DAYS
-    cutoff = (utc_today() - datetime.timedelta(days=HISTORY_DAYS - 1)).isoformat()
-    history[cid] = [e for e in history[cid] if e.get("d", "") >= cutoff]
+        e["miss"] += 1                  # 查不到 → 疑似下架，累计 miss
+    history[cid] = e
 
 
-def derive(history):
-    days = history or []
-    vals = [p for e in days for p in (e.get("f", 0) or 0, e.get("l", 0) or 0)]
-    ever_charged = any(p > 0 for p in vals)
-    max_price = max(vals) if vals else 0
+def derive(entry):
+    """从库条目推导判定所需字段：曾收费 / 历史最高价 / 连续为 0 天数 / 上价 / 现价。"""
+    e = entry or new_entry()
+    h = e.get("h") or []
+    ever_charged = e.get("ec")
+    if ever_charged is None:
+        vals = [p for x in h for p in (x.get("f", 0) or 0, x.get("l", 0) or 0)]
+        ever_charged = any(p > 0 for p in vals)
+    max_price = e.get("mx") or 0
+    if not max_price and h:
+        max_price = max(p for x in h for p in (x.get("f", 0) or 0, x.get("l", 0) or 0))
     # 连续为 0 的天数（从最新一天往前数，当天需首末均为 0 才算零天）
     cz = 0
-    for e in reversed(days):
-        if (e.get("f", 0) or 0) == 0 and (e.get("l", 0) or 0) == 0:
+    for x in reversed(h):
+        if (x.get("f", 0) or 0) == 0 and (x.get("l", 0) or 0) == 0:
             cz += 1
         else:
             break
-    # 上一轮价格（用于"新触发"排序/闪免识别）
-    if len(days) >= 2:
-        prev = days[-2].get("l", 0) or 0
-    elif days:
-        prev = days[-1].get("f", 0) or 0
+    if len(h) >= 2:
+        prev = h[-2].get("l", 0) or 0
+    elif h:
+        prev = h[-1].get("f", 0) or 0
     else:
         prev = 0
-    cur = days[-1].get("l", 0) if days else 0
+    cur = h[-1].get("l", 0) if h else 0
     return ever_charged, max_price, cz, prev, cur
 
 
 def main():
     parser = argparse.ArgumentParser(description="App Store 限免清单生成器")
     parser.add_argument("--country", required=True, choices=["cn", "us"], help="地区：cn 中国区 / us 美国区")
+    parser.add_argument("--full", action="store_true",
+                        help="全量模式：把永久库中所有 App 一并回查（默认仅扫榜单 + 促销中 App，更快）")
     args = parser.parse_args()
     country = args.country
+    full = args.full
     free_label = "免费" if country == "cn" else "Free"
 
     history_path = os.path.join(DATA_DIR, f"history-{country}.json")
     out_path = os.path.join(DATA_DIR, f"free-today-{country}.json")
     watch_path = os.path.join(DATA_DIR, f"watch-{country}.json")
 
-    # 1) 构建宽监控池：22 分类 付费榜 + 畅销榜 + 整体免费榜
-    watch_ids = []
-    for g in GENRE_IDS:
-        watch_ids += fetch_chart(country, "toppaidapplications", GENRE_LIMIT, genre=g)
-        watch_ids += fetch_chart(country, "topgrossingapplications", GROSS_LIMIT, genre=g)
-    watch_ids += fetch_chart(country, "topfreeapplications", FREE_LIMIT)
+    today = utc_today().isoformat()
 
-    # 2) 加载 30 天历史；若为空用旧 baseline 播种一天
+    # 1) 构建宽监控池：22 分类 付费榜 + 畅销榜 + 整体免费榜
+    chart_ids = []
+    for g in GENRE_IDS:
+        chart_ids += fetch_chart(country, "toppaidapplications", GENRE_LIMIT, genre=g)
+        chart_ids += fetch_chart(country, "topgrossingapplications", GROSS_LIMIT, genre=g)
+    chart_ids += fetch_chart(country, "topfreeapplications", FREE_LIMIT)
+
+    # 2) 加载永久 App 库；若为空用旧 baseline 播种一天
     history = load_history(history_path)
     if not history:
         baseline = load_json(os.path.join(DATA_DIR, f"baseline-{country}.json"))
         if baseline:
             history = seed_from_baseline(history, baseline)
-            print(f"[info] seeded history from baseline: {len(history)} apps")
+            print(f"[info] seeded library from baseline: {len(history)} apps")
 
-    # 3) 叠加历史中的所有 App（持续跟踪，哪怕跌出榜单）
-    watch_ids += list(history.keys())
-
-    # 4) 补充追踪池：昨日限免/特价的 App（含长尾、掉榜的）按 id 续查，
-    #    不看榜单在不在榜；首跑时从已提交的昨日清单兜底播种，避免长尾漏抓。
+    # 3) 一次性把旧「补充追踪池」watch 并入永久库（保留原价锚点 + 首见日），
+    #    并入后删除 watch 文件，统一为单一 App 库。
     watch = load_json(watch_path)
-    if not watch:
-        seed = load_json(out_path)
-        for it in (seed.get("freebies", []) + seed.get("deals", [])):
-            cid = str(it.get("id"))
-            if cid:
-                watch[cid] = {"anchor": 0, "first": today, "last": today}
-        if watch:
-            print(f"[info] watch seeded from previous free-today: {len(watch)} apps")
-    watch_ids += list(watch.keys())
+    if watch:
+        for cid, w in watch.items():
+            e = history.get(cid) or new_entry()
+            anc = w.get("anchor") or 0
+            if anc > 0:
+                e["ec"] = True
+                e["mx"] = max(e["mx"], anc)
+                e["anchor"] = max(e["anchor"], anc)
+            if not e.get("first"):
+                e["first"] = w.get("first", today)
+            e["last"] = w.get("last", today)
+            e["miss"] = 0
+            history[cid] = e
+        try:
+            os.remove(watch_path)
+        except OSError:
+            pass
+        print(f"[info] folded watch into library: {len(watch)} apps")
 
-    # 去重保序
-    seen = set()
-    union = []
-    for x in watch_ids:
-        if x not in seen:
-            seen.add(x)
-            union.append(x)
+    # 4) 构建本轮回查集合 union：
+    #    · 始终含榜单 App（捕捉新鲜限免）；
+    #    · 非全量模式：仅额外含「促销中可能掉榜」的库内 App（现价=0 或 现价为历史折扣），
+    #      避免每 6 小时全库回查；全量模式(--full，每日一班)则含库内全部 App。
+    union = list(chart_ids)
+    seen = set(union)
+    if full:
+        for cid in history.keys():
+            if cid not in seen:
+                seen.add(cid); union.append(cid)
+    else:
+        for cid, e in history.items():
+            if cid in seen:
+                continue
+            h = e.get("h") or []
+            if not h:
+                continue
+            cur = h[-1].get("l", 0) or 0
+            anchor = e.get("anchor") or 0
+            if cur == 0 or (anchor > 0 and cur > 0 and cur < anchor * (1 - DEAL_DROP_PCT)):
+                seen.add(cid); union.append(cid)   # 仍在促销/降价 → 续查
 
     details = lookup(country, union)
-    today = utc_today().isoformat()
 
     freebies = []
     deals = []
-    promo_ids = set()  # 本轮实际命中促销（限免/降价）的 App，用于追踪池续期
-    promo_anchor = {}  # cid -> 本轮算出的原价锚点（数值），供追踪池保鲜
-
     for cid, d in details.items():
         cur = d.get("price", 0) or 0
         name = d.get("trackName", "")
@@ -270,8 +346,8 @@ def main():
         rating = d.get("averageUserRating") or 0
         url = d.get("trackViewUrl", "")
 
-        # 写入/更新今日价格快照
-        update_history(history, cid, today, cur)
+        # 写入/更新今日价格快照 + 标量基线（命中 lookup）
+        update_history(history, cid, today, cur, found=True)
         ever_charged, max_price, cz, prev, cur = derive(history[cid])
 
         is_free = False
@@ -281,20 +357,19 @@ def main():
             if ever_charged and cz <= LONG_FREE_DAYS:
                 is_free = True
         else:
-            # 降价：相对 30 天最高价降幅 ≥ 50%
+            # 降价：相对历史最高价降幅 ≥ 50%
             if ever_charged and max_price > 0 and cur < max_price \
                     and (max_price - cur) / max_price >= DEAL_DROP_PCT:
                 is_deal = True
 
         if is_free or is_deal:
             newly = (cur == 0 and prev > 0)  # 本轮/本日新触发
-            # 原价锚点：优先用追踪池里记录的原价（跨 30 天历史窗口仍保鲜），
-            # 否则回落到 30 天历史最高价 / prev / 当前
-            anchor = (watch.get(cid, {}) or {}).get("anchor") or 0
+            # 原价锚点：优先用库内记录的原价（永久保鲜），否则回落到历史最高价 / prev / 当前
+            anchor = (history[cid] or {}).get("anchor") or 0
             if anchor <= 0:
                 anchor = max_price if max_price > 0 else (prev if prev > 0 else cur)
-            # 近 30 天每日末价序列（旧→新），供前端画价格曲线 / 算历史最低
-            series = [e.get("l", 0) or 0 for e in history[cid]]
+            # 每日末价序列（旧→新），供前端画价格曲线 / 算历史最低
+            series = [x.get("l", 0) or 0 for x in (history[cid].get("h") or [])]
             item = {
                 "id": cid,
                 "name": name,
@@ -311,34 +386,24 @@ def main():
                 "series": series,
             }
             (freebies if is_free else deals).append(item)
-            promo_ids.add(cid)
-            promo_anchor[cid] = anchor
+
+    # 回查集合里命中失败的 App：累计 miss（疑似下架）
+    for cid in union:
+        if cid not in details:
+            update_history(history, cid, today, 0, found=False)
+
+    # 清理：连续 miss 达阈值 → 判定下架，从库删除
+    delisted = 0
+    for cid in [c for c, e in history.items() if (e.get("miss") or 0) >= DELIST_MISS]:
+        del history[cid]; delisted += 1
+    if delisted:
+        print(f"[info] delisted (miss≥{DELIST_MISS}): {delisted} apps")
 
     # 排序：新触发的限免/降价优先，其次评分高、名称
     def sort_key(x):
         return (-(1 if x.get("is_new") else 0), -(x.get("rating") or 0), x.get("name") or "")
     freebies.sort(key=sort_key)
     deals.sort(key=sort_key)
-
-    # 维护补充追踪池：续期仍在促销的 App（记录原价锚点）；促销结束（现价回升至原价）
-    # 或追了 WATCH_DAYS 天无动静的，移除以免无限回查死 App。
-    new_watch = {}
-    for cid, w in watch.items():
-        d = details.get(cid)
-        cur = (d.get("price", 0) or 0) if d else None
-        if cid in promo_ids:
-            # 仍在促销：用本轮算出的原价锚点保鲜
-            anc = promo_anchor.get(cid) or (w.get("anchor") or 0)
-            new_watch[cid] = {"anchor": anc, "first": w.get("first", today), "last": today}
-        else:
-            if cur is not None and cur > 0 and cur >= (w.get("anchor") or 0):
-                continue  # 现价已回升至原价 → 促销结束，丢弃
-            if (utc_today() - datetime.date.fromisoformat(w.get("last", today))).days < WATCH_DAYS:
-                w = dict(w); w["last"] = today  # 续期（可能掉榜但仍可能促销）
-                new_watch[cid] = w
-            # 否则过期丢弃
-    watch = new_watch
-    save_json(watch_path, watch)
 
     result = {
         "date": today,
@@ -351,8 +416,8 @@ def main():
     save_json(out_path, result)
     save_json(history_path, history)
 
-    print(f"[ok] country={country} date={today} monitored={len(union)} "
-          f"history={len(history)} freebies={len(freebies)} deals={len(deals)} "
+    print(f"[ok] country={country} full={full} date={today} monitored={len(union)} "
+          f"library={len(history)} freebies={len(freebies)} deals={len(deals)} "
           f"(display free≤{MAX_DISPLAY}, deal≤{MAX_DISPLAY})")
 
 

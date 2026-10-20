@@ -1,7 +1,79 @@
 {
-  "date": "2026-10-19",
+  "date": "2026-10-20",
   "country": "cn",
-  "generated_at": "2026-10-19T21:54:10Z",
-  "freebies": [],
-  "deals": []
+  "generated_at": "2026-10-20T00:37:22Z",
+  "freebies": [
+    {
+      "id": "6761341923",
+      "name": "NekoAI",
+      "dev": "Shanghai Candy Rectangle Technology Co., Ltd.",
+      "genre": "工具",
+      "normal": "¥1.00",
+      "current": "免费",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d4/74/d5/d474d5a1-d9e0-3ffe-14cc-84f7597f34fa/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "rating": 5,
+      "url": "https://apps.apple.com/cn/app/nekoai/id6761341923?uo=4",
+      "region": "cn",
+      "type": "free",
+      "is_new": false,
+      "series": [
+        0
+      ]
+    },
+    {
+      "id": "1561444285",
+      "name": "Monk Mode: Silent Meditation",
+      "dev": "Kevin David Tanner",
+      "genre": "健康健美",
+      "normal": "¥38.00",
+      "current": "免费",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b5/35/68/b535687c-d255-034c-02c8-3c8eef7795ed/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+      "rating": 0,
+      "url": "https://apps.apple.com/cn/app/monk-mode-silent-meditation/id1561444285?uo=4",
+      "region": "cn",
+      "type": "free",
+      "is_new": false,
+      "series": [
+        0
+      ]
+    }
+  ],
+  "deals": [
+    {
+      "id": "6752586685",
+      "name": "环游旅记 - 空间场景日记",
+      "dev": "嘉豪 李",
+      "genre": "旅游",
+      "normal": "¥58.00",
+      "current": "¥18.00",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/57/2a/84/572a846f-237f-56d1-9a46-e45214baa2fb/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "rating": 5,
+      "url": "https://apps.apple.com/cn/app/%E7%8E%AF%E6%B8%B8%E6%97%85%E8%AE%B0-%E7%A9%BA%E9%97%B4%E5%9C%BA%E6%99%AF%E6%97%A5%E8%AE%B0/id6752586685?uo=4",
+      "region": "cn",
+      "type": "deal",
+      "is_new": false,
+      "series": [
+        18.0,
+        18.0
+      ]
+    },
+    {
+      "id": "1644917705",
+      "name": "无处遁形：全网公敌",
+      "dev": "DQM Games",
+      "genre": "游戏",
+      "normal": "¥30.00",
+      "current": "¥15.00",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/76/96/74/769674e2-cb26-207b-0543-4fed45593717/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
+      "rating": 4.54892,
+      "url": "https://apps.apple.com/cn/app/%E6%97%A0%E5%A4%84%E9%81%81%E5%BD%A2-%E5%85%A8%E7%BD%91%E5%85%AC%E6%95%8C/id1644917705?uo=4",
+      "region": "cn",
+      "type": "deal",
+      "is_new": false,
+      "series": [
+        15.0,
+        15.0
+      ]
+    }
+  ]
 }

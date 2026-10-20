@@ -1,0 +1,47 @@
+name: daily-freebie-full
+
+# 全量回查（每日一班）
+# ----------------
+# 常规班次(daily.yml)每 6 小时只扫「榜单 App + 促销中可能掉榜的库内 App」，速度快；
+# 但纯长尾/已掉榜 App 的缓慢价格变化（如悄悄恢复原价、悄悄下架）不会被常规班次捕捉。
+# 本工作流每日一班对「永久 App 库」做全量回查(--full)，抓长尾 + 累计 miss 触发下架清理。
+# 21:00 UTC = 北京时间 05:00，避开白天活跃时段，且距 18:00/00:00 两班都有缓冲。
+on:
+  schedule:
+    - cron: "0 21 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  full-scan:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+
+      - name: Full rescan (cn)
+        run: python scripts/generate.py --country cn --full
+
+      - name: Full rescan (us)
+        run: python scripts/generate.py --country us --full
+
+      - name: Commit & push
+        run: |
+          git config user.email "freebie-bot@users.noreply.github.com"
+          git config user.name "Freebie Bot"
+          git add data/free-today-cn.json data/free-today-us.json data/history-cn.json data/history-us.json
+          if git diff --cached --quiet; then
+            echo "无变化，跳过提交"
+          else
+            git commit -m "daily-full: App Store 全量回查 $(date -u +%Y-%m-%d)"
+            # 推送前先 rebase 远端最新，避免与手动/常规班次推送撞车
+            git pull --rebase origin main
+            git push
+          fi
