@@ -241,9 +241,12 @@
   var currentData = { free: [], deals: [] };     // 当前区已加载数据
 
   // ===== 地区配置 =====
+  // 注意：file 必须是【绝对路径】/data/...。独立详情页位于 /app/{region}-{id}.html，
+  // 若用相对路径 data/... 会解析成 /app/data/... → 404，导致 currentData 为空，
+  // 「同类推荐」「同时期的其他限免」整块消失（首页在 / 或 /index.html 下才会碰巧正常）。
   var REGIONS = {
-    cn: { file: 'data/free-today-cn.json', label: '中国区', label_en: 'China' },
-    us: { file: 'data/free-today-us.json', label: '美国区', label_en: 'United States' }
+    cn: { file: '/data/free-today-cn.json', label: '中国区', label_en: 'China' },
+    us: { file: '/data/free-today-us.json', label: '美国区', label_en: 'United States' }
   };
   // App Store 中文分类 → 英文（数据里 genre 存的是中文，英文界面显示时转换）
   var GENRE_EN = {
@@ -508,6 +511,11 @@
         var ss = document.getElementById('statSaved'); if (ss) ss.textContent = formatMoney(region, saved);
         fillGenres();
         renderFiltered();
+        // 独立页兜底：详情(iTunes)比数据先返回时，推荐区块曾渲染为空，这里补一次
+        if (detailApp) {
+          var ex = document.getElementById('dtExtra');
+          if (ex && !ex.querySelector('.dt-related')) renderRecommend(detailApp, ex);
+        }
       })
       .catch(function () { showError(); });
   }
@@ -785,10 +793,34 @@
       '</div>';
   }
 
+  // 「同类推荐」+「同时期的其他限免」两个推荐区块。
+  // 独立页里数据（free-today JSON）与 iTunes 详情是并发请求的，谁先返回不确定；
+  // 若详情先到，currentData 还是空的，这里就会渲染出空区块。
+  // 因此 load() 拿到数据后会再调一次本函数补渲染（内部先清掉旧区块，不会重复）。
+  var detailApp = null;   // 当前独立页正在展示的 App
+  function renderRecommend(app, extra) {
+    if (!app || !extra) return;
+    var relatedIds = {};
+    currentData.free.concat(currentData.deals).forEach(function (a) {
+      if (a.id !== app.id && a.genre === app.genre) relatedIds[a.id] = 1;
+    });
+    var sp = samePeriodHTML(app, relatedIds);
+    var box = document.createElement('div');
+    box.innerHTML = relatedApps(app) + sp.html;
+    var olds = extra.querySelectorAll('.dt-related');
+    for (var i = 0; i < olds.length; i++) extra.removeChild(olds[i]);
+    while (box.firstChild) extra.appendChild(box.firstChild);
+    var sg = extra.querySelector('#dtSameGrid');
+    if (sg && sp.items.length) {
+      sp.items.forEach(function (a) { sg.appendChild(appCard(a, a.type === 'deal' ? 'deal' : 'free')); });
+    }
+  }
+
   // 渲染详情内容（独立详情页；panel 为空表示独立页模式）
   function renderDetail(app, body, panel) {
     var dict = I18N[CURRENT_LANG];
     if (!body) return;
+    if (!panel) detailApp = app;   // 独立页模式：记住当前 App，供 load() 补渲染推荐区块
 
     // 基础信息（无需网络，价格后续用实时 iTunes 数据覆盖）
     var ratingStr = (app.rating && app.rating > 0) ? ('★ ' + (Math.round(app.rating * 10) / 10).toFixed(1)) : '';
@@ -893,20 +925,8 @@
           '<div class="dt-desc">' + (desc ? esc(desc).replace(/\n/g, '<br/>') : esc(dict.dt_no_desc)) + '</div></div>';
 
         // 同类推荐 + 同时期的其他限免（后者复用首页卡片，置于页面最底部）
-        var relatedIds = {};
-        currentData.free.concat(currentData.deals).forEach(function (a) {
-          if (a.id !== app.id && a.genre === app.genre) relatedIds[a.id] = 1;
-        });
-        html += relatedApps(app);
-        var sp = samePeriodHTML(app, relatedIds);
-        html += sp.html;
-
         extra.innerHTML = html;
-        // 填充「同时期的其他限免」卡片（DOM 方式复用 appCard，自带跳独立页点击）
-        var sg = extra.querySelector('#dtSameGrid');
-        if (sg && sp.items.length) {
-          sp.items.forEach(function (a) { sg.appendChild(appCard(a, a.type === 'deal' ? 'deal' : 'free')); });
-        }
+        renderRecommend(app, extra);
         // 介绍原文语言与页面语言不一致 → 自动机器翻译（段落级缓存，失败保留原文）
         var descEl = extra.querySelector('.dt-desc');
         if (descEl && desc) {
