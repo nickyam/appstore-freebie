@@ -124,12 +124,22 @@ def write_app_pages(items, country, today):
     return count
 
 
-def write_sitemap():
-    """重写 sitemap.xml：主页面 + 现存所有 App 独立页"""
+def write_sitemap(allowed_ids=None):
+    """重写 sitemap.xml：主页面 + 当前收录的 App 独立页。
+
+    allowed_ids：当前 free-today 收录的 App-id 集合。若提供，sitemap 仅收录其中的
+    独立页（无评分 / 已下架等未收录 App 不再出现在 sitemap，避免把不收录的内容暴露给搜索引擎）。
+    """
     base = "https://freebie.limzero.com"
     paths = ["", "about.html", "privacy.html", "terms.html"]
     if os.path.isdir(APP_DIR):
-        paths += ["app/" + fn for fn in sorted(os.listdir(APP_DIR)) if fn.endswith(".html")]
+        for fn in sorted(os.listdir(APP_DIR)):
+            if not fn.endswith(".html"):
+                continue
+            cid = fn.split("-", 1)[-1].rsplit(".", 1)[0]
+            if allowed_ids is not None and cid not in allowed_ids:
+                continue
+            paths.append("app/" + fn)
     lines = [
         '<?xml version="1.0" encoding="UTF-8"?>',
         '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',
@@ -143,6 +153,38 @@ def write_sitemap():
     with open(os.path.join(BASE_DIR, "sitemap.xml"), "w", encoding="utf-8") as f:
         f.write("\n".join(lines) + "\n")
     return len(paths)
+
+
+def prune_unrated_pages(allowed_ids):
+    """清理「当前未收录且本身无评分」的独立页（删除违反「无评论不收录」规则的旧页面）。
+
+    判定：页面 id 不在当前收录集合，且页面内嵌 JSON 的 rating==0 → 删除。
+    当前仍收录、或虽未收录但本身有评分（如已恢复收费的成熟 App）的页面一律保留，避免误删。
+    """
+    if not os.path.isdir(APP_DIR):
+        return 0
+    removed = 0
+    for fn in os.listdir(APP_DIR):
+        if not fn.endswith(".html"):
+            continue
+        cid = fn.split("-", 1)[-1].rsplit(".", 1)[0]
+        if cid in allowed_ids:
+            continue  # 当前收录，必含评分，保留
+        path = os.path.join(APP_DIR, fn)
+        try:
+            txt = open(path, encoding="utf-8", errors="ignore").read()
+        except Exception:
+            continue
+        m = re.search(r'"rating"\s*:\s*([0-9.]+)', txt)
+        rated = bool(m and float(m.group(1)) > 0)
+        if not rated:
+            try:
+                os.remove(path)
+                removed += 1
+                print("[info] prune unrated orphan page: %s" % fn)
+            except OSError:
+                pass
+    return removed
 
 
 def http_get_json(url):
@@ -445,6 +487,9 @@ def main():
                 is_deal = True
 
         if is_free or is_deal:
+            # 规则：无用户评分（评论）的应用不收录到限免/特价清单
+            if not rating:
+                continue
             newly = (cur == 0 and prev > 0)  # 本轮/本日新触发
             # 原价锚点：优先用库内记录的原价（永久保鲜），否则回落到历史最高价 / prev / 当前
             anchor = (history[cid] or {}).get("anchor") or 0
@@ -500,19 +545,22 @@ def main():
     }
 
     # App 详情独立页（写入 page 字段供首页卡片直接跳转；须在 save_json 前执行）
+    allowed_ids = {x["id"] for x in freebies + deals}  # 当前收录的 App-id 集合（均已含评分）
     page_items = result["freebies"] + result["deals"]
     pages_written = write_app_pages(page_items, country, today)
 
     save_json(out_path, result)
     save_json(history_path, history)
 
-    # 重写 sitemap（收录所有现存独立页；独立页永久保留，不再自动清理）
-    sm_urls = write_sitemap()
+    # 重写 sitemap（仅收录当前清单内的独立页；未收录 App 不暴露给搜索引擎）
+    sm_urls = write_sitemap(allowed_ids)
+    # 清理「未收录且无评分」的旧独立页（保留有评分的成熟 App 页面）
+    pruned = prune_unrated_pages(allowed_ids)
 
     print(f"[ok] country={country} full={full} date={today} monitored={len(union)} "
           f"library={len(history)} freebies={len(freebies)} deals={len(deals)} "
           f"(全量输出，无展示上限)")
-    print(f"[ok] app pages written={pages_written} sitemap_urls={sm_urls}")
+    print(f"[ok] app pages written={pages_written} sitemap_urls={sm_urls} pruned_unrated={pruned}")
 
 
 if __name__ == "__main__":

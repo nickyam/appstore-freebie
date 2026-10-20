@@ -19,6 +19,7 @@ generate.py 的监控池来自 App Store 榜单，长尾限免 App 若没进任�
 4. 该区的原价 old_price > 0（排除从未收费的永久免费 App）
 5. free_days <= 7（排除长期免费的 App，与 generate.py 的 LONG_FREE_DAYS 对齐）
 6. 用 Apple 官方 lookup 实查该区现价 == 0 才种（防反斗数据滞后误种）
+7. 实查的 averageUserRating > 0 才种（无用户评论/评分的 App 不收录，与 generate.py 规则一致）
 
 安全
 ----
@@ -106,7 +107,7 @@ def region_is_free(a, region):
 
 
 def apple_lookup(country, ids):
-    """批量 lookup，返回 {trackId: price}。失败批次返回空，不影响其它。"""
+    """批量 lookup，返回 {trackId: (price, rating)}。失败批次返回空，不影响其它。"""
     out = {}
     if not ids:
         return out
@@ -123,7 +124,7 @@ def apple_lookup(country, ids):
         for r in data.get("results", []):
             if r.get("wrapperType") != "software" and r.get("kind") != "software":
                 continue
-            out[str(r.get("trackId"))] = r.get("price") or 0
+            out[str(r.get("trackId"))] = (r.get("price") or 0, r.get("averageUserRating") or 0)
         time.sleep(1)
     return out
 
@@ -196,7 +197,7 @@ def main():
         pr = prices.get(reg, {})
         for aid in by_region[reg]:
             a = meta[aid]
-            live = pr.get(aid)
+            live, rate = pr.get(aid, (None, 0))
             if live is None:
                 # 实查失败：保守按反斗状态种（后续全量班次会校正）
                 live_ok = True
@@ -204,6 +205,9 @@ def main():
                 live_ok = (live == 0)
             if not live_ok:
                 continue  # 该区现价非 0（已恢复/从未免费），不种
+            # 无用户评论/评分的 App 不收录（实查成功才据此判定，失败则保守种）
+            if live is not None and rate == 0:
+                continue
             if aid in hist:
                 continue  # 已存在，绝不覆盖真实价格历史
             anchor = region_anchor(a, reg)
