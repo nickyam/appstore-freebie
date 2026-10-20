@@ -296,7 +296,11 @@
     var y = document.getElementById('year');
     if (y) y.textContent = new Date().getFullYear();
     var lb = document.getElementById('langBtn');
-    if (lb) lb.textContent = CURRENT_LANG === 'en' ? '🇨🇳' : '🇺🇸';
+    if (lb) {
+      var ll = document.getElementById('langLabel');
+      var tgt = CURRENT_LANG === 'en' ? '中文' : 'EN';   // 按钮显示「点击后切换到的语言」
+      if (ll) ll.textContent = tgt; else lb.textContent = tgt;
+    }
     var allOpt = document.querySelector('#genreFilter option[value=""]');
     if (allOpt) allOpt.textContent = dict.genre_all;
     var og = document.querySelector('meta[property="og:locale"]');

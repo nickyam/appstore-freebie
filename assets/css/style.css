@@ -47,16 +47,19 @@ a.logo { color: inherit; text-decoration: none; }   /* 独立页 logo 是链接�
 .logo:hover { opacity: .82; }
 .logo .radar { color: var(--accent); flex: none; }
 
-/* 右上角控件区：语言 + 主题切换 */
+/* 右上角控件区：语言 + 主题切换（药丸底色风格） */
 .header-actions { display: flex; align-items: center; gap: 8px; }
 .icon-btn {
-  border: none; background: transparent; color: var(--text);
-  border-radius: 999px; padding: 7px 11px; font: inherit; font-size: 13px; font-weight: 500;
+  display: inline-flex; align-items: center; justify-content: center; gap: 6px;
+  border: 1px solid rgba(0, 0, 0, .07); background: rgba(0, 0, 0, .05); color: var(--text);
+  border-radius: 999px; height: 34px; padding: 0 12px; font: inherit; font-size: 13px; font-weight: 600;
   line-height: 1; cursor: pointer; transition: background .18s;
 }
-.icon-btn:hover { background: rgba(0, 0, 0, .06); }
-.icon-btn:active { background: rgba(0, 0, 0, .1); }
-.icon-btn .ic { display: block; width: 18px; height: 18px; }
+.icon-btn:hover { background: rgba(0, 0, 0, .09); }
+.icon-btn:active { background: rgba(0, 0, 0, .13); }
+.icon-btn .ic { display: block; width: 16px; height: 16px; }
+.lang-btn .ic { color: var(--accent); }
+#themeBtn { width: 34px; padding: 0; }
 /* 主题图标：用 currentColor 自动随主题变黑/白，无彩色；按 data-theme / 系统偏好切换 太阳/月亮 */
 .theme-ic-moon { display: none; }
 .theme-ic-sun { display: block; }
@@ -243,7 +246,8 @@ ins.adsbygoogle { background: #ececf0; border-radius: var(--radius); }
   .header-inner { padding: 10px 14px; }
   .logo { font-size: 17px; }
   .header-actions { gap: 6px; }
-  .icon-btn { padding: 5px 9px; font-size: 12px; }
+  .icon-btn { height: 30px; padding: 0 10px; font-size: 12px; }
+  #themeBtn { width: 30px; }
   .header-actions a { font-size: 12px; }
   .toolbar { margin-top: 18px; flex-wrap: nowrap; }
   .search-input { min-width: 0; padding: 10px 16px; font-size: 14px; }
@@ -274,8 +278,9 @@ ins.adsbygoogle { background: #ececf0; border-radius: var(--radius); }
 :root[data-theme="dark"] .card img { background: #2c2c2e; }
 :root[data-theme="dark"] .region-switch { background: #2c2c2e; }
 :root[data-theme="dark"] .region-btn.active { background: #636366; color: #fff; box-shadow: none; }
-:root[data-theme="dark"] .icon-btn:hover { background: rgba(255, 255, 255, .12); }
-:root[data-theme="dark"] .icon-btn:active { background: rgba(255, 255, 255, .18); }
+:root[data-theme="dark"] .icon-btn { background: rgba(255, 255, 255, .09); border-color: rgba(255, 255, 255, .12); }
+:root[data-theme="dark"] .icon-btn:hover { background: rgba(255, 255, 255, .16); }
+:root[data-theme="dark"] .icon-btn:active { background: rgba(255, 255, 255, .22); }
 
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme]) {
@@ -289,8 +294,9 @@ ins.adsbygoogle { background: #ececf0; border-radius: var(--radius); }
   :root:not([data-theme]) .card img { background: #2c2c2e; }
   :root:not([data-theme]) .region-switch { background: #2c2c2e; }
   :root:not([data-theme]) .region-btn.active { background: #636366; color: #fff; box-shadow: none; }
-  :root:not([data-theme]) .icon-btn:hover { background: rgba(255, 255, 255, .12); }
-  :root:not([data-theme]) .icon-btn:active { background: rgba(255, 255, 255, .18); }
+  :root:not([data-theme]) .icon-btn { background: rgba(255, 255, 255, .09); border-color: rgba(255, 255, 255, .12); }
+  :root:not([data-theme]) .icon-btn:hover { background: rgba(255, 255, 255, .16); }
+  :root:not([data-theme]) .icon-btn:active { background: rgba(255, 255, 255, .22); }
 }
 
 /* ===== 应用详情（独立页 + 浮层共用 dt-* 样式；浮层已弃用，仅保留独立页所需） ===== */
