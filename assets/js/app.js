@@ -734,8 +734,7 @@
     var ratingStr = (app.rating && app.rating > 0) ? ('★ ' + (Math.round(app.rating * 10) / 10).toFixed(1)) : '';
     var base = '<div class="dt-head">' +
       (app.icon ? '<img class="dt-icon" src="' + esc(app.icon) + '" alt=""/>' : '<div class="dt-icon dt-ic">📱</div>') +
-      '<div class="dt-hinfo"><h2 class="dt-name">' + esc(app.name || '') +
-      (app.is_new ? '<span class="new-badge">' + esc(dict.badge_new) + '</span>' : '') + '</h2>' +
+      '<div class="dt-hinfo"><h2 class="dt-name">' + esc(app.name || '') + '</h2>' +
       '<div class="dt-dev">' + esc(app.dev || '') + '</div>' +
       '<div class="dt-meta">' +
       (app.genre ? '<a class="dt-chip chip-link" href="/index.html?genre=' + encodeURIComponent(app.genre) + '&region=' + esc(app.region || 'cn') + '" title="' + esc(dict.dt_genre_link) + '">' + esc(genreLabel(app.genre)) + '</a>' : '') +
