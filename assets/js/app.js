@@ -193,17 +193,6 @@
     if (html != null) e.innerHTML = html;
     return e;
   }
-  // 把后端给的 UTC 时间（如 2026-10-19T21:54:10Z）转成北京时间显示，去掉 raw Z 尾巴
-  function fmtGenTime(iso, en) {
-    var t = Date.parse(iso);
-    if (isNaN(t)) return iso;
-    var d = new Date(t + 8 * 3600 * 1000); // UTC+8
-    function p(n) { return (n < 10 ? '0' : '') + n; }
-    var s = d.getUTCFullYear() + '-' + p(d.getUTCMonth() + 1) + '-' + p(d.getUTCDate()) +
-            ' ' + p(d.getUTCHours()) + ':' + p(d.getUTCMinutes());
-    return en ? s + ' (Beijing)' : s + '（北京时间）';
-  }
-
   function esc(s) {
     return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) {
       return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
@@ -381,7 +370,7 @@
       .then(function (d) {
         var dl = document.getElementById('dateLine');
         if (dl) {
-          var gen = d.generated_at ? (CURRENT_LANG === 'en' ? ' (updated ' + fmtGenTime(d.generated_at, true) + ')' : '（更新于 ' + fmtGenTime(d.generated_at, false) + '）') : '';
+          var gen = d.generated_at ? (CURRENT_LANG === 'en' ? ' (updated ' + d.generated_at + ' UTC)' : '（更新于 ' + d.generated_at + ' UTC）') : '';
           var regionLabel = CURRENT_LANG === 'en' ? (meta.label_en || meta.label) : meta.label;
           dl.textContent = dict.date_prefix + (d.date || '—') + ' · ' + regionLabel + gen;
         }

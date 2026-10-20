@@ -150,18 +150,18 @@ def load_history(path):
     return load_json(path)
 
 
-def beijing_today():
-    """以北京时间为准取「今天」。
-    GitHub Actions 机器是 UTC 时区，直接用 date.today() 会导致：
-    北京时间 0点~16点 之间跑的批次被记成「昨天」，日期行永远慢一天，
-    且当天多次快照被写进同一个历史日期键。站点受众与调度班次（北京 02/08/14/20 点）
-    都按北京时间定义，这里统一用 UTC+8。"""
-    return datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=8))).date()
+def utc_today():
+    """以 UTC 为准取「今天」。
+    数据日期(date)与 generated_at(UTC) 保持同一时区，避免
+    「日期 10-19 / 更新于 10-20」的观感矛盾；GitHub Actions runner 本就是 UTC，
+    历史日期键也与既有数据连续。显式用 UTC 而非 date.today()，保证本地调试
+    （UTC+8 机器）与线上行为一致。"""
+    return datetime.datetime.now(datetime.timezone.utc).date()
 
 
 def seed_from_baseline(history, baseline):
     """首次无历史时，用旧 baseline 的当日价播种一天，给跨天判定一个起点。"""
-    today = beijing_today().isoformat()
+    today = utc_today().isoformat()
     for cid, rec in (baseline or {}).items():
         p = rec.get("price", 0) or 0
         history[cid] = [{"d": today, "f": p, "l": p}]
@@ -176,7 +176,7 @@ def update_history(history, cid, today, price):
         h = (h or []) + [{"d": today, "f": price, "l": price}]
         history[cid] = h
     # 裁剪到 HISTORY_DAYS
-    cutoff = (beijing_today() - datetime.timedelta(days=HISTORY_DAYS - 1)).isoformat()
+    cutoff = (utc_today() - datetime.timedelta(days=HISTORY_DAYS - 1)).isoformat()
     history[cid] = [e for e in history[cid] if e.get("d", "") >= cutoff]
 
 
@@ -254,7 +254,7 @@ def main():
             union.append(x)
 
     details = lookup(country, union)
-    today = beijing_today().isoformat()
+    today = utc_today().isoformat()
 
     freebies = []
     deals = []
@@ -333,7 +333,7 @@ def main():
         else:
             if cur is not None and cur > 0 and cur >= (w.get("anchor") or 0):
                 continue  # 现价已回升至原价 → 促销结束，丢弃
-            if (beijing_today() - datetime.date.fromisoformat(w.get("last", today))).days < WATCH_DAYS:
+            if (utc_today() - datetime.date.fromisoformat(w.get("last", today))).days < WATCH_DAYS:
                 w = dict(w); w["last"] = today  # 续期（可能掉榜但仍可能促销）
                 new_watch[cid] = w
             # 否则过期丢弃
