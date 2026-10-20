@@ -389,16 +389,9 @@
     if (isLow) extra.appendChild(el('span', 'low-tag', esc(dict.lowest_30)));
     if (sp || isLow) info.appendChild(extra);
     card.appendChild(info);
-    if (app.url) {
-      var go = el('a', 'go', dict.card_store);
-      go.href = app.url;
-      go.target = '_blank';
-      go.rel = 'noopener';
-      card.appendChild(go);
-    }
+    // 卡片整体可点（进详情浮层）；下载入口统一放在浮层/独立页里
     card.classList.add('card-click');
-    card.addEventListener('click', function (e) {
-      if (e.target.closest('a.go')) return;   // 点「App Store」按钮直接外跳
+    card.addEventListener('click', function () {
       openDetail(app);
     });
     return card;
