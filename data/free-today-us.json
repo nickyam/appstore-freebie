@@ -1,7 +1,7 @@
 {
   "date": "2026-10-20",
   "country": "us",
-  "generated_at": "2026-10-20T10:43:12Z",
+  "generated_at": "2026-10-20T16:07:02Z",
   "freebies": [
     {
       "id": "1500086470",
@@ -39,7 +39,7 @@
       "genre": "Utilities",
       "normal": "$2.99",
       "current": "Free",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d8/49/66/d8496668-f2c4-42a9-c74a-67808392ade3/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/44/d9/0e/44d90e4c-fd20-f9d0-1350-912974b50aa4/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
       "rating": 5,
       "url": "https://apps.apple.com/us/app/aigoodbye/id6757513032?uo=4",
       "region": "us",
@@ -213,7 +213,7 @@
       "genre": "Productivity",
       "normal": "$2.99",
       "current": "Free",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3e/ec/d5/3eecd560-5206-c434-ce66-9774b9484560/AppIcon-BurntOrange-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ef/ba/15/efba1542-6584-ebbc-221d-ce1a6573e82b/AppIcon-BurntOrange-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
       "rating": 5,
       "url": "https://apps.apple.com/us/app/calpaper-today-at-a-glance/id6818876548?uo=4",
       "region": "us",
@@ -881,7 +881,7 @@
       "normal": "$4.99",
       "current": "Free",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/32/35/9e/32359ede-b286-7c59-50ed-a6f59d51a2b6/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
-      "rating": 4.78192,
+      "rating": 4.78198,
       "url": "https://apps.apple.com/us/app/fotospot-road-trip-community/id1200952700?uo=4",
       "region": "us",
       "type": "free",
@@ -990,35 +990,6 @@
       "page": "app/us-1410053842.html"
     },
     {
-      "id": "1499570640",
-      "name": "Anti Pong",
-      "dev": "Chris DeWeese",
-      "genre": "Games",
-      "normal": "$0.99",
-      "current": "Free",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/52/f6/82/52f6824c-0820-a914-9de8-46dd431f12c1/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
-      "rating": 4.7027,
-      "url": "https://apps.apple.com/us/app/anti-pong/id1499570640?uo=4",
-      "region": "us",
-      "type": "free",
-      "is_new": true,
-      "series": [
-        0.99,
-        0
-      ],
-      "phistory": [
-        {
-          "d": "2026-10-19",
-          "p": 0.99
-        },
-        {
-          "d": "2026-10-20",
-          "p": 0
-        }
-      ],
-      "page": "app/us-1499570640.html"
-    },
-    {
       "id": "1391571907",
       "name": "Fine - Photo Editor",
       "dev": "巧霞 詹",
@@ -1106,33 +1077,33 @@
       "page": "app/us-942099999.html"
     },
     {
-      "id": "1668996691",
-      "name": "ShoppingList – Grocery List",
-      "dev": "Pecora GmbH",
-      "genre": "Utilities",
-      "normal": "$1.99",
+      "id": "1499570640",
+      "name": "Anti Pong",
+      "dev": "Chris DeWeese",
+      "genre": "Games",
+      "normal": "$0.99",
       "current": "Free",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/54/c9/b0/54c9b0c7-431e-d00f-57a1-2ab1604e0e00/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
-      "rating": 4.62962,
-      "url": "https://apps.apple.com/us/app/shoppinglist-grocery-list/id1668996691?uo=4",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/52/f6/82/52f6824c-0820-a914-9de8-46dd431f12c1/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+      "rating": 4.63157,
+      "url": "https://apps.apple.com/us/app/anti-pong/id1499570640?uo=4",
       "region": "us",
       "type": "free",
       "is_new": true,
       "series": [
-        1.99,
+        0.99,
         0
       ],
       "phistory": [
         {
           "d": "2026-10-19",
-          "p": 1.99
+          "p": 0.99
         },
         {
           "d": "2026-10-20",
           "p": 0
         }
       ],
-      "page": "app/us-1668996691.html"
+      "page": "app/us-1499570640.html"
     },
     {
       "id": "1396346170",
@@ -1431,7 +1402,7 @@
       "genre": "Developer Tools",
       "normal": "$1.99",
       "current": "Free",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/85/dc/2e/85dc2eed-c97d-4879-3b9c-2cca397d598a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/88/9d/04/889d04d9-aad1-8543-3ff6-6ef50918e009/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
       "rating": 4.36154,
       "url": "https://apps.apple.com/us/app/text-editor-document-editor/id1565641091?uo=4",
       "region": "us",
@@ -1916,35 +1887,6 @@
         }
       ],
       "page": "app/us-562713600.html"
-    },
-    {
-      "id": "6796486391",
-      "name": "BreakThree",
-      "dev": "Makoto Fukuoka",
-      "genre": "Health & Fitness",
-      "normal": "$0.29",
-      "current": "Free",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/32/28/49/322849fd-f892-2f5c-8d91-4c8c5d058d47/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-      "rating": 3,
-      "url": "https://apps.apple.com/us/app/breakthree/id6796486391?uo=4",
-      "region": "us",
-      "type": "free",
-      "is_new": true,
-      "series": [
-        0.29,
-        0
-      ],
-      "phistory": [
-        {
-          "d": "2026-10-19",
-          "p": 0.29
-        },
-        {
-          "d": "2026-10-20",
-          "p": 0
-        }
-      ],
-      "page": "app/us-6796486391.html"
     },
     {
       "id": "6812764518",
