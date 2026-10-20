@@ -56,7 +56,6 @@
       lowest_30: '30天最低',
       foot_privacy: '隐私政策',
       foot_terms: '使用条款',
-      foot_data_note: '数据来自 App Store 公开信息自动汇总',
       foot_not_apple: '非苹果官方站点',
       foot_rights: '保留所有权利',
       pv_badge: '📋 隐私政策',
@@ -152,7 +151,6 @@
       lowest_30: '30-day low',
       foot_privacy: 'Privacy Policy',
       foot_terms: 'Terms of Use',
-      foot_data_note: 'Aggregated from public App Store data',
       foot_not_apple: 'Not an official Apple site',
       foot_rights: 'All rights reserved',
       pv_badge: '📋 Privacy Policy',
@@ -467,11 +465,6 @@
           var regionLabel = CURRENT_LANG === 'en' ? (meta.label_en || meta.label) : meta.label;
           dl.textContent = dict.date_prefix + (d.date || '—') + ' · ' + regionLabel + gen;
         }
-        // 页脚「更新于」时间戳（所有页面共用 footer）
-        var fu = document.getElementById('footerUpdated');
-        if (fu) fu.textContent = d.generated_at
-          ? ((CURRENT_LANG === 'en' ? ' · updated ' : ' · 更新于 ') + d.generated_at + ' UTC')
-          : '';
         var free = d.freebies || [];
         var deals = d.deals || [];
         currentData.free = free;
