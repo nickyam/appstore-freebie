@@ -554,6 +554,37 @@
       renderFiltered();
     });
 
+    // 搜索图标 → 弹出搜索/分类面板（图标位于语言胶囊前）
+    var searchTrigger = document.getElementById('searchTrigger');
+    var searchPop = document.getElementById('searchPop');
+    if (searchTrigger && searchPop) {
+      searchTrigger.addEventListener('click', function (e) {
+        e.stopPropagation();
+        if (searchPop.hasAttribute('hidden')) {
+          searchPop.removeAttribute('hidden');
+          searchTrigger.setAttribute('aria-expanded', 'true');
+          var si = document.getElementById('searchInput');
+          if (si) si.focus();
+        } else {
+          searchPop.setAttribute('hidden', '');
+          searchTrigger.setAttribute('aria-expanded', 'false');
+        }
+      });
+      document.addEventListener('click', function (e) {
+        if (!searchPop.hasAttribute('hidden') && e.target !== searchTrigger && !searchPop.contains(e.target)) {
+          searchPop.setAttribute('hidden', '');
+          searchTrigger.setAttribute('aria-expanded', 'false');
+        }
+      });
+      document.addEventListener('keydown', function (e) {
+        if (e.key === 'Escape' && !searchPop.hasAttribute('hidden')) {
+          searchPop.setAttribute('hidden', '');
+          searchTrigger.setAttribute('aria-expanded', 'false');
+          searchTrigger.focus();
+        }
+      });
+    }
+
     // 点击站名「苹果限免雷达」：首页=刷新数据；关于页=回首页
     var logo = document.getElementById('logoHome');
     if (logo) logo.addEventListener('click', function () {
