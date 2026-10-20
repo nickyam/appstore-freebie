@@ -279,17 +279,18 @@
       var pk = phNodes[j].getAttribute('data-i18n-ph');
       if (dict[pk] != null) phNodes[j].setAttribute('placeholder', dict[pk]);
     }
-    // 品牌名按域名替换（同仓库多域名：limzero=极零限免 / nickyam=涯木限免）
-    var brand = siteName();
+    // 品牌名按域名 + 语言替换（limzero=极零限免/Lim Freebies、nickyam=涯木限免/Yam Freebies）
+    var brand = brandName();
     for (var k = 0; k < nodes.length; k++) {
       var html = nodes[k].innerHTML;
       if (!html) continue;
       if (html.indexOf('苹果限免雷达') >= 0) {
         nodes[k].innerHTML = html.split('苹果限免雷达').join(brand);
-      } else if (html.indexOf('Freebie Radar') >= 0) {
-        nodes[k].innerHTML = html.split('Freebie Radar').join(brand);
+      } else if (html.indexOf('Apple Freebie Radar') >= 0) {
+        nodes[k].innerHTML = html.split('Apple Freebie Radar').join(brand);
       }
     }
+    applyBrand();   // 让 logo / 页脚 / 标题 在切语言时同步为对应语言品牌名
     var y = document.getElementById('year');
     if (y) y.textContent = new Date().getFullYear();
     var lb = document.getElementById('langBtn');
@@ -565,15 +566,17 @@
     return 'cn';
   }
 
-  // 站点品牌：按域名区分（同仓库部署到 limzero / nickyam 两套域名）
-  function siteName() {
+  // 站点品牌：按域名 + 语言区分（同仓库部署到 limzero / nickyam 两套域名）
+  function brandName() {
     var h = location.hostname;
-    if (h.indexOf('limzero') >= 0) return '极零限免';
-    if (h.indexOf('nickyam') >= 0) return '涯木限免';
+    var en = CURRENT_LANG === 'en';
+    if (h.indexOf('limzero') >= 0) return en ? 'Lim Freebies' : '极零限免';
+    if (h.indexOf('nickyam') >= 0) return en ? 'Yam Freebies' : '涯木限免';
     // 本地预览（localhost/127.0.0.1）按主镜像品牌显示，预览即所见即所得
-    if (h === 'localhost' || h === '127.0.0.1' || h === '') return '极零限免';
-    return '苹果限免雷达';
+    if (h === 'localhost' || h === '127.0.0.1' || h === '') return en ? 'Lim Freebies' : '极零限免';
+    return en ? 'Apple Freebie Radar' : '苹果限免雷达';
   }
+  var lastBrand = null;
 
   function setMeta(key, val) {
     var m = document.querySelector('meta[property="' + key + '"]') ||
@@ -588,20 +591,23 @@
 
   // 把品牌名写进可见文案 + SEO 元信息（按当前域名自动取值，兼容首页/关于页）
   function applyBrand() {
-    var name = siteName();
+    var name = brandName();
+    function swap(s) {
+      if (!s) return s;
+      if (lastBrand) s = s.split(lastBrand).join(name);
+      return s.split(苹果限免雷达).join(name).split('Apple Freebie Radar').join(name);
+    }
     var url = location.origin + location.pathname;
     var logo = document.getElementById('siteLogo');
     if (logo) logo.textContent = name;
     var fs = document.getElementById('footerSiteName');
     if (fs) fs.textContent = name;
-    var title = document.title || '';
-    if (title.indexOf('苹果限免雷达') >= 0) document.title = title.split('苹果限免雷达').join(name);
+    document.title = swap(document.title || '');
     ['og:site_name', 'og:title', 'twitter:title', 'og:description', 'twitter:description', 'description'].forEach(function (key) {
       var m = document.querySelector('meta[property="' + key + '"]') ||
               document.querySelector('meta[name="' + key + '"]');
       if (!m) return;
-      var c = m.getAttribute('content') || '';
-      if (c.indexOf('苹果限免雷达') >= 0) m.setAttribute('content', c.split('苹果限免雷达').join(name));
+      m.setAttribute('content', swap(m.getAttribute('content') || ''));
     });
     var canon = document.querySelector('link[rel="canonical"]');
     if (canon) canon.setAttribute('href', url);
@@ -616,6 +622,7 @@
           ld.textContent = JSON.stringify(o);
         }
       } catch (e) {}
+    lastBrand = name;
   }
 
   // ===== 应用详情浮层 =====
