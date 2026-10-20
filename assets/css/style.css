@@ -83,8 +83,8 @@ main { padding: 0 0 96px; }
   background: rgba(52, 199, 89, .12); padding: 5px 14px; border-radius: 999px; margin-bottom: 18px;
 }
 .date-line {
-  display: inline-block; font-size: 13px; font-weight: 600; color: var(--free);
-  background: rgba(52, 199, 89, .12); padding: 5px 14px; border-radius: 999px; margin-top: 16px;
+  display: block; width: fit-content; font-size: 13px; font-weight: 600; color: var(--free);
+  background: rgba(52, 199, 89, .12); padding: 5px 14px; border-radius: 999px; margin: 16px auto 0;
 }
 
 /* 统计条：限免/特价条数 + 今日可省（仿 Apple 数据看板） */
