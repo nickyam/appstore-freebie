@@ -118,6 +118,13 @@ def write_app_pages(items, country, today):
         html = html.replace("__APP_LD__", json.dumps(ld, ensure_ascii=False, indent=2))
         app_json = json.dumps(item, ensure_ascii=False).replace("</", "<\\/")
         html = html.replace("window.__APP__ = null;", "window.__APP__ = " + app_json + ";")
+        page_url = "https://freebie.limzero.com/" + page_rel
+        html = html.replace("__CANON__", esc_html(page_url))
+        html = html.replace("__OG_URL__", esc_html(page_url))
+        og_img = item.get("icon", "")
+        if og_img:
+            og_img = re.sub(r'/(\d+)x(\d+)bb(\.\w+)$', r'/512x512bb\3', og_img)
+        html = html.replace("__OG_IMAGE__", esc_html(og_img))
         with open(os.path.join(BASE_DIR, page_rel), "w", encoding="utf-8") as f:
             f.write(html)
         count += 1
