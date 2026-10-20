@@ -1,7 +1,7 @@
 {
   "date": "2026-10-20",
   "country": "cn",
-  "generated_at": "2026-10-20T16:03:59Z",
+  "generated_at": "2026-10-20T21:02:42Z",
   "freebies": [
     {
       "id": "6799355833",
@@ -155,7 +155,7 @@
       "genre": "财务",
       "normal": "¥8.00",
       "current": "免费",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/06/9f/0f/069f0fa4-a650-c49b-859c-60375ba2c539/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/66/6f/77/666f7773-7958-f144-4fd1-7bc3d5bb4a48/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
       "rating": 5,
       "url": "https://apps.apple.com/cn/app/luna-subscriptions/id6739967953?uo=4",
       "region": "cn",
@@ -1072,6 +1072,64 @@
         }
       ],
       "page": "app/cn-6752586685.html"
+    },
+    {
+      "id": "6813275168",
+      "name": "观云-实时天气预报空气质量指数15日雨雪降温穿衣带伞",
+      "dev": "俊烽 李",
+      "genre": "天气",
+      "normal": "¥15.00",
+      "current": "¥3.00",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/86/d5/22/86d522e8-f65e-b80b-cc35-432faab6933a/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "rating": 4.66667,
+      "url": "https://apps.apple.com/cn/app/%E8%A7%82%E4%BA%91-%E5%AE%9E%E6%97%B6%E5%A4%A9%E6%B0%94%E9%A2%84%E6%8A%A5%E7%A9%BA%E6%B0%94%E8%B4%A8%E9%87%8F%E6%8C%87%E6%95%B015%E6%97%A5%E9%9B%A8%E9%9B%AA%E9%99%8D%E6%B8%A9%E7%A9%BF%E8%A1%A3%E5%B8%A6%E4%BC%9E/id6813275168?uo=4",
+      "region": "cn",
+      "type": "deal",
+      "is_new": false,
+      "series": [
+        15.0,
+        3.0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 15.0
+        },
+        {
+          "d": "2026-10-20",
+          "p": 3.0
+        }
+      ],
+      "page": "app/cn-6813275168.html"
+    },
+    {
+      "id": "1644917705",
+      "name": "无处遁形：全网公敌",
+      "dev": "DQM Games",
+      "genre": "游戏",
+      "normal": "¥30.00",
+      "current": "¥15.00",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/76/96/74/769674e2-cb26-207b-0543-4fed45593717/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
+      "rating": 4.54892,
+      "url": "https://apps.apple.com/cn/app/%E6%97%A0%E5%A4%84%E9%81%81%E5%BD%A2-%E5%85%A8%E7%BD%91%E5%85%AC%E6%95%8C/id1644917705?uo=4",
+      "region": "cn",
+      "type": "deal",
+      "is_new": false,
+      "series": [
+        15.0,
+        15.0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 15.0
+        },
+        {
+          "d": "2026-10-20",
+          "p": 15.0
+        }
+      ],
+      "page": "app/cn-1644917705.html"
     }
   ]
 }
