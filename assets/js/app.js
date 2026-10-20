@@ -66,6 +66,7 @@
       dt_close_hint: '点击任意处关闭',
       dt_genre_link: '查看该分类的今日限免',
       dt_related: '同类推荐',
+      dt_same_period: '同时期的其他限免',
       dt_go: '在 App Store 打开',
       dt_ver: '版本',
       dt_size: '大小',
@@ -180,6 +181,7 @@
       dt_close_hint: 'Tap anywhere to close',
       dt_genre_link: 'Browse today\u2019s deals in this category',
       dt_related: 'Similar picks',
+      dt_same_period: 'More free right now',
       dt_go: 'Open in App Store',
       dt_ver: 'Version',
       dt_size: 'Size',
@@ -725,6 +727,21 @@
     return html;
   }
 
+  // 同时期的其他限免：当区当前清单里除本 App 外的限免/特价（新触发优先、评分次之），
+  // 复用首页同款卡片；relatedIds 用于跳过已在「同类推荐」里出现过的，避免重复
+  function samePeriodHTML(app, relatedIds) {
+    var dict = I18N[CURRENT_LANG];
+    var pool = currentData.free.concat(currentData.deals).filter(function (a) {
+      return a.id !== app.id && !relatedIds[a.id];
+    });
+    if (!pool.length) return { html: '', items: [] };
+    pool.sort(function (x, y) {
+      return (y.is_new ? 1 : 0) - (x.is_new ? 1 : 0) || (y.rating || 0) - (x.rating || 0);
+    });
+    pool = pool.slice(0, 6);
+    return { html: '<div class="dt-related dt-period"><h3>' + esc(dict.dt_same_period) + '</h3><div class="grid" id="dtSameGrid"></div></div>', items: pool };
+  }
+
   // 渲染详情内容（独立详情页；panel 为空表示独立页模式）
   function renderDetail(app, body, panel) {
     var dict = I18N[CURRENT_LANG];
@@ -821,10 +838,21 @@
         html += '<div class="dt-section"><h3>' + esc(dict.dt_about) + '</h3>' +
           '<div class="dt-desc">' + (desc ? esc(desc).replace(/\n/g, '<br/>') : esc(dict.dt_no_desc)) + '</div></div>';
 
-        // 同类推荐
+        // 同类推荐 + 同时期的其他限免（后者复用首页卡片，置于页面最底部）
+        var relatedIds = {};
+        currentData.free.concat(currentData.deals).forEach(function (a) {
+          if (a.id !== app.id && a.genre === app.genre) relatedIds[a.id] = 1;
+        });
         html += relatedApps(app);
+        var sp = samePeriodHTML(app, relatedIds);
+        html += sp.html;
 
         extra.innerHTML = html;
+        // 填充「同时期的其他限免」卡片（DOM 方式复用 appCard，自带跳独立页点击）
+        var sg = extra.querySelector('#dtSameGrid');
+        if (sg && sp.items.length) {
+          sp.items.forEach(function (a) { sg.appendChild(appCard(a, a.type === 'deal' ? 'deal' : 'free')); });
+        }
         // 介绍原文语言与页面语言不一致 → 自动机器翻译（段落级缓存，失败保留原文）
         var descEl = extra.querySelector('.dt-desc');
         if (descEl && desc) {
