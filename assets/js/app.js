@@ -741,7 +741,10 @@
       '<div class="dt-price"><span class="dt-cur ' + (app.type === 'free' ? 'free' : 'deal') + '">' + esc(app.current || (app.type === 'free' ? dict.card_free_price : '')) + '</span>' +
       (app.normal ? '<span class="dt-old">' + esc(app.normal) + '</span>' : '') + '</div>' +
       '</div>' +
+      '<div class="dt-side">' +
       '<div class="dt-qr"><img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&margin=0&data=' + encodeURIComponent(app.url || '') + '" alt="QR" loading="lazy"/><span>' + esc(dict.dt_qr) + '</span></div>' +
+      '<a class="dt-go-sm" href="' + esc(app.url || '#') + '" target="_blank" rel="noopener">' + esc(dict.dt_go) + '</a>' +
+      '</div>' +
       '</div>' +
       '<div class="dt-section" id="dtExtra"><div class="dt-loading">' + esc(dict.dt_loading) + '</div></div>';
     body.innerHTML = base;
@@ -788,8 +791,6 @@
 
         // 同类推荐
         html += relatedApps(app);
-
-        html += '<div class="dt-foot"><a class="dt-go" href="' + esc(app.url || '#') + '" target="_blank" rel="noopener">' + esc(dict.dt_go) + '</a></div>';
 
         extra.innerHTML = html;
         if (panel) panel.scrollTop = 0;

@@ -335,7 +335,10 @@ ins.adsbygoogle { background: #ececf0; border-radius: var(--radius); }
 .dt-go:hover { text-decoration: none; opacity: .92; }
 .dt-qr { text-align: center; font-size: 11px; color: var(--muted); }
 .dt-head .dt-qr { margin-left: auto; flex: 0 0 auto; padding-right: 0; }
+.dt-side { margin-left: auto; flex: 0 0 auto; width: 112px; display: flex; flex-direction: column; align-items: center; gap: 10px; }
 .dt-qr img { width: 88px; height: 88px; border-radius: 10px; background: #fff; padding: 4px; display: block; margin: 0 auto 3px; }
+.dt-go-sm { display: block; width: 100%; text-align: center; background: var(--accent); color: #fff; font-size: 12.5px; font-weight: 600; line-height: 1.35; padding: 8px 10px; border-radius: 10px; text-decoration: none; }
+.dt-go-sm:hover { text-decoration: none; opacity: .9; }
 .dt-section { margin-top: 22px; }
 .dt-section h3 { font-size: 15px; font-weight: 700; margin: 0 0 10px; color: var(--text); }
 .dt-loading { color: var(--muted); font-size: 14px; padding: 8px 0; }
