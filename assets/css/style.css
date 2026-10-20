@@ -156,7 +156,7 @@ ins.adsbygoogle { background: #ececf0; border-radius: var(--radius); }
 /* App cards */
 /* 桌面端两列：minmax 提高到 440px，配合 auto-fit 在宽屏下排两列而非三列，
    给卡片更多横向空间，让 App 名称与开发者名称完整显示（配合下面的换行规则）。 */
-.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(440px, 1fr)); gap: 16px; }
+.grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
 .card {
   background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
   padding: 18px; box-shadow: var(--shadow); display: flex; gap: 16px; align-items: center;
@@ -232,9 +232,9 @@ ins.adsbygoogle { background: #ececf0; border-radius: var(--radius); }
 /* 入场动画 */
 @keyframes fadeUp { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: none; } }
 
-/* 中屏（平板/窄桌面）：卡片放不下两列完整信息时退回单列，避免挤压截断 */
+/* 中屏（平板/窄桌面）：3 列太挤，退回 2 列 */
 @media (max-width: 900px) {
-  .grid { grid-template-columns: 1fr; }
+  .grid { grid-template-columns: repeat(2, 1fr); }
   .hero { padding: 40px 0 20px; }
   .hero h1 { font-size: clamp(30px, 8vw, 40px); }
 }
