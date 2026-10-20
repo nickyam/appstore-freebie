@@ -28,9 +28,9 @@ set -e
 REPO_SSH="git@github.com:nickyam/appstore-freebie.git"
 # 注意：本脚本运行在 ECS 宿主机上，必须写【宿主机真实路径】。
 # OpenResty 容器把宿主机 .../www 挂载为容器内 /www，
-# 因此容器内 /www/sites/freebie.limzero.com/index 对应的宿主机路径就是下面这个。
+# 因此容器内 /www/sites/appstore.limzero.com/index 对应的宿主机路径就是下面这个。
 # 注意目录名是 index（1Panel 静态网站约定），不是默认的 html。
-DEPLOY_DIR="/opt/1panel/apps/openresty/openresty/www/sites/freebie.limzero.com/index"
+DEPLOY_DIR="/opt/1panel/apps/openresty/openresty/www/sites/appstore.limzero.com/index"
 BRANCH="main"
 # 仓库在本地的临时克隆目录（只作内容源，不对外提供）
 REPO_TMP="/root/.freebie-repo-cache"

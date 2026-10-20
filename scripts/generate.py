@@ -118,7 +118,7 @@ def write_app_pages(items, country, today):
         html = html.replace("__APP_LD__", json.dumps(ld, ensure_ascii=False, indent=2))
         app_json = json.dumps(item, ensure_ascii=False).replace("</", "<\\/")
         html = html.replace("window.__APP__ = null;", "window.__APP__ = " + app_json + ";")
-        page_url = "https://freebie.limzero.com/" + page_rel
+        page_url = "https://appstore.limzero.com/" + page_rel
         html = html.replace("__CANON__", esc_html(page_url))
         html = html.replace("__OG_URL__", esc_html(page_url))
         og_img = item.get("icon", "")
@@ -139,7 +139,7 @@ def write_sitemap():
     sitemap 直接收录全部 app/*.html 即可——即便该 App 已从限免清单掉出（如价格恢复），
     只要它有评分，独立页仍保留并被搜索引擎收录。
     """
-    base = "https://freebie.limzero.com"
+    base = "https://appstore.limzero.com"
     paths = ["", "about.html", "privacy.html", "terms.html"]
     if os.path.isdir(APP_DIR):
         for fn in sorted(os.listdir(APP_DIR)):
