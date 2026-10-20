@@ -65,7 +65,6 @@
       back_home: '← 返回首页',
       dt_close_hint: '点击任意处关闭',
       dt_genre_link: '查看该分类的今日限免',
-      dt_related: '同类推荐',
       dt_same_period: '同时期的其他限免',
       dt_go: '在 App Store 打开',
       dt_ver: '版本',
@@ -180,7 +179,6 @@
       back_home: '← Back to home',
       dt_close_hint: 'Tap anywhere to close',
       dt_genre_link: 'Browse today\u2019s deals in this category',
-      dt_related: 'Similar picks',
       dt_same_period: 'More free right now',
       dt_go: 'Open in App Store',
       dt_ver: 'Version',
@@ -748,30 +746,12 @@
       '</svg>';
   }
 
-  function relatedApps(app) {
-    var dict = I18N[CURRENT_LANG];
-    var pool = currentData.free.concat(currentData.deals).filter(function (a) {
-      return a.id !== app.id && a.genre === app.genre;
-    }).slice(0, 4);
-    if (!pool.length) return '';
-    var html = '<div class="dt-related"><h3>' + esc(dict.dt_related) + '</h3><div class="rel-grid">';
-    pool.forEach(function (a) {
-      html += '<button class="rel-card" data-appid="' + esc(String(a.id)) + '" data-region="' + esc(a.region) + '">' +
-        (a.icon ? '<img src="' + esc(a.icon) + '" alt="" loading="lazy"/>' : '<span class="rel-ic">📱</span>') +
-        '<span class="rel-name">' + esc(a.name || '') + '</span>' +
-        '<span class="rel-price">' + (a.current ? esc(a.current) : '') + '</span>' +
-        '</button>';
-    });
-    html += '</div></div>';
-    return html;
-  }
-
   // 同时期的其他限免：当区当前清单里除本 App 外的限免/特价（新触发优先、评分次之），
-  // 复用首页同款卡片；relatedIds 用于跳过已在「同类推荐」里出现过的，避免重复
-  function samePeriodHTML(app, relatedIds) {
+  // 复用首页同款卡片（自带跳独立页点击）
+  function samePeriodHTML(app) {
     var dict = I18N[CURRENT_LANG];
     var pool = currentData.free.concat(currentData.deals).filter(function (a) {
-      return a.id !== app.id && !relatedIds[a.id];
+      return a.id !== app.id;
     });
     if (!pool.length) return { html: '', items: [] };
     pool.sort(function (x, y) {
@@ -800,24 +780,19 @@
     }
   }
 
-  // 「同类推荐」+「同时期的其他限免」两个推荐区块。
+  // 「同时期的其他限免」区块（独立页最底部）。
   // 独立页里数据（free-today JSON）与 iTunes 详情是并发请求的，谁先返回不确定；
   // 若详情先到，currentData 还是空的，这里就会渲染出空区块。
   // 因此 load() 拿到数据后会再调一次本函数补渲染（内部先清掉旧区块，不会重复）。
-  // 独立页专属：正文末尾广告位（7221917766）插在「应用介绍」之后、推荐区块之前；
+  // 独立页专属：正文末尾广告位（7221917766）插在「应用介绍」之后、本区块之前；
   // 首页弹窗（detailApp 为空）不插广告。
   var detailApp = null;   // 当前独立页正在展示的 App
   function renderRecommend(app, extra) {
     if (!app || !extra) return;
-    var relatedIds = {};
-    currentData.free.concat(currentData.deals).forEach(function (a) {
-      if (a.id !== app.id && a.genre === app.genre) relatedIds[a.id] = 1;
-    });
-    var sp = samePeriodHTML(app, relatedIds);
+    var sp = samePeriodHTML(app);
     var isPage = !!(detailApp && detailApp.id === app.id);
     var box = document.createElement('div');
-    box.innerHTML = (isPage ? adSlotHTML('7221917766', 'dt-ad-tail') : '') +
-                     relatedApps(app) + sp.html;
+    box.innerHTML = (isPage ? adSlotHTML('7221917766', 'dt-ad-tail') : '') + sp.html;
     var olds = extra.querySelectorAll('.dt-related, .dt-ad-tail');
     for (var i = 0; i < olds.length; i++) extra.removeChild(olds[i]);
     while (box.firstChild) extra.appendChild(box.firstChild);
@@ -1090,17 +1065,6 @@
         }
         return;
       }
-      // 同类推荐 → 跳对应 App 独立页
-      var rc = e.target.closest('.rel-card');
-      if (!rc) return;
-      var id = rc.getAttribute('data-appid');
-      var region = rc.getAttribute('data-region') || getRegion();
-      var app = window.__APP__
-        ? (String(window.__APP__.id) === id && window.__APP__.region === region ? window.__APP__ : null)
-        : currentData.free.concat(currentData.deals).filter(function (a) {
-            return String(a.id) === id && a.region === region;
-          })[0];
-      if (app && app.page) location.href = app.page;
     });
   }
 
