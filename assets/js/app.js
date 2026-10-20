@@ -559,6 +559,8 @@
     var h = location.hostname;
     if (h.indexOf('limzero') >= 0) return '极零限免';
     if (h.indexOf('nickyam') >= 0) return '涯木限免';
+    // 本地预览（localhost/127.0.0.1）按主镜像品牌显示，预览即所见即所得
+    if (h === 'localhost' || h === '127.0.0.1' || h === '') return '极零限免';
     return '苹果限免雷达';
   }
 
