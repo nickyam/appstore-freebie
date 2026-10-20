@@ -166,6 +166,8 @@ main { padding: 0 0 96px; }
 .ad-slot { margin: 28px 0; text-align: center; }
 /* 独立页：App 头部卡片下方的固定广告位 */
 .dt-ad { margin: 22px 0; }
+/* 独立页：正文末尾广告位（应用介绍之后、推荐区块之前） */
+.dt-ad-tail { margin: 26px 0; }
 ins.adsbygoogle { background: #ececf0; border-radius: var(--radius); }
 
 /* Sections */

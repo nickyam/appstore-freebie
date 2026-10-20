@@ -786,17 +786,26 @@
   // 由 renderDetail 在插入 DOM 后手动 push 一次触发广告请求。
   // 广告单元：顶部内容广告 7735913921（与页面底部已有的 7221917766 区分，
   // 同一页面不使用重复单元）。
-  function adSlotHTML(slot) {
-    return '<div class="ad-slot dt-ad">' +
+  function adSlotHTML(slot, cls) {
+    return '<div class="ad-slot ' + (cls || 'dt-ad') + '">' +
       '<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7114121088728794" ' +
       'data-ad-slot="' + slot + '" data-ad-format="auto" data-full-width-responsive="true"></ins>' +
       '</div>';
+  }
+  function pushAd(container, cls) {
+    var ins = container.querySelector('.' + cls + ' ins.adsbygoogle');
+    if (ins) {
+      try { (window.adsbygoogle = window.adsbygoogle || []).push({}); }
+      catch (e) { /* 广告脚本未就绪时静默跳过，不影响正文 */ }
+    }
   }
 
   // 「同类推荐」+「同时期的其他限免」两个推荐区块。
   // 独立页里数据（free-today JSON）与 iTunes 详情是并发请求的，谁先返回不确定；
   // 若详情先到，currentData 还是空的，这里就会渲染出空区块。
   // 因此 load() 拿到数据后会再调一次本函数补渲染（内部先清掉旧区块，不会重复）。
+  // 独立页专属：正文末尾广告位（7221917766）插在「应用介绍」之后、推荐区块之前；
+  // 首页弹窗（detailApp 为空）不插广告。
   var detailApp = null;   // 当前独立页正在展示的 App
   function renderRecommend(app, extra) {
     if (!app || !extra) return;
@@ -805,11 +814,14 @@
       if (a.id !== app.id && a.genre === app.genre) relatedIds[a.id] = 1;
     });
     var sp = samePeriodHTML(app, relatedIds);
+    var isPage = !!(detailApp && detailApp.id === app.id);
     var box = document.createElement('div');
-    box.innerHTML = relatedApps(app) + sp.html;
-    var olds = extra.querySelectorAll('.dt-related');
+    box.innerHTML = (isPage ? adSlotHTML('7221917766', 'dt-ad-tail') : '') +
+                     relatedApps(app) + sp.html;
+    var olds = extra.querySelectorAll('.dt-related, .dt-ad-tail');
     for (var i = 0; i < olds.length; i++) extra.removeChild(olds[i]);
     while (box.firstChild) extra.appendChild(box.firstChild);
+    if (isPage) pushAd(extra, 'dt-ad-tail');
     var sg = extra.querySelector('#dtSameGrid');
     if (sg && sp.items.length) {
       sp.items.forEach(function (a) { sg.appendChild(appCard(a, a.type === 'deal' ? 'deal' : 'free')); });
@@ -844,19 +856,13 @@
       '<a class="dt-go-sm" href="' + esc(app.url || '#') + '" target="_blank" rel="noopener">' + esc(dict.dt_go) + '</a>' +
       '</div>' +
       '</div>' +
-      // 独立页：App 头部卡片（dt-head）正下方插入固定广告位；首页弹窗内不放广告
-      (panel ? '' : adSlotHTML('7735913921')) +
+    // 独立页：App 头部卡片（dt-head）正下方插入固定广告位；首页弹窗内不放广告
+    (panel ? '' : adSlotHTML('7735913921', 'dt-ad')) +
       '<div class="dt-section" id="dtExtra"><div class="dt-loading">' + esc(dict.dt_loading) + '</div></div>';
     body.innerHTML = base;
 
     // innerHTML 插入的脚本不会执行，这里手动触发一次广告请求
-    if (!panel) {
-      var ins = body.querySelector('.dt-ad ins.adsbygoogle');
-      if (ins) {
-        try { (window.adsbygoogle = window.adsbygoogle || []).push({}); }
-        catch (e) { /* 广告脚本未就绪时静默跳过，不影响正文 */ }
-      }
-    }
+    if (!panel) pushAd(body, 'dt-ad');
 
     // 独立页面包屑
     var crumb = document.getElementById('appCrumb');
