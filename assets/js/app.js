@@ -773,6 +773,18 @@
     return { html: '<div class="dt-related dt-period"><h3>' + esc(dict.dt_same_period) + '</h3><div class="grid" id="dtSameGrid"></div></div>', items: pool };
   }
 
+  // 独立页正文内嵌广告位（固定广告位）。
+  // 说明：innerHTML 插入的 <script> 不会自动执行，所以这里只输出 <ins>，
+  // 由 renderDetail 在插入 DOM 后手动 push 一次触发广告请求。
+  // 广告单元：顶部内容广告 7735913921（与页面底部已有的 7221917766 区分，
+  // 同一页面不使用重复单元）。
+  function adSlotHTML(slot) {
+    return '<div class="ad-slot dt-ad">' +
+      '<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7114121088728794" ' +
+      'data-ad-slot="' + slot + '" data-ad-format="auto" data-full-width-responsive="true"></ins>' +
+      '</div>';
+  }
+
   // 渲染详情内容（独立详情页；panel 为空表示独立页模式）
   function renderDetail(app, body, panel) {
     var dict = I18N[CURRENT_LANG];
@@ -800,8 +812,19 @@
       '<a class="dt-go-sm" href="' + esc(app.url || '#') + '" target="_blank" rel="noopener">' + esc(dict.dt_go) + '</a>' +
       '</div>' +
       '</div>' +
+      // 独立页：App 头部卡片（dt-head）正下方插入固定广告位；首页弹窗内不放广告
+      (panel ? '' : adSlotHTML('7735913921')) +
       '<div class="dt-section" id="dtExtra"><div class="dt-loading">' + esc(dict.dt_loading) + '</div></div>';
     body.innerHTML = base;
+
+    // innerHTML 插入的脚本不会执行，这里手动触发一次广告请求
+    if (!panel) {
+      var ins = body.querySelector('.dt-ad ins.adsbygoogle');
+      if (ins) {
+        try { (window.adsbygoogle = window.adsbygoogle || []).push({}); }
+        catch (e) { /* 广告脚本未就绪时静默跳过，不影响正文 */ }
+      }
+    }
 
     // 独立页面包屑
     var crumb = document.getElementById('appCrumb');
