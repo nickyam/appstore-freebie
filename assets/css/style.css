@@ -164,6 +164,8 @@ main { padding: 0 0 96px; }
 .intro li { margin: 4px 0; }
 
 .ad-slot { margin: 28px 0; text-align: center; }
+/* 首页「今日限免」列表中部广告位：跨满整行（3 列），与卡片行对齐 */
+.ad-row { grid-column: 1 / -1; margin: 10px 0; }
 /* 独立页：App 头部卡片下方的固定广告位 */
 .dt-ad { margin: 22px 0; }
 /* 独立页：正文末尾广告位（应用介绍之后、推荐区块之前） */

@@ -410,8 +410,29 @@
       return;
     }
     var grid = el('div', 'grid');
-    data.forEach(function (a) { grid.appendChild(appCard(a, kind)); });
+    // 今日限免列表：在「每行 3 个」的行边界上、正好位于列表中部插入一个固定广告位
+    var mid = midAdPos(data.length);
+    data.forEach(function (a, i) {
+      grid.appendChild(appCard(a, kind));
+      if (kind === 'free' && mid > 0 && i + 1 === mid) {
+        // 跨整行（grid-column: 1/-1）的广告格
+        var ad = el('div', 'ad-slot ad-row');
+        ad.innerHTML = '<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7114121088728794" ' +
+          'data-ad-slot="7221917766" data-ad-format="auto" data-full-width-responsive="true"></ins>';
+        grid.appendChild(ad);
+      }
+    });
     box.appendChild(grid);
+    if (mid > 0) pushAd(grid, 'ad-row');
+  }
+
+  // 列表中部广告位的插入位置：按每行 3 个对齐，取最接近中点的整行边界。
+  // 列表太短（<9 个）就不插，避免「广告多于内容」触发 AdSense 政策风险。
+  function midAdPos(n) {
+    if (!n || n < 9) return -1;
+    var rows = Math.ceil(n / 3);
+    var pos = Math.floor(rows / 2) * 3;   // 中间那一行的末尾
+    return pos < n ? pos : -1;
   }
 
   // ===== 筛选 =====
