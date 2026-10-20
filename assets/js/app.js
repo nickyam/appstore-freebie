@@ -71,6 +71,7 @@
       dt_size: '大小',
       dt_age: '年龄分级',
       dt_rating_count: '个评分',
+      no_rating: '暂无评分',
       dt_loading: '详情加载中…',
       dt_loadfail: '详情加载失败，请稍后重试或直接前往 App Store。',
       dt_not_in: '该区暂未上架',
@@ -184,6 +185,7 @@
       dt_size: 'Size',
       dt_age: 'Age rating',
       dt_rating_count: ' ratings',
+      no_rating: 'No ratings yet',
       dt_loading: 'Loading details…',
       dt_loadfail: 'Failed to load details. Please retry or open the App Store directly.',
       dt_not_in: 'Not available in this store',
@@ -378,6 +380,8 @@
     if (app.genre) info.appendChild(el('div', 'genre', esc(app.genre)));
     if (app.rating && app.rating > 0) {
       info.appendChild(el('div', 'rating', '★ ' + (Math.round(app.rating * 10) / 10).toFixed(1)));
+    } else {
+      info.appendChild(el('div', 'rating norate', esc(dict.no_rating)));
     }
     var price = el('div', 'price');
     if (app.normal) price.appendChild(el('span', 'old', esc(app.normal)));
@@ -735,7 +739,7 @@
       '<div class="dt-dev">' + esc(app.dev || '') + '</div>' +
       '<div class="dt-meta">' +
       (app.genre ? '<a class="dt-chip chip-link" href="/index.html?genre=' + encodeURIComponent(app.genre) + '&region=' + esc(app.region || 'cn') + '" title="' + esc(dict.dt_genre_link) + '">' + esc(genreLabel(app.genre)) + '</a>' : '') +
-      (ratingStr ? '<span class="dt-chip">⭐ ' + esc(ratingStr.replace('★ ', '')) + '</span>' : '') +
+      ((ratingStr || true) ? '<span class="dt-chip' + (ratingStr ? '' : ' norate') + '">' + esc(ratingStr ? '⭐ ' + ratingStr.replace('★ ', '') : dict.no_rating) + '</span>' : '') +
       '</div>' +
       '<div class="dt-price"><span class="dt-cur ' + (app.type === 'free' ? 'free' : 'deal') + '" id="dtPrice">' + esc(app.type === 'free' ? dict.card_free_price : (app.current || '')) + '</span>' +
       (app.normal ? '<span class="dt-old" id="dtOld">' + esc(app.normal) + '</span>' : '') + '</div>' +
