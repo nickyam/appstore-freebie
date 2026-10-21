@@ -1,3 +1,10 @@
+/* 站酷快乐体（ZCOOL KuaiLe）：自托管子集，仅含「苹果限免雷达 ·」等品牌字 */
+@font-face {
+  font-family: 'ZCOOL KuaiLe';
+  font-display: swap;
+  src: url('/assets/fonts/zcool-kuaile.woff2') format('woff2');
+}
+
 :root {
   --bg: #f5f5f7;
   --surface: #ffffff;
@@ -44,9 +51,11 @@ a.logo { color: inherit; text-decoration: none; }   /* 独立页 logo 是链接�
   display: flex; align-items: center; justify-content: space-between; gap: 14px;
 }
 .header-inner .logo { flex: none; }
-.logo { font-weight: 600; font-size: 19px; letter-spacing: -.01em; display: flex; align-items: center; gap: 8px; cursor: pointer; user-select: none; }
+.logo { font-weight: 700; font-size: 23px; letter-spacing: .01em; display: flex; align-items: center; gap: 10px; cursor: pointer; user-select: none; }
 .logo:hover { opacity: .82; }
-.logo .radar { color: var(--accent); flex: none; }
+.logo .radar { color: var(--accent); flex: none; width: 26px; height: 26px; }
+/* 网站名：圆润有辨识度的「站酷快乐体」，自托管仅含品牌字（≈1.3KB），大陆可稳定加载 */
+#siteLogo { font-family: 'ZCOOL KuaiLe', 'Yuanti SC', 'Yuppy SC', 'PingFang SC', 'Microsoft YaHei', sans-serif; }
 
 /* 右上角控件区：语言 + 主题切换（药丸底色风格） */
 .header-actions { display: flex; align-items: center; gap: 8px; }
@@ -275,7 +284,8 @@ ins.adsbygoogle { background: #ececf0; border-radius: var(--radius); }
   .hero p { font-size: 16px; }
   .grid { grid-template-columns: 1fr; }
   .header-inner { padding: 10px 14px; }
-  .logo { font-size: 17px; }
+  .logo { font-size: 20px; }
+  .logo .radar { width: 22px; height: 22px; }
   .header-actions { gap: 6px; }
   .icon-btn { height: 30px; padding: 0 10px; font-size: 12px; }
   #themeBtn { width: 30px; }
