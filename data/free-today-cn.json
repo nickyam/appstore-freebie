@@ -1,8 +1,240 @@
 {
-  "date": "2026-10-20",
+  "date": "2026-10-21",
   "country": "cn",
-  "generated_at": "2026-10-20T23:38:55Z",
+  "generated_at": "2026-10-21T01:28:26Z",
   "freebies": [
+    {
+      "id": "1149956692",
+      "name": "Sensnap: 海拔气压与轨迹",
+      "dev": "林 邬",
+      "genre": "旅游",
+      "normal": "¥18.00",
+      "current": "免费",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/52/e7/69/52e769a4-5846-7fca-0540-0a287520062a/AppIcon-0-0-1x_U007ephone-0-1-85-220.jpeg/512x512bb.jpg",
+      "rating": 4.8155,
+      "url": "https://apps.apple.com/cn/app/sensnap-%E6%B5%B7%E6%8B%94%E6%B0%94%E5%8E%8B%E4%B8%8E%E8%BD%A8%E8%BF%B9/id1149956692?uo=4",
+      "region": "cn",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        18.0,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-20",
+          "p": 18.0
+        },
+        {
+          "d": "2026-10-21",
+          "p": 0
+        }
+      ],
+      "page": "app/cn-1149956692.html"
+    },
+    {
+      "id": "460661291",
+      "name": "Safety Note+ Pro：私密笔记",
+      "dev": "Eightythree Technology",
+      "genre": "效率",
+      "normal": "¥28.00",
+      "current": "免费",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1d/a6/1d/1da61d4c-887d-e3e6-e61e-6785da9aef98/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "rating": 4.57,
+      "url": "https://apps.apple.com/cn/app/safety-note-pro-%E7%A7%81%E5%AF%86%E7%AC%94%E8%AE%B0/id460661291?uo=4",
+      "region": "cn",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        28.0,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-20",
+          "p": 28.0
+        },
+        {
+          "d": "2026-10-21",
+          "p": 0
+        }
+      ],
+      "page": "app/cn-460661291.html"
+    },
+    {
+      "id": "552664144",
+      "name": "PDF Max Pro - Edit, Sign PDFs",
+      "dev": "Mobeera",
+      "genre": "效率",
+      "normal": "¥68.00",
+      "current": "免费",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fe/5b/ec/fe5becdb-31cd-61cc-f49a-2b45d2644dab/PDFMaxPro-0-0-1x_U007epad-0-0-0-1-0-0-85-220.png/512x512bb.jpg",
+      "rating": 4.56395,
+      "url": "https://apps.apple.com/cn/app/pdf-max-pro-edit-sign-pdfs/id552664144?uo=4",
+      "region": "cn",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        68.0,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-20",
+          "p": 68.0
+        },
+        {
+          "d": "2026-10-21",
+          "p": 0
+        }
+      ],
+      "page": "app/cn-552664144.html"
+    },
+    {
+      "id": "1437345765",
+      "name": "三线调音器",
+      "dev": "Pedro Daniel Macalupu Cumpen",
+      "genre": "音乐",
+      "normal": "¥48.00",
+      "current": "免费",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ac/8d/b1/ac8db196-8a7f-7c8c-9516-6c376ab3141d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "rating": 4.5,
+      "url": "https://apps.apple.com/cn/app/%E4%B8%89%E7%BA%BF%E8%B0%83%E9%9F%B3%E5%99%A8/id1437345765?uo=4",
+      "region": "cn",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        48.0,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-20",
+          "p": 48.0
+        },
+        {
+          "d": "2026-10-21",
+          "p": 0
+        }
+      ],
+      "page": "app/cn-1437345765.html"
+    },
+    {
+      "id": "1190312896",
+      "name": "Cut for Stories",
+      "dev": "Alessandro Graziani",
+      "genre": "摄影与录像",
+      "normal": "¥22.00",
+      "current": "免费",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/0e/c3/e2/0ec3e2c8-f16f-d29e-b996-e5126ebcda50/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
+      "rating": 4.16,
+      "url": "https://apps.apple.com/cn/app/cut-for-stories/id1190312896?uo=4",
+      "region": "cn",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        22.0,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-20",
+          "p": 22.0
+        },
+        {
+          "d": "2026-10-21",
+          "p": 0
+        }
+      ],
+      "page": "app/cn-1190312896.html"
+    },
+    {
+      "id": "6809207083",
+      "name": "Glassiu 浏览器: 视频嗅探&油猴脚本&广告拦截",
+      "dev": "一文 陈",
+      "genre": "工具",
+      "normal": "¥8.00",
+      "current": "免费",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/b8/68/09b868af-b8a7-de7d-cbf1-9ea0a17033fc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "rating": 4.125,
+      "url": "https://apps.apple.com/cn/app/glassiu-%E6%B5%8F%E8%A7%88%E5%99%A8-%E8%A7%86%E9%A2%91%E5%97%85%E6%8E%A2-%E6%B2%B9%E7%8C%B4%E8%84%9A%E6%9C%AC-%E5%B9%BF%E5%91%8A%E6%8B%A6%E6%88%AA/id6809207083?uo=4",
+      "region": "cn",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        8.0,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-20",
+          "p": 8.0
+        },
+        {
+          "d": "2026-10-21",
+          "p": 0
+        }
+      ],
+      "page": "app/cn-6809207083.html"
+    },
+    {
+      "id": "1029907300",
+      "name": "3D画画",
+      "dev": "Victor Ng",
+      "genre": "图形与设计",
+      "normal": "¥22.00",
+      "current": "免费",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/34/4f/b2/344fb2cb-fd93-fca1-fb2c-f8dee1962c55/AppIcon-2-1x_U007emarketing-0-11-0-85-220-0.png/512x512bb.jpg",
+      "rating": 3.82397,
+      "url": "https://apps.apple.com/cn/app/3d%E7%94%BB%E7%94%BB/id1029907300?uo=4",
+      "region": "cn",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        22.0,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-20",
+          "p": 22.0
+        },
+        {
+          "d": "2026-10-21",
+          "p": 0
+        }
+      ],
+      "page": "app/cn-1029907300.html"
+    },
+    {
+      "id": "959363552",
+      "name": "xooz",
+      "dev": "Joan Duat",
+      "genre": "游戏",
+      "normal": "¥8.00",
+      "current": "免费",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f7/72/cc/f772cce6-40d5-00f8-c52b-6ae6e1afa5a3/AppIcon-0-0-1x_U007emarketing-0-10-0-85-220.png/512x512bb.jpg",
+      "rating": 3,
+      "url": "https://apps.apple.com/cn/app/xooz/id959363552?uo=4",
+      "region": "cn",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        8.0,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-20",
+          "p": 8.0
+        },
+        {
+          "d": "2026-10-21",
+          "p": 0
+        }
+      ],
+      "page": "app/cn-959363552.html"
+    },
     {
       "id": "6799355833",
       "name": "Bars：AI用量与节点流量",
@@ -15,9 +247,10 @@
       "url": "https://apps.apple.com/cn/app/bars-ai%E7%94%A8%E9%87%8F%E4%B8%8E%E8%8A%82%E7%82%B9%E6%B5%81%E9%87%8F/id6799355833?uo=4",
       "region": "cn",
       "type": "free",
-      "is_new": true,
+      "is_new": false,
       "series": [
         38.0,
+        0,
         0
       ],
       "phistory": [
@@ -27,6 +260,10 @@
         },
         {
           "d": "2026-10-20",
+          "p": 0
+        },
+        {
+          "d": "2026-10-21",
           "p": 0
         }
       ],
@@ -44,9 +281,10 @@
       "url": "https://apps.apple.com/cn/app/braincup-brain-training/id1483376887?uo=4",
       "region": "cn",
       "type": "free",
-      "is_new": true,
+      "is_new": false,
       "series": [
         8.0,
+        0,
         0
       ],
       "phistory": [
@@ -56,6 +294,10 @@
         },
         {
           "d": "2026-10-20",
+          "p": 0
+        },
+        {
+          "d": "2026-10-21",
           "p": 0
         }
       ],
@@ -73,9 +315,10 @@
       "url": "https://apps.apple.com/cn/app/calc-plus-calculator/id6812764518?uo=4",
       "region": "cn",
       "type": "free",
-      "is_new": true,
+      "is_new": false,
       "series": [
         0.99,
+        0,
         0
       ],
       "phistory": [
@@ -85,6 +328,10 @@
         },
         {
           "d": "2026-10-20",
+          "p": 0
+        },
+        {
+          "d": "2026-10-21",
           "p": 0
         }
       ],
@@ -102,9 +349,10 @@
       "url": "https://apps.apple.com/cn/app/charcoal-studio/id6821034945?uo=4",
       "region": "cn",
       "type": "free",
-      "is_new": true,
+      "is_new": false,
       "series": [
         8.0,
+        0,
         0
       ],
       "phistory": [
@@ -114,6 +362,10 @@
         },
         {
           "d": "2026-10-20",
+          "p": 0
+        },
+        {
+          "d": "2026-10-21",
           "p": 0
         }
       ],
@@ -131,9 +383,10 @@
       "url": "https://apps.apple.com/cn/app/galplay-%E5%A4%9A%E5%BC%95%E6%93%8Egalgame-%E6%92%AD%E6%94%BE%E5%99%A8/id6799973308?uo=4",
       "region": "cn",
       "type": "free",
-      "is_new": true,
+      "is_new": false,
       "series": [
         38.0,
+        0,
         0
       ],
       "phistory": [
@@ -143,6 +396,10 @@
         },
         {
           "d": "2026-10-20",
+          "p": 0
+        },
+        {
+          "d": "2026-10-21",
           "p": 0
         }
       ],
@@ -160,9 +417,10 @@
       "url": "https://apps.apple.com/cn/app/luna-subscriptions/id6739967953?uo=4",
       "region": "cn",
       "type": "free",
-      "is_new": true,
+      "is_new": false,
       "series": [
         8.0,
+        0,
         0
       ],
       "phistory": [
@@ -173,9 +431,42 @@
         {
           "d": "2026-10-20",
           "p": 0
+        },
+        {
+          "d": "2026-10-21",
+          "p": 0
         }
       ],
       "page": "app/cn-6739967953.html"
+    },
+    {
+      "id": "6761341923",
+      "name": "NekoAI",
+      "dev": "Shanghai Candy Rectangle Technology Co., Ltd.",
+      "genre": "工具",
+      "normal": "¥1.00",
+      "current": "免费",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d4/74/d5/d474d5a1-d9e0-3ffe-14cc-84f7597f34fa/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "rating": 5,
+      "url": "https://apps.apple.com/cn/app/nekoai/id6761341923?uo=4",
+      "region": "cn",
+      "type": "free",
+      "is_new": false,
+      "series": [
+        0,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-20",
+          "p": 0
+        },
+        {
+          "d": "2026-10-21",
+          "p": 0
+        }
+      ],
+      "page": "app/cn-6761341923.html"
     },
     {
       "id": "6814895879",
@@ -189,9 +480,10 @@
       "url": "https://apps.apple.com/cn/app/notea%E4%BE%BF%E5%88%A9%E8%B4%B4/id6814895879?uo=4",
       "region": "cn",
       "type": "free",
-      "is_new": true,
+      "is_new": false,
       "series": [
         8.0,
+        0,
         0
       ],
       "phistory": [
@@ -201,6 +493,10 @@
         },
         {
           "d": "2026-10-20",
+          "p": 0
+        },
+        {
+          "d": "2026-10-21",
           "p": 0
         }
       ],
@@ -218,9 +514,10 @@
       "url": "https://apps.apple.com/cn/app/notice-mindful-screen-time/id6794823541?uo=4",
       "region": "cn",
       "type": "free",
-      "is_new": true,
+      "is_new": false,
       "series": [
         9.99,
+        0,
         0
       ],
       "phistory": [
@@ -230,6 +527,10 @@
         },
         {
           "d": "2026-10-20",
+          "p": 0
+        },
+        {
+          "d": "2026-10-21",
           "p": 0
         }
       ],
@@ -247,9 +548,10 @@
       "url": "https://apps.apple.com/cn/app/ratio-calc/id436311293?uo=4",
       "region": "cn",
       "type": "free",
-      "is_new": true,
+      "is_new": false,
       "series": [
         2.99,
+        0,
         0
       ],
       "phistory": [
@@ -259,6 +561,10 @@
         },
         {
           "d": "2026-10-20",
+          "p": 0
+        },
+        {
+          "d": "2026-10-21",
           "p": 0
         }
       ],
@@ -276,9 +582,10 @@
       "url": "https://apps.apple.com/cn/app/revisits-service-reports/id1513271477?uo=4",
       "region": "cn",
       "type": "free",
-      "is_new": true,
+      "is_new": false,
       "series": [
         38.0,
+        0,
         0
       ],
       "phistory": [
@@ -288,6 +595,10 @@
         },
         {
           "d": "2026-10-20",
+          "p": 0
+        },
+        {
+          "d": "2026-10-21",
           "p": 0
         }
       ],
@@ -305,9 +616,10 @@
       "url": "https://apps.apple.com/cn/app/waky-alarm-%E4%B8%8D%E5%86%8D%E4%B8%BA%E8%B5%96%E5%BA%8A%E6%87%8A%E6%81%BC-%E9%97%B9%E9%92%9F/id6748906275?uo=4",
       "region": "cn",
       "type": "free",
-      "is_new": true,
+      "is_new": false,
       "series": [
         8.0,
+        0,
         0
       ],
       "phistory": [
@@ -317,6 +629,10 @@
         },
         {
           "d": "2026-10-20",
+          "p": 0
+        },
+        {
+          "d": "2026-10-21",
           "p": 0
         }
       ],
@@ -329,14 +645,15 @@
       "genre": "效率",
       "normal": "¥8.00",
       "current": "免费",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d2/66/1f/d2661f01-0ce2-2609-08b6-e201287ad57e/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/66/3b/8c/663b8c12-1ffd-f4d1-3c84-234fae6476fb/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
       "rating": 5,
       "url": "https://apps.apple.com/cn/app/%E4%B8%80%E6%97%A5-%E5%85%B3%E6%B3%A8%E4%BB%8A%E6%97%A5%E5%BE%85%E5%8A%9E/id6793025405?uo=4",
       "region": "cn",
       "type": "free",
-      "is_new": true,
+      "is_new": false,
       "series": [
         8.0,
+        0,
         0
       ],
       "phistory": [
@@ -346,6 +663,10 @@
         },
         {
           "d": "2026-10-20",
+          "p": 0
+        },
+        {
+          "d": "2026-10-21",
           "p": 0
         }
       ],
@@ -359,13 +680,14 @@
       "normal": "¥0.99",
       "current": "免费",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/28/11/35/28113522-0a6c-d14c-277b-590074d8601e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-      "rating": 4.94585,
+      "rating": 4.94604,
       "url": "https://apps.apple.com/cn/app/%E4%B8%80%E5%88%92%E6%B8%85/id6792625493?uo=4",
       "region": "cn",
       "type": "free",
-      "is_new": true,
+      "is_new": false,
       "series": [
         0.99,
+        0,
         0
       ],
       "phistory": [
@@ -375,6 +697,10 @@
         },
         {
           "d": "2026-10-20",
+          "p": 0
+        },
+        {
+          "d": "2026-10-21",
           "p": 0
         }
       ],
@@ -388,13 +714,14 @@
       "normal": "¥0.99",
       "current": "免费",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/bb/c2/63bbc249-4cef-9dfc-9621-19d0295ccef6/AppIcon-1-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg",
-      "rating": 4.87868,
+      "rating": 4.87878,
       "url": "https://apps.apple.com/cn/app/%E5%B0%8F%E6%B8%94%E6%8E%92%E7%8F%AD-%E5%80%92%E7%8F%AD%E6%97%A5%E5%8E%86%E4%B8%8E%E8%BD%AE%E7%8F%AD%E9%97%B9%E9%92%9F/id1410053842?uo=4",
       "region": "cn",
       "type": "free",
-      "is_new": true,
+      "is_new": false,
       "series": [
         0.99,
+        0,
         0
       ],
       "phistory": [
@@ -404,6 +731,10 @@
         },
         {
           "d": "2026-10-20",
+          "p": 0
+        },
+        {
+          "d": "2026-10-21",
           "p": 0
         }
       ],
@@ -421,9 +752,10 @@
       "url": "https://apps.apple.com/cn/app/%E4%BD%9B%E9%9F%B3%E5%A4%A7%E6%82%B2%E5%92%92-%E5%A4%A9%E7%B1%81%E9%9F%B3%E4%B9%90%E5%B8%AE%E6%82%A8%E5%8C%96%E8%A7%A3%E7%83%A6%E6%81%BC%E5%92%8C%E5%BF%A7%E6%84%81/id942099999?uo=4",
       "region": "cn",
       "type": "free",
-      "is_new": true,
+      "is_new": false,
       "series": [
         8.0,
+        0,
         0
       ],
       "phistory": [
@@ -433,6 +765,10 @@
         },
         {
           "d": "2026-10-20",
+          "p": 0
+        },
+        {
+          "d": "2026-10-21",
           "p": 0
         }
       ],
@@ -450,9 +786,10 @@
       "url": "https://apps.apple.com/cn/app/%E5%A4%87%E5%BF%98%E5%BD%95-%E5%BD%95%E9%9F%B3%E6%9C%BA/id1396913168?uo=4",
       "region": "cn",
       "type": "free",
-      "is_new": true,
+      "is_new": false,
       "series": [
         22.0,
+        0,
         0
       ],
       "phistory": [
@@ -462,6 +799,10 @@
         },
         {
           "d": "2026-10-20",
+          "p": 0
+        },
+        {
+          "d": "2026-10-21",
           "p": 0
         }
       ],
@@ -479,9 +820,10 @@
       "url": "https://apps.apple.com/cn/app/%E7%94%B5%E5%AD%90%E7%9B%B8%E5%86%8C%E5%A4%A7%E5%B8%88-%E4%B8%93%E4%B8%9A%E7%89%88/id1225490847?uo=4",
       "region": "cn",
       "type": "free",
-      "is_new": true,
+      "is_new": false,
       "series": [
         22.0,
+        0,
         0
       ],
       "phistory": [
@@ -491,6 +833,10 @@
         },
         {
           "d": "2026-10-20",
+          "p": 0
+        },
+        {
+          "d": "2026-10-21",
           "p": 0
         }
       ],
@@ -508,9 +854,10 @@
       "url": "https://apps.apple.com/cn/app/weather-now-pro-%E5%A4%A9%E6%B0%94%E9%A2%84%E6%8A%A5/id1422605014?uo=4",
       "region": "cn",
       "type": "free",
-      "is_new": true,
+      "is_new": false,
       "series": [
         198.0,
+        0,
         0
       ],
       "phistory": [
@@ -520,6 +867,10 @@
         },
         {
           "d": "2026-10-20",
+          "p": 0
+        },
+        {
+          "d": "2026-10-21",
           "p": 0
         }
       ],
@@ -533,13 +884,14 @@
       "normal": "¥6.99",
       "current": "免费",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1b/6c/8a/1b6c8a87-b4b3-6f37-2a5c-833c531909b8/AppIcon-0-0-1x_U007epad-0-0-0-11-0-0-85-220.png/512x512bb.jpg",
-      "rating": 4.79457,
+      "rating": 4.79541,
       "url": "https://apps.apple.com/cn/app/fine%E4%BF%AE%E5%9B%BE/id1391571907?uo=4",
       "region": "cn",
       "type": "free",
-      "is_new": true,
+      "is_new": false,
       "series": [
         6.99,
+        0,
         0
       ],
       "phistory": [
@@ -550,9 +902,47 @@
         {
           "d": "2026-10-20",
           "p": 0
+        },
+        {
+          "d": "2026-10-21",
+          "p": 0
         }
       ],
       "page": "app/cn-1391571907.html"
+    },
+    {
+      "id": "6775106021",
+      "name": "简册",
+      "dev": "晨阳 成",
+      "genre": "摄影与录像",
+      "normal": "¥8.00",
+      "current": "免费",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/51/e0/be/51e0beb3-70ad-07fe-533f-6488aa5ac4ee/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/512x512bb.jpg",
+      "rating": 4.75,
+      "url": "https://apps.apple.com/cn/app/%E7%AE%80%E5%86%8C/id6775106021?uo=4",
+      "region": "cn",
+      "type": "free",
+      "is_new": false,
+      "series": [
+        8.0,
+        0,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 8.0
+        },
+        {
+          "d": "2026-10-20",
+          "p": 0
+        },
+        {
+          "d": "2026-10-21",
+          "p": 0
+        }
+      ],
+      "page": "app/cn-6775106021.html"
     },
     {
       "id": "6752566600",
@@ -566,9 +956,10 @@
       "url": "https://apps.apple.com/cn/app/%E5%83%8F%E7%B4%A0%E6%A8%A1%E6%8B%9F%E5%99%A8-gba%E4%B8%96%E5%98%89%E5%B0%8F%E9%9C%B8%E7%8E%8B%E7%BA%A2%E7%99%BD%E6%9C%BA%E6%8E%8C%E6%9C%BA%E8%A1%97%E6%9C%BA%E6%80%80%E6%97%A7%E7%AB%A5%E5%B9%B4%E6%B8%B8%E6%88%8F/id6752566600?uo=4",
       "region": "cn",
       "type": "free",
-      "is_new": true,
+      "is_new": false,
       "series": [
         0.99,
+        0,
         0
       ],
       "phistory": [
@@ -578,6 +969,10 @@
         },
         {
           "d": "2026-10-20",
+          "p": 0
+        },
+        {
+          "d": "2026-10-21",
           "p": 0
         }
       ],
@@ -595,9 +990,10 @@
       "url": "https://apps.apple.com/cn/app/fotospot-road-trip-community/id1200952700?uo=4",
       "region": "cn",
       "type": "free",
-      "is_new": true,
+      "is_new": false,
       "series": [
         38.0,
+        0,
         0
       ],
       "phistory": [
@@ -608,25 +1004,30 @@
         {
           "d": "2026-10-20",
           "p": 0
+        },
+        {
+          "d": "2026-10-21",
+          "p": 0
         }
       ],
       "page": "app/cn-1200952700.html"
     },
     {
-      "id": "6775106021",
-      "name": "简册",
-      "dev": "晨阳 成",
+      "id": "6799760170",
+      "name": "Pralo-构图引导氛围感相机",
+      "dev": "Yiwu Aolinai Network Technology Co., Ltd.",
       "genre": "摄影与录像",
       "normal": "¥8.00",
       "current": "免费",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/51/e0/be/51e0beb3-70ad-07fe-533f-6488aa5ac4ee/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/512x512bb.jpg",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1c/d9/f8/1cd9f838-b70b-b856-f716-70b79d2de4ca/AppIcon-0-0-1x_U007ephone-0-1-0-P3-85-220.png/512x512bb.jpg",
       "rating": 4.66667,
-      "url": "https://apps.apple.com/cn/app/%E7%AE%80%E5%86%8C/id6775106021?uo=4",
+      "url": "https://apps.apple.com/cn/app/pralo-%E6%9E%84%E5%9B%BE%E5%BC%95%E5%AF%BC%E6%B0%9B%E5%9B%B4%E6%84%9F%E7%9B%B8%E6%9C%BA/id6799760170?uo=4",
       "region": "cn",
       "type": "free",
-      "is_new": true,
+      "is_new": false,
       "series": [
         8.0,
+        0,
         0
       ],
       "phistory": [
@@ -637,9 +1038,13 @@
         {
           "d": "2026-10-20",
           "p": 0
+        },
+        {
+          "d": "2026-10-21",
+          "p": 0
         }
       ],
-      "page": "app/cn-6775106021.html"
+      "page": "app/cn-6799760170.html"
     },
     {
       "id": "574399713",
@@ -653,9 +1058,10 @@
       "url": "https://apps.apple.com/cn/app/pocketradar-%E5%AE%9E%E6%97%B6%E9%99%8D%E9%9B%A8%E9%9B%B7%E8%BE%BE-%E5%8A%A8%E7%94%BB%E9%9B%A8%E9%87%8F%E5%9C%B0%E5%9B%BE%E4%B8%8E%E5%A4%A9%E6%B0%94%E9%A2%84%E6%8A%A5/id574399713?uo=4",
       "region": "cn",
       "type": "free",
-      "is_new": true,
+      "is_new": false,
       "series": [
         98.0,
+        0,
         0
       ],
       "phistory": [
@@ -666,38 +1072,13 @@
         {
           "d": "2026-10-20",
           "p": 0
-        }
-      ],
-      "page": "app/cn-574399713.html"
-    },
-    {
-      "id": "6799760170",
-      "name": "Pralo-构图引导氛围感相机",
-      "dev": "Yiwu Aolinai Network Technology Co., Ltd.",
-      "genre": "摄影与录像",
-      "normal": "¥8.00",
-      "current": "免费",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1c/d9/f8/1cd9f838-b70b-b856-f716-70b79d2de4ca/AppIcon-0-0-1x_U007ephone-0-1-0-P3-85-220.png/512x512bb.jpg",
-      "rating": 4.63636,
-      "url": "https://apps.apple.com/cn/app/pralo-%E6%9E%84%E5%9B%BE%E5%BC%95%E5%AF%BC%E6%B0%9B%E5%9B%B4%E6%84%9F%E7%9B%B8%E6%9C%BA/id6799760170?uo=4",
-      "region": "cn",
-      "type": "free",
-      "is_new": true,
-      "series": [
-        8.0,
-        0
-      ],
-      "phistory": [
-        {
-          "d": "2026-10-19",
-          "p": 8.0
         },
         {
-          "d": "2026-10-20",
+          "d": "2026-10-21",
           "p": 0
         }
       ],
-      "page": "app/cn-6799760170.html"
+      "page": "app/cn-574399713.html"
     },
     {
       "id": "1587301632",
@@ -711,9 +1092,10 @@
       "url": "https://apps.apple.com/cn/app/%E5%85%A8%E8%83%BD%E8%AE%B0-%E5%BD%95%E9%9F%B3-%E5%A4%87%E5%BF%98-%E6%B5%81%E6%B0%B4/id1587301632?uo=4",
       "region": "cn",
       "type": "free",
-      "is_new": true,
+      "is_new": false,
       "series": [
         28.0,
+        0,
         0
       ],
       "phistory": [
@@ -723,6 +1105,10 @@
         },
         {
           "d": "2026-10-20",
+          "p": 0
+        },
+        {
+          "d": "2026-10-21",
           "p": 0
         }
       ],
@@ -740,9 +1126,10 @@
       "url": "https://apps.apple.com/cn/app/%E5%AE%9E%E6%97%B6%E5%A4%A9%E6%B0%94%E9%9B%B7%E8%BE%BEpro-%E9%99%8D%E9%9B%A8%E9%A2%84%E6%8A%A5/id488674899?uo=4",
       "region": "cn",
       "type": "free",
-      "is_new": true,
+      "is_new": false,
       "series": [
         118.0,
+        0,
         0
       ],
       "phistory": [
@@ -752,6 +1139,10 @@
         },
         {
           "d": "2026-10-20",
+          "p": 0
+        },
+        {
+          "d": "2026-10-21",
           "p": 0
         }
       ],
@@ -769,9 +1160,10 @@
       "url": "https://apps.apple.com/cn/app/text-editor-document-editor/id1565641091?uo=4",
       "region": "cn",
       "type": "free",
-      "is_new": true,
+      "is_new": false,
       "series": [
         1.99,
+        0,
         0
       ],
       "phistory": [
@@ -781,6 +1173,10 @@
         },
         {
           "d": "2026-10-20",
+          "p": 0
+        },
+        {
+          "d": "2026-10-21",
           "p": 0
         }
       ],
@@ -798,9 +1194,10 @@
       "url": "https://apps.apple.com/cn/app/notes-writer-browser-nautilus/id1422480068?uo=4",
       "region": "cn",
       "type": "free",
-      "is_new": true,
+      "is_new": false,
       "series": [
         14.99,
+        0,
         0
       ],
       "phistory": [
@@ -810,6 +1207,10 @@
         },
         {
           "d": "2026-10-20",
+          "p": 0
+        },
+        {
+          "d": "2026-10-21",
           "p": 0
         }
       ],
@@ -827,9 +1228,10 @@
       "url": "https://apps.apple.com/cn/app/%E5%BD%95%E9%9F%B3%E6%9C%BA-%E5%A4%87%E5%BF%98-%E5%BD%95%E9%9F%B3/id1255345512?uo=4",
       "region": "cn",
       "type": "free",
-      "is_new": true,
+      "is_new": false,
       "series": [
         28.0,
+        0,
         0
       ],
       "phistory": [
@@ -839,6 +1241,10 @@
         },
         {
           "d": "2026-10-20",
+          "p": 0
+        },
+        {
+          "d": "2026-10-21",
           "p": 0
         }
       ],
@@ -856,9 +1262,10 @@
       "url": "https://apps.apple.com/cn/app/%E9%97%AE%E9%A2%98%E7%9B%92%E5%AD%90-%E6%B8%85%E7%A9%BA%E5%A4%A7%E8%84%91-%E5%91%8A%E5%88%AB%E5%86%85%E8%80%97/id6748287593?uo=4",
       "region": "cn",
       "type": "free",
-      "is_new": true,
+      "is_new": false,
       "series": [
         6.0,
+        0,
         0
       ],
       "phistory": [
@@ -868,6 +1275,10 @@
         },
         {
           "d": "2026-10-20",
+          "p": 0
+        },
+        {
+          "d": "2026-10-21",
           "p": 0
         }
       ],
@@ -885,9 +1296,10 @@
       "url": "https://apps.apple.com/cn/app/%E8%AE%B0%E5%8A%9E%E7%8C%AB/id1590485332?uo=4",
       "region": "cn",
       "type": "free",
-      "is_new": true,
+      "is_new": false,
       "series": [
         1.0,
+        0,
         0
       ],
       "phistory": [
@@ -897,6 +1309,10 @@
         },
         {
           "d": "2026-10-20",
+          "p": 0
+        },
+        {
+          "d": "2026-10-21",
           "p": 0
         }
       ],
@@ -914,9 +1330,10 @@
       "url": "https://apps.apple.com/cn/app/daily-english-grammar-practice/id1396346170?uo=4",
       "region": "cn",
       "type": "free",
-      "is_new": true,
+      "is_new": false,
       "series": [
         15.0,
+        0,
         0
       ],
       "phistory": [
@@ -926,6 +1343,10 @@
         },
         {
           "d": "2026-10-20",
+          "p": 0
+        },
+        {
+          "d": "2026-10-21",
           "p": 0
         }
       ],
@@ -943,9 +1364,10 @@
       "url": "https://apps.apple.com/cn/app/%E9%9F%B3%E9%A2%91%E6%8F%90%E5%8F%96%E5%99%A8-%E8%A7%86%E9%A2%91%E8%BD%AC%E9%9F%B3%E9%A2%91-%E6%A0%BC%E5%BC%8F%E8%BD%AC%E6%8D%A2-mp3%E8%BD%AC%E6%8D%A2%E5%99%A8-%E9%93%83%E5%A3%B0%E5%88%B6%E4%BD%9C/id6754768925?uo=4",
       "region": "cn",
       "type": "free",
-      "is_new": true,
+      "is_new": false,
       "series": [
         0.99,
+        0,
         0
       ],
       "phistory": [
@@ -955,6 +1377,10 @@
         },
         {
           "d": "2026-10-20",
+          "p": 0
+        },
+        {
+          "d": "2026-10-21",
           "p": 0
         }
       ],
@@ -972,9 +1398,10 @@
       "url": "https://apps.apple.com/cn/app/pdf-reader-pro-edition/id364502063?uo=4",
       "region": "cn",
       "type": "free",
-      "is_new": true,
+      "is_new": false,
       "series": [
         1.99,
+        0,
         0
       ],
       "phistory": [
@@ -985,38 +1412,13 @@
         {
           "d": "2026-10-20",
           "p": 0
-        }
-      ],
-      "page": "app/cn-364502063.html"
-    },
-    {
-      "id": "6446227143",
-      "name": "单词秀 - 学英语、背单词必备",
-      "dev": "程辉 何",
-      "genre": "教育",
-      "normal": "¥3.00",
-      "current": "免费",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/20/31/7d/20317d0d-9a3c-caa4-1c86-742b82ee3657/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-      "rating": 4.0625,
-      "url": "https://apps.apple.com/cn/app/%E5%8D%95%E8%AF%8D%E7%A7%80-%E5%AD%A6%E8%8B%B1%E8%AF%AD-%E8%83%8C%E5%8D%95%E8%AF%8D%E5%BF%85%E5%A4%87/id6446227143?uo=4",
-      "region": "cn",
-      "type": "free",
-      "is_new": true,
-      "series": [
-        3.0,
-        0
-      ],
-      "phistory": [
-        {
-          "d": "2026-10-19",
-          "p": 3.0
         },
         {
-          "d": "2026-10-20",
+          "d": "2026-10-21",
           "p": 0
         }
       ],
-      "page": "app/cn-6446227143.html"
+      "page": "app/cn-364502063.html"
     },
     {
       "id": "918925756",
@@ -1030,9 +1432,10 @@
       "url": "https://apps.apple.com/cn/app/imonitor-%E7%B3%BB%E7%BB%9F%E7%9B%91%E8%A7%86%E5%99%A8/id918925756?uo=4",
       "region": "cn",
       "type": "free",
-      "is_new": true,
+      "is_new": false,
       "series": [
         1.99,
+        0,
         0
       ],
       "phistory": [
@@ -1042,6 +1445,10 @@
         },
         {
           "d": "2026-10-20",
+          "p": 0
+        },
+        {
+          "d": "2026-10-21",
           "p": 0
         }
       ],
@@ -1059,9 +1466,10 @@
       "url": "https://apps.apple.com/cn/app/%E4%B8%80%E6%88%98%E6%97%B6%E9%97%B4%E8%BD%B4-%E4%B8%80%E6%88%98%E5%8E%86%E5%8F%B2/id1234575605?uo=4",
       "region": "cn",
       "type": "free",
-      "is_new": true,
+      "is_new": false,
       "series": [
         22.0,
+        0,
         0
       ],
       "phistory": [
@@ -1071,6 +1479,10 @@
         },
         {
           "d": "2026-10-20",
+          "p": 0
+        },
+        {
+          "d": "2026-10-21",
           "p": 0
         }
       ],
@@ -1088,9 +1500,10 @@
       "url": "https://apps.apple.com/cn/app/itruco/id302036335?uo=4",
       "region": "cn",
       "type": "free",
-      "is_new": true,
+      "is_new": false,
       "series": [
         8.0,
+        0,
         0
       ],
       "phistory": [
@@ -1100,6 +1513,10 @@
         },
         {
           "d": "2026-10-20",
+          "p": 0
+        },
+        {
+          "d": "2026-10-21",
           "p": 0
         }
       ],
@@ -1117,9 +1534,10 @@
       "url": "https://apps.apple.com/cn/app/mosaic-camera-%E3%83%A2%E3%82%B6%E3%82%A4%E3%82%AF%E3%82%AB%E3%83%A1%E3%83%A9/id972378706?uo=4",
       "region": "cn",
       "type": "free",
-      "is_new": true,
+      "is_new": false,
       "series": [
         0.99,
+        0,
         0
       ],
       "phistory": [
@@ -1130,33 +1548,13 @@
         {
           "d": "2026-10-20",
           "p": 0
-        }
-      ],
-      "page": "app/cn-972378706.html"
-    },
-    {
-      "id": "6761341923",
-      "name": "NekoAI",
-      "dev": "Shanghai Candy Rectangle Technology Co., Ltd.",
-      "genre": "工具",
-      "normal": "¥1.00",
-      "current": "免费",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d4/74/d5/d474d5a1-d9e0-3ffe-14cc-84f7597f34fa/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-      "rating": 5,
-      "url": "https://apps.apple.com/cn/app/nekoai/id6761341923?uo=4",
-      "region": "cn",
-      "type": "free",
-      "is_new": false,
-      "series": [
-        0
-      ],
-      "phistory": [
+        },
         {
-          "d": "2026-10-20",
+          "d": "2026-10-21",
           "p": 0
         }
       ],
-      "page": "app/cn-6761341923.html"
+      "page": "app/cn-972378706.html"
     }
   ],
   "deals": [
@@ -1175,6 +1573,7 @@
       "is_new": false,
       "series": [
         18.0,
+        18.0,
         18.0
       ],
       "phistory": [
@@ -1184,6 +1583,10 @@
         },
         {
           "d": "2026-10-20",
+          "p": 18.0
+        },
+        {
+          "d": "2026-10-21",
           "p": 18.0
         }
       ],
@@ -1204,6 +1607,7 @@
       "is_new": false,
       "series": [
         15.0,
+        3.0,
         3.0
       ],
       "phistory": [
@@ -1213,6 +1617,10 @@
         },
         {
           "d": "2026-10-20",
+          "p": 3.0
+        },
+        {
+          "d": "2026-10-21",
           "p": 3.0
         }
       ],
@@ -1233,6 +1641,7 @@
       "is_new": false,
       "series": [
         15.0,
+        15.0,
         15.0
       ],
       "phistory": [
@@ -1242,6 +1651,10 @@
         },
         {
           "d": "2026-10-20",
+          "p": 15.0
+        },
+        {
+          "d": "2026-10-21",
           "p": 15.0
         }
       ],
