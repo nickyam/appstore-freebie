@@ -1,18 +1,337 @@
 {
-  "date": "2026-10-20",
+  "date": "2026-10-21",
   "country": "us",
-  "generated_at": "2026-10-20T10:43:12Z",
+  "generated_at": "2026-10-21T02:35:06Z",
   "freebies": [
     {
-      "id": "1500086470",
-      "name": "AC Method for Factoring PRO",
-      "dev": "Glindemann, Sennoun, Langer GbR",
+      "id": "6759512718",
+      "name": "Cadre Contacts",
+      "dev": "Something Punny, LLC",
+      "genre": "Productivity",
+      "normal": "$0.99",
+      "current": "Free",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8b/22/5c/8b225c23-8429-a5df-db65-b980bb455913/Cadre-0-0-1x_U007epad-0-0-0-1-0-85-220.png/512x512bb.jpg",
+      "rating": 5,
+      "url": "https://apps.apple.com/us/app/cadre-contacts/id6759512718?uo=4",
+      "region": "us",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        0.99,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-20",
+          "p": 0.99
+        },
+        {
+          "d": "2026-10-21",
+          "p": 0
+        }
+      ],
+      "page": "app/us-6759512718.html"
+    },
+    {
+      "id": "6809207083",
+      "name": "Glassiu Browser: Video Sniffer",
+      "dev": "一文 陈",
+      "genre": "Utilities",
+      "normal": "$0.99",
+      "current": "Free",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/b8/68/09b868af-b8a7-de7d-cbf1-9ea0a17033fc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "rating": 5,
+      "url": "https://apps.apple.com/us/app/glassiu-browser-video-sniffer/id6809207083?uo=4",
+      "region": "us",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        0.99,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-20",
+          "p": 0.99
+        },
+        {
+          "d": "2026-10-21",
+          "p": 0
+        }
+      ],
+      "page": "app/us-6809207083.html"
+    },
+    {
+      "id": "6755447020",
+      "name": "Mahjong Calculator (American)",
+      "dev": "Leah Campbell Mc Knight",
+      "genre": "Games",
+      "normal": "$0.99",
+      "current": "Free",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e8/a5/d7/e8a5d775-3788-4cb4-43b4-43edaf01cb75/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "rating": 5,
+      "url": "https://apps.apple.com/us/app/mahjong-calculator-american/id6755447020?uo=4",
+      "region": "us",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        0.99,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-20",
+          "p": 0.99
+        },
+        {
+          "d": "2026-10-21",
+          "p": 0
+        }
+      ],
+      "page": "app/us-6755447020.html"
+    },
+    {
+      "id": "6793998839",
+      "name": "MedMini - USMLE Medical Games",
+      "dev": "Steradian",
       "genre": "Education",
+      "normal": "$8.00",
+      "current": "Free",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b8/cd/60/b8cd6036-6b4b-c0d1-5c2f-6602a45cf40a/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+      "rating": 5,
+      "url": "https://apps.apple.com/us/app/medmini-usmle-medical-games/id6793998839?uo=4",
+      "region": "us",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        8.0,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-20",
+          "p": 8.0
+        },
+        {
+          "d": "2026-10-21",
+          "p": 0
+        }
+      ],
+      "page": "app/us-6793998839.html"
+    },
+    {
+      "id": "965540198",
+      "name": "Scrum Timer",
+      "dev": "Unboxing Solutions B.V.",
+      "genre": "Productivity",
+      "normal": "$8.00",
+      "current": "Free",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple118/v4/11/05/12/1105120b-657d-7b30-0bb6-ef61c5b98460/AppIcon-Paid-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-9.png/512x512bb.jpg",
+      "rating": 5,
+      "url": "https://apps.apple.com/us/app/scrum-timer/id965540198?uo=4",
+      "region": "us",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        8.0,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-20",
+          "p": 8.0
+        },
+        {
+          "d": "2026-10-21",
+          "p": 0
+        }
+      ],
+      "page": "app/us-965540198.html"
+    },
+    {
+      "id": "1149956692",
+      "name": "Sensnap: Altitude & Pressure",
+      "dev": "林 邬",
+      "genre": "Travel",
+      "normal": "$2.99",
+      "current": "Free",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/52/e7/69/52e769a4-5846-7fca-0540-0a287520062a/AppIcon-0-0-1x_U007ephone-0-1-85-220.jpeg/512x512bb.jpg",
+      "rating": 5,
+      "url": "https://apps.apple.com/us/app/sensnap-altitude-pressure/id1149956692?uo=4",
+      "region": "us",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        2.99,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-20",
+          "p": 2.99
+        },
+        {
+          "d": "2026-10-21",
+          "p": 0
+        }
+      ],
+      "page": "app/us-1149956692.html"
+    },
+    {
+      "id": "6759119285",
+      "name": "berkbrain",
+      "dev": "Rakin Munim",
+      "genre": "Photo & Video",
+      "normal": "$0.99",
+      "current": "Free",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7f/a5/93/7fa5938f-6a88-4cd4-0ad1-b3dabedd9376/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "rating": 5,
+      "url": "https://apps.apple.com/us/app/berkbrain/id6759119285?uo=4",
+      "region": "us",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        0.99,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-20",
+          "p": 0.99
+        },
+        {
+          "d": "2026-10-21",
+          "p": 0
+        }
+      ],
+      "page": "app/us-6759119285.html"
+    },
+    {
+      "id": "6814895663",
+      "name": "Bash Multiplayer Party",
+      "dev": "Furlan Paolo",
+      "genre": "Games",
+      "normal": "$8.00",
+      "current": "Free",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3e/11/ea/3e11ea4f-7f0a-01fc-90b8-65597fcb331f/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "rating": 4.5,
+      "url": "https://apps.apple.com/us/app/bash-multiplayer-party/id6814895663?uo=4",
+      "region": "us",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        8.0,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-20",
+          "p": 8.0
+        },
+        {
+          "d": "2026-10-21",
+          "p": 0
+        }
+      ],
+      "page": "app/us-6814895663.html"
+    },
+    {
+      "id": "6757696281",
+      "name": "Dead Man's Switch: Check In",
+      "dev": "Aaron Jin",
+      "genre": "Lifestyle",
+      "normal": "$0.99",
+      "current": "Free",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/21/7c/a6/217ca6ee-f6d2-c1c8-9907-39100a66f8b0/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+      "rating": 4.5,
+      "url": "https://apps.apple.com/us/app/dead-mans-switch-check-in/id6757696281?uo=4",
+      "region": "us",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        0.99,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-20",
+          "p": 0.99
+        },
+        {
+          "d": "2026-10-21",
+          "p": 0
+        }
+      ],
+      "page": "app/us-6757696281.html"
+    },
+    {
+      "id": "6789768946",
+      "name": "KeepCue: Day Planner, Routines",
+      "dev": "Start in June LLC",
+      "genre": "Productivity",
+      "normal": "$7.99",
+      "current": "Free",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/89/0d/70/890d7098-760c-e96c-3427-438eadac048a/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+      "rating": 4.5,
+      "url": "https://apps.apple.com/us/app/keepcue-day-planner-routines/id6789768946?uo=4",
+      "region": "us",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        7.99,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-20",
+          "p": 7.99
+        },
+        {
+          "d": "2026-10-21",
+          "p": 0
+        }
+      ],
+      "page": "app/us-6789768946.html"
+    },
+    {
+      "id": "552664144",
+      "name": "PDF Max Pro - Edit, Sign PDFs",
+      "dev": "Mobeera",
+      "genre": "Productivity",
+      "normal": "$9.99",
+      "current": "Free",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fe/5b/ec/fe5becdb-31cd-61cc-f49a-2b45d2644dab/PDFMaxPro-0-0-1x_U007epad-0-0-0-1-0-0-85-220.png/512x512bb.jpg",
+      "rating": 4.48663,
+      "url": "https://apps.apple.com/us/app/pdf-max-pro-edit-sign-pdfs/id552664144?uo=4",
+      "region": "us",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        9.99,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-20",
+          "p": 9.99
+        },
+        {
+          "d": "2026-10-21",
+          "p": 0
+        }
+      ],
+      "page": "app/us-552664144.html"
+    },
+    {
+      "id": "499129688",
+      "name": "ITF Taekwon-Do Tuls & Patterns",
+      "dev": "Appsolute LLC",
+      "genre": "Sports",
       "normal": "$1.99",
       "current": "Free",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6e/d6/2e/6ed62eb4-ca77-00aa-b9b2-2a1c9d580757/AppIcon-AC-PRO-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-      "rating": 5,
-      "url": "https://apps.apple.com/us/app/ac-method-for-factoring-pro/id1500086470?uo=4",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/db/31/54/db3154a4-f107-4d28-24dc-349fcc4c85e3/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "rating": 4.2,
+      "url": "https://apps.apple.com/us/app/itf-taekwon-do-tuls-patterns/id499129688?uo=4",
       "region": "us",
       "type": "free",
       "is_new": true,
@@ -22,11 +341,277 @@
       ],
       "phistory": [
         {
+          "d": "2026-10-20",
+          "p": 1.99
+        },
+        {
+          "d": "2026-10-21",
+          "p": 0
+        }
+      ],
+      "page": "app/us-499129688.html"
+    },
+    {
+      "id": "1637121079",
+      "name": "Vetro: Visual Metronome",
+      "dev": "Joan Duat",
+      "genre": "Music",
+      "normal": "$5.99",
+      "current": "Free",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1b/39/6b/1b396bda-35ef-1cba-9dbd-a9685eea7e3f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "rating": 4,
+      "url": "https://apps.apple.com/us/app/vetro-visual-metronome/id1637121079?uo=4",
+      "region": "us",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        5.99,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-20",
+          "p": 5.99
+        },
+        {
+          "d": "2026-10-21",
+          "p": 0
+        }
+      ],
+      "page": "app/us-1637121079.html"
+    },
+    {
+      "id": "629308357",
+      "name": "King Nim Game",
+      "dev": "H Valeur",
+      "genre": "Games",
+      "normal": "$0.99",
+      "current": "Free",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple115/v4/57/29/4b/57294b9c-a25e-b94e-cffc-ccd7e15b9cb2/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+      "rating": 3.6,
+      "url": "https://apps.apple.com/us/app/king-nim-game/id629308357?uo=4",
+      "region": "us",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        0.99,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-20",
+          "p": 0.99
+        },
+        {
+          "d": "2026-10-21",
+          "p": 0
+        }
+      ],
+      "page": "app/us-629308357.html"
+    },
+    {
+      "id": "760857635",
+      "name": "Countdown Timer Nano",
+      "dev": "Igor Donkov",
+      "genre": "Productivity",
+      "normal": "$2.99",
+      "current": "Free",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e0/3e/9c/e03e9c2f-28e0-0827-34cd-f6782b032424/AppIcon-Nano-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "rating": 3.5,
+      "url": "https://apps.apple.com/us/app/countdown-timer-nano/id760857635?uo=4",
+      "region": "us",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        2.99,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-20",
+          "p": 2.99
+        },
+        {
+          "d": "2026-10-21",
+          "p": 0
+        }
+      ],
+      "page": "app/us-760857635.html"
+    },
+    {
+      "id": "6477959301",
+      "name": "Wordactle",
+      "dev": "H Valeur",
+      "genre": "Games",
+      "normal": "$0.99",
+      "current": "Free",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/89/8b/43/898b43f8-cb8c-7144-3c52-04f96e747093/AppIcon-0-0-1x_U007epad-0-85-220.png/512x512bb.jpg",
+      "rating": 3.5,
+      "url": "https://apps.apple.com/us/app/wordactle/id6477959301?uo=4",
+      "region": "us",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        0.99,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-20",
+          "p": 0.99
+        },
+        {
+          "d": "2026-10-21",
+          "p": 0
+        }
+      ],
+      "page": "app/us-6477959301.html"
+    },
+    {
+      "id": "6476835457",
+      "name": "Key Cards",
+      "dev": "H Valeur",
+      "genre": "Productivity",
+      "normal": "$0.99",
+      "current": "Free",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d9/12/8f/d9128fff-cdee-9452-ecc8-5c36d1d3e481/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "rating": 3.33333,
+      "url": "https://apps.apple.com/us/app/key-cards/id6476835457?uo=4",
+      "region": "us",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        0.99,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-20",
+          "p": 0.99
+        },
+        {
+          "d": "2026-10-21",
+          "p": 0
+        }
+      ],
+      "page": "app/us-6476835457.html"
+    },
+    {
+      "id": "627831738",
+      "name": "Days until my birthday",
+      "dev": "H Valeur",
+      "genre": "Entertainment",
+      "normal": "$0.99",
+      "current": "Free",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/64/2a/19/642a190d-fc50-a421-62b3-c01f4e816ca6/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "rating": 3.30769,
+      "url": "https://apps.apple.com/us/app/days-until-my-birthday/id627831738?uo=4",
+      "region": "us",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        0.99,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-20",
+          "p": 0.99
+        },
+        {
+          "d": "2026-10-21",
+          "p": 0
+        }
+      ],
+      "page": "app/us-627831738.html"
+    },
+    {
+      "id": "1029907300",
+      "name": "Sketch 3D",
+      "dev": "Victor Ng",
+      "genre": "Graphics & Design",
+      "normal": "$2.99",
+      "current": "Free",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/34/4f/b2/344fb2cb-fd93-fca1-fb2c-f8dee1962c55/AppIcon-2-1x_U007emarketing-0-11-0-85-220-0.png/512x512bb.jpg",
+      "rating": 2.86907,
+      "url": "https://apps.apple.com/us/app/sketch-3d/id1029907300?uo=4",
+      "region": "us",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        2.99,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-20",
+          "p": 2.99
+        },
+        {
+          "d": "2026-10-21",
+          "p": 0
+        }
+      ],
+      "page": "app/us-1029907300.html"
+    },
+    {
+      "id": "6639616071",
+      "name": "World Countries Flags - Quiz",
+      "dev": "Arima Jain",
+      "genre": "Games",
+      "normal": "$2.99",
+      "current": "Free",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7b/a3/fb/7ba3fbbf-2106-a047-77b8-64c06947a64e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "rating": 1,
+      "url": "https://apps.apple.com/us/app/world-countries-flags-quiz/id6639616071?uo=4",
+      "region": "us",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        2.99,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-20",
+          "p": 2.99
+        },
+        {
+          "d": "2026-10-21",
+          "p": 0
+        }
+      ],
+      "page": "app/us-6639616071.html"
+    },
+    {
+      "id": "1500086470",
+      "name": "AC Method for Factoring PRO",
+      "dev": "Glindemann, Sennoun, Langer GbR",
+      "genre": "Education",
+      "normal": "$1.99",
+      "current": "Free",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/62/dd/c8/62ddc8b4-5a3e-90a7-776a-b6a99e0aa480/AppIcon-AC-PRO-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "rating": 5,
+      "url": "https://apps.apple.com/us/app/ac-method-for-factoring-pro/id1500086470?uo=4",
+      "region": "us",
+      "type": "free",
+      "is_new": false,
+      "series": [
+        1.99,
+        0,
+        0
+      ],
+      "phistory": [
+        {
           "d": "2026-10-19",
           "p": 1.99
         },
         {
           "d": "2026-10-20",
+          "p": 0
+        },
+        {
+          "d": "2026-10-21",
           "p": 0
         }
       ],
@@ -39,14 +624,15 @@
       "genre": "Utilities",
       "normal": "$2.99",
       "current": "Free",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d8/49/66/d8496668-f2c4-42a9-c74a-67808392ade3/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/44/d9/0e/44d90e4c-fd20-f9d0-1350-912974b50aa4/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
       "rating": 5,
       "url": "https://apps.apple.com/us/app/aigoodbye/id6757513032?uo=4",
       "region": "us",
       "type": "free",
-      "is_new": true,
+      "is_new": false,
       "series": [
         2.99,
+        0,
         0
       ],
       "phistory": [
@@ -56,6 +642,10 @@
         },
         {
           "d": "2026-10-20",
+          "p": 0
+        },
+        {
+          "d": "2026-10-21",
           "p": 0
         }
       ],
@@ -68,14 +658,15 @@
       "genre": "Education",
       "normal": "$2.99",
       "current": "Free",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1a/9a/2d/1a9a2df8-558f-5e04-7436-d586f9b72a4b/AppIcon-AT-PRO-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8c/fd/de/8cfdded5-50a3-5f13-34b2-6101e49b67e1/AppIcon-AT-PRO-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
       "rating": 5,
       "url": "https://apps.apple.com/us/app/arbitrary-triangle-pro/id1617819308?uo=4",
       "region": "us",
       "type": "free",
-      "is_new": true,
+      "is_new": false,
       "series": [
         2.99,
+        0,
         0
       ],
       "phistory": [
@@ -85,6 +676,10 @@
         },
         {
           "d": "2026-10-20",
+          "p": 0
+        },
+        {
+          "d": "2026-10-21",
           "p": 0
         }
       ],
@@ -97,14 +692,15 @@
       "genre": "Education",
       "normal": "$1.99",
       "current": "Free",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9e/d1/43/9ed143e1-3e40-1cc9-95b4-9378ee654947/AppIcon-BC-Pro-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/35/d3/ce/35d3ce7e-8c07-6ba1-e8aa-4d46db33fa67/AppIcon-BC-Pro-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
       "rating": 5,
       "url": "https://apps.apple.com/us/app/binomial-coefficient-pro/id6472449100?uo=4",
       "region": "us",
       "type": "free",
-      "is_new": true,
+      "is_new": false,
       "series": [
         1.99,
+        0,
         0
       ],
       "phistory": [
@@ -114,6 +710,10 @@
         },
         {
           "d": "2026-10-20",
+          "p": 0
+        },
+        {
+          "d": "2026-10-21",
           "p": 0
         }
       ],
@@ -131,9 +731,10 @@
       "url": "https://apps.apple.com/us/app/bother-bin-stop-overthinking/id6748287593?uo=4",
       "region": "us",
       "type": "free",
-      "is_new": true,
+      "is_new": false,
       "series": [
         0.99,
+        0,
         0
       ],
       "phistory": [
@@ -143,6 +744,10 @@
         },
         {
           "d": "2026-10-20",
+          "p": 0
+        },
+        {
+          "d": "2026-10-21",
           "p": 0
         }
       ],
@@ -160,9 +765,10 @@
       "url": "https://apps.apple.com/us/app/burnclub-song-discovery/id6816500543?uo=4",
       "region": "us",
       "type": "free",
-      "is_new": true,
+      "is_new": false,
       "series": [
         0.99,
+        0,
         0
       ],
       "phistory": [
@@ -172,6 +778,10 @@
         },
         {
           "d": "2026-10-20",
+          "p": 0
+        },
+        {
+          "d": "2026-10-21",
           "p": 0
         }
       ],
@@ -189,9 +799,10 @@
       "url": "https://apps.apple.com/us/app/byondbites/id6757181256?uo=4",
       "region": "us",
       "type": "free",
-      "is_new": true,
+      "is_new": false,
       "series": [
         5.99,
+        0,
         0
       ],
       "phistory": [
@@ -201,6 +812,10 @@
         },
         {
           "d": "2026-10-20",
+          "p": 0
+        },
+        {
+          "d": "2026-10-21",
           "p": 0
         }
       ],
@@ -213,14 +828,15 @@
       "genre": "Productivity",
       "normal": "$2.99",
       "current": "Free",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3e/ec/d5/3eecd560-5206-c434-ce66-9774b9484560/AppIcon-BurntOrange-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ef/ba/15/efba1542-6584-ebbc-221d-ce1a6573e82b/AppIcon-BurntOrange-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
       "rating": 5,
       "url": "https://apps.apple.com/us/app/calpaper-today-at-a-glance/id6818876548?uo=4",
       "region": "us",
       "type": "free",
-      "is_new": true,
+      "is_new": false,
       "series": [
         2.99,
+        0,
         0
       ],
       "phistory": [
@@ -230,6 +846,10 @@
         },
         {
           "d": "2026-10-20",
+          "p": 0
+        },
+        {
+          "d": "2026-10-21",
           "p": 0
         }
       ],
@@ -247,9 +867,10 @@
       "url": "https://apps.apple.com/us/app/chronometer-world-clock/id6760746571?uo=4",
       "region": "us",
       "type": "free",
-      "is_new": true,
+      "is_new": false,
       "series": [
         0.99,
+        0,
         0
       ],
       "phistory": [
@@ -259,6 +880,10 @@
         },
         {
           "d": "2026-10-20",
+          "p": 0
+        },
+        {
+          "d": "2026-10-21",
           "p": 0
         }
       ],
@@ -271,14 +896,15 @@
       "genre": "Education",
       "normal": "$1.99",
       "current": "Free",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/57/f0/54/57f054a9-d0f8-73fc-6cf9-f5111aa204d9/AppIcon-HTTIE-Pro-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2a/95/7e/2a957e43-5abe-7e78-5d4f-db8b7d3b0a67/AppIcon-HTTIE-Pro-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
       "rating": 5,
       "url": "https://apps.apple.com/us/app/hypothesis-test-type-i-pro/id6472454829?uo=4",
       "region": "us",
       "type": "free",
-      "is_new": true,
+      "is_new": false,
       "series": [
         1.99,
+        0,
         0
       ],
       "phistory": [
@@ -288,6 +914,10 @@
         },
         {
           "d": "2026-10-20",
+          "p": 0
+        },
+        {
+          "d": "2026-10-21",
           "p": 0
         }
       ],
@@ -305,9 +935,10 @@
       "url": "https://apps.apple.com/us/app/i-like-colors-kids-learning/id1489039761?uo=4",
       "region": "us",
       "type": "free",
-      "is_new": true,
+      "is_new": false,
       "series": [
         8.0,
+        0,
         0
       ],
       "phistory": [
@@ -317,6 +948,10 @@
         },
         {
           "d": "2026-10-20",
+          "p": 0
+        },
+        {
+          "d": "2026-10-21",
           "p": 0
         }
       ],
@@ -329,14 +964,15 @@
       "genre": "Education",
       "normal": "$2.99",
       "current": "Free",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fa/19/11/fa1911d3-19f5-1d51-028b-e10b74cbabd5/AppIcon-IT-PRO-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a0/ea/8d/a0ea8d89-01a9-8f74-65f5-4bbd1f1101d7/AppIcon-IT-PRO-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
       "rating": 5,
       "url": "https://apps.apple.com/us/app/isosceles-triangle-pro/id1568944096?uo=4",
       "region": "us",
       "type": "free",
-      "is_new": true,
+      "is_new": false,
       "series": [
         2.99,
+        0,
         0
       ],
       "phistory": [
@@ -346,6 +982,10 @@
         },
         {
           "d": "2026-10-20",
+          "p": 0
+        },
+        {
+          "d": "2026-10-21",
           "p": 0
         }
       ],
@@ -363,9 +1003,10 @@
       "url": "https://apps.apple.com/us/app/jackarcher/id1059257184?uo=4",
       "region": "us",
       "type": "free",
-      "is_new": true,
+      "is_new": false,
       "series": [
         0.99,
+        0,
         0
       ],
       "phistory": [
@@ -375,6 +1016,10 @@
         },
         {
           "d": "2026-10-20",
+          "p": 0
+        },
+        {
+          "d": "2026-10-21",
           "p": 0
         }
       ],
@@ -392,9 +1037,10 @@
       "url": "https://apps.apple.com/us/app/linux-command-library/id1219649976?uo=4",
       "region": "us",
       "type": "free",
-      "is_new": true,
+      "is_new": false,
       "series": [
         0.99,
+        0,
         0
       ],
       "phistory": [
@@ -404,6 +1050,10 @@
         },
         {
           "d": "2026-10-20",
+          "p": 0
+        },
+        {
+          "d": "2026-10-21",
           "p": 0
         }
       ],
@@ -421,9 +1071,10 @@
       "url": "https://apps.apple.com/us/app/mosaic-camera-%E3%83%A2%E3%82%B6%E3%82%A4%E3%82%AF%E3%82%AB%E3%83%A1%E3%83%A9/id972378706?uo=4",
       "region": "us",
       "type": "free",
-      "is_new": true,
+      "is_new": false,
       "series": [
         0.99,
+        0,
         0
       ],
       "phistory": [
@@ -433,6 +1084,10 @@
         },
         {
           "d": "2026-10-20",
+          "p": 0
+        },
+        {
+          "d": "2026-10-21",
           "p": 0
         }
       ],
@@ -450,9 +1105,10 @@
       "url": "https://apps.apple.com/us/app/picwhisk/id6792625493?uo=4",
       "region": "us",
       "type": "free",
-      "is_new": true,
+      "is_new": false,
       "series": [
         0.99,
+        0,
         0
       ],
       "phistory": [
@@ -462,6 +1118,10 @@
         },
         {
           "d": "2026-10-20",
+          "p": 0
+        },
+        {
+          "d": "2026-10-21",
           "p": 0
         }
       ],
@@ -479,9 +1139,10 @@
       "url": "https://apps.apple.com/us/app/pralo-%E6%9E%84%E5%9B%BE%E5%BC%95%E5%AF%BC%E6%B0%9B%E5%9B%B4%E6%84%9F%E7%9B%B8%E6%9C%BA/id6799760170?uo=4",
       "region": "us",
       "type": "free",
-      "is_new": true,
+      "is_new": false,
       "series": [
         0.99,
+        0,
         0
       ],
       "phistory": [
@@ -491,6 +1152,10 @@
         },
         {
           "d": "2026-10-20",
+          "p": 0
+        },
+        {
+          "d": "2026-10-21",
           "p": 0
         }
       ],
@@ -508,9 +1173,10 @@
       "url": "https://apps.apple.com/us/app/quadratic-formula-pq-pro/id1299086984?uo=4",
       "region": "us",
       "type": "free",
-      "is_new": true,
+      "is_new": false,
       "series": [
         1.99,
+        0,
         0
       ],
       "phistory": [
@@ -520,6 +1186,10 @@
         },
         {
           "d": "2026-10-20",
+          "p": 0
+        },
+        {
+          "d": "2026-10-21",
           "p": 0
         }
       ],
@@ -532,14 +1202,15 @@
       "genre": "Education",
       "normal": "$1.99",
       "current": "Free",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3e/2b/be/3e2bbe53-777a-594a-ea22-87a5e3e7cdd4/AppIcon-ROP-PRO-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/65/1c/21/651c21e4-7f22-c958-3c54-693d652068ac/AppIcon-ROP-PRO-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
       "rating": 5,
       "url": "https://apps.apple.com/us/app/rule-of-proportion-pro/id1497341819?uo=4",
       "region": "us",
       "type": "free",
-      "is_new": true,
+      "is_new": false,
       "series": [
         1.99,
+        0,
         0
       ],
       "phistory": [
@@ -549,6 +1220,10 @@
         },
         {
           "d": "2026-10-20",
+          "p": 0
+        },
+        {
+          "d": "2026-10-21",
           "p": 0
         }
       ],
@@ -566,9 +1241,10 @@
       "url": "https://apps.apple.com/us/app/simpic-photo-cleaner/id6775106021?uo=4",
       "region": "us",
       "type": "free",
-      "is_new": true,
+      "is_new": false,
       "series": [
         0.99,
+        0,
         0
       ],
       "phistory": [
@@ -578,6 +1254,10 @@
         },
         {
           "d": "2026-10-20",
+          "p": 0
+        },
+        {
+          "d": "2026-10-21",
           "p": 0
         }
       ],
@@ -595,9 +1275,10 @@
       "url": "https://apps.apple.com/us/app/simplify-solve-equation-pro/id1500087480?uo=4",
       "region": "us",
       "type": "free",
-      "is_new": true,
+      "is_new": false,
       "series": [
         1.99,
+        0,
         0
       ],
       "phistory": [
@@ -607,6 +1288,10 @@
         },
         {
           "d": "2026-10-20",
+          "p": 0
+        },
+        {
+          "d": "2026-10-21",
           "p": 0
         }
       ],
@@ -619,14 +1304,15 @@
       "genre": "Education",
       "normal": "$1.99",
       "current": "Free",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/15/98/70/159870f3-5ee1-695c-8595-0bcc7fb9cb25/AppIcon-BF-PRO-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/90/69/a2/9069a2ba-1f06-49b8-e77f-bf99fbcdc94d/AppIcon-BF-PRO-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
       "rating": 5,
       "url": "https://apps.apple.com/us/app/square-of-a-binomial-pro/id1336973855?uo=4",
       "region": "us",
       "type": "free",
-      "is_new": true,
+      "is_new": false,
       "series": [
         1.99,
+        0,
         0
       ],
       "phistory": [
@@ -636,6 +1322,10 @@
         },
         {
           "d": "2026-10-20",
+          "p": 0
+        },
+        {
+          "d": "2026-10-21",
           "p": 0
         }
       ],
@@ -653,9 +1343,10 @@
       "url": "https://apps.apple.com/us/app/todo-cat/id1590485332?uo=4",
       "region": "us",
       "type": "free",
-      "is_new": true,
+      "is_new": false,
       "series": [
         0.49,
+        0,
         0
       ],
       "phistory": [
@@ -665,6 +1356,10 @@
         },
         {
           "d": "2026-10-20",
+          "p": 0
+        },
+        {
+          "d": "2026-10-21",
           "p": 0
         }
       ],
@@ -682,9 +1377,10 @@
       "url": "https://apps.apple.com/us/app/video-to-mp3-extract-audio/id6754768925?uo=4",
       "region": "us",
       "type": "free",
-      "is_new": true,
+      "is_new": false,
       "series": [
         0.99,
+        0,
         0
       ],
       "phistory": [
@@ -694,6 +1390,10 @@
         },
         {
           "d": "2026-10-20",
+          "p": 0
+        },
+        {
+          "d": "2026-10-21",
           "p": 0
         }
       ],
@@ -711,9 +1411,10 @@
       "url": "https://apps.apple.com/us/app/%D0%BF%D0%BE%D0%BC%D0%BE%D1%89%D0%BD%D0%B8%D0%BA-%D0%B4%D0%BB%D1%8F-%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80%D0%B0-noob-rp/id1506279094?uo=4",
       "region": "us",
       "type": "free",
-      "is_new": true,
+      "is_new": false,
       "series": [
         9.99,
+        0,
         0
       ],
       "phistory": [
@@ -723,6 +1424,10 @@
         },
         {
           "d": "2026-10-20",
+          "p": 0
+        },
+        {
+          "d": "2026-10-21",
           "p": 0
         }
       ],
@@ -736,13 +1441,14 @@
       "normal": "$0.99",
       "current": "Free",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/be/34/22/be342222-d1d8-7b65-003d-5b9502e6c67d/iOS_AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-      "rating": 4.97619,
+      "rating": 4.97674,
       "url": "https://apps.apple.com/us/app/triptoy/id1236364013?uo=4",
       "region": "us",
       "type": "free",
-      "is_new": true,
+      "is_new": false,
       "series": [
         0.99,
+        0,
         0
       ],
       "phistory": [
@@ -753,25 +1459,30 @@
         {
           "d": "2026-10-20",
           "p": 0
+        },
+        {
+          "d": "2026-10-21",
+          "p": 0
         }
       ],
       "page": "app/us-1236364013.html"
     },
     {
       "id": "6739967953",
-      "name": "Luna Subscriptions",
+      "name": "Luna Subscription Tracker",
       "dev": "Juan Carlos Munoz",
       "genre": "Finance",
       "normal": "$0.99",
       "current": "Free",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/06/9f/0f/069f0fa4-a650-c49b-859c-60375ba2c539/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/66/6f/77/666f7773-7958-f144-4fd1-7bc3d5bb4a48/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
       "rating": 4.91667,
-      "url": "https://apps.apple.com/us/app/luna-subscriptions/id6739967953?uo=4",
+      "url": "https://apps.apple.com/us/app/luna-subscription-tracker/id6739967953?uo=4",
       "region": "us",
       "type": "free",
-      "is_new": true,
+      "is_new": false,
       "series": [
         0.99,
+        0,
         0
       ],
       "phistory": [
@@ -781,6 +1492,10 @@
         },
         {
           "d": "2026-10-20",
+          "p": 0
+        },
+        {
+          "d": "2026-10-21",
           "p": 0
         }
       ],
@@ -793,14 +1508,15 @@
       "genre": "Education",
       "normal": "$19.99",
       "current": "Free",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8c/04/df/8c04df52-9546-f93d-7494-32fbaca15714/AppIcon-Main-PRO-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5c/30/33/5c3033dd-4801-ccc2-592b-e5eedfbc5508/AppIcon-Main-PRO-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
       "rating": 4.9,
       "url": "https://apps.apple.com/us/app/math-middle-high-school-pro/id6736936482?uo=4",
       "region": "us",
       "type": "free",
-      "is_new": true,
+      "is_new": false,
       "series": [
         19.99,
+        0,
         0
       ],
       "phistory": [
@@ -810,6 +1526,10 @@
         },
         {
           "d": "2026-10-20",
+          "p": 0
+        },
+        {
+          "d": "2026-10-21",
           "p": 0
         }
       ],
@@ -822,14 +1542,15 @@
       "genre": "Education",
       "normal": "$2.99",
       "current": "Free",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ad/a6/a0/ada6a02d-e105-fe80-8b8a-e67d10ceadf2/AppIcon-SC-PRO-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/15/07/19/15071986-004d-547d-1618-1d01c52b9d93/AppIcon-SC-PRO-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
       "rating": 4.85714,
       "url": "https://apps.apple.com/us/app/circle-and-sphere-pro/id1564077280?uo=4",
       "region": "us",
       "type": "free",
-      "is_new": true,
+      "is_new": false,
       "series": [
         2.99,
+        0,
         0
       ],
       "phistory": [
@@ -839,6 +1560,10 @@
         },
         {
           "d": "2026-10-20",
+          "p": 0
+        },
+        {
+          "d": "2026-10-21",
           "p": 0
         }
       ],
@@ -851,14 +1576,15 @@
       "genre": "Photo & Video",
       "normal": "$2.99",
       "current": "Free",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/ec/75/09ec75d9-9d2f-8575-b4da-a1c46bcd7e7c/Default-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-85-220.png/512x512bb.jpg",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1a/f2/b0/1af2b0d0-ab92-799e-ccf3-359f5f76d20a/Default-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-85-220.png/512x512bb.jpg",
       "rating": 4.78261,
       "url": "https://apps.apple.com/us/app/deco-wallpaper-stickers/id6742457882?uo=4",
       "region": "us",
       "type": "free",
-      "is_new": true,
+      "is_new": false,
       "series": [
         2.99,
+        0,
         0
       ],
       "phistory": [
@@ -868,6 +1594,10 @@
         },
         {
           "d": "2026-10-20",
+          "p": 0
+        },
+        {
+          "d": "2026-10-21",
           "p": 0
         }
       ],
@@ -881,13 +1611,14 @@
       "normal": "$4.99",
       "current": "Free",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/32/35/9e/32359ede-b286-7c59-50ed-a6f59d51a2b6/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
-      "rating": 4.78192,
+      "rating": 4.78198,
       "url": "https://apps.apple.com/us/app/fotospot-road-trip-community/id1200952700?uo=4",
       "region": "us",
       "type": "free",
-      "is_new": true,
+      "is_new": false,
       "series": [
         4.99,
+        0,
         0
       ],
       "phistory": [
@@ -897,6 +1628,10 @@
         },
         {
           "d": "2026-10-20",
+          "p": 0
+        },
+        {
+          "d": "2026-10-21",
           "p": 0
         }
       ],
@@ -909,14 +1644,15 @@
       "genre": "Education",
       "normal": "$1.99",
       "current": "Free",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/00/1a/56/001a5626-7769-b5d2-83cc-b1a3858ff804/AppIcon-UC-PRO-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ef/86/2d/ef862de1-e5d5-90a5-184d-8483305e7e46/AppIcon-UC-PRO-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
       "rating": 4.72,
       "url": "https://apps.apple.com/us/app/unit-circle-calculator-pro/id1606376541?uo=4",
       "region": "us",
       "type": "free",
-      "is_new": true,
+      "is_new": false,
       "series": [
         1.99,
+        0,
         0
       ],
       "phistory": [
@@ -926,6 +1662,10 @@
         },
         {
           "d": "2026-10-20",
+          "p": 0
+        },
+        {
+          "d": "2026-10-21",
           "p": 0
         }
       ],
@@ -943,9 +1683,10 @@
       "url": "https://apps.apple.com/us/app/revisits-service-reports/id1513271477?uo=4",
       "region": "us",
       "type": "free",
-      "is_new": true,
+      "is_new": false,
       "series": [
         4.99,
+        0,
         0
       ],
       "phistory": [
@@ -955,6 +1696,10 @@
         },
         {
           "d": "2026-10-20",
+          "p": 0
+        },
+        {
+          "d": "2026-10-21",
           "p": 0
         }
       ],
@@ -972,9 +1717,10 @@
       "url": "https://apps.apple.com/us/app/selene-shift-calendar/id1410053842?uo=4",
       "region": "us",
       "type": "free",
-      "is_new": true,
+      "is_new": false,
       "series": [
         0.99,
+        0,
         0
       ],
       "phistory": [
@@ -984,39 +1730,14 @@
         },
         {
           "d": "2026-10-20",
+          "p": 0
+        },
+        {
+          "d": "2026-10-21",
           "p": 0
         }
       ],
       "page": "app/us-1410053842.html"
-    },
-    {
-      "id": "1499570640",
-      "name": "Anti Pong",
-      "dev": "Chris DeWeese",
-      "genre": "Games",
-      "normal": "$0.99",
-      "current": "Free",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/52/f6/82/52f6824c-0820-a914-9de8-46dd431f12c1/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
-      "rating": 4.7027,
-      "url": "https://apps.apple.com/us/app/anti-pong/id1499570640?uo=4",
-      "region": "us",
-      "type": "free",
-      "is_new": true,
-      "series": [
-        0.99,
-        0
-      ],
-      "phistory": [
-        {
-          "d": "2026-10-19",
-          "p": 0.99
-        },
-        {
-          "d": "2026-10-20",
-          "p": 0
-        }
-      ],
-      "page": "app/us-1499570640.html"
     },
     {
       "id": "1391571907",
@@ -1030,9 +1751,10 @@
       "url": "https://apps.apple.com/us/app/fine-photo-editor/id1391571907?uo=4",
       "region": "us",
       "type": "free",
-      "is_new": true,
+      "is_new": false,
       "series": [
         6.99,
+        0,
         0
       ],
       "phistory": [
@@ -1042,6 +1764,10 @@
         },
         {
           "d": "2026-10-20",
+          "p": 0
+        },
+        {
+          "d": "2026-10-21",
           "p": 0
         }
       ],
@@ -1059,9 +1785,10 @@
       "url": "https://apps.apple.com/us/app/slideshow-master-pro-maker/id1225490847?uo=4",
       "region": "us",
       "type": "free",
-      "is_new": true,
+      "is_new": false,
       "series": [
         2.99,
+        0,
         0
       ],
       "phistory": [
@@ -1071,6 +1798,10 @@
         },
         {
           "d": "2026-10-20",
+          "p": 0
+        },
+        {
+          "d": "2026-10-21",
           "p": 0
         }
       ],
@@ -1088,9 +1819,10 @@
       "url": "https://apps.apple.com/us/app/%E4%BD%9B%E9%9F%B3%E5%A4%A7%E6%82%B2%E5%92%92-%E5%A4%A9%E7%B1%81%E9%9F%B3%E4%B9%90%E5%B8%AE%E6%82%A8%E5%8C%96%E8%A7%A3%E7%83%A6%E6%81%BC%E5%92%8C%E5%BF%A7%E6%84%81/id942099999?uo=4",
       "region": "us",
       "type": "free",
-      "is_new": true,
+      "is_new": false,
       "series": [
         0.99,
+        0,
         0
       ],
       "phistory": [
@@ -1101,9 +1833,47 @@
         {
           "d": "2026-10-20",
           "p": 0
+        },
+        {
+          "d": "2026-10-21",
+          "p": 0
         }
       ],
       "page": "app/us-942099999.html"
+    },
+    {
+      "id": "1499570640",
+      "name": "Anti Pong",
+      "dev": "Chris DeWeese",
+      "genre": "Games",
+      "normal": "$0.99",
+      "current": "Free",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/52/f6/82/52f6824c-0820-a914-9de8-46dd431f12c1/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+      "rating": 4.63157,
+      "url": "https://apps.apple.com/us/app/anti-pong/id1499570640?uo=4",
+      "region": "us",
+      "type": "free",
+      "is_new": false,
+      "series": [
+        0.99,
+        0,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 0.99
+        },
+        {
+          "d": "2026-10-20",
+          "p": 0
+        },
+        {
+          "d": "2026-10-21",
+          "p": 0
+        }
+      ],
+      "page": "app/us-1499570640.html"
     },
     {
       "id": "1668996691",
@@ -1112,14 +1882,15 @@
       "genre": "Utilities",
       "normal": "$1.99",
       "current": "Free",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/54/c9/b0/54c9b0c7-431e-d00f-57a1-2ab1604e0e00/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0f/64/b5/0f64b5f4-3e16-8437-af2b-5265fe5f493d/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
       "rating": 4.62962,
       "url": "https://apps.apple.com/us/app/shoppinglist-grocery-list/id1668996691?uo=4",
       "region": "us",
       "type": "free",
-      "is_new": true,
+      "is_new": false,
       "series": [
         1.99,
+        0,
         0
       ],
       "phistory": [
@@ -1129,6 +1900,10 @@
         },
         {
           "d": "2026-10-20",
+          "p": 0
+        },
+        {
+          "d": "2026-10-21",
           "p": 0
         }
       ],
@@ -1146,9 +1921,10 @@
       "url": "https://apps.apple.com/us/app/daily-english-grammar-practice/id1396346170?uo=4",
       "region": "us",
       "type": "free",
-      "is_new": true,
+      "is_new": false,
       "series": [
         3.99,
+        0,
         0
       ],
       "phistory": [
@@ -1158,6 +1934,10 @@
         },
         {
           "d": "2026-10-20",
+          "p": 0
+        },
+        {
+          "d": "2026-10-21",
           "p": 0
         }
       ],
@@ -1175,9 +1955,10 @@
       "url": "https://apps.apple.com/us/app/mortgage-calculator/id974051921?uo=4",
       "region": "us",
       "type": "free",
-      "is_new": true,
+      "is_new": false,
       "series": [
         2.99,
+        0,
         0
       ],
       "phistory": [
@@ -1187,6 +1968,10 @@
         },
         {
           "d": "2026-10-20",
+          "p": 0
+        },
+        {
+          "d": "2026-10-21",
           "p": 0
         }
       ],
@@ -1200,13 +1985,14 @@
       "normal": "$14.99",
       "current": "Free",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c9/b3/b1/c9b3b141-e27a-d97d-d550-086828ad35ff/NautilusAppIcon-0-0-1x_U007epad-0-0-0-1-0-0-85-220.png/512x512bb.jpg",
-      "rating": 4.60804,
+      "rating": 4.60816,
       "url": "https://apps.apple.com/us/app/notes-writer-browser-nautilus/id1422480068?uo=4",
       "region": "us",
       "type": "free",
-      "is_new": true,
+      "is_new": false,
       "series": [
         14.99,
+        0,
         0
       ],
       "phistory": [
@@ -1216,6 +2002,10 @@
         },
         {
           "d": "2026-10-20",
+          "p": 0
+        },
+        {
+          "d": "2026-10-21",
           "p": 0
         }
       ],
@@ -1228,14 +2018,15 @@
       "genre": "Education",
       "normal": "$1.99",
       "current": "Free",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c5/4d/64/c54d64e2-05e1-46bd-6690-dd672b6832e3/AppIcon-PC-PRO-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1b/1c/0d/1b1c0d67-5cce-2fa2-bf44-44cab78f8a5c/AppIcon-PC-PRO-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
       "rating": 4.60784,
       "url": "https://apps.apple.com/us/app/calculate-percentage-pro/id1497475541?uo=4",
       "region": "us",
       "type": "free",
-      "is_new": true,
+      "is_new": false,
       "series": [
         1.99,
+        0,
         0
       ],
       "phistory": [
@@ -1245,6 +2036,10 @@
         },
         {
           "d": "2026-10-20",
+          "p": 0
+        },
+        {
+          "d": "2026-10-21",
           "p": 0
         }
       ],
@@ -1262,9 +2057,10 @@
       "url": "https://apps.apple.com/us/app/memos-voice/id1396913168?uo=4",
       "region": "us",
       "type": "free",
-      "is_new": true,
+      "is_new": false,
       "series": [
         2.99,
+        0,
         0
       ],
       "phistory": [
@@ -1274,6 +2070,10 @@
         },
         {
           "d": "2026-10-20",
+          "p": 0
+        },
+        {
+          "d": "2026-10-21",
           "p": 0
         }
       ],
@@ -1286,14 +2086,15 @@
       "genre": "Education",
       "normal": "$1.99",
       "current": "Free",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d0/bd/8e/d0bd8eb0-dde2-dbd1-4a8d-2ac632d846c5/AppIcon-LE-PRO-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c7/28/fa/c728fad6-8568-7b33-b3df-28cadb4a978c/AppIcon-LE-PRO-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
       "rating": 4.59091,
       "url": "https://apps.apple.com/us/app/solving-linear-equation-pro/id1273600793?uo=4",
       "region": "us",
       "type": "free",
-      "is_new": true,
+      "is_new": false,
       "series": [
         1.99,
+        0,
         0
       ],
       "phistory": [
@@ -1303,6 +2104,10 @@
         },
         {
           "d": "2026-10-20",
+          "p": 0
+        },
+        {
+          "d": "2026-10-21",
           "p": 0
         }
       ],
@@ -1320,9 +2125,10 @@
       "url": "https://apps.apple.com/us/app/ratio-calc/id436311293?uo=4",
       "region": "us",
       "type": "free",
-      "is_new": true,
+      "is_new": false,
       "series": [
         2.99,
+        0,
         0
       ],
       "phistory": [
@@ -1333,9 +2139,47 @@
         {
           "d": "2026-10-20",
           "p": 0
+        },
+        {
+          "d": "2026-10-21",
+          "p": 0
         }
       ],
       "page": "app/us-436311293.html"
+    },
+    {
+      "id": "1483376887",
+      "name": "Braincup - Brain Training",
+      "dev": "Simon Schubert",
+      "genre": "Education",
+      "normal": "$0.99",
+      "current": "Free",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4d/1f/f9/4d1ff9aa-bcdd-8ef1-3cae-308d61ee2af7/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "rating": 4.5,
+      "url": "https://apps.apple.com/us/app/braincup-brain-training/id1483376887?uo=4",
+      "region": "us",
+      "type": "free",
+      "is_new": false,
+      "series": [
+        0.99,
+        0,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 0.99
+        },
+        {
+          "d": "2026-10-20",
+          "p": 0
+        },
+        {
+          "d": "2026-10-21",
+          "p": 0
+        }
+      ],
+      "page": "app/us-1483376887.html"
     },
     {
       "id": "1273601209",
@@ -1344,14 +2188,15 @@
       "genre": "Education",
       "normal": "$1.99",
       "current": "Free",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2a/0a/07/2a0a0734-30d3-d568-7206-ca2a0711304a/AppIcon-RF-PRO-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/33/c7/c0/33c7c0d6-5a5a-cfb2-71d3-97e55721d5ac/AppIcon-RF-PRO-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
       "rating": 4.5,
       "url": "https://apps.apple.com/us/app/reduce-fraction-pro/id1273601209?uo=4",
       "region": "us",
       "type": "free",
-      "is_new": true,
+      "is_new": false,
       "series": [
         1.99,
+        0,
         0
       ],
       "phistory": [
@@ -1361,6 +2206,10 @@
         },
         {
           "d": "2026-10-20",
+          "p": 0
+        },
+        {
+          "d": "2026-10-21",
           "p": 0
         }
       ],
@@ -1378,9 +2227,10 @@
       "url": "https://apps.apple.com/us/app/voice-record-memos-recorder/id1255345512?uo=4",
       "region": "us",
       "type": "free",
-      "is_new": true,
+      "is_new": false,
       "series": [
         3.99,
+        0,
         0
       ],
       "phistory": [
@@ -1390,6 +2240,10 @@
         },
         {
           "d": "2026-10-20",
+          "p": 0
+        },
+        {
+          "d": "2026-10-21",
           "p": 0
         }
       ],
@@ -1407,9 +2261,10 @@
       "url": "https://apps.apple.com/us/app/pdf-reader-pro-edition/id364502063?uo=4",
       "region": "us",
       "type": "free",
-      "is_new": true,
+      "is_new": false,
       "series": [
         1.99,
+        0,
         0
       ],
       "phistory": [
@@ -1419,6 +2274,10 @@
         },
         {
           "d": "2026-10-20",
+          "p": 0
+        },
+        {
+          "d": "2026-10-21",
           "p": 0
         }
       ],
@@ -1431,14 +2290,15 @@
       "genre": "Developer Tools",
       "normal": "$1.99",
       "current": "Free",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/85/dc/2e/85dc2eed-c97d-4879-3b9c-2cca397d598a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/88/9d/04/889d04d9-aad1-8543-3ff6-6ef50918e009/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
       "rating": 4.36154,
       "url": "https://apps.apple.com/us/app/text-editor-document-editor/id1565641091?uo=4",
       "region": "us",
       "type": "free",
-      "is_new": true,
+      "is_new": false,
       "series": [
         1.99,
+        0,
         0
       ],
       "phistory": [
@@ -1448,6 +2308,10 @@
         },
         {
           "d": "2026-10-20",
+          "p": 0
+        },
+        {
+          "d": "2026-10-21",
           "p": 0
         }
       ],
@@ -1465,9 +2329,10 @@
       "url": "https://apps.apple.com/us/app/wwi-timeline-wwi-history/id1234575605?uo=4",
       "region": "us",
       "type": "free",
-      "is_new": true,
+      "is_new": false,
       "series": [
         2.99,
+        0,
         0
       ],
       "phistory": [
@@ -1477,6 +2342,10 @@
         },
         {
           "d": "2026-10-20",
+          "p": 0
+        },
+        {
+          "d": "2026-10-21",
           "p": 0
         }
       ],
@@ -1489,14 +2358,15 @@
       "genre": "Education",
       "normal": "$1.99",
       "current": "Free",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1b/e8/02/1be8024d-e851-3cb5-5b8f-cc504c395e8d/AppIcon-FQ-PRO-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/be/d1/77/bed1773a-656e-debf-f436-228caee949b7/AppIcon-FQ-PRO-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
       "rating": 4.30769,
       "url": "https://apps.apple.com/us/app/factoring-quadratics-pro/id1494505052?uo=4",
       "region": "us",
       "type": "free",
-      "is_new": true,
+      "is_new": false,
       "series": [
         1.99,
+        0,
         0
       ],
       "phistory": [
@@ -1506,6 +2376,10 @@
         },
         {
           "d": "2026-10-20",
+          "p": 0
+        },
+        {
+          "d": "2026-10-21",
           "p": 0
         }
       ],
@@ -1523,9 +2397,10 @@
       "url": "https://apps.apple.com/us/app/pillcam-reminder-med-tracker/id6755712718?uo=4",
       "region": "us",
       "type": "free",
-      "is_new": true,
+      "is_new": false,
       "series": [
         0.99,
+        0,
         0
       ],
       "phistory": [
@@ -1535,6 +2410,10 @@
         },
         {
           "d": "2026-10-20",
+          "p": 0
+        },
+        {
+          "d": "2026-10-21",
           "p": 0
         }
       ],
@@ -1547,14 +2426,15 @@
       "genre": "Education",
       "normal": "$1.99",
       "current": "Free",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/75/42/ee/7542eeb2-fd88-a578-518c-2a2e73afe55a/AppIcon-PY-PRO-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b1/74/09/b1740915-d56a-5f78-1fd7-8abb592361d8/AppIcon-PY-PRO-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
       "rating": 4.2,
       "url": "https://apps.apple.com/us/app/solving-pythagoras-pro/id1273601215?uo=4",
       "region": "us",
       "type": "free",
-      "is_new": true,
+      "is_new": false,
       "series": [
         1.99,
+        0,
         0
       ],
       "phistory": [
@@ -1564,6 +2444,10 @@
         },
         {
           "d": "2026-10-20",
+          "p": 0
+        },
+        {
+          "d": "2026-10-21",
           "p": 0
         }
       ],
@@ -1581,9 +2465,10 @@
       "url": "https://apps.apple.com/us/app/schizophrenia/id1114104441?uo=4",
       "region": "us",
       "type": "free",
-      "is_new": true,
+      "is_new": false,
       "series": [
         0.99,
+        0,
         0
       ],
       "phistory": [
@@ -1593,6 +2478,10 @@
         },
         {
           "d": "2026-10-20",
+          "p": 0
+        },
+        {
+          "d": "2026-10-21",
           "p": 0
         }
       ],
@@ -1610,9 +2499,10 @@
       "url": "https://apps.apple.com/us/app/bloxorz/id591301867?uo=4",
       "region": "us",
       "type": "free",
-      "is_new": true,
+      "is_new": false,
       "series": [
         0.99,
+        0,
         0
       ],
       "phistory": [
@@ -1622,6 +2512,10 @@
         },
         {
           "d": "2026-10-20",
+          "p": 0
+        },
+        {
+          "d": "2026-10-21",
           "p": 0
         }
       ],
@@ -1639,9 +2533,10 @@
       "url": "https://apps.apple.com/us/app/pixel-emulator-md-gba-nes/id6752566600?uo=4",
       "region": "us",
       "type": "free",
-      "is_new": true,
+      "is_new": false,
       "series": [
         0.99,
+        0,
         0
       ],
       "phistory": [
@@ -1651,26 +2546,31 @@
         },
         {
           "d": "2026-10-20",
+          "p": 0
+        },
+        {
+          "d": "2026-10-21",
           "p": 0
         }
       ],
       "page": "app/us-6752566600.html"
     },
     {
-      "id": "1483376887",
-      "name": "Braincup - Brain Training",
-      "dev": "Simon Schubert",
-      "genre": "Education",
+      "id": "6793025405",
+      "name": "OneDay: Focus on today’s todo",
+      "dev": "悠然 廖",
+      "genre": "Productivity",
       "normal": "$0.99",
       "current": "Free",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4d/1f/f9/4d1ff9aa-bcdd-8ef1-3cae-308d61ee2af7/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/66/3b/8c/663b8c12-1ffd-f4d1-3c84-234fae6476fb/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
       "rating": 4,
-      "url": "https://apps.apple.com/us/app/braincup-brain-training/id1483376887?uo=4",
+      "url": "https://apps.apple.com/us/app/oneday-focus-on-todays-todo/id6793025405?uo=4",
       "region": "us",
       "type": "free",
-      "is_new": true,
+      "is_new": false,
       "series": [
         0.99,
+        0,
         0
       ],
       "phistory": [
@@ -1681,9 +2581,13 @@
         {
           "d": "2026-10-20",
           "p": 0
+        },
+        {
+          "d": "2026-10-21",
+          "p": 0
         }
       ],
-      "page": "app/us-1483376887.html"
+      "page": "app/us-6793025405.html"
     },
     {
       "id": "1610194227",
@@ -1697,9 +2601,10 @@
       "url": "https://apps.apple.com/us/app/tape-measurements/id1610194227?uo=4",
       "region": "us",
       "type": "free",
-      "is_new": true,
+      "is_new": false,
       "series": [
         0.99,
+        0,
         0
       ],
       "phistory": [
@@ -1709,6 +2614,10 @@
         },
         {
           "d": "2026-10-20",
+          "p": 0
+        },
+        {
+          "d": "2026-10-21",
           "p": 0
         }
       ],
@@ -1726,9 +2635,10 @@
       "url": "https://apps.apple.com/us/app/epa-608-practice-pro/id1625611984?uo=4",
       "region": "us",
       "type": "free",
-      "is_new": true,
+      "is_new": false,
       "series": [
         4.99,
+        0,
         0
       ],
       "phistory": [
@@ -1738,6 +2648,10 @@
         },
         {
           "d": "2026-10-20",
+          "p": 0
+        },
+        {
+          "d": "2026-10-21",
           "p": 0
         }
       ],
@@ -1755,9 +2669,10 @@
       "url": "https://apps.apple.com/us/app/echoes-of-vasteria/id6749265146?uo=4",
       "region": "us",
       "type": "free",
-      "is_new": true,
+      "is_new": false,
       "series": [
         0.99,
+        0,
         0
       ],
       "phistory": [
@@ -1767,6 +2682,10 @@
         },
         {
           "d": "2026-10-20",
+          "p": 0
+        },
+        {
+          "d": "2026-10-21",
           "p": 0
         }
       ],
@@ -1779,14 +2698,15 @@
       "genre": "Education",
       "normal": "$2.99",
       "current": "Free",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7c/6f/d8/7c6fd81b-92c9-17ec-d4dd-9c248ca978bd/AppIcon-RT-PRO-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ff/19/10/ff1910b3-6a28-5987-9660-a2c67146761a/AppIcon-RT-PRO-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
       "rating": 3.66667,
       "url": "https://apps.apple.com/us/app/solve-right-triangle-pro/id1567415905?uo=4",
       "region": "us",
       "type": "free",
-      "is_new": true,
+      "is_new": false,
       "series": [
         2.99,
+        0,
         0
       ],
       "phistory": [
@@ -1796,6 +2716,10 @@
         },
         {
           "d": "2026-10-20",
+          "p": 0
+        },
+        {
+          "d": "2026-10-21",
           "p": 0
         }
       ],
@@ -1813,9 +2737,10 @@
       "url": "https://apps.apple.com/us/app/all-in-one-memo/id1587301632?uo=4",
       "region": "us",
       "type": "free",
-      "is_new": true,
+      "is_new": false,
       "series": [
         3.99,
+        0,
         0
       ],
       "phistory": [
@@ -1825,6 +2750,10 @@
         },
         {
           "d": "2026-10-20",
+          "p": 0
+        },
+        {
+          "d": "2026-10-21",
           "p": 0
         }
       ],
@@ -1842,9 +2771,10 @@
       "url": "https://apps.apple.com/us/app/imonitor-system-monitor/id918925756?uo=4",
       "region": "us",
       "type": "free",
-      "is_new": true,
+      "is_new": false,
       "series": [
         1.99,
+        0,
         0
       ],
       "phistory": [
@@ -1854,6 +2784,10 @@
         },
         {
           "d": "2026-10-20",
+          "p": 0
+        },
+        {
+          "d": "2026-10-21",
           "p": 0
         }
       ],
@@ -1871,9 +2805,10 @@
       "url": "https://apps.apple.com/us/app/treadmill-smart-speed/id1193076459?uo=4",
       "region": "us",
       "type": "free",
-      "is_new": true,
+      "is_new": false,
       "series": [
         7.99,
+        0,
         0
       ],
       "phistory": [
@@ -1883,6 +2818,10 @@
         },
         {
           "d": "2026-10-20",
+          "p": 0
+        },
+        {
+          "d": "2026-10-21",
           "p": 0
         }
       ],
@@ -1900,9 +2839,10 @@
       "url": "https://apps.apple.com/us/app/gann-9/id562713600?uo=4",
       "region": "us",
       "type": "free",
-      "is_new": true,
+      "is_new": false,
       "series": [
         19.99,
+        0,
         0
       ],
       "phistory": [
@@ -1913,38 +2853,13 @@
         {
           "d": "2026-10-20",
           "p": 0
-        }
-      ],
-      "page": "app/us-562713600.html"
-    },
-    {
-      "id": "6796486391",
-      "name": "BreakThree",
-      "dev": "Makoto Fukuoka",
-      "genre": "Health & Fitness",
-      "normal": "$0.29",
-      "current": "Free",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/32/28/49/322849fd-f892-2f5c-8d91-4c8c5d058d47/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-      "rating": 3,
-      "url": "https://apps.apple.com/us/app/breakthree/id6796486391?uo=4",
-      "region": "us",
-      "type": "free",
-      "is_new": true,
-      "series": [
-        0.29,
-        0
-      ],
-      "phistory": [
-        {
-          "d": "2026-10-19",
-          "p": 0.29
         },
         {
-          "d": "2026-10-20",
+          "d": "2026-10-21",
           "p": 0
         }
       ],
-      "page": "app/us-6796486391.html"
+      "page": "app/us-562713600.html"
     },
     {
       "id": "6812764518",
@@ -1958,9 +2873,10 @@
       "url": "https://apps.apple.com/us/app/calc-plus-calculator/id6812764518?uo=4",
       "region": "us",
       "type": "free",
-      "is_new": true,
+      "is_new": false,
       "series": [
         0.99,
+        0,
         0
       ],
       "phistory": [
@@ -1970,6 +2886,10 @@
         },
         {
           "d": "2026-10-20",
+          "p": 0
+        },
+        {
+          "d": "2026-10-21",
           "p": 0
         }
       ],
@@ -1987,9 +2907,10 @@
       "url": "https://apps.apple.com/us/app/gt7-tuning-calculator/id6779552510?uo=4",
       "region": "us",
       "type": "free",
-      "is_new": true,
+      "is_new": false,
       "series": [
         5.99,
+        0,
         0
       ],
       "phistory": [
@@ -1999,6 +2920,10 @@
         },
         {
           "d": "2026-10-20",
+          "p": 0
+        },
+        {
+          "d": "2026-10-21",
           "p": 0
         }
       ],
@@ -2016,9 +2941,10 @@
       "url": "https://apps.apple.com/us/app/split-screen-browser-pro/id764172118?uo=4",
       "region": "us",
       "type": "free",
-      "is_new": true,
+      "is_new": false,
       "series": [
         0.99,
+        0,
         0
       ],
       "phistory": [
@@ -2028,6 +2954,10 @@
         },
         {
           "d": "2026-10-20",
+          "p": 0
+        },
+        {
+          "d": "2026-10-21",
           "p": 0
         }
       ],
@@ -2045,9 +2975,10 @@
       "url": "https://apps.apple.com/us/app/jass/id310558966?uo=4",
       "region": "us",
       "type": "free",
-      "is_new": true,
+      "is_new": false,
       "series": [
         1.99,
+        0,
         0
       ],
       "phistory": [
@@ -2057,6 +2988,10 @@
         },
         {
           "d": "2026-10-20",
+          "p": 0
+        },
+        {
+          "d": "2026-10-21",
           "p": 0
         }
       ],
@@ -2069,14 +3004,15 @@
       "genre": "Education",
       "normal": "$1.99",
       "current": "Free",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/31/89/a2/3189a22a-f049-f3a7-512f-b7c30dbe4f59/AppIcon-APC-PRO-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7f/4e/f5/7f4ef5ba-5375-f389-8583-1efd8814f665/AppIcon-APC-PRO-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
       "rating": 2,
       "url": "https://apps.apple.com/us/app/advanced-power-calculator-pro/id1628826081?uo=4",
       "region": "us",
       "type": "free",
-      "is_new": true,
+      "is_new": false,
       "series": [
         1.99,
+        0,
         0
       ],
       "phistory": [
@@ -2086,6 +3022,10 @@
         },
         {
           "d": "2026-10-20",
+          "p": 0
+        },
+        {
+          "d": "2026-10-21",
           "p": 0
         }
       ],
@@ -2103,9 +3043,10 @@
       "url": "https://apps.apple.com/us/app/easy-fa/id6752997612?uo=4",
       "region": "us",
       "type": "free",
-      "is_new": true,
+      "is_new": false,
       "series": [
         0.99,
+        0,
         0
       ],
       "phistory": [
@@ -2115,6 +3056,10 @@
         },
         {
           "d": "2026-10-20",
+          "p": 0
+        },
+        {
+          "d": "2026-10-21",
           "p": 0
         }
       ],
@@ -2132,9 +3077,10 @@
       "url": "https://apps.apple.com/us/app/streetsmeets/id6740011073?uo=4",
       "region": "us",
       "type": "free",
-      "is_new": true,
+      "is_new": false,
       "series": [
         4.99,
+        0,
         0
       ],
       "phistory": [
@@ -2145,10 +3091,49 @@
         {
           "d": "2026-10-20",
           "p": 0
+        },
+        {
+          "d": "2026-10-21",
+          "p": 0
         }
       ],
       "page": "app/us-6740011073.html"
     }
   ],
-  "deals": []
+  "deals": [
+    {
+      "id": "6796486391",
+      "name": "BreakThree",
+      "dev": "Makoto Fukuoka",
+      "genre": "Health & Fitness",
+      "normal": "$3.99",
+      "current": "$1.99",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/32/28/49/322849fd-f892-2f5c-8d91-4c8c5d058d47/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "rating": 3,
+      "url": "https://apps.apple.com/us/app/breakthree/id6796486391?uo=4",
+      "region": "us",
+      "type": "deal",
+      "is_new": false,
+      "series": [
+        0.29,
+        1.99,
+        1.99
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 0.29
+        },
+        {
+          "d": "2026-10-20",
+          "p": 1.99
+        },
+        {
+          "d": "2026-10-21",
+          "p": 1.99
+        }
+      ],
+      "page": "app/us-6796486391.html"
+    }
+  ]
 }
