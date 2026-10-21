@@ -1,7 +1,7 @@
 {
   "date": "2026-10-21",
   "country": "cn",
-  "generated_at": "2026-10-21T02:31:45Z",
+  "generated_at": "2026-10-21T10:51:41Z",
   "freebies": [
     {
       "id": "1149956692",
@@ -782,7 +782,7 @@
       "normal": "¥22.00",
       "current": "免费",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/5b/fd/af/5bfdafb6-90e6-d755-e442-5bb0ae417b33/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-      "rating": 4.82918,
+      "rating": 4.8295,
       "url": "https://apps.apple.com/cn/app/%E5%A4%87%E5%BF%98%E5%BD%95-%E5%BD%95%E9%9F%B3%E6%9C%BA/id1396913168?uo=4",
       "region": "cn",
       "type": "free",
@@ -807,40 +807,6 @@
         }
       ],
       "page": "app/cn-1396913168.html"
-    },
-    {
-      "id": "1225490847",
-      "name": "电子相册大师(专业版)",
-      "dev": "丽譞 牛",
-      "genre": "摄影与录像",
-      "normal": "¥22.00",
-      "current": "免费",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/bd/ee/0f/bdee0f46-9fd8-1686-15bc-f5b7394c365f/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.jpeg/512x512bb.jpg",
-      "rating": 4.80769,
-      "url": "https://apps.apple.com/cn/app/%E7%94%B5%E5%AD%90%E7%9B%B8%E5%86%8C%E5%A4%A7%E5%B8%88-%E4%B8%93%E4%B8%9A%E7%89%88/id1225490847?uo=4",
-      "region": "cn",
-      "type": "free",
-      "is_new": false,
-      "series": [
-        22.0,
-        0,
-        0
-      ],
-      "phistory": [
-        {
-          "d": "2026-10-19",
-          "p": 22.0
-        },
-        {
-          "d": "2026-10-20",
-          "p": 0
-        },
-        {
-          "d": "2026-10-21",
-          "p": 0
-        }
-      ],
-      "page": "app/cn-1225490847.html"
     },
     {
       "id": "1422605014",
@@ -884,7 +850,7 @@
       "normal": "¥6.99",
       "current": "免费",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1b/6c/8a/1b6c8a87-b4b3-6f37-2a5c-833c531909b8/AppIcon-0-0-1x_U007epad-0-0-0-11-0-0-85-220.png/512x512bb.jpg",
-      "rating": 4.79541,
+      "rating": 4.79372,
       "url": "https://apps.apple.com/cn/app/fine%E4%BF%AE%E5%9B%BE/id1391571907?uo=4",
       "region": "cn",
       "type": "free",
@@ -1190,7 +1156,7 @@
       "normal": "¥14.99",
       "current": "免费",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c9/b3/b1/c9b3b141-e27a-d97d-d550-086828ad35ff/NautilusAppIcon-0-0-1x_U007epad-0-0-0-1-0-0-85-220.png/512x512bb.jpg",
-      "rating": 4.51028,
+      "rating": 4.5124,
       "url": "https://apps.apple.com/cn/app/notes-writer-browser-nautilus/id1422480068?uo=4",
       "region": "cn",
       "type": "free",
@@ -1394,7 +1360,7 @@
       "normal": "¥1.99",
       "current": "免费",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/06/ed/e9/06ede90a-d8a3-a0fa-de47-256e8c015f7e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-      "rating": 4.08333,
+      "rating": 3.84615,
       "url": "https://apps.apple.com/cn/app/pdf-reader-pro-edition/id364502063?uo=4",
       "region": "cn",
       "type": "free",
@@ -1591,6 +1557,40 @@
         }
       ],
       "page": "app/cn-6752586685.html"
+    },
+    {
+      "id": "6816931747",
+      "name": "记账簿 - 隐私记账本",
+      "dev": "祥成 孟",
+      "genre": "财务",
+      "normal": "¥6.00",
+      "current": "¥1.00",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/70/76/33/7076336f-1e2e-da4c-1eaf-c877e40d26b5/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+      "rating": 5,
+      "url": "https://apps.apple.com/cn/app/%E8%AE%B0%E8%B4%A6%E7%B0%BF-%E9%9A%90%E7%A7%81%E8%AE%B0%E8%B4%A6%E6%9C%AC/id6816931747?uo=4",
+      "region": "cn",
+      "type": "deal",
+      "is_new": false,
+      "series": [
+        1.0,
+        6.0,
+        1.0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 1.0
+        },
+        {
+          "d": "2026-10-20",
+          "p": 6.0
+        },
+        {
+          "d": "2026-10-21",
+          "p": 1.0
+        }
+      ],
+      "page": "app/cn-6816931747.html"
     },
     {
       "id": "6813275168",

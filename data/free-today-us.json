@@ -1,7 +1,7 @@
 {
   "date": "2026-10-21",
   "country": "us",
-  "generated_at": "2026-10-21T02:35:06Z",
+  "generated_at": "2026-10-21T10:54:57Z",
   "freebies": [
     {
       "id": "6759512718",
@@ -584,40 +584,6 @@
       "page": "app/us-6639616071.html"
     },
     {
-      "id": "1500086470",
-      "name": "AC Method for Factoring PRO",
-      "dev": "Glindemann, Sennoun, Langer GbR",
-      "genre": "Education",
-      "normal": "$1.99",
-      "current": "Free",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/62/dd/c8/62ddc8b4-5a3e-90a7-776a-b6a99e0aa480/AppIcon-AC-PRO-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-      "rating": 5,
-      "url": "https://apps.apple.com/us/app/ac-method-for-factoring-pro/id1500086470?uo=4",
-      "region": "us",
-      "type": "free",
-      "is_new": false,
-      "series": [
-        1.99,
-        0,
-        0
-      ],
-      "phistory": [
-        {
-          "d": "2026-10-19",
-          "p": 1.99
-        },
-        {
-          "d": "2026-10-20",
-          "p": 0
-        },
-        {
-          "d": "2026-10-21",
-          "p": 0
-        }
-      ],
-      "page": "app/us-1500086470.html"
-    },
-    {
       "id": "6757513032",
       "name": "AiGoodbye",
       "dev": "Dmitry Mikhaylov",
@@ -650,74 +616,6 @@
         }
       ],
       "page": "app/us-6757513032.html"
-    },
-    {
-      "id": "1617819308",
-      "name": "Arbitrary Triangle PRO",
-      "dev": "Glindemann, Sennoun, Langer GbR",
-      "genre": "Education",
-      "normal": "$2.99",
-      "current": "Free",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8c/fd/de/8cfdded5-50a3-5f13-34b2-6101e49b67e1/AppIcon-AT-PRO-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-      "rating": 5,
-      "url": "https://apps.apple.com/us/app/arbitrary-triangle-pro/id1617819308?uo=4",
-      "region": "us",
-      "type": "free",
-      "is_new": false,
-      "series": [
-        2.99,
-        0,
-        0
-      ],
-      "phistory": [
-        {
-          "d": "2026-10-19",
-          "p": 2.99
-        },
-        {
-          "d": "2026-10-20",
-          "p": 0
-        },
-        {
-          "d": "2026-10-21",
-          "p": 0
-        }
-      ],
-      "page": "app/us-1617819308.html"
-    },
-    {
-      "id": "6472449100",
-      "name": "Binomial Coefficient PRO",
-      "dev": "Glindemann, Sennoun, Langer GbR",
-      "genre": "Education",
-      "normal": "$1.99",
-      "current": "Free",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/35/d3/ce/35d3ce7e-8c07-6ba1-e8aa-4d46db33fa67/AppIcon-BC-Pro-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
-      "rating": 5,
-      "url": "https://apps.apple.com/us/app/binomial-coefficient-pro/id6472449100?uo=4",
-      "region": "us",
-      "type": "free",
-      "is_new": false,
-      "series": [
-        1.99,
-        0,
-        0
-      ],
-      "phistory": [
-        {
-          "d": "2026-10-19",
-          "p": 1.99
-        },
-        {
-          "d": "2026-10-20",
-          "p": 0
-        },
-        {
-          "d": "2026-10-21",
-          "p": 0
-        }
-      ],
-      "page": "app/us-6472449100.html"
     },
     {
       "id": "6748287593",
@@ -823,14 +721,14 @@
     },
     {
       "id": "6818876548",
-      "name": "Calpaper: Today at a Glance",
+      "name": "Calpaper: Lock Screen Calendar",
       "dev": "Daniel Garcia",
       "genre": "Productivity",
       "normal": "$2.99",
       "current": "Free",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ef/ba/15/efba1542-6584-ebbc-221d-ce1a6573e82b/AppIcon-BurntOrange-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/19/21/32/19213206-b640-80df-19b8-383015a3d830/AppIcon-BurntOrange-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
       "rating": 5,
-      "url": "https://apps.apple.com/us/app/calpaper-today-at-a-glance/id6818876548?uo=4",
+      "url": "https://apps.apple.com/us/app/calpaper-lock-screen-calendar/id6818876548?uo=4",
       "region": "us",
       "type": "free",
       "is_new": false,
@@ -890,40 +788,6 @@
       "page": "app/us-6760746571.html"
     },
     {
-      "id": "6472454829",
-      "name": "Hypothesis Test - Type I PRO",
-      "dev": "Glindemann, Sennoun, Langer GbR",
-      "genre": "Education",
-      "normal": "$1.99",
-      "current": "Free",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2a/95/7e/2a957e43-5abe-7e78-5d4f-db8b7d3b0a67/AppIcon-HTTIE-Pro-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
-      "rating": 5,
-      "url": "https://apps.apple.com/us/app/hypothesis-test-type-i-pro/id6472454829?uo=4",
-      "region": "us",
-      "type": "free",
-      "is_new": false,
-      "series": [
-        1.99,
-        0,
-        0
-      ],
-      "phistory": [
-        {
-          "d": "2026-10-19",
-          "p": 1.99
-        },
-        {
-          "d": "2026-10-20",
-          "p": 0
-        },
-        {
-          "d": "2026-10-21",
-          "p": 0
-        }
-      ],
-      "page": "app/us-6472454829.html"
-    },
-    {
       "id": "1489039761",
       "name": "I Like Colors - Kids Learning",
       "dev": "Burleigh Creative Apps",
@@ -956,40 +820,6 @@
         }
       ],
       "page": "app/us-1489039761.html"
-    },
-    {
-      "id": "1568944096",
-      "name": "Isosceles Triangle PRO",
-      "dev": "Glindemann, Sennoun, Langer GbR",
-      "genre": "Education",
-      "normal": "$2.99",
-      "current": "Free",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a0/ea/8d/a0ea8d89-01a9-8f74-65f5-4bbd1f1101d7/AppIcon-IT-PRO-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-      "rating": 5,
-      "url": "https://apps.apple.com/us/app/isosceles-triangle-pro/id1568944096?uo=4",
-      "region": "us",
-      "type": "free",
-      "is_new": false,
-      "series": [
-        2.99,
-        0,
-        0
-      ],
-      "phistory": [
-        {
-          "d": "2026-10-19",
-          "p": 2.99
-        },
-        {
-          "d": "2026-10-20",
-          "p": 0
-        },
-        {
-          "d": "2026-10-21",
-          "p": 0
-        }
-      ],
-      "page": "app/us-1568944096.html"
     },
     {
       "id": "1059257184",
@@ -1162,74 +992,6 @@
       "page": "app/us-6799760170.html"
     },
     {
-      "id": "1299086984",
-      "name": "Quadratic Formula PQ PRO",
-      "dev": "Glindemann, Sennoun, Langer GbR",
-      "genre": "Education",
-      "normal": "$1.99",
-      "current": "Free",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5c/15/27/5c15274d-df12-fb73-51e9-402d5ad1ccca/AppIcon-PQ-PRO-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-      "rating": 5,
-      "url": "https://apps.apple.com/us/app/quadratic-formula-pq-pro/id1299086984?uo=4",
-      "region": "us",
-      "type": "free",
-      "is_new": false,
-      "series": [
-        1.99,
-        0,
-        0
-      ],
-      "phistory": [
-        {
-          "d": "2026-10-19",
-          "p": 1.99
-        },
-        {
-          "d": "2026-10-20",
-          "p": 0
-        },
-        {
-          "d": "2026-10-21",
-          "p": 0
-        }
-      ],
-      "page": "app/us-1299086984.html"
-    },
-    {
-      "id": "1497341819",
-      "name": "Rule of Proportion PRO",
-      "dev": "Glindemann, Sennoun, Langer GbR",
-      "genre": "Education",
-      "normal": "$1.99",
-      "current": "Free",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/65/1c/21/651c21e4-7f22-c958-3c54-693d652068ac/AppIcon-ROP-PRO-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-      "rating": 5,
-      "url": "https://apps.apple.com/us/app/rule-of-proportion-pro/id1497341819?uo=4",
-      "region": "us",
-      "type": "free",
-      "is_new": false,
-      "series": [
-        1.99,
-        0,
-        0
-      ],
-      "phistory": [
-        {
-          "d": "2026-10-19",
-          "p": 1.99
-        },
-        {
-          "d": "2026-10-20",
-          "p": 0
-        },
-        {
-          "d": "2026-10-21",
-          "p": 0
-        }
-      ],
-      "page": "app/us-1497341819.html"
-    },
-    {
       "id": "6775106021",
       "name": "Simpic: Photo Cleaner",
       "dev": "晨阳 成",
@@ -1262,74 +1024,6 @@
         }
       ],
       "page": "app/us-6775106021.html"
-    },
-    {
-      "id": "1500087480",
-      "name": "Simplify & Solve Equation PRO",
-      "dev": "Glindemann, Sennoun, Langer GbR",
-      "genre": "Education",
-      "normal": "$1.99",
-      "current": "Free",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/be/36/2a/be362a10-f1c3-3adf-48ed-a28ae709f406/AppIcon-FX-PRO-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-      "rating": 5,
-      "url": "https://apps.apple.com/us/app/simplify-solve-equation-pro/id1500087480?uo=4",
-      "region": "us",
-      "type": "free",
-      "is_new": false,
-      "series": [
-        1.99,
-        0,
-        0
-      ],
-      "phistory": [
-        {
-          "d": "2026-10-19",
-          "p": 1.99
-        },
-        {
-          "d": "2026-10-20",
-          "p": 0
-        },
-        {
-          "d": "2026-10-21",
-          "p": 0
-        }
-      ],
-      "page": "app/us-1500087480.html"
-    },
-    {
-      "id": "1336973855",
-      "name": "Square of a Binomial PRO",
-      "dev": "Glindemann, Sennoun, Langer GbR",
-      "genre": "Education",
-      "normal": "$1.99",
-      "current": "Free",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/90/69/a2/9069a2ba-1f06-49b8-e77f-bf99fbcdc94d/AppIcon-BF-PRO-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-      "rating": 5,
-      "url": "https://apps.apple.com/us/app/square-of-a-binomial-pro/id1336973855?uo=4",
-      "region": "us",
-      "type": "free",
-      "is_new": false,
-      "series": [
-        1.99,
-        0,
-        0
-      ],
-      "phistory": [
-        {
-          "d": "2026-10-19",
-          "p": 1.99
-        },
-        {
-          "d": "2026-10-20",
-          "p": 0
-        },
-        {
-          "d": "2026-10-21",
-          "p": 0
-        }
-      ],
-      "page": "app/us-1336973855.html"
     },
     {
       "id": "1590485332",
@@ -1502,74 +1196,6 @@
       "page": "app/us-6739967953.html"
     },
     {
-      "id": "6736936482",
-      "name": "Math Middle & High School PRO",
-      "dev": "Glindemann, Sennoun, Langer GbR",
-      "genre": "Education",
-      "normal": "$19.99",
-      "current": "Free",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5c/30/33/5c3033dd-4801-ccc2-592b-e5eedfbc5508/AppIcon-Main-PRO-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
-      "rating": 4.9,
-      "url": "https://apps.apple.com/us/app/math-middle-high-school-pro/id6736936482?uo=4",
-      "region": "us",
-      "type": "free",
-      "is_new": false,
-      "series": [
-        19.99,
-        0,
-        0
-      ],
-      "phistory": [
-        {
-          "d": "2026-10-19",
-          "p": 19.99
-        },
-        {
-          "d": "2026-10-20",
-          "p": 0
-        },
-        {
-          "d": "2026-10-21",
-          "p": 0
-        }
-      ],
-      "page": "app/us-6736936482.html"
-    },
-    {
-      "id": "1564077280",
-      "name": "Circle and Sphere Pro",
-      "dev": "Glindemann, Sennoun, Langer GbR",
-      "genre": "Education",
-      "normal": "$2.99",
-      "current": "Free",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/15/07/19/15071986-004d-547d-1618-1d01c52b9d93/AppIcon-SC-PRO-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-      "rating": 4.85714,
-      "url": "https://apps.apple.com/us/app/circle-and-sphere-pro/id1564077280?uo=4",
-      "region": "us",
-      "type": "free",
-      "is_new": false,
-      "series": [
-        2.99,
-        0,
-        0
-      ],
-      "phistory": [
-        {
-          "d": "2026-10-19",
-          "p": 2.99
-        },
-        {
-          "d": "2026-10-20",
-          "p": 0
-        },
-        {
-          "d": "2026-10-21",
-          "p": 0
-        }
-      ],
-      "page": "app/us-1564077280.html"
-    },
-    {
       "id": "6742457882",
       "name": "Deco: Wallpaper & Stickers",
       "dev": "William Jones",
@@ -1611,7 +1237,7 @@
       "normal": "$4.99",
       "current": "Free",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/32/35/9e/32359ede-b286-7c59-50ed-a6f59d51a2b6/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
-      "rating": 4.78198,
+      "rating": 4.78192,
       "url": "https://apps.apple.com/us/app/fotospot-road-trip-community/id1200952700?uo=4",
       "region": "us",
       "type": "free",
@@ -1636,40 +1262,6 @@
         }
       ],
       "page": "app/us-1200952700.html"
-    },
-    {
-      "id": "1606376541",
-      "name": "Unit Circle Calculator PRO",
-      "dev": "Glindemann, Sennoun, Langer GbR",
-      "genre": "Education",
-      "normal": "$1.99",
-      "current": "Free",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ef/86/2d/ef862de1-e5d5-90a5-184d-8483305e7e46/AppIcon-UC-PRO-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-      "rating": 4.72,
-      "url": "https://apps.apple.com/us/app/unit-circle-calculator-pro/id1606376541?uo=4",
-      "region": "us",
-      "type": "free",
-      "is_new": false,
-      "series": [
-        1.99,
-        0,
-        0
-      ],
-      "phistory": [
-        {
-          "d": "2026-10-19",
-          "p": 1.99
-        },
-        {
-          "d": "2026-10-20",
-          "p": 0
-        },
-        {
-          "d": "2026-10-21",
-          "p": 0
-        }
-      ],
-      "page": "app/us-1606376541.html"
     },
     {
       "id": "1513271477",
@@ -1772,40 +1364,6 @@
         }
       ],
       "page": "app/us-1391571907.html"
-    },
-    {
-      "id": "1225490847",
-      "name": "Slideshow Master Pro - Maker",
-      "dev": "丽譞 牛",
-      "genre": "Photo & Video",
-      "normal": "$2.99",
-      "current": "Free",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/bd/ee/0f/bdee0f46-9fd8-1686-15bc-f5b7394c365f/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.jpeg/512x512bb.jpg",
-      "rating": 4.6391,
-      "url": "https://apps.apple.com/us/app/slideshow-master-pro-maker/id1225490847?uo=4",
-      "region": "us",
-      "type": "free",
-      "is_new": false,
-      "series": [
-        2.99,
-        0,
-        0
-      ],
-      "phistory": [
-        {
-          "d": "2026-10-19",
-          "p": 2.99
-        },
-        {
-          "d": "2026-10-20",
-          "p": 0
-        },
-        {
-          "d": "2026-10-21",
-          "p": 0
-        }
-      ],
-      "page": "app/us-1225490847.html"
     },
     {
       "id": "942099999",
@@ -2012,40 +1570,6 @@
       "page": "app/us-1422480068.html"
     },
     {
-      "id": "1497475541",
-      "name": "Calculate Percentage PRO",
-      "dev": "Glindemann, Sennoun, Langer GbR",
-      "genre": "Education",
-      "normal": "$1.99",
-      "current": "Free",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1b/1c/0d/1b1c0d67-5cce-2fa2-bf44-44cab78f8a5c/AppIcon-PC-PRO-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-      "rating": 4.60784,
-      "url": "https://apps.apple.com/us/app/calculate-percentage-pro/id1497475541?uo=4",
-      "region": "us",
-      "type": "free",
-      "is_new": false,
-      "series": [
-        1.99,
-        0,
-        0
-      ],
-      "phistory": [
-        {
-          "d": "2026-10-19",
-          "p": 1.99
-        },
-        {
-          "d": "2026-10-20",
-          "p": 0
-        },
-        {
-          "d": "2026-10-21",
-          "p": 0
-        }
-      ],
-      "page": "app/us-1497475541.html"
-    },
-    {
       "id": "1396913168",
       "name": "Memos-Voice",
       "dev": "莉 朱",
@@ -2053,7 +1577,7 @@
       "normal": "$2.99",
       "current": "Free",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/5b/fd/af/5bfdafb6-90e6-d755-e442-5bb0ae417b33/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-      "rating": 4.6014,
+      "rating": 4.60233,
       "url": "https://apps.apple.com/us/app/memos-voice/id1396913168?uo=4",
       "region": "us",
       "type": "free",
@@ -2078,40 +1602,6 @@
         }
       ],
       "page": "app/us-1396913168.html"
-    },
-    {
-      "id": "1273600793",
-      "name": "Solving Linear Equation PRO",
-      "dev": "Glindemann, Sennoun, Langer GbR",
-      "genre": "Education",
-      "normal": "$1.99",
-      "current": "Free",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c7/28/fa/c728fad6-8568-7b33-b3df-28cadb4a978c/AppIcon-LE-PRO-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-      "rating": 4.59091,
-      "url": "https://apps.apple.com/us/app/solving-linear-equation-pro/id1273600793?uo=4",
-      "region": "us",
-      "type": "free",
-      "is_new": false,
-      "series": [
-        1.99,
-        0,
-        0
-      ],
-      "phistory": [
-        {
-          "d": "2026-10-19",
-          "p": 1.99
-        },
-        {
-          "d": "2026-10-20",
-          "p": 0
-        },
-        {
-          "d": "2026-10-21",
-          "p": 0
-        }
-      ],
-      "page": "app/us-1273600793.html"
     },
     {
       "id": "436311293",
@@ -2180,40 +1670,6 @@
         }
       ],
       "page": "app/us-1483376887.html"
-    },
-    {
-      "id": "1273601209",
-      "name": "Reduce Fraction PRO",
-      "dev": "Glindemann, Sennoun, Langer GbR",
-      "genre": "Education",
-      "normal": "$1.99",
-      "current": "Free",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/33/c7/c0/33c7c0d6-5a5a-cfb2-71d3-97e55721d5ac/AppIcon-RF-PRO-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-      "rating": 4.5,
-      "url": "https://apps.apple.com/us/app/reduce-fraction-pro/id1273601209?uo=4",
-      "region": "us",
-      "type": "free",
-      "is_new": false,
-      "series": [
-        1.99,
-        0,
-        0
-      ],
-      "phistory": [
-        {
-          "d": "2026-10-19",
-          "p": 1.99
-        },
-        {
-          "d": "2026-10-20",
-          "p": 0
-        },
-        {
-          "d": "2026-10-21",
-          "p": 0
-        }
-      ],
-      "page": "app/us-1273601209.html"
     },
     {
       "id": "1255345512",
@@ -2352,40 +1808,6 @@
       "page": "app/us-1234575605.html"
     },
     {
-      "id": "1494505052",
-      "name": "Factoring Quadratics PRO",
-      "dev": "Glindemann, Sennoun, Langer GbR",
-      "genre": "Education",
-      "normal": "$1.99",
-      "current": "Free",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/be/d1/77/bed1773a-656e-debf-f436-228caee949b7/AppIcon-FQ-PRO-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-      "rating": 4.30769,
-      "url": "https://apps.apple.com/us/app/factoring-quadratics-pro/id1494505052?uo=4",
-      "region": "us",
-      "type": "free",
-      "is_new": false,
-      "series": [
-        1.99,
-        0,
-        0
-      ],
-      "phistory": [
-        {
-          "d": "2026-10-19",
-          "p": 1.99
-        },
-        {
-          "d": "2026-10-20",
-          "p": 0
-        },
-        {
-          "d": "2026-10-21",
-          "p": 0
-        }
-      ],
-      "page": "app/us-1494505052.html"
-    },
-    {
       "id": "6755712718",
       "name": "Pillcam Reminder: Med Tracker",
       "dev": "Luan Tran Minh",
@@ -2418,40 +1840,6 @@
         }
       ],
       "page": "app/us-6755712718.html"
-    },
-    {
-      "id": "1273601215",
-      "name": "Solving Pythagoras PRO",
-      "dev": "Glindemann, Sennoun, Langer GbR",
-      "genre": "Education",
-      "normal": "$1.99",
-      "current": "Free",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b1/74/09/b1740915-d56a-5f78-1fd7-8abb592361d8/AppIcon-PY-PRO-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-      "rating": 4.2,
-      "url": "https://apps.apple.com/us/app/solving-pythagoras-pro/id1273601215?uo=4",
-      "region": "us",
-      "type": "free",
-      "is_new": false,
-      "series": [
-        1.99,
-        0,
-        0
-      ],
-      "phistory": [
-        {
-          "d": "2026-10-19",
-          "p": 1.99
-        },
-        {
-          "d": "2026-10-20",
-          "p": 0
-        },
-        {
-          "d": "2026-10-21",
-          "p": 0
-        }
-      ],
-      "page": "app/us-1273601215.html"
     },
     {
       "id": "1114104441",
@@ -2690,40 +2078,6 @@
         }
       ],
       "page": "app/us-6749265146.html"
-    },
-    {
-      "id": "1567415905",
-      "name": "Solve Right Triangle Pro",
-      "dev": "Glindemann, Sennoun, Langer GbR",
-      "genre": "Education",
-      "normal": "$2.99",
-      "current": "Free",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ff/19/10/ff1910b3-6a28-5987-9660-a2c67146761a/AppIcon-RT-PRO-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-      "rating": 3.66667,
-      "url": "https://apps.apple.com/us/app/solve-right-triangle-pro/id1567415905?uo=4",
-      "region": "us",
-      "type": "free",
-      "is_new": false,
-      "series": [
-        2.99,
-        0,
-        0
-      ],
-      "phistory": [
-        {
-          "d": "2026-10-19",
-          "p": 2.99
-        },
-        {
-          "d": "2026-10-20",
-          "p": 0
-        },
-        {
-          "d": "2026-10-21",
-          "p": 0
-        }
-      ],
-      "page": "app/us-1567415905.html"
     },
     {
       "id": "1587301632",
@@ -2996,40 +2350,6 @@
         }
       ],
       "page": "app/us-310558966.html"
-    },
-    {
-      "id": "1628826081",
-      "name": "Advanced Power Calculator PRO",
-      "dev": "Glindemann, Sennoun, Langer GbR",
-      "genre": "Education",
-      "normal": "$1.99",
-      "current": "Free",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7f/4e/f5/7f4ef5ba-5375-f389-8583-1efd8814f665/AppIcon-APC-PRO-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-      "rating": 2,
-      "url": "https://apps.apple.com/us/app/advanced-power-calculator-pro/id1628826081?uo=4",
-      "region": "us",
-      "type": "free",
-      "is_new": false,
-      "series": [
-        1.99,
-        0,
-        0
-      ],
-      "phistory": [
-        {
-          "d": "2026-10-19",
-          "p": 1.99
-        },
-        {
-          "d": "2026-10-20",
-          "p": 0
-        },
-        {
-          "d": "2026-10-21",
-          "p": 0
-        }
-      ],
-      "page": "app/us-1628826081.html"
     },
     {
       "id": "6752997612",
