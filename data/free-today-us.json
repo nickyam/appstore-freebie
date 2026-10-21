@@ -1,7 +1,7 @@
 {
   "date": "2026-10-21",
   "country": "us",
-  "generated_at": "2026-10-21T21:07:02Z",
+  "generated_at": "2026-10-21T23:59:27Z",
   "freebies": [
     {
       "id": "6759512718",
@@ -205,6 +205,132 @@
         }
       ],
       "page": "app/us-6759119285.html"
+    },
+    {
+      "id": "6752921238",
+      "name": "Axios! Orthodox Saints",
+      "dev": "Axiosware LLC",
+      "genre": "Reference",
+      "normal": "$1.99",
+      "current": "Free",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/66/18/a3/6618a351-b147-492b-e4f9-9173e0680613/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "rating": 4.78946,
+      "url": "https://apps.apple.com/us/app/axios-orthodox-saints/id6752921238?uo=4",
+      "region": "us",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        1.99,
+        1.99,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 1.99
+        },
+        {
+          "d": "2026-10-20",
+          "p": 1.99
+        },
+        {
+          "d": "2026-10-21",
+          "p": 0
+        }
+      ],
+      "page": "app/us-6752921238.html"
+    },
+    {
+      "id": "6751239297",
+      "name": "O2 Buddy: Blood Oxygen SpO2",
+      "dev": "Minorbits LLC",
+      "genre": "Health & Fitness",
+      "normal": "$0.99",
+      "current": "Free",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d0/ae/73/d0ae7394-d883-398b-1b0d-ba782cf2b5d1/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+      "rating": 4.58333,
+      "url": "https://apps.apple.com/us/app/o2-buddy-blood-oxygen-spo2/id6751239297?uo=4",
+      "region": "us",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        0.99,
+        0.99,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 0.99
+        },
+        {
+          "d": "2026-10-20",
+          "p": 0.99
+        },
+        {
+          "d": "2026-10-21",
+          "p": 0
+        }
+      ],
+      "page": "app/us-6751239297.html"
+    },
+    {
+      "id": "317435796",
+      "name": "Responder AI: Crime Alerts",
+      "dev": "Extruder App Inc.",
+      "genre": "News",
+      "normal": "$2.99",
+      "current": "Free",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a9/09/0d/a9090d49-a29c-3916-cd32-813bcd8e2acd/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+      "rating": 4.57125,
+      "url": "https://apps.apple.com/us/app/responder-ai-crime-alerts/id317435796?uo=4",
+      "region": "us",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        2.99,
+        2.99,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 2.99
+        },
+        {
+          "d": "2026-10-20",
+          "p": 2.99
+        },
+        {
+          "d": "2026-10-21",
+          "p": 0
+        }
+      ],
+      "page": "app/us-317435796.html"
+    },
+    {
+      "id": "1535485326",
+      "name": "GRE Math Knight",
+      "dev": "Vince Kotchian Test Prep",
+      "genre": "Education",
+      "normal": "$9.99",
+      "current": "Free",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/be/8b/a5/be8ba50e-3981-5604-ed48-7f66f69cc477/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "rating": 4.51923,
+      "url": "https://apps.apple.com/us/app/gre-math-knight/id1535485326?uo=4",
+      "region": "us",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-21",
+          "p": 0
+        }
+      ],
+      "page": "app/us-1535485326.html"
     },
     {
       "id": "6814895663",
@@ -2454,6 +2580,40 @@
         }
       ],
       "page": "app/us-6449003064.html"
+    },
+    {
+      "id": "1314407112",
+      "name": "Fishing Barometer - Fishermen",
+      "dev": "LionsApp di Nallbati Elton",
+      "genre": "Weather",
+      "normal": "$12.99",
+      "current": "$3.99",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d5/52/4b/d5524b67-9b75-2c58-1c0f-f816c68ab3e8/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+      "rating": 4.15054,
+      "url": "https://apps.apple.com/us/app/fishing-barometer-fishermen/id1314407112?uo=4",
+      "region": "us",
+      "type": "deal",
+      "is_new": false,
+      "series": [
+        12.99,
+        6.99,
+        3.99
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 12.99
+        },
+        {
+          "d": "2026-10-20",
+          "p": 6.99
+        },
+        {
+          "d": "2026-10-21",
+          "p": 3.99
+        }
+      ],
+      "page": "app/us-1314407112.html"
     },
     {
       "id": "454086751",

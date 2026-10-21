@@ -1,8 +1,37 @@
 {
   "date": "2026-10-21",
   "country": "cn",
-  "generated_at": "2026-10-21T21:04:00Z",
+  "generated_at": "2026-10-21T23:55:30Z",
   "freebies": [
+    {
+      "id": "6805060074",
+      "name": "司候 · 倒计时与纪念日",
+      "dev": "飞 吕",
+      "genre": "效率",
+      "normal": "¥8.00",
+      "current": "免费",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/84/87/94/84879476-0bc0-28cb-b747-006998f7812f/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "rating": 5,
+      "url": "https://apps.apple.com/cn/app/%E5%8F%B8%E5%80%99-%E5%80%92%E8%AE%A1%E6%97%B6%E4%B8%8E%E7%BA%AA%E5%BF%B5%E6%97%A5/id6805060074?uo=4",
+      "region": "cn",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        8.0,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-20",
+          "p": 8.0
+        },
+        {
+          "d": "2026-10-21",
+          "p": 0
+        }
+      ],
+      "page": "app/cn-6805060074.html"
+    },
     {
       "id": "1149956692",
       "name": "Sensnap: 海拔气压与轨迹",
@@ -1497,7 +1526,7 @@
       "genre": "财务",
       "normal": "¥6.00",
       "current": "¥1.00",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/70/76/33/7076336f-1e2e-da4c-1eaf-c877e40d26b5/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/02/ce/44/02ce44ea-f890-5091-aa9d-f69961f9d154/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
       "rating": 5,
       "url": "https://apps.apple.com/cn/app/%E8%AE%B0%E8%B4%A6%E7%B0%BF-%E9%9A%90%E7%A7%81%E8%AE%B0%E8%B4%A6%E6%9C%AC/id6816931747?uo=4",
       "region": "cn",
