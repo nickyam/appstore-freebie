@@ -1,7 +1,7 @@
 {
   "date": "2026-10-21",
   "country": "us",
-  "generated_at": "2026-10-21T01:31:27Z",
+  "generated_at": "2026-10-21T02:35:06Z",
   "freebies": [
     {
       "id": "6759512718",
@@ -2248,40 +2248,6 @@
         }
       ],
       "page": "app/us-1255345512.html"
-    },
-    {
-      "id": "1504150811",
-      "name": "Ghost SLS",
-      "dev": "OurBigAdventure, LLC",
-      "genre": "Entertainment",
-      "normal": "$0.99",
-      "current": "Free",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/67/1b/45/671b4576-ec01-9a73-7822-4b8b365a31b4/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-      "rating": 4.43265,
-      "url": "https://apps.apple.com/us/app/ghost-sls/id1504150811?uo=4",
-      "region": "us",
-      "type": "free",
-      "is_new": false,
-      "series": [
-        0.99,
-        0,
-        0
-      ],
-      "phistory": [
-        {
-          "d": "2026-10-19",
-          "p": 0.99
-        },
-        {
-          "d": "2026-10-20",
-          "p": 0
-        },
-        {
-          "d": "2026-10-21",
-          "p": 0
-        }
-      ],
-      "page": "app/us-1504150811.html"
     },
     {
       "id": "364502063",
