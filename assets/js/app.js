@@ -462,30 +462,14 @@
       return;
     }
     var grid = el('div', 'grid');
-    // 今日限免列表：在「每行 3 个」的行边界上、正好位于列表中部插入一个固定广告位
-    var mid = midAdPos(data.length);
     data.forEach(function (a, i) {
       grid.appendChild(appCard(a, kind));
-      if (kind === 'free' && mid > 0 && i + 1 === mid) {
-        // 跨整行（grid-column: 1/-1）的广告格
-        var ad = el('div', 'ad-slot ad-row');
-        ad.innerHTML = '<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7114121088728794" ' +
-          'data-ad-slot="7221917766" data-ad-format="auto" data-full-width-responsive="true"></ins>';
-        grid.appendChild(ad);
-      }
     });
     box.appendChild(grid);
-    if (mid > 0) pushAd(grid, 'ad-row');
+    // 列表中部广告位已交由 Auto Ads（页面级自动广告）托管，不再手动插入。
   }
 
-  // 列表中部广告位的插入位置：按每行 3 个对齐，取最接近中点的整行边界。
-  // 列表太短（<9 个）就不插，避免「广告多于内容」触发 AdSense 政策风险。
-  function midAdPos(n) {
-    if (!n || n < 9) return -1;
-    var rows = Math.ceil(n / 3);
-    var pos = Math.floor(rows / 2) * 3;   // 中间那一行的末尾
-    return pos < n ? pos : -1;
-  }
+  // 注：原 midAdPos() 与手动 ad-row 广告位已移除，中部广告改由 Google 自动广告补充。
 
   // ===== 筛选 =====
   function filterApps(list) {
@@ -834,11 +818,10 @@
     return { html: '<div class="dt-related dt-period"><h3>' + esc(dict.dt_same_period) + '</h3><div class="grid" id="dtSameGrid"></div></div>', items: pool };
   }
 
-  // 独立页正文内嵌广告位（固定广告位）。
+  // 固定广告位 HTML 构造（仅用于顶部/头部手动位 7735913921）。
   // 说明：innerHTML 插入的 <script> 不会自动执行，所以这里只输出 <ins>，
   // 由 renderDetail 在插入 DOM 后手动 push 一次触发广告请求。
-  // 广告单元：顶部内容广告 7735913921（与页面底部已有的 7221917766 区分，
-  // 同一页面不使用重复单元）。
+  // 其余广告位（列表中部、独立页尾部等）已交由 Auto Ads 页面级自动广告托管。
   function adSlotHTML(slot, cls) {
     return '<div class="ad-slot ' + (cls || 'dt-ad') + '">' +
       '<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7114121088728794" ' +
@@ -857,19 +840,18 @@
   // 独立页里数据（free-today JSON）与 iTunes 详情是并发请求的，谁先返回不确定；
   // 若详情先到，currentData 还是空的，这里就会渲染出空区块。
   // 因此 load() 拿到数据后会再调一次本函数补渲染（内部先清掉旧区块，不会重复）。
-  // 独立页专属：正文末尾广告位（7221917766）插在「应用介绍」之后、本区块之前；
-  // 首页弹窗（detailApp 为空）不插广告。
+  // 独立页尾部广告位已交由 Auto Ads 托管，本函数不再插入手动广告。
   var detailApp = null;   // 当前独立页正在展示的 App
   function renderRecommend(app, extra) {
     if (!app || !extra) return;
     var sp = samePeriodHTML(app);
     var isPage = !!(detailApp && detailApp.id === app.id);
     var box = document.createElement('div');
-    box.innerHTML = (isPage ? adSlotHTML('7221917766', 'dt-ad-tail') : '') + sp.html;
-    var olds = extra.querySelectorAll('.dt-related, .dt-ad-tail');
+    box.innerHTML = sp.html;
+    var olds = extra.querySelectorAll('.dt-related');
     for (var i = 0; i < olds.length; i++) extra.removeChild(olds[i]);
     while (box.firstChild) extra.appendChild(box.firstChild);
-    if (isPage) pushAd(extra, 'dt-ad-tail');
+    // 独立页尾部广告位已交由 Auto Ads 托管，不再手动插入。
     var sg = extra.querySelector('#dtSameGrid');
     if (sg && sp.items.length) {
       sp.items.forEach(function (a) { sg.appendChild(appCard(a, a.type === 'deal' ? 'deal' : 'free')); });
