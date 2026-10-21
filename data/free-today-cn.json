@@ -1,7 +1,7 @@
 {
   "date": "2026-10-21",
   "country": "cn",
-  "generated_at": "2026-10-21T10:51:41Z",
+  "generated_at": "2026-10-21T16:20:20Z",
   "freebies": [
     {
       "id": "1149956692",
@@ -713,7 +713,7 @@
       "genre": "效率",
       "normal": "¥0.99",
       "current": "免费",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/bb/c2/63bbc249-4cef-9dfc-9621-19d0295ccef6/AppIcon-1-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/74/c8/96/74c896a8-c62f-faa7-5630-53c05a7fa97b/AppIcon-1-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg",
       "rating": 4.87878,
       "url": "https://apps.apple.com/cn/app/%E5%B0%8F%E6%B8%94%E6%8E%92%E7%8F%AD-%E5%80%92%E7%8F%AD%E6%97%A5%E5%8E%86%E4%B8%8E%E8%BD%AE%E7%8F%AD%E9%97%B9%E9%92%9F/id1410053842?uo=4",
       "region": "cn",
@@ -807,40 +807,6 @@
         }
       ],
       "page": "app/cn-1396913168.html"
-    },
-    {
-      "id": "1422605014",
-      "name": "Weather Now PRO – 天气预报",
-      "dev": "DeluxeWare",
-      "genre": "天气",
-      "normal": "¥228.00",
-      "current": "免费",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/81/26/11/81261197-93b2-c36d-f4ab-c86e39b83d1c/AppIcon-0-0-1x_U007epad-0-1-0-P3-85-220.png/512x512bb.jpg",
-      "rating": 4.80009,
-      "url": "https://apps.apple.com/cn/app/weather-now-pro-%E5%A4%A9%E6%B0%94%E9%A2%84%E6%8A%A5/id1422605014?uo=4",
-      "region": "cn",
-      "type": "free",
-      "is_new": false,
-      "series": [
-        198.0,
-        0,
-        0
-      ],
-      "phistory": [
-        {
-          "d": "2026-10-19",
-          "p": 198.0
-        },
-        {
-          "d": "2026-10-20",
-          "p": 0
-        },
-        {
-          "d": "2026-10-21",
-          "p": 0
-        }
-      ],
-      "page": "app/cn-1422605014.html"
     },
     {
       "id": "1391571907",
@@ -1285,40 +1251,6 @@
       "page": "app/cn-1590485332.html"
     },
     {
-      "id": "1396346170",
-      "name": "Daily English Grammar Practice",
-      "dev": "Hau Bui Van",
-      "genre": "教育",
-      "normal": "¥15.00",
-      "current": "免费",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/83/75/79837501-27f2-0555-5379-b303c95fb171/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-      "rating": 4.29955,
-      "url": "https://apps.apple.com/cn/app/daily-english-grammar-practice/id1396346170?uo=4",
-      "region": "cn",
-      "type": "free",
-      "is_new": false,
-      "series": [
-        15.0,
-        0,
-        0
-      ],
-      "phistory": [
-        {
-          "d": "2026-10-19",
-          "p": 15.0
-        },
-        {
-          "d": "2026-10-20",
-          "p": 0
-        },
-        {
-          "d": "2026-10-21",
-          "p": 0
-        }
-      ],
-      "page": "app/cn-1396346170.html"
-    },
-    {
       "id": "6754768925",
       "name": "音频提取器: 视频转音频&格式转换&MP3转换器&铃声制作",
       "dev": "一文 陈",
@@ -1419,40 +1351,6 @@
         }
       ],
       "page": "app/cn-918925756.html"
-    },
-    {
-      "id": "1234575605",
-      "name": "一战时间轴 - 一战历史",
-      "dev": "子浩 张",
-      "genre": "参考资料",
-      "normal": "¥22.00",
-      "current": "免费",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/cb/e0/21/cbe021f7-efdb-4f6a-6f5c-55b404df2e1c/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-      "rating": 3,
-      "url": "https://apps.apple.com/cn/app/%E4%B8%80%E6%88%98%E6%97%B6%E9%97%B4%E8%BD%B4-%E4%B8%80%E6%88%98%E5%8E%86%E5%8F%B2/id1234575605?uo=4",
-      "region": "cn",
-      "type": "free",
-      "is_new": false,
-      "series": [
-        22.0,
-        0,
-        0
-      ],
-      "phistory": [
-        {
-          "d": "2026-10-19",
-          "p": 22.0
-        },
-        {
-          "d": "2026-10-20",
-          "p": 0
-        },
-        {
-          "d": "2026-10-21",
-          "p": 0
-        }
-      ],
-      "page": "app/cn-1234575605.html"
     },
     {
       "id": "302036335",

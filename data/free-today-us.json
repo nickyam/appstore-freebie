@@ -1,7 +1,7 @@
 {
   "date": "2026-10-21",
   "country": "us",
-  "generated_at": "2026-10-21T10:54:57Z",
+  "generated_at": "2026-10-21T16:23:31Z",
   "freebies": [
     {
       "id": "6759512718",
@@ -1304,7 +1304,7 @@
       "genre": "Productivity",
       "normal": "$0.99",
       "current": "Free",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/bb/c2/63bbc249-4cef-9dfc-9621-19d0295ccef6/AppIcon-1-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/74/c8/96/74c896a8-c62f-faa7-5630-53c05a7fa97b/AppIcon-1-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg",
       "rating": 4.70967,
       "url": "https://apps.apple.com/us/app/selene-shift-calendar/id1410053842?uo=4",
       "region": "us",
@@ -2421,6 +2421,40 @@
     }
   ],
   "deals": [
+    {
+      "id": "6449003064",
+      "name": "Goblin Tools",
+      "dev": "Skyhook",
+      "genre": "Productivity",
+      "normal": "$1.99",
+      "current": "$0.99",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/78/bf/c9/78bfc938-dc36-764d-16a7-46bc36731f2b/AppIcon-1x_U007epad-0-1-85-220-0.png/512x512bb.jpg",
+      "rating": 4.76028,
+      "url": "https://apps.apple.com/us/app/goblin-tools/id6449003064?uo=4",
+      "region": "us",
+      "type": "deal",
+      "is_new": false,
+      "series": [
+        1.99,
+        1.99,
+        0.99
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 1.99
+        },
+        {
+          "d": "2026-10-20",
+          "p": 1.99
+        },
+        {
+          "d": "2026-10-21",
+          "p": 0.99
+        }
+      ],
+      "page": "app/us-6449003064.html"
+    },
     {
       "id": "6796486391",
       "name": "BreakThree",
