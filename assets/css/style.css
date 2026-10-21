@@ -2,7 +2,7 @@
 @font-face {
   font-family: 'ZCOOL KuaiLe';
   font-display: swap;
-  src: url('/assets/fonts/zcool-kuaile.woff2') format('woff2');
+  src: url('/assets/fonts/zcool-kuaile.woff2?v=2') format('woff2');
 }
 
 :root {
