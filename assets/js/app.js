@@ -135,7 +135,14 @@
       tm_s7: '本条款可能随时修订，修订后在本页公布；修订后继续使用本站即视为接受新条款。',
       tm_s8h: '八、法律适用与争议解决',
       tm_s8: '本条款的解释、效力及争议解决均适用中华人民共和国法律（不含冲突法规则）。因使用本站而产生的任何争议，双方应首先友好协商解决；协商不成的，任何一方均可向本站运营者所在地有管辖权的人民法院提起诉讼。',
-      tm_updated: '最后更新：2026-10-20'
+      tm_updated: '最后更新：2026-10-20',
+      nf_badge: '🧭 页面不存在',
+      nf_h1: '404',
+      nf_lead: '你访问的页面不存在，或内容已被移动 / 下架。',
+      nf_tip: '可以试试下面这些：',
+      nf_home: '回到首页',
+      nf_about: '了解本站',
+      nf_updated: '最后更新：2026-10-21'
     },
     en: {
       logo: 'Apple Freebie Radar',
@@ -268,7 +275,14 @@
       tm_s7: 'These terms may be revised at any time and will be published on this page. Continued use after revision constitutes acceptance of the new terms.',
       tm_s8h: '8. Governing law and dispute resolution',
       tm_s8: 'These terms are governed by the laws of the People’s Republic of China (excluding conflict-of-law rules). Any dispute arising from the use of this site shall first be resolved through friendly negotiation; if negotiation fails, either party may bring a lawsuit in the competent court located in the place where the operator is based.',
-      tm_updated: 'Last updated: 2026-10-20'
+      tm_updated: 'Last updated: 2026-10-20',
+      nf_badge: '🧭 Page Not Found',
+      nf_h1: '404',
+      nf_lead: 'The page you are looking for does not exist, or the content has been moved or removed.',
+      nf_tip: 'You can try one of these:',
+      nf_home: 'Back to Home',
+      nf_about: 'About this site',
+      nf_updated: 'Last updated: 2026-10-21'
     }
   };
 
