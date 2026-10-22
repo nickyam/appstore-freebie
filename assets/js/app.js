@@ -23,6 +23,8 @@
       sec_free: '🔓 本体限免',
       sec_deal: '💰 特价打折（降价未免费）',
       sec_iap: '🎮 内购限免（实验）',
+      region_cn: '中国区',
+      region_us: '美国区',
       iap_empty: '内购限免正在累积数据，需连续观察数日才能捕捉「付费→免费」的跳变。',
       iap_nodata: '该区暂未采集内购数据（美国区需走境外 CI）。',
       iap_perm_note: '个常驻免费内购（永久 tier-0 赠品，不计入限免）',
@@ -176,6 +178,8 @@
       sec_free: '🔓 App Freebies',
       sec_deal: '💰 Price Drops (reduced price)',
       sec_iap: '🎮 In-App Freebies (Beta)',
+      region_cn: 'China',
+      region_us: 'US',
       iap_empty: 'IAP freebie data is still accumulating — it takes several days of observation to catch a paid→free flip.',
       iap_nodata: 'No IAP data collected for this region yet (US requires an overseas CI runner).',
       iap_perm_note: 'permanent free IAPs (tier-0 gifts, excluded from freebies)',
@@ -570,6 +574,9 @@
 
   function loadIap(region) {
     var dict = I18N[CURRENT_LANG];
+    // 区块标题标注当前区域（跟随顶部区域开关，与本体列表一致地区分中美区）
+    var rt = document.getElementById('iapRegionTag');
+    if (rt) rt.textContent = '· ' + (region === 'us' ? dict.region_us : dict.region_cn);
     var box = document.getElementById('iapFreeList');
     if (!box) return;   // 非首页无容器则跳过
     var fUrl = resolvePageUrl('data/iap-free-' + region + '.json');
