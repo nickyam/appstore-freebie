@@ -14,6 +14,7 @@
 
   <link rel="stylesheet" href="assets/css/style.css?v=20261021zE" />
 
+  <!--SHARED_SECURITY_START-->
   <!-- HTTPS 优先：http 输入一律跳 https（服务器 80 端口受阿里云合规拦截，nginx 的 301 可能发不出去，这里用 JS 兜底） -->
   <script>
     if (location.protocol === 'http:') {
@@ -22,6 +23,7 @@
   </script>
   <!-- HSTS：告诉浏览器一年只允许用 https 访问本站，从源头杜绝明文 http -->
   <meta http-equiv="Strict-Transport-Security" content="max-age=31536000; includeSubDomains" />
+  <!--SHARED_SECURITY_END-->
 </head>
 <body>
   <header class="site-header">

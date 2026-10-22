@@ -161,21 +161,74 @@ def write_sitemap():
     return len(paths)
 
 
-def stamp_asset_version():
-    """用 git commit sha（回退到日期）自动生成静态资源版本号，统一替换所有 HTML 的 ?v=。
+def _asset_version():
+    """资源版本号：取 assets/js/app.js 与 assets/css/style.css 的内容哈希（短）。
+    资源内容不变则版本号不变，避免每日生成都用 git-sha 导致所有 HTML 被改写、git 历史膨胀。"""
+    import hashlib
+    digests = []
+    for rel in ("assets/js/app.js", "assets/css/style.css"):
+        p = os.path.join(BASE_DIR, rel)
+        try:
+            with open(p, "rb") as f:
+                digests.append(hashlib.sha256(f.read()).hexdigest())
+        except Exception:
+            digests.append("0")
+    if digests and all(d == "0" for d in digests):
+        # 资源读不到时退化到 git-sha / 日期，保证一定有戳
+        import subprocess
+        try:
+            fallback = subprocess.check_output(
+                ["git", "rev-parse", "--short", "HEAD"], cwd=BASE_DIR,
+                stderr=subprocess.DEVNULL).decode().strip()
+        except Exception:
+            fallback = datetime.datetime.now(datetime.timezone.utc).strftime("%Y%m%d")
+        return fallback or "static"
+    return hashlib.sha256("".join(digests).encode("utf-8")).hexdigest()[:10]
 
-    取代手工维护 ?v=：每次生成后所有页面与生成页的资源引用都会带上新戳，
-    缓存（Cloudflare/Aliyun 的 immutable 长缓存）随之自动失效，避免「改了 JS 却发旧版」。"""
-    import subprocess
-    ver = None
-    try:
-        ver = subprocess.check_output(
-            ["git", "rev-parse", "--short", "HEAD"], cwd=BASE_DIR,
-            stderr=subprocess.DEVNULL).decode().strip()
-    except Exception:
-        ver = datetime.datetime.now(datetime.timezone.utc).strftime("%Y%m%d")
-    if not ver:
-        ver = "static"
+
+SECURITY_HEAD = """  <!-- HTTPS 优先：http 输入一律跳 https（服务器 80 端口受阿里云合规拦截，nginx 的 301 可能发不出去，这里用 JS 兜底） -->
+  <script>
+    if (location.protocol === 'http:') {
+      location.replace('https://' + location.host + location.pathname + location.search + location.hash);
+    }
+  </script>
+  <!-- HSTS：告诉浏览器一年只允许用 https 访问本站，从源头杜绝明文 http -->
+  <meta http-equiv="Strict-Transport-Security" content="max-age=31536000; includeSubDomains" />
+"""
+
+
+def sync_includes():
+    """把「http→https 兜底 + HSTS」安全头脚本作为单一信源注入所有页面（用 START/END 标记包裹，幂等可重复运行）。
+    消除 index/about/404/privacy/terms/app-page 六处完全相同的重复块，改一处即全局生效。"""
+    start, end = "<!--SHARED_SECURITY_START-->", "<!--SHARED_SECURITY_END-->"
+    pat = re.compile(re.escape(start) + r".*?" + re.escape(end), re.S)
+    repl = start + "\n" + SECURITY_HEAD + "\n  " + end
+    count = 0
+    for root, dirs, files in os.walk(BASE_DIR):
+        if "/.git" in root:
+            continue
+        for fn in files:
+            if not fn.endswith(".html"):
+                continue
+            p = os.path.join(root, fn)
+            try:
+                s = open(p, encoding="utf-8").read()
+            except Exception:
+                continue
+            ns = pat.sub(repl, s)
+            if ns != s:
+                open(p, "w", encoding="utf-8").write(ns)
+                count += 1
+    print("[info] shared security block synced: %d files" % count)
+
+
+def stamp_asset_version():
+    """用资源内容哈希自动生成静态资源版本号，统一替换所有 HTML 的 ?v=。
+
+    取代手工维护 ?v=：资源内容不变则版本号不变，缓存（Cloudflare/Aliyun 的
+    immutable 长缓存）随之稳定；资源一旦改动，版本号自动变化使旧缓存失效，
+    避免「改了 JS 却发旧版」，也不会因 git-sha 每日变化而制造大量 git churn。"""
+    ver = _asset_version()
     pat = re.compile(r"(\?v=)[A-Za-z0-9._-]+")
     count = 0
     for root, dirs, files in os.walk(BASE_DIR):
@@ -628,6 +681,7 @@ def main():
           f"library={len(history)} freebies={len(freebies)} deals={len(deals)} "
           f"(全量输出，无展示上限)")
     print(f"[ok] app pages written={pages_written} sitemap_urls={sm_urls} pruned={pruned}")
+    sync_includes()
     stamp_asset_version()
 
 

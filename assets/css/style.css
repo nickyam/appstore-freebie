@@ -212,8 +212,8 @@ ins.adsbygoogle { background: #ececf0; border-radius: var(--radius); }
 }
 .card .genre { color: var(--muted); font-size: 13px; margin-top: 3px; }
 .card .rating { color: #ff9f0a; font-size: 13px; font-weight: 600; margin-top: 2px; }
-.card .rating.norate { color: var(--muted); font-weight: 400; opacity: .75; }
-.dt-chip.norate { opacity: .75; font-style: normal; }
+.card .rating.norate { color: var(--muted); font-weight: 400; }
+.dt-chip.norate { font-style: normal; }
 .card .price { margin-top: 5px; font-size: 14px; }
 .card .price .old { color: var(--muted); text-decoration: line-through; margin-right: 8px; }
 .card .price .new.free { color: var(--free); font-weight: 700; }

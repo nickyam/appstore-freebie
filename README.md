@@ -81,8 +81,9 @@ python3 scripts/generate.py --country us
 - **加更多地区**：在 `daily.yml` 增加一步 `python scripts/generate.py --country <区码>`，
   并在 `assets/js/app.js` 的 `REGIONS` 里加对应项（区码如 `jp`、`gb`、`hk` 等）。
 - **调监控池 / 展示量**：`scripts/generate.py` 顶部 `GENRE_LIMIT`（每分类付费榜条数，RSS 实测每源上限 100）、
-  `GROSS_LIMIT`（每分类畅销榜条数）、`FREE_LIMIT`（免费榜条数）、`HISTORY_DAYS`（价格历史天数）、
+  `GROSS_LIMIT`（每分类畅销榜条数）、`FREE_LIMIT`（免费榜条数）、`APP_PAGE_MAX_AGE_DAYS`（独立页过期清理天数，默认 365）、`HISTORY_MAX_ENTRIES`（价格库软上限，默认 50000）、
   `DEAL_DROP_PCT`（降价判定降幅阈值）、`MAX_DISPLAY`（前端最多展示的限免/特价数）均可调。
+  > 注：原 `HISTORY_DAYS` 常量已废弃移除——价格历史改为「每 App 每区独立快照 + 30 天基线」持久化，不再按总天数裁剪。
 - **改调度频率**：`.github/workflows/daily.yml` 的 cron（当前每 6 小时）与阿里云 ECS `/etc/cron.d/freebie-sync`（镜像同步）保持一致即可。
 - **出英文版拉海外流量**：复制一套 `index.html` 文案为英文，可抬高 AdSense RPM（中国区流量 RPM 偏低）。
 
