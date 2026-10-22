@@ -546,18 +546,21 @@
     nameRow.appendChild(el('span', 'name', esc(it.app_name || '—')));
     if (isEvent) nameRow.appendChild(el('span', 'new-badge', esc(dict.badge_iap_free)));
     info.appendChild(nameRow);
-    info.appendChild(el('div', 'dev', esc(it.iap || '')));   // 内购项名称
-    var price = el('div', 'price');
-    var original = isEvent ? (it.last_paid_price || '') : '';
-    if (original) price.appendChild(el('span', 'old', esc(original)));
-    price.appendChild(el('span', 'new free', esc(dict.card_free_price)));
-    info.appendChild(price);
+    info.appendChild(el('div', 'dev', esc(it.dev || '')));            // 开发者
+    if (it.genre) info.appendChild(el('div', 'genre', esc(it.genre)));  // 分类标签
+    if (it.rating && it.rating > 0) {
+      info.appendChild(el('div', 'rating', '★ ' + (Math.round(it.rating * 10) / 10).toFixed(1)));
+    } else {
+      info.appendChild(el('div', 'rating norate', esc(dict.no_rating)));
+    }
+    // 末行：🎮 内购项名 + 免费时长/原价（绿色「免费」价格行已按用户要求去掉）
     var meta;
     if (isEvent && it.days_free != null) {
-      meta = dict.iap_days + ' ' + it.days_free + ' ' + (CURRENT_LANG === 'en' ? 'days' : '天') +
-        (it.last_paid_price ? (' · ' + dict.iap_original + ' ' + it.last_paid_price) : '');
+      meta = '🎮 ' + esc(it.iap || '') + ' · ' + dict.iap_days + ' ' + it.days_free + ' ' +
+        (CURRENT_LANG === 'en' ? 'days' : '天') +
+        (it.last_paid_price ? (' · ' + dict.iap_original + ' ' + esc(it.last_paid_price)) : '');
     } else {
-      meta = it.permanent_free ? dict.iap_perm_tag : dict.iap_cur_free;
+      meta = '🎮 ' + esc(it.iap || '') + (it.permanent_free ? (' · ' + dict.iap_perm_tag) : (' · ' + dict.iap_cur_free));
     }
     info.appendChild(el('div', 'dev', meta));
     card.appendChild(info);
