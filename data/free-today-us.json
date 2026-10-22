@@ -1,7 +1,7 @@
 {
   "date": "2026-10-21",
   "country": "us",
-  "generated_at": "2026-10-21T10:54:57Z",
+  "generated_at": "2026-10-21T23:59:27Z",
   "freebies": [
     {
       "id": "6759512718",
@@ -205,6 +205,132 @@
         }
       ],
       "page": "app/us-6759119285.html"
+    },
+    {
+      "id": "6752921238",
+      "name": "Axios! Orthodox Saints",
+      "dev": "Axiosware LLC",
+      "genre": "Reference",
+      "normal": "$1.99",
+      "current": "Free",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/66/18/a3/6618a351-b147-492b-e4f9-9173e0680613/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "rating": 4.78946,
+      "url": "https://apps.apple.com/us/app/axios-orthodox-saints/id6752921238?uo=4",
+      "region": "us",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        1.99,
+        1.99,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 1.99
+        },
+        {
+          "d": "2026-10-20",
+          "p": 1.99
+        },
+        {
+          "d": "2026-10-21",
+          "p": 0
+        }
+      ],
+      "page": "app/us-6752921238.html"
+    },
+    {
+      "id": "6751239297",
+      "name": "O2 Buddy: Blood Oxygen SpO2",
+      "dev": "Minorbits LLC",
+      "genre": "Health & Fitness",
+      "normal": "$0.99",
+      "current": "Free",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d0/ae/73/d0ae7394-d883-398b-1b0d-ba782cf2b5d1/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+      "rating": 4.58333,
+      "url": "https://apps.apple.com/us/app/o2-buddy-blood-oxygen-spo2/id6751239297?uo=4",
+      "region": "us",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        0.99,
+        0.99,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 0.99
+        },
+        {
+          "d": "2026-10-20",
+          "p": 0.99
+        },
+        {
+          "d": "2026-10-21",
+          "p": 0
+        }
+      ],
+      "page": "app/us-6751239297.html"
+    },
+    {
+      "id": "317435796",
+      "name": "Responder AI: Crime Alerts",
+      "dev": "Extruder App Inc.",
+      "genre": "News",
+      "normal": "$2.99",
+      "current": "Free",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a9/09/0d/a9090d49-a29c-3916-cd32-813bcd8e2acd/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+      "rating": 4.57125,
+      "url": "https://apps.apple.com/us/app/responder-ai-crime-alerts/id317435796?uo=4",
+      "region": "us",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        2.99,
+        2.99,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 2.99
+        },
+        {
+          "d": "2026-10-20",
+          "p": 2.99
+        },
+        {
+          "d": "2026-10-21",
+          "p": 0
+        }
+      ],
+      "page": "app/us-317435796.html"
+    },
+    {
+      "id": "1535485326",
+      "name": "GRE Math Knight",
+      "dev": "Vince Kotchian Test Prep",
+      "genre": "Education",
+      "normal": "$9.99",
+      "current": "Free",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/be/8b/a5/be8ba50e-3981-5604-ed48-7f66f69cc477/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "rating": 4.51923,
+      "url": "https://apps.apple.com/us/app/gre-math-knight/id1535485326?uo=4",
+      "region": "us",
+      "type": "free",
+      "is_new": true,
+      "series": [
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-21",
+          "p": 0
+        }
+      ],
+      "page": "app/us-1535485326.html"
     },
     {
       "id": "6814895663",
@@ -590,7 +716,7 @@
       "genre": "Utilities",
       "normal": "$2.99",
       "current": "Free",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/44/d9/0e/44d90e4c-fd20-f9d0-1350-912974b50aa4/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/95/a3/ef/95a3efb4-beba-b34f-6b66-44b231ca7c31/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
       "rating": 5,
       "url": "https://apps.apple.com/us/app/aigoodbye/id6757513032?uo=4",
       "region": "us",
@@ -1196,40 +1322,6 @@
       "page": "app/us-6739967953.html"
     },
     {
-      "id": "6742457882",
-      "name": "Deco: Wallpaper & Stickers",
-      "dev": "William Jones",
-      "genre": "Photo & Video",
-      "normal": "$2.99",
-      "current": "Free",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1a/f2/b0/1af2b0d0-ab92-799e-ccf3-359f5f76d20a/Default-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-85-220.png/512x512bb.jpg",
-      "rating": 4.78261,
-      "url": "https://apps.apple.com/us/app/deco-wallpaper-stickers/id6742457882?uo=4",
-      "region": "us",
-      "type": "free",
-      "is_new": false,
-      "series": [
-        2.99,
-        0,
-        0
-      ],
-      "phistory": [
-        {
-          "d": "2026-10-19",
-          "p": 2.99
-        },
-        {
-          "d": "2026-10-20",
-          "p": 0
-        },
-        {
-          "d": "2026-10-21",
-          "p": 0
-        }
-      ],
-      "page": "app/us-6742457882.html"
-    },
-    {
       "id": "1200952700",
       "name": "Fotospot Road Trip Community",
       "dev": "I Heart Travel Inc.",
@@ -1262,6 +1354,40 @@
         }
       ],
       "page": "app/us-1200952700.html"
+    },
+    {
+      "id": "6742457882",
+      "name": "Deco: Wallpaper & Stickers",
+      "dev": "William Jones",
+      "genre": "Photo & Video",
+      "normal": "$2.99",
+      "current": "Free",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1a/f2/b0/1af2b0d0-ab92-799e-ccf3-359f5f76d20a/Default-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-85-220.png/512x512bb.jpg",
+      "rating": 4.77273,
+      "url": "https://apps.apple.com/us/app/deco-wallpaper-stickers/id6742457882?uo=4",
+      "region": "us",
+      "type": "free",
+      "is_new": false,
+      "series": [
+        2.99,
+        0,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 2.99
+        },
+        {
+          "d": "2026-10-20",
+          "p": 0
+        },
+        {
+          "d": "2026-10-21",
+          "p": 0
+        }
+      ],
+      "page": "app/us-6742457882.html"
     },
     {
       "id": "1513271477",
@@ -1304,7 +1430,7 @@
       "genre": "Productivity",
       "normal": "$0.99",
       "current": "Free",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/bb/c2/63bbc249-4cef-9dfc-9621-19d0295ccef6/AppIcon-1-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/74/c8/96/74c896a8-c62f-faa7-5630-53c05a7fa97b/AppIcon-1-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg",
       "rating": 4.70967,
       "url": "https://apps.apple.com/us/app/selene-shift-calendar/id1410053842?uo=4",
       "region": "us",
@@ -1577,7 +1703,7 @@
       "normal": "$2.99",
       "current": "Free",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/5b/fd/af/5bfdafb6-90e6-d755-e442-5bb0ae417b33/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-      "rating": 4.60233,
+      "rating": 4.60093,
       "url": "https://apps.apple.com/us/app/memos-voice/id1396913168?uo=4",
       "region": "us",
       "type": "free",
@@ -1772,6 +1898,40 @@
         }
       ],
       "page": "app/us-1565641091.html"
+    },
+    {
+      "id": "6812764518",
+      "name": "Calc Plus - Calculator",
+      "dev": "Neue Software",
+      "genre": "Utilities",
+      "normal": "$0.99",
+      "current": "Free",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/69/4f/dc/694fdca1-164f-cdd8-4355-76d6b2a5f8c1/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "rating": 4.33333,
+      "url": "https://apps.apple.com/us/app/calc-plus-calculator/id6812764518?uo=4",
+      "region": "us",
+      "type": "free",
+      "is_new": false,
+      "series": [
+        0.99,
+        0,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 0.99
+        },
+        {
+          "d": "2026-10-20",
+          "p": 0
+        },
+        {
+          "d": "2026-10-21",
+          "p": 0
+        }
+      ],
+      "page": "app/us-6812764518.html"
     },
     {
       "id": "1234575605",
@@ -2216,40 +2376,6 @@
       "page": "app/us-562713600.html"
     },
     {
-      "id": "6812764518",
-      "name": "Calc Plus - Calculator",
-      "dev": "Neue Software",
-      "genre": "Utilities",
-      "normal": "$0.99",
-      "current": "Free",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/69/4f/dc/694fdca1-164f-cdd8-4355-76d6b2a5f8c1/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-      "rating": 3,
-      "url": "https://apps.apple.com/us/app/calc-plus-calculator/id6812764518?uo=4",
-      "region": "us",
-      "type": "free",
-      "is_new": false,
-      "series": [
-        0.99,
-        0,
-        0
-      ],
-      "phistory": [
-        {
-          "d": "2026-10-19",
-          "p": 0.99
-        },
-        {
-          "d": "2026-10-20",
-          "p": 0
-        },
-        {
-          "d": "2026-10-21",
-          "p": 0
-        }
-      ],
-      "page": "app/us-6812764518.html"
-    },
-    {
       "id": "6779552510",
       "name": "GT7 Tuning Calculator",
       "dev": "Alex Gameli Heyman",
@@ -2421,6 +2547,108 @@
     }
   ],
   "deals": [
+    {
+      "id": "6449003064",
+      "name": "Goblin Tools",
+      "dev": "Skyhook",
+      "genre": "Productivity",
+      "normal": "$1.99",
+      "current": "$0.99",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/78/bf/c9/78bfc938-dc36-764d-16a7-46bc36731f2b/AppIcon-1x_U007epad-0-1-85-220-0.png/512x512bb.jpg",
+      "rating": 4.76028,
+      "url": "https://apps.apple.com/us/app/goblin-tools/id6449003064?uo=4",
+      "region": "us",
+      "type": "deal",
+      "is_new": false,
+      "series": [
+        1.99,
+        1.99,
+        0.99
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 1.99
+        },
+        {
+          "d": "2026-10-20",
+          "p": 1.99
+        },
+        {
+          "d": "2026-10-21",
+          "p": 0.99
+        }
+      ],
+      "page": "app/us-6449003064.html"
+    },
+    {
+      "id": "1314407112",
+      "name": "Fishing Barometer - Fishermen",
+      "dev": "LionsApp di Nallbati Elton",
+      "genre": "Weather",
+      "normal": "$12.99",
+      "current": "$3.99",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d5/52/4b/d5524b67-9b75-2c58-1c0f-f816c68ab3e8/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+      "rating": 4.15054,
+      "url": "https://apps.apple.com/us/app/fishing-barometer-fishermen/id1314407112?uo=4",
+      "region": "us",
+      "type": "deal",
+      "is_new": false,
+      "series": [
+        12.99,
+        6.99,
+        3.99
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 12.99
+        },
+        {
+          "d": "2026-10-20",
+          "p": 6.99
+        },
+        {
+          "d": "2026-10-21",
+          "p": 3.99
+        }
+      ],
+      "page": "app/us-1314407112.html"
+    },
+    {
+      "id": "454086751",
+      "name": "Flick Home Run !",
+      "dev": "infinity pocket",
+      "genre": "Games",
+      "normal": "$0.99",
+      "current": "$0.29",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ec/5f/ad/ec5fadbd-c069-e83b-3ffd-2c30065cef47/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+      "rating": 3.2896,
+      "url": "https://apps.apple.com/us/app/flick-home-run/id454086751?uo=4",
+      "region": "us",
+      "type": "deal",
+      "is_new": false,
+      "series": [
+        0.99,
+        0.99,
+        0.29
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 0.99
+        },
+        {
+          "d": "2026-10-20",
+          "p": 0.99
+        },
+        {
+          "d": "2026-10-21",
+          "p": 0.29
+        }
+      ],
+      "page": "app/us-454086751.html"
+    },
     {
       "id": "6796486391",
       "name": "BreakThree",
