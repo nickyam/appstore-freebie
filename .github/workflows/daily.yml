@@ -11,12 +11,23 @@ on:
 permissions:
   contents: write
 
+# 三个跑批工作流共用同一并发组：班次之间串行，避免互相抢推 main。
+# 背景：GitHub 定时班次实测会延迟 2~3 小时执行，延迟后极易与前后班次
+# 或用户在 GitHub Desktop 的手动推送撞在一起。
+concurrency:
+  group: freebie-update
+  cancel-in-progress: false
+
 jobs:
   update:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v5
+        with:
+          # 完整历史：下面的 git pull --rebase 需要正确的 merge base；
+          # 浅克隆(depth=1)下 rebase 到已前进的远端容易直接失败。
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v6
@@ -24,21 +35,64 @@ jobs:
           python-version: "3.11"
 
       - name: Generate freebie list (cn)
-        run: python scripts/generate.py --country cn
+        run: |
+          for i in 1 2 3; do
+            if python scripts/generate.py --country cn; then exit 0; fi
+            echo "::warning::cn 生成失败（第 $i 次），20 秒后重试"
+            sleep 20
+          done
+          echo "::error::cn 生成连续 3 次失败"
+          exit 1
 
       - name: Generate freebie list (us)
-        run: python scripts/generate.py --country us
+        run: |
+          for i in 1 2 3; do
+            if python scripts/generate.py --country us; then exit 0; fi
+            echo "::warning::us 生成失败（第 $i 次），20 秒后重试"
+            sleep 20
+          done
+          echo "::error::us 生成连续 3 次失败"
+          exit 1
 
       - name: Commit & push
         run: |
+          set -e
           git config user.email "freebie-bot@users.noreply.github.com"
           git config user.name "Freebie Bot"
-          git add data/free-today-cn.json data/free-today-us.json data/history-cn.json data/history-us.json app/ sitemap.xml
+          # PATHS 必须覆盖 generate.py 会改写的全部文件：
+          # 除 data/app/sitemap 外，stamp_asset_version() 与 sync_includes() 会全量遍历
+          # 改写所有 .html（含 6 个根级静态页）。漏加会导致这些文件处于「已改未暂存」状态，
+          # git pull --rebase 会直接拒绝（cannot pull with rebase: You have unstaged changes）→ 整班红。
+          PATHS="data/free-today-cn.json data/free-today-us.json data/history-cn.json data/history-us.json index.html about.html privacy.html terms.html 404.html app-page.html app/ sitemap.xml"
+          MSG="daily: App Store 限免更新 $(date -u +%Y-%m-%d)"
+
+          # 以远端最新 main 为基重新生成再提交：生成物是确定性的（同样输入同样输出），
+          # 所以「丢掉本次结果重跑一遍」是安全的，且天然避开 rebase 冲突。
+          regenerate_and_commit() {
+            git fetch origin main
+            git reset --hard origin/main
+            python scripts/generate.py --country cn
+            python scripts/generate.py --country us
+            git add $PATHS
+            git commit -m "$MSG (rerun)" || true
+          }
+
+          git add $PATHS
           if git diff --cached --quiet; then
             echo "无变化，跳过提交"
-          else
-            git commit -m "daily: App Store 限免更新 $(date -u +%Y-%m-%d)"
-            # 推送前先 rebase 远端最新，避免与手动推送撞车导致 push 被拒、数据不更新
-            git pull --rebase origin main
+            exit 0
+          fi
+          git commit -m "$MSG"
+          # 推送前 rebase 到远端最新：跑批期间用户常在 GitHub Desktop 手动推送，
+          # 双方若改到同一行（资源戳 / 生成的 HTML）会 rebase 冲突 → 整班红。
+          if ! git pull --rebase origin main; then
+            echo "::warning::rebase 冲突 → 基于最新 main 重新生成"
+            git rebase --abort || true
+            regenerate_and_commit
+          fi
+          if ! git push; then
+            echo "::warning::push 被拒 → 基于最新 main 重新生成后重推"
+            git rebase --abort || true
+            regenerate_and_commit
             git push
           fi

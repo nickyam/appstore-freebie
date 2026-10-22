@@ -14,12 +14,20 @@ on:
 permissions:
   contents: write
 
+# 与 daily.yml / seed.yml 共用同一并发组：班次之间串行，避免互相抢推 main。
+concurrency:
+  group: freebie-update
+  cancel-in-progress: false
+
 jobs:
   full-scan:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v5
+        with:
+          # 完整历史：git pull --rebase 需要正确的 merge base
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v6
@@ -27,21 +35,61 @@ jobs:
           python-version: "3.11"
 
       - name: Full rescan (cn)
-        run: python scripts/generate.py --country cn --full
+        run: |
+          for i in 1 2 3; do
+            if python scripts/generate.py --country cn --full; then exit 0; fi
+            echo "::warning::cn 全量回查失败（第 $i 次），20 秒后重试"
+            sleep 20
+          done
+          echo "::error::cn 全量回查连续 3 次失败"
+          exit 1
 
       - name: Full rescan (us)
-        run: python scripts/generate.py --country us --full
+        run: |
+          for i in 1 2 3; do
+            if python scripts/generate.py --country us --full; then exit 0; fi
+            echo "::warning::us 全量回查失败（第 $i 次），20 秒后重试"
+            sleep 20
+          done
+          echo "::error::us 全量回查连续 3 次失败"
+          exit 1
 
       - name: Commit & push
         run: |
+          set -e
           git config user.email "freebie-bot@users.noreply.github.com"
           git config user.name "Freebie Bot"
-          git add data/free-today-cn.json data/free-today-us.json data/history-cn.json data/history-us.json app/ sitemap.xml
+          # PATHS 必须覆盖 generate.py 会改写的全部文件（含 6 个根级静态页：
+          # stamp_asset_version()/sync_includes() 会全量改写所有 .html；漏加会导致
+          # 「已改未暂存」→ git pull --rebase 拒绝 → 整班红）
+          PATHS="data/free-today-cn.json data/free-today-us.json data/history-cn.json data/history-us.json index.html about.html privacy.html terms.html 404.html app-page.html app/ sitemap.xml"
+          MSG="daily-full: App Store 全量回查 $(date -u +%Y-%m-%d)"
+
+          regenerate_and_commit() {
+            git fetch origin main
+            git reset --hard origin/main
+            python scripts/generate.py --country cn --full
+            python scripts/generate.py --country us --full
+            git add $PATHS
+            git commit -m "$MSG (rerun)" || true
+          }
+
+          git add $PATHS
           if git diff --cached --quiet; then
             echo "无变化，跳过提交"
-          else
-            git commit -m "daily-full: App Store 全量回查 $(date -u +%Y-%m-%d)"
-            # 推送前先 rebase 远端最新，避免与手动/常规班次推送撞车
-            git pull --rebase origin main
+            exit 0
+          fi
+          git commit -m "$MSG"
+          # 跑批期间用户可能在 GitHub Desktop 手动推送，撞同一行会 rebase 冲突 → 整班红；
+          # 冲突时以最新 main 为基重新生成（生成物确定性，安全）再推。
+          if ! git pull --rebase origin main; then
+            echo "::warning::rebase 冲突 → 基于最新 main 重新生成"
+            git rebase --abort || true
+            regenerate_and_commit
+          fi
+          if ! git push; then
+            echo "::warning::push 被拒 → 基于最新 main 重新生成后重推"
+            git rebase --abort || true
+            regenerate_and_commit
             git push
           fi
