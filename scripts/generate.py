@@ -83,7 +83,7 @@ def write_app_pages(items, country, today):
     os.makedirs(APP_DIR, exist_ok=True)
     count = 0
     for item in items:
-        page_rel = "/app/%s-%s.html" % (country, item["id"])
+        page_rel = "app/%s-%s.html" % (country, item["id"])  # 相对路径；配合各页 <base href="/">，详情页也能正确解析
         item["page"] = page_rel
         is_free = item.get("type") == "free"
         name = item.get("name", "")

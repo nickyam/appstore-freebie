@@ -293,12 +293,11 @@
   var currentData = { free: [], deals: [] };     // 当前区已加载数据
 
   // ===== 地区配置 =====
-  // 注意：file 必须是【绝对路径】/data/...。独立详情页位于 /app/{region}-{id}.html，
-  // 若用相对路径 data/... 会解析成 /app/data/... → 404，导致 currentData 为空，
-  // 「同类推荐」「同时期的其他限免」整块消失（首页在 / 或 /index.html 下才会碰巧正常）。
+  // 数据文件路径用【相对路径】data/...，配合各页 <base href="/">：
+  // 首页在 / 下、详情页在 /app/ 下都能正确解析为 /data/...，避免「详情页相对路径 404」导致推荐区消失。
   var REGIONS = {
-    cn: { file: '/data/free-today-cn.json', label: '中国区', label_en: 'China' },
-    us: { file: '/data/free-today-us.json', label: '美国区', label_en: 'United States' }
+    cn: { file: 'data/free-today-cn.json', label: '中国区', label_en: 'China' },
+    us: { file: 'data/free-today-us.json', label: '美国区', label_en: 'United States' }
   };
   // App Store 中文分类 → 英文（数据里 genre 存的是中文，英文界面显示时转换）
   var GENRE_EN = {
@@ -893,7 +892,7 @@
       '<div class="dt-hinfo"><h2 class="dt-name">' + esc(app.name || '') + '</h2>' +
       '<div class="dt-dev">' + esc(app.dev || '') + '</div>' +
       '<div class="dt-meta">' +
-      (app.genre ? '<a class="dt-chip chip-link" href="/index.html?genre=' + encodeURIComponent(app.genre) + '&region=' + esc(app.region || 'cn') + '" title="' + esc(dict.dt_genre_link) + '">' + esc(genreLabel(app.genre)) + '</a>' : '') +
+      (app.genre ? '<a class="dt-chip chip-link" href="index.html?genre=' + encodeURIComponent(app.genre) + '&region=' + esc(app.region || 'cn') + '" title="' + esc(dict.dt_genre_link) + '">' + esc(genreLabel(app.genre)) + '</a>' : '') +
       ((ratingStr || true) ? '<span class="dt-chip' + (ratingStr ? '' : ' norate') + '">' + esc(ratingStr ? '⭐ ' + ratingStr.replace('★ ', '') : dict.no_rating) + '</span>' : '') +
       '</div>' +
       '<div class="dt-price"><span class="dt-cur ' + (app.type === 'free' ? 'free' : 'deal') + '" id="dtPrice">' + esc(app.type === 'free' ? dict.card_free_price : (app.current || '')) + '</span>' +

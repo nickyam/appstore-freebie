@@ -59,6 +59,11 @@ python3 scripts/generate.py --country us
 - 也可在 Actions 页面手动 **Run workflow** 立即跑一次。
 - 每次 Actions 提交 `data/free-today-*.json` 会触发 Pages 重新部署（自动）。
 
+### 4. 子路径部署（可选）
+所有内部链接已相对化并统一 `<base href="/">`：若要把站点部署到子路径（如 `example.com/freebie/`），
+只需把**所有 HTML 页面**里的 `<base href="/">` 改为 `<base href="/freebie/">` 即可，无需改动其它代码
+（canonical / sitemap / og:url 仍按域名绝对地址生成，不受影响）。
+
 ---
 
 ## AdSense 接入（变现）
