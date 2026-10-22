@@ -311,6 +311,10 @@ def prune_app_pages(max_age_days):
             continue
         m = re.search(r'"rating"\s*:\s*([0-9.]+)', txt)
         rated = bool(m and float(m.group(1)) > 0)
+        # IAP 内购限免页（seed_iap_from_apprcn / iap_collector 维护）豁免清理：
+        # 部分新 App 无评分，但页面数量少且由实验链路主动管理，不按「无评分」清除
+        if re.search(r'"type"\s*:\s*"iap"', txt):
+            continue
         pd = re.search(r'data-page-date="([0-9-]+)"', txt)
         page_date = pd.group(1) if pd else ""
         if (not rated) or (page_date and page_date < cutoff):

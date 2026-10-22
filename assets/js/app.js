@@ -31,6 +31,7 @@
       badge_iap_free: '限时免费',
       iap_perm_tag: '常驻免费(赠品)',
       iap_cur_free: '当前免费',
+      dt_iap_title: '🎁 内购限时免费',
       loading: '加载中…',
       free_empty: '今天没有检出限免 App，明天再来看看～',
       deal_empty: '今天没有降价的特价 App。',
@@ -181,6 +182,7 @@
       badge_iap_free: 'Limited-time free',
       iap_perm_tag: 'Permanent free (gift)',
       iap_cur_free: 'Currently free',
+      dt_iap_title: '🎁 IAP Limited-Time Free',
       loading: 'Loading…',
       free_empty: 'No limited-time free apps found today. Check back tomorrow.',
       deal_empty: 'No price-drop deals found today.',
@@ -512,11 +514,27 @@
     var dict = I18N[CURRENT_LANG];
     var storeUrl = it.url || ('https://apps.apple.com/' + region + '/app/id' + it.app_id);
     var card = el('a', 'card');
-    card.href = storeUrl;
-    card.target = '_blank';
-    card.rel = 'noopener';
+    if (it.page) {
+      card.href = resolvePageUrl(it.page);   // 站内独立详情页（与本体限免卡片一致）
+    } else {
+      card.href = storeUrl;                  // 无独立页（无评分等）→ 回退 App Store 外链
+      card.target = '_blank';
+      card.rel = 'noopener';
+    }
     card.setAttribute('aria-label', (it.app_name || '') + ' · ' + (it.iap || '') + ' · ' + dict.card_store);
-    card.appendChild(el('div', 'iap-ico', '🎮'));
+    if (it.icon) {
+      var img = el('img');
+      img.src = it.icon;
+      img.alt = it.app_name || 'app';
+      img.loading = 'lazy';
+      img.onerror = function () {           // 图标加载失败 → 退回 🎮 占位
+        var d = el('div', 'iap-ico', '🎮');
+        if (img.parentNode) img.parentNode.replaceChild(d, img);
+      };
+      card.appendChild(img);
+    } else {
+      card.appendChild(el('div', 'iap-ico', '🎮'));
+    }
     var info = el('div', 'info');
     var nameRow = el('div', 'name-row');
     nameRow.appendChild(el('span', 'name', esc(it.app_name || '—')));
@@ -1017,6 +1035,7 @@
     // 基础信息（无需网络，价格后续用实时 iTunes 数据覆盖）
     var ratingStr = (app.rating && app.rating > 0) ? ('★ ' + (Math.round(app.rating * 10) / 10).toFixed(1)) : '';
     var genreHref = app.genre ? resolvePageUrl('index.html?genre=' + encodeURIComponent(app.genre) + '&region=' + esc(app.region || 'cn')) : '';
+    var isIapPage = app.type === 'iap';   // IAP 限免详情页：头部「免费」指内购而非 App 本体
     var base = '<div class="dt-head">' +
       (app.icon ? '<img class="dt-icon" src="' + esc(app.icon) + '" alt=""/>' : '<div class="dt-icon dt-ic">📱</div>') +
       '<div class="dt-hinfo"><h2 class="dt-name">' + esc(app.name || '') + '</h2>' +
@@ -1024,8 +1043,9 @@
       '<div class="dt-meta">' +
       (app.genre ? '<a class="dt-chip chip-link" href="' + esc(genreHref) + '" title="' + esc(dict.dt_genre_link) + '">' + esc(genreLabel(app.genre)) + '</a>' : '') +
       ((ratingStr || true) ? '<span class="dt-chip' + (ratingStr ? '' : ' norate') + '">' + esc(ratingStr ? '⭐ ' + ratingStr.replace('★ ', '') : dict.no_rating) + '</span>' : '') +
+      (isIapPage && app.iap ? '<span class="dt-chip">🎮 ' + esc(app.iap) + '</span>' : '') +
       '</div>' +
-      '<div class="dt-price"><span class="dt-cur ' + (app.type === 'free' ? 'free' : 'deal') + '" id="dtPrice">' + esc(app.type === 'free' ? dict.card_free_price : (app.current || '')) + '</span>' +
+      '<div class="dt-price"><span class="dt-cur ' + ((app.type === 'free' || isIapPage) ? 'free' : 'deal') + '" id="dtPrice">' + esc((app.type === 'free' || isIapPage) ? dict.card_free_price : (app.current || '')) + '</span>' +
       (app.normal ? '<span class="dt-old" id="dtOld">' + esc(app.normal) + '</span>' : '') + '</div>' +
       '</div>' +
       '<div class="dt-side">' +
@@ -1058,11 +1078,12 @@
         if (!extra) return;
 
         // 头部价格用 iTunes 实时值覆盖快照：原价划掉 + 现价/免费（已恢复原价则不划）
+        // IAP 详情页跳过：头部「免费」指内购，App 本体价格在下方两区对比里看
         var pe = document.getElementById('dtPrice'), oe = document.getElementById('dtOld');
         var live = (self && typeof self.price === 'number') ? self.price : null;
         var liveCur = (self && self.currency) || null;
         var normalNum = app.normal ? parseFloat(String(app.normal).replace(/[^0-9.]/g, '')) : NaN;
-        if (pe) {
+        if (pe && app.type !== 'iap') {
           if (live === 0) {
             pe.textContent = dict.card_free_price; pe.className = 'dt-cur free';
             if (oe && app.normal) { oe.textContent = app.normal; oe.style.display = ''; }
@@ -1089,6 +1110,21 @@
         // 价格历史曲线
         var chart = priceChart(app.phistory, app.type, app.region);
         if (chart) html += '<div class="dt-section"><h3>' + esc(dict.dt_price_history) + '</h3><div class="pc-wrap">' + chart + '</div></div>';
+
+        // 内购限免信息（type=iap 专属）
+        if (app.type === 'iap') {
+          html += '<div class="dt-section"><h3>' + esc(dict.dt_iap_title) + '</h3><div class="dt-metarow dt-iap-list">';
+          var iapItems = (app.iap_items && app.iap_items.length) ? app.iap_items
+            : [{ name: app.iap || '', last_paid_price: app.normal || '', free_since: app.free_since || '', days_free: app.days_free || 0 }];
+          iapItems.forEach(function (x) {
+            var line = '🎮 ' + esc(x.name || '—');
+            if (x.last_paid_price && x.last_paid_price !== '—') line += '<span class="dt-dot">·</span>' + esc(dict.iap_original) + ' ' + esc(x.last_paid_price);
+            line += '<span class="dt-dot">→</span><span class="free">' + esc(dict.card_free_price) + '</span>';
+            if (x.free_since) line += '<span class="dt-dot">·</span>' + esc(dict.iap_days) + ' ' + esc(String(x.days_free || 0)) + (CURRENT_LANG === 'en' ? ' days' : ' 天');
+            html += '<div>' + line + '</div>';
+          });
+          html += '</div></div>';
+        }
 
         // 截图
         var shots = (self && self.screenshotUrls) ? self.screenshotUrls.slice(0, 6) : [];
