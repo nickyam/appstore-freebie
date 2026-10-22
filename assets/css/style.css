@@ -125,6 +125,7 @@ main { padding: 0 0 96px; }
 .stats .stat-num { font-size: 30px; font-weight: 700; letter-spacing: -.02em; line-height: 1.1; color: var(--text); }
 .stats .stat:first-child .stat-num { color: var(--free); }
 .stats .stat:nth-child(2) .stat-num { color: var(--deal); }
+.stats .stat:nth-child(3) .stat-num { color: #bf5af2; }   /* 内购限免：紫 */
 .stats .stat:last-child .stat-num { color: var(--accent); }
 .stats .stat-label { font-size: 13px; color: var(--muted); margin-top: 4px; font-weight: 500; }
 

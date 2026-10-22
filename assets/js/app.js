@@ -72,6 +72,7 @@
       home_intro_link: '了解我们怎么挑 →',
       stat_free: '今日限免',
       stat_deal: '今日特价',
+      stat_iap: '内购限免',
       stat_saved: '今日可省',
       badge_new: 'NEW',
       foot_privacy: '隐私政策',
@@ -223,6 +224,7 @@
       home_intro_link: 'How we pick →',
       stat_free: 'Free today',
       stat_deal: 'Deals today',
+      stat_iap: 'IAP freebies',
       stat_saved: 'You save',
       badge_new: 'NEW',
       foot_privacy: 'Privacy Policy',
@@ -569,7 +571,7 @@
       fetch(cUrl, { cache: 'no-cache' }).then(function (r) { return r.ok ? r.json() : null; }).catch(function () { return null; })
     ]).then(function (res) {
       var evData = res[0], curData = res[1];
-      if (!evData && !curData) { box.innerHTML = ''; box.appendChild(el('div', 'empty', dict.iap_nodata)); return; }
+      if (!evData && !curData) { box.innerHTML = ''; box.appendChild(el('div', 'empty', dict.iap_nodata)); var si0 = document.getElementById('statIap'); if (si0) si0.textContent = '0'; return; }
       var events = (evData && evData.events) || [];
       var curItems = (curData && curData.items) || [];
       var evKeys = {};
@@ -578,6 +580,8 @@
       var feed = events.concat(curNonPerm.filter(function (it) { return !evKeys[it.app_id + '::' + it.iap]; }));
       var countEl = document.getElementById('iapFreeCount');
       if (countEl) countEl.textContent = feed.length;
+      var si = document.getElementById('statIap');   // 统计条「内购限免」格
+      if (si) si.textContent = feed.length;
       box.innerHTML = '';
       if (feed.length === 0) {
         box.appendChild(el('div', 'empty', dict.iap_empty));
@@ -645,6 +649,7 @@
     if (dl) dl.textContent = dict.err_line;
     var sf = document.getElementById('statFree'); if (sf) sf.textContent = '0';
     var sd = document.getElementById('statDeal'); if (sd) sd.textContent = '0';
+    var si = document.getElementById('statIap'); if (si) si.textContent = '0';
     var ss = document.getElementById('statSaved'); if (ss) ss.textContent = formatMoney(region || 'cn', 0);
   }
 
