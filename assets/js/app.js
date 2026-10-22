@@ -557,14 +557,12 @@
       var evKeys = {};
       events.forEach(function (e) { evKeys[e.app_id + '::' + e.iap] = true; });
       var curNonPerm = curItems.filter(function (it) { return !it.permanent_free; });
-      var permCount = curItems.length - curNonPerm.length;
       var feed = events.concat(curNonPerm.filter(function (it) { return !evKeys[it.app_id + '::' + it.iap]; }));
       var countEl = document.getElementById('iapFreeCount');
       if (countEl) countEl.textContent = feed.length;
       box.innerHTML = '';
-      var note = permCount ? ('（另有 ' + permCount + ' ' + dict.iap_perm_note + '）') : '';
       if (feed.length === 0) {
-        box.appendChild(el('div', 'empty', dict.iap_empty + note));
+        box.appendChild(el('div', 'empty', dict.iap_empty));
         return;
       }
       var grid = el('div', 'grid');
@@ -572,7 +570,6 @@
         grid.appendChild(iapCard(it, region, evKeys[it.app_id + '::' + it.iap]));
       });
       box.appendChild(grid);
-      if (permCount) box.appendChild(el('div', 'dev', permCount + ' ' + dict.iap_perm_note));
     });
   }
 

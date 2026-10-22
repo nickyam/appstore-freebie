@@ -1,24 +1,8 @@
 {
   "updated": "2026-10-22",
   "region": "us",
-  "count": 41,
+  "count": 18,
   "items": [
-    {
-      "app_id": "6773276227",
-      "app_name": "PixCollage: 拼图大师",
-      "iap": "PhotoCollagePro",
-      "price": "$0.00",
-      "permanent_free": true,
-      "since": "2026-10-22"
-    },
-    {
-      "app_id": "6748519522",
-      "app_name": "时间荚:正计时番茄钟·种植物·专注·自律·目标·习惯·冥想",
-      "iap": "Lifetime",
-      "price": "$0.00",
-      "permanent_free": true,
-      "since": "2026-10-22"
-    },
     {
       "app_id": "6756211777",
       "app_name": "iEarthpulse",
@@ -33,14 +17,6 @@
       "iap": "Down Round — Full Game",
       "price": "$0.00",
       "permanent_free": false,
-      "since": "2026-10-22"
-    },
-    {
-      "app_id": "6778384248",
-      "app_name": "Tap-Relay",
-      "iap": "Unlock Everything",
-      "price": "$0.00",
-      "permanent_free": true,
       "since": "2026-10-22"
     },
     {
@@ -65,14 +41,6 @@
       "iap": "PRO lifetime",
       "price": "$0.00",
       "permanent_free": false,
-      "since": "2026-10-22"
-    },
-    {
-      "app_id": "1632735560",
-      "app_name": "YourRecipesBook",
-      "iap": "Remove ads",
-      "price": "$0.00",
-      "permanent_free": true,
       "since": "2026-10-22"
     },
     {
@@ -108,83 +76,11 @@
       "since": "2026-10-22"
     },
     {
-      "app_id": "1460687131",
-      "app_name": "PLAY NO TREINO",
-      "iap": "Treino FIT HOME",
-      "price": "$0.00",
-      "permanent_free": true,
-      "since": "2026-10-22"
-    },
-    {
-      "app_id": "6788331801",
-      "app_name": "MemoMark",
-      "iap": "MemoMark+ 永久解锁",
-      "price": "$0.00",
-      "permanent_free": true,
-      "since": "2026-10-22"
-    },
-    {
-      "app_id": "6788495535",
-      "app_name": "OneScan: PDF & ID Scanner",
-      "iap": "Pro Lifetime",
-      "price": "$0.00",
-      "permanent_free": true,
-      "since": "2026-10-22"
-    },
-    {
-      "app_id": "6477562652",
-      "app_name": "Flight Tracker: Weather Radar",
-      "iap": "Premium Features",
-      "price": "$0.00",
-      "permanent_free": true,
-      "since": "2026-10-22"
-    },
-    {
-      "app_id": "6756515443",
-      "app_name": "Ai Photo - Background Eraser",
-      "iap": "Lifetime Premium",
-      "price": "$0.00",
-      "permanent_free": true,
-      "since": "2026-10-22"
-    },
-    {
-      "app_id": "6758899879",
-      "app_name": "Bill Splitter - 账单分摊",
-      "iap": "Eternal Boss (Lifetime)",
-      "price": "$0.00",
-      "permanent_free": true,
-      "since": "2026-10-22"
-    },
-    {
-      "app_id": "6776223504",
-      "app_name": "KoKoFlash",
-      "iap": "ここフラッシュ PRO版",
-      "price": "$0.00",
-      "permanent_free": true,
-      "since": "2026-10-22"
-    },
-    {
-      "app_id": "1558114024",
-      "app_name": "Einkaufszettel zum abhaken",
-      "iap": "Werbung entfernen",
-      "price": "$0.00",
-      "permanent_free": true,
-      "since": "2026-10-22"
-    },
-    {
       "app_id": "1622262960",
       "app_name": "Chill：自我关怀庇护所",
       "iap": "Lifetime Subscription",
       "price": "$0.00",
       "permanent_free": false,
-      "since": "2026-10-22"
-    },
-    {
-      "app_id": "6448686063",
-      "app_name": "Number Memory 25",
-      "iap": "Unlock All",
-      "price": "$0.00",
-      "permanent_free": true,
       "since": "2026-10-22"
     },
     {
@@ -244,91 +140,11 @@
       "since": "2026-10-22"
     },
     {
-      "app_id": "6760329799",
-      "app_name": "iWidget - Live Wallpaper Theme",
-      "iap": "永久会员",
-      "price": "$0.00",
-      "permanent_free": true,
-      "since": "2026-10-22"
-    },
-    {
-      "app_id": "6758056060",
-      "app_name": "Where was I ? Places & Visits",
-      "iap": "100 Fine Castles of Japan",
-      "price": "$0.00",
-      "permanent_free": true,
-      "since": "2026-10-22"
-    },
-    {
-      "app_id": "6758056060",
-      "app_name": "Where was I ? Places & Visits",
-      "iap": "National Parks - Great Britain",
-      "price": "$0.00",
-      "permanent_free": true,
-      "since": "2026-10-22"
-    },
-    {
-      "app_id": "6758056060",
-      "app_name": "Where was I ? Places & Visits",
-      "iap": "National Parks Collection - Germany",
-      "price": "$0.00",
-      "permanent_free": true,
-      "since": "2026-10-22"
-    },
-    {
       "app_id": "6781948787",
       "app_name": "Leafora: 植物识别与养护",
       "iap": "Premium Lifetime",
       "price": "$0.00",
       "permanent_free": false,
-      "since": "2026-10-22"
-    },
-    {
-      "app_id": "6749897618",
-      "app_name": "Pencil Nib",
-      "iap": "English",
-      "price": "$0.00",
-      "permanent_free": true,
-      "since": "2026-10-22"
-    },
-    {
-      "app_id": "1059833211",
-      "app_name": "Kanji Finder: Flashcards",
-      "iap": "内购限免",
-      "price": "免费",
-      "permanent_free": true,
-      "since": "2026-10-22"
-    },
-    {
-      "app_id": "6799343063",
-      "app_name": "影转工坊",
-      "iap": "内购限免",
-      "price": "免费",
-      "permanent_free": true,
-      "since": "2026-10-22"
-    },
-    {
-      "app_id": "6792434331",
-      "app_name": "iHappyParty",
-      "iap": "内购限免",
-      "price": "免费",
-      "permanent_free": true,
-      "since": "2026-10-22"
-    },
-    {
-      "app_id": "6760772142",
-      "app_name": "TypeFlow: Spanish Keyboard",
-      "iap": "内购限免",
-      "price": "免费",
-      "permanent_free": true,
-      "since": "2026-10-22"
-    },
-    {
-      "app_id": "6812626038",
-      "app_name": "LensPin：相机照片补定位",
-      "iap": "内购限免",
-      "price": "免费",
-      "permanent_free": true,
       "since": "2026-10-22"
     }
   ]
