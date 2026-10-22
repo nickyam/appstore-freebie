@@ -14,6 +14,9 @@ IAP 价格历史采集器（P1）—— 内购限免的正式数据源
     → 更新 data/iap-history-{region}.json（仅记录「变价日」，压缩存储）
     → 产出 data/iap-free-{region}.json      （真·限免事件，排除永久免费）
          data/iap-current-free-{region}.json（当前所有免费内购，含永久并标注）
+    → 事件流经 iTunes lookup 富化（评分/图标/开发者/分类），无评分事件一律剔除
+      （与本体限免「无评分不收录」规则一致，2026-10-23 用户拍板；iTunes lookup
+      无地域限制，GitHub runner 双区均可直查）
 
 冷启动：首日只播种（ever_paid=False，free_since=None），不报事件；
         从第 2 次采集起可捕获「付费→0」跳变；观察数日稳定性后，
@@ -39,6 +42,7 @@ UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 "
       "(KHTML, like Gecko) Version/17.0 Safari/605.1.15")
 TITLE_RE = re.compile(r'<title>(.*?)</title>', re.S)
 FREE_WINDOW = 7  # 连续免费 ≤7 天算有效限免事件；超过则过期（与 app 限免同逻辑）
+ITUNES_LOOKUP = "https://itunes.apple.com/lookup?id={ids}&country={region}&limit=200"
 
 
 def parse_app_name(body):
@@ -165,6 +169,68 @@ def detect_events(hist, region, today):
     return events, current_free
 
 
+def enrich_events_itunes(region, events):
+    """给限免事件补 App 元数据（评分/图标/开发者/分类），并剔除无评分事件。
+
+    背景：detect_events 直接产出的事件只有价格字段、没有 rating；前端首页的
+    「无评分不收录」过滤（rating !== 0）对缺字段（undefined）会失效，无评分
+    事件会漏进首页。iTunes lookup 与 apps.apple.com 商品页不同，无地域跳转，
+    GitHub runner（美国）双区均可直查，100 id/批。
+
+    规则（2026-10-23 用户拍板，与本体限免一致）：rating<=0 的事件一律不收录。
+    站内独立页 app/{region}-{id}.html 由 seed_iap_from_apprcn.py 维护，
+    仅当文件存在才给 page 字段，否则卡片回退 App Store 外链。
+    """
+    if not events:
+        return events
+    ids = sorted({e["app_id"] for e in events})
+    meta = {}
+    for i in range(0, len(ids), 100):
+        batch = ids[i:i + 100]
+        url = ITUNES_LOOKUP.format(ids=",".join(batch), region=region)
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": UA})
+            with urllib.request.urlopen(req, timeout=30) as resp:
+                data = json.loads(resp.read().decode("utf-8"))
+        except Exception as e:
+            print(f"[warn] iTunes lookup({region}, {len(batch)} ids) 失败: {e}")
+            continue
+        for r in (data.get("results") or []):
+            aid = str(r.get("trackId") or "")
+            if not aid:
+                continue
+            g = r.get("genres")
+            meta[aid] = {
+                "name": r.get("trackName") or "",
+                "dev": r.get("artistName") or "",
+                "genre": (g[0] if isinstance(g, list) and g
+                          else (r.get("primaryGenreName") or "")),
+                "rating": r.get("averageUserRating") or 0,
+                "icon": r.get("artworkUrl512") or r.get("artworkUrl100") or "",
+                "url": r.get("trackViewUrl") or "",
+            }
+        time.sleep(1)
+    out = []
+    for e in events:
+        m = meta.get(e["app_id"]) or {}
+        rating = m.get("rating") or 0
+        if rating <= 0:
+            continue  # 无评分不收录（与本体限免规则一致）
+        e["rating"] = rating
+        e["icon"] = m.get("icon", "")
+        e["dev"] = m.get("dev", "")
+        e["genre"] = m.get("genre", "")
+        if m.get("url"):
+            e["url"] = m["url"]
+        if not e.get("app_name") and m.get("name"):
+            e["app_name"] = m["name"]
+        page_rel = "app/%s-%s.html" % (region, e["app_id"])
+        if os.path.exists(os.path.join(REPO, page_rel)):
+            e["page"] = page_rel
+        out.append(e)
+    return out
+
+
 def run(region, limit, delay):
     today = datetime.now().strftime("%Y-%m-%d")
     print(f"[*] IAP 采集 region={region} limit={limit} today={today}")
@@ -195,6 +261,7 @@ def run(region, limit, delay):
                          "processed": ok, "skipped": skip})
     save_json(f"iap-history-{region}.json", hist)
     events, current_free = detect_events(hist, region, today)
+    events = enrich_events_itunes(region, events)  # 补评分富化；无评分不收录
     save_json(f"iap-free-{region}.json",
               {"updated": today, "region": region, "count": len(events), "events": events})
     save_json(f"iap-current-free-{region}.json",
