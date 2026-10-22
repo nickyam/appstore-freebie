@@ -384,7 +384,9 @@ ins.adsbygoogle { background: #ececf0; border-radius: var(--radius); }
 .dt-cr-label { color: var(--text); }
 .dt-cur-tag { font-size: 11px; color: var(--accent); border: 1px solid var(--accent); border-radius: 6px; padding: 1px 5px; margin-left: 4px; }
 .dt-cr-price { font-weight: 700; }
-.pc-chart { width: 100%; height: 180px; display: block; border: 1px solid var(--border); border-radius: 12px; background: var(--surface); }
+/* 价格走势图：等比缩放（viewBox 760x240），窄屏横向滚动保证每个日期/价格可读 */
+.pc-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; border-radius: 12px; }
+.pc-chart { width: 100%; min-width: 560px; height: auto; display: block; border: 1px solid var(--border); border-radius: 12px; background: var(--surface); }
 .dt-shots { display: flex; gap: 10px; overflow-x: auto; padding-bottom: 6px; }
 .dt-shots img { height: 320px; border-radius: 10px; flex: 0 0 auto; background: var(--surface); cursor: zoom-in; }
 .dt-metarow { margin-top: 14px; font-size: 13px; color: var(--muted); display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }

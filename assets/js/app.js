@@ -792,33 +792,51 @@
     });
   }
 
-  // 价格历史大图（带日期轴 / 最小值标记）
+  // 价格历史大图：每个节点标价格（上方）+ 日期（下方旋转，避免多节点重叠），
+  // 最低价节点高亮（实心大点 + 彩色加粗价格），渐变面积 + 底部轴线。
+  // viewBox 固定 760x240、等比缩放（不再 preserveAspectRatio="none" 拉伸文字）；
+  // 窄屏由 .pc-wrap 提供横向滚动，保证每个日期/价格都可读。
   function priceChart(phistory, kind, region) {
     if (!phistory || phistory.length < 2) return '';
-    var W = 600, H = 180, padL = 8, padR = 8, padT = 16, padB = 22;
+    var W = 760, H = 240, padL = 26, padR = 26, padT = 20, padB = 58;
     var pts = phistory.map(function (x) { return x.p; });
     var min = Math.min.apply(null, pts), max = Math.max.apply(null, pts);
     var range = (max - min) || 1;
     var color = kind === 'free' ? '#34c759' : '#ff9f0a';
     var sym = curSym(region);
+    var n = phistory.length;
+    function fmt(v) { return sym + (Math.round(v * 100) / 100); }
     function xy(i, v) {
-      var x = padL + (W - padL - padR) * (i / (phistory.length - 1));
+      var x = padL + (W - padL - padR) * (i / (n - 1));
       var y = (H - padB) - (H - padT - padB) * ((v - min) / range);
       return [x, y];
     }
     var line = phistory.map(function (x, i) { var p = xy(i, x.p); return p[0].toFixed(1) + ',' + p[1].toFixed(1); }).join(' ');
     var area = 'M' + padL + ',' + (H - padB) + ' L' + line.split(' ').join(' L') + ' L' + (W - padR) + ',' + (H - padB) + ' Z';
-    var minIdx = pts.indexOf(min), minP = xy(minIdx, min);
-    var last = xy(phistory.length - 1, pts[pts.length - 1]);
-    var firstDate = phistory[0].d.slice(5), lastDate = phistory[phistory.length - 1].d.slice(5);
-    return '<svg class="pc-chart" viewBox="0 0 ' + W + ' ' + H + '" preserveAspectRatio="none" aria-hidden="true">' +
-      '<path d="' + area + '" fill="' + color + '" opacity="0.10"/>' +
-      '<polyline points="' + line + '" fill="none" stroke="' + color + '" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>' +
-      '<circle cx="' + minP[0].toFixed(1) + '" cy="' + minP[1].toFixed(1) + '" r="3.5" fill="' + color + '"/>' +
-      '<text x="' + minP[0].toFixed(1) + '" y="' + (minP[1] - 7).toFixed(1) + '" font-size="11" fill="' + color + '" text-anchor="middle">' + sym + min.toFixed(0) + '</text>' +
-      '<text x="' + padL + '" y="' + (H - 6) + '" font-size="11" fill="var(--muted)">' + firstDate + '</text>' +
-      '<text x="' + (W - padR) + '" y="' + (H - 6) + '" font-size="11" fill="var(--muted)" text-anchor="end">' + lastDate + '</text>' +
-      '</svg>';
+    var minIdx = pts.indexOf(min);
+    var axisY = H - padB;
+    var s = '<svg class="pc-chart" viewBox="0 0 ' + W + ' ' + H + '" aria-hidden="true">';
+    s += '<defs><linearGradient id="pcg" x1="0" y1="0" x2="0" y2="1">' +
+      '<stop offset="0" stop-color="' + color + '" stop-opacity="0.16"/>' +
+      '<stop offset="1" stop-color="' + color + '" stop-opacity="0.02"/></linearGradient></defs>';
+    s += '<line x1="' + padL + '" y1="' + axisY + '" x2="' + (W - padR) + '" y2="' + axisY + '" stroke="var(--border)" stroke-width="1"/>';
+    s += '<path d="' + area + '" fill="url(#pcg)"/>';
+    s += '<polyline points="' + line + '" fill="none" stroke="' + color + '" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>';
+    for (var i = 0; i < n; i++) {
+      var p = xy(i, pts[i]);
+      var cx = p[0].toFixed(1), cy = p[1].toFixed(1);
+      var isMin = i === minIdx;
+      // 圆点：最低价实心放大，其余空心
+      s += '<circle cx="' + cx + '" cy="' + cy + '" r="' + (isMin ? 4.5 : 3) + '" fill="' + (isMin ? color : 'var(--surface)') + '" stroke="' + color + '" stroke-width="' + (isMin ? 2 : 1.5) + '"/>';
+      // 价格：节点上方，白描边光晕保证压在面积上也可读
+      s += '<text x="' + cx + '" y="' + (p[1] - 9).toFixed(1) + '" font-size="11" font-weight="' + (isMin ? '700' : '600') + '" fill="' + (isMin ? color : 'var(--ink)') + '" text-anchor="middle" style="paint-order:stroke" stroke="var(--surface)" stroke-width="3" stroke-linejoin="round">' + fmt(pts[i]) + '</text>';
+      // 日期：轴下旋转 52°，text-anchor=end 让文字末端对准节点
+      var d = phistory[i].d.slice(5);
+      var dy = axisY + 14;
+      s += '<text x="' + cx + '" y="' + dy + '" font-size="10" fill="var(--muted)" text-anchor="end" transform="rotate(-52 ' + cx + ' ' + dy + ')">' + d + '</text>';
+    }
+    s += '</svg>';
+    return s;
   }
 
   // 同时期的其他限免：当区当前清单里除本 App 外的限免/特价（新触发优先、评分次之），
@@ -958,7 +976,7 @@
 
         // 价格历史曲线
         var chart = priceChart(app.phistory, app.type, app.region);
-        if (chart) html += '<div class="dt-section"><h3>' + esc(dict.dt_price_history) + '</h3>' + chart + '</div>';
+        if (chart) html += '<div class="dt-section"><h3>' + esc(dict.dt_price_history) + '</h3><div class="pc-wrap">' + chart + '</div></div>';
 
         // 截图
         var shots = (self && self.screenshotUrls) ? self.screenshotUrls.slice(0, 6) : [];
