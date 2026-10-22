@@ -1,0 +1,23 @@
+{
+  "updated": "2026-10-22",
+  "region": "cn",
+  "count": 2,
+  "items": [
+    {
+      "app_id": "6758658840",
+      "app_name": "PixPhoto:证件照,高清证件照制作",
+      "iap": "PRO Lifetime",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-10-22"
+    },
+    {
+      "app_id": "417401887",
+      "app_name": "WeatherTrack GRIB",
+      "iap": "Offline High Resolution Map",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-10-22"
+    }
+  ]
+}
