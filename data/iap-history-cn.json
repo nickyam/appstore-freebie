@@ -5,7 +5,10 @@
     "updated": "2026-10-22",
     "pool_size": 300,
     "processed": 300,
-    "skipped": 0
+    "skipped": 0,
+    "seeded_from": "apprcn",
+    "seed_added": 0,
+    "seed_total": 875
   },
   "items": {
     "6756007860::永久会员": {
@@ -14269,6 +14272,632 @@
       "free_since": null,
       "changes": {
         "2026-10-22": "¥108.00"
+      }
+    },
+    "6761163201::永久会员": {
+      "app_id": "6761163201",
+      "app_name": "壳图图 - 带壳截图",
+      "name": "永久会员",
+      "region": "cn",
+      "first_date": "2026-10-22",
+      "first_price": "¥0.00",
+      "last_date": "2026-10-22",
+      "last_price": "¥0.00",
+      "last_change_date": "2026-10-22",
+      "ever_paid": false,
+      "last_paid_date": null,
+      "free_since": null,
+      "changes": {
+        "2026-10-22": "¥0.00"
+      }
+    },
+    "6802706711::Remove Watermark": {
+      "app_id": "6802706711",
+      "app_name": "Reactie",
+      "name": "Remove Watermark",
+      "region": "cn",
+      "first_date": "2026-10-22",
+      "first_price": "—",
+      "last_date": "2026-10-22",
+      "last_price": "¥0.00",
+      "last_change_date": "2026-10-22",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-22",
+      "free_since": "2026-10-22",
+      "changes": {
+        "2026-10-22": "¥0.00"
+      }
+    },
+    "6741730996::手机测速永久会员": {
+      "app_id": "6741730996",
+      "app_name": "手机测速-网络测速·测网速speedtest",
+      "name": "手机测速永久会员",
+      "region": "cn",
+      "first_date": "2026-10-22",
+      "first_price": "—",
+      "last_date": "2026-10-22",
+      "last_price": "¥0.00",
+      "last_change_date": "2026-10-22",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-22",
+      "free_since": "2026-10-22",
+      "changes": {
+        "2026-10-22": "¥0.00"
+      }
+    },
+    "6775226292::Pro Lifetime": {
+      "app_id": "6775226292",
+      "app_name": "RoadPact",
+      "name": "Pro Lifetime",
+      "region": "cn",
+      "first_date": "2026-10-22",
+      "first_price": "—",
+      "last_date": "2026-10-22",
+      "last_price": "¥0.00",
+      "last_change_date": "2026-10-22",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-20",
+      "free_since": "2026-10-20",
+      "changes": {
+        "2026-10-20": "—",
+        "2026-10-22": "¥0.00"
+      }
+    },
+    "6788409678::Pro 永久版": {
+      "app_id": "6788409678",
+      "app_name": "墨团习惯：打卡与习惯养成",
+      "name": "Pro 永久版",
+      "region": "cn",
+      "first_date": "2026-10-22",
+      "first_price": "—",
+      "last_date": "2026-10-22",
+      "last_price": "¥0.00",
+      "last_change_date": "2026-10-22",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-20",
+      "free_since": "2026-10-20",
+      "changes": {
+        "2026-10-20": "—",
+        "2026-10-22": "¥0.00"
+      }
+    },
+    "1444383602::多功能计划本-用于学习、工作和生活（粉棕色主题-中文含贴纸": {
+      "app_id": "1444383602",
+      "app_name": "Goodnotes：AI 笔记、白板、PDF",
+      "name": "多功能计划本-用于学习、工作和生活（粉棕色主题-中文含贴纸",
+      "region": "cn",
+      "first_date": "2026-10-22",
+      "first_price": "¥0.00",
+      "last_date": "2026-10-22",
+      "last_price": "¥0.00",
+      "last_change_date": "2026-10-22",
+      "ever_paid": false,
+      "last_paid_date": null,
+      "free_since": null,
+      "changes": {
+        "2026-10-22": "¥0.00"
+      }
+    },
+    "1444383602::好心智杂志": {
+      "app_id": "1444383602",
+      "app_name": "Goodnotes：AI 笔记、白板、PDF",
+      "name": "好心智杂志",
+      "region": "cn",
+      "first_date": "2026-10-22",
+      "first_price": "¥0.00",
+      "last_date": "2026-10-22",
+      "last_price": "¥0.00",
+      "last_change_date": "2026-10-22",
+      "ever_paid": false,
+      "last_paid_date": null,
+      "free_since": null,
+      "changes": {
+        "2026-10-22": "¥0.00"
+      }
+    },
+    "1444383602::秋日猫猫贴纸组": {
+      "app_id": "1444383602",
+      "app_name": "Goodnotes：AI 笔记、白板、PDF",
+      "name": "秋日猫猫贴纸组",
+      "region": "cn",
+      "first_date": "2026-10-22",
+      "first_price": "¥0.00",
+      "last_date": "2026-10-22",
+      "last_price": "¥0.00",
+      "last_change_date": "2026-10-22",
+      "ever_paid": false,
+      "last_paid_date": null,
+      "free_since": null,
+      "changes": {
+        "2026-10-22": "¥0.00"
+      }
+    },
+    "6477562652::Premium Features": {
+      "app_id": "6477562652",
+      "app_name": "Flight Tracker: Weather Radar",
+      "name": "Premium Features",
+      "region": "cn",
+      "first_date": "2026-10-22",
+      "first_price": "¥0.00",
+      "last_date": "2026-10-22",
+      "last_price": "¥0.00",
+      "last_change_date": "2026-10-22",
+      "ever_paid": false,
+      "last_paid_date": null,
+      "free_since": null,
+      "changes": {
+        "2026-10-22": "¥0.00"
+      }
+    },
+    "6756515443::Lifetime Premium": {
+      "app_id": "6756515443",
+      "app_name": "Ai Photo - Background Eraser",
+      "name": "Lifetime Premium",
+      "region": "cn",
+      "first_date": "2026-10-22",
+      "first_price": "¥0.00",
+      "last_date": "2026-10-22",
+      "last_price": "¥0.00",
+      "last_change_date": "2026-10-22",
+      "ever_paid": false,
+      "last_paid_date": null,
+      "free_since": null,
+      "changes": {
+        "2026-10-22": "¥0.00"
+      }
+    },
+    "6776223504::ここフラッシュ PRO版": {
+      "app_id": "6776223504",
+      "app_name": "KoKoFlash",
+      "name": "ここフラッシュ PRO版",
+      "region": "cn",
+      "first_date": "2026-10-22",
+      "first_price": "¥0.00",
+      "last_date": "2026-10-22",
+      "last_price": "¥0.00",
+      "last_change_date": "2026-10-22",
+      "ever_paid": false,
+      "last_paid_date": null,
+      "free_since": null,
+      "changes": {
+        "2026-10-22": "¥0.00"
+      }
+    },
+    "1622262960::Lifetime Subscription": {
+      "app_id": "1622262960",
+      "app_name": "Chill：自我关怀庇护所",
+      "name": "Lifetime Subscription",
+      "region": "cn",
+      "first_date": "2026-10-22",
+      "first_price": "—",
+      "last_date": "2026-10-22",
+      "last_price": "¥0.00",
+      "last_change_date": "2026-10-22",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-21",
+      "free_since": "2026-10-21",
+      "changes": {
+        "2026-10-21": "—",
+        "2026-10-22": "¥0.00"
+      }
+    },
+    "6760588830::奶茶日记 终身会员": {
+      "app_id": "6760588830",
+      "app_name": "奶茶日记: AI 贴纸&糖分追踪",
+      "name": "奶茶日记 终身会员",
+      "region": "cn",
+      "first_date": "2026-10-22",
+      "first_price": "—",
+      "last_date": "2026-10-22",
+      "last_price": "¥0.00",
+      "last_change_date": "2026-10-22",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-21",
+      "free_since": "2026-10-21",
+      "changes": {
+        "2026-10-21": "—",
+        "2026-10-22": "¥0.00"
+      }
+    },
+    "6768885559::Life Time Pro": {
+      "app_id": "6768885559",
+      "app_name": "iBirdsong",
+      "name": "Life Time Pro",
+      "region": "cn",
+      "first_date": "2026-10-22",
+      "first_price": "—",
+      "last_date": "2026-10-22",
+      "last_price": "¥0.00",
+      "last_change_date": "2026-10-22",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-21",
+      "free_since": "2026-10-21",
+      "changes": {
+        "2026-10-21": "—",
+        "2026-10-22": "¥0.00"
+      }
+    },
+    "6790040520::基础买断版": {
+      "app_id": "6790040520",
+      "app_name": "DualCamPro",
+      "name": "基础买断版",
+      "region": "cn",
+      "first_date": "2026-10-22",
+      "first_price": "—",
+      "last_date": "2026-10-22",
+      "last_price": "¥0.00",
+      "last_change_date": "2026-10-22",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-21",
+      "free_since": "2026-10-21",
+      "changes": {
+        "2026-10-21": "—",
+        "2026-10-22": "¥0.00"
+      }
+    },
+    "6820137866::永久 VIP": {
+      "app_id": "6820137866",
+      "app_name": "成语闯关 - 边玩边学，轻松掌握成语",
+      "name": "永久 VIP",
+      "region": "cn",
+      "first_date": "2026-10-22",
+      "first_price": "—",
+      "last_date": "2026-10-22",
+      "last_price": "¥0.00",
+      "last_change_date": "2026-10-22",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-21",
+      "free_since": "2026-10-21",
+      "changes": {
+        "2026-10-21": "—",
+        "2026-10-22": "¥0.00"
+      }
+    },
+    "6774845949::Pro Lifetime": {
+      "app_id": "6774845949",
+      "app_name": "WaitForecast",
+      "name": "Pro Lifetime",
+      "region": "cn",
+      "first_date": "2026-10-22",
+      "first_price": "—",
+      "last_date": "2026-10-22",
+      "last_price": "¥0.00",
+      "last_change_date": "2026-10-22",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-21",
+      "free_since": "2026-10-21",
+      "changes": {
+        "2026-10-21": "—",
+        "2026-10-22": "¥0.00"
+      }
+    },
+    "6798147223::Lifetime Access": {
+      "app_id": "6798147223",
+      "app_name": "Storage Cleaner: SpaceFresh",
+      "name": "Lifetime Access",
+      "region": "cn",
+      "first_date": "2026-10-22",
+      "first_price": "—",
+      "last_date": "2026-10-22",
+      "last_price": "¥0.00",
+      "last_change_date": "2026-10-22",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-21",
+      "free_since": "2026-10-21",
+      "changes": {
+        "2026-10-21": "—",
+        "2026-10-22": "¥0.00"
+      }
+    },
+    "6772943882::Life Time Pro": {
+      "app_id": "6772943882",
+      "app_name": "OgdenSpine",
+      "name": "Life Time Pro",
+      "region": "cn",
+      "first_date": "2026-10-22",
+      "first_price": "—",
+      "last_date": "2026-10-22",
+      "last_price": "¥0.00",
+      "last_change_date": "2026-10-22",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-21",
+      "free_since": "2026-10-21",
+      "changes": {
+        "2026-10-21": "—",
+        "2026-10-22": "¥0.00"
+      }
+    },
+    "6781948787::Premium Lifetime": {
+      "app_id": "6781948787",
+      "app_name": "Leafora: 植物识别与养护",
+      "name": "Premium Lifetime",
+      "region": "cn",
+      "first_date": "2026-10-22",
+      "first_price": "—",
+      "last_date": "2026-10-22",
+      "last_price": "¥0.00",
+      "last_change_date": "2026-10-22",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-21",
+      "free_since": "2026-10-21",
+      "changes": {
+        "2026-10-21": "—",
+        "2026-10-22": "¥0.00"
+      }
+    },
+    "6803756626::终身方案": {
+      "app_id": "6803756626",
+      "app_name": "人生地铁",
+      "name": "终身方案",
+      "region": "cn",
+      "first_date": "2026-10-22",
+      "first_price": "¥68.00",
+      "last_date": "2026-10-22",
+      "last_price": "¥0.00",
+      "last_change_date": "2026-10-22",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-21",
+      "free_since": "2026-10-21",
+      "changes": {
+        "2026-10-21": "¥68.00",
+        "2026-10-22": "¥0.00"
+      }
+    },
+    "6760171872::Lifetime Premium": {
+      "app_id": "6760171872",
+      "app_name": "Blur Photo Editor: Face & Text",
+      "name": "Lifetime Premium",
+      "region": "cn",
+      "first_date": "2026-10-22",
+      "first_price": "¥0.00",
+      "last_date": "2026-10-22",
+      "last_price": "¥0.00",
+      "last_change_date": "2026-10-22",
+      "ever_paid": false,
+      "last_paid_date": null,
+      "free_since": null,
+      "changes": {
+        "2026-10-22": "¥0.00"
+      }
+    },
+    "493136154::Bonus Sound Pack": {
+      "app_id": "493136154",
+      "app_name": "Clear: To Dos & Reminders",
+      "name": "Bonus Sound Pack",
+      "region": "cn",
+      "first_date": "2026-10-22",
+      "first_price": "¥0.00",
+      "last_date": "2026-10-22",
+      "last_price": "¥0.00",
+      "last_change_date": "2026-10-22",
+      "ever_paid": false,
+      "last_paid_date": null,
+      "free_since": null,
+      "changes": {
+        "2026-10-22": "¥0.00"
+      }
+    },
+    "493136154::Gulkave": {
+      "app_id": "493136154",
+      "app_name": "Clear: To Dos & Reminders",
+      "name": "Gulkave",
+      "region": "cn",
+      "first_date": "2026-10-22",
+      "first_price": "¥0.00",
+      "last_date": "2026-10-22",
+      "last_price": "¥0.00",
+      "last_change_date": "2026-10-22",
+      "ever_paid": false,
+      "last_paid_date": null,
+      "free_since": null,
+      "changes": {
+        "2026-10-22": "¥0.00"
+      }
+    },
+    "493136154::Night Owl Classic": {
+      "app_id": "493136154",
+      "app_name": "Clear: To Dos & Reminders",
+      "name": "Night Owl Classic",
+      "region": "cn",
+      "first_date": "2026-10-22",
+      "first_price": "¥0.00",
+      "last_date": "2026-10-22",
+      "last_price": "¥0.00",
+      "last_change_date": "2026-10-22",
+      "ever_paid": false,
+      "last_paid_date": null,
+      "free_since": null,
+      "changes": {
+        "2026-10-22": "¥0.00"
+      }
+    },
+    "493136154::Pocket Monk": {
+      "app_id": "493136154",
+      "app_name": "Clear: To Dos & Reminders",
+      "name": "Pocket Monk",
+      "region": "cn",
+      "first_date": "2026-10-22",
+      "first_price": "¥0.00",
+      "last_date": "2026-10-22",
+      "last_price": "¥0.00",
+      "last_change_date": "2026-10-22",
+      "ever_paid": false,
+      "last_paid_date": null,
+      "free_since": null,
+      "changes": {
+        "2026-10-22": "¥0.00"
+      }
+    },
+    "493136154::The Heist Classic": {
+      "app_id": "493136154",
+      "app_name": "Clear: To Dos & Reminders",
+      "name": "The Heist Classic",
+      "region": "cn",
+      "first_date": "2026-10-22",
+      "first_price": "¥0.00",
+      "last_date": "2026-10-22",
+      "last_price": "¥0.00",
+      "last_change_date": "2026-10-22",
+      "ever_paid": false,
+      "last_paid_date": null,
+      "free_since": null,
+      "changes": {
+        "2026-10-22": "¥0.00"
+      }
+    },
+    "493136154::Cormorant Garamond": {
+      "app_id": "493136154",
+      "app_name": "Clear: To Dos & Reminders",
+      "name": "Cormorant Garamond",
+      "region": "cn",
+      "first_date": "2026-10-22",
+      "first_price": "¥0.00",
+      "last_date": "2026-10-22",
+      "last_price": "¥0.00",
+      "last_change_date": "2026-10-22",
+      "ever_paid": false,
+      "last_paid_date": null,
+      "free_since": null,
+      "changes": {
+        "2026-10-22": "¥0.00"
+      }
+    },
+    "493136154::Ultraviolet Classic": {
+      "app_id": "493136154",
+      "app_name": "Clear: To Dos & Reminders",
+      "name": "Ultraviolet Classic",
+      "region": "cn",
+      "first_date": "2026-10-22",
+      "first_price": "¥0.00",
+      "last_date": "2026-10-22",
+      "last_price": "¥0.00",
+      "last_change_date": "2026-10-22",
+      "ever_paid": false,
+      "last_paid_date": null,
+      "free_since": null,
+      "changes": {
+        "2026-10-22": "¥0.00"
+      }
+    },
+    "493136154::Pretty Princess Classic": {
+      "app_id": "493136154",
+      "app_name": "Clear: To Dos & Reminders",
+      "name": "Pretty Princess Classic",
+      "region": "cn",
+      "first_date": "2026-10-22",
+      "first_price": "¥0.00",
+      "last_date": "2026-10-22",
+      "last_price": "¥0.00",
+      "last_change_date": "2026-10-22",
+      "ever_paid": false,
+      "last_paid_date": null,
+      "free_since": null,
+      "changes": {
+        "2026-10-22": "¥0.00"
+      }
+    },
+    "6810930763::ddPlayer PRO 永久": {
+      "app_id": "6810930763",
+      "app_name": "ddPlayer",
+      "name": "ddPlayer PRO 永久",
+      "region": "cn",
+      "first_date": "2026-10-22",
+      "first_price": "¥0.00",
+      "last_date": "2026-10-22",
+      "last_price": "¥0.00",
+      "last_change_date": "2026-10-22",
+      "ever_paid": false,
+      "last_paid_date": null,
+      "free_since": null,
+      "changes": {
+        "2026-10-22": "¥0.00"
+      }
+    },
+    "1663497226::KnowSelf Pro 永久解锁": {
+      "app_id": "1663497226",
+      "app_name": "知我 KnowSelf - MBTI测试与心情日记",
+      "name": "KnowSelf Pro 永久解锁",
+      "region": "cn",
+      "first_date": "2026-10-22",
+      "first_price": "¥0.00",
+      "last_date": "2026-10-22",
+      "last_price": "¥0.00",
+      "last_change_date": "2026-10-22",
+      "ever_paid": false,
+      "last_paid_date": null,
+      "free_since": null,
+      "changes": {
+        "2026-10-22": "¥0.00"
+      }
+    },
+    "1576118042::Unlock All Rhymes": {
+      "app_id": "1576118042",
+      "app_name": "Rhymelo",
+      "name": "Unlock All Rhymes",
+      "region": "cn",
+      "first_date": "2026-10-22",
+      "first_price": "¥38.00",
+      "last_date": "2026-10-22",
+      "last_price": "免费",
+      "last_change_date": "2026-10-22",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-20",
+      "free_since": "2026-10-20",
+      "changes": {
+        "2026-10-20": "¥38.00",
+        "2026-10-22": "免费"
+      }
+    },
+    "6738010155::MindPass Pro Lifetime": {
+      "app_id": "6738010155",
+      "app_name": "MindPass: App Blocker",
+      "name": "MindPass Pro Lifetime",
+      "region": "cn",
+      "first_date": "2026-10-22",
+      "first_price": "¥0.00",
+      "last_date": "2026-10-22",
+      "last_price": "¥0.00",
+      "last_change_date": "2026-10-22",
+      "ever_paid": false,
+      "last_paid_date": null,
+      "free_since": null,
+      "changes": {
+        "2026-10-22": "¥0.00"
+      }
+    },
+    "6808933682::製作電影感短片 原價 US $49.99《TrackCut》終生版限時免費": {
+      "app_id": "6808933682",
+      "app_name": "TrackCut: Ai Video Editor",
+      "name": "製作電影感短片 原價 US $49.99《TrackCut》終生版限時免費",
+      "region": "cn",
+      "first_date": "2026-10-22",
+      "first_price": "—",
+      "last_date": "2026-10-22",
+      "last_price": "免费",
+      "last_change_date": "2026-10-22",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-20",
+      "free_since": "2026-10-20",
+      "changes": {
+        "2026-10-20": "—",
+        "2026-10-22": "免费"
+      }
+    },
+    "6760383873::紀念日與私密日記二合一 原價 US $0.99《Echo》限時免費": {
+      "app_id": "6760383873",
+      "app_name": "Echo - 时光回声·纪念日",
+      "name": "紀念日與私密日記二合一 原價 US $0.99《Echo》限時免費",
+      "region": "cn",
+      "first_date": "2026-10-22",
+      "first_price": "免费",
+      "last_date": "2026-10-22",
+      "last_price": "免费",
+      "last_change_date": "2026-10-22",
+      "ever_paid": false,
+      "last_paid_date": null,
+      "free_since": null,
+      "changes": {
+        "2026-10-22": "免费"
       }
     }
   }

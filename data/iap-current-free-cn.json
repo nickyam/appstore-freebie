@@ -1,7 +1,7 @@
 {
   "updated": "2026-10-22",
   "region": "cn",
-  "count": 2,
+  "count": 38,
   "items": [
     {
       "app_id": "6758658840",
@@ -16,6 +16,294 @@
       "app_name": "WeatherTrack GRIB",
       "iap": "Offline High Resolution Map",
       "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-10-22"
+    },
+    {
+      "app_id": "6761163201",
+      "app_name": "壳图图 - 带壳截图",
+      "iap": "永久会员",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-10-22"
+    },
+    {
+      "app_id": "6802706711",
+      "app_name": "Reactie",
+      "iap": "Remove Watermark",
+      "price": "¥0.00",
+      "permanent_free": false,
+      "since": "2026-10-22"
+    },
+    {
+      "app_id": "6741730996",
+      "app_name": "手机测速-网络测速·测网速speedtest",
+      "iap": "手机测速永久会员",
+      "price": "¥0.00",
+      "permanent_free": false,
+      "since": "2026-10-22"
+    },
+    {
+      "app_id": "6775226292",
+      "app_name": "RoadPact",
+      "iap": "Pro Lifetime",
+      "price": "¥0.00",
+      "permanent_free": false,
+      "since": "2026-10-22"
+    },
+    {
+      "app_id": "6788409678",
+      "app_name": "墨团习惯：打卡与习惯养成",
+      "iap": "Pro 永久版",
+      "price": "¥0.00",
+      "permanent_free": false,
+      "since": "2026-10-22"
+    },
+    {
+      "app_id": "1444383602",
+      "app_name": "Goodnotes：AI 笔记、白板、PDF",
+      "iap": "多功能计划本-用于学习、工作和生活（粉棕色主题-中文含贴纸",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-10-22"
+    },
+    {
+      "app_id": "1444383602",
+      "app_name": "Goodnotes：AI 笔记、白板、PDF",
+      "iap": "好心智杂志",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-10-22"
+    },
+    {
+      "app_id": "1444383602",
+      "app_name": "Goodnotes：AI 笔记、白板、PDF",
+      "iap": "秋日猫猫贴纸组",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-10-22"
+    },
+    {
+      "app_id": "6477562652",
+      "app_name": "Flight Tracker: Weather Radar",
+      "iap": "Premium Features",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-10-22"
+    },
+    {
+      "app_id": "6756515443",
+      "app_name": "Ai Photo - Background Eraser",
+      "iap": "Lifetime Premium",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-10-22"
+    },
+    {
+      "app_id": "6776223504",
+      "app_name": "KoKoFlash",
+      "iap": "ここフラッシュ PRO版",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-10-22"
+    },
+    {
+      "app_id": "1622262960",
+      "app_name": "Chill：自我关怀庇护所",
+      "iap": "Lifetime Subscription",
+      "price": "¥0.00",
+      "permanent_free": false,
+      "since": "2026-10-22"
+    },
+    {
+      "app_id": "6760588830",
+      "app_name": "奶茶日记: AI 贴纸&糖分追踪",
+      "iap": "奶茶日记 终身会员",
+      "price": "¥0.00",
+      "permanent_free": false,
+      "since": "2026-10-22"
+    },
+    {
+      "app_id": "6768885559",
+      "app_name": "iBirdsong",
+      "iap": "Life Time Pro",
+      "price": "¥0.00",
+      "permanent_free": false,
+      "since": "2026-10-22"
+    },
+    {
+      "app_id": "6790040520",
+      "app_name": "DualCamPro",
+      "iap": "基础买断版",
+      "price": "¥0.00",
+      "permanent_free": false,
+      "since": "2026-10-22"
+    },
+    {
+      "app_id": "6820137866",
+      "app_name": "成语闯关 - 边玩边学，轻松掌握成语",
+      "iap": "永久 VIP",
+      "price": "¥0.00",
+      "permanent_free": false,
+      "since": "2026-10-22"
+    },
+    {
+      "app_id": "6774845949",
+      "app_name": "WaitForecast",
+      "iap": "Pro Lifetime",
+      "price": "¥0.00",
+      "permanent_free": false,
+      "since": "2026-10-22"
+    },
+    {
+      "app_id": "6798147223",
+      "app_name": "Storage Cleaner: SpaceFresh",
+      "iap": "Lifetime Access",
+      "price": "¥0.00",
+      "permanent_free": false,
+      "since": "2026-10-22"
+    },
+    {
+      "app_id": "6772943882",
+      "app_name": "OgdenSpine",
+      "iap": "Life Time Pro",
+      "price": "¥0.00",
+      "permanent_free": false,
+      "since": "2026-10-22"
+    },
+    {
+      "app_id": "6781948787",
+      "app_name": "Leafora: 植物识别与养护",
+      "iap": "Premium Lifetime",
+      "price": "¥0.00",
+      "permanent_free": false,
+      "since": "2026-10-22"
+    },
+    {
+      "app_id": "6803756626",
+      "app_name": "人生地铁",
+      "iap": "终身方案",
+      "price": "¥0.00",
+      "permanent_free": false,
+      "since": "2026-10-22"
+    },
+    {
+      "app_id": "6760171872",
+      "app_name": "Blur Photo Editor: Face & Text",
+      "iap": "Lifetime Premium",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-10-22"
+    },
+    {
+      "app_id": "493136154",
+      "app_name": "Clear: To Dos & Reminders",
+      "iap": "Bonus Sound Pack",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-10-22"
+    },
+    {
+      "app_id": "493136154",
+      "app_name": "Clear: To Dos & Reminders",
+      "iap": "Gulkave",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-10-22"
+    },
+    {
+      "app_id": "493136154",
+      "app_name": "Clear: To Dos & Reminders",
+      "iap": "Night Owl Classic",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-10-22"
+    },
+    {
+      "app_id": "493136154",
+      "app_name": "Clear: To Dos & Reminders",
+      "iap": "Pocket Monk",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-10-22"
+    },
+    {
+      "app_id": "493136154",
+      "app_name": "Clear: To Dos & Reminders",
+      "iap": "The Heist Classic",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-10-22"
+    },
+    {
+      "app_id": "493136154",
+      "app_name": "Clear: To Dos & Reminders",
+      "iap": "Cormorant Garamond",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-10-22"
+    },
+    {
+      "app_id": "493136154",
+      "app_name": "Clear: To Dos & Reminders",
+      "iap": "Ultraviolet Classic",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-10-22"
+    },
+    {
+      "app_id": "493136154",
+      "app_name": "Clear: To Dos & Reminders",
+      "iap": "Pretty Princess Classic",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-10-22"
+    },
+    {
+      "app_id": "6810930763",
+      "app_name": "ddPlayer",
+      "iap": "ddPlayer PRO 永久",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-10-22"
+    },
+    {
+      "app_id": "1663497226",
+      "app_name": "知我 KnowSelf - MBTI测试与心情日记",
+      "iap": "KnowSelf Pro 永久解锁",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-10-22"
+    },
+    {
+      "app_id": "1576118042",
+      "app_name": "Rhymelo",
+      "iap": "Unlock All Rhymes",
+      "price": "免费",
+      "permanent_free": false,
+      "since": "2026-10-22"
+    },
+    {
+      "app_id": "6738010155",
+      "app_name": "MindPass: App Blocker",
+      "iap": "MindPass Pro Lifetime",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-10-22"
+    },
+    {
+      "app_id": "6808933682",
+      "app_name": "TrackCut: Ai Video Editor",
+      "iap": "製作電影感短片 原價 US $49.99《TrackCut》終生版限時免費",
+      "price": "免费",
+      "permanent_free": false,
+      "since": "2026-10-22"
+    },
+    {
+      "app_id": "6760383873",
+      "app_name": "Echo - 时光回声·纪念日",
+      "iap": "紀念日與私密日記二合一 原價 US $0.99《Echo》限時免費",
+      "price": "免费",
       "permanent_free": true,
       "since": "2026-10-22"
     }
