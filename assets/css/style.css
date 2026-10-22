@@ -125,8 +125,46 @@ main { padding: 0 0 96px; }
 .stats .stat-num { font-size: 30px; font-weight: 700; letter-spacing: -.02em; line-height: 1.1; color: var(--text); }
 .stats .stat:first-child .stat-num { color: var(--free); }
 .stats .stat:nth-child(2) .stat-num { color: var(--deal); }
+.stats .stat:nth-child(3) .stat-num { color: #bf5af2; }   /* 内购限免：紫 */
 .stats .stat:last-child .stat-num { color: var(--accent); }
 .stats .stat-label { font-size: 13px; color: var(--muted); margin-top: 4px; font-weight: 500; }
+/* 统计格可点击跳转对应列表（本体限免/特价打折/内购限免；「今日可省」无对应区块，保持不可点） */
+.stats a.stat { cursor: pointer; transition: background .15s ease; }
+.stats a.stat:hover { background: var(--bg); text-decoration: none; }
+.stats a.stat:active { background: var(--accent-soft); }
+.section-title[id] { scroll-margin-top: 84px; }   /* sticky 头部 ≈70px + 余量，锚点跳转不被遮挡 */
+
+/* 返回顶部（苹果风毛玻璃圆形，右下角；由 app.js setupBackTop 注入，滚动 400px 后 .show 淡入） */
+.back-top {
+  position: fixed; right: 22px; bottom: 22px; z-index: 900;
+  width: 46px; height: 46px; border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  border: 1px solid var(--border);
+  background: rgba(255, 255, 255, .72);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+  color: var(--accent);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, .12);
+  cursor: pointer;
+  opacity: 0; transform: translateY(12px) scale(.9); pointer-events: none;
+  transition: opacity .25s ease, transform .3s cubic-bezier(.22, 1, .36, 1), background .15s ease;
+}
+.back-top.show { opacity: 1; transform: none; pointer-events: auto; }
+.back-top:hover { background: rgba(255, 255, 255, .92); }
+.back-top:active { transform: scale(.93); }
+@media (max-width: 600px) {
+  .back-top { right: 16px; bottom: 16px; width: 42px; height: 42px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .back-top { transition: opacity .01s; }
+}
+/* 暗色主题（手动 data-theme=dark / 跟随系统）：毛玻璃黑底 + 亮蓝箭头 */
+:root[data-theme="dark"] .back-top { background: rgba(28, 28, 30, .72); border-color: rgba(255, 255, 255, .14); color: #64d2ff; }
+:root[data-theme="dark"] .back-top:hover { background: rgba(44, 44, 46, .9); }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme]) .back-top { background: rgba(28, 28, 30, .72); border-color: rgba(255, 255, 255, .14); color: #64d2ff; }
+  :root:not([data-theme]) .back-top:hover { background: rgba(44, 44, 46, .9); }
+}
 
 /* 搜索 + 分类筛选工具栏（iOS 胶囊风；现位于顶栏内，见 .header-inner .toolbar） */
 .toolbar { display: flex; gap: 10px; flex-wrap: wrap; }
@@ -180,6 +218,8 @@ ins.adsbygoogle { background: #ececf0; border-radius: var(--radius); }
 .section-title .count { font-size: 13px; font-weight: 600; color: #fff; background: var(--accent); border-radius: 999px; padding: 3px 12px; }
 .section-title .count.free { background: var(--free); }
 .section-title .count.deal { background: var(--deal); }
+/* 区块标题内的区域标注（内购限免：· 中国区 / · 美国区，跟随顶部区域开关） */
+.section-title h2 .sec-region { font-size: 15px; font-weight: 500; color: var(--muted); margin-left: 10px; letter-spacing: 0; }
 
 /* App cards */
 /* 桌面端两列：minmax 提高到 440px，配合 auto-fit 在宽屏下排两列而非三列，
@@ -197,6 +237,7 @@ ins.adsbygoogle { background: #ececf0; border-radius: var(--radius); }
 .card, .card:hover { text-decoration: none; color: var(--text); }
 .card:hover { transform: translateY(-3px); box-shadow: 0 8px 24px rgba(0, 0, 0, .1); }
 .card img { width: 80px; height: 80px; border-radius: 18px; border: 1px solid var(--border); background: #fff; flex: none; object-fit: cover; }
+.card .iap-ico { width: 80px; height: 80px; border-radius: 18px; border: 1px solid var(--border); background: var(--surface); display: flex; align-items: center; justify-content: center; font-size: 34px; flex: none; }
 .card .info { min-width: 0; flex: 1; }
 /* 名称与开发者允许折行显示完整内容，最多两行；超出省略。
    （原本是 nowrap + ellipsis 一行截断，两列后空间变大，仍保留两行上限以防超长名撑高卡片） */

@@ -20,8 +20,21 @@
       intro_li3: '价格只是降低但没到免费的，单独归到<b>特价</b>一栏，方便比价；',
       intro_li4: '所有价格与可用性以苹果商店为准，可能随时变动，<b>下单前请务必在 App Store 内确认</b>。',
       intro_p4: '所有数据来自 Apple 公开接口，App 图标均直接引用苹果 CDN，不做转存。点击任意 App 即可跳转对应地区的 App Store 详情页。',
-      sec_free: '🔓 今日限免',
-      sec_deal: '💰 今日特价（降价未免费）',
+      sec_free: '🔓 本体限免',
+      sec_deal: '💰 特价打折（降价未免费）',
+      sec_iap: '🎮 内购限免（实验）',
+      region_cn: '中国区',
+      region_us: '美国区',
+      iap_empty: '内购限免正在累积数据，需连续观察数日才能捕捉「付费→免费」的跳变。',
+      iap_nodata: '该区暂未采集内购数据（美国区需走境外 CI）。',
+      iap_perm_note: '个常驻免费内购（永久 tier-0 赠品，不计入限免）',
+      iap_days: '已免费',
+      iap_original: '原价',
+      badge_iap_free: '限时免费',
+      iap_perm_tag: '常驻免费(赠品)',
+      iap_cur_free: '当前免费',
+      dt_iap_title: '🎁 内购限时免费',
+      back_top: '返回顶部',
       loading: '加载中…',
       free_empty: '今天没有检出限免 App，明天再来看看～',
       deal_empty: '今天没有降价的特价 App。',
@@ -60,8 +73,9 @@
       ab_arch_p: '本站是纯静态站点：没有后端服务器、没有数据库，全部页面由构建脚本预生成后通过 Cloudflare Pages 全球 CDN 分发，并在中国大陆设有边缘镜像以优化访问速度；全站强制 HTTPS 加密传输。',
       home_intro_text: '每天自动扫描苹果官方价格，捕捉「昨天还收费、今天免费领」的降价信号，覆盖中国区与美国区。',
       home_intro_link: '了解我们怎么挑 →',
-      stat_free: '今日限免',
-      stat_deal: '今日特价',
+      stat_free: '本体限免',
+      stat_deal: '特价打折',
+      stat_iap: '内购限免',
       stat_saved: '今日可省',
       badge_new: 'NEW',
       foot_privacy: '隐私政策',
@@ -161,8 +175,21 @@
       intro_li3: 'Apps that dropped in price but aren’t free go in a separate <b>Deals</b> column for easy comparison;',
       intro_li4: 'All prices and availability are subject to Apple and may change anytime — <b>always confirm in the App Store before purchasing</b>.',
       intro_p4: 'All data comes from Apple’s public APIs; app icons link directly to Apple’s CDN, not re-hosted. Tap any app to jump to its App Store page in that region.',
-      sec_free: '🔓 Free Today',
-      sec_deal: '💰 Deals Today (price drop)',
+      sec_free: '🔓 App Freebies',
+      sec_deal: '💰 Price Drops (reduced price)',
+      sec_iap: '🎮 In-App Freebies (Beta)',
+      region_cn: 'China',
+      region_us: 'US',
+      iap_empty: 'IAP freebie data is still accumulating — it takes several days of observation to catch a paid→free flip.',
+      iap_nodata: 'No IAP data collected for this region yet (US requires an overseas CI runner).',
+      iap_perm_note: 'permanent free IAPs (tier-0 gifts, excluded from freebies)',
+      iap_days: 'free for',
+      iap_original: 'was',
+      badge_iap_free: 'Limited-time free',
+      iap_perm_tag: 'Permanent free (gift)',
+      iap_cur_free: 'Currently free',
+      dt_iap_title: '🎁 IAP Limited-Time Free',
+      back_top: 'Back to top',
       loading: 'Loading…',
       free_empty: 'No limited-time free apps found today. Check back tomorrow.',
       deal_empty: 'No price-drop deals found today.',
@@ -201,8 +228,9 @@
       ab_arch_p: 'This site is fully static: no backend server, no database. Every page is pre-built by a script and delivered through Cloudflare Pages’ global CDN, with an edge mirror in mainland China for faster access. The entire site enforces HTTPS.',
       home_intro_text: 'We scan official App Store prices daily to catch the drop signals — paid yesterday, free today — across the China and US stores.',
       home_intro_link: 'How we pick →',
-      stat_free: 'Free today',
-      stat_deal: 'Deals today',
+      stat_free: 'App freebies',
+      stat_deal: 'Price drops',
+      stat_iap: 'IAP freebies',
       stat_saved: 'You save',
       badge_new: 'NEW',
       foot_privacy: 'Privacy Policy',
@@ -341,6 +369,8 @@
     }
     // 品牌名按域名 + 语言统一由 applyBrand() 处理（见该函数），此处不再重复替换
     applyBrand();   // 让 logo / 页脚 / 标题 在切语言时同步为对应语言品牌名
+    var bt = document.getElementById('backTop');   // 返回顶部按钮（JS 注入，跟随语言）
+    if (bt) bt.setAttribute('aria-label', dict.back_top);
     var y = document.getElementById('year');
     if (y) y.textContent = new Date().getFullYear();
     var lb = document.getElementById('langBtn');
@@ -487,6 +517,112 @@
     // 列表中部广告位已交由 Auto Ads（页面级自动广告）托管，不再手动插入。
   }
 
+  // ===== 内购限免（P2，dev 实验）=====
+  // 数据源：data/iap-free-{region}.json（真·限免事件，付费→0 跳变，已排除永久免费）
+  //        data/iap-current-free-{region}.json（当前所有免费内购）
+  var lastAppSaved = 0;   // 本体限免/特价的可省金额（load 时算好，loadIap 追加 IAP 部分）
+  function iapCard(it, region, isEvent) {
+    var dict = I18N[CURRENT_LANG];
+    var storeUrl = it.url || ('https://apps.apple.com/' + region + '/app/id' + it.app_id);
+    var card = el('a', 'card');
+    if (it.page) {
+      card.href = resolvePageUrl(it.page);   // 站内独立详情页（与本体限免卡片一致）
+    } else {
+      card.href = storeUrl;                  // 无独立页（无评分等）→ 回退 App Store 外链
+      card.target = '_blank';
+      card.rel = 'noopener';
+    }
+    card.setAttribute('aria-label', (it.app_name || '') + ' · ' + (it.iap || '') + ' · ' + dict.card_store);
+    if (it.icon) {
+      var img = el('img');
+      img.src = it.icon;
+      img.alt = it.app_name || 'app';
+      img.loading = 'lazy';
+      img.onerror = function () {           // 图标加载失败 → 退回 📱 占位（与本体卡片一致）
+        var d = el('div', 'iap-ico', '📱');
+        if (img.parentNode) img.parentNode.replaceChild(d, img);
+      };
+      card.appendChild(img);
+    } else {
+      card.appendChild(el('div', 'iap-ico', '📱'));
+    }
+    var info = el('div', 'info');
+    var nameRow = el('div', 'name-row');
+    nameRow.appendChild(el('span', 'name', esc(it.app_name || '—')));
+    if (isEvent) nameRow.appendChild(el('span', 'new-badge', esc(dict.badge_iap_free)));
+    info.appendChild(nameRow);
+    info.appendChild(el('div', 'dev', esc(it.dev || '')));            // 开发者
+    if (it.genre) info.appendChild(el('div', 'genre', esc(it.genre)));  // 分类标签
+    if (it.rating && it.rating > 0) {
+      info.appendChild(el('div', 'rating', '★ ' + (Math.round(it.rating * 10) / 10).toFixed(1)));
+    } else {
+      info.appendChild(el('div', 'rating norate', esc(dict.no_rating)));
+    }
+    // 末行：内购项名 + 免费时长/原价（绿色「免费」价格行已去掉；🎮 图标已按用户要求移除）
+    var meta;
+    if (isEvent && it.days_free != null) {
+      meta = esc(it.iap || '') + ' · ' + dict.iap_days + ' ' + it.days_free + ' ' +
+        (CURRENT_LANG === 'en' ? 'days' : '天') +
+        (it.last_paid_price ? (' · ' + dict.iap_original + ' ' + esc(it.last_paid_price)) : '');
+    } else {
+      meta = esc(it.iap || '') + (it.permanent_free ? (' · ' + dict.iap_perm_tag) : (' · ' + dict.iap_cur_free));
+    }
+    info.appendChild(el('div', 'dev', meta));
+    card.appendChild(info);
+    return card;
+  }
+
+  function loadIap(region) {
+    var dict = I18N[CURRENT_LANG];
+    // 区块标题标注当前区域（跟随顶部区域开关，与本体列表一致地区分中美区）
+    var rt = document.getElementById('iapRegionTag');
+    if (rt) rt.textContent = '· ' + (region === 'us' ? dict.region_us : dict.region_cn);
+    var box = document.getElementById('iapFreeList');
+    if (!box) return;   // 非首页无容器则跳过
+    var fUrl = resolvePageUrl('data/iap-free-' + region + '.json');
+    var cUrl = resolvePageUrl('data/iap-current-free-' + region + '.json');
+    Promise.all([
+      fetch(fUrl, { cache: 'no-cache' }).then(function (r) { return r.ok ? r.json() : null; }).catch(function () { return null; }),
+      fetch(cUrl, { cache: 'no-cache' }).then(function (r) { return r.ok ? r.json() : null; }).catch(function () { return null; })
+    ]).then(function (res) {
+      var evData = res[0], curData = res[1];
+      if (!evData && !curData) {
+        box.innerHTML = ''; box.appendChild(el('div', 'empty', dict.iap_nodata));
+        var si0 = document.getElementById('statIap'); if (si0) si0.textContent = '0';
+        var ss0 = document.getElementById('statSaved');
+        if (ss0) ss0.textContent = formatMoney(region, lastAppSaved);   // 无 IAP 数据 → 回退本体金额
+        return;
+      }
+      var events = ((evData && evData.events) || []).filter(function (e) { return e.rating !== 0; });
+      var curItems = ((curData && curData.items) || []).filter(function (it) { return it.rating !== 0; });
+      var evKeys = {};
+      events.forEach(function (e) { evKeys[e.app_id + '::' + e.iap] = true; });
+      var curNonPerm = curItems.filter(function (it) { return !it.permanent_free; });
+      var feed = events.concat(curNonPerm.filter(function (it) { return !evKeys[it.app_id + '::' + it.iap]; }));
+      var countEl = document.getElementById('iapFreeCount');
+      if (countEl) countEl.textContent = feed.length;
+      var si = document.getElementById('statIap');   // 统计条「内购限免」格
+      if (si) si.textContent = feed.length;
+      // 内购原价计入「今日可省」（与本体限免/特价累加，切区时由 load() 重置本体部分）
+      var iapSaved = 0;
+      feed.forEach(function (it) {
+        if (it.last_paid_price) { var p = parsePrice(it.last_paid_price); if (p) iapSaved += p; }
+      });
+      var ss = document.getElementById('statSaved');
+      if (ss) ss.textContent = formatMoney(region, lastAppSaved + iapSaved);
+      box.innerHTML = '';
+      if (feed.length === 0) {
+        box.appendChild(el('div', 'empty', dict.iap_empty));
+        return;
+      }
+      var grid = el('div', 'grid');
+      feed.forEach(function (it) {
+        grid.appendChild(iapCard(it, region, evKeys[it.app_id + '::' + it.iap]));
+      });
+      box.appendChild(grid);
+    });
+  }
+
   // 注：原列表中部手动广告逻辑已移除，中部广告改由 Google 自动广告补充。
 
   // ===== 筛选 =====
@@ -541,6 +677,7 @@
     if (dl) dl.textContent = dict.err_line;
     var sf = document.getElementById('statFree'); if (sf) sf.textContent = '0';
     var sd = document.getElementById('statDeal'); if (sd) sd.textContent = '0';
+    var si = document.getElementById('statIap'); if (si) si.textContent = '0';
     var ss = document.getElementById('statSaved'); if (ss) ss.textContent = formatMoney(region || 'cn', 0);
   }
 
@@ -583,9 +720,11 @@
           if (anc != null && cur != null) saved += (anc - cur);
           else if (anc != null) saved += anc;
         });
+        lastAppSaved = saved;   // 本体部分可省金额（IAP 数据到账后在此基础上累加，见 loadIap）
         var ss = document.getElementById('statSaved'); if (ss) ss.textContent = formatMoney(region, saved);
         fillGenres();
         renderFiltered();
+        loadIap(region);   // 内购限免（dev 实验）：双区切换联动
         // 独立页兜底：详情(iTunes)比数据先返回时，推荐区块曾渲染为空，这里补一次
         if (detailApp) {
           var ex = document.getElementById('dtExtra');
@@ -930,6 +1069,7 @@
     // 基础信息（无需网络，价格后续用实时 iTunes 数据覆盖）
     var ratingStr = (app.rating && app.rating > 0) ? ('★ ' + (Math.round(app.rating * 10) / 10).toFixed(1)) : '';
     var genreHref = app.genre ? resolvePageUrl('index.html?genre=' + encodeURIComponent(app.genre) + '&region=' + esc(app.region || 'cn')) : '';
+    var isIapPage = app.type === 'iap';   // IAP 限免详情页：头部「免费」指内购而非 App 本体
     var base = '<div class="dt-head">' +
       (app.icon ? '<img class="dt-icon" src="' + esc(app.icon) + '" alt=""/>' : '<div class="dt-icon dt-ic">📱</div>') +
       '<div class="dt-hinfo"><h2 class="dt-name">' + esc(app.name || '') + '</h2>' +
@@ -937,8 +1077,9 @@
       '<div class="dt-meta">' +
       (app.genre ? '<a class="dt-chip chip-link" href="' + esc(genreHref) + '" title="' + esc(dict.dt_genre_link) + '">' + esc(genreLabel(app.genre)) + '</a>' : '') +
       ((ratingStr || true) ? '<span class="dt-chip' + (ratingStr ? '' : ' norate') + '">' + esc(ratingStr ? '⭐ ' + ratingStr.replace('★ ', '') : dict.no_rating) + '</span>' : '') +
+      (isIapPage && app.iap ? '<span class="dt-chip">🎮 ' + esc(app.iap) + '</span>' : '') +
       '</div>' +
-      '<div class="dt-price"><span class="dt-cur ' + (app.type === 'free' ? 'free' : 'deal') + '" id="dtPrice">' + esc(app.type === 'free' ? dict.card_free_price : (app.current || '')) + '</span>' +
+      '<div class="dt-price"><span class="dt-cur ' + ((app.type === 'free' || isIapPage) ? 'free' : 'deal') + '" id="dtPrice">' + esc((app.type === 'free' || isIapPage) ? dict.card_free_price : (app.current || '')) + '</span>' +
       (app.normal ? '<span class="dt-old" id="dtOld">' + esc(app.normal) + '</span>' : '') + '</div>' +
       '</div>' +
       '<div class="dt-side">' +
@@ -971,11 +1112,12 @@
         if (!extra) return;
 
         // 头部价格用 iTunes 实时值覆盖快照：原价划掉 + 现价/免费（已恢复原价则不划）
+        // IAP 详情页跳过：头部「免费」指内购，App 本体价格在下方两区对比里看
         var pe = document.getElementById('dtPrice'), oe = document.getElementById('dtOld');
         var live = (self && typeof self.price === 'number') ? self.price : null;
         var liveCur = (self && self.currency) || null;
         var normalNum = app.normal ? parseFloat(String(app.normal).replace(/[^0-9.]/g, '')) : NaN;
-        if (pe) {
+        if (pe && app.type !== 'iap') {
           if (live === 0) {
             pe.textContent = dict.card_free_price; pe.className = 'dt-cur free';
             if (oe && app.normal) { oe.textContent = app.normal; oe.style.display = ''; }
@@ -1002,6 +1144,21 @@
         // 价格历史曲线
         var chart = priceChart(app.phistory, app.type, app.region);
         if (chart) html += '<div class="dt-section"><h3>' + esc(dict.dt_price_history) + '</h3><div class="pc-wrap">' + chart + '</div></div>';
+
+        // 内购限免信息（type=iap 专属）
+        if (app.type === 'iap') {
+          html += '<div class="dt-section"><h3>' + esc(dict.dt_iap_title) + '</h3><div class="dt-metarow dt-iap-list">';
+          var iapItems = (app.iap_items && app.iap_items.length) ? app.iap_items
+            : [{ name: app.iap || '', last_paid_price: app.normal || '', free_since: app.free_since || '', days_free: app.days_free || 0 }];
+          iapItems.forEach(function (x) {
+            var line = '🎮 ' + esc(x.name || '—');
+            if (x.last_paid_price && x.last_paid_price !== '—') line += '<span class="dt-dot">·</span>' + esc(dict.iap_original) + ' ' + esc(x.last_paid_price);
+            line += '<span class="dt-dot">→</span><span class="free">' + esc(dict.card_free_price) + '</span>';
+            if (x.free_since) line += '<span class="dt-dot">·</span>' + esc(dict.iap_days) + ' ' + esc(String(x.days_free || 0)) + (CURRENT_LANG === 'en' ? ' days' : ' 天');
+            html += '<div>' + line + '</div>';
+          });
+          html += '</div></div>';
+        }
 
         // 截图
         var shots = (self && self.screenshotUrls) ? self.screenshotUrls.slice(0, 6) : [];
@@ -1195,12 +1352,42 @@
     });
   }
 
+  // 返回顶部（苹果风：毛玻璃圆形 + 雪佛龙箭头；滚动 400px 后淡入）
+  // JS 注入而非写死 HTML：所有加载 app.js 的页面（首页/详情页）自动获得，单一信源
+  function setupBackTop() {
+    if (document.getElementById('backTop')) return;
+    var dict = I18N[CURRENT_LANG] || I18N.zh;
+    var btn = document.createElement('button');
+    btn.id = 'backTop';
+    btn.type = 'button';
+    btn.className = 'back-top';
+    btn.setAttribute('aria-label', dict.back_top);
+    btn.innerHTML = '<svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" ' +
+      'stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">' +
+      '<path d="M6 14l6-6 6 6"/></svg>';
+    btn.addEventListener('click', function () {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+    document.body.appendChild(btn);
+    var ticking = false;
+    window.addEventListener('scroll', function () {
+      if (ticking) return;
+      ticking = true;
+      requestAnimationFrame(function () {
+        btn.classList.toggle('show', (window.scrollY || window.pageYOffset || 0) > 400);
+        ticking = false;
+      });
+    }, { passive: true });
+    btn.classList.toggle('show', (window.scrollY || window.pageYOffset || 0) > 400);
+  }
+
   function init() {
     applyTheme(getTheme());   // 主题（null=跟随系统）
     applyLang(getLang());     // 语言
     applyBrand();             // 站点品牌（域名自适应）
     bindControls();
     setupDetailEvents();      // 独立页同类推荐跳页事件
+    setupBackTop();           // 返回顶部按钮（首页 + 详情页通用）
     // 独立详情页模式：页面 URL 形如 app/{region}-{id}.html，数据内联于 window.__APP__
     if (window.__APP__ && document.getElementById('detailBody')) {
       var ap = window.__APP__;

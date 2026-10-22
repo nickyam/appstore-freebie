@@ -45,7 +45,7 @@
   </script>
 
   <link rel="preconnect" href="https://is1-ssl.mzstatic.com" crossorigin />
-  <link rel="stylesheet" href="assets/css/style.css?v=3e6cb33812" />
+  <link rel="stylesheet" href="assets/css/style.css?v=6ada3875e2" />
   <!-- Google AdSense（请先在后台添加本站点并通过审核） -->
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7114121088728794" crossorigin="anonymous"></script>
   <!-- Auto Ads（页面级自动广告）：由 Google 自动在合适位置补充广告；顶部手动位 7735913921 保留 -->
@@ -94,14 +94,18 @@
       </div>
       <div class="date-line" id="dateLine">数据加载中…</div>
       <div class="stats" id="statsBar">
-        <div class="stat">
+        <a class="stat" href="#sec-free" title="跳到本体限免列表">
           <div class="stat-num" id="statFree">0</div>
-          <div class="stat-label" data-i18n="stat_free">今日限免</div>
-        </div>
-        <div class="stat">
+          <div class="stat-label" data-i18n="stat_free">本体限免</div>
+        </a>
+        <a class="stat" href="#sec-deal" title="跳到特价打折列表">
           <div class="stat-num" id="statDeal">0</div>
-          <div class="stat-label" data-i18n="stat_deal">今日特价</div>
-        </div>
+          <div class="stat-label" data-i18n="stat_deal">特价打折</div>
+        </a>
+        <a class="stat" href="#sec-iap" title="跳到内购限免列表">
+          <div class="stat-num" id="statIap">0</div>
+          <div class="stat-label" data-i18n="stat_iap">内购限免</div>
+        </a>
         <div class="stat">
           <div class="stat-num" id="statSaved">¥0</div>
           <div class="stat-label" data-i18n="stat_saved">今日可省</div>
@@ -119,17 +123,23 @@
       <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
     </div>
 
-    <div class="section-title">
-      <h2 data-i18n="sec_free">🔓 今日限免</h2>
+    <div class="section-title" id="sec-free">
+      <h2 data-i18n="sec_free">🔓 本体限免</h2>
       <span class="count free" id="freeCount">0</span>
     </div>
     <div id="freeList"><div class="loading" data-i18n="loading">加载中…</div></div>
 
-    <div class="section-title">
-      <h2 data-i18n="sec_deal">💰 今日特价（降价未免费）</h2>
+    <div class="section-title" id="sec-deal">
+      <h2 data-i18n="sec_deal">💰 特价打折（降价未免费）</h2>
       <span class="count deal" id="dealCount">0</span>
     </div>
     <div id="dealList"><div class="loading" data-i18n="loading">加载中…</div></div>
+
+    <div class="section-title" id="sec-iap">
+      <h2><span data-i18n="sec_iap">🎮 内购限免（实验）</span><span class="sec-region" id="iapRegionTag"></span></h2>
+      <span class="count free" id="iapFreeCount">0</span>
+    </div>
+    <div id="iapFreeList"><div class="loading" data-i18n="loading">加载中…</div></div>
   </main>
 
   <footer class="site-footer">
@@ -143,6 +153,6 @@
     </div>
   </footer>
 
-  <script src="assets/js/app.js?v=3e6cb33812"></script>
+  <script src="assets/js/app.js?v=6ada3875e2"></script>
 </body>
 </html>
