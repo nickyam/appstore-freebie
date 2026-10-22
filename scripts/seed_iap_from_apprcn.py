@@ -173,11 +173,15 @@ def save_manifest(m):
     json.dump(m, open(MANIFEST_PATH, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
 
 
-def bootstrap_iap_history(region, current_free, became, today, manifest):
+def bootstrap_iap_history(region, current_free, became, today, manifest, appmeta=None):
     """只注入「当前免费 + became_free 证据」的限时内购；清理永久免费噪声与旧 apprcn 键。
+
+    无评分（rating<=0）的 App 一律不收录——与本体限免「无评分不收录」规则一致
+    （2026-10-23 用户拍板）。appmeta 由 iTunes lookup 提供，缺省时不过滤（兼容旧调用）。
 
     返回 (hist, added, manifest)。
     """
+    appmeta = appmeta or {}
     hist_path = os.path.join(DATA_DIR, f"iap-history-{region}.json")
     hist = {"meta": {"region": region, "version": 1}, "items": {}}
     if os.path.exists(hist_path):
@@ -199,9 +203,10 @@ def bootstrap_iap_history(region, current_free, became, today, manifest):
             if items[k].get("ever_paid") is False:
                 items.pop(k, None)
 
-    # 3) 注入当前限时项（仅 became_free 命中）
+    # 3) 注入当前限时项（仅 became_free 命中 + 有评分）
     new_keys = []
     added = 0
+    skipped_unrated = 0
     for cf in current_free:
         aid = cf["app_id"]
         iap_name = cf["iap_name"]
@@ -209,6 +214,9 @@ def bootstrap_iap_history(region, current_free, became, today, manifest):
         alert = pick_alert(became, aid, iap_name)
         if not alert:
             continue  # 无促销证据 → 视为永久免费，跳过
+        if (appmeta.get(aid, {}).get("rating") or 0) <= 0:
+            skipped_unrated += 1   # 无评分不收录（与本体限免规则一致）
+            continue
         old = alert["old_price_text"]
         first_price = old if old else "—"  # 无原价锚点：用 — 表示原价未知
         rec = {
@@ -234,7 +242,7 @@ def bootstrap_iap_history(region, current_free, became, today, manifest):
     hist["meta"].update({"updated": today, "seeded_from": "apprcn",
                          "seed_added": added, "seed_total": len(items)})
     manifest[region] = new_keys
-    return hist, added, manifest
+    return hist, added, manifest, skipped_unrated
 
 
 def seed_pool(region, became, today):
@@ -402,6 +410,38 @@ def write_iap_pages(region, events, appmeta, today):
     return count
 
 
+def cleanup_iap_pages(region, keep_pages):
+    """删除本区已不在限时清单内的 IAP 独立页（无评分剔除 / 促销结束），防止 app/ 累积死链。
+
+    只删「type=iap」页（正则识别 __APP__ 内联数据），本体限免页绝不碰。
+    keep_pages: 本次应保留的页面相对路径集合。
+    """
+    app_dir = os.path.join(REPO, "app")
+    if not os.path.isdir(app_dir):
+        return 0
+    removed = 0
+    prefix = region + "-"
+    for fn in sorted(os.listdir(app_dir)):
+        if not (fn.startswith(prefix) and fn.endswith(".html")):
+            continue
+        rel = "app/" + fn
+        if rel in keep_pages:
+            continue
+        try:
+            txt = open(os.path.join(app_dir, fn), encoding="utf-8", errors="ignore").read()
+        except Exception:
+            continue
+        if not re.search(r'"type"\s*:\s*"iap"', txt):
+            continue                      # 本体限免页，不碰
+        try:
+            os.remove(os.path.join(app_dir, fn))
+            removed += 1
+            print(f"[info] 删除过期 IAP 页: {rel}")
+        except OSError:
+            pass
+    return removed
+
+
 def main():
     ap = argparse.ArgumentParser(description="从反斗限免种子化「限时」内购限免 IAP 库")
     ap.add_argument("--regions", default="cn,us", help="逗号分隔，默认 cn,us")
@@ -422,20 +462,27 @@ def main():
         n_became = sum(len(v) for v in became.values())
         print(f"[info] 当前免费内购项: {len(current_free)} | became_free 告警: {n_became}")
 
-        hist, added, manifest = bootstrap_iap_history(region, current_free, became, today_str, manifest)
+        # 先 lookup 拿评分（无评分 App 不收录，需在注入前知道评分）
+        appmeta = lookup_apps(region,
+                              {cf["app_id"] for cf in current_free} | set(became.keys()))
+
+        hist, added, manifest, skipped_unrated = bootstrap_iap_history(
+            region, current_free, became, today_str, manifest, appmeta)
         if not args.dry_run:
             save_json(f"iap-history-{region}.json", hist)
-        print(f"[iap-history-{region}] 新增限时 {added}，现有 {len(hist['items'])} 条（仅限时）")
+        print(f"[iap-history-{region}] 新增限时 {added}（无评分跳过 {skipped_unrated}），"
+              f"现有 {len(hist['items'])} 条（仅限时）")
 
         # 直接复用 detect_events 生成输出（不爬 Apple 商品页）
         events, current = detect_events(hist, region, today_str)
 
         # 补 App 元数据（图标/开发者/分类/评分）→ 独立详情页 + 首页真图标
-        appmeta = lookup_apps(region, {e["app_id"] for e in events} | {c["app_id"] for c in current})
         enrich_events(region, events, current, data, appmeta)
         if not args.dry_run:
             npages = write_iap_pages(region, events, appmeta, today_str)
             print(f"[app pages] IAP 独立页写入 {npages} 个")
+            nrm = cleanup_iap_pages(region, {"app/%s-%s.html" % (region, e["app_id"]) for e in events})
+            print(f"[app pages] 清理过期 IAP 页 {nrm} 个（无评分/促销结束）")
 
         if not args.dry_run:
             save_json(f"iap-free-{region}.json",

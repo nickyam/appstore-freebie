@@ -4,66 +4,10 @@
     "version": 1,
     "updated": "2026-10-22",
     "seeded_from": "apprcn",
-    "seed_added": 18,
-    "seed_total": 18
+    "seed_added": 9,
+    "seed_total": 9
   },
   "items": {
-    "6756211777::Plus Lifetime": {
-      "app_id": "6756211777",
-      "app_name": "iEarthpulse",
-      "name": "Plus Lifetime",
-      "region": "us",
-      "first_date": "2026-10-22",
-      "first_price": "—",
-      "last_date": "2026-10-22",
-      "last_price": "$0.00",
-      "last_change_date": "2026-10-22",
-      "ever_paid": true,
-      "last_paid_date": "2026-10-21",
-      "free_since": "2026-10-21",
-      "changes": {
-        "2026-10-21": "—",
-        "2026-10-22": "$0.00"
-      },
-      "source": "apprcn"
-    },
-    "6816660034::Down Round — Full Game": {
-      "app_id": "6816660034",
-      "app_name": "Down Round: Startup CEO Sim",
-      "name": "Down Round — Full Game",
-      "region": "us",
-      "first_date": "2026-10-22",
-      "first_price": "—",
-      "last_date": "2026-10-22",
-      "last_price": "$0.00",
-      "last_change_date": "2026-10-22",
-      "ever_paid": true,
-      "last_paid_date": "2026-10-21",
-      "free_since": "2026-10-21",
-      "changes": {
-        "2026-10-21": "—",
-        "2026-10-22": "$0.00"
-      },
-      "source": "apprcn"
-    },
-    "6802706711::Remove Watermark": {
-      "app_id": "6802706711",
-      "app_name": "Reactie",
-      "name": "Remove Watermark",
-      "region": "us",
-      "first_date": "2026-10-22",
-      "first_price": "—",
-      "last_date": "2026-10-22",
-      "last_price": "$0.00",
-      "last_change_date": "2026-10-22",
-      "ever_paid": true,
-      "last_paid_date": "2026-10-22",
-      "free_since": "2026-10-22",
-      "changes": {
-        "2026-10-22": "$0.00"
-      },
-      "source": "apprcn"
-    },
     "6756910810::Pro Member - Lifetime": {
       "app_id": "6756910810",
       "app_name": "iLinkbox",
@@ -97,44 +41,6 @@
       "last_paid_date": "2026-10-22",
       "free_since": "2026-10-22",
       "changes": {
-        "2026-10-22": "$0.00"
-      },
-      "source": "apprcn"
-    },
-    "6775226292::Pro Lifetime": {
-      "app_id": "6775226292",
-      "app_name": "RoadPact",
-      "name": "Pro Lifetime",
-      "region": "us",
-      "first_date": "2026-10-22",
-      "first_price": "—",
-      "last_date": "2026-10-22",
-      "last_price": "$0.00",
-      "last_change_date": "2026-10-22",
-      "ever_paid": true,
-      "last_paid_date": "2026-10-20",
-      "free_since": "2026-10-20",
-      "changes": {
-        "2026-10-20": "—",
-        "2026-10-22": "$0.00"
-      },
-      "source": "apprcn"
-    },
-    "6788409678::Pro Lifetime": {
-      "app_id": "6788409678",
-      "app_name": "墨团习惯：打卡与习惯养成",
-      "name": "Pro Lifetime",
-      "region": "us",
-      "first_date": "2026-10-22",
-      "first_price": "—",
-      "last_date": "2026-10-22",
-      "last_price": "$0.00",
-      "last_change_date": "2026-10-22",
-      "ever_paid": true,
-      "last_paid_date": "2026-10-20",
-      "free_since": "2026-10-20",
-      "changes": {
-        "2026-10-20": "—",
         "2026-10-22": "$0.00"
       },
       "source": "apprcn"
@@ -215,86 +121,10 @@
       },
       "source": "apprcn"
     },
-    "6768885559::Life Time Pro": {
-      "app_id": "6768885559",
-      "app_name": "iBirdsong",
-      "name": "Life Time Pro",
-      "region": "us",
-      "first_date": "2026-10-22",
-      "first_price": "—",
-      "last_date": "2026-10-22",
-      "last_price": "$0.00",
-      "last_change_date": "2026-10-22",
-      "ever_paid": true,
-      "last_paid_date": "2026-10-21",
-      "free_since": "2026-10-21",
-      "changes": {
-        "2026-10-21": "—",
-        "2026-10-22": "$0.00"
-      },
-      "source": "apprcn"
-    },
-    "6790040520::Base Edition": {
-      "app_id": "6790040520",
-      "app_name": "DualCamPro",
-      "name": "Base Edition",
-      "region": "us",
-      "first_date": "2026-10-22",
-      "first_price": "—",
-      "last_date": "2026-10-22",
-      "last_price": "$0.00",
-      "last_change_date": "2026-10-22",
-      "ever_paid": true,
-      "last_paid_date": "2026-10-21",
-      "free_since": "2026-10-21",
-      "changes": {
-        "2026-10-21": "—",
-        "2026-10-22": "$0.00"
-      },
-      "source": "apprcn"
-    },
     "6820137866::永久 VIP": {
       "app_id": "6820137866",
       "app_name": "成语闯关 - 边玩边学，轻松掌握成语",
       "name": "永久 VIP",
-      "region": "us",
-      "first_date": "2026-10-22",
-      "first_price": "—",
-      "last_date": "2026-10-22",
-      "last_price": "$0.00",
-      "last_change_date": "2026-10-22",
-      "ever_paid": true,
-      "last_paid_date": "2026-10-21",
-      "free_since": "2026-10-21",
-      "changes": {
-        "2026-10-21": "—",
-        "2026-10-22": "$0.00"
-      },
-      "source": "apprcn"
-    },
-    "6774845949::Pro Lifetime": {
-      "app_id": "6774845949",
-      "app_name": "WaitForecast",
-      "name": "Pro Lifetime",
-      "region": "us",
-      "first_date": "2026-10-22",
-      "first_price": "—",
-      "last_date": "2026-10-22",
-      "last_price": "$0.00",
-      "last_change_date": "2026-10-22",
-      "ever_paid": true,
-      "last_paid_date": "2026-10-21",
-      "free_since": "2026-10-21",
-      "changes": {
-        "2026-10-21": "—",
-        "2026-10-22": "$0.00"
-      },
-      "source": "apprcn"
-    },
-    "6798147223::Lifetime Access": {
-      "app_id": "6798147223",
-      "app_name": "Storage Cleaner: SpaceFresh",
-      "name": "Lifetime Access",
       "region": "us",
       "first_date": "2026-10-22",
       "first_price": "—",

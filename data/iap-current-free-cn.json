@@ -1,22 +1,8 @@
 {
   "updated": "2026-10-22",
   "region": "cn",
-  "count": 16,
+  "count": 9,
   "items": [
-    {
-      "app_id": "6802706711",
-      "app_name": "Reactie",
-      "iap": "Remove Watermark",
-      "price": "¥0.00",
-      "permanent_free": false,
-      "since": "2026-10-22",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/33/a6/7933a676-6ff5-fb84-db2b-5c072412c281/AppIcon-0-0-1x_U007epad-0-1-sRGB-85-220.png/512x512bb.jpg",
-      "dev": "Joan Duat",
-      "genre": "摄影与录像",
-      "rating": 0,
-      "url": "https://apps.apple.com/cn/app/reactie/id6802706711?uo=4",
-      "page": "app/cn-6802706711.html"
-    },
     {
       "app_id": "6741730996",
       "app_name": "手机测速-网络测速·测网速speedtest",
@@ -30,20 +16,6 @@
       "rating": 4.05,
       "url": "https://apps.apple.com/cn/app/%E6%89%8B%E6%9C%BA%E6%B5%8B%E9%80%9F-%E7%BD%91%E7%BB%9C%E6%B5%8B%E9%80%9F-%E6%B5%8B%E7%BD%91%E9%80%9Fspeedtest/id6741730996?uo=4",
       "page": "app/cn-6741730996.html"
-    },
-    {
-      "app_id": "6775226292",
-      "app_name": "RoadPact",
-      "iap": "Pro Lifetime",
-      "price": "¥0.00",
-      "permanent_free": false,
-      "since": "2026-10-22",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/99/c7/93/99c793ad-72c0-c690-98b7-1c51d5a2d5e8/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
-      "dev": "慧慧 高",
-      "genre": "效率",
-      "rating": 0,
-      "url": "https://apps.apple.com/cn/app/roadpact/id6775226292?uo=4",
-      "page": "app/cn-6775226292.html"
     },
     {
       "app_id": "6788409678",
@@ -88,34 +60,6 @@
       "page": "app/cn-6760588830.html"
     },
     {
-      "app_id": "6768885559",
-      "app_name": "iBirdsong",
-      "iap": "Life Time Pro",
-      "price": "¥0.00",
-      "permanent_free": false,
-      "since": "2026-10-22",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3c/5b/cc/3c5bcc14-b7f8-39b8-9c29-9dc6fac32668/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
-      "dev": "Naihe Hu",
-      "genre": "生活",
-      "rating": 0,
-      "url": "https://apps.apple.com/cn/app/ibirdsong/id6768885559?uo=4",
-      "page": "app/cn-6768885559.html"
-    },
-    {
-      "app_id": "6790040520",
-      "app_name": "DualCamPro",
-      "iap": "基础买断版",
-      "price": "¥0.00",
-      "permanent_free": false,
-      "since": "2026-10-22",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/94/92/79/949279a0-dc7c-3acc-53df-4a3711c17ea0/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-      "dev": "园园 周",
-      "genre": "摄影与录像",
-      "rating": 0,
-      "url": "https://apps.apple.com/cn/app/dualcampro/id6790040520?uo=4",
-      "page": "app/cn-6790040520.html"
-    },
-    {
       "app_id": "6820137866",
       "app_name": "成语闯关 - 边玩边学，轻松掌握成语",
       "iap": "永久 VIP",
@@ -128,34 +72,6 @@
       "rating": 5,
       "url": "https://apps.apple.com/cn/app/%E6%88%90%E8%AF%AD%E9%97%AF%E5%85%B3-%E8%BE%B9%E7%8E%A9%E8%BE%B9%E5%AD%A6-%E8%BD%BB%E6%9D%BE%E6%8E%8C%E6%8F%A1%E6%88%90%E8%AF%AD/id6820137866?uo=4",
       "page": "app/cn-6820137866.html"
-    },
-    {
-      "app_id": "6774845949",
-      "app_name": "WaitForecast",
-      "iap": "Pro Lifetime",
-      "price": "¥0.00",
-      "permanent_free": false,
-      "since": "2026-10-22",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/24/d7/af/24d7aff4-7619-afee-d752-6fa051fdada9/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
-      "dev": "慧慧 高",
-      "genre": "参考资料",
-      "rating": 0,
-      "url": "https://apps.apple.com/cn/app/waitforecast/id6774845949?uo=4",
-      "page": "app/cn-6774845949.html"
-    },
-    {
-      "app_id": "6798147223",
-      "app_name": "Storage Cleaner: SpaceFresh",
-      "iap": "Lifetime Access",
-      "price": "¥0.00",
-      "permanent_free": false,
-      "since": "2026-10-22",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/41/e5/a7/41e5a73e-5b6b-2abb-722d-66f0949837ec/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-      "dev": "Nitin Gohel",
-      "genre": "工具",
-      "rating": 0,
-      "url": "https://apps.apple.com/cn/app/storage-cleaner-spacefresh/id6798147223?uo=4",
-      "page": "app/cn-6798147223.html"
     },
     {
       "app_id": "6772943882",
@@ -184,20 +100,6 @@
       "rating": 4.33333,
       "url": "https://apps.apple.com/cn/app/leafora-%E6%A4%8D%E7%89%A9%E8%AF%86%E5%88%AB%E4%B8%8E%E5%85%BB%E6%8A%A4/id6781948787?uo=4",
       "page": "app/cn-6781948787.html"
-    },
-    {
-      "app_id": "6803756626",
-      "app_name": "人生地铁",
-      "iap": "终身方案",
-      "price": "¥0.00",
-      "permanent_free": false,
-      "since": "2026-10-22",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/35/57/20/355720a8-abff-1cae-a3da-3e9bf7c15000/AppIcon-0-0-1x_U007epad-0-0-0-1-0-85-220.png/512x512bb.jpg",
-      "dev": "鹏程 王",
-      "genre": "效率",
-      "rating": 0,
-      "url": "https://apps.apple.com/cn/app/%E4%BA%BA%E7%94%9F%E5%9C%B0%E9%93%81/id6803756626?uo=4",
-      "page": "app/cn-6803756626.html"
     },
     {
       "app_id": "1576118042",

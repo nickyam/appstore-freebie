@@ -515,7 +515,8 @@
 
   // ===== 内购限免（P2，dev 实验）=====
   // 数据源：data/iap-free-{region}.json（真·限免事件，付费→0 跳变，已排除永久免费）
-  //        data/iap-current-free-{region}.json（当前所有免费内购，含永久并标注）
+  //        data/iap-current-free-{region}.json（当前所有免费内购）
+  var lastAppSaved = 0;   // 本体限免/特价的可省金额（load 时算好，loadIap 追加 IAP 部分）
   function iapCard(it, region, isEvent) {
     var dict = I18N[CURRENT_LANG];
     var storeUrl = it.url || ('https://apps.apple.com/' + region + '/app/id' + it.app_id);
@@ -533,13 +534,13 @@
       img.src = it.icon;
       img.alt = it.app_name || 'app';
       img.loading = 'lazy';
-      img.onerror = function () {           // 图标加载失败 → 退回 🎮 占位
-        var d = el('div', 'iap-ico', '🎮');
+      img.onerror = function () {           // 图标加载失败 → 退回 📱 占位（与本体卡片一致）
+        var d = el('div', 'iap-ico', '📱');
         if (img.parentNode) img.parentNode.replaceChild(d, img);
       };
       card.appendChild(img);
     } else {
-      card.appendChild(el('div', 'iap-ico', '🎮'));
+      card.appendChild(el('div', 'iap-ico', '📱'));
     }
     var info = el('div', 'info');
     var nameRow = el('div', 'name-row');
@@ -553,14 +554,14 @@
     } else {
       info.appendChild(el('div', 'rating norate', esc(dict.no_rating)));
     }
-    // 末行：🎮 内购项名 + 免费时长/原价（绿色「免费」价格行已按用户要求去掉）
+    // 末行：内购项名 + 免费时长/原价（绿色「免费」价格行已去掉；🎮 图标已按用户要求移除）
     var meta;
     if (isEvent && it.days_free != null) {
-      meta = '🎮 ' + esc(it.iap || '') + ' · ' + dict.iap_days + ' ' + it.days_free + ' ' +
+      meta = esc(it.iap || '') + ' · ' + dict.iap_days + ' ' + it.days_free + ' ' +
         (CURRENT_LANG === 'en' ? 'days' : '天') +
         (it.last_paid_price ? (' · ' + dict.iap_original + ' ' + esc(it.last_paid_price)) : '');
     } else {
-      meta = '🎮 ' + esc(it.iap || '') + (it.permanent_free ? (' · ' + dict.iap_perm_tag) : (' · ' + dict.iap_cur_free));
+      meta = esc(it.iap || '') + (it.permanent_free ? (' · ' + dict.iap_perm_tag) : (' · ' + dict.iap_cur_free));
     }
     info.appendChild(el('div', 'dev', meta));
     card.appendChild(info);
@@ -578,9 +579,15 @@
       fetch(cUrl, { cache: 'no-cache' }).then(function (r) { return r.ok ? r.json() : null; }).catch(function () { return null; })
     ]).then(function (res) {
       var evData = res[0], curData = res[1];
-      if (!evData && !curData) { box.innerHTML = ''; box.appendChild(el('div', 'empty', dict.iap_nodata)); var si0 = document.getElementById('statIap'); if (si0) si0.textContent = '0'; return; }
-      var events = (evData && evData.events) || [];
-      var curItems = (curData && curData.items) || [];
+      if (!evData && !curData) {
+        box.innerHTML = ''; box.appendChild(el('div', 'empty', dict.iap_nodata));
+        var si0 = document.getElementById('statIap'); if (si0) si0.textContent = '0';
+        var ss0 = document.getElementById('statSaved');
+        if (ss0) ss0.textContent = formatMoney(region, lastAppSaved);   // 无 IAP 数据 → 回退本体金额
+        return;
+      }
+      var events = ((evData && evData.events) || []).filter(function (e) { return e.rating !== 0; });
+      var curItems = ((curData && curData.items) || []).filter(function (it) { return it.rating !== 0; });
       var evKeys = {};
       events.forEach(function (e) { evKeys[e.app_id + '::' + e.iap] = true; });
       var curNonPerm = curItems.filter(function (it) { return !it.permanent_free; });
@@ -589,6 +596,13 @@
       if (countEl) countEl.textContent = feed.length;
       var si = document.getElementById('statIap');   // 统计条「内购限免」格
       if (si) si.textContent = feed.length;
+      // 内购原价计入「今日可省」（与本体限免/特价累加，切区时由 load() 重置本体部分）
+      var iapSaved = 0;
+      feed.forEach(function (it) {
+        if (it.last_paid_price) { var p = parsePrice(it.last_paid_price); if (p) iapSaved += p; }
+      });
+      var ss = document.getElementById('statSaved');
+      if (ss) ss.textContent = formatMoney(region, lastAppSaved + iapSaved);
       box.innerHTML = '';
       if (feed.length === 0) {
         box.appendChild(el('div', 'empty', dict.iap_empty));
@@ -699,6 +713,7 @@
           if (anc != null && cur != null) saved += (anc - cur);
           else if (anc != null) saved += anc;
         });
+        lastAppSaved = saved;   // 本体部分可省金额（IAP 数据到账后在此基础上累加，见 loadIap）
         var ss = document.getElementById('statSaved'); if (ss) ss.textContent = formatMoney(region, saved);
         fillGenres();
         renderFiltered();

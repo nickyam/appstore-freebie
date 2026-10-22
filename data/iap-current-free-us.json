@@ -1,50 +1,8 @@
 {
   "updated": "2026-10-22",
   "region": "us",
-  "count": 18,
+  "count": 9,
   "items": [
-    {
-      "app_id": "6756211777",
-      "app_name": "iEarthpulse",
-      "iap": "Plus Lifetime",
-      "price": "$0.00",
-      "permanent_free": false,
-      "since": "2026-10-22",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/92/90/ec/9290ecf9-4721-ad55-7cb9-43fada837871/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
-      "dev": "Naihe Hu",
-      "genre": "Reference",
-      "rating": 0,
-      "url": "https://apps.apple.com/us/app/iearthpulse/id6756211777?uo=4",
-      "page": "app/us-6756211777.html"
-    },
-    {
-      "app_id": "6816660034",
-      "app_name": "Down Round: Startup CEO Sim",
-      "iap": "Down Round — Full Game",
-      "price": "$0.00",
-      "permanent_free": false,
-      "since": "2026-10-22",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fa/84/49/fa844950-6c94-bd0c-d100-6867195851f3/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-      "dev": "Dajiale",
-      "genre": "Games",
-      "rating": 0,
-      "url": "https://apps.apple.com/us/app/down-round-startup-ceo-sim/id6816660034?uo=4",
-      "page": "app/us-6816660034.html"
-    },
-    {
-      "app_id": "6802706711",
-      "app_name": "Reactie",
-      "iap": "Remove Watermark",
-      "price": "$0.00",
-      "permanent_free": false,
-      "since": "2026-10-22",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/33/a6/7933a676-6ff5-fb84-db2b-5c072412c281/AppIcon-0-0-1x_U007epad-0-1-sRGB-85-220.png/512x512bb.jpg",
-      "dev": "Joan Duat",
-      "genre": "Photo & Video",
-      "rating": 0,
-      "url": "https://apps.apple.com/us/app/reactie/id6802706711?uo=4",
-      "page": "app/us-6802706711.html"
-    },
     {
       "app_id": "6756910810",
       "app_name": "iLinkbox",
@@ -72,34 +30,6 @@
       "rating": 4.30769,
       "url": "https://apps.apple.com/us/app/speedtest-wifi-speed-test/id6741730996?uo=4",
       "page": "app/us-6741730996.html"
-    },
-    {
-      "app_id": "6775226292",
-      "app_name": "RoadPact",
-      "iap": "Pro Lifetime",
-      "price": "$0.00",
-      "permanent_free": false,
-      "since": "2026-10-22",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/99/c7/93/99c793ad-72c0-c690-98b7-1c51d5a2d5e8/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
-      "dev": "慧慧 高",
-      "genre": "Productivity",
-      "rating": 0,
-      "url": "https://apps.apple.com/us/app/roadpact/id6775226292?uo=4",
-      "page": "app/us-6775226292.html"
-    },
-    {
-      "app_id": "6788409678",
-      "app_name": "墨团习惯：打卡与习惯养成",
-      "iap": "Pro Lifetime",
-      "price": "$0.00",
-      "permanent_free": false,
-      "since": "2026-10-22",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fc/e8/b6/fce8b64d-989e-763f-2ad4-6461a8c0b332/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-      "dev": "Freedom Dimension (shenzhen) Technology Co., Ltd",
-      "genre": "Productivity",
-      "rating": 0,
-      "url": "https://apps.apple.com/us/app/inky-habits-daily-tracker/id6788409678?uo=4",
-      "page": "app/us-6788409678.html"
     },
     {
       "app_id": "6779493280",
@@ -158,34 +88,6 @@
       "page": "app/us-6760588830.html"
     },
     {
-      "app_id": "6768885559",
-      "app_name": "iBirdsong",
-      "iap": "Life Time Pro",
-      "price": "$0.00",
-      "permanent_free": false,
-      "since": "2026-10-22",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3c/5b/cc/3c5bcc14-b7f8-39b8-9c29-9dc6fac32668/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
-      "dev": "Naihe Hu",
-      "genre": "Lifestyle",
-      "rating": 0,
-      "url": "https://apps.apple.com/us/app/ibirdsong/id6768885559?uo=4",
-      "page": "app/us-6768885559.html"
-    },
-    {
-      "app_id": "6790040520",
-      "app_name": "DualCamPro",
-      "iap": "Base Edition",
-      "price": "$0.00",
-      "permanent_free": false,
-      "since": "2026-10-22",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/94/92/79/949279a0-dc7c-3acc-53df-4a3711c17ea0/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-      "dev": "园园 周",
-      "genre": "Photo & Video",
-      "rating": 0,
-      "url": "https://apps.apple.com/us/app/dualcampro/id6790040520?uo=4",
-      "page": "app/us-6790040520.html"
-    },
-    {
       "app_id": "6820137866",
       "app_name": "成语闯关 - 边玩边学，轻松掌握成语",
       "iap": "永久 VIP",
@@ -198,34 +100,6 @@
       "rating": 4,
       "url": "https://apps.apple.com/us/app/%E6%88%90%E8%AF%AD%E9%97%AF%E5%85%B3-%E8%BE%B9%E7%8E%A9%E8%BE%B9%E5%AD%A6-%E8%BD%BB%E6%9D%BE%E6%8E%8C%E6%8F%A1%E6%88%90%E8%AF%AD/id6820137866?uo=4",
       "page": "app/us-6820137866.html"
-    },
-    {
-      "app_id": "6774845949",
-      "app_name": "WaitForecast",
-      "iap": "Pro Lifetime",
-      "price": "$0.00",
-      "permanent_free": false,
-      "since": "2026-10-22",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/24/d7/af/24d7aff4-7619-afee-d752-6fa051fdada9/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
-      "dev": "慧慧 高",
-      "genre": "Reference",
-      "rating": 0,
-      "url": "https://apps.apple.com/us/app/waitforecast/id6774845949?uo=4",
-      "page": "app/us-6774845949.html"
-    },
-    {
-      "app_id": "6798147223",
-      "app_name": "Storage Cleaner: SpaceFresh",
-      "iap": "Lifetime Access",
-      "price": "$0.00",
-      "permanent_free": false,
-      "since": "2026-10-22",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/41/e5/a7/41e5a73e-5b6b-2abb-722d-66f0949837ec/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-      "dev": "Nitin Gohel",
-      "genre": "Utilities",
-      "rating": 0,
-      "url": "https://apps.apple.com/us/app/storage-cleaner-spacefresh/id6798147223?uo=4",
-      "page": "app/us-6798147223.html"
     },
     {
       "app_id": "6772943882",
