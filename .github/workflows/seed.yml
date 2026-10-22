@@ -7,11 +7,11 @@ name: daily-seed
 # 之后立刻跑一遍 generate 双区，让当天早上首页立即包含这批新种子 App，
 # 不用干等 08:00(北京时间) 那班常规 generate。
 #
-# 定时：UTC 23:00 = 北京时间次日 07:00（赶在 08:00 常规班次之前完成喂料）。
+# 定时：UTC 23:11 = 北京时间次日 07:11（赶在 08:13 常规班次之前完成喂料，且错开整点高峰）。
 # 与 daily.yml(每6h) / daily-full.yml(每日05:00北京) 错开，共用同一并发组串行执行。
 on:
   schedule:
-    - cron: "0 23 * * *"
+    - cron: "11 23 * * *"
   workflow_dispatch: {}
 
 permissions:
