@@ -22,6 +22,15 @@
       intro_p4: '所有数据来自 Apple 公开接口，App 图标均直接引用苹果 CDN，不做转存。点击任意 App 即可跳转对应地区的 App Store 详情页。',
       sec_free: '🔓 今日限免',
       sec_deal: '💰 今日特价（降价未免费）',
+      sec_iap: '🎮 内购限免（实验）',
+      iap_empty: '内购限免正在累积数据，需连续观察数日才能捕捉「付费→免费」的跳变。',
+      iap_nodata: '该区暂未采集内购数据（美国区需走境外 CI）。',
+      iap_perm_note: '个常驻免费内购（永久 tier-0 赠品，不计入限免）',
+      iap_days: '已免费',
+      iap_original: '原价',
+      badge_iap_free: '限时免费',
+      iap_perm_tag: '常驻免费(赠品)',
+      iap_cur_free: '当前免费',
       loading: '加载中…',
       free_empty: '今天没有检出限免 App，明天再来看看～',
       deal_empty: '今天没有降价的特价 App。',
@@ -163,6 +172,15 @@
       intro_p4: 'All data comes from Apple’s public APIs; app icons link directly to Apple’s CDN, not re-hosted. Tap any app to jump to its App Store page in that region.',
       sec_free: '🔓 Free Today',
       sec_deal: '💰 Deals Today (price drop)',
+      sec_iap: '🎮 In-App Freebies (Beta)',
+      iap_empty: 'IAP freebie data is still accumulating — it takes several days of observation to catch a paid→free flip.',
+      iap_nodata: 'No IAP data collected for this region yet (US requires an overseas CI runner).',
+      iap_perm_note: 'permanent free IAPs (tier-0 gifts, excluded from freebies)',
+      iap_days: 'free for',
+      iap_original: 'was',
+      badge_iap_free: 'Limited-time free',
+      iap_perm_tag: 'Permanent free (gift)',
+      iap_cur_free: 'Currently free',
       loading: 'Loading…',
       free_empty: 'No limited-time free apps found today. Check back tomorrow.',
       deal_empty: 'No price-drop deals found today.',
@@ -487,6 +505,77 @@
     // 列表中部广告位已交由 Auto Ads（页面级自动广告）托管，不再手动插入。
   }
 
+  // ===== 内购限免（P2，dev 实验）=====
+  // 数据源：data/iap-free-{region}.json（真·限免事件，付费→0 跳变，已排除永久免费）
+  //        data/iap-current-free-{region}.json（当前所有免费内购，含永久并标注）
+  function iapCard(it, region, isEvent) {
+    var dict = I18N[CURRENT_LANG];
+    var storeUrl = it.url || ('https://apps.apple.com/' + region + '/app/id' + it.app_id);
+    var card = el('a', 'card');
+    card.href = storeUrl;
+    card.target = '_blank';
+    card.rel = 'noopener';
+    card.setAttribute('aria-label', (it.app_name || '') + ' · ' + (it.iap || '') + ' · ' + dict.card_store);
+    card.appendChild(el('div', 'iap-ico', '🎮'));
+    var info = el('div', 'info');
+    var nameRow = el('div', 'name-row');
+    nameRow.appendChild(el('span', 'name', esc(it.app_name || '—')));
+    if (isEvent) nameRow.appendChild(el('span', 'new-badge', esc(dict.badge_iap_free)));
+    info.appendChild(nameRow);
+    info.appendChild(el('div', 'dev', esc(it.iap || '')));   // 内购项名称
+    var price = el('div', 'price');
+    var original = isEvent ? (it.last_paid_price || '') : '';
+    if (original) price.appendChild(el('span', 'old', esc(original)));
+    price.appendChild(el('span', 'new free', esc(dict.card_free_price)));
+    info.appendChild(price);
+    var meta;
+    if (isEvent && it.days_free != null) {
+      meta = dict.iap_days + ' ' + it.days_free + ' ' + (CURRENT_LANG === 'en' ? 'days' : '天') +
+        (it.last_paid_price ? (' · ' + dict.iap_original + ' ' + it.last_paid_price) : '');
+    } else {
+      meta = it.permanent_free ? dict.iap_perm_tag : dict.iap_cur_free;
+    }
+    info.appendChild(el('div', 'dev', meta));
+    card.appendChild(info);
+    return card;
+  }
+
+  function loadIap(region) {
+    var dict = I18N[CURRENT_LANG];
+    var box = document.getElementById('iapFreeList');
+    if (!box) return;   // 非首页无容器则跳过
+    var fUrl = resolvePageUrl('data/iap-free-' + region + '.json');
+    var cUrl = resolvePageUrl('data/iap-current-free-' + region + '.json');
+    Promise.all([
+      fetch(fUrl, { cache: 'no-cache' }).then(function (r) { return r.ok ? r.json() : null; }).catch(function () { return null; }),
+      fetch(cUrl, { cache: 'no-cache' }).then(function (r) { return r.ok ? r.json() : null; }).catch(function () { return null; })
+    ]).then(function (res) {
+      var evData = res[0], curData = res[1];
+      if (!evData && !curData) { box.innerHTML = ''; box.appendChild(el('div', 'empty', dict.iap_nodata)); return; }
+      var events = (evData && evData.events) || [];
+      var curItems = (curData && curData.items) || [];
+      var evKeys = {};
+      events.forEach(function (e) { evKeys[e.app_id + '::' + e.iap] = true; });
+      var curNonPerm = curItems.filter(function (it) { return !it.permanent_free; });
+      var permCount = curItems.length - curNonPerm.length;
+      var feed = events.concat(curNonPerm.filter(function (it) { return !evKeys[it.app_id + '::' + it.iap]; }));
+      var countEl = document.getElementById('iapFreeCount');
+      if (countEl) countEl.textContent = feed.length;
+      box.innerHTML = '';
+      var note = permCount ? ('（另有 ' + permCount + ' ' + dict.iap_perm_note + '）') : '';
+      if (feed.length === 0) {
+        box.appendChild(el('div', 'empty', dict.iap_empty + note));
+        return;
+      }
+      var grid = el('div', 'grid');
+      feed.forEach(function (it) {
+        grid.appendChild(iapCard(it, region, evKeys[it.app_id + '::' + it.iap]));
+      });
+      box.appendChild(grid);
+      if (permCount) box.appendChild(el('div', 'dev', permCount + ' ' + dict.iap_perm_note));
+    });
+  }
+
   // 注：原列表中部手动广告逻辑已移除，中部广告改由 Google 自动广告补充。
 
   // ===== 筛选 =====
@@ -586,6 +675,7 @@
         var ss = document.getElementById('statSaved'); if (ss) ss.textContent = formatMoney(region, saved);
         fillGenres();
         renderFiltered();
+        loadIap(region);   // 内购限免（dev 实验）：双区切换联动
         // 独立页兜底：详情(iTunes)比数据先返回时，推荐区块曾渲染为空，这里补一次
         if (detailApp) {
           var ex = document.getElementById('dtExtra');

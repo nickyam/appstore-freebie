@@ -197,6 +197,7 @@ ins.adsbygoogle { background: #ececf0; border-radius: var(--radius); }
 .card, .card:hover { text-decoration: none; color: var(--text); }
 .card:hover { transform: translateY(-3px); box-shadow: 0 8px 24px rgba(0, 0, 0, .1); }
 .card img { width: 80px; height: 80px; border-radius: 18px; border: 1px solid var(--border); background: #fff; flex: none; object-fit: cover; }
+.card .iap-ico { width: 80px; height: 80px; border-radius: 18px; border: 1px solid var(--border); background: var(--surface); display: flex; align-items: center; justify-content: center; font-size: 34px; flex: none; }
 .card .info { min-width: 0; flex: 1; }
 /* 名称与开发者允许折行显示完整内容，最多两行；超出省略。
    （原本是 nowrap + ellipsis 一行截断，两列后空间变大，仍保留两行上限以防超长名撑高卡片） */
