@@ -134,6 +134,38 @@ main { padding: 0 0 96px; }
 .stats a.stat:active { background: var(--accent-soft); }
 .section-title[id] { scroll-margin-top: 84px; }   /* sticky 头部 ≈70px + 余量，锚点跳转不被遮挡 */
 
+/* 返回顶部（苹果风毛玻璃圆形，右下角；由 app.js setupBackTop 注入，滚动 400px 后 .show 淡入） */
+.back-top {
+  position: fixed; right: 22px; bottom: 22px; z-index: 900;
+  width: 46px; height: 46px; border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  border: 1px solid var(--border);
+  background: rgba(255, 255, 255, .72);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+  color: var(--accent);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, .12);
+  cursor: pointer;
+  opacity: 0; transform: translateY(12px) scale(.9); pointer-events: none;
+  transition: opacity .25s ease, transform .3s cubic-bezier(.22, 1, .36, 1), background .15s ease;
+}
+.back-top.show { opacity: 1; transform: none; pointer-events: auto; }
+.back-top:hover { background: rgba(255, 255, 255, .92); }
+.back-top:active { transform: scale(.93); }
+@media (max-width: 600px) {
+  .back-top { right: 16px; bottom: 16px; width: 42px; height: 42px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .back-top { transition: opacity .01s; }
+}
+/* 暗色主题（手动 data-theme=dark / 跟随系统）：毛玻璃黑底 + 亮蓝箭头 */
+:root[data-theme="dark"] .back-top { background: rgba(28, 28, 30, .72); border-color: rgba(255, 255, 255, .14); color: #64d2ff; }
+:root[data-theme="dark"] .back-top:hover { background: rgba(44, 44, 46, .9); }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme]) .back-top { background: rgba(28, 28, 30, .72); border-color: rgba(255, 255, 255, .14); color: #64d2ff; }
+  :root:not([data-theme]) .back-top:hover { background: rgba(44, 44, 46, .9); }
+}
+
 /* 搜索 + 分类筛选工具栏（iOS 胶囊风；现位于顶栏内，见 .header-inner .toolbar） */
 .toolbar { display: flex; gap: 10px; flex-wrap: wrap; }
 .search-input {

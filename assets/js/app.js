@@ -32,6 +32,7 @@
       iap_perm_tag: '常驻免费(赠品)',
       iap_cur_free: '当前免费',
       dt_iap_title: '🎁 内购限时免费',
+      back_top: '返回顶部',
       loading: '加载中…',
       free_empty: '今天没有检出限免 App，明天再来看看～',
       deal_empty: '今天没有降价的特价 App。',
@@ -184,6 +185,7 @@
       iap_perm_tag: 'Permanent free (gift)',
       iap_cur_free: 'Currently free',
       dt_iap_title: '🎁 IAP Limited-Time Free',
+      back_top: 'Back to top',
       loading: 'Loading…',
       free_empty: 'No limited-time free apps found today. Check back tomorrow.',
       deal_empty: 'No price-drop deals found today.',
@@ -363,6 +365,8 @@
     }
     // 品牌名按域名 + 语言统一由 applyBrand() 处理（见该函数），此处不再重复替换
     applyBrand();   // 让 logo / 页脚 / 标题 在切语言时同步为对应语言品牌名
+    var bt = document.getElementById('backTop');   // 返回顶部按钮（JS 注入，跟随语言）
+    if (bt) bt.setAttribute('aria-label', dict.back_top);
     var y = document.getElementById('year');
     if (y) y.textContent = new Date().getFullYear();
     var lb = document.getElementById('langBtn');
@@ -1323,12 +1327,42 @@
     });
   }
 
+  // 返回顶部（苹果风：毛玻璃圆形 + 雪佛龙箭头；滚动 400px 后淡入）
+  // JS 注入而非写死 HTML：所有加载 app.js 的页面（首页/详情页）自动获得，单一信源
+  function setupBackTop() {
+    if (document.getElementById('backTop')) return;
+    var dict = I18N[CURRENT_LANG] || I18N.zh;
+    var btn = document.createElement('button');
+    btn.id = 'backTop';
+    btn.type = 'button';
+    btn.className = 'back-top';
+    btn.setAttribute('aria-label', dict.back_top);
+    btn.innerHTML = '<svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" ' +
+      'stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">' +
+      '<path d="M6 14l6-6 6 6"/></svg>';
+    btn.addEventListener('click', function () {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+    document.body.appendChild(btn);
+    var ticking = false;
+    window.addEventListener('scroll', function () {
+      if (ticking) return;
+      ticking = true;
+      requestAnimationFrame(function () {
+        btn.classList.toggle('show', (window.scrollY || window.pageYOffset || 0) > 400);
+        ticking = false;
+      });
+    }, { passive: true });
+    btn.classList.toggle('show', (window.scrollY || window.pageYOffset || 0) > 400);
+  }
+
   function init() {
     applyTheme(getTheme());   // 主题（null=跟随系统）
     applyLang(getLang());     // 语言
     applyBrand();             // 站点品牌（域名自适应）
     bindControls();
     setupDetailEvents();      // 独立页同类推荐跳页事件
+    setupBackTop();           // 返回顶部按钮（首页 + 详情页通用）
     // 独立详情页模式：页面 URL 形如 app/{region}-{id}.html，数据内联于 window.__APP__
     if (window.__APP__ && document.getElementById('detailBody')) {
       var ap = window.__APP__;
