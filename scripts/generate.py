@@ -50,6 +50,7 @@ LONG_FREE_DAYS = 7       # 连续为 0 超过该天数 → 不再算限时免费
 DEAL_DROP_PCT = 0.50    # 降价判定：降幅 ≥ 50%（相对历史最高价）
 HISTORY_CAP = 120       # 每 App 保留的每日价格快照上限（用于曲线），标量基线永久保存
 DELIST_MISS = 3         # 连续 N 次 lookup 查不到（下架）→ 从库删除
+REL_POOL_SIZE = 18      # 详情页「同时期的其他限免」烘焙池大小；前端每次访问随机抽 6 个展示
 UA = "Mozilla/5.0 (compatible; AppFreebieBot/1.0; +https://appstore.nickyam.com)"
 
 # iOS App 全部一级分类 genre id
@@ -220,6 +221,44 @@ def sync_includes():
                 open(p, "w", encoding="utf-8").write(ns)
                 count += 1
     print("[info] shared security block synced: %d files" % count)
+
+
+def sync_base_tag():
+    """确保所有 HTML（含 app/ 下的历史详情页）都带 <base href="/">。
+
+    详情页位于 /app/ 目录下，若缺 <base>，页内相对资源/链接会相对 /app/ 解析：
+      · 相对页链接 app/cn-xxx.html → /app/app/cn-xxx.html → 404；
+      · 相对数据路径 data/xxx.json → /app/data/xxx.json → 拉不到数据。
+    当期清单内的 App 由 write_app_pages 用新模板重写（自带 base），
+    但已不在清单里的历史页不会重写，故需全量扫尾补齐（幂等，只补不改）。
+    已存在非根 base 的页面一律保留（子路径部署时由人工统一改写）。"""
+    base_tag = '<base href="/" />'
+    pat_has = re.compile(r"<base\s[^>]*>", re.I)
+    pat_head = re.compile(r"(<head[^>]*>)", re.I)
+    count = 0
+    for root, dirs, files in os.walk(BASE_DIR):
+        if "/.git" in root:
+            continue
+        for fn in files:
+            if not fn.endswith(".html"):
+                continue
+            p = os.path.join(root, fn)
+            try:
+                s = open(p, encoding="utf-8").read()
+            except Exception:
+                continue
+            if pat_has.search(s):
+                continue          # 已有 base（无论根还是子路径）→ 不动
+            m = pat_head.search(s)
+            if not m:
+                continue          # 非标准 HTML（无 head）→ 跳过
+            ns = s[:m.end()] + "\n  " + base_tag + s[m.end():]
+            try:
+                open(p, "w", encoding="utf-8").write(ns)
+                count += 1
+            except Exception:
+                continue
+    print("[info] base tag synced: %d files" % count)
 
 
 def stamp_asset_version():
@@ -648,13 +687,19 @@ def main():
 
     # 为每个 item 附带「同时期的其他限免/特价」轻量推荐（id/name/icon/genre/type/page/rating/region），
     # 供详情页直出，避免详情页为推荐再拉取整份 free-today JSON。
+    # 池子放宽到 REL_POOL_SIZE（前端每次访问随机抽 6 个展示）——若只烘焙 6 个，
+    # 洗牌后仍是同一批 App，每个详情页显示的推荐完全一样（用户反馈"固定不合理"）。
     pool_sorted = sorted(freebies + deals, key=sort_key)
     for it in (freebies + deals):
-        others = [x for x in pool_sorted if x["id"] != it["id"]][:6]
+        others = [x for x in pool_sorted if x["id"] != it["id"]][:REL_POOL_SIZE]
         it["rel"] = [
             {"id": x["id"], "name": x.get("name", ""), "icon": x.get("icon", ""),
              "genre": x.get("genre", ""), "type": x.get("type", ""),
-             "page": x.get("page", ""), "rating": x.get("rating", 0),
+             # 此处 x["page"] 尚未被 write_app_pages 赋值（那段在本块之后才跑），
+             # 故此处按与生成器一致的公式直接给出相对站根的详情页路径，
+             # 否则推荐卡片的 page 会是空串 → 渲染成不可点击的 div。
+             "page": x.get("page") or ("app/%s-%s.html" % (country, x["id"])),
+             "rating": x.get("rating", 0),
              "region": x.get("region", country)} for x in others
         ]
 
@@ -682,6 +727,7 @@ def main():
           f"(全量输出，无展示上限)")
     print(f"[ok] app pages written={pages_written} sitemap_urls={sm_urls} pruned={pruned}")
     sync_includes()
+    sync_base_tag()
     stamp_asset_version()
 
 

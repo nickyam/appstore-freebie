@@ -415,11 +415,22 @@
     return sym + Math.round(v || 0).toLocaleString('en-US');
   }
 
+  // 把相对站根的页路径（如 "app/cn-123.html"）解析为最终跳转地址。
+  // 优先用 <base> 的 href（子路径部署时指向 /freebie/），否则退回 origin 根——
+  // 这样即便详情页（/app/ 目录下）缺少 <base> 兜底，也不会叠成 /app/app/... 导致 404。
+  function resolvePageUrl(p) {
+    if (!p) return p;
+    var b = document.querySelector('base');
+    var root = (b && b.getAttribute('href')) || (location.origin + '/');
+    if (root.slice(-1) !== '/') root += '/';
+    return root + String(p).replace(/^\//, '');
+  }
+
   function appCard(app, kind) {
     var dict = I18N[CURRENT_LANG];
     var card = app.page ? el('a', 'card') : el('div', 'card');
     if (app.page) {
-      card.href = app.page;
+      card.href = resolvePageUrl(app.page);
       card.setAttribute('aria-label', (app.name || '') + ' · ' + dict.card_store);
     }
     if (app.icon) {
@@ -454,7 +465,7 @@
     card.classList.add('card-click');
     if (!app.page) {
       card.addEventListener('click', function () {
-        if (app.page) location.href = app.page;
+        if (app.page) location.href = resolvePageUrl(app.page);
       });
     }
     return card;
@@ -545,7 +556,7 @@
       btns[i].setAttribute('aria-pressed', on ? 'true' : 'false');
     }
 
-    fetch(meta.file, { cache: 'no-cache' })
+    fetch(resolvePageUrl(meta.file), { cache: 'no-cache' })
       .then(function (r) {
         if (!r.ok) throw new Error('HTTP ' + r.status);
         return r.json();
@@ -664,7 +675,7 @@
     var logo = document.getElementById('logoHome');
     if (logo) logo.addEventListener('click', function () {
       if (!document.getElementById('freeList')) {
-        location.href = 'index.html';
+        location.href = resolvePageUrl('index.html');
         return;
       }
       var dict = I18N[CURRENT_LANG];
@@ -850,7 +861,7 @@
     pool.sort(function (x, y) {
       return (y.is_new ? 1 : 0) - (x.is_new ? 1 : 0) || (y.rating || 0) - (x.rating || 0);
     });
-    pool = pool.slice(0, 6);
+    pool = pool.slice(0, 18);   // 交由 renderRecommend 随机抽 6（若这里就截到 6，洗牌后仍是同一批）
     return { html: '<div class="dt-related dt-period"><h3>' + esc(dict.dt_same_period) + '</h3><div class="grid" id="dtSameGrid"></div></div>', items: pool };
   }
 
@@ -880,21 +891,34 @@
   var detailApp = null;   // 当前独立页正在展示的 App
   function renderRecommend(app, extra) {
     if (!app || !extra) return;
-    var items;
-    if (app.rel && app.rel.length) {
-      items = app.rel;            // 优先用生成时内联的轻量推荐，避免详情页再拉整份 JSON
-    } else {
-      items = samePeriodHTML(app).items;
+    // 同一页生命周期内只随机一次并缓存：详情页会先后用「iTunes 详情」和「列表数据」渲染两次，
+    // 每次重新洗牌会导致推荐列表跳动。
+    var picked = app.__relPicked;
+    if (!picked) {
+      var items;
+      if (app.rel && app.rel.length) {
+        items = app.rel.slice();   // 优先用生成时内联的轻量推荐，避免详情页再拉整份 JSON
+      } else {
+        items = samePeriodHTML(app).items;
+      }
+      // 随机洗牌后取前 6：避免每个详情页都显示同一批固定推荐（用户反馈"固定不合理"），
+      // 每次访问都随机，但始终来自同区同期的限免/特价池，保持相关性。
+      for (var i = items.length - 1; i > 0; i--) {
+        var j = Math.floor(Math.random() * (i + 1));
+        var t = items[i]; items[i] = items[j]; items[j] = t;
+      }
+      picked = items.slice(0, 6);
+      if (picked.length) app.__relPicked = picked;
     }
     var box = document.createElement('div');
     box.innerHTML = '<div class="dt-related dt-period"><h3>' + esc(I18N[CURRENT_LANG].dt_same_period) +
       '</h3><div class="grid" id="dtSameGrid"></div></div>';
     var olds = extra.querySelectorAll('.dt-related');
-    for (var i = 0; i < olds.length; i++) extra.removeChild(olds[i]);
+    for (var k = 0; k < olds.length; k++) extra.removeChild(olds[k]);
     while (box.firstChild) extra.appendChild(box.firstChild);
     // 独立页尾部广告位已交由 Auto Ads 托管，不再手动插入。
     var sg = extra.querySelector('#dtSameGrid');
-    if (sg) items.forEach(function (a) { sg.appendChild(appCard(a, a.type === 'deal' ? 'deal' : 'free')); });
+    if (sg) picked.forEach(function (a) { sg.appendChild(appCard(a, a.type === 'deal' ? 'deal' : 'free')); });
   }
 
   // 渲染详情内容（独立详情页；panel 为空表示独立页模式）
@@ -905,12 +929,13 @@
 
     // 基础信息（无需网络，价格后续用实时 iTunes 数据覆盖）
     var ratingStr = (app.rating && app.rating > 0) ? ('★ ' + (Math.round(app.rating * 10) / 10).toFixed(1)) : '';
+    var genreHref = app.genre ? resolvePageUrl('index.html?genre=' + encodeURIComponent(app.genre) + '&region=' + esc(app.region || 'cn')) : '';
     var base = '<div class="dt-head">' +
       (app.icon ? '<img class="dt-icon" src="' + esc(app.icon) + '" alt=""/>' : '<div class="dt-icon dt-ic">📱</div>') +
       '<div class="dt-hinfo"><h2 class="dt-name">' + esc(app.name || '') + '</h2>' +
       '<div class="dt-dev">' + esc(app.dev || '') + '</div>' +
       '<div class="dt-meta">' +
-      (app.genre ? '<a class="dt-chip chip-link" href="index.html?genre=' + encodeURIComponent(app.genre) + '&region=' + esc(app.region || 'cn') + '" title="' + esc(dict.dt_genre_link) + '">' + esc(genreLabel(app.genre)) + '</a>' : '') +
+      (app.genre ? '<a class="dt-chip chip-link" href="' + esc(genreHref) + '" title="' + esc(dict.dt_genre_link) + '">' + esc(genreLabel(app.genre)) + '</a>' : '') +
       ((ratingStr || true) ? '<span class="dt-chip' + (ratingStr ? '' : ' norate') + '">' + esc(ratingStr ? '⭐ ' + ratingStr.replace('★ ', '') : dict.no_rating) + '</span>' : '') +
       '</div>' +
       '<div class="dt-price"><span class="dt-cur ' + (app.type === 'free' ? 'free' : 'deal') + '" id="dtPrice">' + esc(app.type === 'free' ? dict.card_free_price : (app.current || '')) + '</span>' +
