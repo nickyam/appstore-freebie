@@ -1,0 +1,18 @@
+# Cloudflare Pages 全局安全头（主部署目标；阿里云镜像见 deploy/nginx-*.conf）
+# 说明：本站同时部署在 Cloudflare Pages（主）与阿里云镜像，两份配置需保持一致。
+/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Strict-Transport-Security: max-age=31536000; includeSubDomains
+
+# HTML 页面：每次都回源校验，确保访客拿到最新页面
+/*.html
+  Cache-Control: no-cache
+
+# 数据 JSON 每日更新：短缓存 + 必须回源校验
+/data/*.json
+  Cache-Control: public, max-age=300, must-revalidate
+
+# 带版本号戳的静态资源：长期不可变缓存（generate.py 改版后会刷新 ?v=，旧资源自动失效）
+/assets/*
+  Cache-Control: public, max-age=604800, immutable

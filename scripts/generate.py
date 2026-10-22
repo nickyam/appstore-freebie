@@ -44,7 +44,8 @@ import argparse
 GENRE_LIMIT = 100       # 每分类 付费榜 TopN（RSS 单源上限 100）
 GROSS_LIMIT = 100       # 每分类 畅销榜 TopN
 FREE_LIMIT = 200        # 整体 免费榜 TopN（RSS 可能截断到 100，无害）
-HISTORY_DAYS = 30       # （保留常量名，仅用于向后兼容注释）
+APP_PAGE_MAX_AGE_DAYS = 365   # 独立页超过该天数且不在当期清单 → 删除（限制 app/ 与 sitemap 无限膨胀）
+HISTORY_MAX_ENTRIES = 50000   # 永久库软上限，超出时淘汰最早建档且非当期限免/特价的条目
 LONG_FREE_DAYS = 7       # 连续为 0 超过该天数 → 不再算限时免费
 DEAL_DROP_PCT = 0.50    # 降价判定：降幅 ≥ 50%（相对历史最高价）
 HISTORY_CAP = 120       # 每 App 保留的每日价格快照上限（用于曲线），标量基线永久保存
@@ -82,7 +83,7 @@ def write_app_pages(items, country, today):
     os.makedirs(APP_DIR, exist_ok=True)
     count = 0
     for item in items:
-        page_rel = "app/%s-%s.html" % (country, item["id"])
+        page_rel = "/app/%s-%s.html" % (country, item["id"])
         item["page"] = page_rel
         is_free = item.get("type") == "free"
         name = item.get("name", "")
@@ -160,16 +161,54 @@ def write_sitemap():
     return len(paths)
 
 
-def prune_unrated_pages():
-    """删除所有「无用户评分（rating==0）」的 App 独立页。
+def stamp_asset_version():
+    """用 git commit sha（回退到日期）自动生成静态资源版本号，统一替换所有 HTML 的 ?v=。
 
-    规则（用户拍板）：没有评分的 App 的独立页不保存、也绝不进 sitemap。
-    有评分（rating>0）的页面一律保留——包括已从限免清单掉出、价格恢复的成熟 App 页。
-    该函数须在 write_sitemap 之前调用，确保被删页不会残留进 sitemap。
+    取代手工维护 ?v=：每次生成后所有页面与生成页的资源引用都会带上新戳，
+    缓存（Cloudflare/Aliyun 的 immutable 长缓存）随之自动失效，避免「改了 JS 却发旧版」。"""
+    import subprocess
+    ver = None
+    try:
+        ver = subprocess.check_output(
+            ["git", "rev-parse", "--short", "HEAD"], cwd=BASE_DIR,
+            stderr=subprocess.DEVNULL).decode().strip()
+    except Exception:
+        ver = datetime.datetime.now(datetime.timezone.utc).strftime("%Y%m%d")
+    if not ver:
+        ver = "static"
+    pat = re.compile(r"(\?v=)[A-Za-z0-9._-]+")
+    count = 0
+    for root, dirs, files in os.walk(BASE_DIR):
+        if "/.git" in root:
+            continue
+        for fn in files:
+            if not fn.endswith(".html"):
+                continue
+            p = os.path.join(root, fn)
+            try:
+                s = open(p, encoding="utf-8").read()
+            except Exception:
+                continue
+            ns = pat.sub(r"\g<1>" + ver, s)
+            if ns != s:
+                open(p, "w", encoding="utf-8").write(ns)
+                count += 1
+    print("[info] asset version stamped: %s (%d files)" % (ver, count))
+
+
+def prune_app_pages(max_age_days):
+    """清理 App 独立页，限制 app/ 目录与 sitemap 无限膨胀。
+
+    删除规则（须在 write_sitemap 之前调用，确保被删页不残留进 sitemap）：
+      · 无用户评分（rating==0）的页；
+      · 有评分但页面生成日期早于 max_age_days 天（该 App 长期未再进入限免/特价，
+        对 SEO 与抓取预算价值递减）。
+    当期清单里的 App 每次运行都会被重写（data-page-date 为当天），因此不会被误删。
     """
     if not os.path.isdir(APP_DIR):
         return 0
     removed = 0
+    cutoff = (datetime.date.today() - datetime.timedelta(days=max_age_days)).isoformat()
     for fn in os.listdir(APP_DIR):
         if not fn.endswith(".html"):
             continue
@@ -180,11 +219,13 @@ def prune_unrated_pages():
             continue
         m = re.search(r'"rating"\s*:\s*([0-9.]+)', txt)
         rated = bool(m and float(m.group(1)) > 0)
-        if not rated:
+        pd = re.search(r'data-page-date="([0-9-]+)"', txt)
+        page_date = pd.group(1) if pd else ""
+        if (not rated) or (page_date and page_date < cutoff):
             try:
                 os.remove(path)
                 removed += 1
-                print("[info] prune unrated page: %s" % fn)
+                print("[info] prune page: %s" % fn)
             except OSError:
                 pass
     return removed
@@ -493,7 +534,10 @@ def main():
             # 规则：无用户评分（评论）的应用不收录到限免/特价清单
             if not rating:
                 continue
-            newly = (cur == 0 and prev > 0)  # 本轮/本日新触发
+            if is_free:
+                newly = (cur == 0 and prev > 0)            # 本轮/本日新触发（限免）
+            else:
+                newly = (prev > 0 and cur > 0 and cur < prev)  # 较昨日继续/新降价（特价）
             # 原价锚点：优先用库内记录的原价（永久保鲜），否则回落到历史最高价 / prev / 当前
             anchor = (history[cid] or {}).get("anchor") or 0
             if anchor <= 0:
@@ -533,11 +577,33 @@ def main():
     if delisted:
         print(f"[info] delisted (miss≥{DELIST_MISS}): {delisted} apps")
 
+    # 库规模上限保护：超出时淘汰「最早建档且当前不在限免/特价」的条目，避免无限膨胀
+    if len(history) > HISTORY_MAX_ENTRIES:
+        keep_ids = {str(x["id"]) for x in (freebies + deals)}
+        cand = [cid for cid in history if cid not in keep_ids]
+        cand.sort(key=lambda c: history[c].get("first") or "")
+        over = len(history) - HISTORY_MAX_ENTRIES
+        for cid in cand[:over]:
+            del history[cid]
+        print(f"[info] history capped: removed {min(over, len(cand))} idle entries")
+
     # 排序：新触发的限免/降价优先，其次评分高、名称
     def sort_key(x):
         return (-(1 if x.get("is_new") else 0), -(x.get("rating") or 0), x.get("name") or "")
     freebies.sort(key=sort_key)
     deals.sort(key=sort_key)
+
+    # 为每个 item 附带「同时期的其他限免/特价」轻量推荐（id/name/icon/genre/type/page/rating/region），
+    # 供详情页直出，避免详情页为推荐再拉取整份 free-today JSON。
+    pool_sorted = sorted(freebies + deals, key=sort_key)
+    for it in (freebies + deals):
+        others = [x for x in pool_sorted if x["id"] != it["id"]][:6]
+        it["rel"] = [
+            {"id": x["id"], "name": x.get("name", ""), "icon": x.get("icon", ""),
+             "genre": x.get("genre", ""), "type": x.get("type", ""),
+             "page": x.get("page", ""), "rating": x.get("rating", 0),
+             "region": x.get("region", country)} for x in others
+        ]
 
     result = {
         "date": today,
@@ -554,15 +620,15 @@ def main():
     save_json(out_path, result)
     save_json(history_path, history)
 
-    # 先删「无评分」独立页（无评分 App 不保存、不进 sitemap），再写 sitemap
-    pruned = prune_unrated_pages()
-    # 重写 sitemap：收录磁盘上全部「有评分」的独立页（即使该 App 已不在限免清单，只要评分>0 仍保留并收录）
+    # 先清理独立页（无评分 / 过期），再写 sitemap；sitemap 只收录磁盘上仍保留的页
+    pruned = prune_app_pages(APP_PAGE_MAX_AGE_DAYS)
     sm_urls = write_sitemap()
 
     print(f"[ok] country={country} full={full} date={today} monitored={len(union)} "
           f"library={len(history)} freebies={len(freebies)} deals={len(deals)} "
           f"(全量输出，无展示上限)")
-    print(f"[ok] app pages written={pages_written} sitemap_urls={sm_urls} pruned_unrated={pruned}")
+    print(f"[ok] app pages written={pages_written} sitemap_urls={sm_urls} pruned={pruned}")
+    stamp_asset_version()
 
 
 if __name__ == "__main__":

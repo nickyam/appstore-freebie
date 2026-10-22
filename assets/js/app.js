@@ -338,17 +338,7 @@
       var pk = phNodes[j].getAttribute('data-i18n-ph');
       if (dict[pk] != null) phNodes[j].setAttribute('placeholder', dict[pk]);
     }
-    // 品牌名按域名 + 语言替换（limzero=极零限免/Lim Freebies、nickyam=涯木限免/Yam Freebies）
-    var brand = brandName();
-    for (var k = 0; k < nodes.length; k++) {
-      var html = nodes[k].innerHTML;
-      if (!html) continue;
-      if (html.indexOf('苹果限免雷达') >= 0) {
-        nodes[k].innerHTML = html.split('苹果限免雷达').join(brand);
-      } else if (html.indexOf('Apple Freebie Radar') >= 0) {
-        nodes[k].innerHTML = html.split('Apple Freebie Radar').join(brand);
-      }
-    }
+    // 品牌名按域名 + 语言统一由 applyBrand() 处理（见该函数），此处不再重复替换
     applyBrand();   // 让 logo / 页脚 / 标题 在切语言时同步为对应语言品牌名
     var y = document.getElementById('year');
     if (y) y.textContent = new Date().getFullYear();
@@ -382,6 +372,7 @@
     var tb = document.getElementById('themeBtn');
     if (tb) {
       tb.setAttribute('aria-label', dark ? '切换浅色模式' : '切换深色模式');
+      tb.setAttribute('aria-pressed', dark ? 'true' : 'false');
     }
   }
   function getTheme() { return lsGet(THEME_KEY); }
@@ -397,6 +388,15 @@
     return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) {
       return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
     });
+  }
+
+  function debounce(fn, ms) {
+    var t;
+    return function () {
+      var a = arguments, c = this;
+      clearTimeout(t);
+      t = setTimeout(function () { fn.apply(c, a); }, ms);
+    };
   }
 
   // 从格式化价格串（如 "¥98.00" / "$9.99" / "免费"）中提取数值；免费/无法解析返回 null
@@ -416,7 +416,11 @@
 
   function appCard(app, kind) {
     var dict = I18N[CURRENT_LANG];
-    var card = el('div', 'card');
+    var card = app.page ? el('a', 'card') : el('div', 'card');
+    if (app.page) {
+      card.href = app.page;
+      card.setAttribute('aria-label', (app.name || '') + ' · ' + dict.card_store);
+    }
     if (app.icon) {
       var img = el('img');
       img.src = app.icon;
@@ -445,11 +449,13 @@
     price.appendChild(el('span', newCls, esc(newText)));
     info.appendChild(price);
     card.appendChild(info);
-    // 卡片整体可点 → 直接跳该 App 的独立详情页（无独立页则忽略）
+    // 卡片整体可点：用 <a> 直出链接（键盘 / 读屏 / 搜索引擎均可访问）；无独立页时退化为 div + click
     card.classList.add('card-click');
-    card.addEventListener('click', function () {
-      if (app.page) location.href = app.page;
-    });
+    if (!app.page) {
+      card.addEventListener('click', function () {
+        if (app.page) location.href = app.page;
+      });
+    }
     return card;
   }
 
@@ -513,7 +519,7 @@
     renderList('dealList', deals, 'deal', dealEmpty);
   }
 
-  function showError() {
+  function showError(region) {
     var dict = I18N[CURRENT_LANG];
     ['freeList', 'dealList'].forEach(function (id) {
       var b = document.getElementById(id);
@@ -523,7 +529,7 @@
     if (dl) dl.textContent = dict.err_line;
     var sf = document.getElementById('statFree'); if (sf) sf.textContent = '0';
     var sd = document.getElementById('statDeal'); if (sd) sd.textContent = '0';
-    var ss = document.getElementById('statSaved'); if (ss) ss.textContent = '¥0';
+    var ss = document.getElementById('statSaved'); if (ss) ss.textContent = formatMoney(region || 'cn', 0);
   }
 
   function load(region) {
@@ -533,7 +539,9 @@
     var dict = I18N[CURRENT_LANG];
     var btns = document.querySelectorAll('#regionSwitch .region-btn');
     for (var i = 0; i < btns.length; i++) {
-      btns[i].classList.toggle('active', btns[i].getAttribute('data-region') === region);
+      var on = btns[i].getAttribute('data-region') === region;
+      btns[i].classList.toggle('active', on);
+      btns[i].setAttribute('aria-pressed', on ? 'true' : 'false');
     }
 
     fetch(meta.file, { cache: 'no-cache' })
@@ -572,7 +580,7 @@
           if (ex && !ex.querySelector('.dt-related')) renderRecommend(detailApp, ex);
         }
       })
-      .catch(function () { showError(); });
+      .catch(function () { showError(region); });
   }
 
   function bindControls() {
@@ -607,10 +615,13 @@
 
     // 搜索 + 分类筛选（纯前端过滤已加载数据，不发网请求）
     var si = document.getElementById('searchInput');
-    if (si) si.addEventListener('input', function () {
-      state.search = this.value;
-      renderFiltered();
-    });
+    if (si) {
+      var runFilter = debounce(function () { renderFiltered(); }, 160);
+      si.addEventListener('input', function () {
+        state.search = this.value;
+        runFilter();
+      });
+    }
     var gf = document.getElementById('genreFilter');
     if (gf) gf.addEventListener('change', function () {
       state.genre = this.value;
@@ -718,6 +729,12 @@
     var canon = document.querySelector('link[rel="canonical"]');
     if (canon) canon.setAttribute('href', url);
     setMeta('og:url', url);
+    // 正文里带品牌名的 data-i18n 节点（页脚版权、hero 文案等）也要按域名替换，
+    // logo / 标题 / 页脚名之外的地方不能漏（#8 把这部分从 applyLang 收拢到此处）
+    var inodes = document.querySelectorAll('[data-i18n]');
+    for (var i = 0; i < inodes.length; i++) {
+      inodes[i].innerHTML = swap(inodes[i].innerHTML || '');
+    }
       try {
         var ld = document.querySelector('script[type="application/ld+json"]');
         if (ld) {
@@ -844,18 +861,21 @@
   var detailApp = null;   // 当前独立页正在展示的 App
   function renderRecommend(app, extra) {
     if (!app || !extra) return;
-    var sp = samePeriodHTML(app);
-    var isPage = !!(detailApp && detailApp.id === app.id);
+    var items;
+    if (app.rel && app.rel.length) {
+      items = app.rel;            // 优先用生成时内联的轻量推荐，避免详情页再拉整份 JSON
+    } else {
+      items = samePeriodHTML(app).items;
+    }
     var box = document.createElement('div');
-    box.innerHTML = sp.html;
+    box.innerHTML = '<div class="dt-related dt-period"><h3>' + esc(I18N[CURRENT_LANG].dt_same_period) +
+      '</h3><div class="grid" id="dtSameGrid"></div></div>';
     var olds = extra.querySelectorAll('.dt-related');
     for (var i = 0; i < olds.length; i++) extra.removeChild(olds[i]);
     while (box.firstChild) extra.appendChild(box.firstChild);
     // 独立页尾部广告位已交由 Auto Ads 托管，不再手动插入。
     var sg = extra.querySelector('#dtSameGrid');
-    if (sg && sp.items.length) {
-      sp.items.forEach(function (a) { sg.appendChild(appCard(a, a.type === 'deal' ? 'deal' : 'free')); });
-    }
+    if (sg) items.forEach(function (a) { sg.appendChild(appCard(a, a.type === 'deal' ? 'deal' : 'free')); });
   }
 
   // 渲染详情内容（独立详情页；panel 为空表示独立页模式）
@@ -1035,37 +1055,45 @@
       });
     return g.catch(function () { return m; });
   }
-  // 整段介绍按段落拆分翻译（MyMemory 单次限 500 字节），返回 Promise<{text, ok}>
+  // 按 UTF-8 字节切分（MyMemory 免费接口单请求上限 ~500 字节），避免在多字节字符中途截断
+  function splitByBytes(text, maxBytes) {
+    var pieces = [], cur = '', curBytes = 0;
+    for (var i = 0; i < text.length; i++) {
+      var ch = text[i];
+      var b = encodeURIComponent(ch).replace(/%[0-9A-F]{2}/g, 'U').length; // ASCII=1，CJK≈3
+      if (curBytes + b > maxBytes && cur) { pieces.push(cur); cur = ''; curBytes = 0; }
+      cur += ch; curBytes += b;
+    }
+    if (cur) pieces.push(cur);
+    return pieces;
+  }
+
+  // 整段介绍按段落、再按字节拆分后并行翻译（带 localStorage 缓存、失败回退原文）
   function translateDesc(text, targetLang) {
     var sl = cjkRatio(text) > 0.15 ? 'zh' : 'en';
     var tl = targetLang === 'en' ? 'en' : 'zh';
     if (sl === tl) return Promise.resolve(null);
+    var MAX_BYTES = 450;   // 留余量以低于 MyMemory 的 500 字节上限
     var paras = text.split('\n');
-    var pieces = [];
-    paras.forEach(function (p, idx) {
-      if (!p.trim()) return;
-      for (var i = 0; i < Math.max(1, Math.ceil(p.length / 450)); i++) {
-        pieces.push({ idx: idx, seg: p.slice(i * 450, (i + 1) * 450) });
-      }
-    });
     var out = {};
     var failed = false;
-    var chain = Promise.resolve();
-    pieces.forEach(function (pc) {
-      chain = chain.then(function () {
-        var key = 'freebie-tr:' + tl + ':' + hashStr(pc.seg);
+    var tasks = [];
+    paras.forEach(function (p, idx) {
+      if (!p.trim()) return;
+      splitByBytes(p, MAX_BYTES).forEach(function (seg) {
+        var key = 'freebie-tr:' + tl + ':' + hashStr(seg);
         var cached = trGet(key);
-        if (cached) { (out[pc.idx] = out[pc.idx] || []).push(cached); return; }
-        return translateChunk(pc.seg, sl, tl).then(function (v) {
+        if (cached) { (out[idx] = out[idx] || []).push(cached); return; }
+        tasks.push(translateChunk(seg, sl, tl).then(function (v) {
           trSet(key, v);
-          (out[pc.idx] = out[pc.idx] || []).push(v);
+          (out[idx] = out[idx] || []).push(v);
         }).catch(function () {
           failed = true;
-          (out[pc.idx] = out[pc.idx] || []).push(pc.seg);   // 回退原文
-        });
+          (out[idx] = out[idx] || []).push(seg);   // 回退原文
+        }));
       });
     });
-    return chain.then(function () {
+    return Promise.all(tasks).then(function () {
       var result = [];
       paras.forEach(function (p, idx) { result.push((out[idx] || []).join('')); });
       return { text: result.join('\n'), ok: !failed };
@@ -1132,7 +1160,7 @@
     // 独立详情页模式：页面 URL 形如 app/{region}-{id}.html，数据内联于 window.__APP__
     if (window.__APP__ && document.getElementById('detailBody')) {
       var ap = window.__APP__;
-      load(ap.region || 'cn');   // 供同类推荐使用
+      if (!ap.rel || !ap.rel.length) load(ap.region || 'cn');  // 旧页无内联推荐时才拉整份清单
       renderDetail(ap, document.getElementById('detailBody'), null);
       return;
     }

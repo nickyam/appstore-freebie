@@ -433,3 +433,13 @@ main > .detail-body {
 @media (max-width: 560px) {
   main > .detail-body { padding: 20px 16px 24px; }
 }
+
+/* 尊重「减少动效」系统偏好：关闭入场动画与过渡，照顾前庭功能障碍用户 */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: .001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: .001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
