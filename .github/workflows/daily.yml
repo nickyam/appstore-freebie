@@ -66,15 +66,35 @@ jobs:
           PATHS="data/free-today-cn.json data/free-today-us.json data/history-cn.json data/history-us.json index.html about.html privacy.html terms.html 404.html app-page.html app/ sitemap.xml"
           MSG="daily: App Store 限免更新 $(date -u +%Y-%m-%d)"
 
-          # 以远端最新 main 为基重新生成再提交：生成物是确定性的（同样输入同样输出），
-          # 所以「丢掉本次结果重跑一遍」是安全的，且天然避开 rebase 冲突。
-          regenerate_and_commit() {
-            git fetch origin main
-            git reset --hard origin/main
-            python scripts/generate.py --country cn
-            python scripts/generate.py --country us
-            git add $PATHS
-            git commit -m "$MSG (rerun)" || true
+          # 双区生成（带 3 次重试；Apple 接口偶发超时/限流）
+          gen() {
+            for i in 1 2 3; do
+              if python scripts/generate.py --country cn && python scripts/generate.py --country us; then return 0; fi
+              echo "::warning::生成失败（第 $i 次），20 秒后重试"
+              sleep 20
+            done
+            return 1
+          }
+
+          # 以远端最新 main 为基重新生成再提交推送（生成物是确定性的：同样输入同样输出，
+          # 所以「丢掉本次结果重跑一遍」是安全的，且天然避开 rebase 冲突）。
+          # 重试循环：跑批期间用户常在 GitHub Desktop 手动推送，push 竞争可持续数分钟，
+          # 单次重试不够（2026-10-22 两班红 X 即撞在用户高频推送上）——循环最多 5 次。
+          regenerate_and_push() {
+            for i in 1 2 3 4 5; do
+              git fetch origin main
+              git reset --hard origin/main
+              gen || { echo "::error::重试第 $i 次：生成失败"; return 1; }
+              git add $PATHS
+              git commit -m "$MSG" || true
+              if git push; then
+                echo "推送成功（第 $i 次尝试）"
+                return 0
+              fi
+              echo "::warning::push 被拒（第 $i 次），10 秒后重试"
+              sleep 10
+            done
+            return 1
           }
 
           git add $PATHS
@@ -88,11 +108,8 @@ jobs:
           if ! git pull --rebase origin main; then
             echo "::warning::rebase 冲突 → 基于最新 main 重新生成"
             git rebase --abort || true
-            regenerate_and_commit
           fi
           if ! git push; then
-            echo "::warning::push 被拒 → 基于最新 main 重新生成后重推"
-            git rebase --abort || true
-            regenerate_and_commit
-            git push
+            echo "::warning::push 被拒 → 进入重试循环（最多 5 次）"
+            regenerate_and_push
           fi
