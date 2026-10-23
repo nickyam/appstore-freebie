@@ -22,7 +22,7 @@
       intro_p4: '所有数据来自 Apple 公开接口，App 图标均直接引用苹果 CDN，不做转存。点击任意 App 即可跳转对应地区的 App Store 详情页。',
       sec_free: '🔓 本体限免',
       sec_deal: '💰 特价打折（降价未免费）',
-      sec_iap: '🎮 内购限免（实验）',
+      sec_iap: '🎮 内购限免',
       region_cn: '中国区',
       region_us: '美国区',
       iap_empty: '内购限免正在累积数据，需连续观察数日才能捕捉「付费→免费」的跳变。',
@@ -177,7 +177,7 @@
       intro_p4: 'All data comes from Apple’s public APIs; app icons link directly to Apple’s CDN, not re-hosted. Tap any app to jump to its App Store page in that region.',
       sec_free: '🔓 App Freebies',
       sec_deal: '💰 Price Drops (reduced price)',
-      sec_iap: '🎮 In-App Freebies (Beta)',
+      sec_iap: '🎮 In-App Freebies',
       region_cn: 'China',
       region_us: 'US',
       iap_empty: 'IAP freebie data is still accumulating — it takes several days of observation to catch a paid→free flip.',
@@ -517,7 +517,7 @@
     // 列表中部广告位已交由 Auto Ads（页面级自动广告）托管，不再手动插入。
   }
 
-  // ===== 内购限免（P2，dev 实验）=====
+  // ===== 内购限免（P2，已上线 main）=====
   // 数据源：data/iap-free-{region}.json（真·限免事件，付费→0 跳变，已排除永久免费）
   //        data/iap-current-free-{region}.json（当前所有免费内购）
   var lastAppSaved = 0;   // 本体限免/特价的可省金额（load 时算好，loadIap 追加 IAP 部分）
@@ -721,7 +721,7 @@
         var ss = document.getElementById('statSaved'); if (ss) ss.textContent = formatMoney(region, saved);
         fillGenres();
         renderFiltered();
-        loadIap(region);   // 内购限免（dev 实验）：双区切换联动
+        loadIap(region);   // 内购限免：双区切换联动
         // 独立页兜底：详情(iTunes)比数据先返回时，推荐区块曾渲染为空，这里补一次
         if (detailApp) {
           var ex = document.getElementById('dtExtra');
@@ -1074,7 +1074,7 @@
       '<div class="dt-meta">' +
       (app.genre ? '<a class="dt-chip chip-link" href="' + esc(genreHref) + '" title="' + esc(dict.dt_genre_link) + '">' + esc(genreLabel(app.genre)) + '</a>' : '') +
       ((ratingStr || true) ? '<span class="dt-chip' + (ratingStr ? '' : ' norate') + '">' + esc(ratingStr ? '⭐ ' + ratingStr.replace('★ ', '') : dict.no_rating) + '</span>' : '') +
-      (isIapPage && app.iap ? '<span class="dt-chip">🎮 ' + esc(app.iap) + '</span>' : '') +
+      (isIapPage && app.iap ? '<span class="dt-chip">' + esc(app.iap) + '</span>' : '') +
       '</div>' +
       '<div class="dt-price"><span class="dt-cur ' + ((app.type === 'free' || isIapPage) ? 'free' : 'deal') + '" id="dtPrice">' + esc((app.type === 'free' || isIapPage) ? dict.card_free_price : (app.current || '')) + '</span>' +
       (app.normal ? '<span class="dt-old" id="dtOld">' + esc(app.normal) + '</span>' : '') + '</div>' +
@@ -1148,7 +1148,7 @@
           var iapItems = (app.iap_items && app.iap_items.length) ? app.iap_items
             : [{ name: app.iap || '', last_paid_price: app.normal || '', free_since: app.free_since || '', days_free: app.days_free || 0 }];
           iapItems.forEach(function (x) {
-            var line = '🎮 ' + esc(x.name || '—');
+            var line = esc(x.name || '—');
             if (x.last_paid_price && x.last_paid_price !== '—') line += '<span class="dt-dot">·</span>' + esc(dict.iap_original) + ' ' + esc(x.last_paid_price);
             line += '<span class="dt-dot">→</span><span class="free">' + esc(dict.card_free_price) + '</span>';
             if (x.free_since) line += '<span class="dt-dot">·</span>' + esc(dict.iap_days) + ' ' + esc(String(x.days_free || 0)) + (CURRENT_LANG === 'en' ? ' days' : ' 天');
