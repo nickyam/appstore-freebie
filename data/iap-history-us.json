@@ -7,8 +7,8 @@
     "seed_added": 9,
     "seed_total": 9,
     "pool_size": 2000,
-    "processed": 2000,
-    "skipped": 0
+    "processed": 1999,
+    "skipped": 1
   },
   "items": {
     "6756910810::Pro Member - Lifetime": {
@@ -223,13 +223,13 @@
       "first_date": "2026-10-23",
       "first_price": "$5.99",
       "last_date": "2026-10-23",
-      "last_price": "$69.99",
+      "last_price": "$4.99",
       "last_change_date": "2026-10-23",
       "ever_paid": true,
       "last_paid_date": "2026-10-23",
       "free_since": null,
       "changes": {
-        "2026-10-23": "$69.99"
+        "2026-10-23": "$4.99"
       }
     },
     "577499909::Unlimited Transcriptions": {
@@ -257,13 +257,13 @@
       "first_date": "2026-10-23",
       "first_price": "$7.99",
       "last_date": "2026-10-23",
-      "last_price": "$129.99",
+      "last_price": "$7.99",
       "last_change_date": "2026-10-23",
       "ever_paid": true,
       "last_paid_date": "2026-10-23",
       "free_since": null,
       "changes": {
-        "2026-10-23": "$129.99"
+        "2026-10-23": "$7.99"
       }
     },
     "577499909::Pro w/Completely Unlimited Recording": {
@@ -1532,13 +1532,13 @@
       "first_date": "2026-10-23",
       "first_price": "$3.99",
       "last_date": "2026-10-23",
-      "last_price": "$19.99",
+      "last_price": "$5.99",
       "last_change_date": "2026-10-23",
       "ever_paid": true,
       "last_paid_date": "2026-10-23",
       "free_since": null,
       "changes": {
-        "2026-10-23": "$19.99"
+        "2026-10-23": "$5.99"
       }
     },
     "584606479::Simple Start": {
@@ -14282,13 +14282,13 @@
       "first_date": "2026-10-23",
       "first_price": "$4.99",
       "last_date": "2026-10-23",
-      "last_price": "$5.99",
+      "last_price": "$9.99",
       "last_change_date": "2026-10-23",
       "ever_paid": true,
       "last_paid_date": "2026-10-23",
       "free_since": null,
       "changes": {
-        "2026-10-23": "$5.99"
+        "2026-10-23": "$9.99"
       }
     },
     "1471394318::PRO Yearly": {
@@ -23088,13 +23088,13 @@
       "first_date": "2026-10-23",
       "first_price": "$9.99",
       "last_date": "2026-10-23",
-      "last_price": "$7.99",
+      "last_price": "$5.99",
       "last_change_date": "2026-10-23",
       "ever_paid": true,
       "last_paid_date": "2026-10-23",
       "free_since": null,
       "changes": {
-        "2026-10-23": "$7.99"
+        "2026-10-23": "$5.99"
       }
     },
     "1602061522::1 Month Plan": {
@@ -31724,13 +31724,13 @@
       "first_date": "2026-10-23",
       "first_price": "$35.99",
       "last_date": "2026-10-23",
-      "last_price": "$9.99",
+      "last_price": "$11.99",
       "last_change_date": "2026-10-23",
       "ever_paid": true,
       "last_paid_date": "2026-10-23",
       "free_since": null,
       "changes": {
-        "2026-10-23": "$9.99"
+        "2026-10-23": "$11.99"
       }
     },
     "1187626329::The Dyrt PRO - 50% Off Intro": {
@@ -47466,13 +47466,13 @@
       "first_date": "2026-10-23",
       "first_price": "$9.99",
       "last_date": "2026-10-23",
-      "last_price": "$14.99",
+      "last_price": "$17.99",
       "last_change_date": "2026-10-23",
       "ever_paid": true,
       "last_paid_date": "2026-10-23",
       "free_since": null,
       "changes": {
-        "2026-10-23": "$14.99"
+        "2026-10-23": "$17.99"
       }
     },
     "1549715715::Deep Dive Plus Monthly": {
@@ -63140,13 +63140,13 @@
       "first_date": "2026-10-23",
       "first_price": "$9.99",
       "last_date": "2026-10-23",
-      "last_price": "$39.99",
+      "last_price": "$7.99",
       "last_change_date": "2026-10-23",
       "ever_paid": true,
       "last_paid_date": "2026-10-23",
       "free_since": null,
       "changes": {
-        "2026-10-23": "$39.99"
+        "2026-10-23": "$7.99"
       }
     },
     "1672111368::Premium Access Weekly": {
@@ -63157,13 +63157,13 @@
       "first_date": "2026-10-23",
       "first_price": "$17.99",
       "last_date": "2026-10-23",
-      "last_price": "$15.99",
+      "last_price": "$8.99",
       "last_change_date": "2026-10-23",
       "ever_paid": true,
       "last_paid_date": "2026-10-23",
       "free_since": null,
       "changes": {
-        "2026-10-23": "$15.99"
+        "2026-10-23": "$8.99"
       }
     },
     "1672111368::Premium Pro Access": {
@@ -76298,13 +76298,13 @@
       "first_date": "2026-10-23",
       "first_price": "$39.99",
       "last_date": "2026-10-23",
-      "last_price": "$100.00",
+      "last_price": "$200.00",
       "last_change_date": "2026-10-23",
       "ever_paid": true,
       "last_paid_date": "2026-10-23",
       "free_since": null,
       "changes": {
-        "2026-10-23": "$100.00"
+        "2026-10-23": "$200.00"
       }
     },
     "6740909540::Manus Basic - Monthly": {
@@ -78219,13 +78219,13 @@
       "first_date": "2026-10-23",
       "first_price": "$79.99",
       "last_date": "2026-10-23",
-      "last_price": "$9.99",
+      "last_price": "$8.99",
       "last_change_date": "2026-10-23",
       "ever_paid": true,
       "last_paid_date": "2026-10-23",
       "free_since": null,
       "changes": {
-        "2026-10-23": "$9.99"
+        "2026-10-23": "$8.99"
       }
     },
     "6451491556::Professional": {
@@ -79698,13 +79698,13 @@
       "first_date": "2026-10-23",
       "first_price": "$9.99",
       "last_date": "2026-10-23",
-      "last_price": "$7.99",
+      "last_price": "$4.49",
       "last_change_date": "2026-10-23",
       "ever_paid": true,
       "last_paid_date": "2026-10-23",
       "free_since": null,
       "changes": {
-        "2026-10-23": "$7.99"
+        "2026-10-23": "$4.49"
       }
     },
     "1600487147::Cloaked Annual": {
@@ -80803,13 +80803,13 @@
       "first_date": "2026-10-23",
       "first_price": "$49.99",
       "last_date": "2026-10-23",
-      "last_price": "$9.99",
+      "last_price": "$49.99",
       "last_change_date": "2026-10-23",
       "ever_paid": true,
       "last_paid_date": "2026-10-23",
       "free_since": null,
       "changes": {
-        "2026-10-23": "$9.99"
+        "2026-10-23": "$49.99"
       }
     },
     "1527395366::PDF Extra Premium Yearly": {
@@ -97293,13 +97293,13 @@
       "first_date": "2026-10-23",
       "first_price": "$69.99",
       "last_date": "2026-10-23",
-      "last_price": "$69.99",
+      "last_price": "$19.99",
       "last_change_date": "2026-10-23",
       "ever_paid": true,
       "last_paid_date": "2026-10-23",
       "free_since": null,
       "changes": {
-        "2026-10-23": "$69.99"
+        "2026-10-23": "$19.99"
       }
     },
     "904391210::Ad-Free Monthly": {
@@ -102111,6 +102111,108 @@
       "free_since": null,
       "changes": {
         "2026-10-23": "$9.99"
+      }
+    },
+    "577499909::TapeACall Pro with Free Trial": {
+      "app_id": "577499909",
+      "app_name": "TapeACall Pro: Call Recorder",
+      "name": "TapeACall Pro with Free Trial",
+      "region": "us",
+      "first_date": "2026-10-23",
+      "first_price": "$129.99",
+      "last_date": "2026-10-23",
+      "last_price": "$129.99",
+      "last_change_date": "2026-10-23",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-23",
+      "free_since": null,
+      "changes": {
+        "2026-10-23": "$129.99"
+      }
+    },
+    "6743159952::Bible Note-Weekly Premium": {
+      "app_id": "6743159952",
+      "app_name": "Bible Note: Sermon Notes",
+      "name": "Bible Note-Weekly Premium",
+      "region": "us",
+      "first_date": "2026-10-23",
+      "first_price": "$7.99",
+      "last_date": "2026-10-23",
+      "last_price": "$7.99",
+      "last_change_date": "2026-10-23",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-23",
+      "free_since": null,
+      "changes": {
+        "2026-10-23": "$7.99"
+      }
+    },
+    "6474233312::Ultra Annual Pass": {
+      "app_id": "6474233312",
+      "app_name": "Kimi - Kimi K3 is Live",
+      "name": "Ultra Annual Pass",
+      "region": "us",
+      "first_date": "2026-10-23",
+      "first_price": "$1,999.00",
+      "last_date": "2026-10-23",
+      "last_price": "$1,999.00",
+      "last_change_date": "2026-10-23",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-23",
+      "free_since": null,
+      "changes": {
+        "2026-10-23": "$1,999.00"
+      }
+    },
+    "6474233312::Max Annual Pass": {
+      "app_id": "6474233312",
+      "app_name": "Kimi - Kimi K3 is Live",
+      "name": "Max Annual Pass",
+      "region": "us",
+      "first_date": "2026-10-23",
+      "first_price": "$949.00",
+      "last_date": "2026-10-23",
+      "last_price": "$949.00",
+      "last_change_date": "2026-10-23",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-23",
+      "free_since": null,
+      "changes": {
+        "2026-10-23": "$949.00"
+      }
+    },
+    "6474233312::Pro Annual Pass": {
+      "app_id": "6474233312",
+      "app_name": "Kimi - Kimi K3 is Live",
+      "name": "Pro Annual Pass",
+      "region": "us",
+      "first_date": "2026-10-23",
+      "first_price": "$374.99",
+      "last_date": "2026-10-23",
+      "last_price": "$374.99",
+      "last_change_date": "2026-10-23",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-23",
+      "free_since": null,
+      "changes": {
+        "2026-10-23": "$374.99"
+      }
+    },
+    "6474233312::Allegro Annual Pass": {
+      "app_id": "6474233312",
+      "app_name": "Kimi - Kimi K3 is Live",
+      "name": "Allegro Annual Pass",
+      "region": "us",
+      "first_date": "2026-10-23",
+      "first_price": "$949.00",
+      "last_date": "2026-10-23",
+      "last_price": "$949.00",
+      "last_change_date": "2026-10-23",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-23",
+      "free_since": null,
+      "changes": {
+        "2026-10-23": "$949.00"
       }
     }
   }
