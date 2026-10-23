@@ -1,17 +1,27 @@
 name: daily-freebie
 
+# 合并后的主跑批工作流（每 6 小时一次）
+# ----------------------------------------
+# 单工作流内串行完成三件事，取代原 daily / iap / seed 三个独立工作流（省去各自冷启动与并发组排队）：
+#   1) 种子播种（seed_from_apprcn.py）—— 仅 08:13 北京（UTC 00:13）那班 + 手动触发时运行，喂本体永久 App 库；
+#      反斗限免 API 偶发不可达 → continue-on-error，不阻断后续生成。
+#   2) 内购价格历史采集（iap_collector.py，cn + us）—— US 必须在非大陆 IP 跑（本 runner 即 GitHub 托管，非 CN）；
+#      同样 continue-on-error，采集抽风不会拖垮本体更新。
+#   3) 双区生成（generate.py）—— 产出首页数据 + 全部 App 独立页（含 IAP 页）+ 资源戳 + sitemap。
+# 全量回查（--full）见同目录 daily-full.yml（每日 21:17 UTC = 北京时间 05:17），保持独立（不同 cadence、更重）。
+#
+# 与 daily-full.yml 共用并发组 freebie-update：班次之间串行，避免互相抢推 main。
 on:
   schedule:
-    # 常规班次：每 6 小时跑一次（00:13 / 06:13 / 12:13 / 18:13 UTC 错峰，避开整点高峰）
+    # 每 6 小时（00:13 / 06:13 / 12:13 / 18:13 UTC 错峰，避开整点高峰）
     # = 北京时间 08:13 / 14:13 / 20:13 / 02:13，捕捉日内临时限免/闪免
-    # 全量回查(--full) 见同目录 daily-full.yml（每日 21:00 UTC = 北京时间 05:00）
     - cron: "13 */6 * * *"
   workflow_dispatch: {}
 
 permissions:
   contents: write
 
-# 三个跑批工作流共用同一并发组：班次之间串行，避免互相抢推 main。
+# 与 daily-full.yml 共用同一并发组：班次之间串行，避免互相抢推 main。
 # 背景：GitHub 定时班次实测会延迟 2~3 小时执行，延迟后极易与前后班次
 # 或用户在 GitHub Desktop 的手动推送撞在一起。
 concurrency:
@@ -33,6 +43,24 @@ jobs:
         uses: actions/setup-python@v6
         with:
           python-version: "3.11"
+
+      - name: Seed from apprcn (08:13 北京 / 手动触发)
+        continue-on-error: true
+        run: |
+          HR=$(date -u +%H)
+          if [ "$HR" != "00" ] && [ "${GITHUB_EVENT_NAME}" != "workflow_dispatch" ]; then
+            echo "非播种时段（仅 08:13 北京 / 手动触发时播种），跳过"
+            exit 0
+          fi
+          python scripts/seed_from_apprcn.py
+
+      - name: Collect IAP prices (cn)
+        continue-on-error: true
+        run: python scripts/iap_collector.py --region cn --limit 2000 --delay 0.3
+
+      - name: Collect IAP prices (us)
+        continue-on-error: true
+        run: python scripts/iap_collector.py --region us --limit 2000 --delay 0.3
 
       - name: Generate freebie list (cn)
         run: |
@@ -59,15 +87,22 @@ jobs:
           set -e
           git config user.email "freebie-bot@users.noreply.github.com"
           git config user.name "Freebie Bot"
-          # PATHS 必须覆盖 generate.py 会改写的全部文件：
+          # PATHS 必须覆盖 generate.py 与采集器会改写的全部文件：
           # 除 data/app/sitemap 外，stamp_asset_version() 与 sync_includes() 会全量遍历
-          # 改写所有 .html（含 6 个根级静态页）。漏加会导致这些文件处于「已改未暂存」状态，
-          # git pull --rebase 会直接拒绝（cannot pull with rebase: You have unstaged changes）→ 整班红。
-          PATHS="data/free-today-cn.json data/free-today-us.json data/history-cn.json data/history-us.json index.html about.html privacy.html terms.html 404.html app-page.html app/ sitemap.xml"
+          # 改写所有 .html（含 6 个根级静态页）；漏加会导致「已改未暂存」→ git pull --rebase 拒绝 → 整班红。
+          PATHS="data/free-today-cn.json data/free-today-us.json data/history-cn.json data/history-us.json data/iap-current-free-cn.json data/iap-current-free-us.json data/iap-free-cn.json data/iap-free-us.json data/iap-history-cn.json data/iap-history-us.json index.html about.html privacy.html terms.html 404.html app-page.html app/ sitemap.xml"
           MSG="daily: App Store 限免更新 $(date -u +%Y-%m-%d)"
 
-          # 双区生成（带 3 次重试；Apple 接口偶发超时/限流）
-          gen() {
+          # 组合准备：种子(限08:13北京班) + 内购采集 + 双区生成（带 3 次重试）。
+          # 供「push 被拒重试」路径复用：reset --hard 会清空工作树，重试必须重新采集/生成，
+          # 否则刚采的内购数据会丢失（至多陈旧 6 小时，可接受但应避免）。
+          prepare() {
+            HR=$(date -u +%H)
+            if [ "$HR" = "00" ] || [ "${GITHUB_EVENT_NAME}" = "workflow_dispatch" ]; then
+              python scripts/seed_from_apprcn.py || echo "::warning::apprcn 播种失败（非致命，沿用已有 history）"
+            fi
+            python scripts/iap_collector.py --region cn --limit 2000 --delay 0.3 || echo "::warning::cn 内购采集失败（非致命）"
+            python scripts/iap_collector.py --region us --limit 2000 --delay 0.3 || echo "::warning::us 内购采集失败（非致命）"
             for i in 1 2 3; do
               if python scripts/generate.py --country cn && python scripts/generate.py --country us; then return 0; fi
               echo "::warning::生成失败（第 $i 次），20 秒后重试"
@@ -76,15 +111,14 @@ jobs:
             return 1
           }
 
-          # 以远端最新 main 为基重新生成再提交推送（生成物是确定性的：同样输入同样输出，
-          # 所以「丢掉本次结果重跑一遍」是安全的，且天然避开 rebase 冲突）。
+          # 以远端最新 main 为基重新生成再提交推送（生成物确定性，安全）。
           # 重试循环：跑批期间用户常在 GitHub Desktop 手动推送，push 竞争可持续数分钟，
           # 单次重试不够（2026-10-22 两班红 X 即撞在用户高频推送上）——循环最多 5 次。
           regenerate_and_push() {
             for i in 1 2 3 4 5; do
               git fetch origin main
               git reset --hard origin/main
-              gen || { echo "::error::重试第 $i 次：生成失败"; return 1; }
+              prepare || { echo "::error::重试第 $i 次：准备失败"; return 1; }
               git add $PATHS
               git commit -m "$MSG" || true
               if git push; then
