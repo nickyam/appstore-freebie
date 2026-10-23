@@ -2,9 +2,10 @@ name: iap-freebie
 
 on:
   schedule:
-    # 每日 06:30 北京时间（22:30 UTC 前一日）跑一次：内购价格历史采集。
+    # 每 6 小时跑一次（00:43 / 06:43 / 12:43 / 18:43 UTC 错峰，比 daily 的 :13 晚 30 分钟）：
+    # = 北京时间 08:43 / 14:43 / 20:43 / 02:43，与本体限免同 cadence，让首页内购列表与独立页同样新鲜。
     # 与 daily*.yml 同并发组、串行，避免抢推 main。
-    - cron: "30 22 * * *"
+    - cron: "43 */6 * * *"
   workflow_dispatch: {}
 
 permissions:
