@@ -218,8 +218,6 @@ ins.adsbygoogle { background: #ececf0; border-radius: var(--radius); }
 .section-title .count { font-size: 13px; font-weight: 600; color: #fff; background: var(--accent); border-radius: 999px; padding: 3px 12px; }
 .section-title .count.free { background: var(--free); }
 .section-title .count.deal { background: var(--deal); }
-/* 区块标题内的区域标注（内购限免：· 中国区 / · 美国区，跟随顶部区域开关） */
-.section-title h2 .sec-region { font-size: 15px; font-weight: 500; color: var(--muted); margin-left: 10px; letter-spacing: 0; }
 
 /* App cards */
 /* 桌面端两列：minmax 提高到 440px，配合 auto-fit 在宽屏下排两列而非三列，

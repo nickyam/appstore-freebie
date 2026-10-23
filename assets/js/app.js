@@ -574,9 +574,6 @@
 
   function loadIap(region) {
     var dict = I18N[CURRENT_LANG];
-    // 区块标题标注当前区域（跟随顶部区域开关，与本体列表一致地区分中美区）
-    var rt = document.getElementById('iapRegionTag');
-    if (rt) rt.textContent = '· ' + (region === 'us' ? dict.region_us : dict.region_cn);
     var box = document.getElementById('iapFreeList');
     if (!box) return;   // 非首页无容器则跳过
     var fUrl = resolvePageUrl('data/iap-free-' + region + '.json');
