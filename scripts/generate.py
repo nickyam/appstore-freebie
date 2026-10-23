@@ -30,6 +30,10 @@ App Store 限免清单生成器（支持 cn 中国区 / us 美国区）
 - 所有数据来自 Apple 官方，图标直接引用苹果 CDN，不转存。
 - 调度：GitHub Actions 每 6 小时跑常规班次（榜单 + 促销中 App，快）；
   每日一班 --full 全量回查（抓长尾/掉榜 App）；Cloudflare 自动部署、阿里云镜像每 6 小时同步。
+- 页面生产总入口：本体限免/特价独立页与「内购限免」独立页（type=iap，数据源
+  data/iap-free-{country}.json，由 iap_collector 独写）均由本脚本生成、清理、
+  打戳、收 sitemap——全站唯一写页人（2026-10-23 D 架构；反斗限免种子器退化为
+  纯 history 播种，第三方 API 脱离页面生产关键路径）。
 """
 import json
 import os
@@ -131,6 +135,161 @@ def write_app_pages(items, country, today):
             f.write(html)
         count += 1
     return count
+
+
+def load_iap_events(country):
+    """读取「限时内购免费」事件：data/iap-free-{country}.json（iap_collector 独写）。
+
+    返回 events list；文件缺失/损坏/结构异常返回 None——与「空清单」严格区分：
+    None = 无数据源，此时既不写页也不清理，避免误删已有 IAP 页。
+    """
+    p = os.path.join(DATA_DIR, f"iap-free-{country}.json")
+    if not os.path.exists(p):
+        return None
+    try:
+        with open(p, encoding="utf-8") as f:
+            d = json.load(f)
+    except Exception:
+        return None
+    evs = d.get("events")
+    return evs if isinstance(evs, list) else None
+
+
+def write_iap_pages(country, today):
+    """为「限时内购免费」App 生成独立详情页（type=iap），返回 (写入数, 保留页集合)。
+
+    数据源：data/iap-free-{country}.json。事件已由 iap_collector 经 iTunes lookup
+    富化（评分/图标/开发者/分类，无评分事件在采集端已剔除），同一 App 多个内购
+    限免 → 一个页面聚合展示（iap_items）。
+
+    架构（2026-10-23 D 方案，用户拍板）：generate 是全站唯一写页人——本体页、
+    IAP 页、过期清理、资源戳、sitemap 全部在此收口；反斗限免种子器退化为纯
+    history 播种，第三方 API 脱离页面生产关键路径。保留页集合交给
+    cleanup_iap_pages 清理促销结束的过期页；无数据源时返回 (0, None)，
+    调用方据此跳过清理（安全默认：不清源不明的页）。
+    """
+    if not os.path.exists(PAGE_TEMPLATE):
+        print("[warn] app-page.html 模板缺失，跳过 IAP 独立页生成")
+        return 0, None
+    events = load_iap_events(country)
+    if events is None:
+        return 0, None
+    with open(PAGE_TEMPLATE, encoding="utf-8") as f:
+        tpl = f.read()
+    os.makedirs(APP_DIR, exist_ok=True)
+
+    by_app, order = {}, []
+    for e in events:
+        aid = str(e.get("app_id") or "")
+        if not aid:
+            continue
+        if aid not in by_app:
+            order.append(aid)
+        by_app.setdefault(aid, []).append(e)
+
+    free_label = "免费" if country == "cn" else "Free"
+    keep = set()
+    count = 0
+    for aid in order:
+        evs = by_app[aid]
+        name = evs[0].get("app_name") or f"App {aid}"
+        iap_names = [x.get("iap") or "" for x in evs]
+        iap_disp = "、".join(iap_names[:3]) + ("…" if len(iap_names) > 3 else "")
+        if len(evs) == 1:
+            title = "%s 内购「%s」限时免费 · 苹果限免雷达" % (name, iap_names[0])
+        else:
+            title = "%s 内购限时免费（%d 项）· 苹果限免雷达" % (name, len(evs))
+        orig = next((x.get("last_paid_price") for x in evs
+                     if x.get("last_paid_price") and x["last_paid_price"] != "—"), "")
+        fs = min((x.get("free_since") or today) for x in evs)
+        days = max((x.get("days_free") or 0) for x in evs)
+        if orig:
+            desc = "%s 的内购项目「%s」原价 %s，现在限时免费（自 %s 起）。附 App 介绍、截图与中美两区价格对比。" % (
+                name, iap_disp, orig, fs)
+        else:
+            desc = "%s 的内购项目「%s」现在限时免费（自 %s 起）。附 App 介绍、截图与中美两区价格对比。" % (
+                name, iap_disp, fs)
+        page_rel = "app/%s-%s.html" % (country, aid)
+        item = {
+            "id": aid, "name": name,
+            "dev": evs[0].get("dev", ""), "genre": evs[0].get("genre", ""),
+            "normal": orig, "current": free_label,
+            "icon": evs[0].get("icon", ""), "rating": evs[0].get("rating", 0),
+            "url": evs[0].get("url", ""), "region": country,
+            "type": "iap",
+            "iap": "、".join(iap_names),
+            "iap_items": [{"name": x.get("iap", ""),
+                           "last_paid_price": x.get("last_paid_price", ""),
+                           "free_since": x.get("free_since", ""),
+                           "days_free": x.get("days_free", 0)} for x in evs],
+            "free_since": fs, "days_free": days,
+            "is_new": days == 0,
+            "series": [], "phistory": [],
+        }
+        ld = {
+            "@context": "https://schema.org",
+            "@type": "SoftwareApplication",
+            "name": name,
+            "operatingSystem": "iOS",
+            "applicationCategory": item["genre"],
+            "offers": {"@type": "Offer", "price": "0",
+                       "priceCurrency": "CNY" if country == "cn" else "USD"},
+            "url": item["url"],
+        }
+        html = tpl
+        html = html.replace("__TITLE__", esc_html(title))
+        html = html.replace("__DESC__", esc_html(desc))
+        html = html.replace("__OG_TITLE__", esc_html(title))
+        html = html.replace("__OG_DESC__", esc_html(desc))
+        html = html.replace("__APP_NAME__", esc_html(name))
+        html = html.replace("__PAGE_DATE__", today)
+        html = html.replace("__APP_LD__", json.dumps(ld, ensure_ascii=False, indent=2))
+        app_json = json.dumps(item, ensure_ascii=False).replace("</", "<\\/")
+        html = html.replace("window.__APP__ = null;", "window.__APP__ = " + app_json + ";")
+        page_url = "https://appstore.limzero.com/" + page_rel
+        html = html.replace("__CANON__", esc_html(page_url))
+        html = html.replace("__OG_URL__", esc_html(page_url))
+        og_img = item.get("icon", "")
+        if og_img:
+            og_img = re.sub(r'/(\d+)x(\d+)bb(\.\w+)$', r'/512x512bb\3', og_img)
+        html = html.replace("__OG_IMAGE__", esc_html(og_img))
+        with open(os.path.join(BASE_DIR, page_rel), "w", encoding="utf-8") as f:
+            f.write(html)
+        keep.add(page_rel)
+        count += 1
+    return count, keep
+
+
+def cleanup_iap_pages(country, keep_pages):
+    """删除本区已不在 iap-free 事件清单内的 IAP 独立页（促销结束/无评分剔除）。
+
+    只删「type=iap」页（正则识别 __APP__ 内联数据），本体限免页绝不碰。
+    keep_pages=None → 无数据源，跳过清理（不删源不明的页）。
+    须在 write_sitemap 之前调用，确保被删页不残留进 sitemap。
+    """
+    if keep_pages is None or not os.path.isdir(APP_DIR):
+        return 0
+    removed = 0
+    prefix = country + "-"
+    for fn in sorted(os.listdir(APP_DIR)):
+        if not (fn.startswith(prefix) and fn.endswith(".html")):
+            continue
+        rel = "app/" + fn
+        if rel in keep_pages:
+            continue
+        try:
+            txt = open(os.path.join(APP_DIR, fn), encoding="utf-8", errors="ignore").read()
+        except Exception:
+            continue
+        if not re.search(r'"type"\s*:\s*"iap"', txt):
+            continue                      # 本体限免页，不碰
+        try:
+            os.remove(os.path.join(APP_DIR, fn))
+            removed += 1
+            print("[info] 删除过期 IAP 页: %s" % rel)
+        except OSError:
+            pass
+    return removed
 
 
 def write_sitemap():
@@ -311,8 +470,8 @@ def prune_app_pages(max_age_days):
             continue
         m = re.search(r'"rating"\s*:\s*([0-9.]+)', txt)
         rated = bool(m and float(m.group(1)) > 0)
-        # IAP 内购限免页（seed_iap_from_apprcn / iap_collector 维护）豁免清理：
-        # 部分新 App 无评分，但页面数量少且由实验链路主动管理，不按「无评分」清除
+        # IAP 内购限免页豁免「无评分/过期」清理：由本文件 write_iap_pages +
+        # cleanup_iap_pages 按 iap-free 事件清单专门管理（D 架构，2026-10-23）
         if re.search(r'"type"\s*:\s*"iap"', txt):
             continue
         pd = re.search(r'data-page-date="([0-9-]+)"', txt)
@@ -719,17 +878,24 @@ def main():
     page_items = result["freebies"] + result["deals"]
     pages_written = write_app_pages(page_items, country, today)
 
+    # IAP 内购限免独立页（D 架构：generate 唯一写页人；数据源 = iap_collector 独写的
+    # data/iap-free-{country}.json；无数据源时返回 (0, None)，下方据此跳过清理）
+    iap_written, iap_keep = write_iap_pages(country, today)
+
     save_json(out_path, result)
     save_json(history_path, history)
 
-    # 先清理独立页（无评分 / 过期），再写 sitemap；sitemap 只收录磁盘上仍保留的页
+    # 先清理独立页（本体：无评分/过期；IAP：促销结束），再写 sitemap；
+    # sitemap 只收录磁盘上仍保留的页
     pruned = prune_app_pages(APP_PAGE_MAX_AGE_DAYS)
+    iap_pruned = cleanup_iap_pages(country, iap_keep)
     sm_urls = write_sitemap()
 
     print(f"[ok] country={country} full={full} date={today} monitored={len(union)} "
           f"library={len(history)} freebies={len(freebies)} deals={len(deals)} "
           f"(全量输出，无展示上限)")
-    print(f"[ok] app pages written={pages_written} sitemap_urls={sm_urls} pruned={pruned}")
+    print(f"[ok] app pages written={pages_written} iap pages={iap_written} "
+          f"sitemap_urls={sm_urls} pruned={pruned} iap_pruned={iap_pruned}")
     sync_includes()
     sync_base_tag()
     stamp_asset_version()

@@ -178,8 +178,9 @@ def enrich_events_itunes(region, events):
     GitHub runner（美国）双区均可直查，100 id/批。
 
     规则（2026-10-23 用户拍板，与本体限免一致）：rating<=0 的事件一律不收录。
-    站内独立页 app/{region}-{id}.html 由 seed_iap_from_apprcn.py 维护，
-    仅当文件存在才给 page 字段，否则卡片回退 App Store 外链。
+    站内独立页 app/{region}-{id}.html 由 generate.py 每 6h 班次写入（D 架构，
+    全站唯一写页人）；此处仅当文件已存在才给 page 字段——新事件在采集器运行后、
+    generate 出页前的窗口期内回退 App Store 外链，避免 404。
     """
     if not events:
         return events
