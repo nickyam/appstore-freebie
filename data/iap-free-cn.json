@@ -1,7 +1,7 @@
 {
   "updated": "2026-10-23",
   "region": "cn",
-  "count": 10,
+  "count": 9,
   "events": [
     {
       "app_id": "6741730996",
@@ -18,22 +18,6 @@
       "dev": "Wuhan Yuhang Technology Co., Ltd",
       "genre": "效率",
       "page": "app/cn-6741730996.html"
-    },
-    {
-      "app_id": "6788409678",
-      "app_name": "墨团习惯：打卡与习惯养成",
-      "iap": "Pro 永久版",
-      "price": "¥0.00",
-      "free_since": "2026-10-20",
-      "days_free": 3,
-      "last_paid_date": "2026-10-20",
-      "last_paid_price": "—",
-      "url": "https://apps.apple.com/cn/app/%E5%A2%A8%E5%9B%A2%E4%B9%A0%E6%83%AF-%E6%89%93%E5%8D%A1%E4%B8%8E%E4%B9%A0%E6%83%AF%E5%85%BB%E6%88%90/id6788409678?uo=4",
-      "rating": 4.75,
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fc/e8/b6/fce8b64d-989e-763f-2ad4-6461a8c0b332/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-      "dev": "Freedom Dimension (shenzhen) Technology Co., Ltd",
-      "genre": "效率",
-      "page": "app/cn-6788409678.html"
     },
     {
       "app_id": "1622262960",
