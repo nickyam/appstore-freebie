@@ -3,7 +3,9 @@ name: daily-freebie
 # 合并后的主跑批工作流（每 6 小时一次）
 # ----------------------------------------
 # 单工作流内串行完成三件事，取代原 daily / iap / seed 三个独立工作流（省去各自冷启动与并发组排队）：
-#   1) 种子播种（seed_from_apprcn.py）—— 仅 08:13 北京（UTC 00:13）那班 + 手动触发时运行，喂本体永久 App 库；
+#   1) 种子播种 —— 仅 08:13 北京（UTC 00:13）那班 + 手动触发时运行：
+#      · seed_from_apprcn.py      喂本体永久 App 宽池（history-{region}.json）
+#      · seed_iap_from_apprcn.py  从反斗限免补「内购限免」候选，注入 IAP 监控池（history + iap-history）
 #      反斗限免 API 偶发不可达 → continue-on-error，不阻断后续生成。
 #   2) 内购价格历史采集（iap_collector.py，cn + us）—— US 必须在非大陆 IP 跑（本 runner 即 GitHub 托管，非 CN）；
 #      同样 continue-on-error，采集抽风不会拖垮本体更新。
@@ -54,6 +56,16 @@ jobs:
           fi
           python scripts/seed_from_apprcn.py
 
+      - name: Seed IAP from apprcn (08:13 北京 / 手动触发)
+        continue-on-error: true
+        run: |
+          HR=$(date -u +%H)
+          if [ "$HR" != "00" ] && [ "${GITHUB_EVENT_NAME}" != "workflow_dispatch" ]; then
+            echo "非播种时段（仅 08:13 北京 / 手动触发时播种），跳过"
+            exit 0
+          fi
+          python scripts/seed_iap_from_apprcn.py
+
       - name: Collect IAP prices (cn)
         continue-on-error: true
         run: python scripts/iap_collector.py --region cn --limit 2000 --delay 0.3
@@ -90,7 +102,7 @@ jobs:
           # PATHS 必须覆盖 generate.py 与采集器会改写的全部文件：
           # 除 data/app/sitemap 外，stamp_asset_version() 与 sync_includes() 会全量遍历
           # 改写所有 .html（含 6 个根级静态页）；漏加会导致「已改未暂存」→ git pull --rebase 拒绝 → 整班红。
-          PATHS="data/free-today-cn.json data/free-today-us.json data/history-cn.json data/history-us.json data/iap-current-free-cn.json data/iap-current-free-us.json data/iap-free-cn.json data/iap-free-us.json data/iap-history-cn.json data/iap-history-us.json index.html about.html privacy.html terms.html 404.html app-page.html app/ sitemap.xml"
+          PATHS="data/free-today-cn.json data/free-today-us.json data/history-cn.json data/history-us.json data/iap-current-free-cn.json data/iap-current-free-us.json data/iap-free-cn.json data/iap-free-us.json data/iap-history-cn.json data/iap-history-us.json data/.seed_iap_apprcn_manifest.json index.html about.html privacy.html terms.html 404.html app-page.html app/ sitemap.xml"
           MSG="daily: App Store 限免更新 $(date -u +%Y-%m-%d)"
 
           # 组合准备：种子(限08:13北京班) + 内购采集 + 双区生成（带 3 次重试）。
@@ -100,6 +112,7 @@ jobs:
             HR=$(date -u +%H)
             if [ "$HR" = "00" ] || [ "${GITHUB_EVENT_NAME}" = "workflow_dispatch" ]; then
               python scripts/seed_from_apprcn.py || echo "::warning::apprcn 播种失败（非致命，沿用已有 history）"
+              python scripts/seed_iap_from_apprcn.py || echo "::warning::iap apprcn 播种失败（非致命，沿用已有 history）"
             fi
             python scripts/iap_collector.py --region cn --limit 2000 --delay 0.3 || echo "::warning::cn 内购采集失败（非致命）"
             python scripts/iap_collector.py --region us --limit 2000 --delay 0.3 || echo "::warning::us 内购采集失败（非致命）"
