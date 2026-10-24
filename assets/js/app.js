@@ -318,7 +318,9 @@
 
   var CURRENT_LANG = 'zh';
   var state = { search: '', genre: '' };        // 筛选状态
-  var currentData = { free: [], deals: [] };     // 当前区已加载数据
+  var currentData = { free: [], deals: [], iap: [] };  // 当前区已加载数据（含内购限免）
+  var iapLoaded = false;   // 内购数据是否已加载（未加载前不渲染，避免覆盖「加载中…」）
+  var iapNoData = false;   // 该区是否无内购数据（由 loadIap 的 no-data 分支处理）
 
   // ===== 地区配置 =====
   // 数据文件路径用【相对路径】data/...，配合各页 <base href="/">：
@@ -588,6 +590,9 @@
         var si0 = document.getElementById('statIap'); if (si0) si0.textContent = '0';
         var ss0 = document.getElementById('statSaved');
         if (ss0) ss0.textContent = formatMoney(region, lastAppSaved);   // 无 IAP 数据 → 回退本体金额
+        currentData.iap = [];
+        iapNoData = true;
+        iapLoaded = true;
         return;
       }
       var events = ((evData && evData.events) || []).filter(function (e) { return e.rating !== 0; });
@@ -596,28 +601,60 @@
       events.forEach(function (e) { evKeys[e.app_id + '::' + e.iap] = true; });
       var curNonPerm = curItems.filter(function (it) { return !it.permanent_free; });
       var feed = events.concat(curNonPerm.filter(function (it) { return !evKeys[it.app_id + '::' + it.iap]; }));
-      var countEl = document.getElementById('iapFreeCount');
-      if (countEl) countEl.textContent = feed.length;
-      var si = document.getElementById('statIap');   // 统计条「内购限免」格
-      if (si) si.textContent = feed.length;
-      // 内购原价计入「今日可省」（与本体限免/特价累加，切区时由 load() 重置本体部分）
+      // 标记每条是否为「限免事件」（用于卡片角标），供 renderIapFiltered 复用
+      feed.forEach(function (it) { it.__isEvent = !!evKeys[it.app_id + '::' + it.iap]; });
+      currentData.iap = feed;
+      iapNoData = false;
+      iapLoaded = true;
+      // 内购原价计入「今日可省」（基于全量 feed，不随搜索变化；与本体限免/特价累加，切区时由 load() 重置本体部分）
       var iapSaved = 0;
       feed.forEach(function (it) {
         if (it.last_paid_price) { var p = parsePrice(it.last_paid_price); if (p) iapSaved += p; }
       });
       var ss = document.getElementById('statSaved');
       if (ss) ss.textContent = formatMoney(region, lastAppSaved + iapSaved);
-      box.innerHTML = '';
-      if (feed.length === 0) {
-        box.appendChild(el('div', 'empty', dict.iap_empty));
-        return;
-      }
-      var grid = el('div', 'grid');
-      feed.forEach(function (it) {
-        grid.appendChild(iapCard(it, region, evKeys[it.app_id + '::' + it.iap]));
-      });
-      box.appendChild(grid);
+      // 渲染交给 renderIapFiltered：统一应用当前的搜索/分类筛选（与本体/特价列表行为一致）
+      renderIapFiltered();
     });
+  }
+
+  // 内购限免列表的筛选（搜索 + 分类）：与 filterApps 行为一致，避免搜索时内购区不跟着过滤
+  function filterIap(list) {
+    if (!list || !list.length) return [];
+    var q = state.search.trim().toLowerCase();
+    return list.filter(function (it) {
+      if (state.genre && it.genre !== state.genre) return false;
+      if (q) {
+        var hay = ((it.app_name || '') + ' ' + (it.dev || '') + ' ' + (it.genre || '') + ' ' + (it.iap || '')).toLowerCase();
+        if (hay.indexOf(q) === -1) return false;
+      }
+      return true;
+    });
+  }
+
+  // 按当前筛选渲染内购限免列表（搜索/分类变化时由 renderFiltered 调用；数据加载完成由 loadIap 调用）
+  function renderIapFiltered() {
+    var box = document.getElementById('iapFreeList');
+    if (!box) return;                       // 非首页无容器则跳过
+    if (!iapLoaded) return;                 // 数据尚未加载，保留「加载中…」，避免闪烁
+    if (iapNoData) return;                  // 无数据分支由 loadIap 直接渲染，不覆盖
+    var dict = I18N[CURRENT_LANG];
+    var feed = filterIap(currentData.iap);
+    var countEl = document.getElementById('iapFreeCount');
+    if (countEl) countEl.textContent = feed.length;
+    var si = document.getElementById('statIap');   // 统计条「内购限免」格同步筛选后条数
+    if (si) si.textContent = feed.length;
+    box.innerHTML = '';
+    if (feed.length === 0) {
+      // 区分「该区真没有任何内购数据」与「被当前筛选过滤空」：前者提示累积中，后者提示无匹配
+      box.appendChild(el('div', 'empty', currentData.iap.length === 0 ? dict.iap_empty : dict.filter_empty));
+      return;
+    }
+    var grid = el('div', 'grid');
+    feed.forEach(function (it) {
+      grid.appendChild(iapCard(it, getRegion(), it.__isEvent));
+    });
+    box.appendChild(grid);
   }
 
   // 注：原列表中部手动广告逻辑已移除，中部广告改由 Google 自动广告补充。
@@ -662,6 +699,7 @@
     var dealEmpty = currentData.deals.length === 0 ? dict.deal_empty : dict.filter_empty;
     renderList('freeList', free, 'free', freeEmpty);
     renderList('dealList', deals, 'deal', dealEmpty);
+    renderIapFiltered();   // 内购限免同步受搜索/分类筛选影响（与本体、特价列表一致）
   }
 
   function showError(region) {
