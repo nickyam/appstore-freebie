@@ -9035,14 +9035,14 @@
       "first_date": "2026-10-23",
       "first_price": "$9.99",
       "last_date": "2026-10-24",
-      "last_price": "$29.99",
+      "last_price": "$9.99",
       "last_change_date": "2026-10-24",
       "ever_paid": true,
       "last_paid_date": "2026-10-24",
       "free_since": null,
       "changes": {
         "2026-10-23": "$29.99",
-        "2026-10-24": "$29.99"
+        "2026-10-24": "$9.99"
       }
     },
     "1577102077::One Week with Intro": {
@@ -9087,14 +9087,14 @@
       "first_date": "2026-10-23",
       "first_price": "$139.00",
       "last_date": "2026-10-24",
-      "last_price": "$74.99",
+      "last_price": "$139.00",
       "last_change_date": "2026-10-24",
       "ever_paid": true,
       "last_paid_date": "2026-10-24",
       "free_since": null,
       "changes": {
         "2026-10-23": "$74.99",
-        "2026-10-24": "$74.99"
+        "2026-10-24": "$139.00"
       }
     },
     "1577102077::One Year Subscription": {
@@ -23856,14 +23856,14 @@
       "first_date": "2026-10-23",
       "first_price": "$7.99",
       "last_date": "2026-10-24",
-      "last_price": "$8.99",
+      "last_price": "$9.99",
       "last_change_date": "2026-10-24",
       "ever_paid": true,
       "last_paid_date": "2026-10-24",
       "free_since": null,
       "changes": {
         "2026-10-23": "$8.99",
-        "2026-10-24": "$8.99"
+        "2026-10-24": "$9.99"
       }
     },
     "1216135390::Phone Number Subscription 1m": {
@@ -26362,14 +26362,14 @@
       "first_date": "2026-10-23",
       "first_price": "$169.99",
       "last_date": "2026-10-24",
-      "last_price": "$135.99",
+      "last_price": "$169.99",
       "last_change_date": "2026-10-24",
       "ever_paid": true,
       "last_paid_date": "2026-10-24",
       "free_since": null,
       "changes": {
         "2026-10-23": "$135.99",
-        "2026-10-24": "$135.99"
+        "2026-10-24": "$169.99"
       }
     },
     "6480278540::Compass Pro": {
@@ -56158,14 +56158,14 @@
       "first_date": "2026-10-23",
       "first_price": "$19.99",
       "last_date": "2026-10-24",
-      "last_price": "$19.99",
+      "last_price": "$14.99",
       "last_change_date": "2026-10-24",
       "ever_paid": true,
       "last_paid_date": "2026-10-24",
       "free_since": null,
       "changes": {
         "2026-10-23": "$14.99",
-        "2026-10-24": "$19.99"
+        "2026-10-24": "$14.99"
       }
     },
     "1498407272::3 Super Love": {
@@ -65828,14 +65828,14 @@
       "first_date": "2026-10-23",
       "first_price": "$4.99",
       "last_date": "2026-10-24",
-      "last_price": "$39.99",
+      "last_price": "$4.99",
       "last_change_date": "2026-10-24",
       "ever_paid": true,
       "last_paid_date": "2026-10-24",
       "free_since": null,
       "changes": {
         "2026-10-23": "$39.99",
-        "2026-10-24": "$39.99"
+        "2026-10-24": "$4.99"
       }
     },
     "576588894::PRO": {
@@ -65846,14 +65846,14 @@
       "first_date": "2026-10-23",
       "first_price": "$8.99",
       "last_date": "2026-10-24",
-      "last_price": "$59.99",
+      "last_price": "$8.99",
       "last_change_date": "2026-10-24",
       "ever_paid": true,
       "last_paid_date": "2026-10-24",
       "free_since": null,
       "changes": {
         "2026-10-23": "$59.99",
-        "2026-10-24": "$59.99"
+        "2026-10-24": "$8.99"
       }
     },
     "576588894::All Constellations": {
@@ -69756,13 +69756,14 @@
       "first_date": "2026-10-23",
       "first_price": "$49.99",
       "last_date": "2026-10-24",
-      "last_price": "$49.99",
-      "last_change_date": "2026-10-23",
+      "last_price": "$59.99",
+      "last_change_date": "2026-10-24",
       "ever_paid": true,
-      "last_paid_date": "2026-10-23",
+      "last_paid_date": "2026-10-24",
       "free_since": null,
       "changes": {
-        "2026-10-23": "$49.99"
+        "2026-10-23": "$49.99",
+        "2026-10-24": "$59.99"
       }
     },
     "978674211::Monthly Subscription ODE": {
@@ -80327,12 +80328,13 @@
       "first_price": "$49.99",
       "last_date": "2026-10-24",
       "last_price": "$49.99",
-      "last_change_date": "2026-10-23",
+      "last_change_date": "2026-10-24",
       "ever_paid": true,
-      "last_paid_date": "2026-10-23",
+      "last_paid_date": "2026-10-24",
       "free_since": null,
       "changes": {
-        "2026-10-23": "$49.99"
+        "2026-10-23": "$49.99",
+        "2026-10-24": "$49.99"
       }
     },
     "743974925::PDF Expert Mac & iOS": {
@@ -80343,13 +80345,14 @@
       "first_date": "2026-10-23",
       "first_price": "$79.99",
       "last_date": "2026-10-24",
-      "last_price": "$79.99",
-      "last_change_date": "2026-10-23",
+      "last_price": "$4.99",
+      "last_change_date": "2026-10-24",
       "ever_paid": true,
-      "last_paid_date": "2026-10-23",
+      "last_paid_date": "2026-10-24",
       "free_since": null,
       "changes": {
-        "2026-10-23": "$79.99"
+        "2026-10-23": "$79.99",
+        "2026-10-24": "$4.99"
       }
     },
     "743974925::PDF Expert Premium Existing": {
@@ -80461,7 +80464,7 @@
       "region": "us",
       "first_date": "2026-10-23",
       "first_price": "$79.99",
-      "last_date": "2026-10-23",
+      "last_date": "2026-10-24",
       "last_price": "$79.99",
       "last_change_date": "2026-10-23",
       "ever_paid": true,
@@ -104239,6 +104242,193 @@
       "free_since": null,
       "changes": {
         "2026-10-24": "$19.99"
+      }
+    },
+    "1216135390::Premium": {
+      "app_id": "1216135390",
+      "app_name": "Second Phone Number - 2Number",
+      "name": "Premium",
+      "region": "us",
+      "first_date": "2026-10-24",
+      "first_price": "$39.99",
+      "last_date": "2026-10-24",
+      "last_price": "$5.99",
+      "last_change_date": "2026-10-24",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-24",
+      "free_since": null,
+      "changes": {
+        "2026-10-24": "$5.99"
+      }
+    },
+    "6480278540::Fieldy Sidekick": {
+      "app_id": "6480278540",
+      "app_name": "Fieldy - AI note taker",
+      "name": "Fieldy Sidekick",
+      "region": "us",
+      "first_date": "2026-10-24",
+      "first_price": "$599.99",
+      "last_date": "2026-10-24",
+      "last_price": "$59.99",
+      "last_change_date": "2026-10-24",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-24",
+      "free_since": null,
+      "changes": {
+        "2026-10-24": "$59.99"
+      }
+    },
+    "6744972234::Sutara 1 Year Premium": {
+      "app_id": "6744972234",
+      "app_name": "Sutara: Buddhist Stories",
+      "name": "Sutara 1 Year Premium",
+      "region": "us",
+      "first_date": "2026-10-24",
+      "first_price": "$39.99",
+      "last_date": "2026-10-24",
+      "last_price": "$39.99",
+      "last_change_date": "2026-10-24",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-24",
+      "free_since": null,
+      "changes": {
+        "2026-10-24": "$39.99"
+      }
+    },
+    "743974925::PDF Expert Mac & iOS Essential": {
+      "app_id": "743974925",
+      "app_name": "PDF Expert: Editor & Reader",
+      "name": "PDF Expert Mac & iOS Essential",
+      "region": "us",
+      "first_date": "2026-10-24",
+      "first_price": "$49.99",
+      "last_date": "2026-10-24",
+      "last_price": "$49.99",
+      "last_change_date": "2026-10-24",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-24",
+      "free_since": null,
+      "changes": {
+        "2026-10-24": "$49.99"
+      }
+    },
+    "743974925::PDF Expert Edit Only": {
+      "app_id": "743974925",
+      "app_name": "PDF Expert: Editor & Reader",
+      "name": "PDF Expert Edit Only",
+      "region": "us",
+      "first_date": "2026-10-24",
+      "first_price": "$49.99",
+      "last_date": "2026-10-24",
+      "last_price": "$49.99",
+      "last_change_date": "2026-10-24",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-24",
+      "free_since": null,
+      "changes": {
+        "2026-10-24": "$49.99"
+      }
+    },
+    "743974925::PDF Expert Premium – Edit PDF": {
+      "app_id": "743974925",
+      "app_name": "PDF Expert: Editor & Reader",
+      "name": "PDF Expert Premium – Edit PDF",
+      "region": "us",
+      "first_date": "2026-10-24",
+      "first_price": "$49.99",
+      "last_date": "2026-10-24",
+      "last_price": "$49.99",
+      "last_change_date": "2026-10-24",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-24",
+      "free_since": null,
+      "changes": {
+        "2026-10-24": "$49.99"
+      }
+    },
+    "743974925::PDF Expert – Read & Annotate": {
+      "app_id": "743974925",
+      "app_name": "PDF Expert: Editor & Reader",
+      "name": "PDF Expert – Read & Annotate",
+      "region": "us",
+      "first_date": "2026-10-24",
+      "first_price": "$79.99",
+      "last_date": "2026-10-24",
+      "last_price": "$79.99",
+      "last_change_date": "2026-10-24",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-24",
+      "free_since": null,
+      "changes": {
+        "2026-10-24": "$79.99"
+      }
+    },
+    "743974925::PDF Expert Premium Editing": {
+      "app_id": "743974925",
+      "app_name": "PDF Expert: Editor & Reader",
+      "name": "PDF Expert Premium Editing",
+      "region": "us",
+      "first_date": "2026-10-24",
+      "first_price": "$49.99",
+      "last_date": "2026-10-24",
+      "last_price": "$49.99",
+      "last_change_date": "2026-10-24",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-24",
+      "free_since": null,
+      "changes": {
+        "2026-10-24": "$49.99"
+      }
+    },
+    "6499032288::Premium 3 Months": {
+      "app_id": "6499032288",
+      "app_name": "Kiki: Local Chat & People Near",
+      "name": "Premium 3 Months",
+      "region": "us",
+      "first_date": "2026-10-24",
+      "first_price": "$26.99",
+      "last_date": "2026-10-24",
+      "last_price": "$26.99",
+      "last_change_date": "2026-10-24",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-24",
+      "free_since": null,
+      "changes": {
+        "2026-10-24": "$26.99"
+      }
+    },
+    "6499032288::3606 Donuts": {
+      "app_id": "6499032288",
+      "app_name": "Kiki: Local Chat & People Near",
+      "name": "3606 Donuts",
+      "region": "us",
+      "first_date": "2026-10-24",
+      "first_price": "$99.99",
+      "last_date": "2026-10-24",
+      "last_price": "$99.99",
+      "last_change_date": "2026-10-24",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-24",
+      "free_since": null,
+      "changes": {
+        "2026-10-24": "$99.99"
+      }
+    },
+    "6499032288::26 Donuts": {
+      "app_id": "6499032288",
+      "app_name": "Kiki: Local Chat & People Near",
+      "name": "26 Donuts",
+      "region": "us",
+      "first_date": "2026-10-24",
+      "first_price": "$0.99",
+      "last_date": "2026-10-24",
+      "last_price": "$0.99",
+      "last_change_date": "2026-10-24",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-24",
+      "free_since": null,
+      "changes": {
+        "2026-10-24": "$0.99"
       }
     }
   }

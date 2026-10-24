@@ -4,8 +4,8 @@
     "version": 1,
     "updated": "2026-10-24",
     "pool_size": 2000,
-    "processed": 1995,
-    "skipped": 5,
+    "processed": 1993,
+    "skipped": 7,
     "seeded_from": "apprcn",
     "seed_added": 9,
     "seed_total": 846
@@ -28960,14 +28960,14 @@
       "first_date": "2026-10-23",
       "first_price": "¥68.00",
       "last_date": "2026-10-24",
-      "last_price": "¥58.00",
+      "last_price": "¥28.00",
       "last_change_date": "2026-10-24",
       "ever_paid": true,
       "last_paid_date": "2026-10-24",
       "free_since": null,
       "changes": {
         "2026-10-23": "¥28.00",
-        "2026-10-24": "¥58.00"
+        "2026-10-24": "¥28.00"
       }
     },
     "6751887174::Premium Lifetime": {
@@ -68723,13 +68723,14 @@
       "first_date": "2026-10-23",
       "first_price": "¥78.00",
       "last_date": "2026-10-24",
-      "last_price": "¥78.00",
-      "last_change_date": "2026-10-23",
+      "last_price": "¥180.00",
+      "last_change_date": "2026-10-24",
       "ever_paid": true,
-      "last_paid_date": "2026-10-23",
+      "last_paid_date": "2026-10-24",
       "free_since": null,
       "changes": {
-        "2026-10-23": "¥78.00"
+        "2026-10-23": "¥78.00",
+        "2026-10-24": "¥180.00"
       }
     },
     "1581548488::CPnow币42个": {
@@ -97536,14 +97537,14 @@
       "first_date": "2026-10-23",
       "first_price": "¥30.00",
       "last_date": "2026-10-24",
-      "last_price": "¥45.00",
+      "last_price": "¥699.00",
       "last_change_date": "2026-10-24",
       "ever_paid": true,
       "last_paid_date": "2026-10-24",
       "free_since": null,
       "changes": {
         "2026-10-23": "¥45.00",
-        "2026-10-24": "¥45.00"
+        "2026-10-24": "¥699.00"
       }
     },
     "6446305602::美豆": {
@@ -98838,14 +98839,14 @@
       "first_date": "2026-10-23",
       "first_price": "¥148.00",
       "last_date": "2026-10-24",
-      "last_price": "¥198.00",
+      "last_price": "¥148.00",
       "last_change_date": "2026-10-24",
       "ever_paid": true,
       "last_paid_date": "2026-10-24",
       "free_since": null,
       "changes": {
         "2026-10-23": "¥198.00",
-        "2026-10-24": "¥198.00"
+        "2026-10-24": "¥148.00"
       }
     },
     "6753741715::Gloam Pro": {
@@ -119261,6 +119262,754 @@
       "free_since": null,
       "changes": {
         "2026-10-24": "¥328.00"
+      }
+    },
+    "1637609098::简历优化-6-10年": {
+      "app_id": "1637609098",
+      "app_name": "医聘猫医疗招聘求职人才网",
+      "name": "简历优化-6-10年",
+      "region": "cn",
+      "first_date": "2026-10-24",
+      "first_price": "¥88.00",
+      "last_date": "2026-10-24",
+      "last_price": "¥88.00",
+      "last_change_date": "2026-10-24",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-24",
+      "free_since": null,
+      "changes": {
+        "2026-10-24": "¥88.00"
+      }
+    },
+    "1637609098::简历优化-1年以内": {
+      "app_id": "1637609098",
+      "app_name": "医聘猫医疗招聘求职人才网",
+      "name": "简历优化-1年以内",
+      "region": "cn",
+      "first_date": "2026-10-24",
+      "first_price": "¥48.00",
+      "last_date": "2026-10-24",
+      "last_price": "¥48.00",
+      "last_change_date": "2026-10-24",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-24",
+      "free_since": null,
+      "changes": {
+        "2026-10-24": "¥48.00"
+      }
+    },
+    "1637609098::极速入职": {
+      "app_id": "1637609098",
+      "app_name": "医聘猫医疗招聘求职人才网",
+      "name": "极速入职",
+      "region": "cn",
+      "first_date": "2026-10-24",
+      "first_price": "¥699.00",
+      "last_date": "2026-10-24",
+      "last_price": "¥699.00",
+      "last_change_date": "2026-10-24",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-24",
+      "free_since": null,
+      "changes": {
+        "2026-10-24": "¥699.00"
+      }
+    },
+    "1508944184::蝉妈妈AI蝉豆5000个": {
+      "app_id": "1508944184",
+      "app_name": "蝉妈妈-直播短视频电商AI数据分析",
+      "name": "蝉妈妈AI蝉豆5000个",
+      "region": "cn",
+      "first_date": "2026-10-24",
+      "first_price": "¥878.00",
+      "last_date": "2026-10-24",
+      "last_price": "¥878.00",
+      "last_change_date": "2026-10-24",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-24",
+      "free_since": null,
+      "changes": {
+        "2026-10-24": "¥878.00"
+      }
+    },
+    "1508944184::蝉妈妈AI蝉豆10000个": {
+      "app_id": "1508944184",
+      "app_name": "蝉妈妈-直播短视频电商AI数据分析",
+      "name": "蝉妈妈AI蝉豆10000个",
+      "region": "cn",
+      "first_date": "2026-10-24",
+      "first_price": "¥1,748.00",
+      "last_date": "2026-10-24",
+      "last_price": "¥1,748.00",
+      "last_change_date": "2026-10-24",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-24",
+      "free_since": null,
+      "changes": {
+        "2026-10-24": "¥1,748.00"
+      }
+    },
+    "1508944184::蝉妈妈AI蝉豆1000个": {
+      "app_id": "1508944184",
+      "app_name": "蝉妈妈-直播短视频电商AI数据分析",
+      "name": "蝉妈妈AI蝉豆1000个",
+      "region": "cn",
+      "first_date": "2026-10-24",
+      "first_price": "¥230.00",
+      "last_date": "2026-10-24",
+      "last_price": "¥230.00",
+      "last_change_date": "2026-10-24",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-24",
+      "free_since": null,
+      "changes": {
+        "2026-10-24": "¥230.00"
+      }
+    },
+    "1508944184::蝉妈妈AI会员2500个": {
+      "app_id": "1508944184",
+      "app_name": "蝉妈妈-直播短视频电商AI数据分析",
+      "name": "蝉妈妈AI会员2500个",
+      "region": "cn",
+      "first_date": "2026-10-24",
+      "first_price": "¥439.00",
+      "last_date": "2026-10-24",
+      "last_price": "¥439.00",
+      "last_change_date": "2026-10-24",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-24",
+      "free_since": null,
+      "changes": {
+        "2026-10-24": "¥439.00"
+      }
+    },
+    "1508944184::蝉妈妈AI-Plus三个月非连续订阅会员": {
+      "app_id": "1508944184",
+      "app_name": "蝉妈妈-直播短视频电商AI数据分析",
+      "name": "蝉妈妈AI-Plus三个月非连续订阅会员",
+      "region": "cn",
+      "first_date": "2026-10-24",
+      "first_price": "¥528.00",
+      "last_date": "2026-10-24",
+      "last_price": "¥528.00",
+      "last_change_date": "2026-10-24",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-24",
+      "free_since": null,
+      "changes": {
+        "2026-10-24": "¥528.00"
+      }
+    },
+    "1508944184::蝉妈妈AI-Plus一个月非连续订阅会员": {
+      "app_id": "1508944184",
+      "app_name": "蝉妈妈-直播短视频电商AI数据分析",
+      "name": "蝉妈妈AI-Plus一个月非连续订阅会员",
+      "region": "cn",
+      "first_date": "2026-10-24",
+      "first_price": "¥288.00",
+      "last_date": "2026-10-24",
+      "last_price": "¥288.00",
+      "last_change_date": "2026-10-24",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-24",
+      "free_since": null,
+      "changes": {
+        "2026-10-24": "¥288.00"
+      }
+    },
+    "1508944184::蝉妈妈AI-Plus会员1年": {
+      "app_id": "1508944184",
+      "app_name": "蝉妈妈-直播短视频电商AI数据分析",
+      "name": "蝉妈妈AI-Plus会员1年",
+      "region": "cn",
+      "first_date": "2026-10-24",
+      "first_price": "¥1,448.00",
+      "last_date": "2026-10-24",
+      "last_price": "¥1,448.00",
+      "last_change_date": "2026-10-24",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-24",
+      "free_since": null,
+      "changes": {
+        "2026-10-24": "¥1,448.00"
+      }
+    },
+    "1508944184::蝉妈妈AI蝉豆2500": {
+      "app_id": "1508944184",
+      "app_name": "蝉妈妈-直播短视频电商AI数据分析",
+      "name": "蝉妈妈AI蝉豆2500",
+      "region": "cn",
+      "first_date": "2026-10-24",
+      "first_price": "¥288.00",
+      "last_date": "2026-10-24",
+      "last_price": "¥288.00",
+      "last_change_date": "2026-10-24",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-24",
+      "free_since": null,
+      "changes": {
+        "2026-10-24": "¥288.00"
+      }
+    },
+    "1508944184::蝉妈妈AI蝉豆600": {
+      "app_id": "1508944184",
+      "app_name": "蝉妈妈-直播短视频电商AI数据分析",
+      "name": "蝉妈妈AI蝉豆600",
+      "region": "cn",
+      "first_date": "2026-10-24",
+      "first_price": "¥69.00",
+      "last_date": "2026-10-24",
+      "last_price": "¥69.00",
+      "last_change_date": "2026-10-24",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-24",
+      "free_since": null,
+      "changes": {
+        "2026-10-24": "¥69.00"
+      }
+    },
+    "590246583::恋爱记会员": {
+      "app_id": "590246583",
+      "app_name": "恋爱记-1314打卡挑战，情侣双人在线养宠物云宝日记飞行棋",
+      "name": "恋爱记会员",
+      "region": "cn",
+      "first_date": "2026-10-24",
+      "first_price": "¥12.00",
+      "last_date": "2026-10-24",
+      "last_price": "¥12.00",
+      "last_change_date": "2026-10-24",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-24",
+      "free_since": null,
+      "changes": {
+        "2026-10-24": "¥12.00"
+      }
+    },
+    "590246583::钻石VIP会员 双人连续包月": {
+      "app_id": "590246583",
+      "app_name": "恋爱记-1314打卡挑战，情侣双人在线养宠物云宝日记飞行棋",
+      "name": "钻石VIP会员 双人连续包月",
+      "region": "cn",
+      "first_date": "2026-10-24",
+      "first_price": "¥24.00",
+      "last_date": "2026-10-24",
+      "last_price": "¥24.00",
+      "last_change_date": "2026-10-24",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-24",
+      "free_since": null,
+      "changes": {
+        "2026-10-24": "¥24.00"
+      }
+    },
+    "590246583::情侣双人永久钻石会员": {
+      "app_id": "590246583",
+      "app_name": "恋爱记-1314打卡挑战，情侣双人在线养宠物云宝日记飞行棋",
+      "name": "情侣双人永久钻石会员",
+      "region": "cn",
+      "first_date": "2026-10-24",
+      "first_price": "¥49.00",
+      "last_date": "2026-10-24",
+      "last_price": "¥49.00",
+      "last_change_date": "2026-10-24",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-24",
+      "free_since": null,
+      "changes": {
+        "2026-10-24": "¥49.00"
+      }
+    },
+    "590246583::超值补签卡（10张特惠）": {
+      "app_id": "590246583",
+      "app_name": "恋爱记-1314打卡挑战，情侣双人在线养宠物云宝日记飞行棋",
+      "name": "超值补签卡（10张特惠）",
+      "region": "cn",
+      "first_date": "2026-10-24",
+      "first_price": "¥83.00",
+      "last_date": "2026-10-24",
+      "last_price": "¥83.00",
+      "last_change_date": "2026-10-24",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-24",
+      "free_since": null,
+      "changes": {
+        "2026-10-24": "¥83.00"
+      }
+    },
+    "590246583::超值补签卡（8张特惠）": {
+      "app_id": "590246583",
+      "app_name": "恋爱记-1314打卡挑战，情侣双人在线养宠物云宝日记飞行棋",
+      "name": "超值补签卡（8张特惠）",
+      "region": "cn",
+      "first_date": "2026-10-24",
+      "first_price": "¥67.00",
+      "last_date": "2026-10-24",
+      "last_price": "¥67.00",
+      "last_change_date": "2026-10-24",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-24",
+      "free_since": null,
+      "changes": {
+        "2026-10-24": "¥67.00"
+      }
+    },
+    "590246583::超值补签卡（4张特惠）": {
+      "app_id": "590246583",
+      "app_name": "恋爱记-1314打卡挑战，情侣双人在线养宠物云宝日记飞行棋",
+      "name": "超值补签卡（4张特惠）",
+      "region": "cn",
+      "first_date": "2026-10-24",
+      "first_price": "¥34.00",
+      "last_date": "2026-10-24",
+      "last_price": "¥34.00",
+      "last_change_date": "2026-10-24",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-24",
+      "free_since": null,
+      "changes": {
+        "2026-10-24": "¥34.00"
+      }
+    },
+    "590246583::超值补签卡（2张特惠）": {
+      "app_id": "590246583",
+      "app_name": "恋爱记-1314打卡挑战，情侣双人在线养宠物云宝日记飞行棋",
+      "name": "超值补签卡（2张特惠）",
+      "region": "cn",
+      "first_date": "2026-10-24",
+      "first_price": "¥18.00",
+      "last_date": "2026-10-24",
+      "last_price": "¥18.00",
+      "last_change_date": "2026-10-24",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-24",
+      "free_since": null,
+      "changes": {
+        "2026-10-24": "¥18.00"
+      }
+    },
+    "590246583::1张补签卡（每月福利）": {
+      "app_id": "590246583",
+      "app_name": "恋爱记-1314打卡挑战，情侣双人在线养宠物云宝日记飞行棋",
+      "name": "1张补签卡（每月福利）",
+      "region": "cn",
+      "first_date": "2026-10-24",
+      "first_price": "¥9.00",
+      "last_date": "2026-10-24",
+      "last_price": "¥9.00",
+      "last_change_date": "2026-10-24",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-24",
+      "free_since": null,
+      "changes": {
+        "2026-10-24": "¥9.00"
+      }
+    },
+    "590246583::超值补签卡（50张）": {
+      "app_id": "590246583",
+      "app_name": "恋爱记-1314打卡挑战，情侣双人在线养宠物云宝日记飞行棋",
+      "name": "超值补签卡（50张）",
+      "region": "cn",
+      "first_date": "2026-10-24",
+      "first_price": "¥499.00",
+      "last_date": "2026-10-24",
+      "last_price": "¥499.00",
+      "last_change_date": "2026-10-24",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-24",
+      "free_since": null,
+      "changes": {
+        "2026-10-24": "¥499.00"
+      }
+    },
+    "590246583::超值补签卡（40张）": {
+      "app_id": "590246583",
+      "app_name": "恋爱记-1314打卡挑战，情侣双人在线养宠物云宝日记飞行棋",
+      "name": "超值补签卡（40张）",
+      "region": "cn",
+      "first_date": "2026-10-24",
+      "first_price": "¥399.00",
+      "last_date": "2026-10-24",
+      "last_price": "¥399.00",
+      "last_change_date": "2026-10-24",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-24",
+      "free_since": null,
+      "changes": {
+        "2026-10-24": "¥399.00"
+      }
+    },
+    "1481327874::雷达寻踪模型订阅(12个月)": {
+      "app_id": "1481327874",
+      "app_name": "V站-足球篮球赛事比分",
+      "name": "雷达寻踪模型订阅(12个月)",
+      "region": "cn",
+      "first_date": "2026-10-24",
+      "first_price": "¥1,998.00",
+      "last_date": "2026-10-24",
+      "last_price": "¥1,998.00",
+      "last_change_date": "2026-10-24",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-24",
+      "free_since": null,
+      "changes": {
+        "2026-10-24": "¥1,998.00"
+      }
+    },
+    "1481327874::雷达寻踪模型订阅(6个月)": {
+      "app_id": "1481327874",
+      "app_name": "V站-足球篮球赛事比分",
+      "name": "雷达寻踪模型订阅(6个月)",
+      "region": "cn",
+      "first_date": "2026-10-24",
+      "first_price": "¥1,098.00",
+      "last_date": "2026-10-24",
+      "last_price": "¥1,098.00",
+      "last_change_date": "2026-10-24",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-24",
+      "free_since": null,
+      "changes": {
+        "2026-10-24": "¥1,098.00"
+      }
+    },
+    "1481327874::雷达寻踪模型订阅(3个月)": {
+      "app_id": "1481327874",
+      "app_name": "V站-足球篮球赛事比分",
+      "name": "雷达寻踪模型订阅(3个月)",
+      "region": "cn",
+      "first_date": "2026-10-24",
+      "first_price": "¥588.00",
+      "last_date": "2026-10-24",
+      "last_price": "¥588.00",
+      "last_change_date": "2026-10-24",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-24",
+      "free_since": null,
+      "changes": {
+        "2026-10-24": "¥588.00"
+      }
+    },
+    "1481327874::雷达寻踪模型订阅(1个月)": {
+      "app_id": "1481327874",
+      "app_name": "V站-足球篮球赛事比分",
+      "name": "雷达寻踪模型订阅(1个月)",
+      "region": "cn",
+      "first_date": "2026-10-24",
+      "first_price": "¥198.00",
+      "last_date": "2026-10-24",
+      "last_price": "¥198.00",
+      "last_change_date": "2026-10-24",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-24",
+      "free_since": null,
+      "changes": {
+        "2026-10-24": "¥198.00"
+      }
+    },
+    "1481327874::雷达寻踪模型连续订阅（1个月）": {
+      "app_id": "1481327874",
+      "app_name": "V站-足球篮球赛事比分",
+      "name": "雷达寻踪模型连续订阅（1个月）",
+      "region": "cn",
+      "first_date": "2026-10-24",
+      "first_price": "¥168.00",
+      "last_date": "2026-10-24",
+      "last_price": "¥168.00",
+      "last_change_date": "2026-10-24",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-24",
+      "free_since": null,
+      "changes": {
+        "2026-10-24": "¥168.00"
+      }
+    },
+    "1481327874::雷达寻踪模型连续订阅（3个月）": {
+      "app_id": "1481327874",
+      "app_name": "V站-足球篮球赛事比分",
+      "name": "雷达寻踪模型连续订阅（3个月）",
+      "region": "cn",
+      "first_date": "2026-10-24",
+      "first_price": "¥488.00",
+      "last_date": "2026-10-24",
+      "last_price": "¥488.00",
+      "last_change_date": "2026-10-24",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-24",
+      "free_since": null,
+      "changes": {
+        "2026-10-24": "¥488.00"
+      }
+    },
+    "1481327874::雷达寻踪模型连续订阅（12个月）": {
+      "app_id": "1481327874",
+      "app_name": "V站-足球篮球赛事比分",
+      "name": "雷达寻踪模型连续订阅（12个月）",
+      "region": "cn",
+      "first_date": "2026-10-24",
+      "first_price": "¥1,798.00",
+      "last_date": "2026-10-24",
+      "last_price": "¥1,798.00",
+      "last_change_date": "2026-10-24",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-24",
+      "free_since": null,
+      "changes": {
+        "2026-10-24": "¥1,798.00"
+      }
+    },
+    "1481327874::雷达寻踪模型连续订阅（6个月）": {
+      "app_id": "1481327874",
+      "app_name": "V站-足球篮球赛事比分",
+      "name": "雷达寻踪模型连续订阅（6个月）",
+      "region": "cn",
+      "first_date": "2026-10-24",
+      "first_price": "¥918.00",
+      "last_date": "2026-10-24",
+      "last_price": "¥918.00",
+      "last_change_date": "2026-10-24",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-24",
+      "free_since": null,
+      "changes": {
+        "2026-10-24": "¥918.00"
+      }
+    },
+    "1481327874::大会员（12个月）": {
+      "app_id": "1481327874",
+      "app_name": "V站-足球篮球赛事比分",
+      "name": "大会员（12个月）",
+      "region": "cn",
+      "first_date": "2026-10-24",
+      "first_price": "¥3,298.00",
+      "last_date": "2026-10-24",
+      "last_price": "¥3,298.00",
+      "last_change_date": "2026-10-24",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-24",
+      "free_since": null,
+      "changes": {
+        "2026-10-24": "¥3,298.00"
+      }
+    },
+    "1481327874::大会员（6个月）": {
+      "app_id": "1481327874",
+      "app_name": "V站-足球篮球赛事比分",
+      "name": "大会员（6个月）",
+      "region": "cn",
+      "first_date": "2026-10-24",
+      "first_price": "¥1,998.00",
+      "last_date": "2026-10-24",
+      "last_price": "¥1,998.00",
+      "last_change_date": "2026-10-24",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-24",
+      "free_since": null,
+      "changes": {
+        "2026-10-24": "¥1,998.00"
+      }
+    },
+    "1454093306::SVIP连续包年": {
+      "app_id": "1454093306",
+      "app_name": "遇见漂流瓶-语音聊天交友树洞倾诉软件",
+      "name": "SVIP连续包年",
+      "region": "cn",
+      "first_date": "2026-10-24",
+      "first_price": "¥508.00",
+      "last_date": "2026-10-24",
+      "last_price": "¥508.00",
+      "last_change_date": "2026-10-24",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-24",
+      "free_since": null,
+      "changes": {
+        "2026-10-24": "¥508.00"
+      }
+    },
+    "1454093306::SVIP连续包季": {
+      "app_id": "1454093306",
+      "app_name": "遇见漂流瓶-语音聊天交友树洞倾诉软件",
+      "name": "SVIP连续包季",
+      "region": "cn",
+      "first_date": "2026-10-24",
+      "first_price": "¥198.00",
+      "last_date": "2026-10-24",
+      "last_price": "¥198.00",
+      "last_change_date": "2026-10-24",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-24",
+      "free_since": null,
+      "changes": {
+        "2026-10-24": "¥198.00"
+      }
+    },
+    "1454093306::SVIP连续包月": {
+      "app_id": "1454093306",
+      "app_name": "遇见漂流瓶-语音聊天交友树洞倾诉软件",
+      "name": "SVIP连续包月",
+      "region": "cn",
+      "first_date": "2026-10-24",
+      "first_price": "¥78.00",
+      "last_date": "2026-10-24",
+      "last_price": "¥78.00",
+      "last_change_date": "2026-10-24",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-24",
+      "free_since": null,
+      "changes": {
+        "2026-10-24": "¥78.00"
+      }
+    },
+    "1454093306::VIP连续包季": {
+      "app_id": "1454093306",
+      "app_name": "遇见漂流瓶-语音聊天交友树洞倾诉软件",
+      "name": "VIP连续包季",
+      "region": "cn",
+      "first_date": "2026-10-24",
+      "first_price": "¥66.00",
+      "last_date": "2026-10-24",
+      "last_price": "¥66.00",
+      "last_change_date": "2026-10-24",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-24",
+      "free_since": null,
+      "changes": {
+        "2026-10-24": "¥66.00"
+      }
+    },
+    "1454093306::12个月VIP": {
+      "app_id": "1454093306",
+      "app_name": "遇见漂流瓶-语音聊天交友树洞倾诉软件",
+      "name": "12个月VIP",
+      "region": "cn",
+      "first_date": "2026-10-24",
+      "first_price": "¥213.00",
+      "last_date": "2026-10-24",
+      "last_price": "¥213.00",
+      "last_change_date": "2026-10-24",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-24",
+      "free_since": null,
+      "changes": {
+        "2026-10-24": "¥213.00"
+      }
+    },
+    "1454093306::3个月VIP": {
+      "app_id": "1454093306",
+      "app_name": "遇见漂流瓶-语音聊天交友树洞倾诉软件",
+      "name": "3个月VIP",
+      "region": "cn",
+      "first_date": "2026-10-24",
+      "first_price": "¥75.00",
+      "last_date": "2026-10-24",
+      "last_price": "¥75.00",
+      "last_change_date": "2026-10-24",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-24",
+      "free_since": null,
+      "changes": {
+        "2026-10-24": "¥75.00"
+      }
+    },
+    "1454093306::自动续费月SVIP": {
+      "app_id": "1454093306",
+      "app_name": "遇见漂流瓶-语音聊天交友树洞倾诉软件",
+      "name": "自动续费月SVIP",
+      "region": "cn",
+      "first_date": "2026-10-24",
+      "first_price": "¥60.00",
+      "last_date": "2026-10-24",
+      "last_price": "¥60.00",
+      "last_change_date": "2026-10-24",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-24",
+      "free_since": null,
+      "changes": {
+        "2026-10-24": "¥60.00"
+      }
+    },
+    "1454093306::自动续费季SVIP": {
+      "app_id": "1454093306",
+      "app_name": "遇见漂流瓶-语音聊天交友树洞倾诉软件",
+      "name": "自动续费季SVIP",
+      "region": "cn",
+      "first_date": "2026-10-24",
+      "first_price": "¥178.00",
+      "last_date": "2026-10-24",
+      "last_price": "¥178.00",
+      "last_change_date": "2026-10-24",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-24",
+      "free_since": null,
+      "changes": {
+        "2026-10-24": "¥178.00"
+      }
+    },
+    "6446305602::开拍SVIP-1个月": {
+      "app_id": "6446305602",
+      "app_name": "开拍 - 让口播视频自带网感",
+      "name": "开拍SVIP-1个月",
+      "region": "cn",
+      "first_date": "2026-10-24",
+      "first_price": "¥119.00",
+      "last_date": "2026-10-24",
+      "last_price": "¥119.00",
+      "last_change_date": "2026-10-24",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-24",
+      "free_since": null,
+      "changes": {
+        "2026-10-24": "¥119.00"
+      }
+    },
+    "6446305602::开拍SVIP-3个月": {
+      "app_id": "6446305602",
+      "app_name": "开拍 - 让口播视频自带网感",
+      "name": "开拍SVIP-3个月",
+      "region": "cn",
+      "first_date": "2026-10-24",
+      "first_price": "¥349.00",
+      "last_date": "2026-10-24",
+      "last_price": "¥349.00",
+      "last_change_date": "2026-10-24",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-24",
+      "free_since": null,
+      "changes": {
+        "2026-10-24": "¥349.00"
+      }
+    },
+    "6446305602::开拍VIP-12个月": {
+      "app_id": "6446305602",
+      "app_name": "开拍 - 让口播视频自带网感",
+      "name": "开拍VIP-12个月",
+      "region": "cn",
+      "first_date": "2026-10-24",
+      "first_price": "¥899.00",
+      "last_date": "2026-10-24",
+      "last_price": "¥899.00",
+      "last_change_date": "2026-10-24",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-24",
+      "free_since": null,
+      "changes": {
+        "2026-10-24": "¥899.00"
+      }
+    },
+    "6446305602::AI主播生成视频": {
+      "app_id": "6446305602",
+      "app_name": "开拍 - 让口播视频自带网感",
+      "name": "AI主播生成视频",
+      "region": "cn",
+      "first_date": "2026-10-24",
+      "first_price": "¥18.00",
+      "last_date": "2026-10-24",
+      "last_price": "¥12.00",
+      "last_change_date": "2026-10-24",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-24",
+      "free_since": null,
+      "changes": {
+        "2026-10-24": "¥12.00"
       }
     }
   }
