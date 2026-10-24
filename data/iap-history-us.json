@@ -5330,13 +5330,14 @@
       "first_date": "2026-10-23",
       "first_price": "$59.99",
       "last_date": "2026-10-24",
-      "last_price": "$59.99",
-      "last_change_date": "2026-10-23",
+      "last_price": "$39.99",
+      "last_change_date": "2026-10-24",
       "ever_paid": true,
-      "last_paid_date": "2026-10-23",
+      "last_paid_date": "2026-10-24",
       "free_since": null,
       "changes": {
-        "2026-10-23": "$59.99"
+        "2026-10-23": "$59.99",
+        "2026-10-24": "$39.99"
       }
     },
     "6745872842::Weekly 9.99 Trial": {
@@ -19756,14 +19757,14 @@
       "first_date": "2026-10-23",
       "first_price": "$4.99",
       "last_date": "2026-10-24",
-      "last_price": "$4.99",
+      "last_price": "$24.99",
       "last_change_date": "2026-10-24",
       "ever_paid": true,
       "last_paid_date": "2026-10-24",
       "free_since": null,
       "changes": {
         "2026-10-23": "$24.99",
-        "2026-10-24": "$4.99"
+        "2026-10-24": "$24.99"
       }
     },
     "1662217862::Monthly Recurring Tip": {
@@ -22497,14 +22498,14 @@
       "first_date": "2026-10-23",
       "first_price": "$9.99",
       "last_date": "2026-10-24",
-      "last_price": "$69.99",
+      "last_price": "$19.99",
       "last_change_date": "2026-10-24",
       "ever_paid": true,
       "last_paid_date": "2026-10-24",
       "free_since": null,
       "changes": {
         "2026-10-23": "$69.99",
-        "2026-10-24": "$69.99"
+        "2026-10-24": "$19.99"
       }
     },
     "1507917112::Air Apps One - 1 Week": {
@@ -22719,7 +22720,7 @@
       "region": "us",
       "first_date": "2026-10-23",
       "first_price": "$14.99",
-      "last_date": "2026-10-23",
+      "last_date": "2026-10-24",
       "last_price": "$14.99",
       "last_change_date": "2026-10-23",
       "ever_paid": true,
@@ -23325,14 +23326,14 @@
       "first_date": "2026-10-23",
       "first_price": "$9.99",
       "last_date": "2026-10-24",
-      "last_price": "$5.99",
+      "last_price": "$7.99",
       "last_change_date": "2026-10-24",
       "ever_paid": true,
       "last_paid_date": "2026-10-24",
       "free_since": null,
       "changes": {
         "2026-10-23": "$5.99",
-        "2026-10-24": "$5.99"
+        "2026-10-24": "$7.99"
       }
     },
     "1602061522::1 Month Plan": {
@@ -24217,14 +24218,14 @@
       "first_date": "2026-10-23",
       "first_price": "$9.99",
       "last_date": "2026-10-24",
-      "last_price": "$11.99",
+      "last_price": "$9.99",
       "last_change_date": "2026-10-24",
       "ever_paid": true,
       "last_paid_date": "2026-10-24",
       "free_since": null,
       "changes": {
         "2026-10-23": "$11.99",
-        "2026-10-24": "$11.99"
+        "2026-10-24": "$9.99"
       }
     },
     "1226650677::Air Apps One - 1 Week": {
@@ -24235,14 +24236,14 @@
       "first_date": "2026-10-23",
       "first_price": "$9.99",
       "last_date": "2026-10-24",
-      "last_price": "$11.99",
+      "last_price": "$3.99",
       "last_change_date": "2026-10-24",
       "ever_paid": true,
       "last_paid_date": "2026-10-24",
       "free_since": null,
       "changes": {
         "2026-10-23": "$11.99",
-        "2026-10-24": "$11.99"
+        "2026-10-24": "$3.99"
       }
     },
     "1226650677::Air Apps Pro": {
@@ -30073,7 +30074,7 @@
       "region": "us",
       "first_date": "2026-10-23",
       "first_price": "$1.99",
-      "last_date": "2026-10-23",
+      "last_date": "2026-10-24",
       "last_price": "$1.99",
       "last_change_date": "2026-10-23",
       "ever_paid": true,
@@ -32101,14 +32102,14 @@
       "first_date": "2026-10-23",
       "first_price": "$34.99",
       "last_date": "2026-10-24",
-      "last_price": "$69.99",
+      "last_price": "$10.99",
       "last_change_date": "2026-10-24",
       "ever_paid": true,
       "last_paid_date": "2026-10-24",
       "free_since": null,
       "changes": {
         "2026-10-23": "$69.99",
-        "2026-10-24": "$69.99"
+        "2026-10-24": "$10.99"
       }
     },
     "1097815000::Planes Live Premium": {
@@ -37595,14 +37596,14 @@
       "first_date": "2026-10-23",
       "first_price": "$39.99",
       "last_date": "2026-10-24",
-      "last_price": "$29.99",
+      "last_price": "$7.99",
       "last_change_date": "2026-10-24",
       "ever_paid": true,
       "last_paid_date": "2026-10-24",
       "free_since": null,
       "changes": {
         "2026-10-23": "$29.99",
-        "2026-10-24": "$29.99"
+        "2026-10-24": "$7.99"
       }
     },
     "6756808430::Fleet Enthusiast": {
@@ -41376,14 +41377,14 @@
       "first_date": "2026-10-23",
       "first_price": "$79.99",
       "last_date": "2026-10-24",
-      "last_price": "$99.99",
+      "last_price": "$79.99",
       "last_change_date": "2026-10-24",
       "ever_paid": true,
       "last_paid_date": "2026-10-24",
       "free_since": null,
       "changes": {
         "2026-10-23": "$99.99",
-        "2026-10-24": "$99.99"
+        "2026-10-24": "$79.99"
       }
     },
     "6443885102::Premium Yearly": {
@@ -41412,12 +41413,13 @@
       "first_price": "$359.99",
       "last_date": "2026-10-24",
       "last_price": "$359.99",
-      "last_change_date": "2026-10-23",
+      "last_change_date": "2026-10-24",
       "ever_paid": true,
-      "last_paid_date": "2026-10-23",
+      "last_paid_date": "2026-10-24",
       "free_since": null,
       "changes": {
-        "2026-10-23": "$359.99"
+        "2026-10-23": "$359.99",
+        "2026-10-24": "$359.99"
       }
     },
     "6443885102::Premium+ Yearly": {
@@ -43771,7 +43773,7 @@
       "region": "us",
       "first_date": "2026-10-23",
       "first_price": "$29.99",
-      "last_date": "2026-10-23",
+      "last_date": "2026-10-24",
       "last_price": "$29.99",
       "last_change_date": "2026-10-23",
       "ever_paid": true,
@@ -50552,13 +50554,14 @@
       "first_date": "2026-10-23",
       "first_price": "$11.99",
       "last_date": "2026-10-24",
-      "last_price": "$11.99",
-      "last_change_date": "2026-10-23",
+      "last_price": "$5.99",
+      "last_change_date": "2026-10-24",
       "ever_paid": true,
-      "last_paid_date": "2026-10-23",
+      "last_paid_date": "2026-10-24",
       "free_since": null,
       "changes": {
-        "2026-10-23": "$11.99"
+        "2026-10-23": "$11.99",
+        "2026-10-24": "$5.99"
       }
     },
     "319881193::Unlimited Day Pass": {
@@ -59494,7 +59497,7 @@
       "region": "us",
       "first_date": "2026-10-23",
       "first_price": "$9.99",
-      "last_date": "2026-10-23",
+      "last_date": "2026-10-24",
       "last_price": "$9.99",
       "last_change_date": "2026-10-23",
       "ever_paid": true,
@@ -59664,7 +59667,7 @@
       "region": "us",
       "first_date": "2026-10-23",
       "first_price": "$64.99",
-      "last_date": "2026-10-23",
+      "last_date": "2026-10-24",
       "last_price": "$64.99",
       "last_change_date": "2026-10-23",
       "ever_paid": true,
@@ -65584,14 +65587,14 @@
       "first_date": "2026-10-23",
       "first_price": "$19.99",
       "last_date": "2026-10-24",
-      "last_price": "$19.99",
+      "last_price": "$29.99",
       "last_change_date": "2026-10-24",
       "ever_paid": true,
       "last_paid_date": "2026-10-24",
       "free_since": null,
       "changes": {
         "2026-10-23": "$29.99",
-        "2026-10-24": "$19.99"
+        "2026-10-24": "$29.99"
       }
     },
     "1609983545::Annual Subscription": {
@@ -77028,14 +77031,14 @@
       "first_date": "2026-10-23",
       "first_price": "$39.99",
       "last_date": "2026-10-24",
-      "last_price": "$100.00",
+      "last_price": "$200.00",
       "last_change_date": "2026-10-24",
       "ever_paid": true,
       "last_paid_date": "2026-10-24",
       "free_since": null,
       "changes": {
         "2026-10-23": "$200.00",
-        "2026-10-24": "$100.00"
+        "2026-10-24": "$200.00"
       }
     },
     "6740909540::Manus Basic - Monthly": {
@@ -77499,14 +77502,14 @@
       "first_date": "2026-10-23",
       "first_price": "$7.99",
       "last_date": "2026-10-24",
-      "last_price": "$9.99",
+      "last_price": "$7.99",
       "last_change_date": "2026-10-24",
       "ever_paid": true,
       "last_paid_date": "2026-10-24",
       "free_since": null,
       "changes": {
         "2026-10-23": "$7.99",
-        "2026-10-24": "$9.99"
+        "2026-10-24": "$7.99"
       }
     },
     "1482562954::Recover Deleted Photos&Videos": {
@@ -85500,7 +85503,7 @@
       "region": "us",
       "first_date": "2026-10-23",
       "first_price": "$37.99",
-      "last_date": "2026-10-23",
+      "last_date": "2026-10-24",
       "last_price": "$37.99",
       "last_change_date": "2026-10-23",
       "ever_paid": true,
@@ -86801,7 +86804,7 @@
       "region": "us",
       "first_date": "2026-10-23",
       "first_price": "$64.90",
-      "last_date": "2026-10-23",
+      "last_date": "2026-10-24",
       "last_price": "$64.90",
       "last_change_date": "2026-10-23",
       "ever_paid": true,
@@ -90611,14 +90614,14 @@
       "first_date": "2026-10-23",
       "first_price": "$12.99",
       "last_date": "2026-10-24",
-      "last_price": "$9.99",
+      "last_price": "$15.99",
       "last_change_date": "2026-10-24",
       "ever_paid": true,
       "last_paid_date": "2026-10-24",
       "free_since": null,
       "changes": {
         "2026-10-23": "$15.99",
-        "2026-10-24": "$9.99"
+        "2026-10-24": "$15.99"
       }
     },
     "1540719743::Premium Cartoon Filter": {
@@ -92657,14 +92660,14 @@
       "first_date": "2026-10-23",
       "first_price": "$29.99",
       "last_date": "2026-10-24",
-      "last_price": "$19.99",
+      "last_price": "$47.90",
       "last_change_date": "2026-10-24",
       "ever_paid": true,
       "last_paid_date": "2026-10-24",
       "free_since": null,
       "changes": {
         "2026-10-23": "$19.99",
-        "2026-10-24": "$19.99"
+        "2026-10-24": "$47.90"
       }
     },
     "6450713784::Super Picnic - Monthly": {
@@ -92692,13 +92695,14 @@
       "first_date": "2026-10-23",
       "first_price": "$7.99",
       "last_date": "2026-10-24",
-      "last_price": "$7.99",
-      "last_change_date": "2026-10-23",
+      "last_price": "$9.99",
+      "last_change_date": "2026-10-24",
       "ever_paid": true,
-      "last_paid_date": "2026-10-23",
+      "last_paid_date": "2026-10-24",
       "free_since": null,
       "changes": {
-        "2026-10-23": "$7.99"
+        "2026-10-23": "$7.99",
+        "2026-10-24": "$9.99"
       }
     },
     "528388477::iMemories Cloud": {
@@ -103326,7 +103330,7 @@
       "region": "us",
       "first_date": "2026-10-23",
       "first_price": "$20.90",
-      "last_date": "2026-10-23",
+      "last_date": "2026-10-24",
       "last_price": "$20.90",
       "last_change_date": "2026-10-23",
       "ever_paid": true,
@@ -103572,6 +103576,567 @@
       "free_since": null,
       "changes": {
         "2026-10-24": "$24.99"
+      }
+    },
+    "617045654::Yoga Cats": {
+      "app_id": "617045654",
+      "app_name": "Weather Kitty: Weather + Radar",
+      "name": "Yoga Cats",
+      "region": "us",
+      "first_date": "2026-10-24",
+      "first_price": "$2.99",
+      "last_date": "2026-10-24",
+      "last_price": "$2.99",
+      "last_change_date": "2026-10-24",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-24",
+      "free_since": null,
+      "changes": {
+        "2026-10-24": "$2.99"
+      }
+    },
+    "617045654::Add Your Own Kitty": {
+      "app_id": "617045654",
+      "app_name": "Weather Kitty: Weather + Radar",
+      "name": "Add Your Own Kitty",
+      "region": "us",
+      "first_date": "2026-10-24",
+      "first_price": "$1.99",
+      "last_date": "2026-10-24",
+      "last_price": "$1.99",
+      "last_change_date": "2026-10-24",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-24",
+      "free_since": null,
+      "changes": {
+        "2026-10-24": "$1.99"
+      }
+    },
+    "617045654::Cats & Dogs": {
+      "app_id": "617045654",
+      "app_name": "Weather Kitty: Weather + Radar",
+      "name": "Cats & Dogs",
+      "region": "us",
+      "first_date": "2026-10-24",
+      "first_price": "$1.99",
+      "last_date": "2026-10-24",
+      "last_price": "$1.99",
+      "last_change_date": "2026-10-24",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-24",
+      "free_since": null,
+      "changes": {
+        "2026-10-24": "$1.99"
+      }
+    },
+    "617045654::Fall Kittens!": {
+      "app_id": "617045654",
+      "app_name": "Weather Kitty: Weather + Radar",
+      "name": "Fall Kittens!",
+      "region": "us",
+      "first_date": "2026-10-24",
+      "first_price": "$1.99",
+      "last_date": "2026-10-24",
+      "last_price": "$1.99",
+      "last_change_date": "2026-10-24",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-24",
+      "free_since": null,
+      "changes": {
+        "2026-10-24": "$1.99"
+      }
+    },
+    "617045654::Halloween Kittens": {
+      "app_id": "617045654",
+      "app_name": "Weather Kitty: Weather + Radar",
+      "name": "Halloween Kittens",
+      "region": "us",
+      "first_date": "2026-10-24",
+      "first_price": "$1.99",
+      "last_date": "2026-10-24",
+      "last_price": "$1.99",
+      "last_change_date": "2026-10-24",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-24",
+      "free_since": null,
+      "changes": {
+        "2026-10-24": "$1.99"
+      }
+    },
+    "617045654::Themes 9 Pack": {
+      "app_id": "617045654",
+      "app_name": "Weather Kitty: Weather + Radar",
+      "name": "Themes 9 Pack",
+      "region": "us",
+      "first_date": "2026-10-24",
+      "first_price": "$9.99",
+      "last_date": "2026-10-24",
+      "last_price": "$9.99",
+      "last_change_date": "2026-10-24",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-24",
+      "free_since": null,
+      "changes": {
+        "2026-10-24": "$9.99"
+      }
+    },
+    "617045654::Winter Kitty": {
+      "app_id": "617045654",
+      "app_name": "Weather Kitty: Weather + Radar",
+      "name": "Winter Kitty",
+      "region": "us",
+      "first_date": "2026-10-24",
+      "first_price": "$1.99",
+      "last_date": "2026-10-24",
+      "last_price": "$1.99",
+      "last_change_date": "2026-10-24",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-24",
+      "free_since": null,
+      "changes": {
+        "2026-10-24": "$1.99"
+      }
+    },
+    "617045654::Holiday Kitty": {
+      "app_id": "617045654",
+      "app_name": "Weather Kitty: Weather + Radar",
+      "name": "Holiday Kitty",
+      "region": "us",
+      "first_date": "2026-10-24",
+      "first_price": "$1.99",
+      "last_date": "2026-10-24",
+      "last_price": "$1.99",
+      "last_change_date": "2026-10-24",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-24",
+      "free_since": null,
+      "changes": {
+        "2026-10-24": "$1.99"
+      }
+    },
+    "6766166468::SENSI iPhone X a 12 Pro Max": {
+      "app_id": "6766166468",
+      "app_name": "Real Sensi FF - PRO",
+      "name": "SENSI iPhone X a 12 Pro Max",
+      "region": "us",
+      "first_date": "2026-10-24",
+      "first_price": "$1.99",
+      "last_date": "2026-10-24",
+      "last_price": "$1.99",
+      "last_change_date": "2026-10-24",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-24",
+      "free_since": null,
+      "changes": {
+        "2026-10-24": "$1.99"
+      }
+    },
+    "650684932::Toyota 2017 Enhanced Diagnostics": {
+      "app_id": "650684932",
+      "app_name": "OBD Fusion",
+      "name": "Toyota 2017 Enhanced Diagnostics",
+      "region": "us",
+      "first_date": "2026-10-24",
+      "first_price": "$14.99",
+      "last_date": "2026-10-24",
+      "last_price": "$14.99",
+      "last_change_date": "2026-10-24",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-24",
+      "free_since": null,
+      "changes": {
+        "2026-10-24": "$14.99"
+      }
+    },
+    "6449098724::Single Event Access 548": {
+      "app_id": "6449098724",
+      "app_name": "Hudl Fan: Find. Watch. Follow.",
+      "name": "Single Event Access 548",
+      "region": "us",
+      "first_date": "2026-10-24",
+      "first_price": "$21.49",
+      "last_date": "2026-10-24",
+      "last_price": "$21.49",
+      "last_change_date": "2026-10-24",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-24",
+      "free_since": null,
+      "changes": {
+        "2026-10-24": "$21.49"
+      }
+    },
+    "319881193::Mega Roam": {
+      "app_id": "319881193",
+      "app_name": "Grindr - Gay Dating & Chat",
+      "name": "Mega Roam",
+      "region": "us",
+      "first_date": "2026-10-24",
+      "first_price": "$59.99",
+      "last_date": "2026-10-24",
+      "last_price": "$49.99",
+      "last_change_date": "2026-10-24",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-24",
+      "free_since": null,
+      "changes": {
+        "2026-10-24": "$49.99"
+      }
+    },
+    "319881193::Super Roam": {
+      "app_id": "319881193",
+      "app_name": "Grindr - Gay Dating & Chat",
+      "name": "Super Roam",
+      "region": "us",
+      "first_date": "2026-10-24",
+      "first_price": "$11.99",
+      "last_date": "2026-10-24",
+      "last_price": "$11.99",
+      "last_change_date": "2026-10-24",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-24",
+      "free_since": null,
+      "changes": {
+        "2026-10-24": "$11.99"
+      }
+    },
+    "319881193::Roam": {
+      "app_id": "319881193",
+      "app_name": "Grindr - Gay Dating & Chat",
+      "name": "Roam",
+      "region": "us",
+      "first_date": "2026-10-24",
+      "first_price": "$7.99",
+      "last_date": "2026-10-24",
+      "last_price": "$7.99",
+      "last_change_date": "2026-10-24",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-24",
+      "free_since": null,
+      "changes": {
+        "2026-10-24": "$7.99"
+      }
+    },
+    "319881193::Boost for 48 Hours": {
+      "app_id": "319881193",
+      "app_name": "Grindr - Gay Dating & Chat",
+      "name": "Boost for 48 Hours",
+      "region": "us",
+      "first_date": "2026-10-24",
+      "first_price": "$119.00",
+      "last_date": "2026-10-24",
+      "last_price": "$99.99",
+      "last_change_date": "2026-10-24",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-24",
+      "free_since": null,
+      "changes": {
+        "2026-10-24": "$99.99"
+      }
+    },
+    "319881193::Right Now Plus Boost": {
+      "app_id": "319881193",
+      "app_name": "Grindr - Gay Dating & Chat",
+      "name": "Right Now Plus Boost",
+      "region": "us",
+      "first_date": "2026-10-24",
+      "first_price": "$11.99",
+      "last_date": "2026-10-24",
+      "last_price": "$11.99",
+      "last_change_date": "2026-10-24",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-24",
+      "free_since": null,
+      "changes": {
+        "2026-10-24": "$11.99"
+      }
+    },
+    "919745844::10000 Credits + 3000 Credits": {
+      "app_id": "919745844",
+      "app_name": "IMVU: Fun 3D Avatar Chat Game",
+      "name": "10000 Credits + 3000 Credits",
+      "region": "us",
+      "first_date": "2026-10-24",
+      "first_price": "$9.99",
+      "last_date": "2026-10-24",
+      "last_price": "$9.99",
+      "last_change_date": "2026-10-24",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-24",
+      "free_since": null,
+      "changes": {
+        "2026-10-24": "$9.99"
+      }
+    },
+    "1456559188::LE SSERAFIM DigitalM 9 Jelly": {
+      "app_id": "1456559188",
+      "app_name": "Weverse: Connect with Artists",
+      "name": "LE SSERAFIM DigitalM 9 Jelly",
+      "region": "us",
+      "first_date": "2026-10-24",
+      "first_price": "$2.49",
+      "last_date": "2026-10-24",
+      "last_price": "$2.49",
+      "last_change_date": "2026-10-24",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-24",
+      "free_since": null,
+      "changes": {
+        "2026-10-24": "$2.49"
+      }
+    },
+    "480102733::AEX Company Calendars": {
+      "app_id": "480102733",
+      "app_name": "Awesome Calendar",
+      "name": "AEX Company Calendars",
+      "region": "us",
+      "first_date": "2026-10-24",
+      "first_price": "$2.99",
+      "last_date": "2026-10-24",
+      "last_price": "$2.99",
+      "last_change_date": "2026-10-24",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-24",
+      "free_since": null,
+      "changes": {
+        "2026-10-24": "$2.99"
+      }
+    },
+    "480102733::DAX Company Calendars": {
+      "app_id": "480102733",
+      "app_name": "Awesome Calendar",
+      "name": "DAX Company Calendars",
+      "region": "us",
+      "first_date": "2026-10-24",
+      "first_price": "$2.99",
+      "last_date": "2026-10-24",
+      "last_price": "$2.99",
+      "last_change_date": "2026-10-24",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-24",
+      "free_since": null,
+      "changes": {
+        "2026-10-24": "$2.99"
+      }
+    },
+    "480102733::FTSE 100 Company Calendars": {
+      "app_id": "480102733",
+      "app_name": "Awesome Calendar",
+      "name": "FTSE 100 Company Calendars",
+      "region": "us",
+      "first_date": "2026-10-24",
+      "first_price": "$2.99",
+      "last_date": "2026-10-24",
+      "last_price": "$2.99",
+      "last_change_date": "2026-10-24",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-24",
+      "free_since": null,
+      "changes": {
+        "2026-10-24": "$2.99"
+      }
+    },
+    "480102733::DJ 30 Company Calendars": {
+      "app_id": "480102733",
+      "app_name": "Awesome Calendar",
+      "name": "DJ 30 Company Calendars",
+      "region": "us",
+      "first_date": "2026-10-24",
+      "first_price": "$2.99",
+      "last_date": "2026-10-24",
+      "last_price": "$2.99",
+      "last_change_date": "2026-10-24",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-24",
+      "free_since": null,
+      "changes": {
+        "2026-10-24": "$2.99"
+      }
+    },
+    "480102733::AMX Company Calendars": {
+      "app_id": "480102733",
+      "app_name": "Awesome Calendar",
+      "name": "AMX Company Calendars",
+      "region": "us",
+      "first_date": "2026-10-24",
+      "first_price": "$2.99",
+      "last_date": "2026-10-24",
+      "last_price": "$2.99",
+      "last_change_date": "2026-10-24",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-24",
+      "free_since": null,
+      "changes": {
+        "2026-10-24": "$2.99"
+      }
+    },
+    "480102733::BEL 20 Company Calendars": {
+      "app_id": "480102733",
+      "app_name": "Awesome Calendar",
+      "name": "BEL 20 Company Calendars",
+      "region": "us",
+      "first_date": "2026-10-24",
+      "first_price": "$2.99",
+      "last_date": "2026-10-24",
+      "last_price": "$2.99",
+      "last_change_date": "2026-10-24",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-24",
+      "free_since": null,
+      "changes": {
+        "2026-10-24": "$2.99"
+      }
+    },
+    "480102733::CAC 40 Company Calendars": {
+      "app_id": "480102733",
+      "app_name": "Awesome Calendar",
+      "name": "CAC 40 Company Calendars",
+      "region": "us",
+      "first_date": "2026-10-24",
+      "first_price": "$2.99",
+      "last_date": "2026-10-24",
+      "last_price": "$2.99",
+      "last_change_date": "2026-10-24",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-24",
+      "free_since": null,
+      "changes": {
+        "2026-10-24": "$2.99"
+      }
+    },
+    "480102733::NASDAQ 100 Company Calendars": {
+      "app_id": "480102733",
+      "app_name": "Awesome Calendar",
+      "name": "NASDAQ 100 Company Calendars",
+      "region": "us",
+      "first_date": "2026-10-24",
+      "first_price": "$2.99",
+      "last_date": "2026-10-24",
+      "last_price": "$2.99",
+      "last_change_date": "2026-10-24",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-24",
+      "free_since": null,
+      "changes": {
+        "2026-10-24": "$2.99"
+      }
+    },
+    "6473753684::Usage Credits (500)": {
+      "app_id": "6473753684",
+      "app_name": "Claude by Anthropic",
+      "name": "Usage Credits (500)",
+      "region": "us",
+      "first_date": "2026-10-24",
+      "first_price": "$350.00",
+      "last_date": "2026-10-24",
+      "last_price": "$350.00",
+      "last_change_date": "2026-10-24",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-24",
+      "free_since": null,
+      "changes": {
+        "2026-10-24": "$350.00"
+      }
+    },
+    "6473753684::Usage Credits (100)": {
+      "app_id": "6473753684",
+      "app_name": "Claude by Anthropic",
+      "name": "Usage Credits (100)",
+      "region": "us",
+      "first_date": "2026-10-24",
+      "first_price": "$90.00",
+      "last_date": "2026-10-24",
+      "last_price": "$90.00",
+      "last_change_date": "2026-10-24",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-24",
+      "free_since": null,
+      "changes": {
+        "2026-10-24": "$90.00"
+      }
+    },
+    "6473753684::Usage Credits (1000)": {
+      "app_id": "6473753684",
+      "app_name": "Claude by Anthropic",
+      "name": "Usage Credits (1000)",
+      "region": "us",
+      "first_date": "2026-10-24",
+      "first_price": "$700.00",
+      "last_date": "2026-10-24",
+      "last_price": "$700.00",
+      "last_change_date": "2026-10-24",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-24",
+      "free_since": null,
+      "changes": {
+        "2026-10-24": "$700.00"
+      }
+    },
+    "863844475::Pro Year Holiday Discount": {
+      "app_id": "863844475",
+      "app_name": "YouCam Makeup: Face Editor",
+      "name": "Pro Year Holiday Discount",
+      "region": "us",
+      "first_date": "2026-10-24",
+      "first_price": "$79.99",
+      "last_date": "2026-10-24",
+      "last_price": "$79.99",
+      "last_change_date": "2026-10-24",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-24",
+      "free_since": null,
+      "changes": {
+        "2026-10-24": "$79.99"
+      }
+    },
+    "6450713784::Premium": {
+      "app_id": "6450713784",
+      "app_name": "Picnic: Clean Up Storage",
+      "name": "Premium",
+      "region": "us",
+      "first_date": "2026-10-24",
+      "first_price": "$7.99",
+      "last_date": "2026-10-24",
+      "last_price": "$69.99",
+      "last_change_date": "2026-10-24",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-24",
+      "free_since": null,
+      "changes": {
+        "2026-10-24": "$69.99"
+      }
+    },
+    "6450713784::Picnic - 1 year premium": {
+      "app_id": "6450713784",
+      "app_name": "Picnic: Clean Up Storage",
+      "name": "Picnic - 1 year premium",
+      "region": "us",
+      "first_date": "2026-10-24",
+      "first_price": "$29.99",
+      "last_date": "2026-10-24",
+      "last_price": "$29.99",
+      "last_change_date": "2026-10-24",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-24",
+      "free_since": null,
+      "changes": {
+        "2026-10-24": "$29.99"
+      }
+    },
+    "6450713784::Super Picnic (Lifetime)": {
+      "app_id": "6450713784",
+      "app_name": "Picnic: Clean Up Storage",
+      "name": "Super Picnic (Lifetime)",
+      "region": "us",
+      "first_date": "2026-10-24",
+      "first_price": "$99.99",
+      "last_date": "2026-10-24",
+      "last_price": "$99.99",
+      "last_change_date": "2026-10-24",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-24",
+      "free_since": null,
+      "changes": {
+        "2026-10-24": "$99.99"
       }
     }
   }
