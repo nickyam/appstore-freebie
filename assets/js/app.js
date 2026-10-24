@@ -605,6 +605,18 @@
       var feed = events.concat(curNonPerm.filter(function (it) { return !evKeys[it.app_id + '::' + it.iap]; }));
       // 标记每条是否为「限免事件」（用于卡片角标），供 renderIapFiltered 复用
       feed.forEach(function (it) { it.__isEvent = !!evKeys[it.app_id + '::' + it.iap]; });
+      // 计算已免费天数（0 = 今天才限免，与 days_free 同一口径）：事件用 days_free，
+      // current 条目用 since 日期换算；供排序「NEW 最先、从新到旧」
+      var nowMs = Date.now();
+      feed.forEach(function (it) {
+        if (it.__isEvent) { it.__days = (it.days_free != null ? it.days_free : 999); return; }
+        var t = it.since ? Date.parse(it.since) : NaN;
+        it.__days = isNaN(t) ? 999 : Math.max(0, Math.floor((nowMs - t) / 864e5));
+      });
+      feed.sort(function (a, b) {
+        return a.__days - b.__days || (b.rating || 0) - (a.rating || 0) ||
+               (a.app_name || '').localeCompare(b.app_name || '');
+      });
       currentData.iap = feed;
       iapNoData = false;
       iapLoaded = true;
@@ -662,6 +674,30 @@
   // 注：原列表中部手动广告逻辑已移除，中部广告改由 Google 自动广告补充。
 
   // ===== 筛选 =====
+  // 计算条目已处于当前状态（限免/现价）的天数：series 为每日末价序列（旧→新，末位=今天）。
+  // 限免数末尾连续 0 的个数；特价数末尾连续等于现价的个数。1 = 今天刚触发（NEW），越大越旧。
+  function stateDays(a) {
+    var s = a.series || [];
+    if (!s.length) return a.is_new ? 1 : 999;   // 无历史数据：新条目当 1 天，其余排末尾
+    var cur = a.type === 'free' ? 0 : (parsePrice(a.current) || 0);
+    var n = 0;
+    for (var i = s.length - 1; i >= 0; i--) {
+      var v = s[i] || 0;
+      if (Math.abs(v - cur) < 0.005) n++; else break;
+    }
+    return Math.max(n, 1);
+  }
+
+  // 列表排序：NEW（今天刚触发）最先，其余按已持续天数从新到旧，再按评分
+  function sortApps(list) {
+    return (list || []).slice().sort(function (a, b) {
+      return (b.is_new ? 1 : 0) - (a.is_new ? 1 : 0) ||
+             stateDays(a) - stateDays(b) ||
+             (b.rating || 0) - (a.rating || 0) ||
+             (a.name || '').localeCompare(b.name || '');
+    });
+  }
+
   function filterApps(list) {
     if (!list || !list.length) return [];
     var q = state.search.trim().toLowerCase();
@@ -695,8 +731,8 @@
 
   function renderFiltered() {
     var dict = I18N[CURRENT_LANG];
-    var free = filterApps(currentData.free);
-    var deals = filterApps(currentData.deals);
+    var free = sortApps(filterApps(currentData.free));
+    var deals = sortApps(filterApps(currentData.deals));
     var freeEmpty = currentData.free.length === 0 ? dict.free_empty : dict.filter_empty;
     var dealEmpty = currentData.deals.length === 0 ? dict.deal_empty : dict.filter_empty;
     renderList('freeList', free, 'free', freeEmpty);
