@@ -37596,14 +37596,14 @@
       "first_date": "2026-10-23",
       "first_price": "$39.99",
       "last_date": "2026-10-24",
-      "last_price": "$7.99",
+      "last_price": "$29.99",
       "last_change_date": "2026-10-24",
       "ever_paid": true,
       "last_paid_date": "2026-10-24",
       "free_since": null,
       "changes": {
         "2026-10-23": "$29.99",
-        "2026-10-24": "$7.99"
+        "2026-10-24": "$29.99"
       }
     },
     "6756808430::Fleet Enthusiast": {
@@ -41377,14 +41377,14 @@
       "first_date": "2026-10-23",
       "first_price": "$79.99",
       "last_date": "2026-10-24",
-      "last_price": "$79.99",
+      "last_price": "$99.99",
       "last_change_date": "2026-10-24",
       "ever_paid": true,
       "last_paid_date": "2026-10-24",
       "free_since": null,
       "changes": {
         "2026-10-23": "$99.99",
-        "2026-10-24": "$79.99"
+        "2026-10-24": "$99.99"
       }
     },
     "6443885102::Premium Yearly": {
@@ -50554,14 +50554,14 @@
       "first_date": "2026-10-23",
       "first_price": "$11.99",
       "last_date": "2026-10-24",
-      "last_price": "$5.99",
+      "last_price": "$11.99",
       "last_change_date": "2026-10-24",
       "ever_paid": true,
       "last_paid_date": "2026-10-24",
       "free_since": null,
       "changes": {
         "2026-10-23": "$11.99",
-        "2026-10-24": "$5.99"
+        "2026-10-24": "$11.99"
       }
     },
     "319881193::Unlimited Day Pass": {
@@ -56158,14 +56158,14 @@
       "first_date": "2026-10-23",
       "first_price": "$19.99",
       "last_date": "2026-10-24",
-      "last_price": "$14.99",
+      "last_price": "$19.99",
       "last_change_date": "2026-10-24",
       "ever_paid": true,
       "last_paid_date": "2026-10-24",
       "free_since": null,
       "changes": {
         "2026-10-23": "$14.99",
-        "2026-10-24": "$14.99"
+        "2026-10-24": "$19.99"
       }
     },
     "1498407272::3 Super Love": {
@@ -92660,14 +92660,14 @@
       "first_date": "2026-10-23",
       "first_price": "$29.99",
       "last_date": "2026-10-24",
-      "last_price": "$47.90",
+      "last_price": "$19.99",
       "last_change_date": "2026-10-24",
       "ever_paid": true,
       "last_paid_date": "2026-10-24",
       "free_since": null,
       "changes": {
         "2026-10-23": "$19.99",
-        "2026-10-24": "$47.90"
+        "2026-10-24": "$19.99"
       }
     },
     "6450713784::Super Picnic - Monthly": {
@@ -92695,14 +92695,14 @@
       "first_date": "2026-10-23",
       "first_price": "$7.99",
       "last_date": "2026-10-24",
-      "last_price": "$9.99",
+      "last_price": "$7.99",
       "last_change_date": "2026-10-24",
       "ever_paid": true,
       "last_paid_date": "2026-10-24",
       "free_since": null,
       "changes": {
         "2026-10-23": "$7.99",
-        "2026-10-24": "$9.99"
+        "2026-10-24": "$7.99"
       }
     },
     "528388477::iMemories Cloud": {
@@ -103211,7 +103211,7 @@
       "region": "us",
       "first_date": "2026-10-23",
       "first_price": "$35.99",
-      "last_date": "2026-10-23",
+      "last_date": "2026-10-24",
       "last_price": "$35.99",
       "last_change_date": "2026-10-23",
       "ever_paid": true,
@@ -104137,6 +104137,108 @@
       "free_since": null,
       "changes": {
         "2026-10-24": "$99.99"
+      }
+    },
+    "1498407272::Boo Infinity - 12 Months": {
+      "app_id": "1498407272",
+      "app_name": "Boo Dating App: Date & Friends",
+      "name": "Boo Infinity - 12 Months",
+      "region": "us",
+      "first_date": "2026-10-24",
+      "first_price": "$129.99",
+      "last_date": "2026-10-24",
+      "last_price": "$129.99",
+      "last_change_date": "2026-10-24",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-24",
+      "free_since": null,
+      "changes": {
+        "2026-10-24": "$129.99"
+      }
+    },
+    "1498407272::Boo Infinity - 1 Month 50%": {
+      "app_id": "1498407272",
+      "app_name": "Boo Dating App: Date & Friends",
+      "name": "Boo Infinity - 1 Month 50%",
+      "region": "us",
+      "first_date": "2026-10-24",
+      "first_price": "$19.99",
+      "last_date": "2026-10-24",
+      "last_price": "$19.99",
+      "last_change_date": "2026-10-24",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-24",
+      "free_since": null,
+      "changes": {
+        "2026-10-24": "$19.99"
+      }
+    },
+    "1498407272::Boo Infinity - 1 Month 30%": {
+      "app_id": "1498407272",
+      "app_name": "Boo Dating App: Date & Friends",
+      "name": "Boo Infinity - 1 Month 30%",
+      "region": "us",
+      "first_date": "2026-10-24",
+      "first_price": "$19.99",
+      "last_date": "2026-10-24",
+      "last_price": "$19.99",
+      "last_change_date": "2026-10-24",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-24",
+      "free_since": null,
+      "changes": {
+        "2026-10-24": "$19.99"
+      }
+    },
+    "1498407272::Boo Infinity - 3 Months 30%": {
+      "app_id": "1498407272",
+      "app_name": "Boo Dating App: Date & Friends",
+      "name": "Boo Infinity - 3 Months 30%",
+      "region": "us",
+      "first_date": "2026-10-24",
+      "first_price": "$39.99",
+      "last_date": "2026-10-24",
+      "last_price": "$39.99",
+      "last_change_date": "2026-10-24",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-24",
+      "free_since": null,
+      "changes": {
+        "2026-10-24": "$39.99"
+      }
+    },
+    "1498407272::Boo Infinity - 12 Months 30%": {
+      "app_id": "1498407272",
+      "app_name": "Boo Dating App: Date & Friends",
+      "name": "Boo Infinity - 12 Months 30%",
+      "region": "us",
+      "first_date": "2026-10-24",
+      "first_price": "$129.99",
+      "last_date": "2026-10-24",
+      "last_price": "$129.99",
+      "last_change_date": "2026-10-24",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-24",
+      "free_since": null,
+      "changes": {
+        "2026-10-24": "$129.99"
+      }
+    },
+    "1498407272::Boo Infinity - 1 Month 55%": {
+      "app_id": "1498407272",
+      "app_name": "Boo Dating App: Date & Friends",
+      "name": "Boo Infinity - 1 Month 55%",
+      "region": "us",
+      "first_date": "2026-10-24",
+      "first_price": "$19.99",
+      "last_date": "2026-10-24",
+      "last_price": "$19.99",
+      "last_change_date": "2026-10-24",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-24",
+      "free_since": null,
+      "changes": {
+        "2026-10-24": "$19.99"
       }
     }
   }
