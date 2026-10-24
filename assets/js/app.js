@@ -30,7 +30,7 @@
       iap_perm_note: '个常驻免费内购（永久 tier-0 赠品，不计入限免）',
       iap_days: '已免费',
       iap_original: '原价',
-      badge_iap_free: '限时免费',
+      iap_today: '今日起免费',
       iap_perm_tag: '常驻免费(赠品)',
       iap_cur_free: '当前免费',
       dt_iap_title: '🎁 内购限时免费',
@@ -185,7 +185,7 @@
       iap_perm_note: 'permanent free IAPs (tier-0 gifts, excluded from freebies)',
       iap_days: 'free for',
       iap_original: 'was',
-      badge_iap_free: 'Limited-time free',
+      iap_today: 'Free since today',
       iap_perm_tag: 'Permanent free (gift)',
       iap_cur_free: 'Currently free',
       dt_iap_title: '🎁 IAP Limited-Time Free',
@@ -551,7 +551,7 @@
     var info = el('div', 'info');
     var nameRow = el('div', 'name-row');
     nameRow.appendChild(el('span', 'name', esc(it.app_name || '—')));
-    if (isEvent) nameRow.appendChild(el('span', 'new-badge', esc(dict.badge_iap_free)));
+    if (isEvent && it.days_free === 0) nameRow.appendChild(el('span', 'new-badge', esc(dict.badge_new)));
     info.appendChild(nameRow);
     info.appendChild(el('div', 'dev', esc(it.dev || '')));            // 开发者
     if (it.genre) info.appendChild(el('div', 'genre', esc(it.genre)));  // 分类标签
@@ -563,8 +563,10 @@
     // 末行：内购项名 + 免费时长/原价（绿色「免费」价格行已去掉；🎮 图标已按用户要求移除）
     var meta;
     if (isEvent && it.days_free != null) {
-      meta = esc(it.iap || '') + ' · ' + dict.iap_days + ' ' + it.days_free + ' ' +
-        (CURRENT_LANG === 'en' ? 'days' : '天') +
+      meta = esc(it.iap || '') + ' · ' +
+        (it.days_free === 0
+          ? dict.iap_today
+          : dict.iap_days + ' ' + it.days_free + ' ' + (CURRENT_LANG === 'en' ? 'days' : '天')) +
         (it.last_paid_price ? (' · ' + dict.iap_original + ' ' + esc(it.last_paid_price)) : '');
     } else {
       meta = esc(it.iap || '') + (it.permanent_free ? (' · ' + dict.iap_perm_tag) : (' · ' + dict.iap_cur_free));
