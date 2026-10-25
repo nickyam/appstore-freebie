@@ -5,11 +5,11 @@
     "updated": "2026-10-25",
     "seeded_from": "apprcn",
     "seed_added": 6,
-    "seed_total": 6098,
+    "seed_total": 6155,
     "pool_size": 2000,
     "processed": 1999,
     "skipped": 1,
-    "seed_last_ok": "2026-10-25T16:10:38Z",
+    "seed_last_ok": "2026-10-25T16:26:32Z",
     "seed_last_error": ""
   },
   "items": {
@@ -25860,12 +25860,13 @@
       "first_price": "$29.99",
       "last_date": "2026-10-25",
       "last_price": "$29.99",
-      "last_change_date": "2026-10-23",
+      "last_change_date": "2026-10-25",
       "ever_paid": true,
-      "last_paid_date": "2026-10-23",
+      "last_paid_date": "2026-10-25",
       "free_since": null,
       "changes": {
-        "2026-10-23": "$29.99"
+        "2026-10-23": "$29.99",
+        "2026-10-25": "$29.99"
       }
     },
     "1463756032::One Month - Super Fast Cleaner": {
@@ -28156,7 +28157,7 @@
       "first_date": "2026-10-23",
       "first_price": "$49.99",
       "last_date": "2026-10-25",
-      "last_price": "$49.99",
+      "last_price": "$39.99",
       "last_change_date": "2026-10-25",
       "ever_paid": true,
       "last_paid_date": "2026-10-25",
@@ -28164,7 +28165,7 @@
       "changes": {
         "2026-10-23": "$39.99",
         "2026-10-24": "$39.99",
-        "2026-10-25": "$49.99"
+        "2026-10-25": "$39.99"
       }
     },
     "6608977469::Coin scanner & price tracker": {
@@ -28175,7 +28176,7 @@
       "first_date": "2026-10-23",
       "first_price": "$9.99",
       "last_date": "2026-10-25",
-      "last_price": "$9.99",
+      "last_price": "$4.99",
       "last_change_date": "2026-10-25",
       "ever_paid": true,
       "last_paid_date": "2026-10-25",
@@ -28183,7 +28184,7 @@
       "changes": {
         "2026-10-23": "$4.99",
         "2026-10-24": "$4.99",
-        "2026-10-25": "$9.99"
+        "2026-10-25": "$4.99"
       }
     },
     "6608977469::Monthly Premium": {
@@ -58124,7 +58125,7 @@
       "first_date": "2026-10-23",
       "first_price": "$6.99",
       "last_date": "2026-10-25",
-      "last_price": "$29.99",
+      "last_price": "$6.99",
       "last_change_date": "2026-10-25",
       "ever_paid": true,
       "last_paid_date": "2026-10-25",
@@ -58132,7 +58133,7 @@
       "changes": {
         "2026-10-23": "$29.99",
         "2026-10-24": "$29.99",
-        "2026-10-25": "$29.99"
+        "2026-10-25": "$6.99"
       }
     },
     "1486315142::One Week Subscription": {
@@ -68593,14 +68594,15 @@
       "first_date": "2026-10-23",
       "first_price": "$3.99",
       "last_date": "2026-10-25",
-      "last_price": "$3.99",
-      "last_change_date": "2026-10-24",
+      "last_price": "$2.99",
+      "last_change_date": "2026-10-25",
       "ever_paid": true,
-      "last_paid_date": "2026-10-24",
+      "last_paid_date": "2026-10-25",
       "free_since": null,
       "changes": {
         "2026-10-23": "$2.99",
-        "2026-10-24": "$3.99"
+        "2026-10-24": "$3.99",
+        "2026-10-25": "$2.99"
       }
     },
     "6755657280::WBuilds Weekly Pro Pass": {
@@ -97602,7 +97604,7 @@
       "first_date": "2026-10-23",
       "first_price": "$9.99",
       "last_date": "2026-10-25",
-      "last_price": "$109.99",
+      "last_price": "$3.99",
       "last_change_date": "2026-10-25",
       "ever_paid": true,
       "last_paid_date": "2026-10-25",
@@ -97610,7 +97612,7 @@
       "changes": {
         "2026-10-23": "$3.99",
         "2026-10-24": "$109.99",
-        "2026-10-25": "$109.99"
+        "2026-10-25": "$3.99"
       }
     },
     "294047850::Offre Duo": {
@@ -97621,7 +97623,7 @@
       "first_date": "2026-10-23",
       "first_price": "$19.99",
       "last_date": "2026-10-25",
-      "last_price": "$23.49",
+      "last_price": "$19.99",
       "last_change_date": "2026-10-25",
       "ever_paid": true,
       "last_paid_date": "2026-10-25",
@@ -97629,7 +97631,7 @@
       "changes": {
         "2026-10-23": "$23.49",
         "2026-10-24": "$23.49",
-        "2026-10-25": "$23.49"
+        "2026-10-25": "$19.99"
       }
     },
     "294047850::Offre Essentiel Promo": {
@@ -105555,6 +105557,975 @@
       "free_since": null,
       "changes": {
         "2026-10-25": "$9.99"
+      }
+    },
+    "6754824912::Premium: ad-free unlimited movies": {
+      "app_id": "6754824912",
+      "app_name": "Movies, Videos & TV - FreePlay",
+      "name": "Premium: ad-free unlimited movies",
+      "region": "us",
+      "first_date": "2026-10-25",
+      "first_price": "$0.99",
+      "last_date": "2026-10-25",
+      "last_price": "$19.99",
+      "last_change_date": "2026-10-25",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-25",
+      "free_since": null,
+      "changes": {
+        "2026-10-25": "$19.99"
+      }
+    },
+    "6806892588::Monthly": {
+      "app_id": "6806892588",
+      "app_name": "Period Tracker & Pregnancy App",
+      "name": "Monthly",
+      "region": "us",
+      "first_date": "2026-10-25",
+      "first_price": "$2.99",
+      "last_date": "2026-10-25",
+      "last_price": "$2.99",
+      "last_change_date": "2026-10-25",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-25",
+      "free_since": null,
+      "changes": {
+        "2026-10-25": "$2.99"
+      }
+    },
+    "6806892588::Yearly": {
+      "app_id": "6806892588",
+      "app_name": "Period Tracker & Pregnancy App",
+      "name": "Yearly",
+      "region": "us",
+      "first_date": "2026-10-25",
+      "first_price": "$9.99",
+      "last_date": "2026-10-25",
+      "last_price": "$9.99",
+      "last_change_date": "2026-10-25",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-25",
+      "free_since": null,
+      "changes": {
+        "2026-10-25": "$9.99"
+      }
+    },
+    "6821278362::StorageGo Pro Yearly": {
+      "app_id": "6821278362",
+      "app_name": "StorageGo: Space Organizer",
+      "name": "StorageGo Pro Yearly",
+      "region": "us",
+      "first_date": "2026-10-25",
+      "first_price": "$6.99",
+      "last_date": "2026-10-25",
+      "last_price": "$6.99",
+      "last_change_date": "2026-10-25",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-25",
+      "free_since": null,
+      "changes": {
+        "2026-10-25": "$6.99"
+      }
+    },
+    "6821278362::StorageGo Pro Monthly": {
+      "app_id": "6821278362",
+      "app_name": "StorageGo: Space Organizer",
+      "name": "StorageGo Pro Monthly",
+      "region": "us",
+      "first_date": "2026-10-25",
+      "first_price": "$1.99",
+      "last_date": "2026-10-25",
+      "last_price": "$1.99",
+      "last_change_date": "2026-10-25",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-25",
+      "free_since": null,
+      "changes": {
+        "2026-10-25": "$1.99"
+      }
+    },
+    "6748519522::Lifetime": {
+      "app_id": "6748519522",
+      "app_name": "TimeGrow: Pomodoro Timer Focus",
+      "name": "Lifetime",
+      "region": "us",
+      "first_date": "2026-10-25",
+      "first_price": "$9.99",
+      "last_date": "2026-10-25",
+      "last_price": "$4.99",
+      "last_change_date": "2026-10-25",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-25",
+      "free_since": null,
+      "changes": {
+        "2026-10-25": "$4.99"
+      }
+    },
+    "6748519522::Monthly": {
+      "app_id": "6748519522",
+      "app_name": "TimeGrow: Pomodoro Timer Focus",
+      "name": "Monthly",
+      "region": "us",
+      "first_date": "2026-10-25",
+      "first_price": "$0.99",
+      "last_date": "2026-10-25",
+      "last_price": "$0.99",
+      "last_change_date": "2026-10-25",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-25",
+      "free_since": null,
+      "changes": {
+        "2026-10-25": "$0.99"
+      }
+    },
+    "6748519522::Annual Subscription": {
+      "app_id": "6748519522",
+      "app_name": "TimeGrow: Pomodoro Timer Focus",
+      "name": "Annual Subscription",
+      "region": "us",
+      "first_date": "2026-10-25",
+      "first_price": "$3.99",
+      "last_date": "2026-10-25",
+      "last_price": "$3.99",
+      "last_change_date": "2026-10-25",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-25",
+      "free_since": null,
+      "changes": {
+        "2026-10-25": "$3.99"
+      }
+    },
+    "6748519522::Lifetime (Family Sharing)": {
+      "app_id": "6748519522",
+      "app_name": "TimeGrow: Pomodoro Timer Focus",
+      "name": "Lifetime (Family Sharing)",
+      "region": "us",
+      "first_date": "2026-10-25",
+      "first_price": "$12.99",
+      "last_date": "2026-10-25",
+      "last_price": "$12.99",
+      "last_change_date": "2026-10-25",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-25",
+      "free_since": null,
+      "changes": {
+        "2026-10-25": "$12.99"
+      }
+    },
+    "6756910810::Pro Member - Lifetime": {
+      "app_id": "6756910810",
+      "app_name": "iLinkbox",
+      "name": "Pro Member - Lifetime",
+      "region": "us",
+      "first_date": "2026-10-25",
+      "first_price": "$0.00",
+      "last_date": "2026-10-25",
+      "last_price": "$0.00",
+      "last_change_date": "2026-10-25",
+      "ever_paid": false,
+      "last_paid_date": null,
+      "free_since": null,
+      "changes": {
+        "2026-10-25": "$0.00"
+      }
+    },
+    "6756910810::Monthly Pro": {
+      "app_id": "6756910810",
+      "app_name": "iLinkbox",
+      "name": "Monthly Pro",
+      "region": "us",
+      "first_date": "2026-10-25",
+      "first_price": "$1.99",
+      "last_date": "2026-10-25",
+      "last_price": "$1.99",
+      "last_change_date": "2026-10-25",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-25",
+      "free_since": null,
+      "changes": {
+        "2026-10-25": "$1.99"
+      }
+    },
+    "6756910810::Link Capacity +100": {
+      "app_id": "6756910810",
+      "app_name": "iLinkbox",
+      "name": "Link Capacity +100",
+      "region": "us",
+      "first_date": "2026-10-25",
+      "first_price": "$0.99",
+      "last_date": "2026-10-25",
+      "last_price": "$0.99",
+      "last_change_date": "2026-10-25",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-25",
+      "free_since": null,
+      "changes": {
+        "2026-10-25": "$0.99"
+      }
+    },
+    "6756910810::Yearly Pro": {
+      "app_id": "6756910810",
+      "app_name": "iLinkbox",
+      "name": "Yearly Pro",
+      "region": "us",
+      "first_date": "2026-10-25",
+      "first_price": "$14.99",
+      "last_date": "2026-10-25",
+      "last_price": "$14.99",
+      "last_change_date": "2026-10-25",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-25",
+      "free_since": null,
+      "changes": {
+        "2026-10-25": "$14.99"
+      }
+    },
+    "6741730996::PRO lifetime": {
+      "app_id": "6741730996",
+      "app_name": "SpeedTest: WIFI Speed Test",
+      "name": "PRO lifetime",
+      "region": "us",
+      "first_date": "2026-10-25",
+      "first_price": "$2.99",
+      "last_date": "2026-10-25",
+      "last_price": "$2.99",
+      "last_change_date": "2026-10-25",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-25",
+      "free_since": null,
+      "changes": {
+        "2026-10-25": "$2.99"
+      }
+    },
+    "6741730996::Monthly": {
+      "app_id": "6741730996",
+      "app_name": "SpeedTest: WIFI Speed Test",
+      "name": "Monthly",
+      "region": "us",
+      "first_date": "2026-10-25",
+      "first_price": "$0.99",
+      "last_date": "2026-10-25",
+      "last_price": "$0.99",
+      "last_change_date": "2026-10-25",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-25",
+      "free_since": null,
+      "changes": {
+        "2026-10-25": "$0.99"
+      }
+    },
+    "6741730996::Yearly": {
+      "app_id": "6741730996",
+      "app_name": "SpeedTest: WIFI Speed Test",
+      "name": "Yearly",
+      "region": "us",
+      "first_date": "2026-10-25",
+      "first_price": "$6.99",
+      "last_date": "2026-10-25",
+      "last_price": "$6.99",
+      "last_change_date": "2026-10-25",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-25",
+      "free_since": null,
+      "changes": {
+        "2026-10-25": "$6.99"
+      }
+    },
+    "6779493280::Supporter": {
+      "app_id": "6779493280",
+      "app_name": "OnePhoto: Photo Cleaner",
+      "name": "Supporter",
+      "region": "us",
+      "first_date": "2026-10-25",
+      "first_price": "$0.00",
+      "last_date": "2026-10-25",
+      "last_price": "$0.00",
+      "last_change_date": "2026-10-25",
+      "ever_paid": false,
+      "last_paid_date": null,
+      "free_since": null,
+      "changes": {
+        "2026-10-25": "$0.00"
+      }
+    },
+    "6779493280::OnePhoto Annual Pro": {
+      "app_id": "6779493280",
+      "app_name": "OnePhoto: Photo Cleaner",
+      "name": "OnePhoto Annual Pro",
+      "region": "us",
+      "first_date": "2026-10-25",
+      "first_price": "$2.99",
+      "last_date": "2026-10-25",
+      "last_price": "$2.99",
+      "last_change_date": "2026-10-25",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-25",
+      "free_since": null,
+      "changes": {
+        "2026-10-25": "$2.99"
+      }
+    },
+    "6748983354::Lifetime Premium": {
+      "app_id": "6748983354",
+      "app_name": "Alarm Clock",
+      "name": "Lifetime Premium",
+      "region": "us",
+      "first_date": "2026-10-25",
+      "first_price": "$0.00",
+      "last_date": "2026-10-25",
+      "last_price": "$0.00",
+      "last_change_date": "2026-10-25",
+      "ever_paid": false,
+      "last_paid_date": null,
+      "free_since": null,
+      "changes": {
+        "2026-10-25": "$0.00"
+      }
+    },
+    "6748983354::Alarm Yearly": {
+      "app_id": "6748983354",
+      "app_name": "Alarm Clock",
+      "name": "Alarm Yearly",
+      "region": "us",
+      "first_date": "2026-10-25",
+      "first_price": "$0.99",
+      "last_date": "2026-10-25",
+      "last_price": "$0.99",
+      "last_change_date": "2026-10-25",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-25",
+      "free_since": null,
+      "changes": {
+        "2026-10-25": "$0.99"
+      }
+    },
+    "1622262960::Lifetime Subscription": {
+      "app_id": "1622262960",
+      "app_name": "Chill: Self-Care Sanctuary",
+      "name": "Lifetime Subscription",
+      "region": "us",
+      "first_date": "2026-10-25",
+      "first_price": "$49.99",
+      "last_date": "2026-10-25",
+      "last_price": "$49.99",
+      "last_change_date": "2026-10-25",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-25",
+      "free_since": null,
+      "changes": {
+        "2026-10-25": "$49.99"
+      }
+    },
+    "1622262960::Weekly subscription.": {
+      "app_id": "1622262960",
+      "app_name": "Chill: Self-Care Sanctuary",
+      "name": "Weekly subscription.",
+      "region": "us",
+      "first_date": "2026-10-25",
+      "first_price": "$3.99",
+      "last_date": "2026-10-25",
+      "last_price": "$3.99",
+      "last_change_date": "2026-10-25",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-25",
+      "free_since": null,
+      "changes": {
+        "2026-10-25": "$3.99"
+      }
+    },
+    "1622262960::Annual subscription": {
+      "app_id": "1622262960",
+      "app_name": "Chill: Self-Care Sanctuary",
+      "name": "Annual subscription",
+      "region": "us",
+      "first_date": "2026-10-25",
+      "first_price": "$39.99",
+      "last_date": "2026-10-25",
+      "last_price": "$39.99",
+      "last_change_date": "2026-10-25",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-25",
+      "free_since": null,
+      "changes": {
+        "2026-10-25": "$39.99"
+      }
+    },
+    "1622262960::5000 Gems": {
+      "app_id": "1622262960",
+      "app_name": "Chill: Self-Care Sanctuary",
+      "name": "5000 Gems",
+      "region": "us",
+      "first_date": "2026-10-25",
+      "first_price": "$34.99",
+      "last_date": "2026-10-25",
+      "last_price": "$34.99",
+      "last_change_date": "2026-10-25",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-25",
+      "free_since": null,
+      "changes": {
+        "2026-10-25": "$34.99"
+      }
+    },
+    "1622262960::10 000 Gems": {
+      "app_id": "1622262960",
+      "app_name": "Chill: Self-Care Sanctuary",
+      "name": "10 000 Gems",
+      "region": "us",
+      "first_date": "2026-10-25",
+      "first_price": "$69.99",
+      "last_date": "2026-10-25",
+      "last_price": "$69.99",
+      "last_change_date": "2026-10-25",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-25",
+      "free_since": null,
+      "changes": {
+        "2026-10-25": "$69.99"
+      }
+    },
+    "1622262960::3 Months": {
+      "app_id": "1622262960",
+      "app_name": "Chill: Self-Care Sanctuary",
+      "name": "3 Months",
+      "region": "us",
+      "first_date": "2026-10-25",
+      "first_price": "$29.99",
+      "last_date": "2026-10-25",
+      "last_price": "$29.99",
+      "last_change_date": "2026-10-25",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-25",
+      "free_since": null,
+      "changes": {
+        "2026-10-25": "$29.99"
+      }
+    },
+    "1622262960::1000 gems": {
+      "app_id": "1622262960",
+      "app_name": "Chill: Self-Care Sanctuary",
+      "name": "1000 gems",
+      "region": "us",
+      "first_date": "2026-10-25",
+      "first_price": "$9.99",
+      "last_date": "2026-10-25",
+      "last_price": "$9.99",
+      "last_change_date": "2026-10-25",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-25",
+      "free_since": null,
+      "changes": {
+        "2026-10-25": "$9.99"
+      }
+    },
+    "1622262960::300 gems": {
+      "app_id": "1622262960",
+      "app_name": "Chill: Self-Care Sanctuary",
+      "name": "300 gems",
+      "region": "us",
+      "first_date": "2026-10-25",
+      "first_price": "$3.69",
+      "last_date": "2026-10-25",
+      "last_price": "$3.69",
+      "last_change_date": "2026-10-25",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-25",
+      "free_since": null,
+      "changes": {
+        "2026-10-25": "$3.69"
+      }
+    },
+    "1622262960::100 gems": {
+      "app_id": "1622262960",
+      "app_name": "Chill: Self-Care Sanctuary",
+      "name": "100 gems",
+      "region": "us",
+      "first_date": "2026-10-25",
+      "first_price": "$1.99",
+      "last_date": "2026-10-25",
+      "last_price": "$1.99",
+      "last_change_date": "2026-10-25",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-25",
+      "free_since": null,
+      "changes": {
+        "2026-10-25": "$1.99"
+      }
+    },
+    "1622262960::10 gems": {
+      "app_id": "1622262960",
+      "app_name": "Chill: Self-Care Sanctuary",
+      "name": "10 gems",
+      "region": "us",
+      "first_date": "2026-10-25",
+      "first_price": "$0.29",
+      "last_date": "2026-10-25",
+      "last_price": "$0.29",
+      "last_change_date": "2026-10-25",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-25",
+      "free_since": null,
+      "changes": {
+        "2026-10-25": "$0.29"
+      }
+    },
+    "6760588830::MilkTeaLover Pro Lifetime": {
+      "app_id": "6760588830",
+      "app_name": "MilkTeaLover: Bubble Tea Hub",
+      "name": "MilkTeaLover Pro Lifetime",
+      "region": "us",
+      "first_date": "2026-10-25",
+      "first_price": "$19.99",
+      "last_date": "2026-10-25",
+      "last_price": "$19.99",
+      "last_change_date": "2026-10-25",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-25",
+      "free_since": null,
+      "changes": {
+        "2026-10-25": "$19.99"
+      }
+    },
+    "6760588830::PRO Annual $6.99": {
+      "app_id": "6760588830",
+      "app_name": "MilkTeaLover: Bubble Tea Hub",
+      "name": "PRO Annual $6.99",
+      "region": "us",
+      "first_date": "2026-10-25",
+      "first_price": "$6.99",
+      "last_date": "2026-10-25",
+      "last_price": "$6.99",
+      "last_change_date": "2026-10-25",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-25",
+      "free_since": null,
+      "changes": {
+        "2026-10-25": "$6.99"
+      }
+    },
+    "6760588830::PRO Monthly $1.99": {
+      "app_id": "6760588830",
+      "app_name": "MilkTeaLover: Bubble Tea Hub",
+      "name": "PRO Monthly $1.99",
+      "region": "us",
+      "first_date": "2026-10-25",
+      "first_price": "$1.99",
+      "last_date": "2026-10-25",
+      "last_price": "$1.99",
+      "last_change_date": "2026-10-25",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-25",
+      "free_since": null,
+      "changes": {
+        "2026-10-25": "$1.99"
+      }
+    },
+    "6820137866::永久 VIP": {
+      "app_id": "6820137866",
+      "app_name": "成语闯关 - 边玩边学，轻松掌握成语",
+      "name": "永久 VIP",
+      "region": "us",
+      "first_date": "2026-10-25",
+      "first_price": "$0.00",
+      "last_date": "2026-10-25",
+      "last_price": "$0.00",
+      "last_change_date": "2026-10-25",
+      "ever_paid": false,
+      "last_paid_date": null,
+      "free_since": null,
+      "changes": {
+        "2026-10-25": "$0.00"
+      }
+    },
+    "6820137866::年度 VIP": {
+      "app_id": "6820137866",
+      "app_name": "成语闯关 - 边玩边学，轻松掌握成语",
+      "name": "年度 VIP",
+      "region": "us",
+      "first_date": "2026-10-25",
+      "first_price": "$6.99",
+      "last_date": "2026-10-25",
+      "last_price": "$6.99",
+      "last_change_date": "2026-10-25",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-25",
+      "free_since": null,
+      "changes": {
+        "2026-10-25": "$6.99"
+      }
+    },
+    "6820137866::月度 VIP": {
+      "app_id": "6820137866",
+      "app_name": "成语闯关 - 边玩边学，轻松掌握成语",
+      "name": "月度 VIP",
+      "region": "us",
+      "first_date": "2026-10-25",
+      "first_price": "$0.99",
+      "last_date": "2026-10-25",
+      "last_price": "$0.99",
+      "last_change_date": "2026-10-25",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-25",
+      "free_since": null,
+      "changes": {
+        "2026-10-25": "$0.99"
+      }
+    },
+    "6772943882::Life Time Pro": {
+      "app_id": "6772943882",
+      "app_name": "OgdenSpine",
+      "name": "Life Time Pro",
+      "region": "us",
+      "first_date": "2026-10-25",
+      "first_price": "$0.00",
+      "last_date": "2026-10-25",
+      "last_price": "$0.00",
+      "last_change_date": "2026-10-25",
+      "ever_paid": false,
+      "last_paid_date": null,
+      "free_since": null,
+      "changes": {
+        "2026-10-25": "$0.00"
+      }
+    },
+    "6772943882::Capture Unlock": {
+      "app_id": "6772943882",
+      "app_name": "OgdenSpine",
+      "name": "Capture Unlock",
+      "region": "us",
+      "first_date": "2026-10-25",
+      "first_price": "$5.99",
+      "last_date": "2026-10-25",
+      "last_price": "$5.99",
+      "last_change_date": "2026-10-25",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-25",
+      "free_since": null,
+      "changes": {
+        "2026-10-25": "$5.99"
+      }
+    },
+    "6772943882::YearlyPro": {
+      "app_id": "6772943882",
+      "app_name": "OgdenSpine",
+      "name": "YearlyPro",
+      "region": "us",
+      "first_date": "2026-10-25",
+      "first_price": "$19.99",
+      "last_date": "2026-10-25",
+      "last_price": "$19.99",
+      "last_change_date": "2026-10-25",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-25",
+      "free_since": null,
+      "changes": {
+        "2026-10-25": "$19.99"
+      }
+    },
+    "6772943882::MonthlyPro": {
+      "app_id": "6772943882",
+      "app_name": "OgdenSpine",
+      "name": "MonthlyPro",
+      "region": "us",
+      "first_date": "2026-10-25",
+      "first_price": "$1.99",
+      "last_date": "2026-10-25",
+      "last_price": "$1.99",
+      "last_change_date": "2026-10-25",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-25",
+      "free_since": null,
+      "changes": {
+        "2026-10-25": "$1.99"
+      }
+    },
+    "6781948787::Premium Lifetime": {
+      "app_id": "6781948787",
+      "app_name": "Leafora: AI Plant Identifier",
+      "name": "Premium Lifetime",
+      "region": "us",
+      "first_date": "2026-10-25",
+      "first_price": "$49.99",
+      "last_date": "2026-10-25",
+      "last_price": "$49.99",
+      "last_change_date": "2026-10-25",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-25",
+      "free_since": null,
+      "changes": {
+        "2026-10-25": "$49.99"
+      }
+    },
+    "6781948787::Premium Weekly": {
+      "app_id": "6781948787",
+      "app_name": "Leafora: AI Plant Identifier",
+      "name": "Premium Weekly",
+      "region": "us",
+      "first_date": "2026-10-25",
+      "first_price": "$9.99",
+      "last_date": "2026-10-25",
+      "last_price": "$9.99",
+      "last_change_date": "2026-10-25",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-25",
+      "free_since": null,
+      "changes": {
+        "2026-10-25": "$9.99"
+      }
+    },
+    "6781948787::Premium Yearly (30% Off)": {
+      "app_id": "6781948787",
+      "app_name": "Leafora: AI Plant Identifier",
+      "name": "Premium Yearly (30% Off)",
+      "region": "us",
+      "first_date": "2026-10-25",
+      "first_price": "$20.99",
+      "last_date": "2026-10-25",
+      "last_price": "$20.99",
+      "last_change_date": "2026-10-25",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-25",
+      "free_since": null,
+      "changes": {
+        "2026-10-25": "$20.99"
+      }
+    },
+    "6781948787::Premium Yearly": {
+      "app_id": "6781948787",
+      "app_name": "Leafora: AI Plant Identifier",
+      "name": "Premium Yearly",
+      "region": "us",
+      "first_date": "2026-10-25",
+      "first_price": "$29.99",
+      "last_date": "2026-10-25",
+      "last_price": "$29.99",
+      "last_change_date": "2026-10-25",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-25",
+      "free_since": null,
+      "changes": {
+        "2026-10-25": "$29.99"
+      }
+    },
+    "6781948787::Premium Monthly": {
+      "app_id": "6781948787",
+      "app_name": "Leafora: AI Plant Identifier",
+      "name": "Premium Monthly",
+      "region": "us",
+      "first_date": "2026-10-25",
+      "first_price": "$7.99",
+      "last_date": "2026-10-25",
+      "last_price": "$7.99",
+      "last_change_date": "2026-10-25",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-25",
+      "free_since": null,
+      "changes": {
+        "2026-10-25": "$7.99"
+      }
+    },
+    "1484584645::R-cycle 30 day,service 6 month": {
+      "app_id": "1484584645",
+      "app_name": "Kemo",
+      "name": "R-cycle 30 day,service 6 month",
+      "region": "us",
+      "first_date": "2026-10-25",
+      "first_price": "$28.99",
+      "last_date": "2026-10-25",
+      "last_price": "$28.99",
+      "last_change_date": "2026-10-25",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-25",
+      "free_since": null,
+      "changes": {
+        "2026-10-25": "$28.99"
+      }
+    },
+    "1463756032::One Year Promotion": {
+      "app_id": "1463756032",
+      "app_name": "Cleaner Neat: Clean Up Storage",
+      "name": "One Year Promotion",
+      "region": "us",
+      "first_date": "2026-10-25",
+      "first_price": "$19.99",
+      "last_date": "2026-10-25",
+      "last_price": "$19.99",
+      "last_change_date": "2026-10-25",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-25",
+      "free_since": null,
+      "changes": {
+        "2026-10-25": "$19.99"
+      }
+    },
+    "1463756032::One Year- 3 Day Free Promotion": {
+      "app_id": "1463756032",
+      "app_name": "Cleaner Neat: Clean Up Storage",
+      "name": "One Year- 3 Day Free Promotion",
+      "region": "us",
+      "first_date": "2026-10-25",
+      "first_price": "$19.99",
+      "last_date": "2026-10-25",
+      "last_price": "$19.99",
+      "last_change_date": "2026-10-25",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-25",
+      "free_since": null,
+      "changes": {
+        "2026-10-25": "$19.99"
+      }
+    },
+    "6443873865::1870 coins ultra": {
+      "app_id": "6443873865",
+      "app_name": "Tophy - Match,Chat,Dating",
+      "name": "1870 coins ultra",
+      "region": "us",
+      "first_date": "2026-10-25",
+      "first_price": "$19.99",
+      "last_date": "2026-10-25",
+      "last_price": "$19.99",
+      "last_change_date": "2026-10-25",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-25",
+      "free_since": null,
+      "changes": {
+        "2026-10-25": "$19.99"
+      }
+    },
+    "349554263::UK Essentials": {
+      "app_id": "349554263",
+      "app_name": "Ancestry: Family History & DNA",
+      "name": "UK Essentials",
+      "region": "us",
+      "first_date": "2026-10-25",
+      "first_price": "$14.99",
+      "last_date": "2026-10-25",
+      "last_price": "$14.99",
+      "last_change_date": "2026-10-25",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-25",
+      "free_since": null,
+      "changes": {
+        "2026-10-25": "$14.99"
+      }
+    },
+    "349554263::UK Premium": {
+      "app_id": "349554263",
+      "app_name": "Ancestry: Family History & DNA",
+      "name": "UK Premium",
+      "region": "us",
+      "first_date": "2026-10-25",
+      "first_price": "$16.99",
+      "last_date": "2026-10-25",
+      "last_price": "$16.99",
+      "last_change_date": "2026-10-25",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-25",
+      "free_since": null,
+      "changes": {
+        "2026-10-25": "$16.99"
+      }
+    },
+    "349554263::UK Worldwide": {
+      "app_id": "349554263",
+      "app_name": "Ancestry: Family History & DNA",
+      "name": "UK Worldwide",
+      "region": "us",
+      "first_date": "2026-10-25",
+      "first_price": "$24.99",
+      "last_date": "2026-10-25",
+      "last_price": "$24.99",
+      "last_change_date": "2026-10-25",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-25",
+      "free_since": null,
+      "changes": {
+        "2026-10-25": "$24.99"
+      }
+    },
+    "349554263::Canada Deluxe": {
+      "app_id": "349554263",
+      "app_name": "Ancestry: Family History & DNA",
+      "name": "Canada Deluxe",
+      "region": "us",
+      "first_date": "2026-10-25",
+      "first_price": "$12.99",
+      "last_date": "2026-10-25",
+      "last_price": "$12.99",
+      "last_change_date": "2026-10-25",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-25",
+      "free_since": null,
+      "changes": {
+        "2026-10-25": "$12.99"
+      }
+    },
+    "349554263::World Deluxe": {
+      "app_id": "349554263",
+      "app_name": "Ancestry: Family History & DNA",
+      "name": "World Deluxe",
+      "region": "us",
+      "first_date": "2026-10-25",
+      "first_price": "$25.99",
+      "last_date": "2026-10-25",
+      "last_price": "$25.99",
+      "last_change_date": "2026-10-25",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-25",
+      "free_since": null,
+      "changes": {
+        "2026-10-25": "$25.99"
+      }
+    },
+    "349554263::UK Heritage": {
+      "app_id": "349554263",
+      "app_name": "Ancestry: Family History & DNA",
+      "name": "UK Heritage",
+      "region": "us",
+      "first_date": "2026-10-25",
+      "first_price": "$20.99",
+      "last_date": "2026-10-25",
+      "last_price": "$20.99",
+      "last_change_date": "2026-10-25",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-25",
+      "free_since": null,
+      "changes": {
+        "2026-10-25": "$20.99"
+      }
+    },
+    "349554263::UK Heritage Plus": {
+      "app_id": "349554263",
+      "app_name": "Ancestry: Family History & DNA",
+      "name": "UK Heritage Plus",
+      "region": "us",
+      "first_date": "2026-10-25",
+      "first_price": "$23.99",
+      "last_date": "2026-10-25",
+      "last_price": "$23.99",
+      "last_change_date": "2026-10-25",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-25",
+      "free_since": null,
+      "changes": {
+        "2026-10-25": "$23.99"
+      }
+    },
+    "6452722816::Discount": {
+      "app_id": "6452722816",
+      "app_name": "Live Translator AI + Learning",
+      "name": "Discount",
+      "region": "us",
+      "first_date": "2026-10-25",
+      "first_price": "$14.99",
+      "last_date": "2026-10-25",
+      "last_price": "$14.99",
+      "last_change_date": "2026-10-25",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-25",
+      "free_since": null,
+      "changes": {
+        "2026-10-25": "$14.99"
       }
     },
     "957061844::Night Camera Pro": {

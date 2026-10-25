@@ -4,12 +4,12 @@
     "version": 1,
     "updated": "2026-10-25",
     "pool_size": 2000,
-    "processed": 1998,
-    "skipped": 2,
+    "processed": 1997,
+    "skipped": 3,
     "seeded_from": "apprcn",
     "seed_added": 8,
-    "seed_total": 7051,
-    "seed_last_ok": "2026-10-25T16:10:36Z",
+    "seed_total": 7100,
+    "seed_last_ok": "2026-10-25T16:26:27Z",
     "seed_last_error": ""
   },
   "items": {
@@ -36503,7 +36503,7 @@
       "first_date": "2026-10-23",
       "first_price": "¥498.00",
       "last_date": "2026-10-25",
-      "last_price": "¥598.00",
+      "last_price": "¥498.00",
       "last_change_date": "2026-10-25",
       "ever_paid": true,
       "last_paid_date": "2026-10-25",
@@ -36511,7 +36511,7 @@
       "changes": {
         "2026-10-23": "¥598.00",
         "2026-10-24": "¥598.00",
-        "2026-10-25": "¥598.00"
+        "2026-10-25": "¥498.00"
       }
     },
     "6736921913::Nomadtable Plus 1 Week": {
@@ -108213,13 +108213,14 @@
       "first_date": "2026-10-23",
       "first_price": "¥88.00",
       "last_date": "2026-10-25",
-      "last_price": "¥88.00",
-      "last_change_date": "2026-10-23",
+      "last_price": "¥148.00",
+      "last_change_date": "2026-10-25",
       "ever_paid": true,
-      "last_paid_date": "2026-10-23",
+      "last_paid_date": "2026-10-25",
       "free_since": null,
       "changes": {
-        "2026-10-23": "¥88.00"
+        "2026-10-23": "¥88.00",
+        "2026-10-25": "¥148.00"
       }
     },
     "6801350879::Monthly": {
@@ -108247,13 +108248,14 @@
       "first_date": "2026-10-23",
       "first_price": "¥148.00",
       "last_date": "2026-10-25",
-      "last_price": "¥148.00",
-      "last_change_date": "2026-10-23",
+      "last_price": "¥298.00",
+      "last_change_date": "2026-10-25",
       "ever_paid": true,
-      "last_paid_date": "2026-10-23",
+      "last_paid_date": "2026-10-25",
       "free_since": null,
       "changes": {
-        "2026-10-23": "¥148.00"
+        "2026-10-23": "¥148.00",
+        "2026-10-25": "¥298.00"
       }
     },
     "1564763366::VIP会员一年": {
@@ -120785,6 +120787,839 @@
       "free_since": null,
       "changes": {
         "2026-10-25": "¥38.00"
+      }
+    },
+    "6754824912::高级版：无广告，电影无限看": {
+      "app_id": "6754824912",
+      "app_name": "电影下载器：看电影 - FreePlay",
+      "name": "高级版：无广告，电影无限看",
+      "region": "cn",
+      "first_date": "2026-10-25",
+      "first_price": "¥8.00",
+      "last_date": "2026-10-25",
+      "last_price": "¥148.00",
+      "last_change_date": "2026-10-25",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-25",
+      "free_since": null,
+      "changes": {
+        "2026-10-25": "¥148.00"
+      }
+    },
+    "6806892588::Monthly": {
+      "app_id": "6806892588",
+      "app_name": "Period Tracker & Pregnancy App",
+      "name": "Monthly",
+      "region": "cn",
+      "first_date": "2026-10-25",
+      "first_price": "¥22.00",
+      "last_date": "2026-10-25",
+      "last_price": "¥22.00",
+      "last_change_date": "2026-10-25",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-25",
+      "free_since": null,
+      "changes": {
+        "2026-10-25": "¥22.00"
+      }
+    },
+    "6806892588::Yearly": {
+      "app_id": "6806892588",
+      "app_name": "Period Tracker & Pregnancy App",
+      "name": "Yearly",
+      "region": "cn",
+      "first_date": "2026-10-25",
+      "first_price": "¥68.00",
+      "last_date": "2026-10-25",
+      "last_price": "¥68.00",
+      "last_change_date": "2026-10-25",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-25",
+      "free_since": null,
+      "changes": {
+        "2026-10-25": "¥68.00"
+      }
+    },
+    "6774119167::Artino Pro 周订阅": {
+      "app_id": "6774119167",
+      "app_name": "Artino：照片杂志生成",
+      "name": "Artino Pro 周订阅",
+      "region": "cn",
+      "first_date": "2026-10-25",
+      "first_price": "¥6.00",
+      "last_date": "2026-10-25",
+      "last_price": "¥6.00",
+      "last_change_date": "2026-10-25",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-25",
+      "free_since": null,
+      "changes": {
+        "2026-10-25": "¥6.00"
+      }
+    },
+    "6774119167::Artino Pro 月订阅": {
+      "app_id": "6774119167",
+      "app_name": "Artino：照片杂志生成",
+      "name": "Artino Pro 月订阅",
+      "region": "cn",
+      "first_date": "2026-10-25",
+      "first_price": "¥8.00",
+      "last_date": "2026-10-25",
+      "last_price": "¥8.00",
+      "last_change_date": "2026-10-25",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-25",
+      "free_since": null,
+      "changes": {
+        "2026-10-25": "¥8.00"
+      }
+    },
+    "6774119167::Artino Pro 年订阅": {
+      "app_id": "6774119167",
+      "app_name": "Artino：照片杂志生成",
+      "name": "Artino Pro 年订阅",
+      "region": "cn",
+      "first_date": "2026-10-25",
+      "first_price": "¥38.00",
+      "last_date": "2026-10-25",
+      "last_price": "¥38.00",
+      "last_change_date": "2026-10-25",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-25",
+      "free_since": null,
+      "changes": {
+        "2026-10-25": "¥38.00"
+      }
+    },
+    "6768885559::YearlyPro": {
+      "app_id": "6768885559",
+      "app_name": "iBirdsong",
+      "name": "YearlyPro",
+      "region": "cn",
+      "first_date": "2026-10-25",
+      "first_price": "¥68.00",
+      "last_date": "2026-10-25",
+      "last_price": "¥68.00",
+      "last_change_date": "2026-10-25",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-25",
+      "free_since": null,
+      "changes": {
+        "2026-10-25": "¥68.00"
+      }
+    },
+    "6768885559::MonthlyPro": {
+      "app_id": "6768885559",
+      "app_name": "iBirdsong",
+      "name": "MonthlyPro",
+      "region": "cn",
+      "first_date": "2026-10-25",
+      "first_price": "¥22.00",
+      "last_date": "2026-10-25",
+      "last_price": "¥22.00",
+      "last_change_date": "2026-10-25",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-25",
+      "free_since": null,
+      "changes": {
+        "2026-10-25": "¥22.00"
+      }
+    },
+    "6772943882::Life Time Pro": {
+      "app_id": "6772943882",
+      "app_name": "OgdenSpine",
+      "name": "Life Time Pro",
+      "region": "cn",
+      "first_date": "2026-10-25",
+      "first_price": "¥0.00",
+      "last_date": "2026-10-25",
+      "last_price": "¥0.00",
+      "last_change_date": "2026-10-25",
+      "ever_paid": false,
+      "last_paid_date": null,
+      "free_since": null,
+      "changes": {
+        "2026-10-25": "¥0.00"
+      }
+    },
+    "6772943882::MonthlyPro": {
+      "app_id": "6772943882",
+      "app_name": "OgdenSpine",
+      "name": "MonthlyPro",
+      "region": "cn",
+      "first_date": "2026-10-25",
+      "first_price": "¥15.00",
+      "last_date": "2026-10-25",
+      "last_price": "¥15.00",
+      "last_change_date": "2026-10-25",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-25",
+      "free_since": null,
+      "changes": {
+        "2026-10-25": "¥15.00"
+      }
+    },
+    "6772943882::识图识词解锁包": {
+      "app_id": "6772943882",
+      "app_name": "OgdenSpine",
+      "name": "识图识词解锁包",
+      "region": "cn",
+      "first_date": "2026-10-25",
+      "first_price": "¥38.00",
+      "last_date": "2026-10-25",
+      "last_price": "¥38.00",
+      "last_change_date": "2026-10-25",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-25",
+      "free_since": null,
+      "changes": {
+        "2026-10-25": "¥38.00"
+      }
+    },
+    "6772943882::YearlyPro": {
+      "app_id": "6772943882",
+      "app_name": "OgdenSpine",
+      "name": "YearlyPro",
+      "region": "cn",
+      "first_date": "2026-10-25",
+      "first_price": "¥148.00",
+      "last_date": "2026-10-25",
+      "last_price": "¥148.00",
+      "last_change_date": "2026-10-25",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-25",
+      "free_since": null,
+      "changes": {
+        "2026-10-25": "¥148.00"
+      }
+    },
+    "6776121093::Premium Lifetime": {
+      "app_id": "6776121093",
+      "app_name": "Aura: 缓解焦虑·冥想·睡眠",
+      "name": "Premium Lifetime",
+      "region": "cn",
+      "first_date": "2026-10-25",
+      "first_price": "¥0.00",
+      "last_date": "2026-10-25",
+      "last_price": "¥0.00",
+      "last_change_date": "2026-10-25",
+      "ever_paid": false,
+      "last_paid_date": null,
+      "free_since": null,
+      "changes": {
+        "2026-10-25": "¥0.00"
+      }
+    },
+    "6776121093::Plus Yearly (50% Off)": {
+      "app_id": "6776121093",
+      "app_name": "Aura: 缓解焦虑·冥想·睡眠",
+      "name": "Plus Yearly (50% Off)",
+      "region": "cn",
+      "first_date": "2026-10-25",
+      "first_price": "¥168.00",
+      "last_date": "2026-10-25",
+      "last_price": "¥168.00",
+      "last_change_date": "2026-10-25",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-25",
+      "free_since": null,
+      "changes": {
+        "2026-10-25": "¥168.00"
+      }
+    },
+    "6776121093::Premium Monthly": {
+      "app_id": "6776121093",
+      "app_name": "Aura: 缓解焦虑·冥想·睡眠",
+      "name": "Premium Monthly",
+      "region": "cn",
+      "first_date": "2026-10-25",
+      "first_price": "¥68.00",
+      "last_date": "2026-10-25",
+      "last_price": "¥68.00",
+      "last_change_date": "2026-10-25",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-25",
+      "free_since": null,
+      "changes": {
+        "2026-10-25": "¥68.00"
+      }
+    },
+    "6776121093::Premium Yearly (30% Off)": {
+      "app_id": "6776121093",
+      "app_name": "Aura: 缓解焦虑·冥想·睡眠",
+      "name": "Premium Yearly (30% Off)",
+      "region": "cn",
+      "first_date": "2026-10-25",
+      "first_price": "¥228.00",
+      "last_date": "2026-10-25",
+      "last_price": "¥228.00",
+      "last_change_date": "2026-10-25",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-25",
+      "free_since": null,
+      "changes": {
+        "2026-10-25": "¥228.00"
+      }
+    },
+    "6776121093::Aura Premium": {
+      "app_id": "6776121093",
+      "app_name": "Aura: 缓解焦虑·冥想·睡眠",
+      "name": "Aura Premium",
+      "region": "cn",
+      "first_date": "2026-10-25",
+      "first_price": "¥328.00",
+      "last_date": "2026-10-25",
+      "last_price": "¥68.00",
+      "last_change_date": "2026-10-25",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-25",
+      "free_since": null,
+      "changes": {
+        "2026-10-25": "¥68.00"
+      }
+    },
+    "6741854065::新永久会员": {
+      "app_id": "6741854065",
+      "app_name": "多能记-一目了然 记的多",
+      "name": "新永久会员",
+      "region": "cn",
+      "first_date": "2026-10-25",
+      "first_price": "¥0.00",
+      "last_date": "2026-10-25",
+      "last_price": "¥0.00",
+      "last_change_date": "2026-10-25",
+      "ever_paid": false,
+      "last_paid_date": null,
+      "free_since": null,
+      "changes": {
+        "2026-10-25": "¥0.00"
+      }
+    },
+    "6741854065::一月会员": {
+      "app_id": "6741854065",
+      "app_name": "多能记-一目了然 记的多",
+      "name": "一月会员",
+      "region": "cn",
+      "first_date": "2026-10-25",
+      "first_price": "¥6.00",
+      "last_date": "2026-10-25",
+      "last_price": "¥6.00",
+      "last_change_date": "2026-10-25",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-25",
+      "free_since": null,
+      "changes": {
+        "2026-10-25": "¥6.00"
+      }
+    },
+    "6741854065::一周会员": {
+      "app_id": "6741854065",
+      "app_name": "多能记-一目了然 记的多",
+      "name": "一周会员",
+      "region": "cn",
+      "first_date": "2026-10-25",
+      "first_price": "¥8.00",
+      "last_date": "2026-10-25",
+      "last_price": "¥8.00",
+      "last_change_date": "2026-10-25",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-25",
+      "free_since": null,
+      "changes": {
+        "2026-10-25": "¥8.00"
+      }
+    },
+    "6741854065::年度会员": {
+      "app_id": "6741854065",
+      "app_name": "多能记-一目了然 记的多",
+      "name": "年度会员",
+      "region": "cn",
+      "first_date": "2026-10-25",
+      "first_price": "¥58.00",
+      "last_date": "2026-10-25",
+      "last_price": "¥58.00",
+      "last_change_date": "2026-10-25",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-25",
+      "free_since": null,
+      "changes": {
+        "2026-10-25": "¥58.00"
+      }
+    },
+    "6761163201::永久会员": {
+      "app_id": "6761163201",
+      "app_name": "壳图图 - 带壳截图",
+      "name": "永久会员",
+      "region": "cn",
+      "first_date": "2026-10-25",
+      "first_price": "¥0.00",
+      "last_date": "2026-10-25",
+      "last_price": "¥0.00",
+      "last_change_date": "2026-10-25",
+      "ever_paid": false,
+      "last_paid_date": null,
+      "free_since": null,
+      "changes": {
+        "2026-10-25": "¥0.00"
+      }
+    },
+    "6741730996::手机测速永久会员": {
+      "app_id": "6741730996",
+      "app_name": "手机测速-网络测速·测网速speedtest",
+      "name": "手机测速永久会员",
+      "region": "cn",
+      "first_date": "2026-10-25",
+      "first_price": "¥18.00",
+      "last_date": "2026-10-25",
+      "last_price": "¥18.00",
+      "last_change_date": "2026-10-25",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-25",
+      "free_since": null,
+      "changes": {
+        "2026-10-25": "¥18.00"
+      }
+    },
+    "6741730996::年度会员": {
+      "app_id": "6741730996",
+      "app_name": "手机测速-网络测速·测网速speedtest",
+      "name": "年度会员",
+      "region": "cn",
+      "first_date": "2026-10-25",
+      "first_price": "¥48.00",
+      "last_date": "2026-10-25",
+      "last_price": "¥48.00",
+      "last_change_date": "2026-10-25",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-25",
+      "free_since": null,
+      "changes": {
+        "2026-10-25": "¥48.00"
+      }
+    },
+    "6741730996::月度会员": {
+      "app_id": "6741730996",
+      "app_name": "手机测速-网络测速·测网速speedtest",
+      "name": "月度会员",
+      "region": "cn",
+      "first_date": "2026-10-25",
+      "first_price": "¥8.00",
+      "last_date": "2026-10-25",
+      "last_price": "¥8.00",
+      "last_change_date": "2026-10-25",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-25",
+      "free_since": null,
+      "changes": {
+        "2026-10-25": "¥8.00"
+      }
+    },
+    "1622262960::Lifetime Subscription": {
+      "app_id": "1622262960",
+      "app_name": "Chill：自我关怀庇护所",
+      "name": "Lifetime Subscription",
+      "region": "cn",
+      "first_date": "2026-10-25",
+      "first_price": "¥38.00",
+      "last_date": "2026-10-25",
+      "last_price": "¥38.00",
+      "last_change_date": "2026-10-25",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-25",
+      "free_since": null,
+      "changes": {
+        "2026-10-25": "¥38.00"
+      }
+    },
+    "1622262960::Weekly subscription.": {
+      "app_id": "1622262960",
+      "app_name": "Chill：自我关怀庇护所",
+      "name": "Weekly subscription.",
+      "region": "cn",
+      "first_date": "2026-10-25",
+      "first_price": "¥22.00",
+      "last_date": "2026-10-25",
+      "last_price": "¥22.00",
+      "last_change_date": "2026-10-25",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-25",
+      "free_since": null,
+      "changes": {
+        "2026-10-25": "¥22.00"
+      }
+    },
+    "1622262960::5000 Gems": {
+      "app_id": "1622262960",
+      "app_name": "Chill：自我关怀庇护所",
+      "name": "5000 Gems",
+      "region": "cn",
+      "first_date": "2026-10-25",
+      "first_price": "¥228.00",
+      "last_date": "2026-10-25",
+      "last_price": "¥228.00",
+      "last_change_date": "2026-10-25",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-25",
+      "free_since": null,
+      "changes": {
+        "2026-10-25": "¥228.00"
+      }
+    },
+    "1622262960::10 000 Gems": {
+      "app_id": "1622262960",
+      "app_name": "Chill：自我关怀庇护所",
+      "name": "10 000 Gems",
+      "region": "cn",
+      "first_date": "2026-10-25",
+      "first_price": "¥498.00",
+      "last_date": "2026-10-25",
+      "last_price": "¥498.00",
+      "last_change_date": "2026-10-25",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-25",
+      "free_since": null,
+      "changes": {
+        "2026-10-25": "¥498.00"
+      }
+    },
+    "1622262960::3 Months": {
+      "app_id": "1622262960",
+      "app_name": "Chill：自我关怀庇护所",
+      "name": "3 Months",
+      "region": "cn",
+      "first_date": "2026-10-25",
+      "first_price": "¥198.00",
+      "last_date": "2026-10-25",
+      "last_price": "¥198.00",
+      "last_change_date": "2026-10-25",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-25",
+      "free_since": null,
+      "changes": {
+        "2026-10-25": "¥198.00"
+      }
+    },
+    "1622262960::1000 gems": {
+      "app_id": "1622262960",
+      "app_name": "Chill：自我关怀庇护所",
+      "name": "1000 gems",
+      "region": "cn",
+      "first_date": "2026-10-25",
+      "first_price": "¥68.00",
+      "last_date": "2026-10-25",
+      "last_price": "¥68.00",
+      "last_change_date": "2026-10-25",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-25",
+      "free_since": null,
+      "changes": {
+        "2026-10-25": "¥68.00"
+      }
+    },
+    "1622262960::300 gems": {
+      "app_id": "1622262960",
+      "app_name": "Chill：自我关怀庇护所",
+      "name": "300 gems",
+      "region": "cn",
+      "first_date": "2026-10-25",
+      "first_price": "¥28.00",
+      "last_date": "2026-10-25",
+      "last_price": "¥28.00",
+      "last_change_date": "2026-10-25",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-25",
+      "free_since": null,
+      "changes": {
+        "2026-10-25": "¥28.00"
+      }
+    },
+    "1622262960::100 gems": {
+      "app_id": "1622262960",
+      "app_name": "Chill：自我关怀庇护所",
+      "name": "100 gems",
+      "region": "cn",
+      "first_date": "2026-10-25",
+      "first_price": "¥15.00",
+      "last_date": "2026-10-25",
+      "last_price": "¥15.00",
+      "last_change_date": "2026-10-25",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-25",
+      "free_since": null,
+      "changes": {
+        "2026-10-25": "¥15.00"
+      }
+    },
+    "1622262960::10 gems": {
+      "app_id": "1622262960",
+      "app_name": "Chill：自我关怀庇护所",
+      "name": "10 gems",
+      "region": "cn",
+      "first_date": "2026-10-25",
+      "first_price": "¥3.00",
+      "last_date": "2026-10-25",
+      "last_price": "¥3.00",
+      "last_change_date": "2026-10-25",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-25",
+      "free_since": null,
+      "changes": {
+        "2026-10-25": "¥3.00"
+      }
+    },
+    "1622262960::Monthly subscription": {
+      "app_id": "1622262960",
+      "app_name": "Chill：自我关怀庇护所",
+      "name": "Monthly subscription",
+      "region": "cn",
+      "first_date": "2026-10-25",
+      "first_price": "¥68.00",
+      "last_date": "2026-10-25",
+      "last_price": "¥68.00",
+      "last_change_date": "2026-10-25",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-25",
+      "free_since": null,
+      "changes": {
+        "2026-10-25": "¥68.00"
+      }
+    },
+    "6760588830::奶茶日记 终身会员": {
+      "app_id": "6760588830",
+      "app_name": "奶茶日记: AI 贴纸&糖分追踪",
+      "name": "奶茶日记 终身会员",
+      "region": "cn",
+      "first_date": "2026-10-25",
+      "first_price": "¥148.00",
+      "last_date": "2026-10-25",
+      "last_price": "¥148.00",
+      "last_change_date": "2026-10-25",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-25",
+      "free_since": null,
+      "changes": {
+        "2026-10-25": "¥148.00"
+      }
+    },
+    "6760588830::会员月费 1.99 美元": {
+      "app_id": "6760588830",
+      "app_name": "奶茶日记: AI 贴纸&糖分追踪",
+      "name": "会员月费 1.99 美元",
+      "region": "cn",
+      "first_date": "2026-10-25",
+      "first_price": "¥15.00",
+      "last_date": "2026-10-25",
+      "last_price": "¥15.00",
+      "last_change_date": "2026-10-25",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-25",
+      "free_since": null,
+      "changes": {
+        "2026-10-25": "¥15.00"
+      }
+    },
+    "6760588830::PRO Annual $6.99": {
+      "app_id": "6760588830",
+      "app_name": "奶茶日记: AI 贴纸&糖分追踪",
+      "name": "PRO Annual $6.99",
+      "region": "cn",
+      "first_date": "2026-10-25",
+      "first_price": "¥48.00",
+      "last_date": "2026-10-25",
+      "last_price": "¥48.00",
+      "last_change_date": "2026-10-25",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-25",
+      "free_since": null,
+      "changes": {
+        "2026-10-25": "¥48.00"
+      }
+    },
+    "6820137866::永久 VIP": {
+      "app_id": "6820137866",
+      "app_name": "成语闯关 - 边玩边学，轻松掌握成语",
+      "name": "永久 VIP",
+      "region": "cn",
+      "first_date": "2026-10-25",
+      "first_price": "¥68.00",
+      "last_date": "2026-10-25",
+      "last_price": "¥68.00",
+      "last_change_date": "2026-10-25",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-25",
+      "free_since": null,
+      "changes": {
+        "2026-10-25": "¥68.00"
+      }
+    },
+    "6820137866::年度 VIP": {
+      "app_id": "6820137866",
+      "app_name": "成语闯关 - 边玩边学，轻松掌握成语",
+      "name": "年度 VIP",
+      "region": "cn",
+      "first_date": "2026-10-25",
+      "first_price": "¥48.00",
+      "last_date": "2026-10-25",
+      "last_price": "¥48.00",
+      "last_change_date": "2026-10-25",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-25",
+      "free_since": null,
+      "changes": {
+        "2026-10-25": "¥48.00"
+      }
+    },
+    "6820137866::月度 VIP": {
+      "app_id": "6820137866",
+      "app_name": "成语闯关 - 边玩边学，轻松掌握成语",
+      "name": "月度 VIP",
+      "region": "cn",
+      "first_date": "2026-10-25",
+      "first_price": "¥6.00",
+      "last_date": "2026-10-25",
+      "last_price": "¥6.00",
+      "last_change_date": "2026-10-25",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-25",
+      "free_since": null,
+      "changes": {
+        "2026-10-25": "¥6.00"
+      }
+    },
+    "6781948787::Premium Lifetime": {
+      "app_id": "6781948787",
+      "app_name": "Leafora: 植物识别与养护",
+      "name": "Premium Lifetime",
+      "region": "cn",
+      "first_date": "2026-10-25",
+      "first_price": "¥328.00",
+      "last_date": "2026-10-25",
+      "last_price": "¥328.00",
+      "last_change_date": "2026-10-25",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-25",
+      "free_since": null,
+      "changes": {
+        "2026-10-25": "¥328.00"
+      }
+    },
+    "6781948787::Premium Weekly": {
+      "app_id": "6781948787",
+      "app_name": "Leafora: 植物识别与养护",
+      "name": "Premium Weekly",
+      "region": "cn",
+      "first_date": "2026-10-25",
+      "first_price": "¥68.00",
+      "last_date": "2026-10-25",
+      "last_price": "¥68.00",
+      "last_change_date": "2026-10-25",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-25",
+      "free_since": null,
+      "changes": {
+        "2026-10-25": "¥68.00"
+      }
+    },
+    "6781948787::Premium Yearly (30% Off)": {
+      "app_id": "6781948787",
+      "app_name": "Leafora: 植物识别与养护",
+      "name": "Premium Yearly (30% Off)",
+      "region": "cn",
+      "first_date": "2026-10-25",
+      "first_price": "¥148.00",
+      "last_date": "2026-10-25",
+      "last_price": "¥148.00",
+      "last_change_date": "2026-10-25",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-25",
+      "free_since": null,
+      "changes": {
+        "2026-10-25": "¥148.00"
+      }
+    },
+    "6781948787::Premium Yearly": {
+      "app_id": "6781948787",
+      "app_name": "Leafora: 植物识别与养护",
+      "name": "Premium Yearly",
+      "region": "cn",
+      "first_date": "2026-10-25",
+      "first_price": "¥198.00",
+      "last_date": "2026-10-25",
+      "last_price": "¥198.00",
+      "last_change_date": "2026-10-25",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-25",
+      "free_since": null,
+      "changes": {
+        "2026-10-25": "¥198.00"
+      }
+    },
+    "6781948787::Premium Monthly": {
+      "app_id": "6781948787",
+      "app_name": "Leafora: 植物识别与养护",
+      "name": "Premium Monthly",
+      "region": "cn",
+      "first_date": "2026-10-25",
+      "first_price": "¥58.00",
+      "last_date": "2026-10-25",
+      "last_price": "¥58.00",
+      "last_change_date": "2026-10-25",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-25",
+      "free_since": null,
+      "changes": {
+        "2026-10-25": "¥58.00"
+      }
+    },
+    "1576118042::Unlock All Rhymes": {
+      "app_id": "1576118042",
+      "app_name": "Rhymelo",
+      "name": "Unlock All Rhymes",
+      "region": "cn",
+      "first_date": "2026-10-25",
+      "first_price": "¥38.00",
+      "last_date": "2026-10-25",
+      "last_price": "¥38.00",
+      "last_change_date": "2026-10-25",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-25",
+      "free_since": null,
+      "changes": {
+        "2026-10-25": "¥38.00"
+      }
+    },
+    "6808933682::Go Premium 1 Year Full Access": {
+      "app_id": "6808933682",
+      "app_name": "TrackCut: Ai Video Editor",
+      "name": "Go Premium 1 Year Full Access",
+      "region": "cn",
+      "first_date": "2026-10-25",
+      "first_price": "¥148.00",
+      "last_date": "2026-10-25",
+      "last_price": "¥148.00",
+      "last_change_date": "2026-10-25",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-25",
+      "free_since": null,
+      "changes": {
+        "2026-10-25": "¥148.00"
+      }
+    },
+    "6808933682::Go Premium 1 Week Full Access": {
+      "app_id": "6808933682",
+      "app_name": "TrackCut: Ai Video Editor",
+      "name": "Go Premium 1 Week Full Access",
+      "region": "cn",
+      "first_date": "2026-10-25",
+      "first_price": "¥15.00",
+      "last_date": "2026-10-25",
+      "last_price": "¥15.00",
+      "last_change_date": "2026-10-25",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-25",
+      "free_since": null,
+      "changes": {
+        "2026-10-25": "¥15.00"
       }
     },
     "957061844::Night Camera Pro": {

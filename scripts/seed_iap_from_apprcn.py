@@ -338,6 +338,18 @@ def seed_pool(region, became, today, extra_ids=None):
         if aid in hist and aid not in hot:
             hot.append(aid)
     if hot:
+        # ec 自愈（2026-10-26 补）：旧代码注入的假 ec=True（主应用价格未知却声称
+        # "曾收费"）会把"主应用从未收费"的 App 误列进本体限免（显示 免费→免费）。
+        # 判据：无任何价格证据（mx=0 且 anchor=0）→ ec 重置 False；有真实价格
+        # 历史的条目不动（update_history 观测到付费价也会自动置 True）。
+        healed = 0
+        for aid in hot:
+            e = hist.get(aid) or {}
+            if e.get("ec") and not (e.get("mx") or 0) and not (e.get("anchor") or 0):
+                e["ec"] = False
+                healed += 1
+        if healed:
+            print(f"[history-{region}] ec 自愈：{healed} 个无价格证据的注入条目重置 ec=False")
         reordered = {aid: hist[aid] for aid in hot}
         for k, v in hist.items():
             if k not in reordered:

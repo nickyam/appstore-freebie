@@ -1,80 +1,8 @@
 {
   "updated": "2026-10-25",
   "region": "cn",
-  "count": 77,
+  "count": 80,
   "items": [
-    {
-      "app_id": "6741730996",
-      "app_name": "手机测速-网络测速·测网速speedtest",
-      "iap": "手机测速永久会员",
-      "price": "¥0.00",
-      "permanent_free": false,
-      "since": "2026-10-22"
-    },
-    {
-      "app_id": "6788409678",
-      "app_name": "墨团习惯：打卡与习惯养成",
-      "iap": "Pro 永久版",
-      "price": "¥0.00",
-      "permanent_free": false,
-      "since": "2026-10-22"
-    },
-    {
-      "app_id": "1622262960",
-      "app_name": "Chill：自我关怀庇护所",
-      "iap": "Lifetime Subscription",
-      "price": "¥0.00",
-      "permanent_free": false,
-      "since": "2026-10-22"
-    },
-    {
-      "app_id": "6760588830",
-      "app_name": "奶茶日记: AI 贴纸&糖分追踪",
-      "iap": "奶茶日记 终身会员",
-      "price": "¥0.00",
-      "permanent_free": false,
-      "since": "2026-10-22"
-    },
-    {
-      "app_id": "6820137866",
-      "app_name": "成语闯关 - 边玩边学，轻松掌握成语",
-      "iap": "永久 VIP",
-      "price": "¥0.00",
-      "permanent_free": false,
-      "since": "2026-10-22"
-    },
-    {
-      "app_id": "6772943882",
-      "app_name": "OgdenSpine",
-      "iap": "Life Time Pro",
-      "price": "¥0.00",
-      "permanent_free": false,
-      "since": "2026-10-22"
-    },
-    {
-      "app_id": "6781948787",
-      "app_name": "Leafora: 植物识别与养护",
-      "iap": "Premium Lifetime",
-      "price": "¥0.00",
-      "permanent_free": false,
-      "since": "2026-10-22"
-    },
-    {
-      "app_id": "1576118042",
-      "app_name": "Rhymelo",
-      "iap": "Unlock All Rhymes",
-      "price": "免费",
-      "permanent_free": false,
-      "since": "2026-10-22"
-    },
-    {
-      "app_id": "6808933682",
-      "app_name": "TrackCut: Ai Video Editor",
-      "iap": "製作電影感短片 原價 US $49.99《TrackCut》終生版限時免費",
-      "price": "免费",
-      "permanent_free": false,
-      "since": "2026-10-22"
-    },
     {
       "app_id": "6758658840",
       "app_name": "PixPhoto:证件照,高清证件照制作",
@@ -615,6 +543,102 @@
       "app_id": "377848312",
       "app_name": "deej - DJ turntable. Mix, record, share your music",
       "iap": "Classic deej skin",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-10-25"
+    },
+    {
+      "app_id": "957061844",
+      "app_name": "Night Camera: Low Light FX Cam",
+      "iap": "Night Camera Pro",
+      "price": "¥0.00",
+      "permanent_free": false,
+      "since": "2026-10-25"
+    },
+    {
+      "app_id": "6754824912",
+      "app_name": "电影下载器：看电影 - FreePlay",
+      "iap": "终身高级版：电影与电视",
+      "price": "¥0.00",
+      "permanent_free": false,
+      "since": "2026-10-25"
+    },
+    {
+      "app_id": "6783653531",
+      "app_name": "Lift: 健身训练记录",
+      "iap": "限时内购限免",
+      "price": "¥0.00",
+      "permanent_free": false,
+      "since": "2026-10-25"
+    },
+    {
+      "app_id": "6768885559",
+      "app_name": "iBirdsong",
+      "iap": "Life Time Pro",
+      "price": "¥0.00",
+      "permanent_free": false,
+      "since": "2026-10-25"
+    },
+    {
+      "app_id": "6772943882",
+      "app_name": "OgdenSpine",
+      "iap": "内购限免",
+      "price": "免费",
+      "permanent_free": false,
+      "since": "2026-10-25"
+    },
+    {
+      "app_id": "6776121093",
+      "app_name": "Aura: 缓解焦虑·冥想·睡眠",
+      "iap": "内购限免",
+      "price": "免费",
+      "permanent_free": false,
+      "since": "2026-10-25"
+    },
+    {
+      "app_id": "6741854065",
+      "app_name": "多能记-一目了然 记的多",
+      "iap": "内购限免",
+      "price": "免费",
+      "permanent_free": false,
+      "since": "2026-10-25"
+    },
+    {
+      "app_id": "6761163201",
+      "app_name": "壳图图 - 带壳截图",
+      "iap": "内购限免",
+      "price": "免费",
+      "permanent_free": false,
+      "since": "2026-10-25"
+    },
+    {
+      "app_id": "6772943882",
+      "app_name": "OgdenSpine",
+      "iap": "Life Time Pro",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-10-25"
+    },
+    {
+      "app_id": "6776121093",
+      "app_name": "Aura: 缓解焦虑·冥想·睡眠",
+      "iap": "Premium Lifetime",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-10-25"
+    },
+    {
+      "app_id": "6741854065",
+      "app_name": "多能记-一目了然 记的多",
+      "iap": "新永久会员",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-10-25"
+    },
+    {
+      "app_id": "6761163201",
+      "app_name": "壳图图 - 带壳截图",
+      "iap": "永久会员",
       "price": "¥0.00",
       "permanent_free": true,
       "since": "2026-10-25"
