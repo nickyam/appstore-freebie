@@ -55,14 +55,52 @@ def parse_app_name(body):
 
 
 def load_pool(region, limit):
+    """每日复查池 = 保底池 + 主池（App 榜单池）。
+
+    保底池（2026-10-25 用户拍板，根治「僵尸条目」）：
+      · data/iap-history-{region}.json 中 last_price 仍为免费的 app；
+      · data/iap-current-free-{region}.json 中在挂的 app（发布集，双保险）。
+    背景：主池按榜单滚动，限免 App 掉出榜单后即从池中消失，其「恢复付费」
+    永远检测不到，会在网站上僵尸显示最多 FREE_WINDOW(7) 天。保底池排在主池
+    前面，保证不被 limit 裁掉；代价是每次挤掉少量主池尾部 App 的复查机会。
+    """
+    ids, seen = [], set()
+
+    def add(aid):
+        aid = str(aid)
+        if aid and aid not in seen:
+            seen.add(aid)
+            ids.append(aid)
+
+    hist_path = os.path.join(REPO, "data", f"iap-history-{region}.json")
+    if os.path.exists(hist_path):
+        try:
+            hist = json.load(open(hist_path, encoding="utf-8"))
+            for rec in hist.get("items", {}).values():
+                if is_free(rec.get("last_price") or ""):
+                    add(rec.get("app_id"))
+        except Exception as e:
+            print(f"    [warn] 读 iap-history 保底池失败: {e}")
+
+    cur_path = os.path.join(REPO, "data", f"iap-current-free-{region}.json")
+    if os.path.exists(cur_path):
+        try:
+            cur = json.load(open(cur_path, encoding="utf-8"))
+            for it in cur.get("items", []):
+                add(it.get("app_id"))
+        except Exception as e:
+            print(f"    [warn] 读 iap-current-free 保底池失败: {e}")
+
     p = os.path.join(REPO, "data", f"history-{region}.json")
     if os.path.exists(p):
         d = json.load(open(p, encoding="utf-8"))
-        ids = list(d.keys())
+        for x in d.keys():
+            add(x)
     else:
         from iap_probe import get_game_ids
-        ids = [i for i, _ in get_game_ids(region, min(limit, 200))]
-    return [str(x) for x in ids][:limit]
+        for i, _ in get_game_ids(region, min(limit, 200)):
+            add(i)
+    return ids[:limit]
 
 
 def load_history(region):
