@@ -7,6 +7,9 @@ name: daily-freebie
 #      · seed_from_apprcn.py      喂本体永久 App 宽池（history-{region}.json）
 #      · seed_iap_from_apprcn.py  从反斗限免补「内购限免」候选，注入 IAP 监控池（history + iap-history）
 #      反斗限免 API 偶发不可达 → continue-on-error，不阻断后续生成。
+#      · check_seed_health.py     紧随其后的健康检查（无 continue-on-error）：seed 每次运行写
+#                                心跳（seed_last_ok/fail 落 iap-history meta），陈旧/失败即使任务
+#                                失败——把「API 不可达被静默吞掉」变成红 X 报警（2026-10-25 A 方案）。
 #   2) 内购价格历史采集（iap_collector.py，cn + us）—— US 必须在非大陆 IP 跑（本 runner 即 GitHub 托管，非 CN）；
 #      同样 continue-on-error，采集抽风不会拖垮本体更新。
 #   3) 双区生成（generate.py）—— 产出首页数据 + 全部 App 独立页（含 IAP 页）+ 资源戳 + sitemap。
@@ -65,6 +68,13 @@ jobs:
             exit 0
           fi
           python scripts/seed_iap_from_apprcn.py
+
+      # A 方案：防静默失败。seed 步骤 continue-on-error，API 不可达时整步被吞、
+      # manifest 不变、页面照常生成——没人知道播种已死（10-24/25 实例）。
+      # 本步骤不带 continue-on-error：心跳陈旧/失败即使任务失败（红 X 报警）。
+      # 非播种时段同样检查（读的是上班次提交的心跳，防"从来没人播种成功"）。
+      - name: Seed health check (防静默失败，无 continue-on-error)
+        run: python scripts/check_seed_health.py
 
       - name: Collect IAP prices (cn)
         continue-on-error: true

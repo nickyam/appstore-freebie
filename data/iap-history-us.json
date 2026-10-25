@@ -4,183 +4,15 @@
     "version": 1,
     "updated": "2026-10-25",
     "seeded_from": "apprcn",
-    "seed_added": 9,
-    "seed_total": 9,
+    "seed_added": 6,
+    "seed_total": 6098,
     "pool_size": 2000,
     "processed": 1999,
-    "skipped": 1
+    "skipped": 1,
+    "seed_last_ok": "2026-10-25T16:10:38Z",
+    "seed_last_error": ""
   },
   "items": {
-    "6756910810::Pro Member - Lifetime": {
-      "app_id": "6756910810",
-      "app_name": "iLinkbox",
-      "name": "Pro Member - Lifetime",
-      "region": "us",
-      "first_date": "2026-10-22",
-      "first_price": "—",
-      "last_date": "2026-10-22",
-      "last_price": "$0.00",
-      "last_change_date": "2026-10-22",
-      "ever_paid": true,
-      "last_paid_date": "2026-10-21",
-      "free_since": "2026-10-21",
-      "changes": {
-        "2026-10-21": "—",
-        "2026-10-22": "$0.00"
-      },
-      "source": "apprcn"
-    },
-    "6741730996::PRO lifetime": {
-      "app_id": "6741730996",
-      "app_name": "手机测速-网络测速·测网速speedtest",
-      "name": "PRO lifetime",
-      "region": "us",
-      "first_date": "2026-10-22",
-      "first_price": "—",
-      "last_date": "2026-10-22",
-      "last_price": "$0.00",
-      "last_change_date": "2026-10-22",
-      "ever_paid": true,
-      "last_paid_date": "2026-10-22",
-      "free_since": "2026-10-22",
-      "changes": {
-        "2026-10-22": "$0.00"
-      },
-      "source": "apprcn"
-    },
-    "6779493280::Supporter": {
-      "app_id": "6779493280",
-      "app_name": "删图 OnePhoto",
-      "name": "Supporter",
-      "region": "us",
-      "first_date": "2026-10-22",
-      "first_price": "—",
-      "last_date": "2026-10-22",
-      "last_price": "$0.00",
-      "last_change_date": "2026-10-22",
-      "ever_paid": true,
-      "last_paid_date": "2026-10-20",
-      "free_since": "2026-10-20",
-      "changes": {
-        "2026-10-20": "—",
-        "2026-10-22": "$0.00"
-      },
-      "source": "apprcn"
-    },
-    "6748983354::Lifetime Premium": {
-      "app_id": "6748983354",
-      "app_name": "闹钟 .",
-      "name": "Lifetime Premium",
-      "region": "us",
-      "first_date": "2026-10-22",
-      "first_price": "—",
-      "last_date": "2026-10-22",
-      "last_price": "$0.00",
-      "last_change_date": "2026-10-22",
-      "ever_paid": true,
-      "last_paid_date": "2026-10-20",
-      "free_since": "2026-10-20",
-      "changes": {
-        "2026-10-20": "—",
-        "2026-10-22": "$0.00"
-      },
-      "source": "apprcn"
-    },
-    "1622262960::Lifetime Subscription": {
-      "app_id": "1622262960",
-      "app_name": "Chill：自我关怀庇护所",
-      "name": "Lifetime Subscription",
-      "region": "us",
-      "first_date": "2026-10-22",
-      "first_price": "—",
-      "last_date": "2026-10-22",
-      "last_price": "$0.00",
-      "last_change_date": "2026-10-22",
-      "ever_paid": true,
-      "last_paid_date": "2026-10-21",
-      "free_since": "2026-10-21",
-      "changes": {
-        "2026-10-21": "—",
-        "2026-10-22": "$0.00"
-      },
-      "source": "apprcn"
-    },
-    "6760588830::MilkTeaLover Pro Lifetime": {
-      "app_id": "6760588830",
-      "app_name": "奶茶日记: AI 贴纸&糖分追踪",
-      "name": "MilkTeaLover Pro Lifetime",
-      "region": "us",
-      "first_date": "2026-10-22",
-      "first_price": "—",
-      "last_date": "2026-10-22",
-      "last_price": "$0.00",
-      "last_change_date": "2026-10-22",
-      "ever_paid": true,
-      "last_paid_date": "2026-10-21",
-      "free_since": "2026-10-21",
-      "changes": {
-        "2026-10-21": "—",
-        "2026-10-22": "$0.00"
-      },
-      "source": "apprcn"
-    },
-    "6820137866::永久 VIP": {
-      "app_id": "6820137866",
-      "app_name": "成语闯关 - 边玩边学，轻松掌握成语",
-      "name": "永久 VIP",
-      "region": "us",
-      "first_date": "2026-10-22",
-      "first_price": "—",
-      "last_date": "2026-10-22",
-      "last_price": "$0.00",
-      "last_change_date": "2026-10-22",
-      "ever_paid": true,
-      "last_paid_date": "2026-10-21",
-      "free_since": "2026-10-21",
-      "changes": {
-        "2026-10-21": "—",
-        "2026-10-22": "$0.00"
-      },
-      "source": "apprcn"
-    },
-    "6772943882::Life Time Pro": {
-      "app_id": "6772943882",
-      "app_name": "OgdenSpine",
-      "name": "Life Time Pro",
-      "region": "us",
-      "first_date": "2026-10-22",
-      "first_price": "—",
-      "last_date": "2026-10-22",
-      "last_price": "$0.00",
-      "last_change_date": "2026-10-22",
-      "ever_paid": true,
-      "last_paid_date": "2026-10-21",
-      "free_since": "2026-10-21",
-      "changes": {
-        "2026-10-21": "—",
-        "2026-10-22": "$0.00"
-      },
-      "source": "apprcn"
-    },
-    "6781948787::Premium Lifetime": {
-      "app_id": "6781948787",
-      "app_name": "Leafora: 植物识别与养护",
-      "name": "Premium Lifetime",
-      "region": "us",
-      "first_date": "2026-10-22",
-      "first_price": "—",
-      "last_date": "2026-10-22",
-      "last_price": "$0.00",
-      "last_change_date": "2026-10-22",
-      "ever_paid": true,
-      "last_paid_date": "2026-10-21",
-      "free_since": "2026-10-21",
-      "changes": {
-        "2026-10-21": "—",
-        "2026-10-22": "$0.00"
-      },
-      "source": "apprcn"
-    },
     "305014494::EZ Price Pro Plan": {
       "app_id": "305014494",
       "app_name": "EZCalc Diamonds",
@@ -105724,6 +105556,120 @@
       "changes": {
         "2026-10-25": "$9.99"
       }
+    },
+    "957061844::Night Camera Pro": {
+      "app_id": "957061844",
+      "app_name": "Night Camera: Low Light FX Cam",
+      "name": "Night Camera Pro",
+      "region": "us",
+      "first_date": "2026-10-25",
+      "first_price": "—",
+      "last_date": "2026-10-25",
+      "last_price": "$0.00",
+      "last_change_date": "2026-10-25",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-24",
+      "free_since": "2026-10-24",
+      "changes": {
+        "2026-10-24": "—",
+        "2026-10-25": "$0.00"
+      },
+      "source": "apprcn"
+    },
+    "6754824912::Lifetime Premium - Movies & TV": {
+      "app_id": "6754824912",
+      "app_name": "电影下载器：看电影 - FreePlay",
+      "name": "Lifetime Premium - Movies & TV",
+      "region": "us",
+      "first_date": "2026-10-25",
+      "first_price": "—",
+      "last_date": "2026-10-25",
+      "last_price": "$0.00",
+      "last_change_date": "2026-10-25",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-24",
+      "free_since": "2026-10-24",
+      "changes": {
+        "2026-10-24": "—",
+        "2026-10-25": "$0.00"
+      },
+      "source": "apprcn"
+    },
+    "6806892588::Lifetime": {
+      "app_id": "6806892588",
+      "app_name": "Period Tracker & Pregnancy App",
+      "name": "Lifetime",
+      "region": "us",
+      "first_date": "2026-10-25",
+      "first_price": "—",
+      "last_date": "2026-10-25",
+      "last_price": "$0.00",
+      "last_change_date": "2026-10-25",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-24",
+      "free_since": "2026-10-24",
+      "changes": {
+        "2026-10-24": "—",
+        "2026-10-25": "$0.00"
+      },
+      "source": "apprcn"
+    },
+    "6821278362::StorageGo Pro Lifetime": {
+      "app_id": "6821278362",
+      "app_name": "StorageGo：手机存储空间清理工具",
+      "name": "StorageGo Pro Lifetime",
+      "region": "us",
+      "first_date": "2026-10-25",
+      "first_price": "—",
+      "last_date": "2026-10-25",
+      "last_price": "$0.00",
+      "last_change_date": "2026-10-25",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-24",
+      "free_since": "2026-10-24",
+      "changes": {
+        "2026-10-24": "—",
+        "2026-10-25": "$0.00"
+      },
+      "source": "apprcn"
+    },
+    "6816968488::Ocre Pro Lifetime": {
+      "app_id": "6816968488",
+      "app_name": "Ocre: 照片转油画",
+      "name": "Ocre Pro Lifetime",
+      "region": "us",
+      "first_date": "2026-10-25",
+      "first_price": "—",
+      "last_date": "2026-10-25",
+      "last_price": "$0.00",
+      "last_change_date": "2026-10-25",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-23",
+      "free_since": "2026-10-23",
+      "changes": {
+        "2026-10-23": "—",
+        "2026-10-25": "$0.00"
+      },
+      "source": "apprcn"
+    },
+    "6748519522::TimeGrow: Pomodoro Timer Focus": {
+      "app_id": "6748519522",
+      "app_name": "时间荚:正计时番茄钟·种植物·专注·自律·目标·习惯·冥想",
+      "name": "TimeGrow: Pomodoro Timer Focus",
+      "region": "us",
+      "first_date": "2026-10-25",
+      "first_price": "—",
+      "last_date": "2026-10-25",
+      "last_price": "免费",
+      "last_change_date": "2026-10-25",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-22",
+      "free_since": "2026-10-22",
+      "changes": {
+        "2026-10-22": "—",
+        "2026-10-25": "免费"
+      },
+      "source": "apprcn"
     }
   }
 }

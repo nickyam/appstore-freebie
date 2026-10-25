@@ -150,6 +150,25 @@ def collect_became_free(data, region):
     return m
 
 
+def collect_active_iap_ids(data, region):
+    """iap[] 中本 region 当前有内购促销的 app_id 集合（双驱动候选集，B 方案）。
+
+    2026-10-25 用户拍板：反斗 cn 区 48 条 became_free 告警中 47 条 App 不在
+    榜单池——内购限免主力是榜外小工具/相机类 App，光靠 became_free 注入不够，
+    把当前所有内购活跃 App 一并注入监控池，采集器持续跟踪其 IAP 价格变化
+    （价格仍由我们自己爬、事件仍由我们自己的规则判定，只是候选集对路）。
+    """
+    ids = set()
+    for app in (data.get("iap") or []):
+        regions = [r.get("region") for r in (app.get("regions") or [])]
+        if region not in regions:
+            continue
+        aid = str(app.get("app_id") or "")
+        if aid:
+            ids.add(aid)
+    return ids
+
+
 def pick_alert(became, aid, iap_name):
     """为某 (app_id, iap) 选一个 became_free 证据。优先精确名匹配；否则若 App 仅一条告警则复用。"""
     app_map = became.get(aid)
@@ -175,6 +194,40 @@ def load_manifest():
 def save_manifest(m):
     os.makedirs(DATA_DIR, exist_ok=True)
     json.dump(m, open(MANIFEST_PATH, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
+
+
+def _utc_now_iso():
+    return datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+
+
+def _write_seed_meta(region, **fields):
+    """往 data/iap-history-{region}.json 的 meta 写播种健康字段（A 方案：防静默失败）。
+
+    心跳落在 iap-history meta：该文件由采集器每班刷新但只动 updated/pool_size 等
+    字段，seed_* 字段会被保留；文件每日被 CI 提交，陈旧状态在 git 历史里也可见。
+    """
+    p = os.path.join(DATA_DIR, f"iap-history-{region}.json")
+    hist = {"meta": {"region": region, "version": 1}, "items": {}}
+    if os.path.exists(p):
+        try:
+            hist = json.load(open(p, encoding="utf-8"))
+        except Exception:
+            pass
+    hist.setdefault("meta", {})["region"] = region
+    hist["meta"].update(fields)
+    try:
+        save_json(f"iap-history-{region}.json", hist)
+    except Exception as e:
+        print(f"[warn] 写 seed 健康字段失败: {e}")
+
+
+def mark_seed_ok(region):
+    _write_seed_meta(region, seed_last_ok=_utc_now_iso(), seed_last_error="")
+
+
+def mark_seed_fail(region, err):
+    _write_seed_meta(region, seed_last_fail=_utc_now_iso(),
+                     seed_last_error=str(err)[:200])
 
 
 def bootstrap_iap_history(region, current_free, became, today, manifest, appmeta=None):
@@ -249,8 +302,12 @@ def bootstrap_iap_history(region, current_free, became, today, manifest, appmeta
     return hist, added, manifest, skipped_unrated
 
 
-def seed_pool(region, became, today):
-    """把 became_free 涉及的 app_id 注入 history-{region}.json 监控池（幂等）。返回新增数。"""
+def seed_pool(region, became, today, extra_ids=None):
+    """把 became_free + 内购活跃(iap[]) 的 app_id 注入 history-{region}.json 监控池（幂等）。
+
+    extra_ids：collect_active_iap_ids 产出的内购活跃 App 集合（B 方案，2026-10-25）。
+    返回 (hist, hist_path, added_became, added_active)。
+    """
     hist_path = os.path.join(DATA_DIR, f"history-{region}.json")
     hist = {}
     if os.path.exists(hist_path):
@@ -258,13 +315,35 @@ def seed_pool(region, became, today):
             hist = json.load(open(hist_path, encoding="utf-8"))
         except Exception:
             hist = {}
-    added = 0
+    added_became = 0
     for aid in became:  # became 的 keys 即 app_id（字符串）
         if aid in hist:
             continue
         hist[aid] = seed_entry(0.0, today, today - datetime.timedelta(days=1))
-        added += 1
-    return hist, hist_path, added
+        hist[aid]["ec"] = False   # 主应用价格未知：不谎称"曾收费"（防误入本体限免；
+        added_became += 1          # 观测到付费价后 update_history 会自动自愈为 True）
+    added_active = 0
+    for aid in sorted(extra_ids or []):
+        aid = str(aid)
+        if aid and aid not in hist:
+            hist[aid] = seed_entry(0.0, today, today - datetime.timedelta(days=1))
+            hist[aid]["ec"] = False  # 同上：IAP 注入 ≠ 本体曾收费
+            added_active += 1
+
+    # 可达性保证：采集器 load_pool 按字典序取前 limit(2000)，池尾注入可能永远
+    # 轮不到复查。每次把「热点集」（became_free + 内购活跃）重排到池前部。
+    hot = [str(a) for a in became if str(a) in hist]
+    for aid in sorted(extra_ids or []):
+        aid = str(aid)
+        if aid in hist and aid not in hot:
+            hot.append(aid)
+    if hot:
+        reordered = {aid: hist[aid] for aid in hot}
+        for k, v in hist.items():
+            if k not in reordered:
+                reordered[k] = v
+        hist = reordered
+    return hist, hist_path, added_became, added_active
 
 
 def lookup_apps(region, app_ids):
@@ -313,14 +392,24 @@ def main():
     today = utc_today()
     today_str = today.isoformat()
     manifest = load_manifest()
+    failures = []
 
     for region in regions:
         print(f"\n=== region={region} ===")
-        data = fetch_snapshot(region, args.cache_dir or None)
+        try:
+            data = fetch_snapshot(region, args.cache_dir or None)
+        except Exception as e:
+            # A 方案：拉取失败必须留痕（seed_last_fail），否则 continue-on-error 会静默吞掉
+            print(f"[error] snapshot({region}) 拉取失败: {e}")
+            mark_seed_fail(region, e)
+            failures.append(region)
+            continue
         current_free = collect_current_free(data, region)
         became = collect_became_free(data, region)
+        active_ids = collect_active_iap_ids(data, region)  # B 方案：内购活跃候选集
         n_became = sum(len(v) for v in became.values())
-        print(f"[info] 当前免费内购项: {len(current_free)} | became_free 告警: {n_became}")
+        print(f"[info] 当前免费内购项: {len(current_free)} | became_free 告警: {n_became} "
+              f"| 内购活跃 App: {len(active_ids)}")
 
         # 先 lookup 拿评分（无评分 App 不收录，需在注入前知道评分）
         appmeta = lookup_apps(region,
@@ -330,16 +419,25 @@ def main():
             region, current_free, became, today_str, manifest, appmeta)
         if not args.dry_run:
             save_json(f"iap-history-{region}.json", hist)
+            mark_seed_ok(region)  # A 方案：成功心跳（dry-run 不写）
         print(f"[iap-history-{region}] 新增限时 {added}（无评分跳过 {skipped_unrated}），"
               f"现有 {len(hist['items'])} 条（仅限时）")
 
-        # 注入监控池（仅 became_free 涉及的 app_id）
-        pooled, hist_path, padd = seed_pool(region, became, today)
+        # 注入监控池（became_free + 内购活跃 App，幂等）
+        pooled, hist_path, padd_became, padd_active = seed_pool(
+            region, became, today, extra_ids=active_ids)
         if not args.dry_run:
             os.makedirs(DATA_DIR, exist_ok=True)
             json.dump(pooled, open(hist_path, "w", encoding="utf-8"),
                       ensure_ascii=False, indent=2)
-        print(f"[history-{region}] 监控池新增 App: {padd}（池总量 {len(pooled)}）")
+        print(f"[history-{region}] 监控池新增 App: became_free {padd_became} + "
+              f"内购活跃 {padd_active}（池总量 {len(pooled)}）")
+
+    if failures:
+        # 工作流该步骤带 continue-on-error，此处 exit 1 仅作标记；
+        # 真正的报警由后续 check_seed_health.py 步骤完成（防静默失败）。
+        print(f"\n[error] 以下 region 播种失败: {failures}")
+        sys.exit(1)
 
     if not args.dry_run:
         save_manifest(manifest)
