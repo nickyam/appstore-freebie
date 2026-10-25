@@ -598,18 +598,18 @@ def load_history(path):
     return out
 
 
-def utc_today():
-    """以 UTC 为准取「今天」。
-    数据日期(date)与 generated_at(UTC) 保持同一时区，避免
-    「日期 10-19 / 更新于 10-20」的观感矛盾；GitHub Actions runner 本就是 UTC，
-    历史日期键也与既有数据连续。显式用 UTC 而非 date.today()，保证本地调试
-    （UTC+8 机器）与线上行为一致。"""
-    return datetime.datetime.now(datetime.timezone.utc).date()
+def bj_today():
+    """以北京时间(UTC+8)为准取「今天」。
+    本体限免 / 价格历史的日期键与内购采集器(iap_collector)保持一致，均按北京时间
+    凌晨 0 点翻日，避免用户在北京时间下午(UTC 00:00)才看到「今天」数字更新。
+    历史日期键从既有 UTC 日切换为北京日，首次切换班为一次口径迁移，但天数均为
+    绝对重算(today - free_since / 跨天判定基于相邻日期键)，不会损坏数据。"""
+    return (datetime.datetime.now(datetime.timezone.utc) + datetime.timedelta(hours=8)).date()
 
 
 def seed_from_baseline(history, baseline):
     """首次无库时，用旧 baseline 的当日价播种一天，给跨天判定一个起点。"""
-    today = utc_today().isoformat()
+    today = bj_today().isoformat()
     for cid, rec in (baseline or {}).items():
         p = rec.get("price", 0) or 0
         history[cid] = {
@@ -695,7 +695,7 @@ def main():
     out_path = os.path.join(DATA_DIR, f"free-today-{country}.json")
     watch_path = os.path.join(DATA_DIR, f"watch-{country}.json")
 
-    today = utc_today().isoformat()
+    today = bj_today().isoformat()
 
     # 1) 构建宽监控池：22 分类 付费榜 + 畅销榜 + 整体免费榜
     chart_ids = []
