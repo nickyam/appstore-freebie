@@ -1,16 +1,16 @@
 {
-  "updated": "2026-10-25",
+  "updated": "2026-10-26",
   "region": "cn",
-  "count": 9,
+  "count": 8,
   "events": [
     {
       "app_id": "364859644",
       "app_name": "Offline Pages",
       "iap": "Offline Pages Pro",
       "price": "¥0.00",
-      "free_since": "2026-10-25",
+      "free_since": "2026-10-26",
       "days_free": 0,
-      "last_paid_date": "2026-10-25",
+      "last_paid_date": "2026-10-26",
       "last_paid_price": "¥0.00",
       "url": "https://apps.apple.com/cn/app/offline-pages/id364859644?uo=4",
       "rating": 5,
@@ -25,14 +25,15 @@
       "iap": "Night Camera Pro",
       "price": "¥0.00",
       "free_since": "2026-10-24",
-      "days_free": 1,
+      "days_free": 2,
       "last_paid_date": "2026-10-24",
       "last_paid_price": "—",
       "url": "https://apps.apple.com/cn/app/night-camera-low-light-fx-cam/id957061844?uo=4",
       "rating": 3.58333,
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/61/11/05/61110534-8c61-76f8-4cef-a3c63d3fa9e3/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
       "dev": "华芳 张",
-      "genre": "摄影与录像"
+      "genre": "摄影与录像",
+      "page": "app/cn-957061844.html"
     },
     {
       "app_id": "6754824912",
@@ -40,29 +41,15 @@
       "iap": "终身高级版：电影与电视",
       "price": "¥0.00",
       "free_since": "2026-10-24",
-      "days_free": 1,
+      "days_free": 2,
       "last_paid_date": "2026-10-24",
       "last_paid_price": "—",
       "url": "https://apps.apple.com/cn/app/%E7%94%B5%E5%BD%B1%E4%B8%8B%E8%BD%BD%E5%99%A8-%E7%9C%8B%E7%94%B5%E5%BD%B1-freeplay/id6754824912?uo=4",
       "rating": 5,
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/66/99/e5/6699e525-70a5-b60d-462d-affdb06777a3/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
       "dev": "Aktis Inc",
-      "genre": "娱乐"
-    },
-    {
-      "app_id": "6783653531",
-      "app_name": "Lift: 健身训练记录",
-      "iap": "限时内购限免",
-      "price": "¥0.00",
-      "free_since": "2026-10-23",
-      "days_free": 2,
-      "last_paid_date": "2026-10-23",
-      "last_paid_price": "—",
-      "url": "https://apps.apple.com/cn/app/lift-%E5%81%A5%E8%BA%AB%E8%AE%AD%E7%BB%83%E8%AE%B0%E5%BD%95/id6783653531?uo=4",
-      "rating": 3.66667,
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/70/fb/0f/70fb0f19-bb98-2858-70e1-9de702df3d66/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-      "dev": "YunLong Zhang",
-      "genre": "健康健美"
+      "genre": "娱乐",
+      "page": "app/cn-6754824912.html"
     },
     {
       "app_id": "6768885559",
@@ -70,14 +57,15 @@
       "iap": "Life Time Pro",
       "price": "¥0.00",
       "free_since": "2026-10-21",
-      "days_free": 4,
+      "days_free": 5,
       "last_paid_date": "2026-10-21",
       "last_paid_price": "—",
       "url": "https://apps.apple.com/cn/app/ibirdsong/id6768885559?uo=4",
       "rating": 4,
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3c/5b/cc/3c5bcc14-b7f8-39b8-9c29-9dc6fac32668/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
       "dev": "Naihe Hu",
-      "genre": "生活"
+      "genre": "生活",
+      "page": "app/cn-6768885559.html"
     },
     {
       "app_id": "6772943882",
@@ -85,7 +73,7 @@
       "iap": "内购限免",
       "price": "免费",
       "free_since": "2026-10-21",
-      "days_free": 4,
+      "days_free": 5,
       "last_paid_date": "2026-10-21",
       "last_paid_price": "—",
       "url": "https://apps.apple.com/cn/app/ogdenspine/id6772943882?uo=4",
@@ -101,14 +89,15 @@
       "iap": "内购限免",
       "price": "免费",
       "free_since": "2026-10-22",
-      "days_free": 3,
+      "days_free": 4,
       "last_paid_date": "2026-10-22",
       "last_paid_price": "—",
       "url": "https://apps.apple.com/cn/app/aura-%E7%BC%93%E8%A7%A3%E7%84%A6%E8%99%91-%E5%86%A5%E6%83%B3-%E7%9D%A1%E7%9C%A0/id6776121093?uo=4",
       "rating": 4.92307,
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/dc/4f/07/dc4f07f5-1232-38f9-e426-5e6da7b10b6e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
       "dev": "Jon Johnson",
-      "genre": "健康健美"
+      "genre": "健康健美",
+      "page": "app/cn-6776121093.html"
     },
     {
       "app_id": "6741854065",
@@ -116,14 +105,15 @@
       "iap": "内购限免",
       "price": "免费",
       "free_since": "2026-10-22",
-      "days_free": 3,
+      "days_free": 4,
       "last_paid_date": "2026-10-22",
       "last_paid_price": "—",
       "url": "https://apps.apple.com/cn/app/%E5%A4%9A%E8%83%BD%E8%AE%B0-%E4%B8%80%E7%9B%AE%E4%BA%86%E7%84%B6-%E8%AE%B0%E7%9A%84%E5%A4%9A/id6741854065?uo=4",
       "rating": 4.81667,
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/44/fc/2d/44fc2db8-e068-f8e7-5c13-69b08ab2dd42/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
       "dev": "Wuhan Starlink Network Technology Co., Ltd.",
-      "genre": "工具"
+      "genre": "工具",
+      "page": "app/cn-6741854065.html"
     },
     {
       "app_id": "6761163201",
@@ -131,14 +121,15 @@
       "iap": "内购限免",
       "price": "免费",
       "free_since": "2026-10-22",
-      "days_free": 3,
+      "days_free": 4,
       "last_paid_date": "2026-10-22",
       "last_paid_price": "—",
       "url": "https://apps.apple.com/cn/app/%E5%A3%B3%E5%9B%BE%E5%9B%BE-%E5%B8%A6%E5%A3%B3%E6%88%AA%E5%9B%BE/id6761163201?uo=4",
       "rating": 4.72727,
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/67/0c/fe/670cfebc-e350-a823-d31d-547dc28b12da/AppIcon-0-0-1x_U007epad-0-1-sRGB-85-220.png/512x512bb.jpg",
       "dev": "日伟 何",
-      "genre": "工具"
+      "genre": "工具",
+      "page": "app/cn-6761163201.html"
     }
   ]
 }
