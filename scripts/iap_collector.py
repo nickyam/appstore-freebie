@@ -31,7 +31,7 @@ CI 注意：本采集器产出的 4 个 data/iap-*.json 由独立的 iap.yml 负
   python3 iap_collector.py --selftest     # 用合成历史验证事件检测逻辑
 """
 import sys, os, re, json, html, time, argparse, urllib.request
-from datetime import datetime
+from datetime import datetime, timedelta, timezone
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from iap_probe import fetch, parse_iap, is_free  # noqa: E402
@@ -233,7 +233,9 @@ def enrich_events_itunes(region, events):
 
 
 def run(region, limit, delay):
-    today = datetime.now().strftime("%Y-%m-%d")
+    # 按北京时间（UTC+8）翻日：内购限免的 NEW 角标与「已免费 N 天」在北京时间凌晨 0 点更新，
+    # 而非 CI runner 的 UTC 午夜（=北京时间 16:00），避免用户感知到的「今天」滞后。
+    today = (datetime.now(timezone.utc) + timedelta(hours=8)).strftime("%Y-%m-%d")
     print(f"[*] IAP 采集 region={region} limit={limit} today={today}")
     hist = load_history(region)
     pool = load_pool(region, limit)
