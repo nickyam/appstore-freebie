@@ -1397,7 +1397,7 @@
       "first_date": "2026-10-23",
       "first_price": "$3.99",
       "last_date": "2026-10-26",
-      "last_price": "$5.99",
+      "last_price": "$19.99",
       "last_change_date": "2026-10-26",
       "ever_paid": true,
       "last_paid_date": "2026-10-26",
@@ -1406,7 +1406,7 @@
         "2026-10-23": "$19.99",
         "2026-10-24": "$5.99",
         "2026-10-25": "$5.99",
-        "2026-10-26": "$5.99"
+        "2026-10-26": "$19.99"
       }
     },
     "584606479::Simple Start": {
@@ -30731,7 +30731,7 @@
       "first_date": "2026-10-23",
       "first_price": "$6.99",
       "last_date": "2026-10-26",
-      "last_price": "$9.99",
+      "last_price": "$29.99",
       "last_change_date": "2026-10-26",
       "ever_paid": true,
       "last_paid_date": "2026-10-26",
@@ -30740,7 +30740,7 @@
         "2026-10-23": "$9.99",
         "2026-10-24": "$9.99",
         "2026-10-25": "$9.99",
-        "2026-10-26": "$9.99"
+        "2026-10-26": "$29.99"
       }
     },
     "1529106085::Screen Mirroring for Smart TV": {
@@ -30768,7 +30768,7 @@
       "first_date": "2026-10-23",
       "first_price": "$24.99",
       "last_date": "2026-10-26",
-      "last_price": "$19.99",
+      "last_price": "$24.99",
       "last_change_date": "2026-10-26",
       "ever_paid": true,
       "last_paid_date": "2026-10-26",
@@ -30777,7 +30777,7 @@
         "2026-10-23": "$19.99",
         "2026-10-24": "$19.99",
         "2026-10-25": "$19.99",
-        "2026-10-26": "$19.99"
+        "2026-10-26": "$24.99"
       }
     },
     "1529106085::Screen Mirror for Smart TV": {
@@ -38245,7 +38245,7 @@
       "first_date": "2026-10-23",
       "first_price": "$3.99",
       "last_date": "2026-10-26",
-      "last_price": "$14.99",
+      "last_price": "$3.99",
       "last_change_date": "2026-10-26",
       "ever_paid": true,
       "last_paid_date": "2026-10-26",
@@ -38254,7 +38254,7 @@
         "2026-10-23": "$14.99",
         "2026-10-24": "$14.99",
         "2026-10-25": "$14.99",
-        "2026-10-26": "$14.99"
+        "2026-10-26": "$3.99"
       }
     },
     "6813949850::Historic Haunts Pass": {
@@ -58289,7 +58289,7 @@
       "region": "us",
       "first_date": "2026-10-23",
       "first_price": "$4.59",
-      "last_date": "2026-10-24",
+      "last_date": "2026-10-26",
       "last_price": "$4.59",
       "last_change_date": "2026-10-23",
       "ever_paid": true,
@@ -58534,7 +58534,7 @@
       "first_date": "2026-10-23",
       "first_price": "$9.99",
       "last_date": "2026-10-26",
-      "last_price": "$29.99",
+      "last_price": "$9.99",
       "last_change_date": "2026-10-26",
       "ever_paid": true,
       "last_paid_date": "2026-10-26",
@@ -58543,7 +58543,7 @@
         "2026-10-23": "$9.99",
         "2026-10-24": "$29.99",
         "2026-10-25": "$29.99",
-        "2026-10-26": "$29.99"
+        "2026-10-26": "$9.99"
       }
     },
     "6783769467::GTL: Prison Messaging & Visits": {
@@ -58570,7 +58570,7 @@
       "region": "us",
       "first_date": "2026-10-23",
       "first_price": "$9.99",
-      "last_date": "2026-10-23",
+      "last_date": "2026-10-26",
       "last_price": "$9.99",
       "last_change_date": "2026-10-23",
       "ever_paid": true,
@@ -60591,7 +60591,7 @@
       "first_date": "2026-10-23",
       "first_price": "$24.99",
       "last_date": "2026-10-26",
-      "last_price": "$24.99",
+      "last_price": "$19.99",
       "last_change_date": "2026-10-26",
       "ever_paid": true,
       "last_paid_date": "2026-10-26",
@@ -60600,7 +60600,7 @@
         "2026-10-23": "$19.99",
         "2026-10-24": "$24.99",
         "2026-10-25": "$24.99",
-        "2026-10-26": "$24.99"
+        "2026-10-26": "$19.99"
       }
     },
     "1449170265::3 Month Membership": {
@@ -67203,15 +67203,16 @@
       "first_date": "2026-10-23",
       "first_price": "$49.99",
       "last_date": "2026-10-26",
-      "last_price": "$49.99",
-      "last_change_date": "2026-10-25",
+      "last_price": "$39.99",
+      "last_change_date": "2026-10-26",
       "ever_paid": true,
-      "last_paid_date": "2026-10-25",
+      "last_paid_date": "2026-10-26",
       "free_since": null,
       "changes": {
         "2026-10-23": "$39.99",
         "2026-10-24": "$39.99",
-        "2026-10-25": "$49.99"
+        "2026-10-25": "$49.99",
+        "2026-10-26": "$39.99"
       }
     },
     "6761736440::BibleWatch Premium": {
@@ -70680,7 +70681,7 @@
       "first_date": "2026-10-23",
       "first_price": "$5.99",
       "last_date": "2026-10-26",
-      "last_price": "$5.99",
+      "last_price": "$7.99",
       "last_change_date": "2026-10-26",
       "ever_paid": true,
       "last_paid_date": "2026-10-26",
@@ -70689,7 +70690,7 @@
         "2026-10-23": "$7.99",
         "2026-10-24": "$7.99",
         "2026-10-25": "$5.99",
-        "2026-10-26": "$5.99"
+        "2026-10-26": "$7.99"
       }
     },
     "6757691579::Unlock all Access": {
@@ -75793,7 +75794,7 @@
       "region": "us",
       "first_date": "2026-10-23",
       "first_price": "$29.99",
-      "last_date": "2026-10-24",
+      "last_date": "2026-10-26",
       "last_price": "$29.99",
       "last_change_date": "2026-10-23",
       "ever_paid": true,
@@ -76248,7 +76249,7 @@
       "first_date": "2026-10-23",
       "first_price": "$29.99",
       "last_date": "2026-10-26",
-      "last_price": "$199.00",
+      "last_price": "$19.99",
       "last_change_date": "2026-10-26",
       "ever_paid": true,
       "last_paid_date": "2026-10-26",
@@ -76257,7 +76258,7 @@
         "2026-10-23": "$199.00",
         "2026-10-24": "$199.00",
         "2026-10-25": "$199.00",
-        "2026-10-26": "$199.00"
+        "2026-10-26": "$19.99"
       }
     },
     "6746845735::Pocket Yearly Pro": {
@@ -76492,7 +76493,7 @@
       "first_date": "2026-10-23",
       "first_price": "$29.99",
       "last_date": "2026-10-26",
-      "last_price": "$24.99",
+      "last_price": "$29.99",
       "last_change_date": "2026-10-26",
       "ever_paid": true,
       "last_paid_date": "2026-10-26",
@@ -76501,7 +76502,7 @@
         "2026-10-23": "$24.99",
         "2026-10-24": "$24.99",
         "2026-10-25": "$24.99",
-        "2026-10-26": "$24.99"
+        "2026-10-26": "$29.99"
       }
     },
     "1644737181::BePresent Pro Family (iCloud)": {
@@ -80332,7 +80333,7 @@
       "first_date": "2026-10-23",
       "first_price": "$79.99",
       "last_date": "2026-10-26",
-      "last_price": "$9.99",
+      "last_price": "$8.99",
       "last_change_date": "2026-10-26",
       "ever_paid": true,
       "last_paid_date": "2026-10-26",
@@ -80341,7 +80342,7 @@
         "2026-10-23": "$8.99",
         "2026-10-24": "$9.99",
         "2026-10-25": "$9.99",
-        "2026-10-26": "$9.99"
+        "2026-10-26": "$8.99"
       }
     },
     "6451491556::Professional": {
@@ -83015,7 +83016,7 @@
       "first_date": "2026-10-23",
       "first_price": "$49.99",
       "last_date": "2026-10-26",
-      "last_price": "$9.99",
+      "last_price": "$49.99",
       "last_change_date": "2026-10-26",
       "ever_paid": true,
       "last_paid_date": "2026-10-26",
@@ -83024,7 +83025,7 @@
         "2026-10-23": "$49.99",
         "2026-10-24": "$9.99",
         "2026-10-25": "$9.99",
-        "2026-10-26": "$9.99"
+        "2026-10-26": "$49.99"
       }
     },
     "1527395366::PDF Extra Premium Yearly": {
@@ -83085,7 +83086,7 @@
       "region": "us",
       "first_date": "2026-10-23",
       "first_price": "$12.99",
-      "last_date": "2026-10-23",
+      "last_date": "2026-10-26",
       "last_price": "$12.99",
       "last_change_date": "2026-10-23",
       "ever_paid": true,
@@ -84796,7 +84797,7 @@
       "first_date": "2026-10-23",
       "first_price": "$4.99",
       "last_date": "2026-10-26",
-      "last_price": "$0.99",
+      "last_price": "$4.99",
       "last_change_date": "2026-10-26",
       "ever_paid": true,
       "last_paid_date": "2026-10-26",
@@ -84805,7 +84806,7 @@
         "2026-10-23": "$0.99",
         "2026-10-24": "$0.99",
         "2026-10-25": "$0.99",
-        "2026-10-26": "$0.99"
+        "2026-10-26": "$4.99"
       }
     },
     "389801252::Meta Verified Standard": {
@@ -86187,7 +86188,7 @@
       "first_date": "2026-10-23",
       "first_price": "$9.99",
       "last_date": "2026-10-26",
-      "last_price": "$7.99",
+      "last_price": "$11.99",
       "last_change_date": "2026-10-26",
       "ever_paid": true,
       "last_paid_date": "2026-10-26",
@@ -86196,7 +86197,7 @@
         "2026-10-23": "$7.99",
         "2026-10-24": "$7.99",
         "2026-10-25": "$7.99",
-        "2026-10-26": "$7.99"
+        "2026-10-26": "$11.99"
       }
     },
     "6466298983::Retake Pro 1 Year": {
@@ -104989,7 +104990,7 @@
       "region": "us",
       "first_date": "2026-10-23",
       "first_price": "$35.99",
-      "last_date": "2026-10-25",
+      "last_date": "2026-10-26",
       "last_price": "$35.99",
       "last_change_date": "2026-10-23",
       "ever_paid": true,
@@ -108780,13 +108781,13 @@
       "first_date": "2026-10-26",
       "first_price": "$1.99",
       "last_date": "2026-10-26",
-      "last_price": "$9.99",
+      "last_price": "$1.99",
       "last_change_date": "2026-10-26",
       "ever_paid": true,
       "last_paid_date": "2026-10-26",
       "free_since": null,
       "changes": {
-        "2026-10-26": "$9.99"
+        "2026-10-26": "$1.99"
       }
     },
     "6742738427::Crossword Player Premium": {
@@ -109501,6 +109502,431 @@
       "free_since": null,
       "changes": {
         "2026-10-26": "$6.99"
+      }
+    },
+    "393782096::Surfline Premium with ads": {
+      "app_id": "393782096",
+      "app_name": "Surfline: Wave & Surf Reports",
+      "name": "Surfline Premium with ads",
+      "region": "us",
+      "first_date": "2026-10-26",
+      "first_price": "$69.99",
+      "last_date": "2026-10-26",
+      "last_price": "$69.99",
+      "last_change_date": "2026-10-26",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-26",
+      "free_since": null,
+      "changes": {
+        "2026-10-26": "$69.99"
+      }
+    },
+    "649264704::Weather Radar Premium 1 Week": {
+      "app_id": "649264704",
+      "app_name": "Weather Radar - NOAA Channel",
+      "name": "Weather Radar Premium 1 Week",
+      "region": "us",
+      "first_date": "2026-10-26",
+      "first_price": "$5.99",
+      "last_date": "2026-10-26",
+      "last_price": "$5.99",
+      "last_change_date": "2026-10-26",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-26",
+      "free_since": null,
+      "changes": {
+        "2026-10-26": "$5.99"
+      }
+    },
+    "514485964::Animal Sound Pack": {
+      "app_id": "514485964",
+      "app_name": "Text Me - Phone Call + Texting",
+      "name": "Animal Sound Pack",
+      "region": "us",
+      "first_date": "2026-10-26",
+      "first_price": "$0.99",
+      "last_date": "2026-10-26",
+      "last_price": "$0.99",
+      "last_change_date": "2026-10-26",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-26",
+      "free_since": null,
+      "changes": {
+        "2026-10-26": "$0.99"
+      }
+    },
+    "514485964::Fun Sound Pack": {
+      "app_id": "514485964",
+      "app_name": "Text Me - Phone Call + Texting",
+      "name": "Fun Sound Pack",
+      "region": "us",
+      "first_date": "2026-10-26",
+      "first_price": "$0.99",
+      "last_date": "2026-10-26",
+      "last_price": "$0.99",
+      "last_change_date": "2026-10-26",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-26",
+      "free_since": null,
+      "changes": {
+        "2026-10-26": "$0.99"
+      }
+    },
+    "514485964::40 TextMe Credits": {
+      "app_id": "514485964",
+      "app_name": "Text Me - Phone Call + Texting",
+      "name": "40 TextMe Credits",
+      "region": "us",
+      "first_date": "2026-10-26",
+      "first_price": "$0.99",
+      "last_date": "2026-10-26",
+      "last_price": "$0.99",
+      "last_change_date": "2026-10-26",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-26",
+      "free_since": null,
+      "changes": {
+        "2026-10-26": "$0.99"
+      }
+    },
+    "514485964::500 TextMe Credits": {
+      "app_id": "514485964",
+      "app_name": "Text Me - Phone Call + Texting",
+      "name": "500 TextMe Credits",
+      "region": "us",
+      "first_date": "2026-10-26",
+      "first_price": "$8.99",
+      "last_date": "2026-10-26",
+      "last_price": "$8.99",
+      "last_change_date": "2026-10-26",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-26",
+      "free_since": null,
+      "changes": {
+        "2026-10-26": "$8.99"
+      }
+    },
+    "514485964::Remove Ads for 1 Month": {
+      "app_id": "514485964",
+      "app_name": "Text Me - Phone Call + Texting",
+      "name": "Remove Ads for 1 Month",
+      "region": "us",
+      "first_date": "2026-10-26",
+      "first_price": "$1.99",
+      "last_date": "2026-10-26",
+      "last_price": "$1.99",
+      "last_change_date": "2026-10-26",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-26",
+      "free_since": null,
+      "changes": {
+        "2026-10-26": "$1.99"
+      }
+    },
+    "514485964::Remove Ads for 1 Year": {
+      "app_id": "514485964",
+      "app_name": "Text Me - Phone Call + Texting",
+      "name": "Remove Ads for 1 Year",
+      "region": "us",
+      "first_date": "2026-10-26",
+      "first_price": "$4.99",
+      "last_date": "2026-10-26",
+      "last_price": "$4.99",
+      "last_change_date": "2026-10-26",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-26",
+      "free_since": null,
+      "changes": {
+        "2026-10-26": "$4.99"
+      }
+    },
+    "514485964::Remove Ads - Lifetime": {
+      "app_id": "514485964",
+      "app_name": "Text Me - Phone Call + Texting",
+      "name": "Remove Ads - Lifetime",
+      "region": "us",
+      "first_date": "2026-10-26",
+      "first_price": "$8.99",
+      "last_date": "2026-10-26",
+      "last_price": "$8.99",
+      "last_change_date": "2026-10-26",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-26",
+      "free_since": null,
+      "changes": {
+        "2026-10-26": "$8.99"
+      }
+    },
+    "514485964::1000 TextMe Credits": {
+      "app_id": "514485964",
+      "app_name": "Text Me - Phone Call + Texting",
+      "name": "1000 TextMe Credits",
+      "region": "us",
+      "first_date": "2026-10-26",
+      "first_price": "$15.99",
+      "last_date": "2026-10-26",
+      "last_price": "$15.99",
+      "last_change_date": "2026-10-26",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-26",
+      "free_since": null,
+      "changes": {
+        "2026-10-26": "$15.99"
+      }
+    },
+    "514485964::Change number": {
+      "app_id": "514485964",
+      "app_name": "Text Me - Phone Call + Texting",
+      "name": "Change number",
+      "region": "us",
+      "first_date": "2026-10-26",
+      "first_price": "$1.99",
+      "last_date": "2026-10-26",
+      "last_price": "$1.99",
+      "last_change_date": "2026-10-26",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-26",
+      "free_since": null,
+      "changes": {
+        "2026-10-26": "$1.99"
+      }
+    },
+    "349160522::50 Zoosk Coins": {
+      "app_id": "349160522",
+      "app_name": "Zoosk - Social Dating App",
+      "name": "50 Zoosk Coins",
+      "region": "us",
+      "first_date": "2026-10-26",
+      "first_price": "$4.99",
+      "last_date": "2026-10-26",
+      "last_price": "$4.99",
+      "last_change_date": "2026-10-26",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-26",
+      "free_since": null,
+      "changes": {
+        "2026-10-26": "$4.99"
+      }
+    },
+    "349160522::250 Zoosk Coins": {
+      "app_id": "349160522",
+      "app_name": "Zoosk - Social Dating App",
+      "name": "250 Zoosk Coins",
+      "region": "us",
+      "first_date": "2026-10-26",
+      "first_price": "$19.99",
+      "last_date": "2026-10-26",
+      "last_price": "$19.99",
+      "last_change_date": "2026-10-26",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-26",
+      "free_since": null,
+      "changes": {
+        "2026-10-26": "$19.99"
+      }
+    },
+    "349160522::750 Zoosk Coins": {
+      "app_id": "349160522",
+      "app_name": "Zoosk - Social Dating App",
+      "name": "750 Zoosk Coins",
+      "region": "us",
+      "first_date": "2026-10-26",
+      "first_price": "$49.99",
+      "last_date": "2026-10-26",
+      "last_price": "$49.99",
+      "last_change_date": "2026-10-26",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-26",
+      "free_since": null,
+      "changes": {
+        "2026-10-26": "$49.99"
+      }
+    },
+    "349160522::50 Zoosk-Münzen": {
+      "app_id": "349160522",
+      "app_name": "Zoosk - Social Dating App",
+      "name": "50 Zoosk-Münzen",
+      "region": "us",
+      "first_date": "2026-10-26",
+      "first_price": "$5.99",
+      "last_date": "2026-10-26",
+      "last_price": "$5.99",
+      "last_change_date": "2026-10-26",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-26",
+      "free_since": null,
+      "changes": {
+        "2026-10-26": "$5.99"
+      }
+    },
+    "349160522::250 Zoosk-Münzen": {
+      "app_id": "349160522",
+      "app_name": "Zoosk - Social Dating App",
+      "name": "250 Zoosk-Münzen",
+      "region": "us",
+      "first_date": "2026-10-26",
+      "first_price": "$24.99",
+      "last_date": "2026-10-26",
+      "last_price": "$24.99",
+      "last_change_date": "2026-10-26",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-26",
+      "free_since": null,
+      "changes": {
+        "2026-10-26": "$24.99"
+      }
+    },
+    "349160522::750 Zoosk-Münzen": {
+      "app_id": "349160522",
+      "app_name": "Zoosk - Social Dating App",
+      "name": "750 Zoosk-Münzen",
+      "region": "us",
+      "first_date": "2026-10-26",
+      "first_price": "$64.99",
+      "last_date": "2026-10-26",
+      "last_price": "$64.99",
+      "last_change_date": "2026-10-26",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-26",
+      "free_since": null,
+      "changes": {
+        "2026-10-26": "$64.99"
+      }
+    },
+    "349160522::50 Zoosk-munten": {
+      "app_id": "349160522",
+      "app_name": "Zoosk - Social Dating App",
+      "name": "50 Zoosk-munten",
+      "region": "us",
+      "first_date": "2026-10-26",
+      "first_price": "$5.99",
+      "last_date": "2026-10-26",
+      "last_price": "$5.99",
+      "last_change_date": "2026-10-26",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-26",
+      "free_since": null,
+      "changes": {
+        "2026-10-26": "$5.99"
+      }
+    },
+    "349160522::250 Zoosk-munten": {
+      "app_id": "349160522",
+      "app_name": "Zoosk - Social Dating App",
+      "name": "250 Zoosk-munten",
+      "region": "us",
+      "first_date": "2026-10-26",
+      "first_price": "$24.99",
+      "last_date": "2026-10-26",
+      "last_price": "$24.99",
+      "last_change_date": "2026-10-26",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-26",
+      "free_since": null,
+      "changes": {
+        "2026-10-26": "$24.99"
+      }
+    },
+    "349160522::750 Zoosk-munten": {
+      "app_id": "349160522",
+      "app_name": "Zoosk - Social Dating App",
+      "name": "750 Zoosk-munten",
+      "region": "us",
+      "first_date": "2026-10-26",
+      "first_price": "$64.99",
+      "last_date": "2026-10-26",
+      "last_price": "$64.99",
+      "last_change_date": "2026-10-26",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-26",
+      "free_since": null,
+      "changes": {
+        "2026-10-26": "$64.99"
+      }
+    },
+    "389801252::subscription.prod_type.1": {
+      "app_id": "389801252",
+      "app_name": "Instagram",
+      "name": "subscription.prod_type.1",
+      "region": "us",
+      "first_date": "2026-10-26",
+      "first_price": "$0.49",
+      "last_date": "2026-10-26",
+      "last_price": "$0.49",
+      "last_change_date": "2026-10-26",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-26",
+      "free_since": null,
+      "changes": {
+        "2026-10-26": "$0.49"
+      }
+    },
+    "389801252::Instagram Subscriptions 9": {
+      "app_id": "389801252",
+      "app_name": "Instagram",
+      "name": "Instagram Subscriptions 9",
+      "region": "us",
+      "first_date": "2026-10-26",
+      "first_price": "$0.99",
+      "last_date": "2026-10-26",
+      "last_price": "$0.99",
+      "last_change_date": "2026-10-26",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-26",
+      "free_since": null,
+      "changes": {
+        "2026-10-26": "$0.99"
+      }
+    },
+    "389801252::Instagram Subscriptions 10": {
+      "app_id": "389801252",
+      "app_name": "Instagram",
+      "name": "Instagram Subscriptions 10",
+      "region": "us",
+      "first_date": "2026-10-26",
+      "first_price": "$1.99",
+      "last_date": "2026-10-26",
+      "last_price": "$1.99",
+      "last_change_date": "2026-10-26",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-26",
+      "free_since": null,
+      "changes": {
+        "2026-10-26": "$1.99"
+      }
+    },
+    "389801252::Instagram Subscriptions 11": {
+      "app_id": "389801252",
+      "app_name": "Instagram",
+      "name": "Instagram Subscriptions 11",
+      "region": "us",
+      "first_date": "2026-10-26",
+      "first_price": "$2.99",
+      "last_date": "2026-10-26",
+      "last_price": "$2.99",
+      "last_change_date": "2026-10-26",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-26",
+      "free_since": null,
+      "changes": {
+        "2026-10-26": "$2.99"
+      }
+    },
+    "6711356409::HeyGen Pro 1500 Credit Monthly": {
+      "app_id": "6711356409",
+      "app_name": "AI Avatar Generator - HeyGen",
+      "name": "HeyGen Pro 1500 Credit Monthly",
+      "region": "us",
+      "first_date": "2026-10-26",
+      "first_price": "$74.00",
+      "last_date": "2026-10-26",
+      "last_price": "$74.00",
+      "last_change_date": "2026-10-26",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-26",
+      "free_since": null,
+      "changes": {
+        "2026-10-26": "$74.00"
       }
     }
   }

@@ -4,8 +4,8 @@
     "version": 1,
     "updated": "2026-10-26",
     "pool_size": 2000,
-    "processed": 1996,
-    "skipped": 4,
+    "processed": 1998,
+    "skipped": 2,
     "seeded_from": "apprcn",
     "seed_added": 8,
     "seed_total": 7100,
@@ -1884,7 +1884,7 @@
       "first_date": "2026-10-22",
       "first_price": "¥60.00",
       "last_date": "2026-10-26",
-      "last_price": "¥59.00",
+      "last_price": "¥60.00",
       "last_change_date": "2026-10-26",
       "ever_paid": true,
       "last_paid_date": "2026-10-26",
@@ -1894,7 +1894,7 @@
         "2026-10-23": "¥60.00",
         "2026-10-24": "¥59.00",
         "2026-10-25": "¥59.00",
-        "2026-10-26": "¥59.00"
+        "2026-10-26": "¥60.00"
       }
     },
     "1527039353::供需集市会员（连续包月）": {
@@ -1905,15 +1905,16 @@
       "first_date": "2026-10-22",
       "first_price": "¥69.00",
       "last_date": "2026-10-26",
-      "last_price": "¥69.00",
-      "last_change_date": "2026-10-24",
+      "last_price": "¥59.00",
+      "last_change_date": "2026-10-26",
       "ever_paid": true,
-      "last_paid_date": "2026-10-24",
+      "last_paid_date": "2026-10-26",
       "free_since": null,
       "changes": {
         "2026-10-22": "¥69.00",
         "2026-10-23": "¥59.00",
-        "2026-10-24": "¥69.00"
+        "2026-10-24": "¥69.00",
+        "2026-10-26": "¥59.00"
       }
     },
     "1527039353::爱企查SVIP（连续包季）": {
@@ -8308,7 +8309,7 @@
       "first_date": "2026-10-22",
       "first_price": "¥193.00",
       "last_date": "2026-10-26",
-      "last_price": "¥63.00",
+      "last_price": "¥203.00",
       "last_change_date": "2026-10-26",
       "ever_paid": true,
       "last_paid_date": "2026-10-26",
@@ -8318,7 +8319,7 @@
         "2026-10-23": "¥398.00",
         "2026-10-24": "¥203.00",
         "2026-10-25": "¥203.00",
-        "2026-10-26": "¥63.00"
+        "2026-10-26": "¥203.00"
       }
     },
     "333710667::开销报告": {
@@ -8328,7 +8329,7 @@
       "region": "cn",
       "first_date": "2026-10-22",
       "first_price": "¥38.00",
-      "last_date": "2026-10-25",
+      "last_date": "2026-10-26",
       "last_price": "¥38.00",
       "last_change_date": "2026-10-22",
       "ever_paid": true,
@@ -12117,7 +12118,7 @@
       "region": "cn",
       "first_date": "2026-10-22",
       "first_price": "¥26.00",
-      "last_date": "2026-10-25",
+      "last_date": "2026-10-26",
       "last_price": "¥26.00",
       "last_change_date": "2026-10-22",
       "ever_paid": true,
@@ -12134,7 +12135,7 @@
       "region": "cn",
       "first_date": "2026-10-22",
       "first_price": "¥19.90",
-      "last_date": "2026-10-25",
+      "last_date": "2026-10-26",
       "last_price": "¥19.90",
       "last_change_date": "2026-10-22",
       "ever_paid": true,
@@ -12151,7 +12152,7 @@
       "region": "cn",
       "first_date": "2026-10-22",
       "first_price": "¥18.80",
-      "last_date": "2026-10-25",
+      "last_date": "2026-10-26",
       "last_price": "¥18.80",
       "last_change_date": "2026-10-22",
       "ever_paid": true,
@@ -12168,7 +12169,7 @@
       "region": "cn",
       "first_date": "2026-10-22",
       "first_price": "¥88.00",
-      "last_date": "2026-10-25",
+      "last_date": "2026-10-26",
       "last_price": "¥88.00",
       "last_change_date": "2026-10-22",
       "ever_paid": true,
@@ -12202,7 +12203,7 @@
       "region": "cn",
       "first_date": "2026-10-22",
       "first_price": "¥168.00",
-      "last_date": "2026-10-25",
+      "last_date": "2026-10-26",
       "last_price": "¥168.00",
       "last_change_date": "2026-10-22",
       "ever_paid": true,
@@ -27235,7 +27236,7 @@
       "first_date": "2026-10-23",
       "first_price": "¥30.00",
       "last_date": "2026-10-26",
-      "last_price": "¥29.00",
+      "last_price": "¥30.00",
       "last_change_date": "2026-10-26",
       "ever_paid": true,
       "last_paid_date": "2026-10-26",
@@ -27244,7 +27245,7 @@
         "2026-10-23": "¥29.00",
         "2026-10-24": "¥29.00",
         "2026-10-25": "¥29.00",
-        "2026-10-26": "¥29.00"
+        "2026-10-26": "¥30.00"
       }
     },
     "1578845134::蜜蜂试卷专属会员-连续包月": {
@@ -27271,7 +27272,7 @@
       "region": "cn",
       "first_date": "2026-10-23",
       "first_price": "¥268.00",
-      "last_date": "2026-10-23",
+      "last_date": "2026-10-26",
       "last_price": "¥268.00",
       "last_change_date": "2026-10-23",
       "ever_paid": true,
@@ -85641,14 +85642,15 @@
       "first_date": "2026-10-23",
       "first_price": "¥40.00",
       "last_date": "2026-10-26",
-      "last_price": "¥40.00",
-      "last_change_date": "2026-10-24",
+      "last_price": "¥30.00",
+      "last_change_date": "2026-10-26",
       "ever_paid": true,
-      "last_paid_date": "2026-10-24",
+      "last_paid_date": "2026-10-26",
       "free_since": null,
       "changes": {
         "2026-10-23": "¥30.00",
-        "2026-10-24": "¥40.00"
+        "2026-10-24": "¥40.00",
+        "2026-10-26": "¥30.00"
       }
     },
     "1503466530::白金会员连续包月": {
@@ -95023,7 +95025,7 @@
       "region": "cn",
       "first_date": "2026-10-23",
       "first_price": "¥99.00",
-      "last_date": "2026-10-23",
+      "last_date": "2026-10-26",
       "last_price": "¥99.00",
       "last_change_date": "2026-10-23",
       "ever_paid": true,
@@ -114526,7 +114528,7 @@
       "first_date": "2026-10-23",
       "first_price": "¥58.00",
       "last_date": "2026-10-26",
-      "last_price": "¥133.00",
+      "last_price": "¥148.00",
       "last_change_date": "2026-10-26",
       "ever_paid": true,
       "last_paid_date": "2026-10-26",
@@ -114535,7 +114537,7 @@
         "2026-10-23": "¥148.00",
         "2026-10-24": "¥148.00",
         "2026-10-25": "¥148.00",
-        "2026-10-26": "¥133.00"
+        "2026-10-26": "¥148.00"
       }
     },
     "1491200353::Famio Weekly Premium": {
@@ -114580,14 +114582,14 @@
       "first_date": "2026-10-23",
       "first_price": "¥38.00",
       "last_date": "2026-10-26",
-      "last_price": "¥68.00",
+      "last_price": "¥38.00",
       "last_change_date": "2026-10-26",
       "ever_paid": true,
       "last_paid_date": "2026-10-26",
       "free_since": null,
       "changes": {
         "2026-10-23": "¥38.00",
-        "2026-10-26": "¥68.00"
+        "2026-10-26": "¥38.00"
       }
     },
     "1491200353::Famio Lifetime Premium": {
@@ -114597,7 +114599,7 @@
       "region": "cn",
       "first_date": "2026-10-23",
       "first_price": "¥168.00",
-      "last_date": "2026-10-25",
+      "last_date": "2026-10-26",
       "last_price": "¥168.00",
       "last_change_date": "2026-10-23",
       "ever_paid": true,
@@ -114614,7 +114616,7 @@
       "region": "cn",
       "first_date": "2026-10-23",
       "first_price": "¥398.00",
-      "last_date": "2026-10-25",
+      "last_date": "2026-10-26",
       "last_price": "¥398.00",
       "last_change_date": "2026-10-23",
       "ever_paid": true,
@@ -116214,7 +116216,7 @@
       "region": "cn",
       "first_date": "2026-10-23",
       "first_price": "¥12.00",
-      "last_date": "2026-10-25",
+      "last_date": "2026-10-26",
       "last_price": "¥12.00",
       "last_change_date": "2026-10-23",
       "ever_paid": true,
@@ -122135,14 +122137,15 @@
       "first_date": "2026-10-25",
       "first_price": "—",
       "last_date": "2026-10-26",
-      "last_price": "¥0.00",
-      "last_change_date": "2026-10-25",
+      "last_price": "¥328.00",
+      "last_change_date": "2026-10-26",
       "ever_paid": true,
-      "last_paid_date": "2026-10-24",
-      "free_since": "2026-10-24",
+      "last_paid_date": "2026-10-26",
+      "free_since": null,
       "changes": {
         "2026-10-24": "—",
-        "2026-10-25": "¥0.00"
+        "2026-10-25": "¥0.00",
+        "2026-10-26": "¥328.00"
       },
       "source": "apprcn"
     },
@@ -123959,6 +123962,142 @@
       "free_since": null,
       "changes": {
         "2026-10-26": "¥63.00"
+      }
+    },
+    "6504617252::110积分": {
+      "app_id": "6504617252",
+      "app_name": "鱼泡直聘-找工作招聘求职招人软件",
+      "name": "110积分",
+      "region": "cn",
+      "first_date": "2026-10-26",
+      "first_price": "¥110.00",
+      "last_date": "2026-10-26",
+      "last_price": "¥110.00",
+      "last_change_date": "2026-10-26",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-26",
+      "free_since": null,
+      "changes": {
+        "2026-10-26": "¥110.00"
+      }
+    },
+    "6504617252::70积分": {
+      "app_id": "6504617252",
+      "app_name": "鱼泡直聘-找工作招聘求职招人软件",
+      "name": "70积分",
+      "region": "cn",
+      "first_date": "2026-10-26",
+      "first_price": "¥70.00",
+      "last_date": "2026-10-26",
+      "last_price": "¥70.00",
+      "last_change_date": "2026-10-26",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-26",
+      "free_since": null,
+      "changes": {
+        "2026-10-26": "¥70.00"
+      }
+    },
+    "6504617252::150积分": {
+      "app_id": "6504617252",
+      "app_name": "鱼泡直聘-找工作招聘求职招人软件",
+      "name": "150积分",
+      "region": "cn",
+      "first_date": "2026-10-26",
+      "first_price": "¥150.00",
+      "last_date": "2026-10-26",
+      "last_price": "¥150.00",
+      "last_change_date": "2026-10-26",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-26",
+      "free_since": null,
+      "changes": {
+        "2026-10-26": "¥150.00"
+      }
+    },
+    "6504617252::200积分": {
+      "app_id": "6504617252",
+      "app_name": "鱼泡直聘-找工作招聘求职招人软件",
+      "name": "200积分",
+      "region": "cn",
+      "first_date": "2026-10-26",
+      "first_price": "¥200.00",
+      "last_date": "2026-10-26",
+      "last_price": "¥200.00",
+      "last_change_date": "2026-10-26",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-26",
+      "free_since": null,
+      "changes": {
+        "2026-10-26": "¥200.00"
+      }
+    },
+    "6504617252::240积分": {
+      "app_id": "6504617252",
+      "app_name": "鱼泡直聘-找工作招聘求职招人软件",
+      "name": "240积分",
+      "region": "cn",
+      "first_date": "2026-10-26",
+      "first_price": "¥240.00",
+      "last_date": "2026-10-26",
+      "last_price": "¥240.00",
+      "last_change_date": "2026-10-26",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-26",
+      "free_since": null,
+      "changes": {
+        "2026-10-26": "¥240.00"
+      }
+    },
+    "6504617252::300积分": {
+      "app_id": "6504617252",
+      "app_name": "鱼泡直聘-找工作招聘求职招人软件",
+      "name": "300积分",
+      "region": "cn",
+      "first_date": "2026-10-26",
+      "first_price": "¥300.00",
+      "last_date": "2026-10-26",
+      "last_price": "¥300.00",
+      "last_change_date": "2026-10-26",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-26",
+      "free_since": null,
+      "changes": {
+        "2026-10-26": "¥300.00"
+      }
+    },
+    "6504617252::500积分": {
+      "app_id": "6504617252",
+      "app_name": "鱼泡直聘-找工作招聘求职招人软件",
+      "name": "500积分",
+      "region": "cn",
+      "first_date": "2026-10-26",
+      "first_price": "¥500.00",
+      "last_date": "2026-10-26",
+      "last_price": "¥500.00",
+      "last_change_date": "2026-10-26",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-26",
+      "free_since": null,
+      "changes": {
+        "2026-10-26": "¥500.00"
+      }
+    },
+    "1370780836::18个月腾讯文档礼包": {
+      "app_id": "1370780836",
+      "app_name": "腾讯文档",
+      "name": "18个月腾讯文档礼包",
+      "region": "cn",
+      "first_date": "2026-10-26",
+      "first_price": "¥188.00",
+      "last_date": "2026-10-26",
+      "last_price": "¥188.00",
+      "last_change_date": "2026-10-26",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-26",
+      "free_since": null,
+      "changes": {
+        "2026-10-26": "¥188.00"
       }
     }
   }

@@ -1,7 +1,7 @@
 {
   "updated": "2026-10-26",
   "region": "cn",
-  "count": 8,
+  "count": 7,
   "events": [
     {
       "app_id": "364859644",
@@ -34,22 +34,6 @@
       "dev": "华芳 张",
       "genre": "摄影与录像",
       "page": "app/cn-957061844.html"
-    },
-    {
-      "app_id": "6754824912",
-      "app_name": "电影下载器：看电影 - FreePlay",
-      "iap": "终身高级版：电影与电视",
-      "price": "¥0.00",
-      "free_since": "2026-10-24",
-      "days_free": 2,
-      "last_paid_date": "2026-10-24",
-      "last_paid_price": "—",
-      "url": "https://apps.apple.com/cn/app/%E7%94%B5%E5%BD%B1%E4%B8%8B%E8%BD%BD%E5%99%A8-%E7%9C%8B%E7%94%B5%E5%BD%B1-freeplay/id6754824912?uo=4",
-      "rating": 5,
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/66/99/e5/6699e525-70a5-b60d-462d-affdb06777a3/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
-      "dev": "Aktis Inc",
-      "genre": "娱乐",
-      "page": "app/cn-6754824912.html"
     },
     {
       "app_id": "6768885559",
@@ -93,7 +77,7 @@
       "last_paid_date": "2026-10-22",
       "last_paid_price": "—",
       "url": "https://apps.apple.com/cn/app/aura-%E7%BC%93%E8%A7%A3%E7%84%A6%E8%99%91-%E5%86%A5%E6%83%B3-%E7%9D%A1%E7%9C%A0/id6776121093?uo=4",
-      "rating": 4.92307,
+      "rating": 4.92856,
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/dc/4f/07/dc4f07f5-1232-38f9-e426-5e6da7b10b6e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
       "dev": "Jon Johnson",
       "genre": "健康健美",
