@@ -1,80 +1,8 @@
 {
   "updated": "2026-10-25",
   "region": "us",
-  "count": 50,
+  "count": 51,
   "items": [
-    {
-      "app_id": "6756910810",
-      "app_name": "iLinkbox",
-      "iap": "Pro Member - Lifetime",
-      "price": "$0.00",
-      "permanent_free": false,
-      "since": "2026-10-22"
-    },
-    {
-      "app_id": "6741730996",
-      "app_name": "手机测速-网络测速·测网速speedtest",
-      "iap": "PRO lifetime",
-      "price": "$0.00",
-      "permanent_free": false,
-      "since": "2026-10-22"
-    },
-    {
-      "app_id": "6779493280",
-      "app_name": "删图 OnePhoto",
-      "iap": "Supporter",
-      "price": "$0.00",
-      "permanent_free": false,
-      "since": "2026-10-22"
-    },
-    {
-      "app_id": "6748983354",
-      "app_name": "闹钟 .",
-      "iap": "Lifetime Premium",
-      "price": "$0.00",
-      "permanent_free": false,
-      "since": "2026-10-22"
-    },
-    {
-      "app_id": "1622262960",
-      "app_name": "Chill：自我关怀庇护所",
-      "iap": "Lifetime Subscription",
-      "price": "$0.00",
-      "permanent_free": false,
-      "since": "2026-10-22"
-    },
-    {
-      "app_id": "6760588830",
-      "app_name": "奶茶日记: AI 贴纸&糖分追踪",
-      "iap": "MilkTeaLover Pro Lifetime",
-      "price": "$0.00",
-      "permanent_free": false,
-      "since": "2026-10-22"
-    },
-    {
-      "app_id": "6820137866",
-      "app_name": "成语闯关 - 边玩边学，轻松掌握成语",
-      "iap": "永久 VIP",
-      "price": "$0.00",
-      "permanent_free": false,
-      "since": "2026-10-22"
-    },
-    {
-      "app_id": "6772943882",
-      "app_name": "OgdenSpine",
-      "iap": "Life Time Pro",
-      "price": "$0.00",
-      "permanent_free": false,
-      "since": "2026-10-22"
-    },
-    {
-      "app_id": "6781948787",
-      "app_name": "Leafora: 植物识别与养护",
-      "iap": "Premium Lifetime",
-      "price": "$0.00",
-      "permanent_free": false,
-      "since": "2026-10-22"
-    },
     {
       "app_id": "300048137",
       "app_name": "AccuWeather: Weather Forecast",
@@ -399,6 +327,86 @@
       "app_id": "588013838",
       "app_name": "VSCO: Photo & Video Editor",
       "iap": "We the Creators",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-25"
+    },
+    {
+      "app_id": "957061844",
+      "app_name": "Night Camera: Low Light FX Cam",
+      "iap": "Night Camera Pro",
+      "price": "$0.00",
+      "permanent_free": false,
+      "since": "2026-10-25"
+    },
+    {
+      "app_id": "6754824912",
+      "app_name": "电影下载器：看电影 - FreePlay",
+      "iap": "Lifetime Premium - Movies & TV",
+      "price": "$0.00",
+      "permanent_free": false,
+      "since": "2026-10-25"
+    },
+    {
+      "app_id": "6821278362",
+      "app_name": "StorageGo：手机存储空间清理工具",
+      "iap": "StorageGo Pro Lifetime",
+      "price": "$0.00",
+      "permanent_free": false,
+      "since": "2026-10-25"
+    },
+    {
+      "app_id": "6816968488",
+      "app_name": "Ocre: 照片转油画",
+      "iap": "Ocre Pro Lifetime",
+      "price": "$0.00",
+      "permanent_free": false,
+      "since": "2026-10-25"
+    },
+    {
+      "app_id": "6748519522",
+      "app_name": "时间荚:正计时番茄钟·种植物·专注·自律·目标·习惯·冥想",
+      "iap": "TimeGrow: Pomodoro Timer Focus",
+      "price": "免费",
+      "permanent_free": false,
+      "since": "2026-10-25"
+    },
+    {
+      "app_id": "6756910810",
+      "app_name": "iLinkbox",
+      "iap": "Pro Member - Lifetime",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-25"
+    },
+    {
+      "app_id": "6779493280",
+      "app_name": "OnePhoto: Photo Cleaner",
+      "iap": "Supporter",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-25"
+    },
+    {
+      "app_id": "6748983354",
+      "app_name": "Alarm Clock",
+      "iap": "Lifetime Premium",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-25"
+    },
+    {
+      "app_id": "6820137866",
+      "app_name": "成语闯关 - 边玩边学，轻松掌握成语",
+      "iap": "永久 VIP",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-25"
+    },
+    {
+      "app_id": "6772943882",
+      "app_name": "OgdenSpine",
+      "iap": "Life Time Pro",
       "price": "$0.00",
       "permanent_free": true,
       "since": "2026-10-25"
