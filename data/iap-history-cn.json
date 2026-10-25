@@ -4,8 +4,8 @@
     "version": 1,
     "updated": "2026-10-25",
     "pool_size": 2000,
-    "processed": 1996,
-    "skipped": 4,
+    "processed": 1998,
+    "skipped": 2,
     "seeded_from": "apprcn",
     "seed_added": 9,
     "seed_total": 846
@@ -14658,7 +14658,7 @@
       "region": "cn",
       "first_date": "2026-10-23",
       "first_price": "¥188.00",
-      "last_date": "2026-10-24",
+      "last_date": "2026-10-25",
       "last_price": "¥188.00",
       "last_change_date": "2026-10-23",
       "ever_paid": true,
@@ -31464,7 +31464,7 @@
       "first_date": "2026-10-23",
       "first_price": "¥48.00",
       "last_date": "2026-10-25",
-      "last_price": "¥38.00",
+      "last_price": "¥64.00",
       "last_change_date": "2026-10-25",
       "ever_paid": true,
       "last_paid_date": "2026-10-25",
@@ -31472,7 +31472,7 @@
       "changes": {
         "2026-10-23": "¥38.00",
         "2026-10-24": "¥38.00",
-        "2026-10-25": "¥38.00"
+        "2026-10-25": "¥64.00"
       }
     },
     "6740725474::终身会员": {
@@ -45498,7 +45498,7 @@
       "first_date": "2026-10-23",
       "first_price": "¥10.00",
       "last_date": "2026-10-25",
-      "last_price": "¥898.00",
+      "last_price": "¥300.00",
       "last_change_date": "2026-10-25",
       "ever_paid": true,
       "last_paid_date": "2026-10-25",
@@ -45506,7 +45506,7 @@
       "changes": {
         "2026-10-23": "¥60.00",
         "2026-10-24": "¥300.00",
-        "2026-10-25": "¥898.00"
+        "2026-10-25": "¥300.00"
       }
     },
     "983114342::88元＝58鱼": {
@@ -72189,7 +72189,7 @@
       "region": "cn",
       "first_date": "2026-10-23",
       "first_price": "¥188.00",
-      "last_date": "2026-10-23",
+      "last_date": "2026-10-25",
       "last_price": "¥188.00",
       "last_change_date": "2026-10-23",
       "ever_paid": true,
@@ -86201,7 +86201,7 @@
       "first_date": "2026-10-23",
       "first_price": "¥118.00",
       "last_date": "2026-10-25",
-      "last_price": "¥118.00",
+      "last_price": "¥98.00",
       "last_change_date": "2026-10-25",
       "ever_paid": true,
       "last_paid_date": "2026-10-25",
@@ -86209,7 +86209,7 @@
       "changes": {
         "2026-10-23": "¥98.00",
         "2026-10-24": "¥98.00",
-        "2026-10-25": "¥118.00"
+        "2026-10-25": "¥98.00"
       }
     },
     "6450447757::【夸克扫描会员-连续包月】": {
@@ -103347,7 +103347,7 @@
       "first_date": "2026-10-23",
       "first_price": "¥188.00",
       "last_date": "2026-10-25",
-      "last_price": "¥188.00",
+      "last_price": "¥198.00",
       "last_change_date": "2026-10-25",
       "ever_paid": true,
       "last_paid_date": "2026-10-25",
@@ -103355,7 +103355,7 @@
       "changes": {
         "2026-10-23": "¥198.00",
         "2026-10-24": "¥198.00",
-        "2026-10-25": "¥188.00"
+        "2026-10-25": "¥198.00"
       }
     },
     "1470373330::Remini Pro Weekly": {
@@ -109428,7 +109428,7 @@
       "first_date": "2026-10-23",
       "first_price": "¥18.00",
       "last_date": "2026-10-25",
-      "last_price": "¥18.00",
+      "last_price": "¥32.00",
       "last_change_date": "2026-10-25",
       "ever_paid": true,
       "last_paid_date": "2026-10-25",
@@ -109436,7 +109436,7 @@
       "changes": {
         "2026-10-23": "¥32.00",
         "2026-10-24": "¥32.00",
-        "2026-10-25": "¥18.00"
+        "2026-10-25": "¥32.00"
       }
     },
     "646277024::包月会员": {
@@ -118939,7 +118939,7 @@
       "region": "cn",
       "first_date": "2026-10-24",
       "first_price": "¥46.80",
-      "last_date": "2026-10-24",
+      "last_date": "2026-10-25",
       "last_price": "¥46.80",
       "last_change_date": "2026-10-24",
       "ever_paid": true,
@@ -120800,6 +120800,159 @@
       "free_since": null,
       "changes": {
         "2026-10-25": "¥8.00"
+      }
+    },
+    "983114342::448元＝299鱼": {
+      "app_id": "983114342",
+      "app_name": "竞彩猫",
+      "name": "448元＝299鱼",
+      "region": "cn",
+      "first_date": "2026-10-25",
+      "first_price": "¥448.00",
+      "last_date": "2026-10-25",
+      "last_price": "¥448.00",
+      "last_change_date": "2026-10-25",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-25",
+      "free_since": null,
+      "changes": {
+        "2026-10-25": "¥448.00"
+      }
+    },
+    "1392166974::年度会员非订阅套餐": {
+      "app_id": "1392166974",
+      "app_name": "指尖时光-日程计划&日历记事&目标打卡",
+      "name": "年度会员非订阅套餐",
+      "region": "cn",
+      "first_date": "2026-10-25",
+      "first_price": "¥98.00",
+      "last_date": "2026-10-25",
+      "last_price": "¥98.00",
+      "last_change_date": "2026-10-25",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-25",
+      "free_since": null,
+      "changes": {
+        "2026-10-25": "¥98.00"
+      }
+    },
+    "1392166974::月度会员无自动续订套餐": {
+      "app_id": "1392166974",
+      "app_name": "指尖时光-日程计划&日历记事&目标打卡",
+      "name": "月度会员无自动续订套餐",
+      "region": "cn",
+      "first_date": "2026-10-25",
+      "first_price": "¥15.00",
+      "last_date": "2026-10-25",
+      "last_price": "¥15.00",
+      "last_change_date": "2026-10-25",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-25",
+      "free_since": null,
+      "changes": {
+        "2026-10-25": "¥15.00"
+      }
+    },
+    "1392166974::2年VIP会员权益": {
+      "app_id": "1392166974",
+      "app_name": "指尖时光-日程计划&日历记事&目标打卡",
+      "name": "2年VIP会员权益",
+      "region": "cn",
+      "first_date": "2026-10-25",
+      "first_price": "¥98.00",
+      "last_date": "2026-10-25",
+      "last_price": "¥98.00",
+      "last_change_date": "2026-10-25",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-25",
+      "free_since": null,
+      "changes": {
+        "2026-10-25": "¥98.00"
+      }
+    },
+    "432850619::Essential Strings": {
+      "app_id": "432850619",
+      "app_name": "FL Studio Mobile",
+      "name": "Essential Strings",
+      "region": "cn",
+      "first_date": "2026-10-25",
+      "first_price": "¥15.00",
+      "last_date": "2026-10-25",
+      "last_price": "¥15.00",
+      "last_change_date": "2026-10-25",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-25",
+      "free_since": null,
+      "changes": {
+        "2026-10-25": "¥15.00"
+      }
+    },
+    "1055636344::Small Tip": {
+      "app_id": "1055636344",
+      "app_name": "AUM - Audio Mixer",
+      "name": "Small Tip",
+      "region": "cn",
+      "first_date": "2026-10-25",
+      "first_price": "¥8.00",
+      "last_date": "2026-10-25",
+      "last_price": "¥8.00",
+      "last_change_date": "2026-10-25",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-25",
+      "free_since": null,
+      "changes": {
+        "2026-10-25": "¥8.00"
+      }
+    },
+    "1055636344::Huge Tip": {
+      "app_id": "1055636344",
+      "app_name": "AUM - Audio Mixer",
+      "name": "Huge Tip",
+      "region": "cn",
+      "first_date": "2026-10-25",
+      "first_price": "¥68.00",
+      "last_date": "2026-10-25",
+      "last_price": "¥68.00",
+      "last_change_date": "2026-10-25",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-25",
+      "free_since": null,
+      "changes": {
+        "2026-10-25": "¥68.00"
+      }
+    },
+    "1055636344::Medium Tip": {
+      "app_id": "1055636344",
+      "app_name": "AUM - Audio Mixer",
+      "name": "Medium Tip",
+      "region": "cn",
+      "first_date": "2026-10-25",
+      "first_price": "¥15.00",
+      "last_date": "2026-10-25",
+      "last_price": "¥15.00",
+      "last_change_date": "2026-10-25",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-25",
+      "free_since": null,
+      "changes": {
+        "2026-10-25": "¥15.00"
+      }
+    },
+    "1055636344::Large Tip": {
+      "app_id": "1055636344",
+      "app_name": "AUM - Audio Mixer",
+      "name": "Large Tip",
+      "region": "cn",
+      "first_date": "2026-10-25",
+      "first_price": "¥38.00",
+      "last_date": "2026-10-25",
+      "last_price": "¥38.00",
+      "last_change_date": "2026-10-25",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-25",
+      "free_since": null,
+      "changes": {
+        "2026-10-25": "¥38.00"
       }
     }
   }

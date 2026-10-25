@@ -1,7 +1,7 @@
 {
   "date": "2026-10-25",
   "country": "us",
-  "generated_at": "2026-10-25T05:49:06Z",
+  "generated_at": "2026-10-25T12:38:42Z",
   "freebies": [
     {
       "id": "6814895663",
@@ -11,7 +11,7 @@
       "normal": "$8.00",
       "current": "Free",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3e/11/ea/3e11ea4f-7f0a-01fc-90b8-65597fcb331f/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-      "rating": 4.61111,
+      "rating": 4.63157,
       "url": "https://apps.apple.com/us/app/bash-multiplayer-party/id6814895663?uo=4",
       "region": "us",
       "type": "free",
@@ -51,6 +51,16 @@
         }
       ],
       "rel": [
+        {
+          "id": "6798535320",
+          "name": "Line Distribution",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/a9/42/79a94210-9310-4a1b-3d93-20179e9bd1dd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Entertainment",
+          "type": "deal",
+          "page": "app/us-6798535320.html",
+          "rating": 3.75,
+          "region": "us"
+        },
         {
           "id": "6757513032",
           "name": "AiGoodbye",
@@ -218,16 +228,6 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-6755447020.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "6793998839",
-          "name": "MedMini - USMLE Medical Games",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b8/cd/60/b8cd6036-6b4b-c0d1-5c2f-6602a45cf40a/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Education",
-          "type": "free",
-          "page": "app/us-6793998839.html",
           "rating": 5,
           "region": "us"
         }
@@ -294,7 +294,17 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-6814895663.html",
-          "rating": 4.61111,
+          "rating": 4.63157,
+          "region": "us"
+        },
+        {
+          "id": "6798535320",
+          "name": "Line Distribution",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/a9/42/79a94210-9310-4a1b-3d93-20179e9bd1dd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Entertainment",
+          "type": "deal",
+          "page": "app/us-6798535320.html",
+          "rating": 3.75,
           "region": "us"
         },
         {
@@ -456,16 +466,6 @@
           "page": "app/us-6755447020.html",
           "rating": 5,
           "region": "us"
-        },
-        {
-          "id": "6793998839",
-          "name": "MedMini - USMLE Medical Games",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b8/cd/60/b8cd6036-6b4b-c0d1-5c2f-6602a45cf40a/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Education",
-          "type": "free",
-          "page": "app/us-6793998839.html",
-          "rating": 5,
-          "region": "us"
         }
       ],
       "page": "app/us-6757513032.html"
@@ -530,7 +530,17 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-6814895663.html",
-          "rating": 4.61111,
+          "rating": 4.63157,
+          "region": "us"
+        },
+        {
+          "id": "6798535320",
+          "name": "Line Distribution",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/a9/42/79a94210-9310-4a1b-3d93-20179e9bd1dd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Entertainment",
+          "type": "deal",
+          "page": "app/us-6798535320.html",
+          "rating": 3.75,
           "region": "us"
         },
         {
@@ -690,16 +700,6 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-6755447020.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "6793998839",
-          "name": "MedMini - USMLE Medical Games",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b8/cd/60/b8cd6036-6b4b-c0d1-5c2f-6602a45cf40a/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Education",
-          "type": "free",
-          "page": "app/us-6793998839.html",
           "rating": 5,
           "region": "us"
         }
@@ -766,7 +766,17 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-6814895663.html",
-          "rating": 4.61111,
+          "rating": 4.63157,
+          "region": "us"
+        },
+        {
+          "id": "6798535320",
+          "name": "Line Distribution",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/a9/42/79a94210-9310-4a1b-3d93-20179e9bd1dd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Entertainment",
+          "type": "deal",
+          "page": "app/us-6798535320.html",
+          "rating": 3.75,
           "region": "us"
         },
         {
@@ -928,16 +938,6 @@
           "page": "app/us-6755447020.html",
           "rating": 5,
           "region": "us"
-        },
-        {
-          "id": "6793998839",
-          "name": "MedMini - USMLE Medical Games",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b8/cd/60/b8cd6036-6b4b-c0d1-5c2f-6602a45cf40a/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Education",
-          "type": "free",
-          "page": "app/us-6793998839.html",
-          "rating": 5,
-          "region": "us"
         }
       ],
       "page": "app/us-6794880428.html"
@@ -1002,7 +1002,17 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-6814895663.html",
-          "rating": 4.61111,
+          "rating": 4.63157,
+          "region": "us"
+        },
+        {
+          "id": "6798535320",
+          "name": "Line Distribution",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/a9/42/79a94210-9310-4a1b-3d93-20179e9bd1dd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Entertainment",
+          "type": "deal",
+          "page": "app/us-6798535320.html",
+          "rating": 3.75,
           "region": "us"
         },
         {
@@ -1162,16 +1172,6 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-6755447020.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "6793998839",
-          "name": "MedMini - USMLE Medical Games",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b8/cd/60/b8cd6036-6b4b-c0d1-5c2f-6602a45cf40a/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Education",
-          "type": "free",
-          "page": "app/us-6793998839.html",
           "rating": 5,
           "region": "us"
         }
@@ -1238,7 +1238,17 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-6814895663.html",
-          "rating": 4.61111,
+          "rating": 4.63157,
+          "region": "us"
+        },
+        {
+          "id": "6798535320",
+          "name": "Line Distribution",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/a9/42/79a94210-9310-4a1b-3d93-20179e9bd1dd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Entertainment",
+          "type": "deal",
+          "page": "app/us-6798535320.html",
+          "rating": 3.75,
           "region": "us"
         },
         {
@@ -1400,16 +1410,6 @@
           "page": "app/us-6755447020.html",
           "rating": 5,
           "region": "us"
-        },
-        {
-          "id": "6793998839",
-          "name": "MedMini - USMLE Medical Games",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b8/cd/60/b8cd6036-6b4b-c0d1-5c2f-6602a45cf40a/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Education",
-          "type": "free",
-          "page": "app/us-6793998839.html",
-          "rating": 5,
-          "region": "us"
         }
       ],
       "page": "app/us-6757181256.html"
@@ -1469,7 +1469,17 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-6814895663.html",
-          "rating": 4.61111,
+          "rating": 4.63157,
+          "region": "us"
+        },
+        {
+          "id": "6798535320",
+          "name": "Line Distribution",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/a9/42/79a94210-9310-4a1b-3d93-20179e9bd1dd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Entertainment",
+          "type": "deal",
+          "page": "app/us-6798535320.html",
+          "rating": 3.75,
           "region": "us"
         },
         {
@@ -1629,16 +1639,6 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-6755447020.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "6793998839",
-          "name": "MedMini - USMLE Medical Games",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b8/cd/60/b8cd6036-6b4b-c0d1-5c2f-6602a45cf40a/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Education",
-          "type": "free",
-          "page": "app/us-6793998839.html",
           "rating": 5,
           "region": "us"
         }
@@ -1705,7 +1705,17 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-6814895663.html",
-          "rating": 4.61111,
+          "rating": 4.63157,
+          "region": "us"
+        },
+        {
+          "id": "6798535320",
+          "name": "Line Distribution",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/a9/42/79a94210-9310-4a1b-3d93-20179e9bd1dd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Entertainment",
+          "type": "deal",
+          "page": "app/us-6798535320.html",
+          "rating": 3.75,
           "region": "us"
         },
         {
@@ -1865,16 +1875,6 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-6755447020.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "6793998839",
-          "name": "MedMini - USMLE Medical Games",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b8/cd/60/b8cd6036-6b4b-c0d1-5c2f-6602a45cf40a/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Education",
-          "type": "free",
-          "page": "app/us-6793998839.html",
           "rating": 5,
           "region": "us"
         }
@@ -1941,7 +1941,17 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-6814895663.html",
-          "rating": 4.61111,
+          "rating": 4.63157,
+          "region": "us"
+        },
+        {
+          "id": "6798535320",
+          "name": "Line Distribution",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/a9/42/79a94210-9310-4a1b-3d93-20179e9bd1dd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Entertainment",
+          "type": "deal",
+          "page": "app/us-6798535320.html",
+          "rating": 3.75,
           "region": "us"
         },
         {
@@ -2103,16 +2113,6 @@
           "page": "app/us-6755447020.html",
           "rating": 5,
           "region": "us"
-        },
-        {
-          "id": "6793998839",
-          "name": "MedMini - USMLE Medical Games",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b8/cd/60/b8cd6036-6b4b-c0d1-5c2f-6602a45cf40a/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Education",
-          "type": "free",
-          "page": "app/us-6793998839.html",
-          "rating": 5,
-          "region": "us"
         }
       ],
       "page": "app/us-6760746571.html"
@@ -2162,7 +2162,17 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-6814895663.html",
-          "rating": 4.61111,
+          "rating": 4.63157,
+          "region": "us"
+        },
+        {
+          "id": "6798535320",
+          "name": "Line Distribution",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/a9/42/79a94210-9310-4a1b-3d93-20179e9bd1dd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Entertainment",
+          "type": "deal",
+          "page": "app/us-6798535320.html",
+          "rating": 3.75,
           "region": "us"
         },
         {
@@ -2322,16 +2332,6 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-6755447020.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "6793998839",
-          "name": "MedMini - USMLE Medical Games",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b8/cd/60/b8cd6036-6b4b-c0d1-5c2f-6602a45cf40a/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Education",
-          "type": "free",
-          "page": "app/us-6793998839.html",
           "rating": 5,
           "region": "us"
         }
@@ -2398,7 +2398,17 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-6814895663.html",
-          "rating": 4.61111,
+          "rating": 4.63157,
+          "region": "us"
+        },
+        {
+          "id": "6798535320",
+          "name": "Line Distribution",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/a9/42/79a94210-9310-4a1b-3d93-20179e9bd1dd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Entertainment",
+          "type": "deal",
+          "page": "app/us-6798535320.html",
+          "rating": 3.75,
           "region": "us"
         },
         {
@@ -2560,16 +2570,6 @@
           "page": "app/us-6755447020.html",
           "rating": 5,
           "region": "us"
-        },
-        {
-          "id": "6793998839",
-          "name": "MedMini - USMLE Medical Games",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b8/cd/60/b8cd6036-6b4b-c0d1-5c2f-6602a45cf40a/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Education",
-          "type": "free",
-          "page": "app/us-6793998839.html",
-          "rating": 5,
-          "region": "us"
         }
       ],
       "page": "app/us-6809958215.html"
@@ -2619,7 +2619,17 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-6814895663.html",
-          "rating": 4.61111,
+          "rating": 4.63157,
+          "region": "us"
+        },
+        {
+          "id": "6798535320",
+          "name": "Line Distribution",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/a9/42/79a94210-9310-4a1b-3d93-20179e9bd1dd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Entertainment",
+          "type": "deal",
+          "page": "app/us-6798535320.html",
+          "rating": 3.75,
           "region": "us"
         },
         {
@@ -2779,16 +2789,6 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-6755447020.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "6793998839",
-          "name": "MedMini - USMLE Medical Games",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b8/cd/60/b8cd6036-6b4b-c0d1-5c2f-6602a45cf40a/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Education",
-          "type": "free",
-          "page": "app/us-6793998839.html",
           "rating": 5,
           "region": "us"
         }
@@ -2855,7 +2855,17 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-6814895663.html",
-          "rating": 4.61111,
+          "rating": 4.63157,
+          "region": "us"
+        },
+        {
+          "id": "6798535320",
+          "name": "Line Distribution",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/a9/42/79a94210-9310-4a1b-3d93-20179e9bd1dd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Entertainment",
+          "type": "deal",
+          "page": "app/us-6798535320.html",
+          "rating": 3.75,
           "region": "us"
         },
         {
@@ -3015,16 +3025,6 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-6755447020.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "6793998839",
-          "name": "MedMini - USMLE Medical Games",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b8/cd/60/b8cd6036-6b4b-c0d1-5c2f-6602a45cf40a/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Education",
-          "type": "free",
-          "page": "app/us-6793998839.html",
           "rating": 5,
           "region": "us"
         }
@@ -3091,7 +3091,17 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-6814895663.html",
-          "rating": 4.61111,
+          "rating": 4.63157,
+          "region": "us"
+        },
+        {
+          "id": "6798535320",
+          "name": "Line Distribution",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/a9/42/79a94210-9310-4a1b-3d93-20179e9bd1dd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Entertainment",
+          "type": "deal",
+          "page": "app/us-6798535320.html",
+          "rating": 3.75,
           "region": "us"
         },
         {
@@ -3251,16 +3261,6 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-6755447020.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "6793998839",
-          "name": "MedMini - USMLE Medical Games",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b8/cd/60/b8cd6036-6b4b-c0d1-5c2f-6602a45cf40a/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Education",
-          "type": "free",
-          "page": "app/us-6793998839.html",
           "rating": 5,
           "region": "us"
         }
@@ -3327,7 +3327,17 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-6814895663.html",
-          "rating": 4.61111,
+          "rating": 4.63157,
+          "region": "us"
+        },
+        {
+          "id": "6798535320",
+          "name": "Line Distribution",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/a9/42/79a94210-9310-4a1b-3d93-20179e9bd1dd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Entertainment",
+          "type": "deal",
+          "page": "app/us-6798535320.html",
+          "rating": 3.75,
           "region": "us"
         },
         {
@@ -3487,16 +3497,6 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-6755447020.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "6793998839",
-          "name": "MedMini - USMLE Medical Games",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b8/cd/60/b8cd6036-6b4b-c0d1-5c2f-6602a45cf40a/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Education",
-          "type": "free",
-          "page": "app/us-6793998839.html",
           "rating": 5,
           "region": "us"
         }
@@ -3563,7 +3563,17 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-6814895663.html",
-          "rating": 4.61111,
+          "rating": 4.63157,
+          "region": "us"
+        },
+        {
+          "id": "6798535320",
+          "name": "Line Distribution",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/a9/42/79a94210-9310-4a1b-3d93-20179e9bd1dd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Entertainment",
+          "type": "deal",
+          "page": "app/us-6798535320.html",
+          "rating": 3.75,
           "region": "us"
         },
         {
@@ -3723,16 +3733,6 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-6755447020.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "6793998839",
-          "name": "MedMini - USMLE Medical Games",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b8/cd/60/b8cd6036-6b4b-c0d1-5c2f-6602a45cf40a/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Education",
-          "type": "free",
-          "page": "app/us-6793998839.html",
           "rating": 5,
           "region": "us"
         }
@@ -3794,7 +3794,17 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-6814895663.html",
-          "rating": 4.61111,
+          "rating": 4.63157,
+          "region": "us"
+        },
+        {
+          "id": "6798535320",
+          "name": "Line Distribution",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/a9/42/79a94210-9310-4a1b-3d93-20179e9bd1dd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Entertainment",
+          "type": "deal",
+          "page": "app/us-6798535320.html",
+          "rating": 3.75,
           "region": "us"
         },
         {
@@ -3954,16 +3964,6 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-1059257184.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "6793998839",
-          "name": "MedMini - USMLE Medical Games",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b8/cd/60/b8cd6036-6b4b-c0d1-5c2f-6602a45cf40a/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Education",
-          "type": "free",
-          "page": "app/us-6793998839.html",
           "rating": 5,
           "region": "us"
         }
@@ -4025,7 +4025,17 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-6814895663.html",
-          "rating": 4.61111,
+          "rating": 4.63157,
+          "region": "us"
+        },
+        {
+          "id": "6798535320",
+          "name": "Line Distribution",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/a9/42/79a94210-9310-4a1b-3d93-20179e9bd1dd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Entertainment",
+          "type": "deal",
+          "page": "app/us-6798535320.html",
+          "rating": 3.75,
           "region": "us"
         },
         {
@@ -4185,16 +4195,6 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-1059257184.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "6755447020",
-          "name": "Mahjong Calculator (American)",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e8/a5/d7/e8a5d775-3788-4cb4-43b4-43edaf01cb75/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Games",
-          "type": "free",
-          "page": "app/us-6755447020.html",
           "rating": 5,
           "region": "us"
         }
@@ -4261,7 +4261,17 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-6814895663.html",
-          "rating": 4.61111,
+          "rating": 4.63157,
+          "region": "us"
+        },
+        {
+          "id": "6798535320",
+          "name": "Line Distribution",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/a9/42/79a94210-9310-4a1b-3d93-20179e9bd1dd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Entertainment",
+          "type": "deal",
+          "page": "app/us-6798535320.html",
+          "rating": 3.75,
           "region": "us"
         },
         {
@@ -4421,16 +4431,6 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-1059257184.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "6755447020",
-          "name": "Mahjong Calculator (American)",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e8/a5/d7/e8a5d775-3788-4cb4-43b4-43edaf01cb75/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Games",
-          "type": "free",
-          "page": "app/us-6755447020.html",
           "rating": 5,
           "region": "us"
         }
@@ -4482,7 +4482,17 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-6814895663.html",
-          "rating": 4.61111,
+          "rating": 4.63157,
+          "region": "us"
+        },
+        {
+          "id": "6798535320",
+          "name": "Line Distribution",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/a9/42/79a94210-9310-4a1b-3d93-20179e9bd1dd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Entertainment",
+          "type": "deal",
+          "page": "app/us-6798535320.html",
+          "rating": 3.75,
           "region": "us"
         },
         {
@@ -4644,16 +4654,6 @@
           "page": "app/us-1059257184.html",
           "rating": 5,
           "region": "us"
-        },
-        {
-          "id": "6755447020",
-          "name": "Mahjong Calculator (American)",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e8/a5/d7/e8a5d775-3788-4cb4-43b4-43edaf01cb75/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Games",
-          "type": "free",
-          "page": "app/us-6755447020.html",
-          "rating": 5,
-          "region": "us"
         }
       ],
       "page": "app/us-6802460933.html"
@@ -4665,7 +4665,7 @@
       "genre": "Photo & Video",
       "normal": "$0.99",
       "current": "Free",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/28/11/35/28113522-0a6c-d14c-277b-590074d8601e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8c/e5/8d/8ce58d33-0cea-a98d-c7d9-9579f6ccffdf/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
       "rating": 5,
       "url": "https://apps.apple.com/us/app/picwhisk/id6792625493?uo=4",
       "region": "us",
@@ -4718,7 +4718,17 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-6814895663.html",
-          "rating": 4.61111,
+          "rating": 4.63157,
+          "region": "us"
+        },
+        {
+          "id": "6798535320",
+          "name": "Line Distribution",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/a9/42/79a94210-9310-4a1b-3d93-20179e9bd1dd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Entertainment",
+          "type": "deal",
+          "page": "app/us-6798535320.html",
+          "rating": 3.75,
           "region": "us"
         },
         {
@@ -4878,16 +4888,6 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-1059257184.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "6755447020",
-          "name": "Mahjong Calculator (American)",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e8/a5/d7/e8a5d775-3788-4cb4-43b4-43edaf01cb75/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Games",
-          "type": "free",
-          "page": "app/us-6755447020.html",
           "rating": 5,
           "region": "us"
         }
@@ -4939,7 +4939,17 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-6814895663.html",
-          "rating": 4.61111,
+          "rating": 4.63157,
+          "region": "us"
+        },
+        {
+          "id": "6798535320",
+          "name": "Line Distribution",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/a9/42/79a94210-9310-4a1b-3d93-20179e9bd1dd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Entertainment",
+          "type": "deal",
+          "page": "app/us-6798535320.html",
+          "rating": 3.75,
           "region": "us"
         },
         {
@@ -5099,16 +5109,6 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-1059257184.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "6755447020",
-          "name": "Mahjong Calculator (American)",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e8/a5/d7/e8a5d775-3788-4cb4-43b4-43edaf01cb75/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Games",
-          "type": "free",
-          "page": "app/us-6755447020.html",
           "rating": 5,
           "region": "us"
         }
@@ -5175,7 +5175,17 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-6814895663.html",
-          "rating": 4.61111,
+          "rating": 4.63157,
+          "region": "us"
+        },
+        {
+          "id": "6798535320",
+          "name": "Line Distribution",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/a9/42/79a94210-9310-4a1b-3d93-20179e9bd1dd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Entertainment",
+          "type": "deal",
+          "page": "app/us-6798535320.html",
+          "rating": 3.75,
           "region": "us"
         },
         {
@@ -5335,16 +5345,6 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-1059257184.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "6755447020",
-          "name": "Mahjong Calculator (American)",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e8/a5/d7/e8a5d775-3788-4cb4-43b4-43edaf01cb75/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Games",
-          "type": "free",
-          "page": "app/us-6755447020.html",
           "rating": 5,
           "region": "us"
         }
@@ -5396,7 +5396,17 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-6814895663.html",
-          "rating": 4.61111,
+          "rating": 4.63157,
+          "region": "us"
+        },
+        {
+          "id": "6798535320",
+          "name": "Line Distribution",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/a9/42/79a94210-9310-4a1b-3d93-20179e9bd1dd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Entertainment",
+          "type": "deal",
+          "page": "app/us-6798535320.html",
+          "rating": 3.75,
           "region": "us"
         },
         {
@@ -5556,16 +5566,6 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-1059257184.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "6755447020",
-          "name": "Mahjong Calculator (American)",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e8/a5/d7/e8a5d775-3788-4cb4-43b4-43edaf01cb75/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Games",
-          "type": "free",
-          "page": "app/us-6755447020.html",
           "rating": 5,
           "region": "us"
         }
@@ -5632,7 +5632,17 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-6814895663.html",
-          "rating": 4.61111,
+          "rating": 4.63157,
+          "region": "us"
+        },
+        {
+          "id": "6798535320",
+          "name": "Line Distribution",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/a9/42/79a94210-9310-4a1b-3d93-20179e9bd1dd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Entertainment",
+          "type": "deal",
+          "page": "app/us-6798535320.html",
+          "rating": 3.75,
           "region": "us"
         },
         {
@@ -5792,16 +5802,6 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-1059257184.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "6755447020",
-          "name": "Mahjong Calculator (American)",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e8/a5/d7/e8a5d775-3788-4cb4-43b4-43edaf01cb75/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Games",
-          "type": "free",
-          "page": "app/us-6755447020.html",
           "rating": 5,
           "region": "us"
         }
@@ -5863,7 +5863,17 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-6814895663.html",
-          "rating": 4.61111,
+          "rating": 4.63157,
+          "region": "us"
+        },
+        {
+          "id": "6798535320",
+          "name": "Line Distribution",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/a9/42/79a94210-9310-4a1b-3d93-20179e9bd1dd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Entertainment",
+          "type": "deal",
+          "page": "app/us-6798535320.html",
+          "rating": 3.75,
           "region": "us"
         },
         {
@@ -6023,16 +6033,6 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-1059257184.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "6755447020",
-          "name": "Mahjong Calculator (American)",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e8/a5/d7/e8a5d775-3788-4cb4-43b4-43edaf01cb75/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Games",
-          "type": "free",
-          "page": "app/us-6755447020.html",
           "rating": 5,
           "region": "us"
         }
@@ -6094,7 +6094,17 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-6814895663.html",
-          "rating": 4.61111,
+          "rating": 4.63157,
+          "region": "us"
+        },
+        {
+          "id": "6798535320",
+          "name": "Line Distribution",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/a9/42/79a94210-9310-4a1b-3d93-20179e9bd1dd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Entertainment",
+          "type": "deal",
+          "page": "app/us-6798535320.html",
+          "rating": 3.75,
           "region": "us"
         },
         {
@@ -6254,16 +6264,6 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-1059257184.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "6755447020",
-          "name": "Mahjong Calculator (American)",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e8/a5/d7/e8a5d775-3788-4cb4-43b4-43edaf01cb75/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Games",
-          "type": "free",
-          "page": "app/us-6755447020.html",
           "rating": 5,
           "region": "us"
         }
@@ -6315,7 +6315,17 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-6814895663.html",
-          "rating": 4.61111,
+          "rating": 4.63157,
+          "region": "us"
+        },
+        {
+          "id": "6798535320",
+          "name": "Line Distribution",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/a9/42/79a94210-9310-4a1b-3d93-20179e9bd1dd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Entertainment",
+          "type": "deal",
+          "page": "app/us-6798535320.html",
+          "rating": 3.75,
           "region": "us"
         },
         {
@@ -6475,16 +6485,6 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-1059257184.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "6755447020",
-          "name": "Mahjong Calculator (American)",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e8/a5/d7/e8a5d775-3788-4cb4-43b4-43edaf01cb75/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Games",
-          "type": "free",
-          "page": "app/us-6755447020.html",
           "rating": 5,
           "region": "us"
         }
@@ -6551,7 +6551,17 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-6814895663.html",
-          "rating": 4.61111,
+          "rating": 4.63157,
+          "region": "us"
+        },
+        {
+          "id": "6798535320",
+          "name": "Line Distribution",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/a9/42/79a94210-9310-4a1b-3d93-20179e9bd1dd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Entertainment",
+          "type": "deal",
+          "page": "app/us-6798535320.html",
+          "rating": 3.75,
           "region": "us"
         },
         {
@@ -6711,16 +6721,6 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-1059257184.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "6755447020",
-          "name": "Mahjong Calculator (American)",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e8/a5/d7/e8a5d775-3788-4cb4-43b4-43edaf01cb75/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Games",
-          "type": "free",
-          "page": "app/us-6755447020.html",
           "rating": 5,
           "region": "us"
         }
@@ -6787,7 +6787,17 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-6814895663.html",
-          "rating": 4.61111,
+          "rating": 4.63157,
+          "region": "us"
+        },
+        {
+          "id": "6798535320",
+          "name": "Line Distribution",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/a9/42/79a94210-9310-4a1b-3d93-20179e9bd1dd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Entertainment",
+          "type": "deal",
+          "page": "app/us-6798535320.html",
+          "rating": 3.75,
           "region": "us"
         },
         {
@@ -6947,16 +6957,6 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-1059257184.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "6755447020",
-          "name": "Mahjong Calculator (American)",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e8/a5/d7/e8a5d775-3788-4cb4-43b4-43edaf01cb75/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Games",
-          "type": "free",
-          "page": "app/us-6755447020.html",
           "rating": 5,
           "region": "us"
         }
@@ -7018,7 +7018,17 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-6814895663.html",
-          "rating": 4.61111,
+          "rating": 4.63157,
+          "region": "us"
+        },
+        {
+          "id": "6798535320",
+          "name": "Line Distribution",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/a9/42/79a94210-9310-4a1b-3d93-20179e9bd1dd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Entertainment",
+          "type": "deal",
+          "page": "app/us-6798535320.html",
+          "rating": 3.75,
           "region": "us"
         },
         {
@@ -7178,16 +7188,6 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-1059257184.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "6755447020",
-          "name": "Mahjong Calculator (American)",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e8/a5/d7/e8a5d775-3788-4cb4-43b4-43edaf01cb75/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Games",
-          "type": "free",
-          "page": "app/us-6755447020.html",
           "rating": 5,
           "region": "us"
         }
@@ -7254,7 +7254,17 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-6814895663.html",
-          "rating": 4.61111,
+          "rating": 4.63157,
+          "region": "us"
+        },
+        {
+          "id": "6798535320",
+          "name": "Line Distribution",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/a9/42/79a94210-9310-4a1b-3d93-20179e9bd1dd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Entertainment",
+          "type": "deal",
+          "page": "app/us-6798535320.html",
+          "rating": 3.75,
           "region": "us"
         },
         {
@@ -7414,16 +7424,6 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-1059257184.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "6755447020",
-          "name": "Mahjong Calculator (American)",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e8/a5/d7/e8a5d775-3788-4cb4-43b4-43edaf01cb75/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Games",
-          "type": "free",
-          "page": "app/us-6755447020.html",
           "rating": 5,
           "region": "us"
         }
@@ -7485,7 +7485,17 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-6814895663.html",
-          "rating": 4.61111,
+          "rating": 4.63157,
+          "region": "us"
+        },
+        {
+          "id": "6798535320",
+          "name": "Line Distribution",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/a9/42/79a94210-9310-4a1b-3d93-20179e9bd1dd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Entertainment",
+          "type": "deal",
+          "page": "app/us-6798535320.html",
+          "rating": 3.75,
           "region": "us"
         },
         {
@@ -7645,16 +7655,6 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-1059257184.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "6755447020",
-          "name": "Mahjong Calculator (American)",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e8/a5/d7/e8a5d775-3788-4cb4-43b4-43edaf01cb75/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Games",
-          "type": "free",
-          "page": "app/us-6755447020.html",
           "rating": 5,
           "region": "us"
         }
@@ -7721,7 +7721,17 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-6814895663.html",
-          "rating": 4.61111,
+          "rating": 4.63157,
+          "region": "us"
+        },
+        {
+          "id": "6798535320",
+          "name": "Line Distribution",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/a9/42/79a94210-9310-4a1b-3d93-20179e9bd1dd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Entertainment",
+          "type": "deal",
+          "page": "app/us-6798535320.html",
+          "rating": 3.75,
           "region": "us"
         },
         {
@@ -7881,16 +7891,6 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-1059257184.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "6755447020",
-          "name": "Mahjong Calculator (American)",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e8/a5/d7/e8a5d775-3788-4cb4-43b4-43edaf01cb75/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Games",
-          "type": "free",
-          "page": "app/us-6755447020.html",
           "rating": 5,
           "region": "us"
         }
@@ -7957,7 +7957,17 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-6814895663.html",
-          "rating": 4.61111,
+          "rating": 4.63157,
+          "region": "us"
+        },
+        {
+          "id": "6798535320",
+          "name": "Line Distribution",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/a9/42/79a94210-9310-4a1b-3d93-20179e9bd1dd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Entertainment",
+          "type": "deal",
+          "page": "app/us-6798535320.html",
+          "rating": 3.75,
           "region": "us"
         },
         {
@@ -8117,16 +8127,6 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-1059257184.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "6755447020",
-          "name": "Mahjong Calculator (American)",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e8/a5/d7/e8a5d775-3788-4cb4-43b4-43edaf01cb75/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Games",
-          "type": "free",
-          "page": "app/us-6755447020.html",
           "rating": 5,
           "region": "us"
         }
@@ -8193,7 +8193,17 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-6814895663.html",
-          "rating": 4.61111,
+          "rating": 4.63157,
+          "region": "us"
+        },
+        {
+          "id": "6798535320",
+          "name": "Line Distribution",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/a9/42/79a94210-9310-4a1b-3d93-20179e9bd1dd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Entertainment",
+          "type": "deal",
+          "page": "app/us-6798535320.html",
+          "rating": 3.75,
           "region": "us"
         },
         {
@@ -8355,16 +8365,6 @@
           "page": "app/us-1059257184.html",
           "rating": 5,
           "region": "us"
-        },
-        {
-          "id": "6755447020",
-          "name": "Mahjong Calculator (American)",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e8/a5/d7/e8a5d775-3788-4cb4-43b4-43edaf01cb75/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Games",
-          "type": "free",
-          "page": "app/us-6755447020.html",
-          "rating": 5,
-          "region": "us"
         }
       ],
       "page": "app/us-6739967953.html"
@@ -8377,7 +8377,7 @@
       "normal": "$2.99",
       "current": "Free",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/91/d3/c3/91d3c30c-cf4a-c337-ceb0-fd28becff5b5/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-      "rating": 4.84426,
+      "rating": 4.81452,
       "url": "https://apps.apple.com/us/app/capforge-football-gm-2026/id6791601497?uo=4",
       "region": "us",
       "type": "free",
@@ -8429,7 +8429,17 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-6814895663.html",
-          "rating": 4.61111,
+          "rating": 4.63157,
+          "region": "us"
+        },
+        {
+          "id": "6798535320",
+          "name": "Line Distribution",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/a9/42/79a94210-9310-4a1b-3d93-20179e9bd1dd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Entertainment",
+          "type": "deal",
+          "page": "app/us-6798535320.html",
+          "rating": 3.75,
           "region": "us"
         },
         {
@@ -8589,16 +8599,6 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-1059257184.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "6755447020",
-          "name": "Mahjong Calculator (American)",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e8/a5/d7/e8a5d775-3788-4cb4-43b4-43edaf01cb75/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Games",
-          "type": "free",
-          "page": "app/us-6755447020.html",
           "rating": 5,
           "region": "us"
         }
@@ -8665,7 +8665,17 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-6814895663.html",
-          "rating": 4.61111,
+          "rating": 4.63157,
+          "region": "us"
+        },
+        {
+          "id": "6798535320",
+          "name": "Line Distribution",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/a9/42/79a94210-9310-4a1b-3d93-20179e9bd1dd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Entertainment",
+          "type": "deal",
+          "page": "app/us-6798535320.html",
+          "rating": 3.75,
           "region": "us"
         },
         {
@@ -8825,16 +8835,6 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-1059257184.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "6755447020",
-          "name": "Mahjong Calculator (American)",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e8/a5/d7/e8a5d775-3788-4cb4-43b4-43edaf01cb75/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Games",
-          "type": "free",
-          "page": "app/us-6755447020.html",
           "rating": 5,
           "region": "us"
         }
@@ -8901,7 +8901,17 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-6814895663.html",
-          "rating": 4.61111,
+          "rating": 4.63157,
+          "region": "us"
+        },
+        {
+          "id": "6798535320",
+          "name": "Line Distribution",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/a9/42/79a94210-9310-4a1b-3d93-20179e9bd1dd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Entertainment",
+          "type": "deal",
+          "page": "app/us-6798535320.html",
+          "rating": 3.75,
           "region": "us"
         },
         {
@@ -9061,16 +9071,6 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-1059257184.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "6755447020",
-          "name": "Mahjong Calculator (American)",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e8/a5/d7/e8a5d775-3788-4cb4-43b4-43edaf01cb75/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Games",
-          "type": "free",
-          "page": "app/us-6755447020.html",
           "rating": 5,
           "region": "us"
         }
@@ -9137,7 +9137,17 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-6814895663.html",
-          "rating": 4.61111,
+          "rating": 4.63157,
+          "region": "us"
+        },
+        {
+          "id": "6798535320",
+          "name": "Line Distribution",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/a9/42/79a94210-9310-4a1b-3d93-20179e9bd1dd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Entertainment",
+          "type": "deal",
+          "page": "app/us-6798535320.html",
+          "rating": 3.75,
           "region": "us"
         },
         {
@@ -9297,16 +9307,6 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-1059257184.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "6755447020",
-          "name": "Mahjong Calculator (American)",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e8/a5/d7/e8a5d775-3788-4cb4-43b4-43edaf01cb75/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Games",
-          "type": "free",
-          "page": "app/us-6755447020.html",
           "rating": 5,
           "region": "us"
         }
@@ -9373,7 +9373,17 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-6814895663.html",
-          "rating": 4.61111,
+          "rating": 4.63157,
+          "region": "us"
+        },
+        {
+          "id": "6798535320",
+          "name": "Line Distribution",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/a9/42/79a94210-9310-4a1b-3d93-20179e9bd1dd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Entertainment",
+          "type": "deal",
+          "page": "app/us-6798535320.html",
+          "rating": 3.75,
           "region": "us"
         },
         {
@@ -9533,16 +9543,6 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-1059257184.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "6755447020",
-          "name": "Mahjong Calculator (American)",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e8/a5/d7/e8a5d775-3788-4cb4-43b4-43edaf01cb75/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Games",
-          "type": "free",
-          "page": "app/us-6755447020.html",
           "rating": 5,
           "region": "us"
         }
@@ -9609,7 +9609,17 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-6814895663.html",
-          "rating": 4.61111,
+          "rating": 4.63157,
+          "region": "us"
+        },
+        {
+          "id": "6798535320",
+          "name": "Line Distribution",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/a9/42/79a94210-9310-4a1b-3d93-20179e9bd1dd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Entertainment",
+          "type": "deal",
+          "page": "app/us-6798535320.html",
+          "rating": 3.75,
           "region": "us"
         },
         {
@@ -9769,16 +9779,6 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-1059257184.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "6755447020",
-          "name": "Mahjong Calculator (American)",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e8/a5/d7/e8a5d775-3788-4cb4-43b4-43edaf01cb75/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Games",
-          "type": "free",
-          "page": "app/us-6755447020.html",
           "rating": 5,
           "region": "us"
         }
@@ -9830,7 +9830,17 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-6814895663.html",
-          "rating": 4.61111,
+          "rating": 4.63157,
+          "region": "us"
+        },
+        {
+          "id": "6798535320",
+          "name": "Line Distribution",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/a9/42/79a94210-9310-4a1b-3d93-20179e9bd1dd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Entertainment",
+          "type": "deal",
+          "page": "app/us-6798535320.html",
+          "rating": 3.75,
           "region": "us"
         },
         {
@@ -9990,16 +10000,6 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-1059257184.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "6755447020",
-          "name": "Mahjong Calculator (American)",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e8/a5/d7/e8a5d775-3788-4cb4-43b4-43edaf01cb75/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Games",
-          "type": "free",
-          "page": "app/us-6755447020.html",
           "rating": 5,
           "region": "us"
         }
@@ -10066,7 +10066,17 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-6814895663.html",
-          "rating": 4.61111,
+          "rating": 4.63157,
+          "region": "us"
+        },
+        {
+          "id": "6798535320",
+          "name": "Line Distribution",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/a9/42/79a94210-9310-4a1b-3d93-20179e9bd1dd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Entertainment",
+          "type": "deal",
+          "page": "app/us-6798535320.html",
+          "rating": 3.75,
           "region": "us"
         },
         {
@@ -10226,16 +10236,6 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-1059257184.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "6755447020",
-          "name": "Mahjong Calculator (American)",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e8/a5/d7/e8a5d775-3788-4cb4-43b4-43edaf01cb75/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Games",
-          "type": "free",
-          "page": "app/us-6755447020.html",
           "rating": 5,
           "region": "us"
         }
@@ -10287,7 +10287,17 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-6814895663.html",
-          "rating": 4.61111,
+          "rating": 4.63157,
+          "region": "us"
+        },
+        {
+          "id": "6798535320",
+          "name": "Line Distribution",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/a9/42/79a94210-9310-4a1b-3d93-20179e9bd1dd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Entertainment",
+          "type": "deal",
+          "page": "app/us-6798535320.html",
+          "rating": 3.75,
           "region": "us"
         },
         {
@@ -10447,16 +10457,6 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-1059257184.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "6755447020",
-          "name": "Mahjong Calculator (American)",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e8/a5/d7/e8a5d775-3788-4cb4-43b4-43edaf01cb75/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Games",
-          "type": "free",
-          "page": "app/us-6755447020.html",
           "rating": 5,
           "region": "us"
         }
@@ -10523,7 +10523,17 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-6814895663.html",
-          "rating": 4.61111,
+          "rating": 4.63157,
+          "region": "us"
+        },
+        {
+          "id": "6798535320",
+          "name": "Line Distribution",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/a9/42/79a94210-9310-4a1b-3d93-20179e9bd1dd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Entertainment",
+          "type": "deal",
+          "page": "app/us-6798535320.html",
+          "rating": 3.75,
           "region": "us"
         },
         {
@@ -10683,16 +10693,6 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-1059257184.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "6755447020",
-          "name": "Mahjong Calculator (American)",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e8/a5/d7/e8a5d775-3788-4cb4-43b4-43edaf01cb75/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Games",
-          "type": "free",
-          "page": "app/us-6755447020.html",
           "rating": 5,
           "region": "us"
         }
@@ -10759,7 +10759,17 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-6814895663.html",
-          "rating": 4.61111,
+          "rating": 4.63157,
+          "region": "us"
+        },
+        {
+          "id": "6798535320",
+          "name": "Line Distribution",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/a9/42/79a94210-9310-4a1b-3d93-20179e9bd1dd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Entertainment",
+          "type": "deal",
+          "page": "app/us-6798535320.html",
+          "rating": 3.75,
           "region": "us"
         },
         {
@@ -10919,16 +10929,6 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-1059257184.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "6755447020",
-          "name": "Mahjong Calculator (American)",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e8/a5/d7/e8a5d775-3788-4cb4-43b4-43edaf01cb75/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Games",
-          "type": "free",
-          "page": "app/us-6755447020.html",
           "rating": 5,
           "region": "us"
         }
@@ -10995,7 +10995,17 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-6814895663.html",
-          "rating": 4.61111,
+          "rating": 4.63157,
+          "region": "us"
+        },
+        {
+          "id": "6798535320",
+          "name": "Line Distribution",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/a9/42/79a94210-9310-4a1b-3d93-20179e9bd1dd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Entertainment",
+          "type": "deal",
+          "page": "app/us-6798535320.html",
+          "rating": 3.75,
           "region": "us"
         },
         {
@@ -11155,16 +11165,6 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-1059257184.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "6755447020",
-          "name": "Mahjong Calculator (American)",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e8/a5/d7/e8a5d775-3788-4cb4-43b4-43edaf01cb75/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Games",
-          "type": "free",
-          "page": "app/us-6755447020.html",
           "rating": 5,
           "region": "us"
         }
@@ -11231,7 +11231,17 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-6814895663.html",
-          "rating": 4.61111,
+          "rating": 4.63157,
+          "region": "us"
+        },
+        {
+          "id": "6798535320",
+          "name": "Line Distribution",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/a9/42/79a94210-9310-4a1b-3d93-20179e9bd1dd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Entertainment",
+          "type": "deal",
+          "page": "app/us-6798535320.html",
+          "rating": 3.75,
           "region": "us"
         },
         {
@@ -11391,16 +11401,6 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-1059257184.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "6755447020",
-          "name": "Mahjong Calculator (American)",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e8/a5/d7/e8a5d775-3788-4cb4-43b4-43edaf01cb75/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Games",
-          "type": "free",
-          "page": "app/us-6755447020.html",
           "rating": 5,
           "region": "us"
         }
@@ -11457,7 +11457,17 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-6814895663.html",
-          "rating": 4.61111,
+          "rating": 4.63157,
+          "region": "us"
+        },
+        {
+          "id": "6798535320",
+          "name": "Line Distribution",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/a9/42/79a94210-9310-4a1b-3d93-20179e9bd1dd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Entertainment",
+          "type": "deal",
+          "page": "app/us-6798535320.html",
+          "rating": 3.75,
           "region": "us"
         },
         {
@@ -11617,242 +11627,11 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-1059257184.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "6755447020",
-          "name": "Mahjong Calculator (American)",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e8/a5/d7/e8a5d775-3788-4cb4-43b4-43edaf01cb75/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Games",
-          "type": "free",
-          "page": "app/us-6755447020.html",
           "rating": 5,
           "region": "us"
         }
       ],
       "page": "app/us-505904421.html"
-    },
-    {
-      "id": "6462839131",
-      "name": "Lossless Audio Extractor",
-      "dev": "Shu Kyogoku",
-      "genre": "Music",
-      "normal": "$2.99",
-      "current": "Free",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/eb/c8/e9/ebc8e998-35ca-d0fa-74b3-6725d650158a/AppIcon-0-0-1x_U007epad-0-1-sRGB-85-220.png/512x512bb.jpg",
-      "rating": 4.59999,
-      "url": "https://apps.apple.com/us/app/lossless-audio-extractor/id6462839131?uo=4",
-      "region": "us",
-      "type": "free",
-      "is_new": false,
-      "series": [
-        2.99,
-        0,
-        0,
-        0
-      ],
-      "phistory": [
-        {
-          "d": "2026-10-22",
-          "p": 2.99
-        },
-        {
-          "d": "2026-10-23",
-          "p": 0
-        },
-        {
-          "d": "2026-10-24",
-          "p": 0
-        },
-        {
-          "d": "2026-10-25",
-          "p": 0
-        }
-      ],
-      "rel": [
-        {
-          "id": "6814895663",
-          "name": "Bash Multiplayer Party",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3e/11/ea/3e11ea4f-7f0a-01fc-90b8-65597fcb331f/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Games",
-          "type": "free",
-          "page": "app/us-6814895663.html",
-          "rating": 4.61111,
-          "region": "us"
-        },
-        {
-          "id": "6757513032",
-          "name": "AiGoodbye",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bd/c1/41/bdc141cf-74fe-4cba-fc21-4ad7f53d9ddf/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Utilities",
-          "type": "free",
-          "page": "app/us-6757513032.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "6769670290",
-          "name": "Bedtime Stories: Gato and Blue",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d5/8f/59/d58f59e5-3dd6-0a73-159c-b096284ff9e3/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Books",
-          "type": "deal",
-          "page": "app/us-6769670290.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "6748287593",
-          "name": "Bother Bin: Stop Overthinking",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/45/f5/d3/45f5d35f-8a1b-0cb7-35fb-1bd94c8620b3/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-          "genre": "Health & Fitness",
-          "type": "free",
-          "page": "app/us-6748287593.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "6794880428",
-          "name": "Brown Noise Player",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a3/4c/44/a34c447b-fda7-db79-09e5-50e120a91d9f/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Health & Fitness",
-          "type": "free",
-          "page": "app/us-6794880428.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "6816500543",
-          "name": "BurnClub - Song Discovery",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/79/fc/42/79fc4221-4f67-a7cd-518e-cd7025551b76/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/512x512bb.jpg",
-          "genre": "Music",
-          "type": "free",
-          "page": "app/us-6816500543.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "6757181256",
-          "name": "Byondbites",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/37/1b/53/371b53b9-4d21-69ff-cdbb-a238216fe23f/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Food & Drink",
-          "type": "free",
-          "page": "app/us-6757181256.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "6759512718",
-          "name": "Cadre Contacts",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/da/1b/22/da1b2227-b305-2c59-1431-6c49e5764f3d/Cadre-0-0-1x_U007epad-0-0-0-1-0-85-220.png/512x512bb.jpg",
-          "genre": "Productivity",
-          "type": "free",
-          "page": "app/us-6759512718.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "6818876548",
-          "name": "Calpaper: Lock Screen Calendar",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a0/14/bb/a014bb77-ddc2-e8a9-6342-00c6373c45fe/AppIcon-BurntOrange-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Productivity",
-          "type": "free",
-          "page": "app/us-6818876548.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "6760746571",
-          "name": "Chronometer : World Clock",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ba/c0/d7/bac0d778-d9ed-2d68-fc1d-52d6563277ed/AppIcon-0-1x_U007epad-0-1-85-220-0.png/512x512bb.jpg",
-          "genre": "Utilities",
-          "type": "free",
-          "page": "app/us-6760746571.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "1528924256",
-          "name": "Dad Jokes Battle",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/87/e2/70/87e27001-9bf5-2d60-30d7-71ac42fba2a9/AppIcon-0-0-1x_U007ephone-0-1-P3-85-220.png/512x512bb.jpg",
-          "genre": "Games",
-          "type": "free",
-          "page": "app/us-1528924256.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "6809958215",
-          "name": "El Niño Forecast",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/71/df/32/71df3200-c630-14f3-69d4-5118bb831dd5/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Weather",
-          "type": "free",
-          "page": "app/us-6809958215.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "6757487778",
-          "name": "Frog Date",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/33/2d/b6/332db6fb-f69b-ea13-839e-c3403849a345/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Lifestyle",
-          "type": "free",
-          "page": "app/us-6757487778.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "6799973308",
-          "name": "Galplay: Visual Novel Player",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8f/fa/e2/8ffae28d-aafb-9c1d-f096-df7dc370d73f/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
-          "genre": "Utilities",
-          "type": "free",
-          "page": "app/us-6799973308.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "1489039761",
-          "name": "I Like Colors: Toddler Games",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6e/97/67/6e976730-e63c-a2f9-dcf3-8c2d0bcf9575/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Education",
-          "type": "free",
-          "page": "app/us-1489039761.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "6781424540",
-          "name": "Inner Tempo: Breathing Pacer",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0f/24/18/0f24189d-d773-5a1c-27c3-36b0ecd720e7/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Health & Fitness",
-          "type": "free",
-          "page": "app/us-6781424540.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "1059257184",
-          "name": "JackArcher",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c4/fd/79/c4fd797e-c35b-96dd-329f-7dc07f85a903/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
-          "genre": "Games",
-          "type": "free",
-          "page": "app/us-1059257184.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "6755447020",
-          "name": "Mahjong Calculator (American)",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e8/a5/d7/e8a5d775-3788-4cb4-43b4-43edaf01cb75/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Games",
-          "type": "free",
-          "page": "app/us-6755447020.html",
-          "rating": 5,
-          "region": "us"
-        }
-      ],
-      "page": "app/us-6462839131.html"
     },
     {
       "id": "6751239297",
@@ -11862,7 +11641,7 @@
       "normal": "$0.99",
       "current": "Free",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d0/ae/73/d0ae7394-d883-398b-1b0d-ba782cf2b5d1/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
-      "rating": 4.59999,
+      "rating": 4.60344,
       "url": "https://apps.apple.com/us/app/o2-buddy-blood-oxygen-spo2/id6751239297?uo=4",
       "region": "us",
       "type": "free",
@@ -11914,7 +11693,17 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-6814895663.html",
-          "rating": 4.61111,
+          "rating": 4.63157,
+          "region": "us"
+        },
+        {
+          "id": "6798535320",
+          "name": "Line Distribution",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/a9/42/79a94210-9310-4a1b-3d93-20179e9bd1dd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Entertainment",
+          "type": "deal",
+          "page": "app/us-6798535320.html",
+          "rating": 3.75,
           "region": "us"
         },
         {
@@ -12076,19 +11865,230 @@
           "page": "app/us-1059257184.html",
           "rating": 5,
           "region": "us"
+        }
+      ],
+      "page": "app/us-6751239297.html"
+    },
+    {
+      "id": "6462839131",
+      "name": "Lossless Audio Extractor",
+      "dev": "Shu Kyogoku",
+      "genre": "Music",
+      "normal": "$2.99",
+      "current": "Free",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/eb/c8/e9/ebc8e998-35ca-d0fa-74b3-6725d650158a/AppIcon-0-0-1x_U007epad-0-1-sRGB-85-220.png/512x512bb.jpg",
+      "rating": 4.59999,
+      "url": "https://apps.apple.com/us/app/lossless-audio-extractor/id6462839131?uo=4",
+      "region": "us",
+      "type": "free",
+      "is_new": false,
+      "series": [
+        2.99,
+        0,
+        0,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-22",
+          "p": 2.99
         },
         {
-          "id": "6755447020",
-          "name": "Mahjong Calculator (American)",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e8/a5/d7/e8a5d775-3788-4cb4-43b4-43edaf01cb75/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "d": "2026-10-23",
+          "p": 0
+        },
+        {
+          "d": "2026-10-24",
+          "p": 0
+        },
+        {
+          "d": "2026-10-25",
+          "p": 0
+        }
+      ],
+      "rel": [
+        {
+          "id": "6814895663",
+          "name": "Bash Multiplayer Party",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3e/11/ea/3e11ea4f-7f0a-01fc-90b8-65597fcb331f/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
           "genre": "Games",
           "type": "free",
-          "page": "app/us-6755447020.html",
+          "page": "app/us-6814895663.html",
+          "rating": 4.63157,
+          "region": "us"
+        },
+        {
+          "id": "6798535320",
+          "name": "Line Distribution",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/a9/42/79a94210-9310-4a1b-3d93-20179e9bd1dd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Entertainment",
+          "type": "deal",
+          "page": "app/us-6798535320.html",
+          "rating": 3.75,
+          "region": "us"
+        },
+        {
+          "id": "6757513032",
+          "name": "AiGoodbye",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bd/c1/41/bdc141cf-74fe-4cba-fc21-4ad7f53d9ddf/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Utilities",
+          "type": "free",
+          "page": "app/us-6757513032.html",
+          "rating": 5,
+          "region": "us"
+        },
+        {
+          "id": "6769670290",
+          "name": "Bedtime Stories: Gato and Blue",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d5/8f/59/d58f59e5-3dd6-0a73-159c-b096284ff9e3/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Books",
+          "type": "deal",
+          "page": "app/us-6769670290.html",
+          "rating": 5,
+          "region": "us"
+        },
+        {
+          "id": "6748287593",
+          "name": "Bother Bin: Stop Overthinking",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/45/f5/d3/45f5d35f-8a1b-0cb7-35fb-1bd94c8620b3/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "Health & Fitness",
+          "type": "free",
+          "page": "app/us-6748287593.html",
+          "rating": 5,
+          "region": "us"
+        },
+        {
+          "id": "6794880428",
+          "name": "Brown Noise Player",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a3/4c/44/a34c447b-fda7-db79-09e5-50e120a91d9f/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Health & Fitness",
+          "type": "free",
+          "page": "app/us-6794880428.html",
+          "rating": 5,
+          "region": "us"
+        },
+        {
+          "id": "6816500543",
+          "name": "BurnClub - Song Discovery",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/79/fc/42/79fc4221-4f67-a7cd-518e-cd7025551b76/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/512x512bb.jpg",
+          "genre": "Music",
+          "type": "free",
+          "page": "app/us-6816500543.html",
+          "rating": 5,
+          "region": "us"
+        },
+        {
+          "id": "6757181256",
+          "name": "Byondbites",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/37/1b/53/371b53b9-4d21-69ff-cdbb-a238216fe23f/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Food & Drink",
+          "type": "free",
+          "page": "app/us-6757181256.html",
+          "rating": 5,
+          "region": "us"
+        },
+        {
+          "id": "6759512718",
+          "name": "Cadre Contacts",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/da/1b/22/da1b2227-b305-2c59-1431-6c49e5764f3d/Cadre-0-0-1x_U007epad-0-0-0-1-0-85-220.png/512x512bb.jpg",
+          "genre": "Productivity",
+          "type": "free",
+          "page": "app/us-6759512718.html",
+          "rating": 5,
+          "region": "us"
+        },
+        {
+          "id": "6818876548",
+          "name": "Calpaper: Lock Screen Calendar",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a0/14/bb/a014bb77-ddc2-e8a9-6342-00c6373c45fe/AppIcon-BurntOrange-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Productivity",
+          "type": "free",
+          "page": "app/us-6818876548.html",
+          "rating": 5,
+          "region": "us"
+        },
+        {
+          "id": "6760746571",
+          "name": "Chronometer : World Clock",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ba/c0/d7/bac0d778-d9ed-2d68-fc1d-52d6563277ed/AppIcon-0-1x_U007epad-0-1-85-220-0.png/512x512bb.jpg",
+          "genre": "Utilities",
+          "type": "free",
+          "page": "app/us-6760746571.html",
+          "rating": 5,
+          "region": "us"
+        },
+        {
+          "id": "1528924256",
+          "name": "Dad Jokes Battle",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/87/e2/70/87e27001-9bf5-2d60-30d7-71ac42fba2a9/AppIcon-0-0-1x_U007ephone-0-1-P3-85-220.png/512x512bb.jpg",
+          "genre": "Games",
+          "type": "free",
+          "page": "app/us-1528924256.html",
+          "rating": 5,
+          "region": "us"
+        },
+        {
+          "id": "6809958215",
+          "name": "El Niño Forecast",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/71/df/32/71df3200-c630-14f3-69d4-5118bb831dd5/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Weather",
+          "type": "free",
+          "page": "app/us-6809958215.html",
+          "rating": 5,
+          "region": "us"
+        },
+        {
+          "id": "6757487778",
+          "name": "Frog Date",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/33/2d/b6/332db6fb-f69b-ea13-839e-c3403849a345/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Lifestyle",
+          "type": "free",
+          "page": "app/us-6757487778.html",
+          "rating": 5,
+          "region": "us"
+        },
+        {
+          "id": "6799973308",
+          "name": "Galplay: Visual Novel Player",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8f/fa/e2/8ffae28d-aafb-9c1d-f096-df7dc370d73f/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+          "genre": "Utilities",
+          "type": "free",
+          "page": "app/us-6799973308.html",
+          "rating": 5,
+          "region": "us"
+        },
+        {
+          "id": "1489039761",
+          "name": "I Like Colors: Toddler Games",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6e/97/67/6e976730-e63c-a2f9-dcf3-8c2d0bcf9575/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Education",
+          "type": "free",
+          "page": "app/us-1489039761.html",
+          "rating": 5,
+          "region": "us"
+        },
+        {
+          "id": "6781424540",
+          "name": "Inner Tempo: Breathing Pacer",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0f/24/18/0f24189d-d773-5a1c-27c3-36b0ecd720e7/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Health & Fitness",
+          "type": "free",
+          "page": "app/us-6781424540.html",
+          "rating": 5,
+          "region": "us"
+        },
+        {
+          "id": "1059257184",
+          "name": "JackArcher",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c4/fd/79/c4fd797e-c35b-96dd-329f-7dc07f85a903/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+          "genre": "Games",
+          "type": "free",
+          "page": "app/us-1059257184.html",
           "rating": 5,
           "region": "us"
         }
       ],
-      "page": "app/us-6751239297.html"
+      "page": "app/us-6462839131.html"
     },
     {
       "id": "586387813",
@@ -12135,7 +12135,17 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-6814895663.html",
-          "rating": 4.61111,
+          "rating": 4.63157,
+          "region": "us"
+        },
+        {
+          "id": "6798535320",
+          "name": "Line Distribution",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/a9/42/79a94210-9310-4a1b-3d93-20179e9bd1dd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Entertainment",
+          "type": "deal",
+          "page": "app/us-6798535320.html",
+          "rating": 3.75,
           "region": "us"
         },
         {
@@ -12295,16 +12305,6 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-1059257184.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "6755447020",
-          "name": "Mahjong Calculator (American)",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e8/a5/d7/e8a5d775-3788-4cb4-43b4-43edaf01cb75/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Games",
-          "type": "free",
-          "page": "app/us-6755447020.html",
           "rating": 5,
           "region": "us"
         }
@@ -12371,7 +12371,17 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-6814895663.html",
-          "rating": 4.61111,
+          "rating": 4.63157,
+          "region": "us"
+        },
+        {
+          "id": "6798535320",
+          "name": "Line Distribution",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/a9/42/79a94210-9310-4a1b-3d93-20179e9bd1dd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Entertainment",
+          "type": "deal",
+          "page": "app/us-6798535320.html",
+          "rating": 3.75,
           "region": "us"
         },
         {
@@ -12531,16 +12541,6 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-1059257184.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "6755447020",
-          "name": "Mahjong Calculator (American)",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e8/a5/d7/e8a5d775-3788-4cb4-43b4-43edaf01cb75/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Games",
-          "type": "free",
-          "page": "app/us-6755447020.html",
           "rating": 5,
           "region": "us"
         }
@@ -12607,7 +12607,17 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-6814895663.html",
-          "rating": 4.61111,
+          "rating": 4.63157,
+          "region": "us"
+        },
+        {
+          "id": "6798535320",
+          "name": "Line Distribution",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/a9/42/79a94210-9310-4a1b-3d93-20179e9bd1dd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Entertainment",
+          "type": "deal",
+          "page": "app/us-6798535320.html",
+          "rating": 3.75,
           "region": "us"
         },
         {
@@ -12767,16 +12777,6 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-1059257184.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "6755447020",
-          "name": "Mahjong Calculator (American)",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e8/a5/d7/e8a5d775-3788-4cb4-43b4-43edaf01cb75/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Games",
-          "type": "free",
-          "page": "app/us-6755447020.html",
           "rating": 5,
           "region": "us"
         }
@@ -12828,7 +12828,17 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-6814895663.html",
-          "rating": 4.61111,
+          "rating": 4.63157,
+          "region": "us"
+        },
+        {
+          "id": "6798535320",
+          "name": "Line Distribution",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/a9/42/79a94210-9310-4a1b-3d93-20179e9bd1dd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Entertainment",
+          "type": "deal",
+          "page": "app/us-6798535320.html",
+          "rating": 3.75,
           "region": "us"
         },
         {
@@ -12988,16 +12998,6 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-1059257184.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "6755447020",
-          "name": "Mahjong Calculator (American)",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e8/a5/d7/e8a5d775-3788-4cb4-43b4-43edaf01cb75/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Games",
-          "type": "free",
-          "page": "app/us-6755447020.html",
           "rating": 5,
           "region": "us"
         }
@@ -13054,7 +13054,17 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-6814895663.html",
-          "rating": 4.61111,
+          "rating": 4.63157,
+          "region": "us"
+        },
+        {
+          "id": "6798535320",
+          "name": "Line Distribution",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/a9/42/79a94210-9310-4a1b-3d93-20179e9bd1dd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Entertainment",
+          "type": "deal",
+          "page": "app/us-6798535320.html",
+          "rating": 3.75,
           "region": "us"
         },
         {
@@ -13214,16 +13224,6 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-1059257184.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "6755447020",
-          "name": "Mahjong Calculator (American)",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e8/a5/d7/e8a5d775-3788-4cb4-43b4-43edaf01cb75/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Games",
-          "type": "free",
-          "page": "app/us-6755447020.html",
           "rating": 5,
           "region": "us"
         }
@@ -13270,7 +13270,17 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-6814895663.html",
-          "rating": 4.61111,
+          "rating": 4.63157,
+          "region": "us"
+        },
+        {
+          "id": "6798535320",
+          "name": "Line Distribution",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/a9/42/79a94210-9310-4a1b-3d93-20179e9bd1dd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Entertainment",
+          "type": "deal",
+          "page": "app/us-6798535320.html",
+          "rating": 3.75,
           "region": "us"
         },
         {
@@ -13430,16 +13440,6 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-1059257184.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "6755447020",
-          "name": "Mahjong Calculator (American)",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e8/a5/d7/e8a5d775-3788-4cb4-43b4-43edaf01cb75/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Games",
-          "type": "free",
-          "page": "app/us-6755447020.html",
           "rating": 5,
           "region": "us"
         }
@@ -13491,7 +13491,17 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-6814895663.html",
-          "rating": 4.61111,
+          "rating": 4.63157,
+          "region": "us"
+        },
+        {
+          "id": "6798535320",
+          "name": "Line Distribution",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/a9/42/79a94210-9310-4a1b-3d93-20179e9bd1dd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Entertainment",
+          "type": "deal",
+          "page": "app/us-6798535320.html",
+          "rating": 3.75,
           "region": "us"
         },
         {
@@ -13653,19 +13663,245 @@
           "page": "app/us-1059257184.html",
           "rating": 5,
           "region": "us"
+        }
+      ],
+      "page": "app/us-1534337551.html"
+    },
+    {
+      "id": "6812764518",
+      "name": "Calc Plus - Calculator",
+      "dev": "Neue Software",
+      "genre": "Utilities",
+      "normal": "$0.99",
+      "current": "Free",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/69/4f/dc/694fdca1-164f-cdd8-4355-76d6b2a5f8c1/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "rating": 4.5,
+      "url": "https://apps.apple.com/us/app/calc-plus-calculator/id6812764518?uo=4",
+      "region": "us",
+      "type": "free",
+      "is_new": false,
+      "series": [
+        0.99,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 0.99
         },
         {
-          "id": "6755447020",
-          "name": "Mahjong Calculator (American)",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e8/a5/d7/e8a5d775-3788-4cb4-43b4-43edaf01cb75/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "d": "2026-10-20",
+          "p": 0
+        },
+        {
+          "d": "2026-10-21",
+          "p": 0
+        },
+        {
+          "d": "2026-10-22",
+          "p": 0
+        },
+        {
+          "d": "2026-10-23",
+          "p": 0
+        },
+        {
+          "d": "2026-10-24",
+          "p": 0
+        },
+        {
+          "d": "2026-10-25",
+          "p": 0
+        }
+      ],
+      "rel": [
+        {
+          "id": "6814895663",
+          "name": "Bash Multiplayer Party",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3e/11/ea/3e11ea4f-7f0a-01fc-90b8-65597fcb331f/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
           "genre": "Games",
           "type": "free",
-          "page": "app/us-6755447020.html",
+          "page": "app/us-6814895663.html",
+          "rating": 4.63157,
+          "region": "us"
+        },
+        {
+          "id": "6798535320",
+          "name": "Line Distribution",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/a9/42/79a94210-9310-4a1b-3d93-20179e9bd1dd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Entertainment",
+          "type": "deal",
+          "page": "app/us-6798535320.html",
+          "rating": 3.75,
+          "region": "us"
+        },
+        {
+          "id": "6757513032",
+          "name": "AiGoodbye",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bd/c1/41/bdc141cf-74fe-4cba-fc21-4ad7f53d9ddf/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Utilities",
+          "type": "free",
+          "page": "app/us-6757513032.html",
+          "rating": 5,
+          "region": "us"
+        },
+        {
+          "id": "6769670290",
+          "name": "Bedtime Stories: Gato and Blue",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d5/8f/59/d58f59e5-3dd6-0a73-159c-b096284ff9e3/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Books",
+          "type": "deal",
+          "page": "app/us-6769670290.html",
+          "rating": 5,
+          "region": "us"
+        },
+        {
+          "id": "6748287593",
+          "name": "Bother Bin: Stop Overthinking",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/45/f5/d3/45f5d35f-8a1b-0cb7-35fb-1bd94c8620b3/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "Health & Fitness",
+          "type": "free",
+          "page": "app/us-6748287593.html",
+          "rating": 5,
+          "region": "us"
+        },
+        {
+          "id": "6794880428",
+          "name": "Brown Noise Player",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a3/4c/44/a34c447b-fda7-db79-09e5-50e120a91d9f/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Health & Fitness",
+          "type": "free",
+          "page": "app/us-6794880428.html",
+          "rating": 5,
+          "region": "us"
+        },
+        {
+          "id": "6816500543",
+          "name": "BurnClub - Song Discovery",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/79/fc/42/79fc4221-4f67-a7cd-518e-cd7025551b76/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/512x512bb.jpg",
+          "genre": "Music",
+          "type": "free",
+          "page": "app/us-6816500543.html",
+          "rating": 5,
+          "region": "us"
+        },
+        {
+          "id": "6757181256",
+          "name": "Byondbites",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/37/1b/53/371b53b9-4d21-69ff-cdbb-a238216fe23f/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Food & Drink",
+          "type": "free",
+          "page": "app/us-6757181256.html",
+          "rating": 5,
+          "region": "us"
+        },
+        {
+          "id": "6759512718",
+          "name": "Cadre Contacts",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/da/1b/22/da1b2227-b305-2c59-1431-6c49e5764f3d/Cadre-0-0-1x_U007epad-0-0-0-1-0-85-220.png/512x512bb.jpg",
+          "genre": "Productivity",
+          "type": "free",
+          "page": "app/us-6759512718.html",
+          "rating": 5,
+          "region": "us"
+        },
+        {
+          "id": "6818876548",
+          "name": "Calpaper: Lock Screen Calendar",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a0/14/bb/a014bb77-ddc2-e8a9-6342-00c6373c45fe/AppIcon-BurntOrange-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Productivity",
+          "type": "free",
+          "page": "app/us-6818876548.html",
+          "rating": 5,
+          "region": "us"
+        },
+        {
+          "id": "6760746571",
+          "name": "Chronometer : World Clock",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ba/c0/d7/bac0d778-d9ed-2d68-fc1d-52d6563277ed/AppIcon-0-1x_U007epad-0-1-85-220-0.png/512x512bb.jpg",
+          "genre": "Utilities",
+          "type": "free",
+          "page": "app/us-6760746571.html",
+          "rating": 5,
+          "region": "us"
+        },
+        {
+          "id": "1528924256",
+          "name": "Dad Jokes Battle",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/87/e2/70/87e27001-9bf5-2d60-30d7-71ac42fba2a9/AppIcon-0-0-1x_U007ephone-0-1-P3-85-220.png/512x512bb.jpg",
+          "genre": "Games",
+          "type": "free",
+          "page": "app/us-1528924256.html",
+          "rating": 5,
+          "region": "us"
+        },
+        {
+          "id": "6809958215",
+          "name": "El Niño Forecast",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/71/df/32/71df3200-c630-14f3-69d4-5118bb831dd5/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Weather",
+          "type": "free",
+          "page": "app/us-6809958215.html",
+          "rating": 5,
+          "region": "us"
+        },
+        {
+          "id": "6757487778",
+          "name": "Frog Date",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/33/2d/b6/332db6fb-f69b-ea13-839e-c3403849a345/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Lifestyle",
+          "type": "free",
+          "page": "app/us-6757487778.html",
+          "rating": 5,
+          "region": "us"
+        },
+        {
+          "id": "6799973308",
+          "name": "Galplay: Visual Novel Player",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8f/fa/e2/8ffae28d-aafb-9c1d-f096-df7dc370d73f/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+          "genre": "Utilities",
+          "type": "free",
+          "page": "app/us-6799973308.html",
+          "rating": 5,
+          "region": "us"
+        },
+        {
+          "id": "1489039761",
+          "name": "I Like Colors: Toddler Games",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6e/97/67/6e976730-e63c-a2f9-dcf3-8c2d0bcf9575/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Education",
+          "type": "free",
+          "page": "app/us-1489039761.html",
+          "rating": 5,
+          "region": "us"
+        },
+        {
+          "id": "6781424540",
+          "name": "Inner Tempo: Breathing Pacer",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0f/24/18/0f24189d-d773-5a1c-27c3-36b0ecd720e7/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Health & Fitness",
+          "type": "free",
+          "page": "app/us-6781424540.html",
+          "rating": 5,
+          "region": "us"
+        },
+        {
+          "id": "1059257184",
+          "name": "JackArcher",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c4/fd/79/c4fd797e-c35b-96dd-329f-7dc07f85a903/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+          "genre": "Games",
+          "type": "free",
+          "page": "app/us-1059257184.html",
           "rating": 5,
           "region": "us"
         }
       ],
-      "page": "app/us-1534337551.html"
+      "page": "app/us-6812764518.html"
     },
     {
       "id": "6757696281",
@@ -13674,7 +13910,7 @@
       "genre": "Lifestyle",
       "normal": "$0.99",
       "current": "Free",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/eb/63/6f/eb636f8d-2d5c-6537-f4e5-18abeadc0e7e/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d5/23/3d/d5233d84-5525-8493-3846-dd612b468d33/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
       "rating": 4.5,
       "url": "https://apps.apple.com/us/app/dead-mans-switch-check-in/id6757696281?uo=4",
       "region": "us",
@@ -13722,7 +13958,17 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-6814895663.html",
-          "rating": 4.61111,
+          "rating": 4.63157,
+          "region": "us"
+        },
+        {
+          "id": "6798535320",
+          "name": "Line Distribution",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/a9/42/79a94210-9310-4a1b-3d93-20179e9bd1dd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Entertainment",
+          "type": "deal",
+          "page": "app/us-6798535320.html",
+          "rating": 3.75,
           "region": "us"
         },
         {
@@ -13882,16 +14128,6 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-1059257184.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "6755447020",
-          "name": "Mahjong Calculator (American)",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e8/a5/d7/e8a5d775-3788-4cb4-43b4-43edaf01cb75/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Games",
-          "type": "free",
-          "page": "app/us-6755447020.html",
           "rating": 5,
           "region": "us"
         }
@@ -13953,7 +14189,17 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-6814895663.html",
-          "rating": 4.61111,
+          "rating": 4.63157,
+          "region": "us"
+        },
+        {
+          "id": "6798535320",
+          "name": "Line Distribution",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/a9/42/79a94210-9310-4a1b-3d93-20179e9bd1dd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Entertainment",
+          "type": "deal",
+          "page": "app/us-6798535320.html",
+          "rating": 3.75,
           "region": "us"
         },
         {
@@ -14113,16 +14359,6 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-1059257184.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "6755447020",
-          "name": "Mahjong Calculator (American)",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e8/a5/d7/e8a5d775-3788-4cb4-43b4-43edaf01cb75/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Games",
-          "type": "free",
-          "page": "app/us-6755447020.html",
           "rating": 5,
           "region": "us"
         }
@@ -14174,7 +14410,17 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-6814895663.html",
-          "rating": 4.61111,
+          "rating": 4.63157,
+          "region": "us"
+        },
+        {
+          "id": "6798535320",
+          "name": "Line Distribution",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/a9/42/79a94210-9310-4a1b-3d93-20179e9bd1dd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Entertainment",
+          "type": "deal",
+          "page": "app/us-6798535320.html",
+          "rating": 3.75,
           "region": "us"
         },
         {
@@ -14334,16 +14580,6 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-1059257184.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "6755447020",
-          "name": "Mahjong Calculator (American)",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e8/a5/d7/e8a5d775-3788-4cb4-43b4-43edaf01cb75/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Games",
-          "type": "free",
-          "page": "app/us-6755447020.html",
           "rating": 5,
           "region": "us"
         }
@@ -14395,7 +14631,17 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-6814895663.html",
-          "rating": 4.61111,
+          "rating": 4.63157,
+          "region": "us"
+        },
+        {
+          "id": "6798535320",
+          "name": "Line Distribution",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/a9/42/79a94210-9310-4a1b-3d93-20179e9bd1dd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Entertainment",
+          "type": "deal",
+          "page": "app/us-6798535320.html",
+          "rating": 3.75,
           "region": "us"
         },
         {
@@ -14557,16 +14803,6 @@
           "page": "app/us-1059257184.html",
           "rating": 5,
           "region": "us"
-        },
-        {
-          "id": "6755447020",
-          "name": "Mahjong Calculator (American)",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e8/a5/d7/e8a5d775-3788-4cb4-43b4-43edaf01cb75/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Games",
-          "type": "free",
-          "page": "app/us-6755447020.html",
-          "rating": 5,
-          "region": "us"
         }
       ],
       "page": "app/us-1527841661.html"
@@ -14579,7 +14815,7 @@
       "normal": "$4.99",
       "current": "Free",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1c/13/e9/1c13e959-cc90-b8d2-32eb-06e0dfc5d63c/AppIcon-new-0-0-1x_U007epad-0-0-0-1-0-0-P3-85-220.png/512x512bb.jpg",
-      "rating": 4.43694,
+      "rating": 4.44144,
       "url": "https://apps.apple.com/us/app/multitrack-daw/id329322101?uo=4",
       "region": "us",
       "type": "free",
@@ -14631,7 +14867,17 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-6814895663.html",
-          "rating": 4.61111,
+          "rating": 4.63157,
+          "region": "us"
+        },
+        {
+          "id": "6798535320",
+          "name": "Line Distribution",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/a9/42/79a94210-9310-4a1b-3d93-20179e9bd1dd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Entertainment",
+          "type": "deal",
+          "page": "app/us-6798535320.html",
+          "rating": 3.75,
           "region": "us"
         },
         {
@@ -14791,16 +15037,6 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-1059257184.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "6755447020",
-          "name": "Mahjong Calculator (American)",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e8/a5/d7/e8a5d775-3788-4cb4-43b4-43edaf01cb75/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Games",
-          "type": "free",
-          "page": "app/us-6755447020.html",
           "rating": 5,
           "region": "us"
         }
@@ -14867,7 +15103,17 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-6814895663.html",
-          "rating": 4.61111,
+          "rating": 4.63157,
+          "region": "us"
+        },
+        {
+          "id": "6798535320",
+          "name": "Line Distribution",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/a9/42/79a94210-9310-4a1b-3d93-20179e9bd1dd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Entertainment",
+          "type": "deal",
+          "page": "app/us-6798535320.html",
+          "rating": 3.75,
           "region": "us"
         },
         {
@@ -15027,16 +15273,6 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-1059257184.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "6755447020",
-          "name": "Mahjong Calculator (American)",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e8/a5/d7/e8a5d775-3788-4cb4-43b4-43edaf01cb75/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Games",
-          "type": "free",
-          "page": "app/us-6755447020.html",
           "rating": 5,
           "region": "us"
         }
@@ -15088,7 +15324,17 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-6814895663.html",
-          "rating": 4.61111,
+          "rating": 4.63157,
+          "region": "us"
+        },
+        {
+          "id": "6798535320",
+          "name": "Line Distribution",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/a9/42/79a94210-9310-4a1b-3d93-20179e9bd1dd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Entertainment",
+          "type": "deal",
+          "page": "app/us-6798535320.html",
+          "rating": 3.75,
           "region": "us"
         },
         {
@@ -15248,16 +15494,6 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-1059257184.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "6755447020",
-          "name": "Mahjong Calculator (American)",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e8/a5/d7/e8a5d775-3788-4cb4-43b4-43edaf01cb75/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Games",
-          "type": "free",
-          "page": "app/us-6755447020.html",
           "rating": 5,
           "region": "us"
         }
@@ -15324,7 +15560,17 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-6814895663.html",
-          "rating": 4.61111,
+          "rating": 4.63157,
+          "region": "us"
+        },
+        {
+          "id": "6798535320",
+          "name": "Line Distribution",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/a9/42/79a94210-9310-4a1b-3d93-20179e9bd1dd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Entertainment",
+          "type": "deal",
+          "page": "app/us-6798535320.html",
+          "rating": 3.75,
           "region": "us"
         },
         {
@@ -15484,16 +15730,6 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-1059257184.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "6755447020",
-          "name": "Mahjong Calculator (American)",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e8/a5/d7/e8a5d775-3788-4cb4-43b4-43edaf01cb75/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Games",
-          "type": "free",
-          "page": "app/us-6755447020.html",
           "rating": 5,
           "region": "us"
         }
@@ -15560,7 +15796,17 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-6814895663.html",
-          "rating": 4.61111,
+          "rating": 4.63157,
+          "region": "us"
+        },
+        {
+          "id": "6798535320",
+          "name": "Line Distribution",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/a9/42/79a94210-9310-4a1b-3d93-20179e9bd1dd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Entertainment",
+          "type": "deal",
+          "page": "app/us-6798535320.html",
+          "rating": 3.75,
           "region": "us"
         },
         {
@@ -15720,257 +15966,11 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-1059257184.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "6755447020",
-          "name": "Mahjong Calculator (American)",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e8/a5/d7/e8a5d775-3788-4cb4-43b4-43edaf01cb75/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Games",
-          "type": "free",
-          "page": "app/us-6755447020.html",
           "rating": 5,
           "region": "us"
         }
       ],
       "page": "app/us-1565641091.html"
-    },
-    {
-      "id": "6812764518",
-      "name": "Calc Plus - Calculator",
-      "dev": "Neue Software",
-      "genre": "Utilities",
-      "normal": "$0.99",
-      "current": "Free",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/69/4f/dc/694fdca1-164f-cdd8-4355-76d6b2a5f8c1/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-      "rating": 4.33333,
-      "url": "https://apps.apple.com/us/app/calc-plus-calculator/id6812764518?uo=4",
-      "region": "us",
-      "type": "free",
-      "is_new": false,
-      "series": [
-        0.99,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "phistory": [
-        {
-          "d": "2026-10-19",
-          "p": 0.99
-        },
-        {
-          "d": "2026-10-20",
-          "p": 0
-        },
-        {
-          "d": "2026-10-21",
-          "p": 0
-        },
-        {
-          "d": "2026-10-22",
-          "p": 0
-        },
-        {
-          "d": "2026-10-23",
-          "p": 0
-        },
-        {
-          "d": "2026-10-24",
-          "p": 0
-        },
-        {
-          "d": "2026-10-25",
-          "p": 0
-        }
-      ],
-      "rel": [
-        {
-          "id": "6814895663",
-          "name": "Bash Multiplayer Party",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3e/11/ea/3e11ea4f-7f0a-01fc-90b8-65597fcb331f/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Games",
-          "type": "free",
-          "page": "app/us-6814895663.html",
-          "rating": 4.61111,
-          "region": "us"
-        },
-        {
-          "id": "6757513032",
-          "name": "AiGoodbye",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bd/c1/41/bdc141cf-74fe-4cba-fc21-4ad7f53d9ddf/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Utilities",
-          "type": "free",
-          "page": "app/us-6757513032.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "6769670290",
-          "name": "Bedtime Stories: Gato and Blue",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d5/8f/59/d58f59e5-3dd6-0a73-159c-b096284ff9e3/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Books",
-          "type": "deal",
-          "page": "app/us-6769670290.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "6748287593",
-          "name": "Bother Bin: Stop Overthinking",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/45/f5/d3/45f5d35f-8a1b-0cb7-35fb-1bd94c8620b3/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-          "genre": "Health & Fitness",
-          "type": "free",
-          "page": "app/us-6748287593.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "6794880428",
-          "name": "Brown Noise Player",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a3/4c/44/a34c447b-fda7-db79-09e5-50e120a91d9f/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Health & Fitness",
-          "type": "free",
-          "page": "app/us-6794880428.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "6816500543",
-          "name": "BurnClub - Song Discovery",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/79/fc/42/79fc4221-4f67-a7cd-518e-cd7025551b76/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/512x512bb.jpg",
-          "genre": "Music",
-          "type": "free",
-          "page": "app/us-6816500543.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "6757181256",
-          "name": "Byondbites",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/37/1b/53/371b53b9-4d21-69ff-cdbb-a238216fe23f/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Food & Drink",
-          "type": "free",
-          "page": "app/us-6757181256.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "6759512718",
-          "name": "Cadre Contacts",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/da/1b/22/da1b2227-b305-2c59-1431-6c49e5764f3d/Cadre-0-0-1x_U007epad-0-0-0-1-0-85-220.png/512x512bb.jpg",
-          "genre": "Productivity",
-          "type": "free",
-          "page": "app/us-6759512718.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "6818876548",
-          "name": "Calpaper: Lock Screen Calendar",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a0/14/bb/a014bb77-ddc2-e8a9-6342-00c6373c45fe/AppIcon-BurntOrange-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Productivity",
-          "type": "free",
-          "page": "app/us-6818876548.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "6760746571",
-          "name": "Chronometer : World Clock",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ba/c0/d7/bac0d778-d9ed-2d68-fc1d-52d6563277ed/AppIcon-0-1x_U007epad-0-1-85-220-0.png/512x512bb.jpg",
-          "genre": "Utilities",
-          "type": "free",
-          "page": "app/us-6760746571.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "1528924256",
-          "name": "Dad Jokes Battle",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/87/e2/70/87e27001-9bf5-2d60-30d7-71ac42fba2a9/AppIcon-0-0-1x_U007ephone-0-1-P3-85-220.png/512x512bb.jpg",
-          "genre": "Games",
-          "type": "free",
-          "page": "app/us-1528924256.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "6809958215",
-          "name": "El Niño Forecast",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/71/df/32/71df3200-c630-14f3-69d4-5118bb831dd5/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Weather",
-          "type": "free",
-          "page": "app/us-6809958215.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "6757487778",
-          "name": "Frog Date",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/33/2d/b6/332db6fb-f69b-ea13-839e-c3403849a345/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Lifestyle",
-          "type": "free",
-          "page": "app/us-6757487778.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "6799973308",
-          "name": "Galplay: Visual Novel Player",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8f/fa/e2/8ffae28d-aafb-9c1d-f096-df7dc370d73f/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
-          "genre": "Utilities",
-          "type": "free",
-          "page": "app/us-6799973308.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "1489039761",
-          "name": "I Like Colors: Toddler Games",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6e/97/67/6e976730-e63c-a2f9-dcf3-8c2d0bcf9575/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Education",
-          "type": "free",
-          "page": "app/us-1489039761.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "6781424540",
-          "name": "Inner Tempo: Breathing Pacer",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0f/24/18/0f24189d-d773-5a1c-27c3-36b0ecd720e7/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Health & Fitness",
-          "type": "free",
-          "page": "app/us-6781424540.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "1059257184",
-          "name": "JackArcher",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c4/fd/79/c4fd797e-c35b-96dd-329f-7dc07f85a903/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
-          "genre": "Games",
-          "type": "free",
-          "page": "app/us-1059257184.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "6755447020",
-          "name": "Mahjong Calculator (American)",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e8/a5/d7/e8a5d775-3788-4cb4-43b4-43edaf01cb75/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Games",
-          "type": "free",
-          "page": "app/us-6755447020.html",
-          "rating": 5,
-          "region": "us"
-        }
-      ],
-      "page": "app/us-6812764518.html"
     },
     {
       "id": "1438149621",
@@ -16017,7 +16017,17 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-6814895663.html",
-          "rating": 4.61111,
+          "rating": 4.63157,
+          "region": "us"
+        },
+        {
+          "id": "6798535320",
+          "name": "Line Distribution",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/a9/42/79a94210-9310-4a1b-3d93-20179e9bd1dd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Entertainment",
+          "type": "deal",
+          "page": "app/us-6798535320.html",
+          "rating": 3.75,
           "region": "us"
         },
         {
@@ -16177,16 +16187,6 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-1059257184.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "6755447020",
-          "name": "Mahjong Calculator (American)",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e8/a5/d7/e8a5d775-3788-4cb4-43b4-43edaf01cb75/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Games",
-          "type": "free",
-          "page": "app/us-6755447020.html",
           "rating": 5,
           "region": "us"
         }
@@ -16248,7 +16248,17 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-6814895663.html",
-          "rating": 4.61111,
+          "rating": 4.63157,
+          "region": "us"
+        },
+        {
+          "id": "6798535320",
+          "name": "Line Distribution",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/a9/42/79a94210-9310-4a1b-3d93-20179e9bd1dd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Entertainment",
+          "type": "deal",
+          "page": "app/us-6798535320.html",
+          "rating": 3.75,
           "region": "us"
         },
         {
@@ -16408,16 +16418,6 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-1059257184.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "6755447020",
-          "name": "Mahjong Calculator (American)",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e8/a5/d7/e8a5d775-3788-4cb4-43b4-43edaf01cb75/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Games",
-          "type": "free",
-          "page": "app/us-6755447020.html",
           "rating": 5,
           "region": "us"
         }
@@ -16484,7 +16484,17 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-6814895663.html",
-          "rating": 4.61111,
+          "rating": 4.63157,
+          "region": "us"
+        },
+        {
+          "id": "6798535320",
+          "name": "Line Distribution",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/a9/42/79a94210-9310-4a1b-3d93-20179e9bd1dd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Entertainment",
+          "type": "deal",
+          "page": "app/us-6798535320.html",
+          "rating": 3.75,
           "region": "us"
         },
         {
@@ -16644,16 +16654,6 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-1059257184.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "6755447020",
-          "name": "Mahjong Calculator (American)",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e8/a5/d7/e8a5d775-3788-4cb4-43b4-43edaf01cb75/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Games",
-          "type": "free",
-          "page": "app/us-6755447020.html",
           "rating": 5,
           "region": "us"
         }
@@ -16720,7 +16720,17 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-6814895663.html",
-          "rating": 4.61111,
+          "rating": 4.63157,
+          "region": "us"
+        },
+        {
+          "id": "6798535320",
+          "name": "Line Distribution",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/a9/42/79a94210-9310-4a1b-3d93-20179e9bd1dd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Entertainment",
+          "type": "deal",
+          "page": "app/us-6798535320.html",
+          "rating": 3.75,
           "region": "us"
         },
         {
@@ -16880,16 +16890,6 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-1059257184.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "6755447020",
-          "name": "Mahjong Calculator (American)",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e8/a5/d7/e8a5d775-3788-4cb4-43b4-43edaf01cb75/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Games",
-          "type": "free",
-          "page": "app/us-6755447020.html",
           "rating": 5,
           "region": "us"
         }
@@ -16956,7 +16956,17 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-6814895663.html",
-          "rating": 4.61111,
+          "rating": 4.63157,
+          "region": "us"
+        },
+        {
+          "id": "6798535320",
+          "name": "Line Distribution",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/a9/42/79a94210-9310-4a1b-3d93-20179e9bd1dd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Entertainment",
+          "type": "deal",
+          "page": "app/us-6798535320.html",
+          "rating": 3.75,
           "region": "us"
         },
         {
@@ -17116,16 +17126,6 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-1059257184.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "6755447020",
-          "name": "Mahjong Calculator (American)",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e8/a5/d7/e8a5d775-3788-4cb4-43b4-43edaf01cb75/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Games",
-          "type": "free",
-          "page": "app/us-6755447020.html",
           "rating": 5,
           "region": "us"
         }
@@ -17192,7 +17192,17 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-6814895663.html",
-          "rating": 4.61111,
+          "rating": 4.63157,
+          "region": "us"
+        },
+        {
+          "id": "6798535320",
+          "name": "Line Distribution",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/a9/42/79a94210-9310-4a1b-3d93-20179e9bd1dd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Entertainment",
+          "type": "deal",
+          "page": "app/us-6798535320.html",
+          "rating": 3.75,
           "region": "us"
         },
         {
@@ -17352,16 +17362,6 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-1059257184.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "6755447020",
-          "name": "Mahjong Calculator (American)",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e8/a5/d7/e8a5d775-3788-4cb4-43b4-43edaf01cb75/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Games",
-          "type": "free",
-          "page": "app/us-6755447020.html",
           "rating": 5,
           "region": "us"
         }
@@ -17413,7 +17413,17 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-6814895663.html",
-          "rating": 4.61111,
+          "rating": 4.63157,
+          "region": "us"
+        },
+        {
+          "id": "6798535320",
+          "name": "Line Distribution",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/a9/42/79a94210-9310-4a1b-3d93-20179e9bd1dd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Entertainment",
+          "type": "deal",
+          "page": "app/us-6798535320.html",
+          "rating": 3.75,
           "region": "us"
         },
         {
@@ -17573,16 +17583,6 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-1059257184.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "6755447020",
-          "name": "Mahjong Calculator (American)",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e8/a5/d7/e8a5d775-3788-4cb4-43b4-43edaf01cb75/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Games",
-          "type": "free",
-          "page": "app/us-6755447020.html",
           "rating": 5,
           "region": "us"
         }
@@ -17649,7 +17649,17 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-6814895663.html",
-          "rating": 4.61111,
+          "rating": 4.63157,
+          "region": "us"
+        },
+        {
+          "id": "6798535320",
+          "name": "Line Distribution",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/a9/42/79a94210-9310-4a1b-3d93-20179e9bd1dd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Entertainment",
+          "type": "deal",
+          "page": "app/us-6798535320.html",
+          "rating": 3.75,
           "region": "us"
         },
         {
@@ -17809,16 +17819,6 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-1059257184.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "6755447020",
-          "name": "Mahjong Calculator (American)",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e8/a5/d7/e8a5d775-3788-4cb4-43b4-43edaf01cb75/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Games",
-          "type": "free",
-          "page": "app/us-6755447020.html",
           "rating": 5,
           "region": "us"
         }
@@ -17870,7 +17870,17 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-6814895663.html",
-          "rating": 4.61111,
+          "rating": 4.63157,
+          "region": "us"
+        },
+        {
+          "id": "6798535320",
+          "name": "Line Distribution",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/a9/42/79a94210-9310-4a1b-3d93-20179e9bd1dd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Entertainment",
+          "type": "deal",
+          "page": "app/us-6798535320.html",
+          "rating": 3.75,
           "region": "us"
         },
         {
@@ -18030,16 +18040,6 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-1059257184.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "6755447020",
-          "name": "Mahjong Calculator (American)",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e8/a5/d7/e8a5d775-3788-4cb4-43b4-43edaf01cb75/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Games",
-          "type": "free",
-          "page": "app/us-6755447020.html",
           "rating": 5,
           "region": "us"
         }
@@ -18106,7 +18106,17 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-6814895663.html",
-          "rating": 4.61111,
+          "rating": 4.63157,
+          "region": "us"
+        },
+        {
+          "id": "6798535320",
+          "name": "Line Distribution",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/a9/42/79a94210-9310-4a1b-3d93-20179e9bd1dd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Entertainment",
+          "type": "deal",
+          "page": "app/us-6798535320.html",
+          "rating": 3.75,
           "region": "us"
         },
         {
@@ -18266,16 +18276,6 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-1059257184.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "6755447020",
-          "name": "Mahjong Calculator (American)",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e8/a5/d7/e8a5d775-3788-4cb4-43b4-43edaf01cb75/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Games",
-          "type": "free",
-          "page": "app/us-6755447020.html",
           "rating": 5,
           "region": "us"
         }
@@ -18337,7 +18337,17 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-6814895663.html",
-          "rating": 4.61111,
+          "rating": 4.63157,
+          "region": "us"
+        },
+        {
+          "id": "6798535320",
+          "name": "Line Distribution",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/a9/42/79a94210-9310-4a1b-3d93-20179e9bd1dd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Entertainment",
+          "type": "deal",
+          "page": "app/us-6798535320.html",
+          "rating": 3.75,
           "region": "us"
         },
         {
@@ -18497,16 +18507,6 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-1059257184.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "6755447020",
-          "name": "Mahjong Calculator (American)",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e8/a5/d7/e8a5d775-3788-4cb4-43b4-43edaf01cb75/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Games",
-          "type": "free",
-          "page": "app/us-6755447020.html",
           "rating": 5,
           "region": "us"
         }
@@ -18573,7 +18573,17 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-6814895663.html",
-          "rating": 4.61111,
+          "rating": 4.63157,
+          "region": "us"
+        },
+        {
+          "id": "6798535320",
+          "name": "Line Distribution",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/a9/42/79a94210-9310-4a1b-3d93-20179e9bd1dd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Entertainment",
+          "type": "deal",
+          "page": "app/us-6798535320.html",
+          "rating": 3.75,
           "region": "us"
         },
         {
@@ -18733,16 +18743,6 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-1059257184.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "6755447020",
-          "name": "Mahjong Calculator (American)",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e8/a5/d7/e8a5d775-3788-4cb4-43b4-43edaf01cb75/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Games",
-          "type": "free",
-          "page": "app/us-6755447020.html",
           "rating": 5,
           "region": "us"
         }
@@ -18794,7 +18794,17 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-6814895663.html",
-          "rating": 4.61111,
+          "rating": 4.63157,
+          "region": "us"
+        },
+        {
+          "id": "6798535320",
+          "name": "Line Distribution",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/a9/42/79a94210-9310-4a1b-3d93-20179e9bd1dd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Entertainment",
+          "type": "deal",
+          "page": "app/us-6798535320.html",
+          "rating": 3.75,
           "region": "us"
         },
         {
@@ -18954,16 +18964,6 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-1059257184.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "6755447020",
-          "name": "Mahjong Calculator (American)",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e8/a5/d7/e8a5d775-3788-4cb4-43b4-43edaf01cb75/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Games",
-          "type": "free",
-          "page": "app/us-6755447020.html",
           "rating": 5,
           "region": "us"
         }
@@ -19015,7 +19015,17 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-6814895663.html",
-          "rating": 4.61111,
+          "rating": 4.63157,
+          "region": "us"
+        },
+        {
+          "id": "6798535320",
+          "name": "Line Distribution",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/a9/42/79a94210-9310-4a1b-3d93-20179e9bd1dd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Entertainment",
+          "type": "deal",
+          "page": "app/us-6798535320.html",
+          "rating": 3.75,
           "region": "us"
         },
         {
@@ -19175,16 +19185,6 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-1059257184.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "6755447020",
-          "name": "Mahjong Calculator (American)",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e8/a5/d7/e8a5d775-3788-4cb4-43b4-43edaf01cb75/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Games",
-          "type": "free",
-          "page": "app/us-6755447020.html",
           "rating": 5,
           "region": "us"
         }
@@ -19236,7 +19236,17 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-6814895663.html",
-          "rating": 4.61111,
+          "rating": 4.63157,
+          "region": "us"
+        },
+        {
+          "id": "6798535320",
+          "name": "Line Distribution",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/a9/42/79a94210-9310-4a1b-3d93-20179e9bd1dd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Entertainment",
+          "type": "deal",
+          "page": "app/us-6798535320.html",
+          "rating": 3.75,
           "region": "us"
         },
         {
@@ -19396,16 +19406,6 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-1059257184.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "6755447020",
-          "name": "Mahjong Calculator (American)",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e8/a5/d7/e8a5d775-3788-4cb4-43b4-43edaf01cb75/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Games",
-          "type": "free",
-          "page": "app/us-6755447020.html",
           "rating": 5,
           "region": "us"
         }
@@ -19467,7 +19467,17 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-6814895663.html",
-          "rating": 4.61111,
+          "rating": 4.63157,
+          "region": "us"
+        },
+        {
+          "id": "6798535320",
+          "name": "Line Distribution",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/a9/42/79a94210-9310-4a1b-3d93-20179e9bd1dd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Entertainment",
+          "type": "deal",
+          "page": "app/us-6798535320.html",
+          "rating": 3.75,
           "region": "us"
         },
         {
@@ -19627,16 +19637,6 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-1059257184.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "6755447020",
-          "name": "Mahjong Calculator (American)",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e8/a5/d7/e8a5d775-3788-4cb4-43b4-43edaf01cb75/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Games",
-          "type": "free",
-          "page": "app/us-6755447020.html",
           "rating": 5,
           "region": "us"
         }
@@ -19703,7 +19703,17 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-6814895663.html",
-          "rating": 4.61111,
+          "rating": 4.63157,
+          "region": "us"
+        },
+        {
+          "id": "6798535320",
+          "name": "Line Distribution",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/a9/42/79a94210-9310-4a1b-3d93-20179e9bd1dd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Entertainment",
+          "type": "deal",
+          "page": "app/us-6798535320.html",
+          "rating": 3.75,
           "region": "us"
         },
         {
@@ -19863,16 +19873,6 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-1059257184.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "6755447020",
-          "name": "Mahjong Calculator (American)",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e8/a5/d7/e8a5d775-3788-4cb4-43b4-43edaf01cb75/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Games",
-          "type": "free",
-          "page": "app/us-6755447020.html",
           "rating": 5,
           "region": "us"
         }
@@ -19939,7 +19939,17 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-6814895663.html",
-          "rating": 4.61111,
+          "rating": 4.63157,
+          "region": "us"
+        },
+        {
+          "id": "6798535320",
+          "name": "Line Distribution",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/a9/42/79a94210-9310-4a1b-3d93-20179e9bd1dd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Entertainment",
+          "type": "deal",
+          "page": "app/us-6798535320.html",
+          "rating": 3.75,
           "region": "us"
         },
         {
@@ -20099,16 +20109,6 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-1059257184.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "6755447020",
-          "name": "Mahjong Calculator (American)",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e8/a5/d7/e8a5d775-3788-4cb4-43b4-43edaf01cb75/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Games",
-          "type": "free",
-          "page": "app/us-6755447020.html",
           "rating": 5,
           "region": "us"
         }
@@ -20175,7 +20175,17 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-6814895663.html",
-          "rating": 4.61111,
+          "rating": 4.63157,
+          "region": "us"
+        },
+        {
+          "id": "6798535320",
+          "name": "Line Distribution",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/a9/42/79a94210-9310-4a1b-3d93-20179e9bd1dd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Entertainment",
+          "type": "deal",
+          "page": "app/us-6798535320.html",
+          "rating": 3.75,
           "region": "us"
         },
         {
@@ -20335,16 +20345,6 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-1059257184.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "6755447020",
-          "name": "Mahjong Calculator (American)",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e8/a5/d7/e8a5d775-3788-4cb4-43b4-43edaf01cb75/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Games",
-          "type": "free",
-          "page": "app/us-6755447020.html",
           "rating": 5,
           "region": "us"
         }
@@ -20396,7 +20396,17 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-6814895663.html",
-          "rating": 4.61111,
+          "rating": 4.63157,
+          "region": "us"
+        },
+        {
+          "id": "6798535320",
+          "name": "Line Distribution",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/a9/42/79a94210-9310-4a1b-3d93-20179e9bd1dd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Entertainment",
+          "type": "deal",
+          "page": "app/us-6798535320.html",
+          "rating": 3.75,
           "region": "us"
         },
         {
@@ -20556,16 +20566,6 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-1059257184.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "6755447020",
-          "name": "Mahjong Calculator (American)",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e8/a5/d7/e8a5d775-3788-4cb4-43b4-43edaf01cb75/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Games",
-          "type": "free",
-          "page": "app/us-6755447020.html",
           "rating": 5,
           "region": "us"
         }
@@ -20632,7 +20632,17 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-6814895663.html",
-          "rating": 4.61111,
+          "rating": 4.63157,
+          "region": "us"
+        },
+        {
+          "id": "6798535320",
+          "name": "Line Distribution",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/a9/42/79a94210-9310-4a1b-3d93-20179e9bd1dd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Entertainment",
+          "type": "deal",
+          "page": "app/us-6798535320.html",
+          "rating": 3.75,
           "region": "us"
         },
         {
@@ -20792,16 +20802,6 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-1059257184.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "6755447020",
-          "name": "Mahjong Calculator (American)",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e8/a5/d7/e8a5d775-3788-4cb4-43b4-43edaf01cb75/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Games",
-          "type": "free",
-          "page": "app/us-6755447020.html",
           "rating": 5,
           "region": "us"
         }
@@ -20853,7 +20853,17 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-6814895663.html",
-          "rating": 4.61111,
+          "rating": 4.63157,
+          "region": "us"
+        },
+        {
+          "id": "6798535320",
+          "name": "Line Distribution",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/a9/42/79a94210-9310-4a1b-3d93-20179e9bd1dd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Entertainment",
+          "type": "deal",
+          "page": "app/us-6798535320.html",
+          "rating": 3.75,
           "region": "us"
         },
         {
@@ -21013,16 +21023,6 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-1059257184.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "6755447020",
-          "name": "Mahjong Calculator (American)",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e8/a5/d7/e8a5d775-3788-4cb4-43b4-43edaf01cb75/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Games",
-          "type": "free",
-          "page": "app/us-6755447020.html",
           "rating": 5,
           "region": "us"
         }
@@ -21089,7 +21089,17 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-6814895663.html",
-          "rating": 4.61111,
+          "rating": 4.63157,
+          "region": "us"
+        },
+        {
+          "id": "6798535320",
+          "name": "Line Distribution",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/a9/42/79a94210-9310-4a1b-3d93-20179e9bd1dd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Entertainment",
+          "type": "deal",
+          "page": "app/us-6798535320.html",
+          "rating": 3.75,
           "region": "us"
         },
         {
@@ -21249,16 +21259,6 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-1059257184.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "6755447020",
-          "name": "Mahjong Calculator (American)",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e8/a5/d7/e8a5d775-3788-4cb4-43b4-43edaf01cb75/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Games",
-          "type": "free",
-          "page": "app/us-6755447020.html",
           "rating": 5,
           "region": "us"
         }
@@ -21325,7 +21325,17 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-6814895663.html",
-          "rating": 4.61111,
+          "rating": 4.63157,
+          "region": "us"
+        },
+        {
+          "id": "6798535320",
+          "name": "Line Distribution",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/a9/42/79a94210-9310-4a1b-3d93-20179e9bd1dd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Entertainment",
+          "type": "deal",
+          "page": "app/us-6798535320.html",
+          "rating": 3.75,
           "region": "us"
         },
         {
@@ -21485,16 +21495,6 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-1059257184.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "6755447020",
-          "name": "Mahjong Calculator (American)",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e8/a5/d7/e8a5d775-3788-4cb4-43b4-43edaf01cb75/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Games",
-          "type": "free",
-          "page": "app/us-6755447020.html",
           "rating": 5,
           "region": "us"
         }
@@ -21556,7 +21556,17 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-6814895663.html",
-          "rating": 4.61111,
+          "rating": 4.63157,
+          "region": "us"
+        },
+        {
+          "id": "6798535320",
+          "name": "Line Distribution",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/a9/42/79a94210-9310-4a1b-3d93-20179e9bd1dd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Entertainment",
+          "type": "deal",
+          "page": "app/us-6798535320.html",
+          "rating": 3.75,
           "region": "us"
         },
         {
@@ -21716,16 +21726,6 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-1059257184.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "6755447020",
-          "name": "Mahjong Calculator (American)",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e8/a5/d7/e8a5d775-3788-4cb4-43b4-43edaf01cb75/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Games",
-          "type": "free",
-          "page": "app/us-6755447020.html",
           "rating": 5,
           "region": "us"
         }
@@ -21792,7 +21792,17 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-6814895663.html",
-          "rating": 4.61111,
+          "rating": 4.63157,
+          "region": "us"
+        },
+        {
+          "id": "6798535320",
+          "name": "Line Distribution",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/a9/42/79a94210-9310-4a1b-3d93-20179e9bd1dd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Entertainment",
+          "type": "deal",
+          "page": "app/us-6798535320.html",
+          "rating": 3.75,
           "region": "us"
         },
         {
@@ -21952,16 +21962,6 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-1059257184.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "6755447020",
-          "name": "Mahjong Calculator (American)",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e8/a5/d7/e8a5d775-3788-4cb4-43b4-43edaf01cb75/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Games",
-          "type": "free",
-          "page": "app/us-6755447020.html",
           "rating": 5,
           "region": "us"
         }
@@ -22028,7 +22028,17 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-6814895663.html",
-          "rating": 4.61111,
+          "rating": 4.63157,
+          "region": "us"
+        },
+        {
+          "id": "6798535320",
+          "name": "Line Distribution",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/a9/42/79a94210-9310-4a1b-3d93-20179e9bd1dd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Entertainment",
+          "type": "deal",
+          "page": "app/us-6798535320.html",
+          "rating": 3.75,
           "region": "us"
         },
         {
@@ -22188,16 +22198,6 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-1059257184.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "6755447020",
-          "name": "Mahjong Calculator (American)",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e8/a5/d7/e8a5d775-3788-4cb4-43b4-43edaf01cb75/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Games",
-          "type": "free",
-          "page": "app/us-6755447020.html",
           "rating": 5,
           "region": "us"
         }
@@ -22264,7 +22264,17 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-6814895663.html",
-          "rating": 4.61111,
+          "rating": 4.63157,
+          "region": "us"
+        },
+        {
+          "id": "6798535320",
+          "name": "Line Distribution",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/a9/42/79a94210-9310-4a1b-3d93-20179e9bd1dd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Entertainment",
+          "type": "deal",
+          "page": "app/us-6798535320.html",
+          "rating": 3.75,
           "region": "us"
         },
         {
@@ -22424,16 +22434,6 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-1059257184.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "6755447020",
-          "name": "Mahjong Calculator (American)",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e8/a5/d7/e8a5d775-3788-4cb4-43b4-43edaf01cb75/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Games",
-          "type": "free",
-          "page": "app/us-6755447020.html",
           "rating": 5,
           "region": "us"
         }
@@ -22485,7 +22485,17 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-6814895663.html",
-          "rating": 4.61111,
+          "rating": 4.63157,
+          "region": "us"
+        },
+        {
+          "id": "6798535320",
+          "name": "Line Distribution",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/a9/42/79a94210-9310-4a1b-3d93-20179e9bd1dd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Entertainment",
+          "type": "deal",
+          "page": "app/us-6798535320.html",
+          "rating": 3.75,
           "region": "us"
         },
         {
@@ -22645,16 +22655,6 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-1059257184.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "6755447020",
-          "name": "Mahjong Calculator (American)",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e8/a5/d7/e8a5d775-3788-4cb4-43b4-43edaf01cb75/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Games",
-          "type": "free",
-          "page": "app/us-6755447020.html",
           "rating": 5,
           "region": "us"
         }
@@ -22706,7 +22706,17 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-6814895663.html",
-          "rating": 4.61111,
+          "rating": 4.63157,
+          "region": "us"
+        },
+        {
+          "id": "6798535320",
+          "name": "Line Distribution",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/a9/42/79a94210-9310-4a1b-3d93-20179e9bd1dd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Entertainment",
+          "type": "deal",
+          "page": "app/us-6798535320.html",
+          "rating": 3.75,
           "region": "us"
         },
         {
@@ -22866,16 +22876,6 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-1059257184.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "6755447020",
-          "name": "Mahjong Calculator (American)",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e8/a5/d7/e8a5d775-3788-4cb4-43b4-43edaf01cb75/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Games",
-          "type": "free",
-          "page": "app/us-6755447020.html",
           "rating": 5,
           "region": "us"
         }
@@ -22927,7 +22927,17 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-6814895663.html",
-          "rating": 4.61111,
+          "rating": 4.63157,
+          "region": "us"
+        },
+        {
+          "id": "6798535320",
+          "name": "Line Distribution",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/a9/42/79a94210-9310-4a1b-3d93-20179e9bd1dd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Entertainment",
+          "type": "deal",
+          "page": "app/us-6798535320.html",
+          "rating": 3.75,
           "region": "us"
         },
         {
@@ -23087,16 +23097,6 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-1059257184.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "6755447020",
-          "name": "Mahjong Calculator (American)",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e8/a5/d7/e8a5d775-3788-4cb4-43b4-43edaf01cb75/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Games",
-          "type": "free",
-          "page": "app/us-6755447020.html",
           "rating": 5,
           "region": "us"
         }
@@ -23163,7 +23163,17 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-6814895663.html",
-          "rating": 4.61111,
+          "rating": 4.63157,
+          "region": "us"
+        },
+        {
+          "id": "6798535320",
+          "name": "Line Distribution",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/a9/42/79a94210-9310-4a1b-3d93-20179e9bd1dd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Entertainment",
+          "type": "deal",
+          "page": "app/us-6798535320.html",
+          "rating": 3.75,
           "region": "us"
         },
         {
@@ -23323,16 +23333,6 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-1059257184.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "6755447020",
-          "name": "Mahjong Calculator (American)",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e8/a5/d7/e8a5d775-3788-4cb4-43b4-43edaf01cb75/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Games",
-          "type": "free",
-          "page": "app/us-6755447020.html",
           "rating": 5,
           "region": "us"
         }
@@ -23394,7 +23394,240 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-6814895663.html",
-          "rating": 4.61111,
+          "rating": 4.63157,
+          "region": "us"
+        },
+        {
+          "id": "6798535320",
+          "name": "Line Distribution",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/a9/42/79a94210-9310-4a1b-3d93-20179e9bd1dd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Entertainment",
+          "type": "deal",
+          "page": "app/us-6798535320.html",
+          "rating": 3.75,
+          "region": "us"
+        },
+        {
+          "id": "6757513032",
+          "name": "AiGoodbye",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bd/c1/41/bdc141cf-74fe-4cba-fc21-4ad7f53d9ddf/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Utilities",
+          "type": "free",
+          "page": "app/us-6757513032.html",
+          "rating": 5,
+          "region": "us"
+        },
+        {
+          "id": "6769670290",
+          "name": "Bedtime Stories: Gato and Blue",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d5/8f/59/d58f59e5-3dd6-0a73-159c-b096284ff9e3/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Books",
+          "type": "deal",
+          "page": "app/us-6769670290.html",
+          "rating": 5,
+          "region": "us"
+        },
+        {
+          "id": "6748287593",
+          "name": "Bother Bin: Stop Overthinking",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/45/f5/d3/45f5d35f-8a1b-0cb7-35fb-1bd94c8620b3/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "Health & Fitness",
+          "type": "free",
+          "page": "app/us-6748287593.html",
+          "rating": 5,
+          "region": "us"
+        },
+        {
+          "id": "6794880428",
+          "name": "Brown Noise Player",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a3/4c/44/a34c447b-fda7-db79-09e5-50e120a91d9f/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Health & Fitness",
+          "type": "free",
+          "page": "app/us-6794880428.html",
+          "rating": 5,
+          "region": "us"
+        },
+        {
+          "id": "6816500543",
+          "name": "BurnClub - Song Discovery",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/79/fc/42/79fc4221-4f67-a7cd-518e-cd7025551b76/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/512x512bb.jpg",
+          "genre": "Music",
+          "type": "free",
+          "page": "app/us-6816500543.html",
+          "rating": 5,
+          "region": "us"
+        },
+        {
+          "id": "6757181256",
+          "name": "Byondbites",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/37/1b/53/371b53b9-4d21-69ff-cdbb-a238216fe23f/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Food & Drink",
+          "type": "free",
+          "page": "app/us-6757181256.html",
+          "rating": 5,
+          "region": "us"
+        },
+        {
+          "id": "6759512718",
+          "name": "Cadre Contacts",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/da/1b/22/da1b2227-b305-2c59-1431-6c49e5764f3d/Cadre-0-0-1x_U007epad-0-0-0-1-0-85-220.png/512x512bb.jpg",
+          "genre": "Productivity",
+          "type": "free",
+          "page": "app/us-6759512718.html",
+          "rating": 5,
+          "region": "us"
+        },
+        {
+          "id": "6818876548",
+          "name": "Calpaper: Lock Screen Calendar",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a0/14/bb/a014bb77-ddc2-e8a9-6342-00c6373c45fe/AppIcon-BurntOrange-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Productivity",
+          "type": "free",
+          "page": "app/us-6818876548.html",
+          "rating": 5,
+          "region": "us"
+        },
+        {
+          "id": "6760746571",
+          "name": "Chronometer : World Clock",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ba/c0/d7/bac0d778-d9ed-2d68-fc1d-52d6563277ed/AppIcon-0-1x_U007epad-0-1-85-220-0.png/512x512bb.jpg",
+          "genre": "Utilities",
+          "type": "free",
+          "page": "app/us-6760746571.html",
+          "rating": 5,
+          "region": "us"
+        },
+        {
+          "id": "1528924256",
+          "name": "Dad Jokes Battle",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/87/e2/70/87e27001-9bf5-2d60-30d7-71ac42fba2a9/AppIcon-0-0-1x_U007ephone-0-1-P3-85-220.png/512x512bb.jpg",
+          "genre": "Games",
+          "type": "free",
+          "page": "app/us-1528924256.html",
+          "rating": 5,
+          "region": "us"
+        },
+        {
+          "id": "6809958215",
+          "name": "El Niño Forecast",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/71/df/32/71df3200-c630-14f3-69d4-5118bb831dd5/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Weather",
+          "type": "free",
+          "page": "app/us-6809958215.html",
+          "rating": 5,
+          "region": "us"
+        },
+        {
+          "id": "6757487778",
+          "name": "Frog Date",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/33/2d/b6/332db6fb-f69b-ea13-839e-c3403849a345/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Lifestyle",
+          "type": "free",
+          "page": "app/us-6757487778.html",
+          "rating": 5,
+          "region": "us"
+        },
+        {
+          "id": "6799973308",
+          "name": "Galplay: Visual Novel Player",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8f/fa/e2/8ffae28d-aafb-9c1d-f096-df7dc370d73f/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+          "genre": "Utilities",
+          "type": "free",
+          "page": "app/us-6799973308.html",
+          "rating": 5,
+          "region": "us"
+        },
+        {
+          "id": "1489039761",
+          "name": "I Like Colors: Toddler Games",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6e/97/67/6e976730-e63c-a2f9-dcf3-8c2d0bcf9575/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Education",
+          "type": "free",
+          "page": "app/us-1489039761.html",
+          "rating": 5,
+          "region": "us"
+        },
+        {
+          "id": "6781424540",
+          "name": "Inner Tempo: Breathing Pacer",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0f/24/18/0f24189d-d773-5a1c-27c3-36b0ecd720e7/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Health & Fitness",
+          "type": "free",
+          "page": "app/us-6781424540.html",
+          "rating": 5,
+          "region": "us"
+        },
+        {
+          "id": "1059257184",
+          "name": "JackArcher",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c4/fd/79/c4fd797e-c35b-96dd-329f-7dc07f85a903/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+          "genre": "Games",
+          "type": "free",
+          "page": "app/us-1059257184.html",
+          "rating": 5,
+          "region": "us"
+        }
+      ],
+      "page": "app/us-6639616071.html"
+    }
+  ],
+  "deals": [
+    {
+      "id": "6798535320",
+      "name": "Line Distribution",
+      "dev": "新科 张",
+      "genre": "Entertainment",
+      "normal": "$5.99",
+      "current": "$2.99",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/a9/42/79a94210-9310-4a1b-3d93-20179e9bd1dd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "rating": 3.75,
+      "url": "https://apps.apple.com/us/app/line-distribution/id6798535320?uo=4",
+      "region": "us",
+      "type": "deal",
+      "is_new": true,
+      "series": [
+        5.99,
+        5.99,
+        5.99,
+        5.99,
+        5.99,
+        2.99
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-20",
+          "p": 5.99
+        },
+        {
+          "d": "2026-10-21",
+          "p": 5.99
+        },
+        {
+          "d": "2026-10-22",
+          "p": 5.99
+        },
+        {
+          "d": "2026-10-23",
+          "p": 5.99
+        },
+        {
+          "d": "2026-10-24",
+          "p": 5.99
+        },
+        {
+          "d": "2026-10-25",
+          "p": 2.99
+        }
+      ],
+      "rel": [
+        {
+          "id": "6814895663",
+          "name": "Bash Multiplayer Party",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3e/11/ea/3e11ea4f-7f0a-01fc-90b8-65597fcb331f/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Games",
+          "type": "free",
+          "page": "app/us-6814895663.html",
+          "rating": 4.63157,
           "region": "us"
         },
         {
@@ -23568,10 +23801,8 @@
           "region": "us"
         }
       ],
-      "page": "app/us-6639616071.html"
-    }
-  ],
-  "deals": [
+      "page": "app/us-6798535320.html"
+    },
     {
       "id": "6769670290",
       "name": "Bedtime Stories: Gato and Blue",
@@ -23627,7 +23858,17 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-6814895663.html",
-          "rating": 4.61111,
+          "rating": 4.63157,
+          "region": "us"
+        },
+        {
+          "id": "6798535320",
+          "name": "Line Distribution",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/a9/42/79a94210-9310-4a1b-3d93-20179e9bd1dd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Entertainment",
+          "type": "deal",
+          "page": "app/us-6798535320.html",
+          "rating": 3.75,
           "region": "us"
         },
         {
@@ -23787,16 +24028,6 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-6755447020.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "6793998839",
-          "name": "MedMini - USMLE Medical Games",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b8/cd/60/b8cd6036-6b4b-c0d1-5c2f-6602a45cf40a/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Education",
-          "type": "free",
-          "page": "app/us-6793998839.html",
           "rating": 5,
           "region": "us"
         }
@@ -23863,7 +24094,17 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-6814895663.html",
-          "rating": 4.61111,
+          "rating": 4.63157,
+          "region": "us"
+        },
+        {
+          "id": "6798535320",
+          "name": "Line Distribution",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/a9/42/79a94210-9310-4a1b-3d93-20179e9bd1dd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Entertainment",
+          "type": "deal",
+          "page": "app/us-6798535320.html",
+          "rating": 3.75,
           "region": "us"
         },
         {
@@ -24023,16 +24264,6 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-1059257184.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "6755447020",
-          "name": "Mahjong Calculator (American)",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e8/a5/d7/e8a5d775-3788-4cb4-43b4-43edaf01cb75/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Games",
-          "type": "free",
-          "page": "app/us-6755447020.html",
           "rating": 5,
           "region": "us"
         }
@@ -24094,7 +24325,17 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-6814895663.html",
-          "rating": 4.61111,
+          "rating": 4.63157,
+          "region": "us"
+        },
+        {
+          "id": "6798535320",
+          "name": "Line Distribution",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/a9/42/79a94210-9310-4a1b-3d93-20179e9bd1dd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Entertainment",
+          "type": "deal",
+          "page": "app/us-6798535320.html",
+          "rating": 3.75,
           "region": "us"
         },
         {
@@ -24254,16 +24495,6 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-1059257184.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "6755447020",
-          "name": "Mahjong Calculator (American)",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e8/a5/d7/e8a5d775-3788-4cb4-43b4-43edaf01cb75/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Games",
-          "type": "free",
-          "page": "app/us-6755447020.html",
           "rating": 5,
           "region": "us"
         }
@@ -24330,7 +24561,17 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-6814895663.html",
-          "rating": 4.61111,
+          "rating": 4.63157,
+          "region": "us"
+        },
+        {
+          "id": "6798535320",
+          "name": "Line Distribution",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/a9/42/79a94210-9310-4a1b-3d93-20179e9bd1dd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Entertainment",
+          "type": "deal",
+          "page": "app/us-6798535320.html",
+          "rating": 3.75,
           "region": "us"
         },
         {
@@ -24490,16 +24731,6 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-1059257184.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "6755447020",
-          "name": "Mahjong Calculator (American)",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e8/a5/d7/e8a5d775-3788-4cb4-43b4-43edaf01cb75/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Games",
-          "type": "free",
-          "page": "app/us-6755447020.html",
           "rating": 5,
           "region": "us"
         }
@@ -24566,7 +24797,17 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-6814895663.html",
-          "rating": 4.61111,
+          "rating": 4.63157,
+          "region": "us"
+        },
+        {
+          "id": "6798535320",
+          "name": "Line Distribution",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/a9/42/79a94210-9310-4a1b-3d93-20179e9bd1dd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Entertainment",
+          "type": "deal",
+          "page": "app/us-6798535320.html",
+          "rating": 3.75,
           "region": "us"
         },
         {
@@ -24728,16 +24969,6 @@
           "page": "app/us-1059257184.html",
           "rating": 5,
           "region": "us"
-        },
-        {
-          "id": "6755447020",
-          "name": "Mahjong Calculator (American)",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e8/a5/d7/e8a5d775-3788-4cb4-43b4-43edaf01cb75/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Games",
-          "type": "free",
-          "page": "app/us-6755447020.html",
-          "rating": 5,
-          "region": "us"
         }
       ],
       "page": "app/us-357815924.html"
@@ -24750,7 +24981,7 @@
       "normal": "$0.99",
       "current": "$0.29",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ec/5f/ad/ec5fadbd-c069-e83b-3ffd-2c30065cef47/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
-      "rating": 3.29192,
+      "rating": 3.29308,
       "url": "https://apps.apple.com/us/app/flick-home-run/id454086751?uo=4",
       "region": "us",
       "type": "deal",
@@ -24802,7 +25033,17 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-6814895663.html",
-          "rating": 4.61111,
+          "rating": 4.63157,
+          "region": "us"
+        },
+        {
+          "id": "6798535320",
+          "name": "Line Distribution",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/a9/42/79a94210-9310-4a1b-3d93-20179e9bd1dd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Entertainment",
+          "type": "deal",
+          "page": "app/us-6798535320.html",
+          "rating": 3.75,
           "region": "us"
         },
         {
@@ -24962,16 +25203,6 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-1059257184.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "6755447020",
-          "name": "Mahjong Calculator (American)",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e8/a5/d7/e8a5d775-3788-4cb4-43b4-43edaf01cb75/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Games",
-          "type": "free",
-          "page": "app/us-6755447020.html",
           "rating": 5,
           "region": "us"
         }
@@ -25038,7 +25269,17 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-6814895663.html",
-          "rating": 4.61111,
+          "rating": 4.63157,
+          "region": "us"
+        },
+        {
+          "id": "6798535320",
+          "name": "Line Distribution",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/a9/42/79a94210-9310-4a1b-3d93-20179e9bd1dd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "Entertainment",
+          "type": "deal",
+          "page": "app/us-6798535320.html",
+          "rating": 3.75,
           "region": "us"
         },
         {
@@ -25198,16 +25439,6 @@
           "genre": "Games",
           "type": "free",
           "page": "app/us-1059257184.html",
-          "rating": 5,
-          "region": "us"
-        },
-        {
-          "id": "6755447020",
-          "name": "Mahjong Calculator (American)",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e8/a5/d7/e8a5d775-3788-4cb4-43b4-43edaf01cb75/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Games",
-          "type": "free",
-          "page": "app/us-6755447020.html",
           "rating": 5,
           "region": "us"
         }
