@@ -1,7 +1,7 @@
 {
   "updated": "2026-10-26",
   "region": "us",
-  "count": 69,
+  "count": 68,
   "items": [
     {
       "app_id": "300048137",
@@ -337,14 +337,6 @@
       "iap": "Pro Member - Lifetime",
       "price": "$0.00",
       "permanent_free": true,
-      "since": "2026-10-26"
-    },
-    {
-      "app_id": "6741730996",
-      "app_name": "SpeedTest: WIFI Speed Test",
-      "iap": "PRO lifetime",
-      "price": "$0.00",
-      "permanent_free": false,
       "since": "2026-10-26"
     },
     {

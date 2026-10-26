@@ -1,7 +1,7 @@
 {
   "updated": "2026-10-26",
   "region": "cn",
-  "count": 8,
+  "count": 7,
   "events": [
     {
       "app_id": "364859644",
@@ -18,22 +18,6 @@
       "dev": "Codium Labs LLC",
       "genre": "旅游",
       "page": "app/cn-364859644.html"
-    },
-    {
-      "app_id": "6741730996",
-      "app_name": "手机测速-网络测速·测网速speedtest",
-      "iap": "手机测速永久会员",
-      "price": "¥0.00",
-      "free_since": "2026-10-26",
-      "days_free": 0,
-      "last_paid_date": "2026-10-25",
-      "last_paid_price": "¥18.00",
-      "url": "https://apps.apple.com/cn/app/%E6%89%8B%E6%9C%BA%E6%B5%8B%E9%80%9F-%E7%BD%91%E7%BB%9C%E6%B5%8B%E9%80%9F-%E6%B5%8B%E7%BD%91%E9%80%9Fspeedtest/id6741730996?uo=4",
-      "rating": 4.03613,
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/84/b3/1f/84b31fdb-11d3-a921-e5bd-0be9dab9b221/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
-      "dev": "Wuhan Yuhang Technology Co., Ltd",
-      "genre": "效率",
-      "page": "app/cn-6741730996.html"
     },
     {
       "app_id": "957061844",

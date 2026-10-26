@@ -4,8 +4,8 @@
     "version": 1,
     "updated": "2026-10-26",
     "pool_size": 2000,
-    "processed": 1989,
-    "skipped": 11,
+    "processed": 1990,
+    "skipped": 10,
     "seeded_from": "apprcn",
     "seed_added": 8,
     "seed_total": 7100,
@@ -10981,7 +10981,7 @@
       "first_date": "2026-10-22",
       "first_price": "¥363.00",
       "last_date": "2026-10-26",
-      "last_price": "¥40.00",
+      "last_price": "¥273.00",
       "last_change_date": "2026-10-26",
       "ever_paid": true,
       "last_paid_date": "2026-10-26",
@@ -10991,7 +10991,7 @@
         "2026-10-23": "¥273.00",
         "2026-10-24": "¥273.00",
         "2026-10-25": "¥273.00",
-        "2026-10-26": "¥40.00"
+        "2026-10-26": "¥273.00"
       }
     },
     "1413092345::1 Year Business Pack": {
@@ -11019,7 +11019,7 @@
       "first_date": "2026-10-22",
       "first_price": "¥43.00",
       "last_date": "2026-10-26",
-      "last_price": "¥43.00",
+      "last_price": "¥363.00",
       "last_change_date": "2026-10-26",
       "ever_paid": true,
       "last_paid_date": "2026-10-26",
@@ -11029,7 +11029,7 @@
         "2026-10-23": "¥363.00",
         "2026-10-24": "¥363.00",
         "2026-10-25": "¥363.00",
-        "2026-10-26": "¥43.00"
+        "2026-10-26": "¥363.00"
       }
     },
     "1413092345::1 Month Business Pack": {
@@ -13291,14 +13291,14 @@
       "first_date": "2026-10-22",
       "first_price": "¥50.00",
       "last_date": "2026-10-26",
-      "last_price": "¥298.00",
+      "last_price": "¥50.00",
       "last_change_date": "2026-10-26",
       "ever_paid": true,
       "last_paid_date": "2026-10-26",
       "free_since": null,
       "changes": {
         "2026-10-22": "¥50.00",
-        "2026-10-26": "¥298.00"
+        "2026-10-26": "¥50.00"
       }
     },
     "417401887::Advanced Local Forecast": {
@@ -26175,7 +26175,7 @@
       "region": "cn",
       "first_date": "2026-10-23",
       "first_price": "¥143.00",
-      "last_date": "2026-10-25",
+      "last_date": "2026-10-26",
       "last_price": "¥143.00",
       "last_change_date": "2026-10-23",
       "ever_paid": true,
@@ -27237,7 +27237,7 @@
       "first_date": "2026-10-23",
       "first_price": "¥30.00",
       "last_date": "2026-10-26",
-      "last_price": "¥30.00",
+      "last_price": "¥29.00",
       "last_change_date": "2026-10-26",
       "ever_paid": true,
       "last_paid_date": "2026-10-26",
@@ -27246,7 +27246,7 @@
         "2026-10-23": "¥29.00",
         "2026-10-24": "¥29.00",
         "2026-10-25": "¥29.00",
-        "2026-10-26": "¥30.00"
+        "2026-10-26": "¥29.00"
       }
     },
     "1578845134::蜜蜂试卷专属会员-连续包月": {
@@ -31455,7 +31455,7 @@
       "first_date": "2026-10-23",
       "first_price": "¥48.00",
       "last_date": "2026-10-26",
-      "last_price": "¥38.00",
+      "last_price": "¥64.00",
       "last_change_date": "2026-10-26",
       "ever_paid": true,
       "last_paid_date": "2026-10-26",
@@ -31464,7 +31464,7 @@
         "2026-10-23": "¥38.00",
         "2026-10-24": "¥38.00",
         "2026-10-25": "¥64.00",
-        "2026-10-26": "¥38.00"
+        "2026-10-26": "¥64.00"
       }
     },
     "6740725474::终身会员": {
@@ -116235,7 +116235,7 @@
       "region": "cn",
       "first_date": "2026-10-23",
       "first_price": "¥38.00",
-      "last_date": "2026-10-25",
+      "last_date": "2026-10-26",
       "last_price": "¥38.00",
       "last_change_date": "2026-10-23",
       "ever_paid": true,
@@ -121661,14 +121661,14 @@
       "first_date": "2026-10-25",
       "first_price": "¥18.00",
       "last_date": "2026-10-26",
-      "last_price": "¥0.00",
+      "last_price": "¥15.00",
       "last_change_date": "2026-10-26",
       "ever_paid": true,
-      "last_paid_date": "2026-10-25",
-      "free_since": "2026-10-26",
+      "last_paid_date": "2026-10-26",
+      "free_since": null,
       "changes": {
         "2026-10-25": "¥18.00",
-        "2026-10-26": "¥0.00"
+        "2026-10-26": "¥15.00"
       }
     },
     "6741730996::年度会员": {
@@ -124679,6 +124679,142 @@
       "free_since": null,
       "changes": {
         "2026-10-26": "¥8.00"
+      }
+    },
+    "6756707424::STARTsvip月卡（学生）": {
+      "app_id": "6756707424",
+      "app_name": "腾讯START云游戏",
+      "name": "STARTsvip月卡（学生）",
+      "region": "cn",
+      "first_date": "2026-10-26",
+      "first_price": "¥57.00",
+      "last_date": "2026-10-26",
+      "last_price": "¥57.00",
+      "last_change_date": "2026-10-26",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-26",
+      "free_since": null,
+      "changes": {
+        "2026-10-26": "¥57.00"
+      }
+    },
+    "6504849160::140金币": {
+      "app_id": "6504849160",
+      "app_name": "U Fun",
+      "name": "140金币",
+      "region": "cn",
+      "first_date": "2026-10-26",
+      "first_price": "¥10.00",
+      "last_date": "2026-10-26",
+      "last_price": "¥10.00",
+      "last_change_date": "2026-10-26",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-26",
+      "free_since": null,
+      "changes": {
+        "2026-10-26": "¥10.00"
+      }
+    },
+    "6476878854::一车宝石": {
+      "app_id": "6476878854",
+      "app_name": "佳速通-运动数据同步助手",
+      "name": "一车宝石",
+      "region": "cn",
+      "first_date": "2026-10-26",
+      "first_price": "¥698.00",
+      "last_date": "2026-10-26",
+      "last_price": "¥698.00",
+      "last_change_date": "2026-10-26",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-26",
+      "free_since": null,
+      "changes": {
+        "2026-10-26": "¥698.00"
+      }
+    },
+    "6476878854::一箱宝石": {
+      "app_id": "6476878854",
+      "app_name": "佳速通-运动数据同步助手",
+      "name": "一箱宝石",
+      "region": "cn",
+      "first_date": "2026-10-26",
+      "first_price": "¥328.00",
+      "last_date": "2026-10-26",
+      "last_price": "¥328.00",
+      "last_change_date": "2026-10-26",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-26",
+      "free_since": null,
+      "changes": {
+        "2026-10-26": "¥328.00"
+      }
+    },
+    "6476878854::一大桶宝石": {
+      "app_id": "6476878854",
+      "app_name": "佳速通-运动数据同步助手",
+      "name": "一大桶宝石",
+      "region": "cn",
+      "first_date": "2026-10-26",
+      "first_price": "¥148.00",
+      "last_date": "2026-10-26",
+      "last_price": "¥148.00",
+      "last_change_date": "2026-10-26",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-26",
+      "free_since": null,
+      "changes": {
+        "2026-10-26": "¥148.00"
+      }
+    },
+    "1102728735::Talk & Translate Premium": {
+      "app_id": "1102728735",
+      "app_name": "实时翻译软件 - Talk & Translate",
+      "name": "Talk & Translate Premium",
+      "region": "cn",
+      "first_date": "2026-10-26",
+      "first_price": "¥68.00",
+      "last_date": "2026-10-26",
+      "last_price": "¥68.00",
+      "last_change_date": "2026-10-26",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-26",
+      "free_since": null,
+      "changes": {
+        "2026-10-26": "¥68.00"
+      }
+    },
+    "6466733523::工作助理· 高级套餐· 连续包年": {
+      "app_id": "6466733523",
+      "app_name": "千问 - 阿里AI助手",
+      "name": "工作助理· 高级套餐· 连续包年",
+      "region": "cn",
+      "first_date": "2026-10-26",
+      "first_price": "¥200.00",
+      "last_date": "2026-10-26",
+      "last_price": "¥200.00",
+      "last_change_date": "2026-10-26",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-26",
+      "free_since": null,
+      "changes": {
+        "2026-10-26": "¥200.00"
+      }
+    },
+    "1518226677::去广告服务（1月）": {
+      "app_id": "1518226677",
+      "app_name": "马克水印相机-真实时间地点和工作水印",
+      "name": "去广告服务（1月）",
+      "region": "cn",
+      "first_date": "2026-10-26",
+      "first_price": "¥1.00",
+      "last_date": "2026-10-26",
+      "last_price": "¥1.00",
+      "last_change_date": "2026-10-26",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-26",
+      "free_since": null,
+      "changes": {
+        "2026-10-26": "¥1.00"
       }
     }
   }

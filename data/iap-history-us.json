@@ -1397,7 +1397,7 @@
       "first_date": "2026-10-23",
       "first_price": "$3.99",
       "last_date": "2026-10-26",
-      "last_price": "$19.99",
+      "last_price": "$5.99",
       "last_change_date": "2026-10-26",
       "ever_paid": true,
       "last_paid_date": "2026-10-26",
@@ -1406,7 +1406,7 @@
         "2026-10-23": "$19.99",
         "2026-10-24": "$5.99",
         "2026-10-25": "$5.99",
-        "2026-10-26": "$19.99"
+        "2026-10-26": "$5.99"
       }
     },
     "584606479::Simple Start": {
@@ -3198,7 +3198,7 @@
       "first_date": "2026-10-23",
       "first_price": "$9.99",
       "last_date": "2026-10-26",
-      "last_price": "$6.99",
+      "last_price": "$19.99",
       "last_change_date": "2026-10-26",
       "ever_paid": true,
       "last_paid_date": "2026-10-26",
@@ -3207,7 +3207,7 @@
         "2026-10-23": "$19.99",
         "2026-10-24": "$19.99",
         "2026-10-25": "$19.99",
-        "2026-10-26": "$6.99"
+        "2026-10-26": "$19.99"
       }
     },
     "1425891150::The Documents Bundle 1 week": {
@@ -5939,7 +5939,7 @@
       "first_date": "2026-10-23",
       "first_price": "$12.00",
       "last_date": "2026-10-26",
-      "last_price": "$119.99",
+      "last_price": "$12.00",
       "last_change_date": "2026-10-26",
       "ever_paid": true,
       "last_paid_date": "2026-10-26",
@@ -5948,7 +5948,7 @@
         "2026-10-23": "$119.99",
         "2026-10-24": "$119.99",
         "2026-10-25": "$119.99",
-        "2026-10-26": "$119.99"
+        "2026-10-26": "$12.00"
       }
     },
     "1241817309::Starter Plan": {
@@ -10795,7 +10795,7 @@
       "first_date": "2026-10-23",
       "first_price": "$0.99",
       "last_date": "2026-10-26",
-      "last_price": "$13.99",
+      "last_price": "$1.49",
       "last_change_date": "2026-10-26",
       "ever_paid": true,
       "last_paid_date": "2026-10-26",
@@ -10804,7 +10804,7 @@
         "2026-10-23": "$13.99",
         "2026-10-24": "$13.99",
         "2026-10-25": "$13.99",
-        "2026-10-26": "$13.99"
+        "2026-10-26": "$1.49"
       }
     },
     "1067198688::SVIP auto-renew yearly": {
@@ -18905,7 +18905,7 @@
       "first_date": "2026-10-23",
       "first_price": "$12.99",
       "last_date": "2026-10-26",
-      "last_price": "$12.99",
+      "last_price": "$9.99",
       "last_change_date": "2026-10-26",
       "ever_paid": true,
       "last_paid_date": "2026-10-26",
@@ -18914,7 +18914,7 @@
         "2026-10-23": "$14.99",
         "2026-10-24": "$9.99",
         "2026-10-25": "$9.99",
-        "2026-10-26": "$12.99"
+        "2026-10-26": "$9.99"
       }
     },
     "6461573146::Premium Yearly": {
@@ -21586,7 +21586,7 @@
       "first_date": "2026-10-23",
       "first_price": "$9.99",
       "last_date": "2026-10-26",
-      "last_price": "$9.99",
+      "last_price": "$6.99",
       "last_change_date": "2026-10-26",
       "ever_paid": true,
       "last_paid_date": "2026-10-26",
@@ -21594,7 +21594,7 @@
       "changes": {
         "2026-10-23": "$9.99",
         "2026-10-25": "$6.99",
-        "2026-10-26": "$9.99"
+        "2026-10-26": "$6.99"
       }
     },
     "6754900760::Authenticator Weekly Premium": {
@@ -23260,7 +23260,7 @@
       "first_date": "2026-10-23",
       "first_price": "$9.99",
       "last_date": "2026-10-26",
-      "last_price": "$9.99",
+      "last_price": "$6.99",
       "last_change_date": "2026-10-26",
       "ever_paid": true,
       "last_paid_date": "2026-10-26",
@@ -23269,7 +23269,7 @@
         "2026-10-23": "$6.99",
         "2026-10-24": "$6.99",
         "2026-10-25": "$6.99",
-        "2026-10-26": "$9.99"
+        "2026-10-26": "$6.99"
       }
     },
     "6458692724::Roku TV Remote Control - Pro": {
@@ -36483,14 +36483,14 @@
       "first_date": "2026-10-23",
       "first_price": "$199.99",
       "last_date": "2026-10-26",
-      "last_price": "$29.90",
+      "last_price": "$199.99",
       "last_change_date": "2026-10-26",
       "ever_paid": true,
       "last_paid_date": "2026-10-26",
       "free_since": null,
       "changes": {
         "2026-10-23": "$199.99",
-        "2026-10-26": "$29.90"
+        "2026-10-26": "$199.99"
       }
     },
     "6752702608::Coins 2_39.99": {
@@ -66604,7 +66604,7 @@
       "first_date": "2026-10-23",
       "first_price": "$19.99",
       "last_date": "2026-10-26",
-      "last_price": "$19.99",
+      "last_price": "$29.99",
       "last_change_date": "2026-10-26",
       "ever_paid": true,
       "last_paid_date": "2026-10-26",
@@ -66613,7 +66613,7 @@
         "2026-10-23": "$29.99",
         "2026-10-24": "$29.99",
         "2026-10-25": "$29.99",
-        "2026-10-26": "$19.99"
+        "2026-10-26": "$29.99"
       }
     },
     "1609983545::Annual Subscription": {
@@ -67135,7 +67135,7 @@
       "first_date": "2026-10-23",
       "first_price": "$59.99",
       "last_date": "2026-10-26",
-      "last_price": "$89.99",
+      "last_price": "$139.99",
       "last_change_date": "2026-10-26",
       "ever_paid": true,
       "last_paid_date": "2026-10-26",
@@ -67144,7 +67144,7 @@
         "2026-10-23": "$89.99",
         "2026-10-24": "$89.99",
         "2026-10-25": "$29.99",
-        "2026-10-26": "$89.99"
+        "2026-10-26": "$139.99"
       }
     },
     "6761736440::BibleWatch Premium Free Trial": {
@@ -67156,12 +67156,13 @@
       "first_price": "$89.99",
       "last_date": "2026-10-26",
       "last_price": "$89.99",
-      "last_change_date": "2026-10-23",
+      "last_change_date": "2026-10-26",
       "ever_paid": true,
-      "last_paid_date": "2026-10-23",
+      "last_paid_date": "2026-10-26",
       "free_since": null,
       "changes": {
-        "2026-10-23": "$89.99"
+        "2026-10-23": "$89.99",
+        "2026-10-26": "$89.99"
       }
     },
     "6761736440::BibleWatch Premium Monthly": {
@@ -80666,7 +80667,7 @@
       "first_date": "2026-10-23",
       "first_price": "$9.99",
       "last_date": "2026-10-26",
-      "last_price": "$59.99",
+      "last_price": "$49.99",
       "last_change_date": "2026-10-26",
       "ever_paid": true,
       "last_paid_date": "2026-10-26",
@@ -80675,7 +80676,7 @@
         "2026-10-23": "$49.99",
         "2026-10-24": "$49.99",
         "2026-10-25": "$49.99",
-        "2026-10-26": "$59.99"
+        "2026-10-26": "$49.99"
       }
     },
     "364901807::Documents VPN": {
@@ -80686,7 +80687,7 @@
       "first_date": "2026-10-23",
       "first_price": "$12.49",
       "last_date": "2026-10-26",
-      "last_price": "$17.49",
+      "last_price": "$89.99",
       "last_change_date": "2026-10-26",
       "ever_paid": true,
       "last_paid_date": "2026-10-26",
@@ -80695,7 +80696,7 @@
         "2026-10-23": "$89.99",
         "2026-10-24": "$89.99",
         "2026-10-25": "$89.99",
-        "2026-10-26": "$17.49"
+        "2026-10-26": "$89.99"
       }
     },
     "324613447::LastPass Premium": {
@@ -86727,7 +86728,7 @@
       "first_date": "2026-10-23",
       "first_price": "$34.99",
       "last_date": "2026-10-26",
-      "last_price": "$249.99",
+      "last_price": "$15.99",
       "last_change_date": "2026-10-26",
       "ever_paid": true,
       "last_paid_date": "2026-10-26",
@@ -86736,7 +86737,7 @@
         "2026-10-23": "$249.99",
         "2026-10-24": "$249.99",
         "2026-10-25": "$249.99",
-        "2026-10-26": "$249.99"
+        "2026-10-26": "$15.99"
       }
     },
     "1455009060::Yearly Basic Plan (Exp)": {
@@ -86818,13 +86819,14 @@
       "first_date": "2026-10-23",
       "first_price": "$14.99",
       "last_date": "2026-10-26",
-      "last_price": "$14.99",
-      "last_change_date": "2026-10-23",
+      "last_price": "$39.99",
+      "last_change_date": "2026-10-26",
       "ever_paid": true,
-      "last_paid_date": "2026-10-23",
+      "last_paid_date": "2026-10-26",
       "free_since": null,
       "changes": {
-        "2026-10-23": "$14.99"
+        "2026-10-23": "$14.99",
+        "2026-10-26": "$39.99"
       }
     },
     "6446202561::Gifted subscription Tier 1": {
@@ -92186,7 +92188,7 @@
       "first_date": "2026-10-23",
       "first_price": "$12.99",
       "last_date": "2026-10-26",
-      "last_price": "$9.99",
+      "last_price": "$15.99",
       "last_change_date": "2026-10-26",
       "ever_paid": true,
       "last_paid_date": "2026-10-26",
@@ -92195,7 +92197,7 @@
         "2026-10-23": "$15.99",
         "2026-10-24": "$15.99",
         "2026-10-25": "$15.99",
-        "2026-10-26": "$9.99"
+        "2026-10-26": "$15.99"
       }
     },
     "1540719743::Premium Cartoon Filter": {
@@ -92651,7 +92653,7 @@
       "first_date": "2026-10-23",
       "first_price": "$9.99",
       "last_date": "2026-10-26",
-      "last_price": "$19.99",
+      "last_price": "$29.99",
       "last_change_date": "2026-10-26",
       "ever_paid": true,
       "last_paid_date": "2026-10-26",
@@ -92660,7 +92662,7 @@
         "2026-10-23": "$29.99",
         "2026-10-24": "$29.99",
         "2026-10-25": "$29.99",
-        "2026-10-26": "$19.99"
+        "2026-10-26": "$29.99"
       }
     },
     "1580668065::Ism - Premium Weekly": {
@@ -106747,14 +106749,14 @@
       "first_date": "2026-10-25",
       "first_price": "$2.99",
       "last_date": "2026-10-26",
-      "last_price": "$0.00",
+      "last_price": "$1.99",
       "last_change_date": "2026-10-26",
       "ever_paid": true,
-      "last_paid_date": "2026-10-25",
-      "free_since": "2026-10-26",
+      "last_paid_date": "2026-10-26",
+      "free_since": null,
       "changes": {
         "2026-10-25": "$2.99",
-        "2026-10-26": "$0.00"
+        "2026-10-26": "$1.99"
       }
     },
     "6741730996::Monthly": {
@@ -110188,6 +110190,40 @@
       "free_since": null,
       "changes": {
         "2026-10-26": "$19.90"
+      }
+    },
+    "6761736440::BibleWatch Monthly Premium": {
+      "app_id": "6761736440",
+      "app_name": "BibleWatch - Watch the Bible",
+      "name": "BibleWatch Monthly Premium",
+      "region": "us",
+      "first_date": "2026-10-26",
+      "first_price": "$24.99",
+      "last_date": "2026-10-26",
+      "last_price": "$24.99",
+      "last_change_date": "2026-10-26",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-26",
+      "free_since": null,
+      "changes": {
+        "2026-10-26": "$24.99"
+      }
+    },
+    "6761736440::BibleWatch 3 Months Premium": {
+      "app_id": "6761736440",
+      "app_name": "BibleWatch - Watch the Bible",
+      "name": "BibleWatch 3 Months Premium",
+      "region": "us",
+      "first_date": "2026-10-26",
+      "first_price": "$49.99",
+      "last_date": "2026-10-26",
+      "last_price": "$49.99",
+      "last_change_date": "2026-10-26",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-26",
+      "free_since": null,
+      "changes": {
+        "2026-10-26": "$49.99"
       }
     }
   }
