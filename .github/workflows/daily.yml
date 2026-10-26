@@ -1,9 +1,9 @@
 name: daily-freebie
 
-# 合并后的主跑批工作流（每 6 小时一次）
+# 合并后的主跑批工作流（由阿里云 ECS 准点触发，每日 4 班）
 # ----------------------------------------
 # 单工作流内串行完成三件事，取代原 daily / iap / seed 三个独立工作流（省去各自冷启动与并发组排队）：
-#   1) 种子播种 —— 仅 08:13 北京（UTC 00:13）那班 + 手动触发时运行：
+#   1) 种子播种 —— 仅 08:13 北京（UTC 00 时）那班运行（ECS 每天只在此时段播种，其余 3 班跳过）：
 #      · seed_from_apprcn.py      喂本体永久 App 宽池（history-{region}.json）
 #      · seed_iap_from_apprcn.py  从反斗限免补「内购限免」候选，注入 IAP 监控池（history + iap-history）
 #      反斗限免 API 偶发不可达 → continue-on-error，不阻断后续生成。
@@ -17,10 +17,11 @@ name: daily-freebie
 #
 # 与 daily-full.yml 共用并发组 freebie-update：班次之间串行，避免互相抢推 main。
 on:
-  schedule:
-    # 每 6 小时（00:13 / 06:13 / 12:13 / 18:13 UTC 错峰，避开整点高峰）
-    # = 北京时间 08:13 / 14:13 / 20:13 / 02:13，捕捉日内临时限免/闪免
-    - cron: "13 */6 * * *"
+  # ⚠️ 定时不再由 GitHub 自带 cron 驱动：GitHub 免费 runner 的 schedule 会排队
+  # 滞后 2~5 小时（实测，2026-10 多次），根本做不到准点。
+  # 改由「阿里云 ECS 在精确北京时刻（02:13 / 08:13 / 14:13 / 20:13）调用
+  # /root/freebie-deploy/trigger_daily.sh → workflow_dispatch」驱动，延迟降到分钟级。
+  # daily-full.yml 仍保留 GitHub 自带定时（每日 05:17 北京），作为 ECS 宕机时的兜底。
   workflow_dispatch: {}
 
 permissions:
@@ -49,32 +50,27 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Seed from apprcn (08:13 北京 / 手动触发)
+      - name: Seed from apprcn (仅 08:13 北京班)
         continue-on-error: true
         run: |
           HR=$(date -u +%H)
-          if [ "$HR" != "00" ] && [ "${GITHUB_EVENT_NAME}" != "workflow_dispatch" ]; then
-            echo "非播种时段（仅 08:13 北京 / 手动触发时播种），跳过"
+          # ECS 每天固定 02:13/08:13/14:13/20:13 北京触发；只有 08:13（UTC 00）这班播种。
+          # 兼容 dispatch 可能略晚跨到 UTC 01，故 00/01 都放行；其余时段跳过，避免每天播种 4 次。
+          if [ "$HR" != "00" ] && [ "$HR" != "01" ]; then
+            echo "非播种时段（仅 08:13 北京 / UTC 00 时播种），跳过"
             exit 0
           fi
           python scripts/seed_from_apprcn.py
 
-      - name: Seed IAP from apprcn (08:13 北京 / 手动触发)
+      - name: Seed IAP from apprcn (仅 08:13 北京班)
         continue-on-error: true
         run: |
           HR=$(date -u +%H)
-          if [ "$HR" != "00" ] && [ "${GITHUB_EVENT_NAME}" != "workflow_dispatch" ]; then
-            echo "非播种时段（仅 08:13 北京 / 手动触发时播种），跳过"
+          if [ "$HR" != "00" ] && [ "$HR" != "01" ]; then
+            echo "非播种时段（仅 08:13 北京 / UTC 00 时播种），跳过"
             exit 0
           fi
           python scripts/seed_iap_from_apprcn.py
-
-      # A 方案：防静默失败。seed 步骤 continue-on-error，API 不可达时整步被吞、
-      # manifest 不变、页面照常生成——没人知道播种已死（10-24/25 实例）。
-      # 本步骤不带 continue-on-error：心跳陈旧/失败即使任务失败（红 X 报警）。
-      # 非播种时段同样检查（读的是上班次提交的心跳，防"从来没人播种成功"）。
-      - name: Seed health check (防静默失败，无 continue-on-error)
-        run: python scripts/check_seed_health.py
 
       - name: Collect IAP prices (cn)
         continue-on-error: true
@@ -120,7 +116,7 @@ jobs:
           # 否则刚采的内购数据会丢失（至多陈旧 6 小时，可接受但应避免）。
           prepare() {
             HR=$(date -u +%H)
-            if [ "$HR" = "00" ] || [ "${GITHUB_EVENT_NAME}" = "workflow_dispatch" ]; then
+            if [ "$HR" = "00" ] || [ "$HR" = "01" ]; then
               python scripts/seed_from_apprcn.py || echo "::warning::apprcn 播种失败（非致命，沿用已有 history）"
               python scripts/seed_iap_from_apprcn.py || echo "::warning::iap apprcn 播种失败（非致命，沿用已有 history）"
             fi
@@ -170,3 +166,10 @@ jobs:
             echo "::warning::push 被拒 → 进入重试循环（最多 5 次）"
             regenerate_and_push
           fi
+
+      # A 方案（防静默失败）——放在最后：即使播种心跳异常，本次采集/生成/推送也已落地，
+      # 红 X 只作报警、绝不阻断数据更新（放在 seed 之后会因健康检查失败而中断生成，已挪到末位）。
+      # 读的是最近一次播种写入的心跳：缺失 / 陈旧 >30h / 最近失败晚于成功 → 任务失败（红 X）。
+      # 非播种时段也检查（读上班次心跳），防「从来没人播种成功」。
+      - name: Seed health check (防静默失败，末班报警，不阻断数据)
+        run: python scripts/check_seed_health.py
