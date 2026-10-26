@@ -155,6 +155,30 @@ def load_iap_events(country):
     return evs if isinstance(evs, list) else None
 
 
+def load_iap_presence(country):
+    """读取「该 App 是否含内购」标记：data/iap-presence-{country}.json（probe_iap_presence.py 独写）。
+
+    用于给「本体限免」卡片打「含内购 / 纯买断」徽章。返回 {app_id: bool}；
+    文件缺失或损坏返回空 dict —— 此时卡片不显示徽章（宁可不显示，也不误标）。
+    """
+    p = os.path.join(DATA_DIR, f"iap-presence-{country}.json")
+    if not os.path.exists(p):
+        return {}
+    try:
+        with open(p, encoding="utf-8") as f:
+            d = json.load(f)
+    except Exception:
+        return {}
+    raw = d.get("items") if isinstance(d, dict) else None
+    if not isinstance(raw, dict):
+        return {}
+    out = {}
+    for aid, rec in raw.items():
+        if isinstance(rec, dict) and isinstance(rec.get("has_iap"), bool):
+            out[str(aid)] = rec["has_iap"]
+    return out
+
+
 def write_iap_pages(country, today):
     """为「限时内购免费」App 生成独立详情页（type=iap），返回 (写入数, 保留页集合)。
 
@@ -760,6 +784,7 @@ def main():
 
     freebies = []
     deals = []
+    presence = load_iap_presence(country)   # 本体限免卡片的「含内购/纯买断」徽章数据
     for cid, d in details.items():
         cur = d.get("price", 0) or 0
         name = d.get("trackName", "")
@@ -818,6 +843,10 @@ def main():
                 "series": series,
                 "phistory": phistory,
             }
+            # 本体限免卡片徽章：true=含内购 / false=纯买断；缺数据则不写该字段
+            # （前端据此不显示徽章，避免把未知误标成「纯买断」）。
+            if is_free and str(cid) in presence:
+                item["has_iap"] = presence[str(cid)]
             (freebies if is_free else deals).append(item)
 
     # 回查集合里命中失败的 App：累计 miss（疑似下架）

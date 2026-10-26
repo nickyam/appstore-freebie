@@ -78,6 +78,8 @@
       stat_iap: '内购限免',
       stat_saved: '今日可省',
       badge_new: 'NEW',
+      badge_iap: '含内购',
+      badge_pure: '纯买断',
       foot_privacy: '隐私政策',
       foot_terms: '使用条款',
       foot_rights: '保留所有权利',
@@ -233,6 +235,8 @@
       stat_iap: 'IAP freebies',
       stat_saved: 'You save',
       badge_new: 'NEW',
+      badge_iap: 'With IAP',
+      badge_pure: 'No IAP',
       foot_privacy: 'Privacy Policy',
       foot_terms: 'Terms of Use',
       foot_rights: 'All rights reserved',
@@ -478,6 +482,12 @@
     var nameRow = el('div', 'name-row');
     nameRow.appendChild(el('span', 'name', esc(app.name || '—')));
     if (app.is_new) nameRow.appendChild(el('span', 'new-badge', esc(dict.badge_new)));
+    // 本体限免卡片的「含内购 / 纯买断」徽章：has_iap 由后端探测（data/iap-presence-*.json）给出，
+    // 缺失时不显示（不把「未知」误标成「纯买断」）。
+    if (kind === 'free' && typeof app.has_iap === 'boolean') {
+      nameRow.appendChild(el('span', app.has_iap ? 'iap-badge' : 'pure-badge',
+        esc(app.has_iap ? dict.badge_iap : dict.badge_pure)));
+    }
     info.appendChild(nameRow);
     info.appendChild(el('div', 'dev', esc(app.dev || '')));
     if (app.genre) info.appendChild(el('div', 'genre', esc(app.genre)));
@@ -1151,6 +1161,10 @@
       (app.genre ? '<a class="dt-chip chip-link" href="' + esc(genreHref) + '" title="' + esc(dict.dt_genre_link) + '">' + esc(genreLabel(app.genre)) + '</a>' : '') +
       ((ratingStr || true) ? '<span class="dt-chip' + (ratingStr ? '' : ' norate') + '">' + esc(ratingStr ? '⭐ ' + ratingStr.replace('★ ', '') : dict.no_rating) + '</span>' : '') +
       (isIapPage && app.iap ? '<span class="dt-chip">' + esc(app.iap) + '</span>' : '') +
+      // 本体限免详情页：标明该 App 本身是否还有内购（与首页卡片徽章同源）
+      (!isIapPage && app.type === 'free' && typeof app.has_iap === 'boolean' ?
+        '<span class="dt-chip dt-chip-' + (app.has_iap ? 'iap' : 'pure') + '">' +
+        esc(app.has_iap ? dict.badge_iap : dict.badge_pure) + '</span>' : '') +
       '</div>' +
       '<div class="dt-price"><span class="dt-cur ' + ((app.type === 'free' || isIapPage) ? 'free' : 'deal') + '" id="dtPrice">' + esc((app.type === 'free' || isIapPage) ? dict.card_free_price : (app.current || '')) + '</span>' +
       (app.normal ? '<span class="dt-old" id="dtOld">' + esc(app.normal) + '</span>' : '') + '</div>' +
