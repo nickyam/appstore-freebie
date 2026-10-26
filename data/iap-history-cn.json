@@ -4,8 +4,8 @@
     "version": 1,
     "updated": "2026-10-27",
     "pool_size": 2000,
-    "processed": 1989,
-    "skipped": 11,
+    "processed": 1988,
+    "skipped": 12,
     "seeded_from": "apprcn",
     "seed_added": 8,
     "seed_total": 7100,
@@ -1656,7 +1656,7 @@
       "region": "cn",
       "first_date": "2026-10-22",
       "first_price": "¥68.00",
-      "last_date": "2026-10-26",
+      "last_date": "2026-10-27",
       "last_price": "¥68.00",
       "last_change_date": "2026-10-22",
       "ever_paid": true,
@@ -1673,7 +1673,7 @@
       "region": "cn",
       "first_date": "2026-10-22",
       "first_price": "¥200.00",
-      "last_date": "2026-10-26",
+      "last_date": "2026-10-27",
       "last_price": "¥200.00",
       "last_change_date": "2026-10-22",
       "ever_paid": true,
@@ -1690,7 +1690,7 @@
       "region": "cn",
       "first_date": "2026-10-22",
       "first_price": "¥80.00",
-      "last_date": "2026-10-26",
+      "last_date": "2026-10-27",
       "last_price": "¥80.00",
       "last_change_date": "2026-10-22",
       "ever_paid": true,
@@ -1724,7 +1724,7 @@
       "region": "cn",
       "first_date": "2026-10-22",
       "first_price": "¥688.00",
-      "last_date": "2026-10-26",
+      "last_date": "2026-10-27",
       "last_price": "¥688.00",
       "last_change_date": "2026-10-22",
       "ever_paid": true,
@@ -1741,7 +1741,7 @@
       "region": "cn",
       "first_date": "2026-10-22",
       "first_price": "¥500.00",
-      "last_date": "2026-10-26",
+      "last_date": "2026-10-27",
       "last_price": "¥500.00",
       "last_change_date": "2026-10-22",
       "ever_paid": true,
@@ -1775,7 +1775,7 @@
       "region": "cn",
       "first_date": "2026-10-22",
       "first_price": "¥240.00",
-      "last_date": "2026-10-26",
+      "last_date": "2026-10-27",
       "last_price": "¥240.00",
       "last_change_date": "2026-10-22",
       "ever_paid": true,
@@ -1792,7 +1792,7 @@
       "region": "cn",
       "first_date": "2026-10-22",
       "first_price": "¥599.00",
-      "last_date": "2026-10-26",
+      "last_date": "2026-10-27",
       "last_price": "¥599.00",
       "last_change_date": "2026-10-22",
       "ever_paid": true,
@@ -15109,13 +15109,14 @@
       "first_date": "2026-10-23",
       "first_price": "¥388.00",
       "last_date": "2026-10-27",
-      "last_price": "¥388.00",
-      "last_change_date": "2026-10-23",
+      "last_price": "¥1,648.00",
+      "last_change_date": "2026-10-27",
       "ever_paid": true,
-      "last_paid_date": "2026-10-23",
+      "last_paid_date": "2026-10-27",
       "free_since": null,
       "changes": {
-        "2026-10-23": "¥388.00"
+        "2026-10-23": "¥388.00",
+        "2026-10-27": "¥1,648.00"
       }
     },
     "1516766040::开通终身会员": {
@@ -26999,7 +27000,7 @@
       "first_date": "2026-10-23",
       "first_price": "¥68.00",
       "last_date": "2026-10-27",
-      "last_price": "¥60.00",
+      "last_price": "¥68.00",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
       "last_paid_date": "2026-10-27",
@@ -27009,7 +27010,7 @@
         "2026-10-24": "¥60.00",
         "2026-10-25": "¥60.00",
         "2026-10-26": "¥60.00",
-        "2026-10-27": "¥60.00"
+        "2026-10-27": "¥68.00"
       }
     },
     "1519407428::专业版全球节点插件1个月": {
@@ -27364,7 +27365,7 @@
       "first_date": "2026-10-23",
       "first_price": "¥30.00",
       "last_date": "2026-10-27",
-      "last_price": "¥29.00",
+      "last_price": "¥30.00",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
       "last_paid_date": "2026-10-27",
@@ -27374,7 +27375,7 @@
         "2026-10-24": "¥29.00",
         "2026-10-25": "¥29.00",
         "2026-10-26": "¥29.00",
-        "2026-10-27": "¥29.00"
+        "2026-10-27": "¥30.00"
       }
     },
     "1578845134::蜜蜂试卷专属会员-连续包月": {
@@ -27401,7 +27402,7 @@
       "region": "cn",
       "first_date": "2026-10-23",
       "first_price": "¥268.00",
-      "last_date": "2026-10-26",
+      "last_date": "2026-10-27",
       "last_price": "¥268.00",
       "last_change_date": "2026-10-23",
       "ever_paid": true,
@@ -30898,7 +30899,7 @@
       "first_date": "2026-10-23",
       "first_price": "¥10.00",
       "last_date": "2026-10-27",
-      "last_price": "¥140.00",
+      "last_price": "¥80.00",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
       "last_paid_date": "2026-10-27",
@@ -30908,7 +30909,7 @@
         "2026-10-24": "¥140.00",
         "2026-10-25": "¥140.00",
         "2026-10-26": "¥140.00",
-        "2026-10-27": "¥140.00"
+        "2026-10-27": "¥80.00"
       }
     },
     "6762321369::搭子Pro会员年卡": {
@@ -31920,13 +31921,14 @@
       "first_date": "2026-10-23",
       "first_price": "¥60.00",
       "last_date": "2026-10-27",
-      "last_price": "¥60.00",
-      "last_change_date": "2026-10-23",
+      "last_price": "¥50.00",
+      "last_change_date": "2026-10-27",
       "ever_paid": true,
-      "last_paid_date": "2026-10-23",
+      "last_paid_date": "2026-10-27",
       "free_since": null,
       "changes": {
-        "2026-10-23": "¥60.00"
+        "2026-10-23": "¥60.00",
+        "2026-10-27": "¥50.00"
       }
     },
     "1395152179::移动端会员-年卡": {
@@ -31937,13 +31939,14 @@
       "first_date": "2026-10-23",
       "first_price": "¥108.00",
       "last_date": "2026-10-27",
-      "last_price": "¥108.00",
-      "last_change_date": "2026-10-23",
+      "last_price": "¥78.00",
+      "last_change_date": "2026-10-27",
       "ever_paid": true,
-      "last_paid_date": "2026-10-23",
+      "last_paid_date": "2026-10-27",
       "free_since": null,
       "changes": {
-        "2026-10-23": "¥108.00"
+        "2026-10-23": "¥108.00",
+        "2026-10-27": "¥78.00"
       }
     },
     "1194582243::Smart Cleaner 高级版": {
@@ -63754,7 +63757,7 @@
       "first_date": "2026-10-23",
       "first_price": "¥18.00",
       "last_date": "2026-10-27",
-      "last_price": "¥30.00",
+      "last_price": "¥648.00",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
       "last_paid_date": "2026-10-27",
@@ -63764,7 +63767,7 @@
         "2026-10-24": "¥648.00",
         "2026-10-25": "¥648.00",
         "2026-10-26": "¥648.00",
-        "2026-10-27": "¥30.00"
+        "2026-10-27": "¥648.00"
       }
     },
     "6505045072::月会员": {
@@ -63791,7 +63794,7 @@
       "region": "cn",
       "first_date": "2026-10-23",
       "first_price": "¥38.00",
-      "last_date": "2026-10-26",
+      "last_date": "2026-10-27",
       "last_price": "¥38.00",
       "last_change_date": "2026-10-23",
       "ever_paid": true,
@@ -69806,7 +69809,7 @@
       "region": "cn",
       "first_date": "2026-10-23",
       "first_price": "¥398.00",
-      "last_date": "2026-10-26",
+      "last_date": "2026-10-27",
       "last_price": "¥398.00",
       "last_change_date": "2026-10-23",
       "ever_paid": true,
@@ -101081,7 +101084,7 @@
       "region": "cn",
       "first_date": "2026-10-23",
       "first_price": "¥1,148.00",
-      "last_date": "2026-10-24",
+      "last_date": "2026-10-27",
       "last_price": "¥1,148.00",
       "last_change_date": "2026-10-23",
       "ever_paid": true,
@@ -125684,6 +125687,74 @@
       "free_since": null,
       "changes": {
         "2026-10-27": "¥6.00"
+      }
+    },
+    "1519407428::多控一每月连续订阅": {
+      "app_id": "1519407428",
+      "app_name": "ToDesk远程控制",
+      "name": "多控一每月连续订阅",
+      "region": "cn",
+      "first_date": "2026-10-27",
+      "first_price": "¥22.80",
+      "last_date": "2026-10-27",
+      "last_price": "¥22.80",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
+      "free_since": null,
+      "changes": {
+        "2026-10-27": "¥22.80"
+      }
+    },
+    "1395152179::移动端会员-日卡": {
+      "app_id": "1395152179",
+      "app_name": "奇游加速器 - 全球游戏畅玩",
+      "name": "移动端会员-日卡",
+      "region": "cn",
+      "first_date": "2026-10-27",
+      "first_price": "¥1.00",
+      "last_date": "2026-10-27",
+      "last_price": "¥1.00",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
+      "free_since": null,
+      "changes": {
+        "2026-10-27": "¥1.00"
+      }
+    },
+    "1556582179::JEON SOMI Ticket": {
+      "app_id": "1556582179",
+      "app_name": "bubble with STARS",
+      "name": "JEON SOMI Ticket",
+      "region": "cn",
+      "first_date": "2026-10-27",
+      "first_price": "¥30.00",
+      "last_date": "2026-10-27",
+      "last_price": "¥30.00",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
+      "free_since": null,
+      "changes": {
+        "2026-10-27": "¥30.00"
+      }
+    },
+    "879281862::新华大字典（3个月VIP）": {
+      "app_id": "879281862",
+      "app_name": "新华大字典-词典·成语·古汉语·诗词",
+      "name": "新华大字典（3个月VIP）",
+      "region": "cn",
+      "first_date": "2026-10-27",
+      "first_price": "¥58.00",
+      "last_date": "2026-10-27",
+      "last_price": "¥58.00",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
+      "free_since": null,
+      "changes": {
+        "2026-10-27": "¥58.00"
       }
     }
   }
