@@ -1,234 +1,8 @@
 {
   "date": "2026-10-26",
   "country": "cn",
-  "generated_at": "2026-10-25T23:20:46Z",
+  "generated_at": "2026-10-26T07:22:56Z",
   "freebies": [
-    {
-      "id": "6799431765",
-      "name": "文绉绉 甪端",
-      "dev": "新宇 刘",
-      "genre": "教育",
-      "normal": "¥3.00",
-      "current": "免费",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/89/3a/06/893a0696-fda1-375b-1ecd-0cff996234f5/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-      "rating": 5,
-      "url": "https://apps.apple.com/cn/app/%E6%96%87%E7%BB%89%E7%BB%89-%E7%94%AA%E7%AB%AF/id6799431765?uo=4",
-      "region": "cn",
-      "type": "free",
-      "is_new": true,
-      "series": [
-        3.0,
-        3.0,
-        3.0,
-        3.0,
-        0
-      ],
-      "phistory": [
-        {
-          "d": "2026-10-22",
-          "p": 3.0
-        },
-        {
-          "d": "2026-10-23",
-          "p": 3.0
-        },
-        {
-          "d": "2026-10-24",
-          "p": 3.0
-        },
-        {
-          "d": "2026-10-25",
-          "p": 3.0
-        },
-        {
-          "d": "2026-10-26",
-          "p": 0
-        }
-      ],
-      "rel": [
-        {
-          "id": "6775141985",
-          "name": "M3U8 Spark: 网页视频嗅探&在线播放",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5b/55/8b/5b558b73-29b0-acea-9d64-1a43cf2d5ef9/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6775141985.html",
-          "rating": 4.4074,
-          "region": "cn"
-        },
-        {
-          "id": "6474681491",
-          "name": "1/1",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7d/20/b7/7d20b7f5-7e7f-2bc9-b6e0-053522db13f1/AppIcon-0-0-1x_U007epad-0-1-P3-85-220.png/512x512bb.jpg",
-          "genre": "图形与设计",
-          "type": "free",
-          "page": "app/cn-6474681491.html",
-          "rating": 5,
-          "region": "cn"
-        },
-        {
-          "id": "6799355833",
-          "name": "Bars：AI用量与节点流量",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8f/7d/e7/8f7de737-5deb-3388-7d92-a0f84c79de2c/BarsIcon-63-green-slash-0-0-1x_U007ephone-0-1-0-sRGB-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6799355833.html",
-          "rating": 5,
-          "region": "cn"
-        },
-        {
-          "id": "6812764518",
-          "name": "Calc Plus - Calculator",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/69/4f/dc/694fdca1-164f-cdd8-4355-76d6b2a5f8c1/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6812764518.html",
-          "rating": 5,
-          "region": "cn"
-        },
-        {
-          "id": "6821034945",
-          "name": "Charcoal Studio",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/12/98/07/1298074e-3155-90be-6bee-aaae4d487ed4/charcolicon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "图形与设计",
-          "type": "free",
-          "page": "app/cn-6821034945.html",
-          "rating": 5,
-          "region": "cn"
-        },
-        {
-          "id": "1157967613",
-          "name": "Christmas Radio UK",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/91/81/2e/91812eec-d5ef-d56b-c5eb-d8f644f13382/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "音乐",
-          "type": "free",
-          "page": "app/cn-1157967613.html",
-          "rating": 5,
-          "region": "cn"
-        },
-        {
-          "id": "335485024",
-          "name": "GPSnote",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c7/73/38/c7733896-5840-9c7b-9f71-a12527e925f1/AppIcon-0-0-1x_U007epad-0-1-sRGB-85-220.png/512x512bb.jpg",
-          "genre": "导航",
-          "type": "free",
-          "page": "app/cn-335485024.html",
-          "rating": 5,
-          "region": "cn"
-        },
-        {
-          "id": "6799973308",
-          "name": "Galplay: 多引擎Galgame 播放器",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8f/fa/e2/8ffae28d-aafb-9c1d-f096-df7dc370d73f/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6799973308.html",
-          "rating": 5,
-          "region": "cn"
-        },
-        {
-          "id": "6739967953",
-          "name": "Luna Subscriptions",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/66/6f/77/666f7773-7958-f144-4fd1-7bc3d5bb4a48/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
-          "genre": "财务",
-          "type": "free",
-          "page": "app/cn-6739967953.html",
-          "rating": 5,
-          "region": "cn"
-        },
-        {
-          "id": "6814895879",
-          "name": "Notea便利贴",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d4/5a/1e/d45a1eaf-2a72-609c-ba6b-3af8c624ad7d/AppIconModern-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
-          "genre": "效率",
-          "type": "free",
-          "page": "app/cn-6814895879.html",
-          "rating": 5,
-          "region": "cn"
-        },
-        {
-          "id": "6794823541",
-          "name": "Notice – Mindful Screen Time",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f0/25/e6/f025e6c9-6d26-ef19-d815-0b6cf9f7eea5/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "健康健美",
-          "type": "free",
-          "page": "app/cn-6794823541.html",
-          "rating": 5,
-          "region": "cn"
-        },
-        {
-          "id": "1312918682",
-          "name": "OBD2 Dashboards: Car Scanner",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3f/d5/2a/3fd52ae5-6197-df58-68a1-9af858a2ff32/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-1312918682.html",
-          "rating": 5,
-          "region": "cn"
-        },
-        {
-          "id": "436311293",
-          "name": "Ratio Calc!",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0c/0f/52/0c0f52a2-8ecb-fbe1-b577-446eb8d35824/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
-          "genre": "体育",
-          "type": "free",
-          "page": "app/cn-436311293.html",
-          "rating": 5,
-          "region": "cn"
-        },
-        {
-          "id": "1513271477",
-          "name": "Revisits: Informes Servicio JW",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d8/b1/1e/d8b11e3a-b7c7-3d3f-d3ee-48fbe12387ba/NewIconBlue-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-85-220.png/512x512bb.jpg",
-          "genre": "效率",
-          "type": "free",
-          "page": "app/cn-1513271477.html",
-          "rating": 5,
-          "region": "cn"
-        },
-        {
-          "id": "1024535991",
-          "name": "Santa Text",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple118/v4/2e/85/b9/2e85b97b-6691-fe59-651e-ea532f07ca2b/AppIcon-1x_U007emarketing-85-220-0-9.jpeg/512x512bb.jpg",
-          "genre": "娱乐",
-          "type": "free",
-          "page": "app/cn-1024535991.html",
-          "rating": 5,
-          "region": "cn"
-        },
-        {
-          "id": "6755433454",
-          "name": "ScreenHound - 图片文字提取、屏幕翻译、文件扫描",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/eb/66/d7/eb66d71f-0fb8-faf8-20f7-2f2bcbe028cf/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6755433454.html",
-          "rating": 5,
-          "region": "cn"
-        },
-        {
-          "id": "1480168613",
-          "name": "Single Origin - Coffee Timer",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d4/a3/a3/d4a3a350-b010-866d-e7b6-ad7fcc2b26be/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "美食佳饮",
-          "type": "free",
-          "page": "app/cn-1480168613.html",
-          "rating": 5,
-          "region": "cn"
-        },
-        {
-          "id": "6748906275",
-          "name": "Waky Alarm - 不再为赖床懊恼 - 闹钟",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c1/61/bc/c161bc31-2965-4675-9538-7cc94aabeeef/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
-          "genre": "生活",
-          "type": "free",
-          "page": "app/cn-6748906275.html",
-          "rating": 5,
-          "region": "cn"
-        }
-      ],
-      "page": "app/cn-6799431765.html"
-    },
     {
       "id": "6775141985",
       "name": "M3U8 Spark: 网页视频嗅探&在线播放",
@@ -237,7 +11,7 @@
       "normal": "¥6.00",
       "current": "免费",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5b/55/8b/5b558b73-29b0-acea-9d64-1a43cf2d5ef9/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-      "rating": 4.4074,
+      "rating": 4.41818,
       "url": "https://apps.apple.com/cn/app/m3u8-spark-%E7%BD%91%E9%A1%B5%E8%A7%86%E9%A2%91%E5%97%85%E6%8E%A2-%E5%9C%A8%E7%BA%BF%E6%92%AD%E6%94%BE/id6775141985?uo=4",
       "region": "cn",
       "type": "free",
@@ -283,13 +57,13 @@
       ],
       "rel": [
         {
-          "id": "6799431765",
-          "name": "文绉绉 甪端",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/89/3a/06/893a0696-fda1-375b-1ecd-0cff996234f5/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "教育",
-          "type": "free",
-          "page": "app/cn-6799431765.html",
-          "rating": 5,
+          "id": "1542317784",
+          "name": "房价-国家统计局房价行情数据统计",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0a/e1/18/0ae11803-9128-b9c9-c315-08aa51d9ff7a/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "财务",
+          "type": "deal",
+          "page": "app/cn-1542317784.html",
+          "rating": 4.64706,
           "region": "cn"
         },
         {
@@ -453,12 +227,12 @@
           "region": "cn"
         },
         {
-          "id": "6748906275",
-          "name": "Waky Alarm - 不再为赖床懊恼 - 闹钟",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c1/61/bc/c161bc31-2965-4675-9538-7cc94aabeeef/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
-          "genre": "生活",
+          "id": "6788334548",
+          "name": "Visto·剧集电影观影记录",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/27/ef/f7/27eff72c-5fcf-0247-0a37-7f25cac2d2b0/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "娱乐",
           "type": "free",
-          "page": "app/cn-6748906275.html",
+          "page": "app/cn-6788334548.html",
           "rating": 5,
           "region": "cn"
         }
@@ -509,13 +283,13 @@
       ],
       "rel": [
         {
-          "id": "6799431765",
-          "name": "文绉绉 甪端",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/89/3a/06/893a0696-fda1-375b-1ecd-0cff996234f5/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "教育",
-          "type": "free",
-          "page": "app/cn-6799431765.html",
-          "rating": 5,
+          "id": "1542317784",
+          "name": "房价-国家统计局房价行情数据统计",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0a/e1/18/0ae11803-9128-b9c9-c315-08aa51d9ff7a/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "财务",
+          "type": "deal",
+          "page": "app/cn-1542317784.html",
+          "rating": 4.64706,
           "region": "cn"
         },
         {
@@ -525,7 +299,7 @@
           "genre": "工具",
           "type": "free",
           "page": "app/cn-6775141985.html",
-          "rating": 4.4074,
+          "rating": 4.41818,
           "region": "cn"
         },
         {
@@ -679,12 +453,12 @@
           "region": "cn"
         },
         {
-          "id": "6748906275",
-          "name": "Waky Alarm - 不再为赖床懊恼 - 闹钟",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c1/61/bc/c161bc31-2965-4675-9538-7cc94aabeeef/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
-          "genre": "生活",
+          "id": "6788334548",
+          "name": "Visto·剧集电影观影记录",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/27/ef/f7/27eff72c-5fcf-0247-0a37-7f25cac2d2b0/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "娱乐",
           "type": "free",
-          "page": "app/cn-6748906275.html",
+          "page": "app/cn-6788334548.html",
           "rating": 5,
           "region": "cn"
         }
@@ -750,13 +524,13 @@
       ],
       "rel": [
         {
-          "id": "6799431765",
-          "name": "文绉绉 甪端",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/89/3a/06/893a0696-fda1-375b-1ecd-0cff996234f5/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "教育",
-          "type": "free",
-          "page": "app/cn-6799431765.html",
-          "rating": 5,
+          "id": "1542317784",
+          "name": "房价-国家统计局房价行情数据统计",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0a/e1/18/0ae11803-9128-b9c9-c315-08aa51d9ff7a/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "财务",
+          "type": "deal",
+          "page": "app/cn-1542317784.html",
+          "rating": 4.64706,
           "region": "cn"
         },
         {
@@ -766,7 +540,7 @@
           "genre": "工具",
           "type": "free",
           "page": "app/cn-6775141985.html",
-          "rating": 4.4074,
+          "rating": 4.41818,
           "region": "cn"
         },
         {
@@ -920,12 +694,12 @@
           "region": "cn"
         },
         {
-          "id": "6748906275",
-          "name": "Waky Alarm - 不再为赖床懊恼 - 闹钟",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c1/61/bc/c161bc31-2965-4675-9538-7cc94aabeeef/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
-          "genre": "生活",
+          "id": "6788334548",
+          "name": "Visto·剧集电影观影记录",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/27/ef/f7/27eff72c-5fcf-0247-0a37-7f25cac2d2b0/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "娱乐",
           "type": "free",
-          "page": "app/cn-6748906275.html",
+          "page": "app/cn-6788334548.html",
           "rating": 5,
           "region": "cn"
         }
@@ -991,13 +765,13 @@
       ],
       "rel": [
         {
-          "id": "6799431765",
-          "name": "文绉绉 甪端",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/89/3a/06/893a0696-fda1-375b-1ecd-0cff996234f5/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "教育",
-          "type": "free",
-          "page": "app/cn-6799431765.html",
-          "rating": 5,
+          "id": "1542317784",
+          "name": "房价-国家统计局房价行情数据统计",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0a/e1/18/0ae11803-9128-b9c9-c315-08aa51d9ff7a/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "财务",
+          "type": "deal",
+          "page": "app/cn-1542317784.html",
+          "rating": 4.64706,
           "region": "cn"
         },
         {
@@ -1007,7 +781,7 @@
           "genre": "工具",
           "type": "free",
           "page": "app/cn-6775141985.html",
-          "rating": 4.4074,
+          "rating": 4.41818,
           "region": "cn"
         },
         {
@@ -1161,12 +935,12 @@
           "region": "cn"
         },
         {
-          "id": "6748906275",
-          "name": "Waky Alarm - 不再为赖床懊恼 - 闹钟",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c1/61/bc/c161bc31-2965-4675-9538-7cc94aabeeef/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
-          "genre": "生活",
+          "id": "6788334548",
+          "name": "Visto·剧集电影观影记录",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/27/ef/f7/27eff72c-5fcf-0247-0a37-7f25cac2d2b0/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "娱乐",
           "type": "free",
-          "page": "app/cn-6748906275.html",
+          "page": "app/cn-6788334548.html",
           "rating": 5,
           "region": "cn"
         }
@@ -1232,13 +1006,13 @@
       ],
       "rel": [
         {
-          "id": "6799431765",
-          "name": "文绉绉 甪端",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/89/3a/06/893a0696-fda1-375b-1ecd-0cff996234f5/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "教育",
-          "type": "free",
-          "page": "app/cn-6799431765.html",
-          "rating": 5,
+          "id": "1542317784",
+          "name": "房价-国家统计局房价行情数据统计",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0a/e1/18/0ae11803-9128-b9c9-c315-08aa51d9ff7a/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "财务",
+          "type": "deal",
+          "page": "app/cn-1542317784.html",
+          "rating": 4.64706,
           "region": "cn"
         },
         {
@@ -1248,7 +1022,7 @@
           "genre": "工具",
           "type": "free",
           "page": "app/cn-6775141985.html",
-          "rating": 4.4074,
+          "rating": 4.41818,
           "region": "cn"
         },
         {
@@ -1402,12 +1176,12 @@
           "region": "cn"
         },
         {
-          "id": "6748906275",
-          "name": "Waky Alarm - 不再为赖床懊恼 - 闹钟",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c1/61/bc/c161bc31-2965-4675-9538-7cc94aabeeef/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
-          "genre": "生活",
+          "id": "6788334548",
+          "name": "Visto·剧集电影观影记录",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/27/ef/f7/27eff72c-5fcf-0247-0a37-7f25cac2d2b0/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "娱乐",
           "type": "free",
-          "page": "app/cn-6748906275.html",
+          "page": "app/cn-6788334548.html",
           "rating": 5,
           "region": "cn"
         }
@@ -1458,13 +1232,13 @@
       ],
       "rel": [
         {
-          "id": "6799431765",
-          "name": "文绉绉 甪端",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/89/3a/06/893a0696-fda1-375b-1ecd-0cff996234f5/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "教育",
-          "type": "free",
-          "page": "app/cn-6799431765.html",
-          "rating": 5,
+          "id": "1542317784",
+          "name": "房价-国家统计局房价行情数据统计",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0a/e1/18/0ae11803-9128-b9c9-c315-08aa51d9ff7a/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "财务",
+          "type": "deal",
+          "page": "app/cn-1542317784.html",
+          "rating": 4.64706,
           "region": "cn"
         },
         {
@@ -1474,7 +1248,7 @@
           "genre": "工具",
           "type": "free",
           "page": "app/cn-6775141985.html",
-          "rating": 4.4074,
+          "rating": 4.41818,
           "region": "cn"
         },
         {
@@ -1628,12 +1402,12 @@
           "region": "cn"
         },
         {
-          "id": "6748906275",
-          "name": "Waky Alarm - 不再为赖床懊恼 - 闹钟",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c1/61/bc/c161bc31-2965-4675-9538-7cc94aabeeef/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
-          "genre": "生活",
+          "id": "6788334548",
+          "name": "Visto·剧集电影观影记录",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/27/ef/f7/27eff72c-5fcf-0247-0a37-7f25cac2d2b0/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "娱乐",
           "type": "free",
-          "page": "app/cn-6748906275.html",
+          "page": "app/cn-6788334548.html",
           "rating": 5,
           "region": "cn"
         }
@@ -1674,13 +1448,13 @@
       ],
       "rel": [
         {
-          "id": "6799431765",
-          "name": "文绉绉 甪端",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/89/3a/06/893a0696-fda1-375b-1ecd-0cff996234f5/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "教育",
-          "type": "free",
-          "page": "app/cn-6799431765.html",
-          "rating": 5,
+          "id": "1542317784",
+          "name": "房价-国家统计局房价行情数据统计",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0a/e1/18/0ae11803-9128-b9c9-c315-08aa51d9ff7a/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "财务",
+          "type": "deal",
+          "page": "app/cn-1542317784.html",
+          "rating": 4.64706,
           "region": "cn"
         },
         {
@@ -1690,7 +1464,7 @@
           "genre": "工具",
           "type": "free",
           "page": "app/cn-6775141985.html",
-          "rating": 4.4074,
+          "rating": 4.41818,
           "region": "cn"
         },
         {
@@ -1844,12 +1618,12 @@
           "region": "cn"
         },
         {
-          "id": "6748906275",
-          "name": "Waky Alarm - 不再为赖床懊恼 - 闹钟",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c1/61/bc/c161bc31-2965-4675-9538-7cc94aabeeef/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
-          "genre": "生活",
+          "id": "6788334548",
+          "name": "Visto·剧集电影观影记录",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/27/ef/f7/27eff72c-5fcf-0247-0a37-7f25cac2d2b0/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "娱乐",
           "type": "free",
-          "page": "app/cn-6748906275.html",
+          "page": "app/cn-6788334548.html",
           "rating": 5,
           "region": "cn"
         }
@@ -1915,13 +1689,13 @@
       ],
       "rel": [
         {
-          "id": "6799431765",
-          "name": "文绉绉 甪端",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/89/3a/06/893a0696-fda1-375b-1ecd-0cff996234f5/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "教育",
-          "type": "free",
-          "page": "app/cn-6799431765.html",
-          "rating": 5,
+          "id": "1542317784",
+          "name": "房价-国家统计局房价行情数据统计",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0a/e1/18/0ae11803-9128-b9c9-c315-08aa51d9ff7a/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "财务",
+          "type": "deal",
+          "page": "app/cn-1542317784.html",
+          "rating": 4.64706,
           "region": "cn"
         },
         {
@@ -1931,7 +1705,7 @@
           "genre": "工具",
           "type": "free",
           "page": "app/cn-6775141985.html",
-          "rating": 4.4074,
+          "rating": 4.41818,
           "region": "cn"
         },
         {
@@ -2085,12 +1859,12 @@
           "region": "cn"
         },
         {
-          "id": "6748906275",
-          "name": "Waky Alarm - 不再为赖床懊恼 - 闹钟",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c1/61/bc/c161bc31-2965-4675-9538-7cc94aabeeef/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
-          "genre": "生活",
+          "id": "6788334548",
+          "name": "Visto·剧集电影观影记录",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/27/ef/f7/27eff72c-5fcf-0247-0a37-7f25cac2d2b0/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "娱乐",
           "type": "free",
-          "page": "app/cn-6748906275.html",
+          "page": "app/cn-6788334548.html",
           "rating": 5,
           "region": "cn"
         }
@@ -2156,13 +1930,13 @@
       ],
       "rel": [
         {
-          "id": "6799431765",
-          "name": "文绉绉 甪端",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/89/3a/06/893a0696-fda1-375b-1ecd-0cff996234f5/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "教育",
-          "type": "free",
-          "page": "app/cn-6799431765.html",
-          "rating": 5,
+          "id": "1542317784",
+          "name": "房价-国家统计局房价行情数据统计",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0a/e1/18/0ae11803-9128-b9c9-c315-08aa51d9ff7a/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "财务",
+          "type": "deal",
+          "page": "app/cn-1542317784.html",
+          "rating": 4.64706,
           "region": "cn"
         },
         {
@@ -2172,7 +1946,7 @@
           "genre": "工具",
           "type": "free",
           "page": "app/cn-6775141985.html",
-          "rating": 4.4074,
+          "rating": 4.41818,
           "region": "cn"
         },
         {
@@ -2326,12 +2100,12 @@
           "region": "cn"
         },
         {
-          "id": "6748906275",
-          "name": "Waky Alarm - 不再为赖床懊恼 - 闹钟",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c1/61/bc/c161bc31-2965-4675-9538-7cc94aabeeef/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
-          "genre": "生活",
+          "id": "6788334548",
+          "name": "Visto·剧集电影观影记录",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/27/ef/f7/27eff72c-5fcf-0247-0a37-7f25cac2d2b0/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "娱乐",
           "type": "free",
-          "page": "app/cn-6748906275.html",
+          "page": "app/cn-6788334548.html",
           "rating": 5,
           "region": "cn"
         }
@@ -2397,13 +2171,13 @@
       ],
       "rel": [
         {
-          "id": "6799431765",
-          "name": "文绉绉 甪端",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/89/3a/06/893a0696-fda1-375b-1ecd-0cff996234f5/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "教育",
-          "type": "free",
-          "page": "app/cn-6799431765.html",
-          "rating": 5,
+          "id": "1542317784",
+          "name": "房价-国家统计局房价行情数据统计",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0a/e1/18/0ae11803-9128-b9c9-c315-08aa51d9ff7a/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "财务",
+          "type": "deal",
+          "page": "app/cn-1542317784.html",
+          "rating": 4.64706,
           "region": "cn"
         },
         {
@@ -2413,7 +2187,7 @@
           "genre": "工具",
           "type": "free",
           "page": "app/cn-6775141985.html",
-          "rating": 4.4074,
+          "rating": 4.41818,
           "region": "cn"
         },
         {
@@ -2567,12 +2341,12 @@
           "region": "cn"
         },
         {
-          "id": "6748906275",
-          "name": "Waky Alarm - 不再为赖床懊恼 - 闹钟",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c1/61/bc/c161bc31-2965-4675-9538-7cc94aabeeef/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
-          "genre": "生活",
+          "id": "6788334548",
+          "name": "Visto·剧集电影观影记录",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/27/ef/f7/27eff72c-5fcf-0247-0a37-7f25cac2d2b0/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "娱乐",
           "type": "free",
-          "page": "app/cn-6748906275.html",
+          "page": "app/cn-6788334548.html",
           "rating": 5,
           "region": "cn"
         }
@@ -2638,13 +2412,13 @@
       ],
       "rel": [
         {
-          "id": "6799431765",
-          "name": "文绉绉 甪端",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/89/3a/06/893a0696-fda1-375b-1ecd-0cff996234f5/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "教育",
-          "type": "free",
-          "page": "app/cn-6799431765.html",
-          "rating": 5,
+          "id": "1542317784",
+          "name": "房价-国家统计局房价行情数据统计",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0a/e1/18/0ae11803-9128-b9c9-c315-08aa51d9ff7a/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "财务",
+          "type": "deal",
+          "page": "app/cn-1542317784.html",
+          "rating": 4.64706,
           "region": "cn"
         },
         {
@@ -2654,7 +2428,7 @@
           "genre": "工具",
           "type": "free",
           "page": "app/cn-6775141985.html",
-          "rating": 4.4074,
+          "rating": 4.41818,
           "region": "cn"
         },
         {
@@ -2808,12 +2582,12 @@
           "region": "cn"
         },
         {
-          "id": "6748906275",
-          "name": "Waky Alarm - 不再为赖床懊恼 - 闹钟",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c1/61/bc/c161bc31-2965-4675-9538-7cc94aabeeef/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
-          "genre": "生活",
+          "id": "6788334548",
+          "name": "Visto·剧集电影观影记录",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/27/ef/f7/27eff72c-5fcf-0247-0a37-7f25cac2d2b0/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "娱乐",
           "type": "free",
-          "page": "app/cn-6748906275.html",
+          "page": "app/cn-6788334548.html",
           "rating": 5,
           "region": "cn"
         }
@@ -2864,13 +2638,13 @@
       ],
       "rel": [
         {
-          "id": "6799431765",
-          "name": "文绉绉 甪端",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/89/3a/06/893a0696-fda1-375b-1ecd-0cff996234f5/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "教育",
-          "type": "free",
-          "page": "app/cn-6799431765.html",
-          "rating": 5,
+          "id": "1542317784",
+          "name": "房价-国家统计局房价行情数据统计",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0a/e1/18/0ae11803-9128-b9c9-c315-08aa51d9ff7a/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "财务",
+          "type": "deal",
+          "page": "app/cn-1542317784.html",
+          "rating": 4.64706,
           "region": "cn"
         },
         {
@@ -2880,7 +2654,7 @@
           "genre": "工具",
           "type": "free",
           "page": "app/cn-6775141985.html",
-          "rating": 4.4074,
+          "rating": 4.41818,
           "region": "cn"
         },
         {
@@ -3034,12 +2808,12 @@
           "region": "cn"
         },
         {
-          "id": "6748906275",
-          "name": "Waky Alarm - 不再为赖床懊恼 - 闹钟",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c1/61/bc/c161bc31-2965-4675-9538-7cc94aabeeef/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
-          "genre": "生活",
+          "id": "6788334548",
+          "name": "Visto·剧集电影观影记录",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/27/ef/f7/27eff72c-5fcf-0247-0a37-7f25cac2d2b0/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "娱乐",
           "type": "free",
-          "page": "app/cn-6748906275.html",
+          "page": "app/cn-6788334548.html",
           "rating": 5,
           "region": "cn"
         }
@@ -3105,13 +2879,13 @@
       ],
       "rel": [
         {
-          "id": "6799431765",
-          "name": "文绉绉 甪端",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/89/3a/06/893a0696-fda1-375b-1ecd-0cff996234f5/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "教育",
-          "type": "free",
-          "page": "app/cn-6799431765.html",
-          "rating": 5,
+          "id": "1542317784",
+          "name": "房价-国家统计局房价行情数据统计",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0a/e1/18/0ae11803-9128-b9c9-c315-08aa51d9ff7a/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "财务",
+          "type": "deal",
+          "page": "app/cn-1542317784.html",
+          "rating": 4.64706,
           "region": "cn"
         },
         {
@@ -3121,7 +2895,7 @@
           "genre": "工具",
           "type": "free",
           "page": "app/cn-6775141985.html",
-          "rating": 4.4074,
+          "rating": 4.41818,
           "region": "cn"
         },
         {
@@ -3275,12 +3049,12 @@
           "region": "cn"
         },
         {
-          "id": "6748906275",
-          "name": "Waky Alarm - 不再为赖床懊恼 - 闹钟",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c1/61/bc/c161bc31-2965-4675-9538-7cc94aabeeef/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
-          "genre": "生活",
+          "id": "6788334548",
+          "name": "Visto·剧集电影观影记录",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/27/ef/f7/27eff72c-5fcf-0247-0a37-7f25cac2d2b0/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "娱乐",
           "type": "free",
-          "page": "app/cn-6748906275.html",
+          "page": "app/cn-6788334548.html",
           "rating": 5,
           "region": "cn"
         }
@@ -3346,13 +3120,13 @@
       ],
       "rel": [
         {
-          "id": "6799431765",
-          "name": "文绉绉 甪端",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/89/3a/06/893a0696-fda1-375b-1ecd-0cff996234f5/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "教育",
-          "type": "free",
-          "page": "app/cn-6799431765.html",
-          "rating": 5,
+          "id": "1542317784",
+          "name": "房价-国家统计局房价行情数据统计",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0a/e1/18/0ae11803-9128-b9c9-c315-08aa51d9ff7a/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "财务",
+          "type": "deal",
+          "page": "app/cn-1542317784.html",
+          "rating": 4.64706,
           "region": "cn"
         },
         {
@@ -3362,7 +3136,7 @@
           "genre": "工具",
           "type": "free",
           "page": "app/cn-6775141985.html",
-          "rating": 4.4074,
+          "rating": 4.41818,
           "region": "cn"
         },
         {
@@ -3516,12 +3290,12 @@
           "region": "cn"
         },
         {
-          "id": "6748906275",
-          "name": "Waky Alarm - 不再为赖床懊恼 - 闹钟",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c1/61/bc/c161bc31-2965-4675-9538-7cc94aabeeef/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
-          "genre": "生活",
+          "id": "6788334548",
+          "name": "Visto·剧集电影观影记录",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/27/ef/f7/27eff72c-5fcf-0247-0a37-7f25cac2d2b0/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "娱乐",
           "type": "free",
-          "page": "app/cn-6748906275.html",
+          "page": "app/cn-6788334548.html",
           "rating": 5,
           "region": "cn"
         }
@@ -3572,13 +3346,13 @@
       ],
       "rel": [
         {
-          "id": "6799431765",
-          "name": "文绉绉 甪端",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/89/3a/06/893a0696-fda1-375b-1ecd-0cff996234f5/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "教育",
-          "type": "free",
-          "page": "app/cn-6799431765.html",
-          "rating": 5,
+          "id": "1542317784",
+          "name": "房价-国家统计局房价行情数据统计",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0a/e1/18/0ae11803-9128-b9c9-c315-08aa51d9ff7a/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "财务",
+          "type": "deal",
+          "page": "app/cn-1542317784.html",
+          "rating": 4.64706,
           "region": "cn"
         },
         {
@@ -3588,7 +3362,7 @@
           "genre": "工具",
           "type": "free",
           "page": "app/cn-6775141985.html",
-          "rating": 4.4074,
+          "rating": 4.41818,
           "region": "cn"
         },
         {
@@ -3742,12 +3516,12 @@
           "region": "cn"
         },
         {
-          "id": "6748906275",
-          "name": "Waky Alarm - 不再为赖床懊恼 - 闹钟",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c1/61/bc/c161bc31-2965-4675-9538-7cc94aabeeef/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
-          "genre": "生活",
+          "id": "6788334548",
+          "name": "Visto·剧集电影观影记录",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/27/ef/f7/27eff72c-5fcf-0247-0a37-7f25cac2d2b0/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "娱乐",
           "type": "free",
-          "page": "app/cn-6748906275.html",
+          "page": "app/cn-6788334548.html",
           "rating": 5,
           "region": "cn"
         }
@@ -3798,13 +3572,13 @@
       ],
       "rel": [
         {
-          "id": "6799431765",
-          "name": "文绉绉 甪端",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/89/3a/06/893a0696-fda1-375b-1ecd-0cff996234f5/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "教育",
-          "type": "free",
-          "page": "app/cn-6799431765.html",
-          "rating": 5,
+          "id": "1542317784",
+          "name": "房价-国家统计局房价行情数据统计",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0a/e1/18/0ae11803-9128-b9c9-c315-08aa51d9ff7a/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "财务",
+          "type": "deal",
+          "page": "app/cn-1542317784.html",
+          "rating": 4.64706,
           "region": "cn"
         },
         {
@@ -3814,7 +3588,7 @@
           "genre": "工具",
           "type": "free",
           "page": "app/cn-6775141985.html",
-          "rating": 4.4074,
+          "rating": 4.41818,
           "region": "cn"
         },
         {
@@ -3968,12 +3742,12 @@
           "region": "cn"
         },
         {
-          "id": "6748906275",
-          "name": "Waky Alarm - 不再为赖床懊恼 - 闹钟",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c1/61/bc/c161bc31-2965-4675-9538-7cc94aabeeef/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
-          "genre": "生活",
+          "id": "6788334548",
+          "name": "Visto·剧集电影观影记录",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/27/ef/f7/27eff72c-5fcf-0247-0a37-7f25cac2d2b0/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "娱乐",
           "type": "free",
-          "page": "app/cn-6748906275.html",
+          "page": "app/cn-6788334548.html",
           "rating": 5,
           "region": "cn"
         }
@@ -4014,13 +3788,13 @@
       ],
       "rel": [
         {
-          "id": "6799431765",
-          "name": "文绉绉 甪端",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/89/3a/06/893a0696-fda1-375b-1ecd-0cff996234f5/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "教育",
-          "type": "free",
-          "page": "app/cn-6799431765.html",
-          "rating": 5,
+          "id": "1542317784",
+          "name": "房价-国家统计局房价行情数据统计",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0a/e1/18/0ae11803-9128-b9c9-c315-08aa51d9ff7a/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "财务",
+          "type": "deal",
+          "page": "app/cn-1542317784.html",
+          "rating": 4.64706,
           "region": "cn"
         },
         {
@@ -4030,7 +3804,7 @@
           "genre": "工具",
           "type": "free",
           "page": "app/cn-6775141985.html",
-          "rating": 4.4074,
+          "rating": 4.41818,
           "region": "cn"
         },
         {
@@ -4184,17 +3958,258 @@
           "region": "cn"
         },
         {
-          "id": "6748906275",
-          "name": "Waky Alarm - 不再为赖床懊恼 - 闹钟",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c1/61/bc/c161bc31-2965-4675-9538-7cc94aabeeef/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
-          "genre": "生活",
+          "id": "6788334548",
+          "name": "Visto·剧集电影观影记录",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/27/ef/f7/27eff72c-5fcf-0247-0a37-7f25cac2d2b0/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "娱乐",
           "type": "free",
-          "page": "app/cn-6748906275.html",
+          "page": "app/cn-6788334548.html",
           "rating": 5,
           "region": "cn"
         }
       ],
       "page": "app/cn-1480168613.html"
+    },
+    {
+      "id": "6788334548",
+      "name": "Visto·剧集电影观影记录",
+      "dev": "Pedro Lanhoso",
+      "genre": "娱乐",
+      "normal": "¥0.99",
+      "current": "免费",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/27/ef/f7/27eff72c-5fcf-0247-0a37-7f25cac2d2b0/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "rating": 5,
+      "url": "https://apps.apple.com/cn/app/visto-%E5%89%A7%E9%9B%86%E7%94%B5%E5%BD%B1%E8%A7%82%E5%BD%B1%E8%AE%B0%E5%BD%95/id6788334548?uo=4",
+      "region": "cn",
+      "type": "free",
+      "is_new": false,
+      "series": [
+        0.99,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 0.99
+        },
+        {
+          "d": "2026-10-20",
+          "p": 0
+        },
+        {
+          "d": "2026-10-21",
+          "p": 0
+        },
+        {
+          "d": "2026-10-22",
+          "p": 0
+        },
+        {
+          "d": "2026-10-23",
+          "p": 0
+        },
+        {
+          "d": "2026-10-24",
+          "p": 0
+        },
+        {
+          "d": "2026-10-25",
+          "p": 0
+        },
+        {
+          "d": "2026-10-26",
+          "p": 0
+        }
+      ],
+      "rel": [
+        {
+          "id": "1542317784",
+          "name": "房价-国家统计局房价行情数据统计",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0a/e1/18/0ae11803-9128-b9c9-c315-08aa51d9ff7a/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "财务",
+          "type": "deal",
+          "page": "app/cn-1542317784.html",
+          "rating": 4.64706,
+          "region": "cn"
+        },
+        {
+          "id": "6775141985",
+          "name": "M3U8 Spark: 网页视频嗅探&在线播放",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5b/55/8b/5b558b73-29b0-acea-9d64-1a43cf2d5ef9/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "工具",
+          "type": "free",
+          "page": "app/cn-6775141985.html",
+          "rating": 4.41818,
+          "region": "cn"
+        },
+        {
+          "id": "6474681491",
+          "name": "1/1",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7d/20/b7/7d20b7f5-7e7f-2bc9-b6e0-053522db13f1/AppIcon-0-0-1x_U007epad-0-1-P3-85-220.png/512x512bb.jpg",
+          "genre": "图形与设计",
+          "type": "free",
+          "page": "app/cn-6474681491.html",
+          "rating": 5,
+          "region": "cn"
+        },
+        {
+          "id": "6799355833",
+          "name": "Bars：AI用量与节点流量",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8f/7d/e7/8f7de737-5deb-3388-7d92-a0f84c79de2c/BarsIcon-63-green-slash-0-0-1x_U007ephone-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "工具",
+          "type": "free",
+          "page": "app/cn-6799355833.html",
+          "rating": 5,
+          "region": "cn"
+        },
+        {
+          "id": "6812764518",
+          "name": "Calc Plus - Calculator",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/69/4f/dc/694fdca1-164f-cdd8-4355-76d6b2a5f8c1/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "工具",
+          "type": "free",
+          "page": "app/cn-6812764518.html",
+          "rating": 5,
+          "region": "cn"
+        },
+        {
+          "id": "6821034945",
+          "name": "Charcoal Studio",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/12/98/07/1298074e-3155-90be-6bee-aaae4d487ed4/charcolicon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "图形与设计",
+          "type": "free",
+          "page": "app/cn-6821034945.html",
+          "rating": 5,
+          "region": "cn"
+        },
+        {
+          "id": "1157967613",
+          "name": "Christmas Radio UK",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/91/81/2e/91812eec-d5ef-d56b-c5eb-d8f644f13382/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "音乐",
+          "type": "free",
+          "page": "app/cn-1157967613.html",
+          "rating": 5,
+          "region": "cn"
+        },
+        {
+          "id": "335485024",
+          "name": "GPSnote",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c7/73/38/c7733896-5840-9c7b-9f71-a12527e925f1/AppIcon-0-0-1x_U007epad-0-1-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "导航",
+          "type": "free",
+          "page": "app/cn-335485024.html",
+          "rating": 5,
+          "region": "cn"
+        },
+        {
+          "id": "6799973308",
+          "name": "Galplay: 多引擎Galgame 播放器",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8f/fa/e2/8ffae28d-aafb-9c1d-f096-df7dc370d73f/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+          "genre": "工具",
+          "type": "free",
+          "page": "app/cn-6799973308.html",
+          "rating": 5,
+          "region": "cn"
+        },
+        {
+          "id": "6739967953",
+          "name": "Luna Subscriptions",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/66/6f/77/666f7773-7958-f144-4fd1-7bc3d5bb4a48/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "财务",
+          "type": "free",
+          "page": "app/cn-6739967953.html",
+          "rating": 5,
+          "region": "cn"
+        },
+        {
+          "id": "6814895879",
+          "name": "Notea便利贴",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d4/5a/1e/d45a1eaf-2a72-609c-ba6b-3af8c624ad7d/AppIconModern-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "效率",
+          "type": "free",
+          "page": "app/cn-6814895879.html",
+          "rating": 5,
+          "region": "cn"
+        },
+        {
+          "id": "6794823541",
+          "name": "Notice – Mindful Screen Time",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f0/25/e6/f025e6c9-6d26-ef19-d815-0b6cf9f7eea5/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "健康健美",
+          "type": "free",
+          "page": "app/cn-6794823541.html",
+          "rating": 5,
+          "region": "cn"
+        },
+        {
+          "id": "1312918682",
+          "name": "OBD2 Dashboards: Car Scanner",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3f/d5/2a/3fd52ae5-6197-df58-68a1-9af858a2ff32/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+          "genre": "工具",
+          "type": "free",
+          "page": "app/cn-1312918682.html",
+          "rating": 5,
+          "region": "cn"
+        },
+        {
+          "id": "436311293",
+          "name": "Ratio Calc!",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0c/0f/52/0c0f52a2-8ecb-fbe1-b577-446eb8d35824/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "体育",
+          "type": "free",
+          "page": "app/cn-436311293.html",
+          "rating": 5,
+          "region": "cn"
+        },
+        {
+          "id": "1513271477",
+          "name": "Revisits: Informes Servicio JW",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d8/b1/1e/d8b11e3a-b7c7-3d3f-d3ee-48fbe12387ba/NewIconBlue-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "效率",
+          "type": "free",
+          "page": "app/cn-1513271477.html",
+          "rating": 5,
+          "region": "cn"
+        },
+        {
+          "id": "1024535991",
+          "name": "Santa Text",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple118/v4/2e/85/b9/2e85b97b-6691-fe59-651e-ea532f07ca2b/AppIcon-1x_U007emarketing-85-220-0-9.jpeg/512x512bb.jpg",
+          "genre": "娱乐",
+          "type": "free",
+          "page": "app/cn-1024535991.html",
+          "rating": 5,
+          "region": "cn"
+        },
+        {
+          "id": "6755433454",
+          "name": "ScreenHound - 图片文字提取、屏幕翻译、文件扫描",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/eb/66/d7/eb66d71f-0fb8-faf8-20f7-2f2bcbe028cf/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "工具",
+          "type": "free",
+          "page": "app/cn-6755433454.html",
+          "rating": 5,
+          "region": "cn"
+        },
+        {
+          "id": "1480168613",
+          "name": "Single Origin - Coffee Timer",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d4/a3/a3/d4a3a350-b010-866d-e7b6-ad7fcc2b26be/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "美食佳饮",
+          "type": "free",
+          "page": "app/cn-1480168613.html",
+          "rating": 5,
+          "region": "cn"
+        }
+      ],
+      "page": "app/cn-6788334548.html"
     },
     {
       "id": "6748906275",
@@ -4255,13 +4270,13 @@
       ],
       "rel": [
         {
-          "id": "6799431765",
-          "name": "文绉绉 甪端",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/89/3a/06/893a0696-fda1-375b-1ecd-0cff996234f5/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "教育",
-          "type": "free",
-          "page": "app/cn-6799431765.html",
-          "rating": 5,
+          "id": "1542317784",
+          "name": "房价-国家统计局房价行情数据统计",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0a/e1/18/0ae11803-9128-b9c9-c315-08aa51d9ff7a/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "财务",
+          "type": "deal",
+          "page": "app/cn-1542317784.html",
+          "rating": 4.64706,
           "region": "cn"
         },
         {
@@ -4271,7 +4286,7 @@
           "genre": "工具",
           "type": "free",
           "page": "app/cn-6775141985.html",
-          "rating": 4.4074,
+          "rating": 4.41818,
           "region": "cn"
         },
         {
@@ -4481,13 +4496,13 @@
       ],
       "rel": [
         {
-          "id": "6799431765",
-          "name": "文绉绉 甪端",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/89/3a/06/893a0696-fda1-375b-1ecd-0cff996234f5/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "教育",
-          "type": "free",
-          "page": "app/cn-6799431765.html",
-          "rating": 5,
+          "id": "1542317784",
+          "name": "房价-国家统计局房价行情数据统计",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0a/e1/18/0ae11803-9128-b9c9-c315-08aa51d9ff7a/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "财务",
+          "type": "deal",
+          "page": "app/cn-1542317784.html",
+          "rating": 4.64706,
           "region": "cn"
         },
         {
@@ -4497,7 +4512,7 @@
           "genre": "工具",
           "type": "free",
           "page": "app/cn-6775141985.html",
-          "rating": 4.4074,
+          "rating": 4.41818,
           "region": "cn"
         },
         {
@@ -4722,13 +4737,13 @@
       ],
       "rel": [
         {
-          "id": "6799431765",
-          "name": "文绉绉 甪端",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/89/3a/06/893a0696-fda1-375b-1ecd-0cff996234f5/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "教育",
-          "type": "free",
-          "page": "app/cn-6799431765.html",
-          "rating": 5,
+          "id": "1542317784",
+          "name": "房价-国家统计局房价行情数据统计",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0a/e1/18/0ae11803-9128-b9c9-c315-08aa51d9ff7a/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "财务",
+          "type": "deal",
+          "page": "app/cn-1542317784.html",
+          "rating": 4.64706,
           "region": "cn"
         },
         {
@@ -4738,7 +4753,7 @@
           "genre": "工具",
           "type": "free",
           "page": "app/cn-6775141985.html",
-          "rating": 4.4074,
+          "rating": 4.41818,
           "region": "cn"
         },
         {
@@ -4938,13 +4953,13 @@
       ],
       "rel": [
         {
-          "id": "6799431765",
-          "name": "文绉绉 甪端",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/89/3a/06/893a0696-fda1-375b-1ecd-0cff996234f5/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "教育",
-          "type": "free",
-          "page": "app/cn-6799431765.html",
-          "rating": 5,
+          "id": "1542317784",
+          "name": "房价-国家统计局房价行情数据统计",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0a/e1/18/0ae11803-9128-b9c9-c315-08aa51d9ff7a/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "财务",
+          "type": "deal",
+          "page": "app/cn-1542317784.html",
+          "rating": 4.64706,
           "region": "cn"
         },
         {
@@ -4954,7 +4969,7 @@
           "genre": "工具",
           "type": "free",
           "page": "app/cn-6775141985.html",
-          "rating": 4.4074,
+          "rating": 4.41818,
           "region": "cn"
         },
         {
@@ -5174,13 +5189,13 @@
       ],
       "rel": [
         {
-          "id": "6799431765",
-          "name": "文绉绉 甪端",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/89/3a/06/893a0696-fda1-375b-1ecd-0cff996234f5/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "教育",
-          "type": "free",
-          "page": "app/cn-6799431765.html",
-          "rating": 5,
+          "id": "1542317784",
+          "name": "房价-国家统计局房价行情数据统计",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0a/e1/18/0ae11803-9128-b9c9-c315-08aa51d9ff7a/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "财务",
+          "type": "deal",
+          "page": "app/cn-1542317784.html",
+          "rating": 4.64706,
           "region": "cn"
         },
         {
@@ -5190,7 +5205,7 @@
           "genre": "工具",
           "type": "free",
           "page": "app/cn-6775141985.html",
-          "rating": 4.4074,
+          "rating": 4.41818,
           "region": "cn"
         },
         {
@@ -5400,13 +5415,13 @@
       ],
       "rel": [
         {
-          "id": "6799431765",
-          "name": "文绉绉 甪端",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/89/3a/06/893a0696-fda1-375b-1ecd-0cff996234f5/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "教育",
-          "type": "free",
-          "page": "app/cn-6799431765.html",
-          "rating": 5,
+          "id": "1542317784",
+          "name": "房价-国家统计局房价行情数据统计",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0a/e1/18/0ae11803-9128-b9c9-c315-08aa51d9ff7a/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "财务",
+          "type": "deal",
+          "page": "app/cn-1542317784.html",
+          "rating": 4.64706,
           "region": "cn"
         },
         {
@@ -5416,7 +5431,7 @@
           "genre": "工具",
           "type": "free",
           "page": "app/cn-6775141985.html",
-          "rating": 4.4074,
+          "rating": 4.41818,
           "region": "cn"
         },
         {
@@ -5641,13 +5656,13 @@
       ],
       "rel": [
         {
-          "id": "6799431765",
-          "name": "文绉绉 甪端",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/89/3a/06/893a0696-fda1-375b-1ecd-0cff996234f5/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "教育",
-          "type": "free",
-          "page": "app/cn-6799431765.html",
-          "rating": 5,
+          "id": "1542317784",
+          "name": "房价-国家统计局房价行情数据统计",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0a/e1/18/0ae11803-9128-b9c9-c315-08aa51d9ff7a/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "财务",
+          "type": "deal",
+          "page": "app/cn-1542317784.html",
+          "rating": 4.64706,
           "region": "cn"
         },
         {
@@ -5657,7 +5672,7 @@
           "genre": "工具",
           "type": "free",
           "page": "app/cn-6775141985.html",
-          "rating": 4.4074,
+          "rating": 4.41818,
           "region": "cn"
         },
         {
@@ -5857,13 +5872,13 @@
       ],
       "rel": [
         {
-          "id": "6799431765",
-          "name": "文绉绉 甪端",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/89/3a/06/893a0696-fda1-375b-1ecd-0cff996234f5/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "教育",
-          "type": "free",
-          "page": "app/cn-6799431765.html",
-          "rating": 5,
+          "id": "1542317784",
+          "name": "房价-国家统计局房价行情数据统计",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0a/e1/18/0ae11803-9128-b9c9-c315-08aa51d9ff7a/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "财务",
+          "type": "deal",
+          "page": "app/cn-1542317784.html",
+          "rating": 4.64706,
           "region": "cn"
         },
         {
@@ -5873,7 +5888,7 @@
           "genre": "工具",
           "type": "free",
           "page": "app/cn-6775141985.html",
-          "rating": 4.4074,
+          "rating": 4.41818,
           "region": "cn"
         },
         {
@@ -6046,7 +6061,7 @@
       "genre": "摄影与录像",
       "normal": "¥0.99",
       "current": "免费",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8c/e5/8d/8ce58d33-0cea-a98d-c7d9-9579f6ccffdf/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b0/02/e9/b002e9a6-73bc-55c6-adf3-800df5f3fa83/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
       "rating": 4.9258,
       "url": "https://apps.apple.com/cn/app/%E4%B8%80%E5%88%92%E6%B8%85/id6792625493?uo=4",
       "region": "cn",
@@ -6098,13 +6113,13 @@
       ],
       "rel": [
         {
-          "id": "6799431765",
-          "name": "文绉绉 甪端",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/89/3a/06/893a0696-fda1-375b-1ecd-0cff996234f5/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "教育",
-          "type": "free",
-          "page": "app/cn-6799431765.html",
-          "rating": 5,
+          "id": "1542317784",
+          "name": "房价-国家统计局房价行情数据统计",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0a/e1/18/0ae11803-9128-b9c9-c315-08aa51d9ff7a/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "财务",
+          "type": "deal",
+          "page": "app/cn-1542317784.html",
+          "rating": 4.64706,
           "region": "cn"
         },
         {
@@ -6114,7 +6129,7 @@
           "genre": "工具",
           "type": "free",
           "page": "app/cn-6775141985.html",
-          "rating": 4.4074,
+          "rating": 4.41818,
           "region": "cn"
         },
         {
@@ -6324,13 +6339,13 @@
       ],
       "rel": [
         {
-          "id": "6799431765",
-          "name": "文绉绉 甪端",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/89/3a/06/893a0696-fda1-375b-1ecd-0cff996234f5/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "教育",
-          "type": "free",
-          "page": "app/cn-6799431765.html",
-          "rating": 5,
+          "id": "1542317784",
+          "name": "房价-国家统计局房价行情数据统计",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0a/e1/18/0ae11803-9128-b9c9-c315-08aa51d9ff7a/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "财务",
+          "type": "deal",
+          "page": "app/cn-1542317784.html",
+          "rating": 4.64706,
           "region": "cn"
         },
         {
@@ -6340,7 +6355,7 @@
           "genre": "工具",
           "type": "free",
           "page": "app/cn-6775141985.html",
-          "rating": 4.4074,
+          "rating": 4.41818,
           "region": "cn"
         },
         {
@@ -6565,13 +6580,13 @@
       ],
       "rel": [
         {
-          "id": "6799431765",
-          "name": "文绉绉 甪端",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/89/3a/06/893a0696-fda1-375b-1ecd-0cff996234f5/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "教育",
-          "type": "free",
-          "page": "app/cn-6799431765.html",
-          "rating": 5,
+          "id": "1542317784",
+          "name": "房价-国家统计局房价行情数据统计",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0a/e1/18/0ae11803-9128-b9c9-c315-08aa51d9ff7a/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "财务",
+          "type": "deal",
+          "page": "app/cn-1542317784.html",
+          "rating": 4.64706,
           "region": "cn"
         },
         {
@@ -6581,7 +6596,7 @@
           "genre": "工具",
           "type": "free",
           "page": "app/cn-6775141985.html",
-          "rating": 4.4074,
+          "rating": 4.41818,
           "region": "cn"
         },
         {
@@ -6801,13 +6816,13 @@
       ],
       "rel": [
         {
-          "id": "6799431765",
-          "name": "文绉绉 甪端",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/89/3a/06/893a0696-fda1-375b-1ecd-0cff996234f5/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "教育",
-          "type": "free",
-          "page": "app/cn-6799431765.html",
-          "rating": 5,
+          "id": "1542317784",
+          "name": "房价-国家统计局房价行情数据统计",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0a/e1/18/0ae11803-9128-b9c9-c315-08aa51d9ff7a/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "财务",
+          "type": "deal",
+          "page": "app/cn-1542317784.html",
+          "rating": 4.64706,
           "region": "cn"
         },
         {
@@ -6817,7 +6832,7 @@
           "genre": "工具",
           "type": "free",
           "page": "app/cn-6775141985.html",
-          "rating": 4.4074,
+          "rating": 4.41818,
           "region": "cn"
         },
         {
@@ -7037,13 +7052,13 @@
       ],
       "rel": [
         {
-          "id": "6799431765",
-          "name": "文绉绉 甪端",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/89/3a/06/893a0696-fda1-375b-1ecd-0cff996234f5/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "教育",
-          "type": "free",
-          "page": "app/cn-6799431765.html",
-          "rating": 5,
+          "id": "1542317784",
+          "name": "房价-国家统计局房价行情数据统计",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0a/e1/18/0ae11803-9128-b9c9-c315-08aa51d9ff7a/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "财务",
+          "type": "deal",
+          "page": "app/cn-1542317784.html",
+          "rating": 4.64706,
           "region": "cn"
         },
         {
@@ -7053,7 +7068,7 @@
           "genre": "工具",
           "type": "free",
           "page": "app/cn-6775141985.html",
-          "rating": 4.4074,
+          "rating": 4.41818,
           "region": "cn"
         },
         {
@@ -7227,7 +7242,7 @@
       "normal": "¥6.99",
       "current": "免费",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/dd/f9/2f/ddf92f27-f80d-c07d-28d5-b524dac7ede6/AppIcon-0-0-1x_U007epad-0-0-0-11-0-0-85-220.png/512x512bb.jpg",
-      "rating": 4.7903,
+      "rating": 4.78937,
       "url": "https://apps.apple.com/cn/app/fine%E4%BF%AE%E5%9B%BE/id1391571907?uo=4",
       "region": "cn",
       "type": "free",
@@ -7278,13 +7293,13 @@
       ],
       "rel": [
         {
-          "id": "6799431765",
-          "name": "文绉绉 甪端",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/89/3a/06/893a0696-fda1-375b-1ecd-0cff996234f5/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "教育",
-          "type": "free",
-          "page": "app/cn-6799431765.html",
-          "rating": 5,
+          "id": "1542317784",
+          "name": "房价-国家统计局房价行情数据统计",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0a/e1/18/0ae11803-9128-b9c9-c315-08aa51d9ff7a/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "财务",
+          "type": "deal",
+          "page": "app/cn-1542317784.html",
+          "rating": 4.64706,
           "region": "cn"
         },
         {
@@ -7294,7 +7309,7 @@
           "genre": "工具",
           "type": "free",
           "page": "app/cn-6775141985.html",
-          "rating": 4.4074,
+          "rating": 4.41818,
           "region": "cn"
         },
         {
@@ -7504,13 +7519,13 @@
       ],
       "rel": [
         {
-          "id": "6799431765",
-          "name": "文绉绉 甪端",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/89/3a/06/893a0696-fda1-375b-1ecd-0cff996234f5/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "教育",
-          "type": "free",
-          "page": "app/cn-6799431765.html",
-          "rating": 5,
+          "id": "1542317784",
+          "name": "房价-国家统计局房价行情数据统计",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0a/e1/18/0ae11803-9128-b9c9-c315-08aa51d9ff7a/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "财务",
+          "type": "deal",
+          "page": "app/cn-1542317784.html",
+          "rating": 4.64706,
           "region": "cn"
         },
         {
@@ -7520,7 +7535,7 @@
           "genre": "工具",
           "type": "free",
           "page": "app/cn-6775141985.html",
-          "rating": 4.4074,
+          "rating": 4.41818,
           "region": "cn"
         },
         {
@@ -7720,13 +7735,13 @@
       ],
       "rel": [
         {
-          "id": "6799431765",
-          "name": "文绉绉 甪端",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/89/3a/06/893a0696-fda1-375b-1ecd-0cff996234f5/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "教育",
-          "type": "free",
-          "page": "app/cn-6799431765.html",
-          "rating": 5,
+          "id": "1542317784",
+          "name": "房价-国家统计局房价行情数据统计",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0a/e1/18/0ae11803-9128-b9c9-c315-08aa51d9ff7a/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "财务",
+          "type": "deal",
+          "page": "app/cn-1542317784.html",
+          "rating": 4.64706,
           "region": "cn"
         },
         {
@@ -7736,7 +7751,7 @@
           "genre": "工具",
           "type": "free",
           "page": "app/cn-6775141985.html",
-          "rating": 4.4074,
+          "rating": 4.41818,
           "region": "cn"
         },
         {
@@ -7936,13 +7951,13 @@
       ],
       "rel": [
         {
-          "id": "6799431765",
-          "name": "文绉绉 甪端",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/89/3a/06/893a0696-fda1-375b-1ecd-0cff996234f5/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "教育",
-          "type": "free",
-          "page": "app/cn-6799431765.html",
-          "rating": 5,
+          "id": "1542317784",
+          "name": "房价-国家统计局房价行情数据统计",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0a/e1/18/0ae11803-9128-b9c9-c315-08aa51d9ff7a/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "财务",
+          "type": "deal",
+          "page": "app/cn-1542317784.html",
+          "rating": 4.64706,
           "region": "cn"
         },
         {
@@ -7952,7 +7967,7 @@
           "genre": "工具",
           "type": "free",
           "page": "app/cn-6775141985.html",
-          "rating": 4.4074,
+          "rating": 4.41818,
           "region": "cn"
         },
         {
@@ -8177,13 +8192,13 @@
       ],
       "rel": [
         {
-          "id": "6799431765",
-          "name": "文绉绉 甪端",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/89/3a/06/893a0696-fda1-375b-1ecd-0cff996234f5/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "教育",
-          "type": "free",
-          "page": "app/cn-6799431765.html",
-          "rating": 5,
+          "id": "1542317784",
+          "name": "房价-国家统计局房价行情数据统计",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0a/e1/18/0ae11803-9128-b9c9-c315-08aa51d9ff7a/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "财务",
+          "type": "deal",
+          "page": "app/cn-1542317784.html",
+          "rating": 4.64706,
           "region": "cn"
         },
         {
@@ -8193,7 +8208,7 @@
           "genre": "工具",
           "type": "free",
           "page": "app/cn-6775141985.html",
-          "rating": 4.4074,
+          "rating": 4.41818,
           "region": "cn"
         },
         {
@@ -8393,13 +8408,13 @@
       ],
       "rel": [
         {
-          "id": "6799431765",
-          "name": "文绉绉 甪端",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/89/3a/06/893a0696-fda1-375b-1ecd-0cff996234f5/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "教育",
-          "type": "free",
-          "page": "app/cn-6799431765.html",
-          "rating": 5,
+          "id": "1542317784",
+          "name": "房价-国家统计局房价行情数据统计",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0a/e1/18/0ae11803-9128-b9c9-c315-08aa51d9ff7a/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "财务",
+          "type": "deal",
+          "page": "app/cn-1542317784.html",
+          "rating": 4.64706,
           "region": "cn"
         },
         {
@@ -8409,7 +8424,7 @@
           "genre": "工具",
           "type": "free",
           "page": "app/cn-6775141985.html",
-          "rating": 4.4074,
+          "rating": 4.41818,
           "region": "cn"
         },
         {
@@ -8609,13 +8624,13 @@
       ],
       "rel": [
         {
-          "id": "6799431765",
-          "name": "文绉绉 甪端",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/89/3a/06/893a0696-fda1-375b-1ecd-0cff996234f5/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "教育",
-          "type": "free",
-          "page": "app/cn-6799431765.html",
-          "rating": 5,
+          "id": "1542317784",
+          "name": "房价-国家统计局房价行情数据统计",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0a/e1/18/0ae11803-9128-b9c9-c315-08aa51d9ff7a/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "财务",
+          "type": "deal",
+          "page": "app/cn-1542317784.html",
+          "rating": 4.64706,
           "region": "cn"
         },
         {
@@ -8625,7 +8640,7 @@
           "genre": "工具",
           "type": "free",
           "page": "app/cn-6775141985.html",
-          "rating": 4.4074,
+          "rating": 4.41818,
           "region": "cn"
         },
         {
@@ -8850,13 +8865,13 @@
       ],
       "rel": [
         {
-          "id": "6799431765",
-          "name": "文绉绉 甪端",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/89/3a/06/893a0696-fda1-375b-1ecd-0cff996234f5/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "教育",
-          "type": "free",
-          "page": "app/cn-6799431765.html",
-          "rating": 5,
+          "id": "1542317784",
+          "name": "房价-国家统计局房价行情数据统计",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0a/e1/18/0ae11803-9128-b9c9-c315-08aa51d9ff7a/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "财务",
+          "type": "deal",
+          "page": "app/cn-1542317784.html",
+          "rating": 4.64706,
           "region": "cn"
         },
         {
@@ -8866,7 +8881,7 @@
           "genre": "工具",
           "type": "free",
           "page": "app/cn-6775141985.html",
-          "rating": 4.4074,
+          "rating": 4.41818,
           "region": "cn"
         },
         {
@@ -9091,13 +9106,13 @@
       ],
       "rel": [
         {
-          "id": "6799431765",
-          "name": "文绉绉 甪端",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/89/3a/06/893a0696-fda1-375b-1ecd-0cff996234f5/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "教育",
-          "type": "free",
-          "page": "app/cn-6799431765.html",
-          "rating": 5,
+          "id": "1542317784",
+          "name": "房价-国家统计局房价行情数据统计",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0a/e1/18/0ae11803-9128-b9c9-c315-08aa51d9ff7a/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "财务",
+          "type": "deal",
+          "page": "app/cn-1542317784.html",
+          "rating": 4.64706,
           "region": "cn"
         },
         {
@@ -9107,7 +9122,7 @@
           "genre": "工具",
           "type": "free",
           "page": "app/cn-6775141985.html",
-          "rating": 4.4074,
+          "rating": 4.41818,
           "region": "cn"
         },
         {
@@ -9332,13 +9347,13 @@
       ],
       "rel": [
         {
-          "id": "6799431765",
-          "name": "文绉绉 甪端",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/89/3a/06/893a0696-fda1-375b-1ecd-0cff996234f5/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "教育",
-          "type": "free",
-          "page": "app/cn-6799431765.html",
-          "rating": 5,
+          "id": "1542317784",
+          "name": "房价-国家统计局房价行情数据统计",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0a/e1/18/0ae11803-9128-b9c9-c315-08aa51d9ff7a/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "财务",
+          "type": "deal",
+          "page": "app/cn-1542317784.html",
+          "rating": 4.64706,
           "region": "cn"
         },
         {
@@ -9348,7 +9363,7 @@
           "genre": "工具",
           "type": "free",
           "page": "app/cn-6775141985.html",
-          "rating": 4.4074,
+          "rating": 4.41818,
           "region": "cn"
         },
         {
@@ -9558,13 +9573,13 @@
       ],
       "rel": [
         {
-          "id": "6799431765",
-          "name": "文绉绉 甪端",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/89/3a/06/893a0696-fda1-375b-1ecd-0cff996234f5/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "教育",
-          "type": "free",
-          "page": "app/cn-6799431765.html",
-          "rating": 5,
+          "id": "1542317784",
+          "name": "房价-国家统计局房价行情数据统计",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0a/e1/18/0ae11803-9128-b9c9-c315-08aa51d9ff7a/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "财务",
+          "type": "deal",
+          "page": "app/cn-1542317784.html",
+          "rating": 4.64706,
           "region": "cn"
         },
         {
@@ -9574,7 +9589,7 @@
           "genre": "工具",
           "type": "free",
           "page": "app/cn-6775141985.html",
-          "rating": 4.4074,
+          "rating": 4.41818,
           "region": "cn"
         },
         {
@@ -9784,13 +9799,13 @@
       ],
       "rel": [
         {
-          "id": "6799431765",
-          "name": "文绉绉 甪端",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/89/3a/06/893a0696-fda1-375b-1ecd-0cff996234f5/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "教育",
-          "type": "free",
-          "page": "app/cn-6799431765.html",
-          "rating": 5,
+          "id": "1542317784",
+          "name": "房价-国家统计局房价行情数据统计",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0a/e1/18/0ae11803-9128-b9c9-c315-08aa51d9ff7a/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "财务",
+          "type": "deal",
+          "page": "app/cn-1542317784.html",
+          "rating": 4.64706,
           "region": "cn"
         },
         {
@@ -9800,7 +9815,7 @@
           "genre": "工具",
           "type": "free",
           "page": "app/cn-6775141985.html",
-          "rating": 4.4074,
+          "rating": 4.41818,
           "region": "cn"
         },
         {
@@ -10010,13 +10025,13 @@
       ],
       "rel": [
         {
-          "id": "6799431765",
-          "name": "文绉绉 甪端",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/89/3a/06/893a0696-fda1-375b-1ecd-0cff996234f5/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "教育",
-          "type": "free",
-          "page": "app/cn-6799431765.html",
-          "rating": 5,
+          "id": "1542317784",
+          "name": "房价-国家统计局房价行情数据统计",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0a/e1/18/0ae11803-9128-b9c9-c315-08aa51d9ff7a/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "财务",
+          "type": "deal",
+          "page": "app/cn-1542317784.html",
+          "rating": 4.64706,
           "region": "cn"
         },
         {
@@ -10026,7 +10041,7 @@
           "genre": "工具",
           "type": "free",
           "page": "app/cn-6775141985.html",
-          "rating": 4.4074,
+          "rating": 4.41818,
           "region": "cn"
         },
         {
@@ -10251,13 +10266,13 @@
       ],
       "rel": [
         {
-          "id": "6799431765",
-          "name": "文绉绉 甪端",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/89/3a/06/893a0696-fda1-375b-1ecd-0cff996234f5/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "教育",
-          "type": "free",
-          "page": "app/cn-6799431765.html",
-          "rating": 5,
+          "id": "1542317784",
+          "name": "房价-国家统计局房价行情数据统计",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0a/e1/18/0ae11803-9128-b9c9-c315-08aa51d9ff7a/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "财务",
+          "type": "deal",
+          "page": "app/cn-1542317784.html",
+          "rating": 4.64706,
           "region": "cn"
         },
         {
@@ -10267,7 +10282,7 @@
           "genre": "工具",
           "type": "free",
           "page": "app/cn-6775141985.html",
-          "rating": 4.4074,
+          "rating": 4.41818,
           "region": "cn"
         },
         {
@@ -10467,13 +10482,13 @@
       ],
       "rel": [
         {
-          "id": "6799431765",
-          "name": "文绉绉 甪端",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/89/3a/06/893a0696-fda1-375b-1ecd-0cff996234f5/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "教育",
-          "type": "free",
-          "page": "app/cn-6799431765.html",
-          "rating": 5,
+          "id": "1542317784",
+          "name": "房价-国家统计局房价行情数据统计",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0a/e1/18/0ae11803-9128-b9c9-c315-08aa51d9ff7a/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "财务",
+          "type": "deal",
+          "page": "app/cn-1542317784.html",
+          "rating": 4.64706,
           "region": "cn"
         },
         {
@@ -10483,7 +10498,7 @@
           "genre": "工具",
           "type": "free",
           "page": "app/cn-6775141985.html",
-          "rating": 4.4074,
+          "rating": 4.41818,
           "region": "cn"
         },
         {
@@ -10683,13 +10698,13 @@
       ],
       "rel": [
         {
-          "id": "6799431765",
-          "name": "文绉绉 甪端",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/89/3a/06/893a0696-fda1-375b-1ecd-0cff996234f5/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "教育",
-          "type": "free",
-          "page": "app/cn-6799431765.html",
-          "rating": 5,
+          "id": "1542317784",
+          "name": "房价-国家统计局房价行情数据统计",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0a/e1/18/0ae11803-9128-b9c9-c315-08aa51d9ff7a/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "财务",
+          "type": "deal",
+          "page": "app/cn-1542317784.html",
+          "rating": 4.64706,
           "region": "cn"
         },
         {
@@ -10699,7 +10714,7 @@
           "genre": "工具",
           "type": "free",
           "page": "app/cn-6775141985.html",
-          "rating": 4.4074,
+          "rating": 4.41818,
           "region": "cn"
         },
         {
@@ -10924,13 +10939,13 @@
       ],
       "rel": [
         {
-          "id": "6799431765",
-          "name": "文绉绉 甪端",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/89/3a/06/893a0696-fda1-375b-1ecd-0cff996234f5/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "教育",
-          "type": "free",
-          "page": "app/cn-6799431765.html",
-          "rating": 5,
+          "id": "1542317784",
+          "name": "房价-国家统计局房价行情数据统计",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0a/e1/18/0ae11803-9128-b9c9-c315-08aa51d9ff7a/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "财务",
+          "type": "deal",
+          "page": "app/cn-1542317784.html",
+          "rating": 4.64706,
           "region": "cn"
         },
         {
@@ -10940,7 +10955,7 @@
           "genre": "工具",
           "type": "free",
           "page": "app/cn-6775141985.html",
-          "rating": 4.4074,
+          "rating": 4.41818,
           "region": "cn"
         },
         {
@@ -11150,13 +11165,13 @@
       ],
       "rel": [
         {
-          "id": "6799431765",
-          "name": "文绉绉 甪端",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/89/3a/06/893a0696-fda1-375b-1ecd-0cff996234f5/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "教育",
-          "type": "free",
-          "page": "app/cn-6799431765.html",
-          "rating": 5,
+          "id": "1542317784",
+          "name": "房价-国家统计局房价行情数据统计",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0a/e1/18/0ae11803-9128-b9c9-c315-08aa51d9ff7a/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "财务",
+          "type": "deal",
+          "page": "app/cn-1542317784.html",
+          "rating": 4.64706,
           "region": "cn"
         },
         {
@@ -11166,7 +11181,7 @@
           "genre": "工具",
           "type": "free",
           "page": "app/cn-6775141985.html",
-          "rating": 4.4074,
+          "rating": 4.41818,
           "region": "cn"
         },
         {
@@ -11333,242 +11348,6 @@
       "page": "app/cn-6812360078.html"
     },
     {
-      "id": "1437345765",
-      "name": "三线调音器",
-      "dev": "Pedro Daniel Macalupu Cumpen",
-      "genre": "音乐",
-      "normal": "¥48.00",
-      "current": "免费",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ac/8d/b1/ac8db196-8a7f-7c8c-9516-6c376ab3141d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-      "rating": 4.5,
-      "url": "https://apps.apple.com/cn/app/%E4%B8%89%E7%BA%BF%E8%B0%83%E9%9F%B3%E5%99%A8/id1437345765?uo=4",
-      "region": "cn",
-      "type": "free",
-      "is_new": false,
-      "series": [
-        48.0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "phistory": [
-        {
-          "d": "2026-10-20",
-          "p": 48.0
-        },
-        {
-          "d": "2026-10-21",
-          "p": 0
-        },
-        {
-          "d": "2026-10-22",
-          "p": 0
-        },
-        {
-          "d": "2026-10-23",
-          "p": 0
-        },
-        {
-          "d": "2026-10-24",
-          "p": 0
-        },
-        {
-          "d": "2026-10-25",
-          "p": 0
-        },
-        {
-          "d": "2026-10-26",
-          "p": 0
-        }
-      ],
-      "rel": [
-        {
-          "id": "6799431765",
-          "name": "文绉绉 甪端",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/89/3a/06/893a0696-fda1-375b-1ecd-0cff996234f5/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "教育",
-          "type": "free",
-          "page": "app/cn-6799431765.html",
-          "rating": 5,
-          "region": "cn"
-        },
-        {
-          "id": "6775141985",
-          "name": "M3U8 Spark: 网页视频嗅探&在线播放",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5b/55/8b/5b558b73-29b0-acea-9d64-1a43cf2d5ef9/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6775141985.html",
-          "rating": 4.4074,
-          "region": "cn"
-        },
-        {
-          "id": "6474681491",
-          "name": "1/1",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7d/20/b7/7d20b7f5-7e7f-2bc9-b6e0-053522db13f1/AppIcon-0-0-1x_U007epad-0-1-P3-85-220.png/512x512bb.jpg",
-          "genre": "图形与设计",
-          "type": "free",
-          "page": "app/cn-6474681491.html",
-          "rating": 5,
-          "region": "cn"
-        },
-        {
-          "id": "6799355833",
-          "name": "Bars：AI用量与节点流量",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8f/7d/e7/8f7de737-5deb-3388-7d92-a0f84c79de2c/BarsIcon-63-green-slash-0-0-1x_U007ephone-0-1-0-sRGB-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6799355833.html",
-          "rating": 5,
-          "region": "cn"
-        },
-        {
-          "id": "6812764518",
-          "name": "Calc Plus - Calculator",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/69/4f/dc/694fdca1-164f-cdd8-4355-76d6b2a5f8c1/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6812764518.html",
-          "rating": 5,
-          "region": "cn"
-        },
-        {
-          "id": "6821034945",
-          "name": "Charcoal Studio",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/12/98/07/1298074e-3155-90be-6bee-aaae4d487ed4/charcolicon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "图形与设计",
-          "type": "free",
-          "page": "app/cn-6821034945.html",
-          "rating": 5,
-          "region": "cn"
-        },
-        {
-          "id": "1157967613",
-          "name": "Christmas Radio UK",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/91/81/2e/91812eec-d5ef-d56b-c5eb-d8f644f13382/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "音乐",
-          "type": "free",
-          "page": "app/cn-1157967613.html",
-          "rating": 5,
-          "region": "cn"
-        },
-        {
-          "id": "335485024",
-          "name": "GPSnote",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c7/73/38/c7733896-5840-9c7b-9f71-a12527e925f1/AppIcon-0-0-1x_U007epad-0-1-sRGB-85-220.png/512x512bb.jpg",
-          "genre": "导航",
-          "type": "free",
-          "page": "app/cn-335485024.html",
-          "rating": 5,
-          "region": "cn"
-        },
-        {
-          "id": "6799973308",
-          "name": "Galplay: 多引擎Galgame 播放器",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8f/fa/e2/8ffae28d-aafb-9c1d-f096-df7dc370d73f/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6799973308.html",
-          "rating": 5,
-          "region": "cn"
-        },
-        {
-          "id": "6739967953",
-          "name": "Luna Subscriptions",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/66/6f/77/666f7773-7958-f144-4fd1-7bc3d5bb4a48/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
-          "genre": "财务",
-          "type": "free",
-          "page": "app/cn-6739967953.html",
-          "rating": 5,
-          "region": "cn"
-        },
-        {
-          "id": "6814895879",
-          "name": "Notea便利贴",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d4/5a/1e/d45a1eaf-2a72-609c-ba6b-3af8c624ad7d/AppIconModern-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
-          "genre": "效率",
-          "type": "free",
-          "page": "app/cn-6814895879.html",
-          "rating": 5,
-          "region": "cn"
-        },
-        {
-          "id": "6794823541",
-          "name": "Notice – Mindful Screen Time",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f0/25/e6/f025e6c9-6d26-ef19-d815-0b6cf9f7eea5/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "健康健美",
-          "type": "free",
-          "page": "app/cn-6794823541.html",
-          "rating": 5,
-          "region": "cn"
-        },
-        {
-          "id": "1312918682",
-          "name": "OBD2 Dashboards: Car Scanner",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3f/d5/2a/3fd52ae5-6197-df58-68a1-9af858a2ff32/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-1312918682.html",
-          "rating": 5,
-          "region": "cn"
-        },
-        {
-          "id": "436311293",
-          "name": "Ratio Calc!",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0c/0f/52/0c0f52a2-8ecb-fbe1-b577-446eb8d35824/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
-          "genre": "体育",
-          "type": "free",
-          "page": "app/cn-436311293.html",
-          "rating": 5,
-          "region": "cn"
-        },
-        {
-          "id": "1513271477",
-          "name": "Revisits: Informes Servicio JW",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d8/b1/1e/d8b11e3a-b7c7-3d3f-d3ee-48fbe12387ba/NewIconBlue-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-85-220.png/512x512bb.jpg",
-          "genre": "效率",
-          "type": "free",
-          "page": "app/cn-1513271477.html",
-          "rating": 5,
-          "region": "cn"
-        },
-        {
-          "id": "1024535991",
-          "name": "Santa Text",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple118/v4/2e/85/b9/2e85b97b-6691-fe59-651e-ea532f07ca2b/AppIcon-1x_U007emarketing-85-220-0-9.jpeg/512x512bb.jpg",
-          "genre": "娱乐",
-          "type": "free",
-          "page": "app/cn-1024535991.html",
-          "rating": 5,
-          "region": "cn"
-        },
-        {
-          "id": "6755433454",
-          "name": "ScreenHound - 图片文字提取、屏幕翻译、文件扫描",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/eb/66/d7/eb66d71f-0fb8-faf8-20f7-2f2bcbe028cf/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6755433454.html",
-          "rating": 5,
-          "region": "cn"
-        },
-        {
-          "id": "1480168613",
-          "name": "Single Origin - Coffee Timer",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d4/a3/a3/d4a3a350-b010-866d-e7b6-ad7fcc2b26be/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "美食佳饮",
-          "type": "free",
-          "page": "app/cn-1480168613.html",
-          "rating": 5,
-          "region": "cn"
-        }
-      ],
-      "page": "app/cn-1437345765.html"
-    },
-    {
       "id": "6748287593",
       "name": "问题盒子-清空大脑，告别内耗",
       "dev": "22F",
@@ -11627,13 +11406,13 @@
       ],
       "rel": [
         {
-          "id": "6799431765",
-          "name": "文绉绉 甪端",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/89/3a/06/893a0696-fda1-375b-1ecd-0cff996234f5/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "教育",
-          "type": "free",
-          "page": "app/cn-6799431765.html",
-          "rating": 5,
+          "id": "1542317784",
+          "name": "房价-国家统计局房价行情数据统计",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0a/e1/18/0ae11803-9128-b9c9-c315-08aa51d9ff7a/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "财务",
+          "type": "deal",
+          "page": "app/cn-1542317784.html",
+          "rating": 4.64706,
           "region": "cn"
         },
         {
@@ -11643,7 +11422,7 @@
           "genre": "工具",
           "type": "free",
           "page": "app/cn-6775141985.html",
-          "rating": 4.4074,
+          "rating": 4.41818,
           "region": "cn"
         },
         {
@@ -11868,13 +11647,13 @@
       ],
       "rel": [
         {
-          "id": "6799431765",
-          "name": "文绉绉 甪端",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/89/3a/06/893a0696-fda1-375b-1ecd-0cff996234f5/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "教育",
-          "type": "free",
-          "page": "app/cn-6799431765.html",
-          "rating": 5,
+          "id": "1542317784",
+          "name": "房价-国家统计局房价行情数据统计",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0a/e1/18/0ae11803-9128-b9c9-c315-08aa51d9ff7a/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "财务",
+          "type": "deal",
+          "page": "app/cn-1542317784.html",
+          "rating": 4.64706,
           "region": "cn"
         },
         {
@@ -11884,7 +11663,7 @@
           "genre": "工具",
           "type": "free",
           "page": "app/cn-6775141985.html",
-          "rating": 4.4074,
+          "rating": 4.41818,
           "region": "cn"
         },
         {
@@ -12084,13 +11863,13 @@
       ],
       "rel": [
         {
-          "id": "6799431765",
-          "name": "文绉绉 甪端",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/89/3a/06/893a0696-fda1-375b-1ecd-0cff996234f5/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "教育",
-          "type": "free",
-          "page": "app/cn-6799431765.html",
-          "rating": 5,
+          "id": "1542317784",
+          "name": "房价-国家统计局房价行情数据统计",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0a/e1/18/0ae11803-9128-b9c9-c315-08aa51d9ff7a/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "财务",
+          "type": "deal",
+          "page": "app/cn-1542317784.html",
+          "rating": 4.64706,
           "region": "cn"
         },
         {
@@ -12100,7 +11879,7 @@
           "genre": "工具",
           "type": "free",
           "page": "app/cn-6775141985.html",
-          "rating": 4.4074,
+          "rating": 4.41818,
           "region": "cn"
         },
         {
@@ -12310,13 +12089,13 @@
       ],
       "rel": [
         {
-          "id": "6799431765",
-          "name": "文绉绉 甪端",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/89/3a/06/893a0696-fda1-375b-1ecd-0cff996234f5/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "教育",
-          "type": "free",
-          "page": "app/cn-6799431765.html",
-          "rating": 5,
+          "id": "1542317784",
+          "name": "房价-国家统计局房价行情数据统计",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0a/e1/18/0ae11803-9128-b9c9-c315-08aa51d9ff7a/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "财务",
+          "type": "deal",
+          "page": "app/cn-1542317784.html",
+          "rating": 4.64706,
           "region": "cn"
         },
         {
@@ -12326,7 +12105,7 @@
           "genre": "工具",
           "type": "free",
           "page": "app/cn-6775141985.html",
-          "rating": 4.4074,
+          "rating": 4.41818,
           "region": "cn"
         },
         {
@@ -12551,13 +12330,13 @@
       ],
       "rel": [
         {
-          "id": "6799431765",
-          "name": "文绉绉 甪端",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/89/3a/06/893a0696-fda1-375b-1ecd-0cff996234f5/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "教育",
-          "type": "free",
-          "page": "app/cn-6799431765.html",
-          "rating": 5,
+          "id": "1542317784",
+          "name": "房价-国家统计局房价行情数据统计",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0a/e1/18/0ae11803-9128-b9c9-c315-08aa51d9ff7a/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "财务",
+          "type": "deal",
+          "page": "app/cn-1542317784.html",
+          "rating": 4.64706,
           "region": "cn"
         },
         {
@@ -12567,7 +12346,7 @@
           "genre": "工具",
           "type": "free",
           "page": "app/cn-6775141985.html",
-          "rating": 4.4074,
+          "rating": 4.41818,
           "region": "cn"
         },
         {
@@ -12767,13 +12546,13 @@
       ],
       "rel": [
         {
-          "id": "6799431765",
-          "name": "文绉绉 甪端",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/89/3a/06/893a0696-fda1-375b-1ecd-0cff996234f5/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "教育",
-          "type": "free",
-          "page": "app/cn-6799431765.html",
-          "rating": 5,
+          "id": "1542317784",
+          "name": "房价-国家统计局房价行情数据统计",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0a/e1/18/0ae11803-9128-b9c9-c315-08aa51d9ff7a/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "财务",
+          "type": "deal",
+          "page": "app/cn-1542317784.html",
+          "rating": 4.64706,
           "region": "cn"
         },
         {
@@ -12783,7 +12562,7 @@
           "genre": "工具",
           "type": "free",
           "page": "app/cn-6775141985.html",
-          "rating": 4.4074,
+          "rating": 4.41818,
           "region": "cn"
         },
         {
@@ -13003,13 +12782,13 @@
       ],
       "rel": [
         {
-          "id": "6799431765",
-          "name": "文绉绉 甪端",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/89/3a/06/893a0696-fda1-375b-1ecd-0cff996234f5/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "教育",
-          "type": "free",
-          "page": "app/cn-6799431765.html",
-          "rating": 5,
+          "id": "1542317784",
+          "name": "房价-国家统计局房价行情数据统计",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0a/e1/18/0ae11803-9128-b9c9-c315-08aa51d9ff7a/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "财务",
+          "type": "deal",
+          "page": "app/cn-1542317784.html",
+          "rating": 4.64706,
           "region": "cn"
         },
         {
@@ -13019,7 +12798,7 @@
           "genre": "工具",
           "type": "free",
           "page": "app/cn-6775141985.html",
-          "rating": 4.4074,
+          "rating": 4.41818,
           "region": "cn"
         },
         {
@@ -13244,13 +13023,13 @@
       ],
       "rel": [
         {
-          "id": "6799431765",
-          "name": "文绉绉 甪端",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/89/3a/06/893a0696-fda1-375b-1ecd-0cff996234f5/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "教育",
-          "type": "free",
-          "page": "app/cn-6799431765.html",
-          "rating": 5,
+          "id": "1542317784",
+          "name": "房价-国家统计局房价行情数据统计",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0a/e1/18/0ae11803-9128-b9c9-c315-08aa51d9ff7a/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "财务",
+          "type": "deal",
+          "page": "app/cn-1542317784.html",
+          "rating": 4.64706,
           "region": "cn"
         },
         {
@@ -13260,7 +13039,7 @@
           "genre": "工具",
           "type": "free",
           "page": "app/cn-6775141985.html",
-          "rating": 4.4074,
+          "rating": 4.41818,
           "region": "cn"
         },
         {
@@ -13480,13 +13259,13 @@
       ],
       "rel": [
         {
-          "id": "6799431765",
-          "name": "文绉绉 甪端",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/89/3a/06/893a0696-fda1-375b-1ecd-0cff996234f5/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "教育",
-          "type": "free",
-          "page": "app/cn-6799431765.html",
-          "rating": 5,
+          "id": "1542317784",
+          "name": "房价-国家统计局房价行情数据统计",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0a/e1/18/0ae11803-9128-b9c9-c315-08aa51d9ff7a/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "财务",
+          "type": "deal",
+          "page": "app/cn-1542317784.html",
+          "rating": 4.64706,
           "region": "cn"
         },
         {
@@ -13496,7 +13275,7 @@
           "genre": "工具",
           "type": "free",
           "page": "app/cn-6775141985.html",
-          "rating": 4.4074,
+          "rating": 4.41818,
           "region": "cn"
         },
         {
@@ -13696,13 +13475,13 @@
       ],
       "rel": [
         {
-          "id": "6799431765",
-          "name": "文绉绉 甪端",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/89/3a/06/893a0696-fda1-375b-1ecd-0cff996234f5/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "教育",
-          "type": "free",
-          "page": "app/cn-6799431765.html",
-          "rating": 5,
+          "id": "1542317784",
+          "name": "房价-国家统计局房价行情数据统计",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0a/e1/18/0ae11803-9128-b9c9-c315-08aa51d9ff7a/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "财务",
+          "type": "deal",
+          "page": "app/cn-1542317784.html",
+          "rating": 4.64706,
           "region": "cn"
         },
         {
@@ -13712,7 +13491,7 @@
           "genre": "工具",
           "type": "free",
           "page": "app/cn-6775141985.html",
-          "rating": 4.4074,
+          "rating": 4.41818,
           "region": "cn"
         },
         {
@@ -13912,13 +13691,13 @@
       ],
       "rel": [
         {
-          "id": "6799431765",
-          "name": "文绉绉 甪端",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/89/3a/06/893a0696-fda1-375b-1ecd-0cff996234f5/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "教育",
-          "type": "free",
-          "page": "app/cn-6799431765.html",
-          "rating": 5,
+          "id": "1542317784",
+          "name": "房价-国家统计局房价行情数据统计",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0a/e1/18/0ae11803-9128-b9c9-c315-08aa51d9ff7a/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "财务",
+          "type": "deal",
+          "page": "app/cn-1542317784.html",
+          "rating": 4.64706,
           "region": "cn"
         },
         {
@@ -13928,7 +13707,7 @@
           "genre": "工具",
           "type": "free",
           "page": "app/cn-6775141985.html",
-          "rating": 4.4074,
+          "rating": 4.41818,
           "region": "cn"
         },
         {
@@ -14138,13 +13917,13 @@
       ],
       "rel": [
         {
-          "id": "6799431765",
-          "name": "文绉绉 甪端",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/89/3a/06/893a0696-fda1-375b-1ecd-0cff996234f5/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "教育",
-          "type": "free",
-          "page": "app/cn-6799431765.html",
-          "rating": 5,
+          "id": "1542317784",
+          "name": "房价-国家统计局房价行情数据统计",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0a/e1/18/0ae11803-9128-b9c9-c315-08aa51d9ff7a/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "财务",
+          "type": "deal",
+          "page": "app/cn-1542317784.html",
+          "rating": 4.64706,
           "region": "cn"
         },
         {
@@ -14154,7 +13933,7 @@
           "genre": "工具",
           "type": "free",
           "page": "app/cn-6775141985.html",
-          "rating": 4.4074,
+          "rating": 4.41818,
           "region": "cn"
         },
         {
@@ -14354,13 +14133,13 @@
       ],
       "rel": [
         {
-          "id": "6799431765",
-          "name": "文绉绉 甪端",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/89/3a/06/893a0696-fda1-375b-1ecd-0cff996234f5/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "教育",
-          "type": "free",
-          "page": "app/cn-6799431765.html",
-          "rating": 5,
+          "id": "1542317784",
+          "name": "房价-国家统计局房价行情数据统计",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0a/e1/18/0ae11803-9128-b9c9-c315-08aa51d9ff7a/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "财务",
+          "type": "deal",
+          "page": "app/cn-1542317784.html",
+          "rating": 4.64706,
           "region": "cn"
         },
         {
@@ -14370,7 +14149,7 @@
           "genre": "工具",
           "type": "free",
           "page": "app/cn-6775141985.html",
-          "rating": 4.4074,
+          "rating": 4.41818,
           "region": "cn"
         },
         {
@@ -14580,13 +14359,13 @@
       ],
       "rel": [
         {
-          "id": "6799431765",
-          "name": "文绉绉 甪端",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/89/3a/06/893a0696-fda1-375b-1ecd-0cff996234f5/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "教育",
-          "type": "free",
-          "page": "app/cn-6799431765.html",
-          "rating": 5,
+          "id": "1542317784",
+          "name": "房价-国家统计局房价行情数据统计",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0a/e1/18/0ae11803-9128-b9c9-c315-08aa51d9ff7a/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "财务",
+          "type": "deal",
+          "page": "app/cn-1542317784.html",
+          "rating": 4.64706,
           "region": "cn"
         },
         {
@@ -14596,7 +14375,7 @@
           "genre": "工具",
           "type": "free",
           "page": "app/cn-6775141985.html",
-          "rating": 4.4074,
+          "rating": 4.41818,
           "region": "cn"
         },
         {
@@ -14796,13 +14575,13 @@
       ],
       "rel": [
         {
-          "id": "6799431765",
-          "name": "文绉绉 甪端",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/89/3a/06/893a0696-fda1-375b-1ecd-0cff996234f5/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "教育",
-          "type": "free",
-          "page": "app/cn-6799431765.html",
-          "rating": 5,
+          "id": "1542317784",
+          "name": "房价-国家统计局房价行情数据统计",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0a/e1/18/0ae11803-9128-b9c9-c315-08aa51d9ff7a/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "财务",
+          "type": "deal",
+          "page": "app/cn-1542317784.html",
+          "rating": 4.64706,
           "region": "cn"
         },
         {
@@ -14812,7 +14591,7 @@
           "genre": "工具",
           "type": "free",
           "page": "app/cn-6775141985.html",
-          "rating": 4.4074,
+          "rating": 4.41818,
           "region": "cn"
         },
         {
@@ -15037,13 +14816,13 @@
       ],
       "rel": [
         {
-          "id": "6799431765",
-          "name": "文绉绉 甪端",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/89/3a/06/893a0696-fda1-375b-1ecd-0cff996234f5/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "教育",
-          "type": "free",
-          "page": "app/cn-6799431765.html",
-          "rating": 5,
+          "id": "1542317784",
+          "name": "房价-国家统计局房价行情数据统计",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0a/e1/18/0ae11803-9128-b9c9-c315-08aa51d9ff7a/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "财务",
+          "type": "deal",
+          "page": "app/cn-1542317784.html",
+          "rating": 4.64706,
           "region": "cn"
         },
         {
@@ -15053,7 +14832,7 @@
           "genre": "工具",
           "type": "free",
           "page": "app/cn-6775141985.html",
-          "rating": 4.4074,
+          "rating": 4.41818,
           "region": "cn"
         },
         {
@@ -15273,13 +15052,13 @@
       ],
       "rel": [
         {
-          "id": "6799431765",
-          "name": "文绉绉 甪端",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/89/3a/06/893a0696-fda1-375b-1ecd-0cff996234f5/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "教育",
-          "type": "free",
-          "page": "app/cn-6799431765.html",
-          "rating": 5,
+          "id": "1542317784",
+          "name": "房价-国家统计局房价行情数据统计",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0a/e1/18/0ae11803-9128-b9c9-c315-08aa51d9ff7a/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "财务",
+          "type": "deal",
+          "page": "app/cn-1542317784.html",
+          "rating": 4.64706,
           "region": "cn"
         },
         {
@@ -15289,7 +15068,7 @@
           "genre": "工具",
           "type": "free",
           "page": "app/cn-6775141985.html",
-          "rating": 4.4074,
+          "rating": 4.41818,
           "region": "cn"
         },
         {
@@ -15489,13 +15268,13 @@
       ],
       "rel": [
         {
-          "id": "6799431765",
-          "name": "文绉绉 甪端",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/89/3a/06/893a0696-fda1-375b-1ecd-0cff996234f5/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "教育",
-          "type": "free",
-          "page": "app/cn-6799431765.html",
-          "rating": 5,
+          "id": "1542317784",
+          "name": "房价-国家统计局房价行情数据统计",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0a/e1/18/0ae11803-9128-b9c9-c315-08aa51d9ff7a/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "财务",
+          "type": "deal",
+          "page": "app/cn-1542317784.html",
+          "rating": 4.64706,
           "region": "cn"
         },
         {
@@ -15505,7 +15284,7 @@
           "genre": "工具",
           "type": "free",
           "page": "app/cn-6775141985.html",
-          "rating": 4.4074,
+          "rating": 4.41818,
           "region": "cn"
         },
         {
@@ -15705,13 +15484,13 @@
       ],
       "rel": [
         {
-          "id": "6799431765",
-          "name": "文绉绉 甪端",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/89/3a/06/893a0696-fda1-375b-1ecd-0cff996234f5/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "教育",
-          "type": "free",
-          "page": "app/cn-6799431765.html",
-          "rating": 5,
+          "id": "1542317784",
+          "name": "房价-国家统计局房价行情数据统计",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0a/e1/18/0ae11803-9128-b9c9-c315-08aa51d9ff7a/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "财务",
+          "type": "deal",
+          "page": "app/cn-1542317784.html",
+          "rating": 4.64706,
           "region": "cn"
         },
         {
@@ -15721,7 +15500,7 @@
           "genre": "工具",
           "type": "free",
           "page": "app/cn-6775141985.html",
-          "rating": 4.4074,
+          "rating": 4.41818,
           "region": "cn"
         },
         {
@@ -15921,13 +15700,13 @@
       ],
       "rel": [
         {
-          "id": "6799431765",
-          "name": "文绉绉 甪端",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/89/3a/06/893a0696-fda1-375b-1ecd-0cff996234f5/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "教育",
-          "type": "free",
-          "page": "app/cn-6799431765.html",
-          "rating": 5,
+          "id": "1542317784",
+          "name": "房价-国家统计局房价行情数据统计",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0a/e1/18/0ae11803-9128-b9c9-c315-08aa51d9ff7a/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "财务",
+          "type": "deal",
+          "page": "app/cn-1542317784.html",
+          "rating": 4.64706,
           "region": "cn"
         },
         {
@@ -15937,7 +15716,7 @@
           "genre": "工具",
           "type": "free",
           "page": "app/cn-6775141985.html",
-          "rating": 4.4074,
+          "rating": 4.41818,
           "region": "cn"
         },
         {
@@ -16137,13 +15916,13 @@
       ],
       "rel": [
         {
-          "id": "6799431765",
-          "name": "文绉绉 甪端",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/89/3a/06/893a0696-fda1-375b-1ecd-0cff996234f5/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "教育",
-          "type": "free",
-          "page": "app/cn-6799431765.html",
-          "rating": 5,
+          "id": "1542317784",
+          "name": "房价-国家统计局房价行情数据统计",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0a/e1/18/0ae11803-9128-b9c9-c315-08aa51d9ff7a/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "财务",
+          "type": "deal",
+          "page": "app/cn-1542317784.html",
+          "rating": 4.64706,
           "region": "cn"
         },
         {
@@ -16153,7 +15932,7 @@
           "genre": "工具",
           "type": "free",
           "page": "app/cn-6775141985.html",
-          "rating": 4.4074,
+          "rating": 4.41818,
           "region": "cn"
         },
         {
@@ -16327,7 +16106,7 @@
       "normal": "¥22.00",
       "current": "免费",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bd/c1/41/bdc141cf-74fe-4cba-fc21-4ad7f53d9ddf/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-      "rating": 3.1,
+      "rating": 3.25,
       "url": "https://apps.apple.com/cn/app/aigoodbye/id6757513032?uo=4",
       "region": "cn",
       "type": "free",
@@ -16378,13 +16157,13 @@
       ],
       "rel": [
         {
-          "id": "6799431765",
-          "name": "文绉绉 甪端",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/89/3a/06/893a0696-fda1-375b-1ecd-0cff996234f5/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "教育",
-          "type": "free",
-          "page": "app/cn-6799431765.html",
-          "rating": 5,
+          "id": "1542317784",
+          "name": "房价-国家统计局房价行情数据统计",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0a/e1/18/0ae11803-9128-b9c9-c315-08aa51d9ff7a/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "财务",
+          "type": "deal",
+          "page": "app/cn-1542317784.html",
+          "rating": 4.64706,
           "region": "cn"
         },
         {
@@ -16394,7 +16173,7 @@
           "genre": "工具",
           "type": "free",
           "page": "app/cn-6775141985.html",
-          "rating": 4.4074,
+          "rating": 4.41818,
           "region": "cn"
         },
         {
@@ -16619,13 +16398,13 @@
       ],
       "rel": [
         {
-          "id": "6799431765",
-          "name": "文绉绉 甪端",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/89/3a/06/893a0696-fda1-375b-1ecd-0cff996234f5/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "教育",
-          "type": "free",
-          "page": "app/cn-6799431765.html",
-          "rating": 5,
+          "id": "1542317784",
+          "name": "房价-国家统计局房价行情数据统计",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0a/e1/18/0ae11803-9128-b9c9-c315-08aa51d9ff7a/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "财务",
+          "type": "deal",
+          "page": "app/cn-1542317784.html",
+          "rating": 4.64706,
           "region": "cn"
         },
         {
@@ -16635,7 +16414,7 @@
           "genre": "工具",
           "type": "free",
           "page": "app/cn-6775141985.html",
-          "rating": 4.4074,
+          "rating": 4.41818,
           "region": "cn"
         },
         {
@@ -16835,13 +16614,13 @@
       ],
       "rel": [
         {
-          "id": "6799431765",
-          "name": "文绉绉 甪端",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/89/3a/06/893a0696-fda1-375b-1ecd-0cff996234f5/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "教育",
-          "type": "free",
-          "page": "app/cn-6799431765.html",
-          "rating": 5,
+          "id": "1542317784",
+          "name": "房价-国家统计局房价行情数据统计",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0a/e1/18/0ae11803-9128-b9c9-c315-08aa51d9ff7a/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "财务",
+          "type": "deal",
+          "page": "app/cn-1542317784.html",
+          "rating": 4.64706,
           "region": "cn"
         },
         {
@@ -16851,7 +16630,7 @@
           "genre": "工具",
           "type": "free",
           "page": "app/cn-6775141985.html",
-          "rating": 4.4074,
+          "rating": 4.41818,
           "region": "cn"
         },
         {
@@ -17061,13 +16840,13 @@
       ],
       "rel": [
         {
-          "id": "6799431765",
-          "name": "文绉绉 甪端",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/89/3a/06/893a0696-fda1-375b-1ecd-0cff996234f5/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "教育",
-          "type": "free",
-          "page": "app/cn-6799431765.html",
-          "rating": 5,
+          "id": "1542317784",
+          "name": "房价-国家统计局房价行情数据统计",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0a/e1/18/0ae11803-9128-b9c9-c315-08aa51d9ff7a/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "财务",
+          "type": "deal",
+          "page": "app/cn-1542317784.html",
+          "rating": 4.64706,
           "region": "cn"
         },
         {
@@ -17077,7 +16856,7 @@
           "genre": "工具",
           "type": "free",
           "page": "app/cn-6775141985.html",
-          "rating": 4.4074,
+          "rating": 4.41818,
           "region": "cn"
         },
         {
@@ -17297,13 +17076,13 @@
       ],
       "rel": [
         {
-          "id": "6799431765",
-          "name": "文绉绉 甪端",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/89/3a/06/893a0696-fda1-375b-1ecd-0cff996234f5/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "教育",
-          "type": "free",
-          "page": "app/cn-6799431765.html",
-          "rating": 5,
+          "id": "1542317784",
+          "name": "房价-国家统计局房价行情数据统计",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0a/e1/18/0ae11803-9128-b9c9-c315-08aa51d9ff7a/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "财务",
+          "type": "deal",
+          "page": "app/cn-1542317784.html",
+          "rating": 4.64706,
           "region": "cn"
         },
         {
@@ -17313,7 +17092,7 @@
           "genre": "工具",
           "type": "free",
           "page": "app/cn-6775141985.html",
-          "rating": 4.4074,
+          "rating": 4.41818,
           "region": "cn"
         },
         {
@@ -17513,13 +17292,13 @@
       ],
       "rel": [
         {
-          "id": "6799431765",
-          "name": "文绉绉 甪端",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/89/3a/06/893a0696-fda1-375b-1ecd-0cff996234f5/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "教育",
-          "type": "free",
-          "page": "app/cn-6799431765.html",
-          "rating": 5,
+          "id": "1542317784",
+          "name": "房价-国家统计局房价行情数据统计",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0a/e1/18/0ae11803-9128-b9c9-c315-08aa51d9ff7a/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "财务",
+          "type": "deal",
+          "page": "app/cn-1542317784.html",
+          "rating": 4.64706,
           "region": "cn"
         },
         {
@@ -17529,7 +17308,7 @@
           "genre": "工具",
           "type": "free",
           "page": "app/cn-6775141985.html",
-          "rating": 4.4074,
+          "rating": 4.41818,
           "region": "cn"
         },
         {
@@ -17729,13 +17508,13 @@
       ],
       "rel": [
         {
-          "id": "6799431765",
-          "name": "文绉绉 甪端",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/89/3a/06/893a0696-fda1-375b-1ecd-0cff996234f5/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "教育",
-          "type": "free",
-          "page": "app/cn-6799431765.html",
-          "rating": 5,
+          "id": "1542317784",
+          "name": "房价-国家统计局房价行情数据统计",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0a/e1/18/0ae11803-9128-b9c9-c315-08aa51d9ff7a/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "财务",
+          "type": "deal",
+          "page": "app/cn-1542317784.html",
+          "rating": 4.64706,
           "region": "cn"
         },
         {
@@ -17745,7 +17524,7 @@
           "genre": "工具",
           "type": "free",
           "page": "app/cn-6775141985.html",
-          "rating": 4.4074,
+          "rating": 4.41818,
           "region": "cn"
         },
         {
@@ -17945,13 +17724,13 @@
       ],
       "rel": [
         {
-          "id": "6799431765",
-          "name": "文绉绉 甪端",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/89/3a/06/893a0696-fda1-375b-1ecd-0cff996234f5/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "教育",
-          "type": "free",
-          "page": "app/cn-6799431765.html",
-          "rating": 5,
+          "id": "1542317784",
+          "name": "房价-国家统计局房价行情数据统计",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0a/e1/18/0ae11803-9128-b9c9-c315-08aa51d9ff7a/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "财务",
+          "type": "deal",
+          "page": "app/cn-1542317784.html",
+          "rating": 4.64706,
           "region": "cn"
         },
         {
@@ -17961,7 +17740,7 @@
           "genre": "工具",
           "type": "free",
           "page": "app/cn-6775141985.html",
-          "rating": 4.4074,
+          "rating": 4.41818,
           "region": "cn"
         },
         {
@@ -18186,13 +17965,13 @@
       ],
       "rel": [
         {
-          "id": "6799431765",
-          "name": "文绉绉 甪端",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/89/3a/06/893a0696-fda1-375b-1ecd-0cff996234f5/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "教育",
-          "type": "free",
-          "page": "app/cn-6799431765.html",
-          "rating": 5,
+          "id": "1542317784",
+          "name": "房价-国家统计局房价行情数据统计",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0a/e1/18/0ae11803-9128-b9c9-c315-08aa51d9ff7a/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "财务",
+          "type": "deal",
+          "page": "app/cn-1542317784.html",
+          "rating": 4.64706,
           "region": "cn"
         },
         {
@@ -18202,7 +17981,7 @@
           "genre": "工具",
           "type": "free",
           "page": "app/cn-6775141985.html",
-          "rating": 4.4074,
+          "rating": 4.41818,
           "region": "cn"
         },
         {
@@ -18427,13 +18206,13 @@
       ],
       "rel": [
         {
-          "id": "6799431765",
-          "name": "文绉绉 甪端",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/89/3a/06/893a0696-fda1-375b-1ecd-0cff996234f5/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "教育",
-          "type": "free",
-          "page": "app/cn-6799431765.html",
-          "rating": 5,
+          "id": "1542317784",
+          "name": "房价-国家统计局房价行情数据统计",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0a/e1/18/0ae11803-9128-b9c9-c315-08aa51d9ff7a/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "财务",
+          "type": "deal",
+          "page": "app/cn-1542317784.html",
+          "rating": 4.64706,
           "region": "cn"
         },
         {
@@ -18443,7 +18222,7 @@
           "genre": "工具",
           "type": "free",
           "page": "app/cn-6775141985.html",
-          "rating": 4.4074,
+          "rating": 4.41818,
           "region": "cn"
         },
         {
@@ -18653,13 +18432,13 @@
       ],
       "rel": [
         {
-          "id": "6799431765",
-          "name": "文绉绉 甪端",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/89/3a/06/893a0696-fda1-375b-1ecd-0cff996234f5/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "教育",
-          "type": "free",
-          "page": "app/cn-6799431765.html",
-          "rating": 5,
+          "id": "1542317784",
+          "name": "房价-国家统计局房价行情数据统计",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0a/e1/18/0ae11803-9128-b9c9-c315-08aa51d9ff7a/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "财务",
+          "type": "deal",
+          "page": "app/cn-1542317784.html",
+          "rating": 4.64706,
           "region": "cn"
         },
         {
@@ -18669,7 +18448,7 @@
           "genre": "工具",
           "type": "free",
           "page": "app/cn-6775141985.html",
-          "rating": 4.4074,
+          "rating": 4.41818,
           "region": "cn"
         },
         {
@@ -18838,6 +18617,247 @@
   ],
   "deals": [
     {
+      "id": "1542317784",
+      "name": "房价-国家统计局房价行情数据统计",
+      "dev": "军兵 胡",
+      "genre": "财务",
+      "normal": "¥24.00",
+      "current": "¥1.00",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0a/e1/18/0ae11803-9128-b9c9-c315-08aa51d9ff7a/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg",
+      "rating": 4.64706,
+      "url": "https://apps.apple.com/cn/app/%E6%88%BF%E4%BB%B7-%E5%9B%BD%E5%AE%B6%E7%BB%9F%E8%AE%A1%E5%B1%80%E6%88%BF%E4%BB%B7%E8%A1%8C%E6%83%85%E6%95%B0%E6%8D%AE%E7%BB%9F%E8%AE%A1/id1542317784?uo=4",
+      "region": "cn",
+      "type": "deal",
+      "is_new": true,
+      "series": [
+        24.0,
+        24.0,
+        24.0,
+        24.0,
+        24.0,
+        24.0,
+        24.0,
+        1.0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-19",
+          "p": 24.0
+        },
+        {
+          "d": "2026-10-20",
+          "p": 24.0
+        },
+        {
+          "d": "2026-10-21",
+          "p": 24.0
+        },
+        {
+          "d": "2026-10-22",
+          "p": 24.0
+        },
+        {
+          "d": "2026-10-23",
+          "p": 24.0
+        },
+        {
+          "d": "2026-10-24",
+          "p": 24.0
+        },
+        {
+          "d": "2026-10-25",
+          "p": 24.0
+        },
+        {
+          "d": "2026-10-26",
+          "p": 1.0
+        }
+      ],
+      "rel": [
+        {
+          "id": "6775141985",
+          "name": "M3U8 Spark: 网页视频嗅探&在线播放",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5b/55/8b/5b558b73-29b0-acea-9d64-1a43cf2d5ef9/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "工具",
+          "type": "free",
+          "page": "app/cn-6775141985.html",
+          "rating": 4.41818,
+          "region": "cn"
+        },
+        {
+          "id": "6474681491",
+          "name": "1/1",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7d/20/b7/7d20b7f5-7e7f-2bc9-b6e0-053522db13f1/AppIcon-0-0-1x_U007epad-0-1-P3-85-220.png/512x512bb.jpg",
+          "genre": "图形与设计",
+          "type": "free",
+          "page": "app/cn-6474681491.html",
+          "rating": 5,
+          "region": "cn"
+        },
+        {
+          "id": "6799355833",
+          "name": "Bars：AI用量与节点流量",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8f/7d/e7/8f7de737-5deb-3388-7d92-a0f84c79de2c/BarsIcon-63-green-slash-0-0-1x_U007ephone-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "工具",
+          "type": "free",
+          "page": "app/cn-6799355833.html",
+          "rating": 5,
+          "region": "cn"
+        },
+        {
+          "id": "6812764518",
+          "name": "Calc Plus - Calculator",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/69/4f/dc/694fdca1-164f-cdd8-4355-76d6b2a5f8c1/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "工具",
+          "type": "free",
+          "page": "app/cn-6812764518.html",
+          "rating": 5,
+          "region": "cn"
+        },
+        {
+          "id": "6821034945",
+          "name": "Charcoal Studio",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/12/98/07/1298074e-3155-90be-6bee-aaae4d487ed4/charcolicon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "图形与设计",
+          "type": "free",
+          "page": "app/cn-6821034945.html",
+          "rating": 5,
+          "region": "cn"
+        },
+        {
+          "id": "1157967613",
+          "name": "Christmas Radio UK",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/91/81/2e/91812eec-d5ef-d56b-c5eb-d8f644f13382/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "音乐",
+          "type": "free",
+          "page": "app/cn-1157967613.html",
+          "rating": 5,
+          "region": "cn"
+        },
+        {
+          "id": "335485024",
+          "name": "GPSnote",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c7/73/38/c7733896-5840-9c7b-9f71-a12527e925f1/AppIcon-0-0-1x_U007epad-0-1-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "导航",
+          "type": "free",
+          "page": "app/cn-335485024.html",
+          "rating": 5,
+          "region": "cn"
+        },
+        {
+          "id": "6799973308",
+          "name": "Galplay: 多引擎Galgame 播放器",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8f/fa/e2/8ffae28d-aafb-9c1d-f096-df7dc370d73f/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+          "genre": "工具",
+          "type": "free",
+          "page": "app/cn-6799973308.html",
+          "rating": 5,
+          "region": "cn"
+        },
+        {
+          "id": "6739967953",
+          "name": "Luna Subscriptions",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/66/6f/77/666f7773-7958-f144-4fd1-7bc3d5bb4a48/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "财务",
+          "type": "free",
+          "page": "app/cn-6739967953.html",
+          "rating": 5,
+          "region": "cn"
+        },
+        {
+          "id": "6814895879",
+          "name": "Notea便利贴",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d4/5a/1e/d45a1eaf-2a72-609c-ba6b-3af8c624ad7d/AppIconModern-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "效率",
+          "type": "free",
+          "page": "app/cn-6814895879.html",
+          "rating": 5,
+          "region": "cn"
+        },
+        {
+          "id": "6794823541",
+          "name": "Notice – Mindful Screen Time",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f0/25/e6/f025e6c9-6d26-ef19-d815-0b6cf9f7eea5/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "健康健美",
+          "type": "free",
+          "page": "app/cn-6794823541.html",
+          "rating": 5,
+          "region": "cn"
+        },
+        {
+          "id": "1312918682",
+          "name": "OBD2 Dashboards: Car Scanner",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3f/d5/2a/3fd52ae5-6197-df58-68a1-9af858a2ff32/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+          "genre": "工具",
+          "type": "free",
+          "page": "app/cn-1312918682.html",
+          "rating": 5,
+          "region": "cn"
+        },
+        {
+          "id": "436311293",
+          "name": "Ratio Calc!",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0c/0f/52/0c0f52a2-8ecb-fbe1-b577-446eb8d35824/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "体育",
+          "type": "free",
+          "page": "app/cn-436311293.html",
+          "rating": 5,
+          "region": "cn"
+        },
+        {
+          "id": "1513271477",
+          "name": "Revisits: Informes Servicio JW",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d8/b1/1e/d8b11e3a-b7c7-3d3f-d3ee-48fbe12387ba/NewIconBlue-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "效率",
+          "type": "free",
+          "page": "app/cn-1513271477.html",
+          "rating": 5,
+          "region": "cn"
+        },
+        {
+          "id": "1024535991",
+          "name": "Santa Text",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple118/v4/2e/85/b9/2e85b97b-6691-fe59-651e-ea532f07ca2b/AppIcon-1x_U007emarketing-85-220-0-9.jpeg/512x512bb.jpg",
+          "genre": "娱乐",
+          "type": "free",
+          "page": "app/cn-1024535991.html",
+          "rating": 5,
+          "region": "cn"
+        },
+        {
+          "id": "6755433454",
+          "name": "ScreenHound - 图片文字提取、屏幕翻译、文件扫描",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/eb/66/d7/eb66d71f-0fb8-faf8-20f7-2f2bcbe028cf/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "工具",
+          "type": "free",
+          "page": "app/cn-6755433454.html",
+          "rating": 5,
+          "region": "cn"
+        },
+        {
+          "id": "1480168613",
+          "name": "Single Origin - Coffee Timer",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d4/a3/a3/d4a3a350-b010-866d-e7b6-ad7fcc2b26be/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "美食佳饮",
+          "type": "free",
+          "page": "app/cn-1480168613.html",
+          "rating": 5,
+          "region": "cn"
+        },
+        {
+          "id": "6788334548",
+          "name": "Visto·剧集电影观影记录",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/27/ef/f7/27eff72c-5fcf-0247-0a37-7f25cac2d2b0/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "娱乐",
+          "type": "free",
+          "page": "app/cn-6788334548.html",
+          "rating": 5,
+          "region": "cn"
+        }
+      ],
+      "page": "app/cn-1542317784.html"
+    },
+    {
       "id": "6816931747",
       "name": "记账簿 - 隐私记账本",
       "dev": "祥成 孟",
@@ -18896,13 +18916,13 @@
       ],
       "rel": [
         {
-          "id": "6799431765",
-          "name": "文绉绉 甪端",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/89/3a/06/893a0696-fda1-375b-1ecd-0cff996234f5/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "教育",
-          "type": "free",
-          "page": "app/cn-6799431765.html",
-          "rating": 5,
+          "id": "1542317784",
+          "name": "房价-国家统计局房价行情数据统计",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0a/e1/18/0ae11803-9128-b9c9-c315-08aa51d9ff7a/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "财务",
+          "type": "deal",
+          "page": "app/cn-1542317784.html",
+          "rating": 4.64706,
           "region": "cn"
         },
         {
@@ -18912,7 +18932,7 @@
           "genre": "工具",
           "type": "free",
           "page": "app/cn-6775141985.html",
-          "rating": 4.4074,
+          "rating": 4.41818,
           "region": "cn"
         },
         {
@@ -19137,13 +19157,13 @@
       ],
       "rel": [
         {
-          "id": "6799431765",
-          "name": "文绉绉 甪端",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/89/3a/06/893a0696-fda1-375b-1ecd-0cff996234f5/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "教育",
-          "type": "free",
-          "page": "app/cn-6799431765.html",
-          "rating": 5,
+          "id": "1542317784",
+          "name": "房价-国家统计局房价行情数据统计",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0a/e1/18/0ae11803-9128-b9c9-c315-08aa51d9ff7a/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "财务",
+          "type": "deal",
+          "page": "app/cn-1542317784.html",
+          "rating": 4.64706,
           "region": "cn"
         },
         {
@@ -19153,7 +19173,7 @@
           "genre": "工具",
           "type": "free",
           "page": "app/cn-6775141985.html",
-          "rating": 4.4074,
+          "rating": 4.41818,
           "region": "cn"
         },
         {
@@ -19378,13 +19398,13 @@
       ],
       "rel": [
         {
-          "id": "6799431765",
-          "name": "文绉绉 甪端",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/89/3a/06/893a0696-fda1-375b-1ecd-0cff996234f5/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "教育",
-          "type": "free",
-          "page": "app/cn-6799431765.html",
-          "rating": 5,
+          "id": "1542317784",
+          "name": "房价-国家统计局房价行情数据统计",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0a/e1/18/0ae11803-9128-b9c9-c315-08aa51d9ff7a/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "财务",
+          "type": "deal",
+          "page": "app/cn-1542317784.html",
+          "rating": 4.64706,
           "region": "cn"
         },
         {
@@ -19394,7 +19414,7 @@
           "genre": "工具",
           "type": "free",
           "page": "app/cn-6775141985.html",
-          "rating": 4.4074,
+          "rating": 4.41818,
           "region": "cn"
         },
         {
@@ -19619,13 +19639,13 @@
       ],
       "rel": [
         {
-          "id": "6799431765",
-          "name": "文绉绉 甪端",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/89/3a/06/893a0696-fda1-375b-1ecd-0cff996234f5/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "教育",
-          "type": "free",
-          "page": "app/cn-6799431765.html",
-          "rating": 5,
+          "id": "1542317784",
+          "name": "房价-国家统计局房价行情数据统计",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0a/e1/18/0ae11803-9128-b9c9-c315-08aa51d9ff7a/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "财务",
+          "type": "deal",
+          "page": "app/cn-1542317784.html",
+          "rating": 4.64706,
           "region": "cn"
         },
         {
@@ -19635,7 +19655,7 @@
           "genre": "工具",
           "type": "free",
           "page": "app/cn-6775141985.html",
-          "rating": 4.4074,
+          "rating": 4.41818,
           "region": "cn"
         },
         {
@@ -19860,13 +19880,13 @@
       ],
       "rel": [
         {
-          "id": "6799431765",
-          "name": "文绉绉 甪端",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/89/3a/06/893a0696-fda1-375b-1ecd-0cff996234f5/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "教育",
-          "type": "free",
-          "page": "app/cn-6799431765.html",
-          "rating": 5,
+          "id": "1542317784",
+          "name": "房价-国家统计局房价行情数据统计",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0a/e1/18/0ae11803-9128-b9c9-c315-08aa51d9ff7a/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "财务",
+          "type": "deal",
+          "page": "app/cn-1542317784.html",
+          "rating": 4.64706,
           "region": "cn"
         },
         {
@@ -19876,7 +19896,7 @@
           "genre": "工具",
           "type": "free",
           "page": "app/cn-6775141985.html",
-          "rating": 4.4074,
+          "rating": 4.41818,
           "region": "cn"
         },
         {
@@ -20101,13 +20121,13 @@
       ],
       "rel": [
         {
-          "id": "6799431765",
-          "name": "文绉绉 甪端",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/89/3a/06/893a0696-fda1-375b-1ecd-0cff996234f5/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "教育",
-          "type": "free",
-          "page": "app/cn-6799431765.html",
-          "rating": 5,
+          "id": "1542317784",
+          "name": "房价-国家统计局房价行情数据统计",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0a/e1/18/0ae11803-9128-b9c9-c315-08aa51d9ff7a/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "财务",
+          "type": "deal",
+          "page": "app/cn-1542317784.html",
+          "rating": 4.64706,
           "region": "cn"
         },
         {
@@ -20117,7 +20137,7 @@
           "genre": "工具",
           "type": "free",
           "page": "app/cn-6775141985.html",
-          "rating": 4.4074,
+          "rating": 4.41818,
           "region": "cn"
         },
         {
@@ -20342,13 +20362,13 @@
       ],
       "rel": [
         {
-          "id": "6799431765",
-          "name": "文绉绉 甪端",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/89/3a/06/893a0696-fda1-375b-1ecd-0cff996234f5/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "教育",
-          "type": "free",
-          "page": "app/cn-6799431765.html",
-          "rating": 5,
+          "id": "1542317784",
+          "name": "房价-国家统计局房价行情数据统计",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0a/e1/18/0ae11803-9128-b9c9-c315-08aa51d9ff7a/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "财务",
+          "type": "deal",
+          "page": "app/cn-1542317784.html",
+          "rating": 4.64706,
           "region": "cn"
         },
         {
@@ -20358,7 +20378,7 @@
           "genre": "工具",
           "type": "free",
           "page": "app/cn-6775141985.html",
-          "rating": 4.4074,
+          "rating": 4.41818,
           "region": "cn"
         },
         {

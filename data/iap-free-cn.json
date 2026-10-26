@@ -1,7 +1,7 @@
 {
   "updated": "2026-10-26",
   "region": "cn",
-  "count": 7,
+  "count": 8,
   "events": [
     {
       "app_id": "364859644",
@@ -18,6 +18,22 @@
       "dev": "Codium Labs LLC",
       "genre": "旅游",
       "page": "app/cn-364859644.html"
+    },
+    {
+      "app_id": "6741730996",
+      "app_name": "手机测速-网络测速·测网速speedtest",
+      "iap": "手机测速永久会员",
+      "price": "¥0.00",
+      "free_since": "2026-10-26",
+      "days_free": 0,
+      "last_paid_date": "2026-10-25",
+      "last_paid_price": "¥18.00",
+      "url": "https://apps.apple.com/cn/app/%E6%89%8B%E6%9C%BA%E6%B5%8B%E9%80%9F-%E7%BD%91%E7%BB%9C%E6%B5%8B%E9%80%9F-%E6%B5%8B%E7%BD%91%E9%80%9Fspeedtest/id6741730996?uo=4",
+      "rating": 4.03613,
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/84/b3/1f/84b31fdb-11d3-a921-e5bd-0be9dab9b221/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+      "dev": "Wuhan Yuhang Technology Co., Ltd",
+      "genre": "效率",
+      "page": "app/cn-6741730996.html"
     },
     {
       "app_id": "957061844",
@@ -77,7 +93,7 @@
       "last_paid_date": "2026-10-22",
       "last_paid_price": "—",
       "url": "https://apps.apple.com/cn/app/aura-%E7%BC%93%E8%A7%A3%E7%84%A6%E8%99%91-%E5%86%A5%E6%83%B3-%E7%9D%A1%E7%9C%A0/id6776121093?uo=4",
-      "rating": 4.92856,
+      "rating": 4.93103,
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/dc/4f/07/dc4f07f5-1232-38f9-e426-5e6da7b10b6e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
       "dev": "Jon Johnson",
       "genre": "健康健美",
@@ -93,7 +109,7 @@
       "last_paid_date": "2026-10-22",
       "last_paid_price": "—",
       "url": "https://apps.apple.com/cn/app/%E5%A4%9A%E8%83%BD%E8%AE%B0-%E4%B8%80%E7%9B%AE%E4%BA%86%E7%84%B6-%E8%AE%B0%E7%9A%84%E5%A4%9A/id6741854065?uo=4",
-      "rating": 4.81667,
+      "rating": 4.81967,
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/44/fc/2d/44fc2db8-e068-f8e7-5c13-69b08ab2dd42/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
       "dev": "Wuhan Starlink Network Technology Co., Ltd.",
       "genre": "工具",
