@@ -893,6 +893,13 @@ def main():
              # 否则推荐卡片的 page 会是空串 → 渲染成不可点击的 div。
              "page": x.get("page") or ("app/%s-%s.html" % (country, x["id"])),
              "rating": x.get("rating", 0),
+             # 价格：缺 current 会让「特价」推荐卡的价格标签渲染成空白（free 型
+             # 走本地化文案不受影响），缺 normal 则不显示原价划线。
+             "normal": x.get("normal", ""),
+             "current": x.get("current", ""),
+             # 内购徽章：本体条目（限免+特价）都要带，否则推荐卡看不到
+             # 「含内购 / 纯买断」；无数据时为 null，前端据此不显示徽章。
+             "has_iap": x.get("has_iap"),
              "region": x.get("region", country)} for x in others
         ]
 
