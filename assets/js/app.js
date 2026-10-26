@@ -499,7 +499,11 @@
     var price = el('div', 'price');
     if (app.normal) price.appendChild(el('span', 'old', esc(app.normal)));
     var newCls = kind === 'free' ? 'new free' : 'new deal';
-    var newText = app.current || (kind === 'free' ? dict.card_free_price : '');
+    // 限免标签必须用当前语言的文案（dict.card_free_price），不能用后端烤进 JSON 的
+    // app.current —— 那个是按「区域」写死的（cn='免费' / us='Free'），
+    // 于是英文站看国区卡片显示中文「免费」、中文站看美区卡片显示英文「Free」。
+    // 特价卡仍用 app.current（真实价格数字，货币符号随区域正确）。
+    var newText = kind === 'free' ? dict.card_free_price : (app.current || '');
     price.appendChild(el('span', newCls, esc(newText)));
     info.appendChild(price);
     card.appendChild(info);
