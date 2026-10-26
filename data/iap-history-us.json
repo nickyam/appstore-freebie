@@ -7,8 +7,8 @@
     "seed_added": 6,
     "seed_total": 6155,
     "pool_size": 2000,
-    "processed": 1998,
-    "skipped": 2,
+    "processed": 1999,
+    "skipped": 1,
     "seed_last_ok": "2026-10-25T16:26:32Z",
     "seed_last_error": ""
   },
@@ -5939,7 +5939,7 @@
       "first_date": "2026-10-23",
       "first_price": "$12.00",
       "last_date": "2026-10-26",
-      "last_price": "$12.00",
+      "last_price": "$119.99",
       "last_change_date": "2026-10-26",
       "ever_paid": true,
       "last_paid_date": "2026-10-26",
@@ -5948,7 +5948,7 @@
         "2026-10-23": "$119.99",
         "2026-10-24": "$119.99",
         "2026-10-25": "$119.99",
-        "2026-10-26": "$12.00"
+        "2026-10-26": "$119.99"
       }
     },
     "1241817309::Starter Plan": {
@@ -19998,7 +19998,7 @@
       "first_date": "2026-10-23",
       "first_price": "$4.99",
       "last_date": "2026-10-26",
-      "last_price": "$24.99",
+      "last_price": "$4.99",
       "last_change_date": "2026-10-26",
       "ever_paid": true,
       "last_paid_date": "2026-10-26",
@@ -20007,7 +20007,7 @@
         "2026-10-23": "$24.99",
         "2026-10-24": "$24.99",
         "2026-10-25": "$24.99",
-        "2026-10-26": "$24.99"
+        "2026-10-26": "$4.99"
       }
     },
     "1662217862::Monthly Recurring Tip": {
@@ -58275,7 +58275,7 @@
       "region": "us",
       "first_date": "2026-10-23",
       "first_price": "$2.49",
-      "last_date": "2026-10-23",
+      "last_date": "2026-10-26",
       "last_price": "$2.49",
       "last_change_date": "2026-10-23",
       "ever_paid": true,
@@ -60594,7 +60594,7 @@
       "first_date": "2026-10-23",
       "first_price": "$24.99",
       "last_date": "2026-10-26",
-      "last_price": "$24.99",
+      "last_price": "$19.99",
       "last_change_date": "2026-10-26",
       "ever_paid": true,
       "last_paid_date": "2026-10-26",
@@ -60603,7 +60603,7 @@
         "2026-10-23": "$19.99",
         "2026-10-24": "$24.99",
         "2026-10-25": "$24.99",
-        "2026-10-26": "$24.99"
+        "2026-10-26": "$19.99"
       }
     },
     "1449170265::3 Month Membership": {
@@ -67135,7 +67135,7 @@
       "first_date": "2026-10-23",
       "first_price": "$59.99",
       "last_date": "2026-10-26",
-      "last_price": "$139.99",
+      "last_price": "$89.99",
       "last_change_date": "2026-10-26",
       "ever_paid": true,
       "last_paid_date": "2026-10-26",
@@ -67144,7 +67144,7 @@
         "2026-10-23": "$89.99",
         "2026-10-24": "$89.99",
         "2026-10-25": "$29.99",
-        "2026-10-26": "$139.99"
+        "2026-10-26": "$89.99"
       }
     },
     "6761736440::BibleWatch Premium Free Trial": {
@@ -86192,7 +86192,7 @@
       "first_date": "2026-10-23",
       "first_price": "$9.99",
       "last_date": "2026-10-26",
-      "last_price": "$7.99",
+      "last_price": "$11.99",
       "last_change_date": "2026-10-26",
       "ever_paid": true,
       "last_paid_date": "2026-10-26",
@@ -86201,7 +86201,7 @@
         "2026-10-23": "$7.99",
         "2026-10-24": "$7.99",
         "2026-10-25": "$7.99",
-        "2026-10-26": "$7.99"
+        "2026-10-26": "$11.99"
       }
     },
     "6466298983::Retake Pro 1 Year": {
@@ -101422,7 +101422,7 @@
       "region": "us",
       "first_date": "2026-10-23",
       "first_price": "$10.49",
-      "last_date": "2026-10-25",
+      "last_date": "2026-10-26",
       "last_price": "$10.49",
       "last_change_date": "2026-10-23",
       "ever_paid": true,
@@ -101439,7 +101439,7 @@
       "region": "us",
       "first_date": "2026-10-23",
       "first_price": "$124.99",
-      "last_date": "2026-10-25",
+      "last_date": "2026-10-26",
       "last_price": "$124.99",
       "last_change_date": "2026-10-23",
       "ever_paid": true,
@@ -101456,7 +101456,7 @@
       "region": "us",
       "first_date": "2026-10-23",
       "first_price": "$34.99",
-      "last_date": "2026-10-25",
+      "last_date": "2026-10-26",
       "last_price": "$34.99",
       "last_change_date": "2026-10-23",
       "ever_paid": true,
@@ -101473,7 +101473,7 @@
       "region": "us",
       "first_date": "2026-10-23",
       "first_price": "$10.49",
-      "last_date": "2026-10-25",
+      "last_date": "2026-10-26",
       "last_price": "$10.49",
       "last_change_date": "2026-10-23",
       "ever_paid": true,
@@ -101490,7 +101490,7 @@
       "region": "us",
       "first_date": "2026-10-23",
       "first_price": "$399.99",
-      "last_date": "2026-10-25",
+      "last_date": "2026-10-26",
       "last_price": "$399.99",
       "last_change_date": "2026-10-23",
       "ever_paid": true,
@@ -101507,7 +101507,7 @@
       "region": "us",
       "first_date": "2026-10-23",
       "first_price": "$399.99",
-      "last_date": "2026-10-25",
+      "last_date": "2026-10-26",
       "last_price": "$399.99",
       "last_change_date": "2026-10-23",
       "ever_paid": true,
