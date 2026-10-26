@@ -28,6 +28,7 @@ CI 注意：本采集器产出的 4 个 data/iap-*.json 由独立的 iap.yml 负
 用法：
   python3 iap_collector.py --region cn [--limit 2000] [--delay 0.3]
   python3 iap_collector.py --region us [--limit 2000]
+  python3 iap_collector.py --region cn --limit 0   # 0 = 不截断，扫全池
   python3 iap_collector.py --selftest     # 用合成历史验证事件检测逻辑
 """
 import sys, os, re, json, html, time, argparse, urllib.request
@@ -98,9 +99,12 @@ def load_pool(region, limit):
             add(x)
     else:
         from iap_probe import get_game_ids
-        for i, _ in get_game_ids(region, min(limit, 200)):
+        cap = min(limit, 200) if limit and limit > 0 else 200
+        for i, _ in get_game_ids(region, cap):
             add(i)
-    return ids[:limit]
+    # limit <= 0 表示「不截断，扫全池」（2026-10-26 仓库转 public 后 Actions 分钟免费，
+    # 播种班改为全量覆盖：cn≈6144 / us≈8484，实测约 75min + 107min）。
+    return ids[:limit] if limit and limit > 0 else ids
 
 
 def load_history(region):
