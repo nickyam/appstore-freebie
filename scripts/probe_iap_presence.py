@@ -64,31 +64,50 @@ def fetch(url, region, timeout=25):
         return raw.decode("utf-8", "ignore"), r.geturl()
 
 
-def owner_map(body):
-    """把每个 hasInAppPurchases 归属到它前面最近的 id 字段。"""
+def owner_map(body, window=900):
+    """把每个 hasInAppPurchases 归属到它前面最近的 id 字段。
+
+    window 是「距离上限」：默认 900 字符（精准）；抓不到时 probe_one 会再用
+    宽松窗口重扫一遍（见下）——部分 App 的商品页在 id 与本 App 属性之间塞进了
+    大段 description / offers，字段间距可能超过 900。
+    """
     ids = [(m.start(), m.group(1)) for m in ID_RE.finditer(body)]
     out = {}
     for m in IAP_RE.finditer(body):
         p = m.start()
-        prev = [(pos, i) for pos, i in ids if pos < p and p - pos < 900]
+        prev = [(pos, i) for pos, i in ids if pos < p and p - pos < window]
         if not prev:
             continue
         out.setdefault(prev[-1][1], m.group(1))
     return out
 
 
-def probe_one(aid, region):
+def probe_one(aid, region, attempts=3):
+    """抓单个 App 的商品页，返回 {"id", "has_iap"} 或 {"id", "error"/"geo_blocked"}。
+
+    重试：Apple 对短时间内的密集访问会返 429 / 连接重置（2026-10-26 本机实测首请即
+    429），单次失败就会让该 App 落空、每班重试仍然随机落空 —— 故失败/未命中各重试
+    若干次，间隔递增。仍取不到则**不写缓存**（留下轮再试），绝不把未知当 false。
+    """
     url = f"https://apps.apple.com/{region}/app/id{aid}"
     rec = {"id": str(aid)}
-    try:
-        body, final = fetch(url, region)
-    except Exception as e:
-        rec["error"] = str(e)[:200]
+    body = final = None
+    last_err = ""
+    for n in range(attempts):
+        try:
+            body, final = fetch(url, region)
+            break
+        except Exception as e:
+            last_err = str(e)[:200]
+            time.sleep(1.5 * (n + 1))          # 退避：1.5s / 3s / 4.5s
+    if body is None:
+        rec["error"] = last_err or "fetch failed"
         return rec
     if region == "us" and f"/{region}/" not in final:
         rec["geo_blocked"] = True          # 被跳到 cn 落地页 → 本机不能判美区
         return rec
-    own = owner_map(body).get(str(aid))
+    # 归属窗口：先按默认的 900 字符精准匹配；落空再放宽到 4000 字符重扫一次
+    own = owner_map(body).get(str(aid)) or owner_map(body, 4000).get(str(aid))
     if own is None:
         return rec                         # 页面结构异常 → 不写缓存，下轮重试
     rec["has_iap"] = (own == "true")
@@ -150,7 +169,8 @@ def main():
     print(f"[{a.region}] 候选 {len(cands)} 个，需探测 {len(todo)} 个"
           f"（缓存已有 {len(cands) - len(todo)}）")
 
-    ok = blk = err = 0
+    ok = blk = err = nomatch = 0
+    unresolved = []
     if todo:
         t0 = time.time()
         with ThreadPoolExecutor(max_workers=max(1, a.workers)) as ex:
@@ -165,11 +185,18 @@ def main():
                 print(f"  ✗ id{rec['id']} {rec['error']}")
                 continue
             if "has_iap" not in rec:
+                # 页内有以上推荐区的 hasInAppPurchases，但目标自己的字段始终没捞到
+                nomatch += 1
+                unresolved.append(rec["id"])
+                print(f"  ? id{rec['id']} 页面未含本 App 的字段（不写缓存，下轮重试）")
                 continue
             items[rec["id"]] = {"has_iap": rec["has_iap"], "checked": today}
             ok += 1
         print(f"[{a.region}] 探测完成：成功 {ok} / 地理拦截 {blk} / 错误 {err}"
-              f" / 用时 {time.time() - t0:.0f}s")
+              f" / 未匹配 {nomatch} / 用时 {time.time() - t0:.0f}s")
+        if unresolved:
+            print(f"[{a.region}] 未匹配 id 列表（多为「特价」App，待下轮重试）："
+                  f"{','.join(unresolved[:40])}")
 
     out = {
         "updated": today,

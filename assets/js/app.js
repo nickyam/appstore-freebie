@@ -1142,6 +1142,10 @@
       picked = items.slice(0, 6);
       if (picked.length) app.__relPicked = picked;
     }
+    // 池子为空（多为 IAP 页：详情先于列表数据返回）时**一根 DOM 都不插**。
+    // 否则会留下一个空的 .dt-related，而 load() 的补渲染以「已有 .dt-related」
+    // 为跳过条件 → 那个空块永远填不上（IAP 独立页底部没有推荐的根因）。
+    if (!picked || !picked.length) return;
     var box = document.createElement('div');
     box.innerHTML = '<div class="dt-related dt-period"><h3>' + esc(I18N[CURRENT_LANG].dt_same_period) +
       '</h3><div class="grid" id="dtSameGrid"></div></div>';

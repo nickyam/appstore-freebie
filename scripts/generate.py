@@ -179,8 +179,47 @@ def load_iap_presence(country):
     return out
 
 
-def write_iap_pages(country, today):
+def rel_payload(pool, exclude_id, country, limit=REL_POOL_SIZE):
+    """「同时期的其他限免」轻量推荐载荷 —— 本体页与 IAP 内购页共用。
+
+    pool：当期本体限免+特价条目（已按「新触发 → 评分」排好的池子）；
+    exclude_id：当前页自己的 App id（不会推荐自己）。
+    返回 ≤limit 条，交由前端 renderRecommend 洗牌抽 6 展示。
+
+    为何要内联而不是等前端拉 JSON：IAP 页原先没有 rel → 首屏推荐容器被渲染成空块，
+    而补渲染逻辑以「已有 .dt-related」为跳过条件 → 空块再也不会被填满（用户反馈
+    "内购限免独立页最下面没有推荐"）。内联后首屏即有内容。
+    """
+    out = []
+    for x in pool:
+        if str(x.get("id")) == str(exclude_id):
+            continue
+        out.append({
+            "id": x["id"], "name": x.get("name", ""), "icon": x.get("icon", ""),
+            "genre": x.get("genre", ""), "type": x.get("type", ""),
+            # x["page"] 在 write_app_pages 之后才赋值（IAP 页这条流程更晚），故这里
+            # 按与生成器一致的公式直接给出相对站根的详情页路径，否则推荐卡片
+            # page 为空串 → 渲染成不可点击的 div。
+            "page": x.get("page") or ("app/%s-%s.html" % (country, x["id"])),
+            "rating": x.get("rating", 0),
+            # 价格：缺 current 会让「特价」推荐卡的价格标签渲染成空白（free 型
+            # 走本地化文案不受影响），缺 normal 则不显示原价划线。
+            "normal": x.get("normal", ""), "current": x.get("current", ""),
+            # 内购徽章：本体条目（限免+特价）都要带，否则推荐卡看不到
+            # 「含内购 / 纯买断」；无数据时为 null，前端据此不显示徽章。
+            "has_iap": x.get("has_iap"),
+            "region": x.get("region", country),
+        })
+        if len(out) >= limit:
+            break
+    return out
+
+
+def write_iap_pages(country, today, rel_pool=None):
     """为「限时内购免费」App 生成独立详情页（type=iap），返回 (写入数, 保留页集合)。
+
+    rel_pool：当期本体限免/特价条目（已排序），用于给 IAP 页也内联一份
+    「同时期的其他限免」推荐 —— 之前只有本体页有，IAP 页底部是空的。
 
     数据源：data/iap-free-{country}.json。事件已由 iap_collector 经 iTunes lookup
     富化（评分/图标/开发者/分类，无评分事件在采集端已剔除），同一 App 多个内购
@@ -250,6 +289,9 @@ def write_iap_pages(country, today):
             "is_new": days == 0,
             "series": [], "phistory": [],
         }
+        # 「同时期的其他限免」推荐（与本体页同源同款，避免 IAP 页底部空白）
+        if rel_pool:
+            item["rel"] = rel_payload(rel_pool, aid, country)
         ld = {
             "@context": "https://schema.org",
             "@type": "SoftwareApplication",
@@ -884,24 +926,7 @@ def main():
     # 洗牌后仍是同一批 App，每个详情页显示的推荐完全一样（用户反馈"固定不合理"）。
     pool_sorted = sorted(freebies + deals, key=sort_key)
     for it in (freebies + deals):
-        others = [x for x in pool_sorted if x["id"] != it["id"]][:REL_POOL_SIZE]
-        it["rel"] = [
-            {"id": x["id"], "name": x.get("name", ""), "icon": x.get("icon", ""),
-             "genre": x.get("genre", ""), "type": x.get("type", ""),
-             # 此处 x["page"] 尚未被 write_app_pages 赋值（那段在本块之后才跑），
-             # 故此处按与生成器一致的公式直接给出相对站根的详情页路径，
-             # 否则推荐卡片的 page 会是空串 → 渲染成不可点击的 div。
-             "page": x.get("page") or ("app/%s-%s.html" % (country, x["id"])),
-             "rating": x.get("rating", 0),
-             # 价格：缺 current 会让「特价」推荐卡的价格标签渲染成空白（free 型
-             # 走本地化文案不受影响），缺 normal 则不显示原价划线。
-             "normal": x.get("normal", ""),
-             "current": x.get("current", ""),
-             # 内购徽章：本体条目（限免+特价）都要带，否则推荐卡看不到
-             # 「含内购 / 纯买断」；无数据时为 null，前端据此不显示徽章。
-             "has_iap": x.get("has_iap"),
-             "region": x.get("region", country)} for x in others
-        ]
+        it["rel"] = rel_payload(pool_sorted, it["id"], country)
 
     result = {
         "date": today,
@@ -917,7 +942,8 @@ def main():
 
     # IAP 内购限免独立页（D 架构：generate 唯一写页人；数据源 = iap_collector 独写的
     # data/iap-free-{country}.json；无数据源时返回 (0, None)，下方据此跳过清理）
-    iap_written, iap_keep = write_iap_pages(country, today)
+    # IAP 页也用同一份「当期本体限免+特价」池做推荐（须在本体 page_items 排好序之后）
+    iap_written, iap_keep = write_iap_pages(country, today, rel_pool=page_items)
 
     save_json(out_path, result)
     save_json(history_path, history)
