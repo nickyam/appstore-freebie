@@ -1,7 +1,7 @@
 {
   "updated": "2026-10-26",
   "region": "cn",
-  "count": 88,
+  "count": 85,
   "items": [
     {
       "app_id": "6758658840",
@@ -548,14 +548,6 @@
       "since": "2026-10-26"
     },
     {
-      "app_id": "6772943882",
-      "app_name": "OgdenSpine",
-      "iap": "Life Time Pro",
-      "price": "¥0.00",
-      "permanent_free": true,
-      "since": "2026-10-26"
-    },
-    {
       "app_id": "6776121093",
       "app_name": "Aura: 缓解焦虑·冥想·睡眠",
       "iap": "Premium Lifetime",
@@ -588,14 +580,6 @@
       "since": "2026-10-26"
     },
     {
-      "app_id": "6768885559",
-      "app_name": "iBirdsong",
-      "iap": "Life Time Pro",
-      "price": "¥0.00",
-      "permanent_free": false,
-      "since": "2026-10-26"
-    },
-    {
       "app_id": "6772943882",
       "app_name": "OgdenSpine",
       "iap": "内购限免",
@@ -626,14 +610,6 @@
       "price": "免费",
       "permanent_free": false,
       "since": "2026-10-25"
-    },
-    {
-      "app_id": "6789909656",
-      "app_name": "Quench - Knife Heat Treating",
-      "iap": "Lifetime",
-      "price": "¥0.00",
-      "permanent_free": true,
-      "since": "2026-10-26"
     },
     {
       "app_id": "6821278362",

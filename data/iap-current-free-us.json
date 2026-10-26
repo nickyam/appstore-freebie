@@ -1,7 +1,7 @@
 {
   "updated": "2026-10-26",
   "region": "us",
-  "count": 68,
+  "count": 67,
   "items": [
     {
       "app_id": "300048137",
@@ -391,14 +391,6 @@
       "app_id": "6758198708",
       "app_name": "Dungeons and Heartbeats",
       "iap": "Unlock Everything",
-      "price": "$0.00",
-      "permanent_free": true,
-      "since": "2026-10-26"
-    },
-    {
-      "app_id": "6789909656",
-      "app_name": "Quench - Knife Heat Treating",
-      "iap": "Lifetime",
       "price": "$0.00",
       "permanent_free": true,
       "since": "2026-10-26"

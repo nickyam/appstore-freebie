@@ -7,8 +7,8 @@
     "seed_added": 6,
     "seed_total": 6155,
     "pool_size": 2000,
-    "processed": 1999,
-    "skipped": 1,
+    "processed": 1997,
+    "skipped": 3,
     "seed_last_ok": "2026-10-25T16:26:32Z",
     "seed_last_error": ""
   },
@@ -19998,7 +19998,7 @@
       "first_date": "2026-10-23",
       "first_price": "$4.99",
       "last_date": "2026-10-26",
-      "last_price": "$4.99",
+      "last_price": "$24.99",
       "last_change_date": "2026-10-26",
       "ever_paid": true,
       "last_paid_date": "2026-10-26",
@@ -20007,7 +20007,7 @@
         "2026-10-23": "$24.99",
         "2026-10-24": "$24.99",
         "2026-10-25": "$24.99",
-        "2026-10-26": "$4.99"
+        "2026-10-26": "$24.99"
       }
     },
     "1662217862::Monthly Recurring Tip": {
@@ -45005,7 +45005,7 @@
       "first_date": "2026-10-23",
       "first_price": "$2.99",
       "last_date": "2026-10-26",
-      "last_price": "$29.99",
+      "last_price": "$2.99",
       "last_change_date": "2026-10-26",
       "ever_paid": true,
       "last_paid_date": "2026-10-26",
@@ -45014,7 +45014,7 @@
         "2026-10-23": "$29.99",
         "2026-10-24": "$29.99",
         "2026-10-25": "$29.99",
-        "2026-10-26": "$29.99"
+        "2026-10-26": "$2.99"
       }
     },
     "1370777926::Pro": {
@@ -45025,7 +45025,7 @@
       "first_date": "2026-10-23",
       "first_price": "$19.99",
       "last_date": "2026-10-26",
-      "last_price": "$199.99",
+      "last_price": "$19.99",
       "last_change_date": "2026-10-26",
       "ever_paid": true,
       "last_paid_date": "2026-10-26",
@@ -45034,7 +45034,7 @@
         "2026-10-23": "$199.99",
         "2026-10-24": "$199.99",
         "2026-10-25": "$199.99",
-        "2026-10-26": "$199.99"
+        "2026-10-26": "$19.99"
       }
     },
     "1370777926::Competitive": {
@@ -55257,7 +55257,7 @@
       "first_date": "2026-10-23",
       "first_price": "$9.99",
       "last_date": "2026-10-26",
-      "last_price": "$2.99",
+      "last_price": "$4.99",
       "last_change_date": "2026-10-26",
       "ever_paid": true,
       "last_paid_date": "2026-10-26",
@@ -55266,7 +55266,7 @@
         "2026-10-23": "$4.99",
         "2026-10-24": "$2.99",
         "2026-10-25": "$2.99",
-        "2026-10-26": "$2.99"
+        "2026-10-26": "$4.99"
       }
     },
     "1455336523::Get 1 Like to find best dating": {
@@ -55378,7 +55378,7 @@
       "region": "us",
       "first_date": "2026-10-23",
       "first_price": "$3.99",
-      "last_date": "2026-10-23",
+      "last_date": "2026-10-26",
       "last_price": "$3.99",
       "last_change_date": "2026-10-23",
       "ever_paid": true,
@@ -58537,7 +58537,7 @@
       "first_date": "2026-10-23",
       "first_price": "$9.99",
       "last_date": "2026-10-26",
-      "last_price": "$29.99",
+      "last_price": "$9.99",
       "last_change_date": "2026-10-26",
       "ever_paid": true,
       "last_paid_date": "2026-10-26",
@@ -58546,7 +58546,7 @@
         "2026-10-23": "$9.99",
         "2026-10-24": "$29.99",
         "2026-10-25": "$29.99",
-        "2026-10-26": "$29.99"
+        "2026-10-26": "$9.99"
       }
     },
     "6783769467::GTL: Prison Messaging & Visits": {
@@ -67386,7 +67386,7 @@
       "first_date": "2026-10-23",
       "first_price": "$9.99",
       "last_date": "2026-10-26",
-      "last_price": "$44.99",
+      "last_price": "$19.99",
       "last_change_date": "2026-10-26",
       "ever_paid": true,
       "last_paid_date": "2026-10-26",
@@ -67395,7 +67395,7 @@
         "2026-10-23": "$44.99",
         "2026-10-24": "$44.99",
         "2026-10-25": "$44.99",
-        "2026-10-26": "$44.99"
+        "2026-10-26": "$19.99"
       }
     },
     "342585873::Background Checks App + Web": {
@@ -67426,7 +67426,7 @@
       "first_date": "2026-10-23",
       "first_price": "$22.99",
       "last_date": "2026-10-26",
-      "last_price": "$29.99",
+      "last_price": "$22.99",
       "last_change_date": "2026-10-26",
       "ever_paid": true,
       "last_paid_date": "2026-10-26",
@@ -67435,7 +67435,7 @@
         "2026-10-23": "$29.99",
         "2026-10-24": "$29.99",
         "2026-10-25": "$29.99",
-        "2026-10-26": "$29.99"
+        "2026-10-26": "$22.99"
       }
     },
     "342585873::Background Search App + Web": {
@@ -76497,7 +76497,7 @@
       "first_date": "2026-10-23",
       "first_price": "$29.99",
       "last_date": "2026-10-26",
-      "last_price": "$29.99",
+      "last_price": "$24.99",
       "last_change_date": "2026-10-26",
       "ever_paid": true,
       "last_paid_date": "2026-10-26",
@@ -76506,7 +76506,7 @@
         "2026-10-23": "$24.99",
         "2026-10-24": "$24.99",
         "2026-10-25": "$24.99",
-        "2026-10-26": "$29.99"
+        "2026-10-26": "$24.99"
       }
     },
     "1644737181::BePresent Pro Family (iCloud)": {
@@ -80846,7 +80846,7 @@
       "first_date": "2026-10-23",
       "first_price": "$8.99",
       "last_date": "2026-10-26",
-      "last_price": "$6.99",
+      "last_price": "$11.99",
       "last_change_date": "2026-10-26",
       "ever_paid": true,
       "last_paid_date": "2026-10-26",
@@ -80855,7 +80855,7 @@
         "2026-10-23": "$6.99",
         "2026-10-24": "$6.99",
         "2026-10-25": "$6.99",
-        "2026-10-26": "$6.99"
+        "2026-10-26": "$11.99"
       }
     },
     "1420374639::Premium VPN — 1 Week Access": {
@@ -80951,13 +80951,14 @@
       "first_date": "2026-10-23",
       "first_price": "$39.99",
       "last_date": "2026-10-26",
-      "last_price": "$39.99",
-      "last_change_date": "2026-10-23",
+      "last_price": "$59.99",
+      "last_change_date": "2026-10-26",
       "ever_paid": true,
-      "last_paid_date": "2026-10-23",
+      "last_paid_date": "2026-10-26",
       "free_since": null,
       "changes": {
-        "2026-10-23": "$39.99"
+        "2026-10-23": "$39.99",
+        "2026-10-26": "$59.99"
       }
     },
     "1420374639::Monthly VPN Premium": {
@@ -81663,7 +81664,7 @@
       "first_date": "2026-10-23",
       "first_price": "$39.99",
       "last_date": "2026-10-26",
-      "last_price": "$5.99",
+      "last_price": "$89.99",
       "last_change_date": "2026-10-26",
       "ever_paid": true,
       "last_paid_date": "2026-10-26",
@@ -81672,7 +81673,7 @@
         "2026-10-23": "$5.99",
         "2026-10-24": "$5.99",
         "2026-10-25": "$5.99",
-        "2026-10-26": "$5.99"
+        "2026-10-26": "$89.99"
       }
     },
     "6748603301::Premium – Full Access": {
@@ -81876,7 +81877,7 @@
       "first_date": "2026-10-23",
       "first_price": "$9.99",
       "last_date": "2026-10-26",
-      "last_price": "$4.49",
+      "last_price": "$7.99",
       "last_change_date": "2026-10-26",
       "ever_paid": true,
       "last_paid_date": "2026-10-26",
@@ -81885,7 +81886,7 @@
         "2026-10-23": "$7.99",
         "2026-10-24": "$7.99",
         "2026-10-25": "$4.49",
-        "2026-10-26": "$4.49"
+        "2026-10-26": "$7.99"
       }
     },
     "1600487147::Cloaked Annual": {
@@ -105182,7 +105183,7 @@
       "region": "us",
       "first_date": "2026-10-23",
       "first_price": "$9.99",
-      "last_date": "2026-10-23",
+      "last_date": "2026-10-26",
       "last_price": "$9.99",
       "last_change_date": "2026-10-23",
       "ever_paid": true,
@@ -107735,13 +107736,13 @@
       "first_date": "2026-10-26",
       "first_price": "$0.00",
       "last_date": "2026-10-26",
-      "last_price": "$0.00",
+      "last_price": "$19.99",
       "last_change_date": "2026-10-26",
-      "ever_paid": false,
-      "last_paid_date": null,
+      "ever_paid": true,
+      "last_paid_date": "2026-10-26",
       "free_since": null,
       "changes": {
-        "2026-10-26": "$0.00"
+        "2026-10-26": "$19.99"
       }
     },
     "6789909656::Monthly": {
@@ -110224,6 +110225,176 @@
       "free_since": null,
       "changes": {
         "2026-10-26": "$49.99"
+      }
+    },
+    "650684932::Toyota 2014 Enhanced Diagnostics": {
+      "app_id": "650684932",
+      "app_name": "OBD Fusion",
+      "name": "Toyota 2014 Enhanced Diagnostics",
+      "region": "us",
+      "first_date": "2026-10-26",
+      "first_price": "$14.99",
+      "last_date": "2026-10-26",
+      "last_price": "$14.99",
+      "last_change_date": "2026-10-26",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-26",
+      "free_since": null,
+      "changes": {
+        "2026-10-26": "$14.99"
+      }
+    },
+    "1370777926::5 Alert Credits": {
+      "app_id": "1370777926",
+      "app_name": "Scoreholio",
+      "name": "5 Alert Credits",
+      "region": "us",
+      "first_date": "2026-10-26",
+      "first_price": "$14.99",
+      "last_date": "2026-10-26",
+      "last_price": "$14.99",
+      "last_change_date": "2026-10-26",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-26",
+      "free_since": null,
+      "changes": {
+        "2026-10-26": "$14.99"
+      }
+    },
+    "1420374639::Weekly VPN Access": {
+      "app_id": "1420374639",
+      "app_name": "Guru VPN: Fast, Secure Proxy",
+      "name": "Weekly VPN Access",
+      "region": "us",
+      "first_date": "2026-10-26",
+      "first_price": "$9.99",
+      "last_date": "2026-10-26",
+      "last_price": "$9.99",
+      "last_change_date": "2026-10-26",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-26",
+      "free_since": null,
+      "changes": {
+        "2026-10-26": "$9.99"
+      }
+    },
+    "1420374639::Secure VPN": {
+      "app_id": "1420374639",
+      "app_name": "Guru VPN: Fast, Secure Proxy",
+      "name": "Secure VPN",
+      "region": "us",
+      "first_date": "2026-10-26",
+      "first_price": "$9.99",
+      "last_date": "2026-10-26",
+      "last_price": "$9.99",
+      "last_change_date": "2026-10-26",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-26",
+      "free_since": null,
+      "changes": {
+        "2026-10-26": "$9.99"
+      }
+    },
+    "1420374639::Monthly VPN Subscription": {
+      "app_id": "1420374639",
+      "app_name": "Guru VPN: Fast, Secure Proxy",
+      "name": "Monthly VPN Subscription",
+      "region": "us",
+      "first_date": "2026-10-26",
+      "first_price": "$9.99",
+      "last_date": "2026-10-26",
+      "last_price": "$9.99",
+      "last_change_date": "2026-10-26",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-26",
+      "free_since": null,
+      "changes": {
+        "2026-10-26": "$9.99"
+      }
+    },
+    "1420374639::Premium Access": {
+      "app_id": "1420374639",
+      "app_name": "Guru VPN: Fast, Secure Proxy",
+      "name": "Premium Access",
+      "region": "us",
+      "first_date": "2026-10-26",
+      "first_price": "$19.99",
+      "last_date": "2026-10-26",
+      "last_price": "$19.99",
+      "last_change_date": "2026-10-26",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-26",
+      "free_since": null,
+      "changes": {
+        "2026-10-26": "$19.99"
+      }
+    },
+    "1420374639::Premium VPN — Yearly Access": {
+      "app_id": "1420374639",
+      "app_name": "Guru VPN: Fast, Secure Proxy",
+      "name": "Premium VPN — Yearly Access",
+      "region": "us",
+      "first_date": "2026-10-26",
+      "first_price": "$39.99",
+      "last_date": "2026-10-26",
+      "last_price": "$39.99",
+      "last_change_date": "2026-10-26",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-26",
+      "free_since": null,
+      "changes": {
+        "2026-10-26": "$39.99"
+      }
+    },
+    "1420374639::GuruVPN: Monthly subscribe": {
+      "app_id": "1420374639",
+      "app_name": "Guru VPN: Fast, Secure Proxy",
+      "name": "GuruVPN: Monthly subscribe",
+      "region": "us",
+      "first_date": "2026-10-26",
+      "first_price": "$24.99",
+      "last_date": "2026-10-26",
+      "last_price": "$24.99",
+      "last_change_date": "2026-10-26",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-26",
+      "free_since": null,
+      "changes": {
+        "2026-10-26": "$24.99"
+      }
+    },
+    "1438779037::Buddy Plus Annual": {
+      "app_id": "1438779037",
+      "app_name": "Skylight App",
+      "name": "Buddy Plus Annual",
+      "region": "us",
+      "first_date": "2026-10-26",
+      "first_price": "$39.99",
+      "last_date": "2026-10-26",
+      "last_price": "$39.99",
+      "last_change_date": "2026-10-26",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-26",
+      "free_since": null,
+      "changes": {
+        "2026-10-26": "$39.99"
+      }
+    },
+    "1438779037::Skylight Digital Monthly": {
+      "app_id": "1438779037",
+      "app_name": "Skylight App",
+      "name": "Skylight Digital Monthly",
+      "region": "us",
+      "first_date": "2026-10-26",
+      "first_price": "$4.99",
+      "last_date": "2026-10-26",
+      "last_price": "$4.99",
+      "last_change_date": "2026-10-26",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-26",
+      "free_since": null,
+      "changes": {
+        "2026-10-26": "$4.99"
       }
     }
   }
