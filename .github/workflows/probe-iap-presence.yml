@@ -1,0 +1,28 @@
+name: probe-iap-presence
+
+# 临时探针：在 US runner（非大陆 IP）上判定美区 App 是否有内购 + 顺带复核国区。
+# 只上传结果 artifact，不修改仓库任何数据文件。
+on:
+  workflow_dispatch: {}
+permissions:
+  contents: read
+jobs:
+  probe:
+    runs-on: ubuntu-latest   # GitHub 托管 = 美国 IP，可绕过 apps.apple.com/us 的 301 地理跳转
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: 探测美区（US IP）
+        run: python3 tmp_probe_presence.py --region us --ids-file tmp_ids_us.json --out tmp_result_us.json --delay 0.2
+      - name: 探测国区（同口径复核）
+        run: python3 tmp_probe_presence.py --region cn --ids-file tmp_ids_cn.json --out tmp_result_cn.json --delay 0.2
+      - name: 上传结果
+        uses: actions/upload-artifact@v4
+        with:
+          name: iap-presence-result
+          path: |
+            tmp_result_us.json
+            tmp_result_cn.json
