@@ -250,17 +250,20 @@ ins.adsbygoogle { background: #ececf0; border-radius: var(--radius); }
   background: var(--accent); padding: 2px 7px; border-radius: 6px; line-height: 1.5;
 }
 /* 「含内购 / 纯买断」徽章：本体限免卡片上标明该 App 本身是否还有内购项目。
-   含内购 = 橙色（还有二次消费），纯买断 = 中性灰（下载即用，无内购）。 */
+   放在评分行（与 ★ 分数同行），故用紫色 —— 避开评分星的橙、NEW 的蓝、
+   特价价的橙，避免同色相撞；紫色也呼应 App Store 官方内购标识的配色。 */
 .card .iap-badge {
   flex: none; font-size: 10px; font-weight: 700; letter-spacing: .02em; color: #fff;
-  background: var(--deal); padding: 2px 7px; border-radius: 6px; line-height: 1.5;
+  background: #7d3cc4; padding: 2px 7px; border-radius: 6px; line-height: 1.5;
 }
 .card .pure-badge {
   flex: none; font-size: 10px; font-weight: 700; letter-spacing: .02em; color: var(--muted);
   background: rgba(110, 110, 115, .12); padding: 2px 7px; border-radius: 6px; line-height: 1.5;
 }
+:root[data-theme="dark"] .card .iap-badge { background: rgba(125, 60, 196, .38); color: #d3aef7; }
 :root[data-theme="dark"] .card .pure-badge { background: rgba(152, 152, 157, .22); color: #c7c7cc; }
 @media (prefers-color-scheme: dark) {
+  :root:not([data-theme]) .card .iap-badge { background: rgba(125, 60, 196, .38); color: #d3aef7; }
   :root:not([data-theme]) .card .pure-badge { background: rgba(152, 152, 157, .22); color: #c7c7cc; }
 }
 .card .dev {
@@ -269,7 +272,7 @@ ins.adsbygoogle { background: #ececf0; border-radius: var(--radius); }
   overflow: hidden; word-break: break-word; line-height: 1.35; margin-top: 2px;
 }
 .card .genre { color: var(--muted); font-size: 13px; margin-top: 3px; }
-.card .rating { color: #ff9f0a; font-size: 13px; font-weight: 600; margin-top: 2px; }
+.card .rating { color: #ff9f0a; font-size: 13px; font-weight: 600; margin-top: 2px; display: flex; align-items: center; gap: 7px; }
 .card .rating.norate { color: var(--muted); font-weight: 400; }
 .dt-chip.norate { font-style: normal; }
 .card .price { margin-top: 5px; font-size: 14px; }
@@ -414,12 +417,12 @@ ins.adsbygoogle { background: #ececf0; border-radius: var(--radius); }
 .dt-dev { color: var(--muted); font-size: 14px; margin-bottom: 8px; }
 .dt-meta { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 10px; }
 .dt-chip { font-size: 12px; color: var(--muted); background: var(--surface); border: 1px solid var(--border); padding: 3px 9px; border-radius: 999px; }
-/* 详情页「含内购 / 纯买断」徽章（与首页卡片徽章同语义） */
-.dt-chip-iap { color: #b26a00; border-color: rgba(255, 159, 10, .45); background: rgba(255, 159, 10, .12); font-weight: 600; }
+/* 详情页「含内购 / 纯买断」徽章（与首页卡片徽章同语义同配色） */
+.dt-chip-iap { color: #6b26ab; border-color: rgba(125, 60, 196, .38); background: rgba(125, 60, 196, .11); font-weight: 600; }
 .dt-chip-pure { color: var(--muted); }
-:root[data-theme="dark"] .dt-chip-iap { color: #ffb340; background: rgba(255, 159, 10, .16); border-color: rgba(255, 159, 10, .35); }
+:root[data-theme="dark"] .dt-chip-iap { color: #d3aef7; background: rgba(125, 60, 196, .26); border-color: rgba(125, 60, 196, .45); }
 @media (prefers-color-scheme: dark) {
-  :root:not([data-theme]) .dt-chip-iap { color: #ffb340; background: rgba(255, 159, 10, .16); border-color: rgba(255, 159, 10, .35); }
+  :root:not([data-theme]) .dt-chip-iap { color: #d3aef7; background: rgba(125, 60, 196, .26); border-color: rgba(125, 60, 196, .45); }
 }
 .dt-price { display: flex; align-items: baseline; gap: 10px; }
 .dt-cur { font-size: 22px; font-weight: 700; }

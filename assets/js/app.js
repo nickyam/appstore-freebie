@@ -482,20 +482,25 @@
     var nameRow = el('div', 'name-row');
     nameRow.appendChild(el('span', 'name', esc(app.name || '—')));
     if (app.is_new) nameRow.appendChild(el('span', 'new-badge', esc(dict.badge_new)));
-    // 本体限免卡片的「含内购 / 纯买断」徽章：has_iap 由后端探测（data/iap-presence-*.json）给出，
-    // 缺失时不显示（不把「未知」误标成「纯买断」）。
-    if (kind === 'free' && typeof app.has_iap === 'boolean') {
-      nameRow.appendChild(el('span', app.has_iap ? 'iap-badge' : 'pure-badge',
-        esc(app.has_iap ? dict.badge_iap : dict.badge_pure)));
-    }
     info.appendChild(nameRow);
     info.appendChild(el('div', 'dev', esc(app.dev || '')));
     if (app.genre) info.appendChild(el('div', 'genre', esc(app.genre)));
+    // 评分行：★ 分数 + 「含内购 / 纯买断」徽章（徽章放这一行而非名称行——
+    // 名称行右侧被 NEW 徽章和长名称挤占，且橙色徽章会与橙色评分星撞色）。
+    // has_iap 由后端探测（data/iap-presence-*.json）给出，缺失时不显示徽章
+    // （不把「未知」误标成「纯买断」）。
+    var ratingRow = el('div', 'rating');
     if (app.rating && app.rating > 0) {
-      info.appendChild(el('div', 'rating', '★ ' + (Math.round(app.rating * 10) / 10).toFixed(1)));
+      ratingRow.textContent = '★ ' + (Math.round(app.rating * 10) / 10).toFixed(1);
     } else {
-      info.appendChild(el('div', 'rating norate', esc(dict.no_rating)));
+      ratingRow.className = 'rating norate';
+      ratingRow.textContent = dict.no_rating;
     }
+    if (kind === 'free' && typeof app.has_iap === 'boolean') {
+      ratingRow.appendChild(el('span', app.has_iap ? 'iap-badge' : 'pure-badge',
+        esc(app.has_iap ? dict.badge_iap : dict.badge_pure)));
+    }
+    info.appendChild(ratingRow);
     var price = el('div', 'price');
     if (app.normal) price.appendChild(el('span', 'old', esc(app.normal)));
     var newCls = kind === 'free' ? 'new free' : 'new deal';
