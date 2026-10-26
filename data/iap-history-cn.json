@@ -10981,7 +10981,7 @@
       "first_date": "2026-10-22",
       "first_price": "¥363.00",
       "last_date": "2026-10-26",
-      "last_price": "¥273.00",
+      "last_price": "¥40.00",
       "last_change_date": "2026-10-26",
       "ever_paid": true,
       "last_paid_date": "2026-10-26",
@@ -10991,7 +10991,7 @@
         "2026-10-23": "¥273.00",
         "2026-10-24": "¥273.00",
         "2026-10-25": "¥273.00",
-        "2026-10-26": "¥273.00"
+        "2026-10-26": "¥40.00"
       }
     },
     "1413092345::1 Year Business Pack": {
@@ -11019,7 +11019,7 @@
       "first_date": "2026-10-22",
       "first_price": "¥43.00",
       "last_date": "2026-10-26",
-      "last_price": "¥363.00",
+      "last_price": "¥43.00",
       "last_change_date": "2026-10-26",
       "ever_paid": true,
       "last_paid_date": "2026-10-26",
@@ -11029,7 +11029,7 @@
         "2026-10-23": "¥363.00",
         "2026-10-24": "¥363.00",
         "2026-10-25": "¥363.00",
-        "2026-10-26": "¥363.00"
+        "2026-10-26": "¥43.00"
       }
     },
     "1413092345::1 Month Business Pack": {
@@ -13291,13 +13291,14 @@
       "first_date": "2026-10-22",
       "first_price": "¥50.00",
       "last_date": "2026-10-26",
-      "last_price": "¥50.00",
-      "last_change_date": "2026-10-22",
+      "last_price": "¥298.00",
+      "last_change_date": "2026-10-26",
       "ever_paid": true,
-      "last_paid_date": "2026-10-22",
+      "last_paid_date": "2026-10-26",
       "free_since": null,
       "changes": {
-        "2026-10-22": "¥50.00"
+        "2026-10-22": "¥50.00",
+        "2026-10-26": "¥298.00"
       }
     },
     "417401887::Advanced Local Forecast": {
@@ -27891,7 +27892,7 @@
       "first_date": "2026-10-23",
       "first_price": "¥48.00",
       "last_date": "2026-10-26",
-      "last_price": "¥48.00",
+      "last_price": "¥68.00",
       "last_change_date": "2026-10-26",
       "ever_paid": true,
       "last_paid_date": "2026-10-26",
@@ -27900,7 +27901,7 @@
         "2026-10-23": "¥68.00",
         "2026-10-24": "¥68.00",
         "2026-10-25": "¥68.00",
-        "2026-10-26": "¥48.00"
+        "2026-10-26": "¥68.00"
       }
     },
     "6744529629::终身会员": {
@@ -27911,7 +27912,7 @@
       "first_date": "2026-10-23",
       "first_price": "¥188.00",
       "last_date": "2026-10-26",
-      "last_price": "¥188.00",
+      "last_price": "¥218.00",
       "last_change_date": "2026-10-26",
       "ever_paid": true,
       "last_paid_date": "2026-10-26",
@@ -27920,7 +27921,7 @@
         "2026-10-23": "¥218.00",
         "2026-10-24": "¥218.00",
         "2026-10-25": "¥218.00",
-        "2026-10-26": "¥188.00"
+        "2026-10-26": "¥218.00"
       }
     },
     "6744529629::促销周会员": {
@@ -86719,7 +86720,7 @@
       "first_date": "2026-10-23",
       "first_price": "¥138.00",
       "last_date": "2026-10-26",
-      "last_price": "¥388.00",
+      "last_price": "¥198.00",
       "last_change_date": "2026-10-26",
       "ever_paid": true,
       "last_paid_date": "2026-10-26",
@@ -86728,7 +86729,7 @@
         "2026-10-23": "¥198.00",
         "2026-10-24": "¥198.00",
         "2026-10-25": "¥198.00",
-        "2026-10-26": "¥388.00"
+        "2026-10-26": "¥198.00"
       }
     },
     "1494661473::阿里云盘超级会员单月": {
@@ -86739,14 +86740,14 @@
       "first_date": "2026-10-23",
       "first_price": "¥30.00",
       "last_date": "2026-10-26",
-      "last_price": "¥60.00",
+      "last_price": "¥30.00",
       "last_change_date": "2026-10-26",
       "ever_paid": true,
       "last_paid_date": "2026-10-26",
       "free_since": null,
       "changes": {
         "2026-10-23": "¥30.00",
-        "2026-10-26": "¥60.00"
+        "2026-10-26": "¥30.00"
       }
     },
     "1494661473::阿里云盘会员单月": {
@@ -124508,6 +124509,176 @@
       "free_since": null,
       "changes": {
         "2026-10-26": "¥238.00"
+      }
+    },
+    "434209233::墨迹天气1年会员": {
+      "app_id": "434209233",
+      "app_name": "墨迹天气-让未知可先知",
+      "name": "墨迹天气1年会员",
+      "region": "cn",
+      "first_date": "2026-10-26",
+      "first_price": "¥128.00",
+      "last_date": "2026-10-26",
+      "last_price": "¥128.00",
+      "last_change_date": "2026-10-26",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-26",
+      "free_since": null,
+      "changes": {
+        "2026-10-26": "¥128.00"
+      }
+    },
+    "434209233::墨迹天气连续包季会员自动续费服务": {
+      "app_id": "434209233",
+      "app_name": "墨迹天气-让未知可先知",
+      "name": "墨迹天气连续包季会员自动续费服务",
+      "region": "cn",
+      "first_date": "2026-10-26",
+      "first_price": "¥40.00",
+      "last_date": "2026-10-26",
+      "last_price": "¥40.00",
+      "last_change_date": "2026-10-26",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-26",
+      "free_since": null,
+      "changes": {
+        "2026-10-26": "¥40.00"
+      }
+    },
+    "434209233::墨迹天气连续包年会员自动续费服务": {
+      "app_id": "434209233",
+      "app_name": "墨迹天气-让未知可先知",
+      "name": "墨迹天气连续包年会员自动续费服务",
+      "region": "cn",
+      "first_date": "2026-10-26",
+      "first_price": "¥88.00",
+      "last_date": "2026-10-26",
+      "last_price": "¥88.00",
+      "last_change_date": "2026-10-26",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-26",
+      "free_since": null,
+      "changes": {
+        "2026-10-26": "¥88.00"
+      }
+    },
+    "434209233::墨迹家庭会员包年服务": {
+      "app_id": "434209233",
+      "app_name": "墨迹天气-让未知可先知",
+      "name": "墨迹家庭会员包年服务",
+      "region": "cn",
+      "first_date": "2026-10-26",
+      "first_price": "¥128.00",
+      "last_date": "2026-10-26",
+      "last_price": "¥128.00",
+      "last_change_date": "2026-10-26",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-26",
+      "free_since": null,
+      "changes": {
+        "2026-10-26": "¥128.00"
+      }
+    },
+    "434209233::墨迹家庭会员连续包年服务": {
+      "app_id": "434209233",
+      "app_name": "墨迹天气-让未知可先知",
+      "name": "墨迹家庭会员连续包年服务",
+      "region": "cn",
+      "first_date": "2026-10-26",
+      "first_price": "¥88.00",
+      "last_date": "2026-10-26",
+      "last_price": "¥88.00",
+      "last_change_date": "2026-10-26",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-26",
+      "free_since": null,
+      "changes": {
+        "2026-10-26": "¥88.00"
+      }
+    },
+    "434209233::连续包年特惠": {
+      "app_id": "434209233",
+      "app_name": "墨迹天气-让未知可先知",
+      "name": "连续包年特惠",
+      "region": "cn",
+      "first_date": "2026-10-26",
+      "first_price": "¥88.00",
+      "last_date": "2026-10-26",
+      "last_price": "¥88.00",
+      "last_change_date": "2026-10-26",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-26",
+      "free_since": null,
+      "changes": {
+        "2026-10-26": "¥88.00"
+      }
+    },
+    "434209233::免试用连续包年": {
+      "app_id": "434209233",
+      "app_name": "墨迹天气-让未知可先知",
+      "name": "免试用连续包年",
+      "region": "cn",
+      "first_date": "2026-10-26",
+      "first_price": "¥88.00",
+      "last_date": "2026-10-26",
+      "last_price": "¥88.00",
+      "last_change_date": "2026-10-26",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-26",
+      "free_since": null,
+      "changes": {
+        "2026-10-26": "¥88.00"
+      }
+    },
+    "847764912::连续包季": {
+      "app_id": "847764912",
+      "app_name": "彩云天气-为您预报几点几分下雨",
+      "name": "连续包季",
+      "region": "cn",
+      "first_date": "2026-10-26",
+      "first_price": "¥15.00",
+      "last_date": "2026-10-26",
+      "last_price": "¥15.00",
+      "last_change_date": "2026-10-26",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-26",
+      "free_since": null,
+      "changes": {
+        "2026-10-26": "¥15.00"
+      }
+    },
+    "847764912::连续包半年": {
+      "app_id": "847764912",
+      "app_name": "彩云天气-为您预报几点几分下雨",
+      "name": "连续包半年",
+      "region": "cn",
+      "first_date": "2026-10-26",
+      "first_price": "¥30.00",
+      "last_date": "2026-10-26",
+      "last_price": "¥30.00",
+      "last_change_date": "2026-10-26",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-26",
+      "free_since": null,
+      "changes": {
+        "2026-10-26": "¥30.00"
+      }
+    },
+    "847764912::50 次加量包": {
+      "app_id": "847764912",
+      "app_name": "彩云天气-为您预报几点几分下雨",
+      "name": "50 次加量包",
+      "region": "cn",
+      "first_date": "2026-10-26",
+      "first_price": "¥8.00",
+      "last_date": "2026-10-26",
+      "last_price": "¥8.00",
+      "last_change_date": "2026-10-26",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-26",
+      "free_since": null,
+      "changes": {
+        "2026-10-26": "¥8.00"
       }
     }
   }

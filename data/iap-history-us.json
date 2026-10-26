@@ -7,8 +7,8 @@
     "seed_added": 6,
     "seed_total": 6155,
     "pool_size": 2000,
-    "processed": 1999,
-    "skipped": 1,
+    "processed": 1998,
+    "skipped": 2,
     "seed_last_ok": "2026-10-25T16:26:32Z",
     "seed_last_error": ""
   },
@@ -18905,7 +18905,7 @@
       "first_date": "2026-10-23",
       "first_price": "$12.99",
       "last_date": "2026-10-26",
-      "last_price": "$9.99",
+      "last_price": "$12.99",
       "last_change_date": "2026-10-26",
       "ever_paid": true,
       "last_paid_date": "2026-10-26",
@@ -18914,7 +18914,7 @@
         "2026-10-23": "$14.99",
         "2026-10-24": "$9.99",
         "2026-10-25": "$9.99",
-        "2026-10-26": "$9.99"
+        "2026-10-26": "$12.99"
       }
     },
     "6461573146::Premium Yearly": {
@@ -23260,7 +23260,7 @@
       "first_date": "2026-10-23",
       "first_price": "$9.99",
       "last_date": "2026-10-26",
-      "last_price": "$6.99",
+      "last_price": "$9.99",
       "last_change_date": "2026-10-26",
       "ever_paid": true,
       "last_paid_date": "2026-10-26",
@@ -23269,7 +23269,7 @@
         "2026-10-23": "$6.99",
         "2026-10-24": "$6.99",
         "2026-10-25": "$6.99",
-        "2026-10-26": "$6.99"
+        "2026-10-26": "$9.99"
       }
     },
     "6458692724::Roku TV Remote Control - Pro": {
@@ -27060,7 +27060,7 @@
       "region": "us",
       "first_date": "2026-10-23",
       "first_price": "$169.99",
-      "last_date": "2026-10-24",
+      "last_date": "2026-10-26",
       "last_price": "$169.99",
       "last_change_date": "2026-10-23",
       "ever_paid": true,
@@ -35834,7 +35834,7 @@
       "first_date": "2026-10-23",
       "first_price": "$29.99",
       "last_date": "2026-10-26",
-      "last_price": "$19.99",
+      "last_price": "$99.99",
       "last_change_date": "2026-10-26",
       "ever_paid": true,
       "last_paid_date": "2026-10-26",
@@ -35843,7 +35843,7 @@
         "2026-10-23": "$19.99",
         "2026-10-24": "$19.99",
         "2026-10-25": "$19.99",
-        "2026-10-26": "$19.99"
+        "2026-10-26": "$99.99"
       }
     },
     "6758992473::Bounded Premium (Monthly)": {
@@ -36483,13 +36483,14 @@
       "first_date": "2026-10-23",
       "first_price": "$199.99",
       "last_date": "2026-10-26",
-      "last_price": "$199.99",
-      "last_change_date": "2026-10-23",
+      "last_price": "$29.90",
+      "last_change_date": "2026-10-26",
       "ever_paid": true,
-      "last_paid_date": "2026-10-23",
+      "last_paid_date": "2026-10-26",
       "free_since": null,
       "changes": {
-        "2026-10-23": "$199.99"
+        "2026-10-23": "$199.99",
+        "2026-10-26": "$29.90"
       }
     },
     "6752702608::Coins 2_39.99": {
@@ -66603,7 +66604,7 @@
       "first_date": "2026-10-23",
       "first_price": "$19.99",
       "last_date": "2026-10-26",
-      "last_price": "$29.99",
+      "last_price": "$19.99",
       "last_change_date": "2026-10-26",
       "ever_paid": true,
       "last_paid_date": "2026-10-26",
@@ -66612,7 +66613,7 @@
         "2026-10-23": "$29.99",
         "2026-10-24": "$29.99",
         "2026-10-25": "$29.99",
-        "2026-10-26": "$29.99"
+        "2026-10-26": "$19.99"
       }
     },
     "1609983545::Annual Subscription": {
@@ -66623,7 +66624,7 @@
       "first_date": "2026-10-23",
       "first_price": "$57.99",
       "last_date": "2026-10-26",
-      "last_price": "$54.99",
+      "last_price": "$44.00",
       "last_change_date": "2026-10-26",
       "ever_paid": true,
       "last_paid_date": "2026-10-26",
@@ -66632,7 +66633,7 @@
         "2026-10-23": "$44.00",
         "2026-10-24": "$44.00",
         "2026-10-25": "$44.00",
-        "2026-10-26": "$54.99"
+        "2026-10-26": "$44.00"
       }
     },
     "1609983545::Collector Membership (Annual)": {
@@ -76251,7 +76252,7 @@
       "first_date": "2026-10-23",
       "first_price": "$29.99",
       "last_date": "2026-10-26",
-      "last_price": "$199.00",
+      "last_price": "$19.99",
       "last_change_date": "2026-10-26",
       "ever_paid": true,
       "last_paid_date": "2026-10-26",
@@ -76260,7 +76261,7 @@
         "2026-10-23": "$199.00",
         "2026-10-24": "$199.00",
         "2026-10-25": "$199.00",
-        "2026-10-26": "$199.00"
+        "2026-10-26": "$19.99"
       }
     },
     "6746845735::Pocket Yearly Pro": {
@@ -80665,7 +80666,7 @@
       "first_date": "2026-10-23",
       "first_price": "$9.99",
       "last_date": "2026-10-26",
-      "last_price": "$49.99",
+      "last_price": "$59.99",
       "last_change_date": "2026-10-26",
       "ever_paid": true,
       "last_paid_date": "2026-10-26",
@@ -80674,7 +80675,7 @@
         "2026-10-23": "$49.99",
         "2026-10-24": "$49.99",
         "2026-10-25": "$49.99",
-        "2026-10-26": "$49.99"
+        "2026-10-26": "$59.99"
       }
     },
     "364901807::Documents VPN": {
@@ -80685,7 +80686,7 @@
       "first_date": "2026-10-23",
       "first_price": "$12.49",
       "last_date": "2026-10-26",
-      "last_price": "$89.99",
+      "last_price": "$17.49",
       "last_change_date": "2026-10-26",
       "ever_paid": true,
       "last_paid_date": "2026-10-26",
@@ -80694,7 +80695,7 @@
         "2026-10-23": "$89.99",
         "2026-10-24": "$89.99",
         "2026-10-25": "$89.99",
-        "2026-10-26": "$89.99"
+        "2026-10-26": "$17.49"
       }
     },
     "324613447::LastPass Premium": {
@@ -81894,7 +81895,7 @@
       "first_date": "2026-10-23",
       "first_price": "$95.99",
       "last_date": "2026-10-26",
-      "last_price": "$96.00",
+      "last_price": "$37.99",
       "last_change_date": "2026-10-26",
       "ever_paid": true,
       "last_paid_date": "2026-10-26",
@@ -81903,7 +81904,7 @@
         "2026-10-23": "$96.00",
         "2026-10-24": "$96.00",
         "2026-10-25": "$96.00",
-        "2026-10-26": "$96.00"
+        "2026-10-26": "$37.99"
       }
     },
     "1068911190::Pro 50% Off": {
@@ -97526,7 +97527,7 @@
       "first_date": "2026-10-23",
       "first_price": "$1.99",
       "last_date": "2026-10-26",
-      "last_price": "$3.99",
+      "last_price": "$9.99",
       "last_change_date": "2026-10-26",
       "ever_paid": true,
       "last_paid_date": "2026-10-26",
@@ -97535,7 +97536,7 @@
         "2026-10-23": "$9.99",
         "2026-10-24": "$9.99",
         "2026-10-25": "$9.99",
-        "2026-10-26": "$3.99"
+        "2026-10-26": "$9.99"
       }
     },
     "1064216828::Reddit Annual Premium": {
@@ -97787,7 +97788,7 @@
       "first_date": "2026-10-23",
       "first_price": "$15.99",
       "last_date": "2026-10-26",
-      "last_price": "$15.99",
+      "last_price": "$5.99",
       "last_change_date": "2026-10-26",
       "ever_paid": true,
       "last_paid_date": "2026-10-26",
@@ -97796,7 +97797,7 @@
         "2026-10-23": "$5.99",
         "2026-10-24": "$5.99",
         "2026-10-25": "$5.99",
-        "2026-10-26": "$15.99"
+        "2026-10-26": "$5.99"
       }
     },
     "373238146::News App Only": {
@@ -104839,7 +104840,7 @@
       "region": "us",
       "first_date": "2026-10-23",
       "first_price": "$79.99",
-      "last_date": "2026-10-23",
+      "last_date": "2026-10-26",
       "last_price": "$79.99",
       "last_change_date": "2026-10-23",
       "ever_paid": true,
@@ -104856,7 +104857,7 @@
       "region": "us",
       "first_date": "2026-10-23",
       "first_price": "$12.99",
-      "last_date": "2026-10-23",
+      "last_date": "2026-10-26",
       "last_price": "$12.99",
       "last_change_date": "2026-10-23",
       "ever_paid": true,
@@ -104873,7 +104874,7 @@
       "region": "us",
       "first_date": "2026-10-23",
       "first_price": "$9.99",
-      "last_date": "2026-10-23",
+      "last_date": "2026-10-26",
       "last_price": "$9.99",
       "last_change_date": "2026-10-23",
       "ever_paid": true,
@@ -105502,7 +105503,7 @@
       "region": "us",
       "first_date": "2026-10-24",
       "first_price": "$1.99",
-      "last_date": "2026-10-24",
+      "last_date": "2026-10-26",
       "last_price": "$1.99",
       "last_change_date": "2026-10-24",
       "ever_paid": true,
@@ -110051,6 +110052,142 @@
       "free_since": null,
       "changes": {
         "2026-10-26": "$29.99"
+      }
+    },
+    "6766166468::Clone Sensi – 3 Clonagens": {
+      "app_id": "6766166468",
+      "app_name": "Real Sensi FF - PRO",
+      "name": "Clone Sensi – 3 Clonagens",
+      "region": "us",
+      "first_date": "2026-10-26",
+      "first_price": "$1.99",
+      "last_date": "2026-10-26",
+      "last_price": "$1.99",
+      "last_change_date": "2026-10-26",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-26",
+      "free_since": null,
+      "changes": {
+        "2026-10-26": "$1.99"
+      }
+    },
+    "6766166468::SENSI APOSTADO/X1 iPhone 3 a 8 Plus": {
+      "app_id": "6766166468",
+      "app_name": "Real Sensi FF - PRO",
+      "name": "SENSI APOSTADO/X1 iPhone 3 a 8 Plus",
+      "region": "us",
+      "first_date": "2026-10-26",
+      "first_price": "$1.99",
+      "last_date": "2026-10-26",
+      "last_price": "$1.99",
+      "last_change_date": "2026-10-26",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-26",
+      "free_since": null,
+      "changes": {
+        "2026-10-26": "$1.99"
+      }
+    },
+    "6458692724::Remote for Roku TV - Weekly": {
+      "app_id": "6458692724",
+      "app_name": "TV Remote & Universal Control™",
+      "name": "Remote for Roku TV - Weekly",
+      "region": "us",
+      "first_date": "2026-10-26",
+      "first_price": "$6.99",
+      "last_date": "2026-10-26",
+      "last_price": "$6.99",
+      "last_change_date": "2026-10-26",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-26",
+      "free_since": null,
+      "changes": {
+        "2026-10-26": "$6.99"
+      }
+    },
+    "6458692724::Roku Remote Control - Monthly": {
+      "app_id": "6458692724",
+      "app_name": "TV Remote & Universal Control™",
+      "name": "Roku Remote Control - Monthly",
+      "region": "us",
+      "first_date": "2026-10-26",
+      "first_price": "$8.99",
+      "last_date": "2026-10-26",
+      "last_price": "$8.99",
+      "last_change_date": "2026-10-26",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-26",
+      "free_since": null,
+      "changes": {
+        "2026-10-26": "$8.99"
+      }
+    },
+    "6458692724::Roku TV Remote Control - 1Year": {
+      "app_id": "6458692724",
+      "app_name": "TV Remote & Universal Control™",
+      "name": "Roku TV Remote Control - 1Year",
+      "region": "us",
+      "first_date": "2026-10-26",
+      "first_price": "$26.99",
+      "last_date": "2026-10-26",
+      "last_price": "$19.99",
+      "last_change_date": "2026-10-26",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-26",
+      "free_since": null,
+      "changes": {
+        "2026-10-26": "$19.99"
+      }
+    },
+    "6458692724::Monthly Premium - Roku Remote": {
+      "app_id": "6458692724",
+      "app_name": "TV Remote & Universal Control™",
+      "name": "Monthly Premium - Roku Remote",
+      "region": "us",
+      "first_date": "2026-10-26",
+      "first_price": "$11.99",
+      "last_date": "2026-10-26",
+      "last_price": "$11.99",
+      "last_change_date": "2026-10-26",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-26",
+      "free_since": null,
+      "changes": {
+        "2026-10-26": "$11.99"
+      }
+    },
+    "6458692724::Remote for Roku TV - Lifetime": {
+      "app_id": "6458692724",
+      "app_name": "TV Remote & Universal Control™",
+      "name": "Remote for Roku TV - Lifetime",
+      "region": "us",
+      "first_date": "2026-10-26",
+      "first_price": "$29.99",
+      "last_date": "2026-10-26",
+      "last_price": "$29.99",
+      "last_change_date": "2026-10-26",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-26",
+      "free_since": null,
+      "changes": {
+        "2026-10-26": "$29.99"
+      }
+    },
+    "6752702608::Coins_Pack_W_19.90(7)": {
+      "app_id": "6752702608",
+      "app_name": "Nebuluxe",
+      "name": "Coins_Pack_W_19.90(7)",
+      "region": "us",
+      "first_date": "2026-10-26",
+      "first_price": "$19.90",
+      "last_date": "2026-10-26",
+      "last_price": "$19.90",
+      "last_change_date": "2026-10-26",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-26",
+      "free_since": null,
+      "changes": {
+        "2026-10-26": "$19.90"
       }
     }
   }
