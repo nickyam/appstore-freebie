@@ -104,7 +104,10 @@ def load_json(path, default=None):
 
 
 def candidate_ids(region):
-    """候选集：历史库里当前免费(曾收费)的 App ∪ 上一班本体限免名单。"""
+    """候选集：历史库里当前免费(曾收费)的 App ∪ 上一班本体限免/特价名单。
+
+    特价 App（本体降价但仍收费）也要打「含内购 / 纯买断」徽章，故一并纳入。
+    """
     out = set()
     hist = load_json(os.path.join(DATA_DIR, f"history-{region}.json"), {}) or {}
     for cid, e in hist.items():
@@ -114,6 +117,9 @@ def candidate_ids(region):
     ft = load_json(os.path.join(DATA_DIR, f"free-today-{region}.json"), {}) or {}
     for x in ft.get("freebies", []):
         if x.get("type") == "free" and x.get("id"):
+            out.add(str(x["id"]))
+    for x in ft.get("deals", []):
+        if x.get("id"):
             out.add(str(x["id"]))
     return sorted(out)
 

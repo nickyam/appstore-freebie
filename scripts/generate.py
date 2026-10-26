@@ -843,9 +843,10 @@ def main():
                 "series": series,
                 "phistory": phistory,
             }
-            # 本体限免卡片徽章：true=含内购 / false=纯买断；缺数据则不写该字段
-            # （前端据此不显示徽章，避免把未知误标成「纯买断」）。
-            if is_free and str(cid) in presence:
+            # 「含内购 / 纯买断」徽章数据（本体限免与特价都用）：true=含内购 /
+            # false=纯买断；缺数据则不写该字段（前端据此不显示徽章，避免把未知
+            # 误标成「纯买断」）。
+            if str(cid) in presence:
                 item["has_iap"] = presence[str(cid)]
             (freebies if is_free else deals).append(item)
 

@@ -487,8 +487,9 @@
     if (app.genre) info.appendChild(el('div', 'genre', esc(app.genre)));
     // 评分行：★ 分数 + 「含内购 / 纯买断」徽章（徽章放这一行而非名称行——
     // 名称行右侧被 NEW 徽章和长名称挤占，且橙色徽章会与橙色评分星撞色）。
-    // has_iap 由后端探测（data/iap-presence-*.json）给出，缺失时不显示徽章
-    // （不把「未知」误标成「纯买断」）。
+    // 本体限免（free）与特价（deal）都带徽章；has_iap 由后端探测
+    // （data/iap-presence-*.json）给出，缺失时不显示徽章（不把「未知」误标成
+    // 「纯买断」）。
     var ratingRow = el('div', 'rating');
     if (app.rating && app.rating > 0) {
       ratingRow.textContent = '★ ' + (Math.round(app.rating * 10) / 10).toFixed(1);
@@ -496,7 +497,7 @@
       ratingRow.className = 'rating norate';
       ratingRow.textContent = dict.no_rating;
     }
-    if (kind === 'free' && typeof app.has_iap === 'boolean') {
+    if ((kind === 'free' || kind === 'deal') && typeof app.has_iap === 'boolean') {
       ratingRow.appendChild(el('span', app.has_iap ? 'iap-badge' : 'pure-badge',
         esc(app.has_iap ? dict.badge_iap : dict.badge_pure)));
     }
@@ -1170,8 +1171,8 @@
       (app.genre ? '<a class="dt-chip chip-link" href="' + esc(genreHref) + '" title="' + esc(dict.dt_genre_link) + '">' + esc(genreLabel(app.genre)) + '</a>' : '') +
       ((ratingStr || true) ? '<span class="dt-chip' + (ratingStr ? '' : ' norate') + '">' + esc(ratingStr ? '⭐ ' + ratingStr.replace('★ ', '') : dict.no_rating) + '</span>' : '') +
       (isIapPage && app.iap ? '<span class="dt-chip">' + esc(app.iap) + '</span>' : '') +
-      // 本体限免详情页：标明该 App 本身是否还有内购（与首页卡片徽章同源）
-      (!isIapPage && app.type === 'free' && typeof app.has_iap === 'boolean' ?
+      // 本体限免 / 特价详情页：标明该 App 本身是否还有内购（与首页卡片徽章同源）
+      (!isIapPage && (app.type === 'free' || app.type === 'deal') && typeof app.has_iap === 'boolean' ?
         '<span class="dt-chip dt-chip-' + (app.has_iap ? 'iap' : 'pure') + '">' +
         esc(app.has_iap ? dict.badge_iap : dict.badge_pure) + '</span>' : '') +
       '</div>' +
