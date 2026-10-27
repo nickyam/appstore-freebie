@@ -358,6 +358,44 @@ def cleanup_iap_pages(country, keep_pages):
     return removed
 
 
+def backfill_iap_page_fields(country):
+    """IAP 独立页由 write_iap_pages 生成，但 iap-free feed 的 page 字段此前由采集器在
+    「生成页面之前」的窗口期以 os.path.exists 判定写入——新事件或采集早于出页的时段
+    page 为 null，导致前端 iapCard 退化为 App Store 外链（首页部分卡片点击直跳 App Store）。
+
+    此处统一在出页之后回写 page：凡磁盘上存在对应 app/{country}-{id}.html 即补上 page
+    指针（幂等），页已被清理（促销结束/无评分剔除）则清除指针。仅依赖磁盘状态，
+    不改动价格/事件等业务数据。
+    """
+    p = os.path.join(DATA_DIR, "iap-free-%s.json" % country)
+    if not os.path.exists(p):
+        return
+    try:
+        with open(p, encoding="utf-8") as f:
+            d = json.load(f)
+    except Exception as e:
+        print("[warn] backfill_iap_page_fields 读取失败: %s" % e)
+        return
+    events = d.get("events") or []
+    changed = False
+    for e in events:
+        aid = str(e.get("app_id") or "")
+        if not aid:
+            continue
+        page_rel = "app/%s-%s.html" % (country, aid)
+        if os.path.exists(os.path.join(BASE_DIR, page_rel)):
+            if e.get("page") != page_rel:
+                e["page"] = page_rel
+                changed = True
+        elif e.get("page"):
+            del e["page"]
+            changed = True
+    if changed:
+        with open(p, "w", encoding="utf-8") as f:
+            json.dump(d, f, ensure_ascii=False, indent=2, sort_keys=False)
+        print("[ok] backfill IAP page 字段: iap-free-%s.json (%d 事件)" % (country, len(events)))
+
+
 def write_sitemap():
     """重写 sitemap.xml：主页面 + 全部「有评分」的 App 独立页。
 
@@ -944,6 +982,8 @@ def main():
     # data/iap-free-{country}.json；无数据源时返回 (0, None)，下方据此跳过清理）
     # IAP 页也用同一份「当期本体限免+特价」池做推荐（须在本体 page_items 排好序之后）
     iap_written, iap_keep = write_iap_pages(country, today, rel_pool=page_items)
+    # 出页后立即回写 IAP feed 的 page 指针，避免首页 IAP 卡片回退 App Store 外链
+    backfill_iap_page_fields(country)
 
     save_json(out_path, result)
     save_json(history_path, history)
