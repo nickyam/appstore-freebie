@@ -222,7 +222,11 @@ ins.adsbygoogle { background: #ececf0; border-radius: var(--radius); }
 /* App cards */
 /* 桌面端两列：minmax 提高到 440px，配合 auto-fit 在宽屏下排两列而非三列，
    给卡片更多横向空间，让 App 名称与开发者名称完整显示（配合下面的换行规则）。 */
-.grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+/* 列宽必须用 minmax(0, 1fr) 而非 1fr：1fr 的最小值是 min-content，
+   内购卡的 .iap-line（white-space:nowrap）会把列撑宽 → 三列总宽溢出容器，
+   表现为右侧内容被裁掉 / 页面左右偏移，且 text-overflow:ellipsis 永不生效。
+   minmax(0, …) 允许列宽小于内容 min-content，截断与等宽才成立。 */
+.grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
 .card {
   background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
   padding: 13px 16px; box-shadow: var(--shadow); display: flex; gap: 14px; align-items: center;
@@ -330,7 +334,7 @@ ins.adsbygoogle { background: #ececf0; border-radius: var(--radius); }
 
 /* 中屏（平板/窄桌面）：3 列太挤，退回 2 列；顶栏放不下搜索行，换行到第二行 */
 @media (max-width: 900px) {
-  .grid { grid-template-columns: repeat(2, 1fr); }
+  .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .hero { padding: 40px 0 20px; }
   .hero h1 { font-size: clamp(30px, 8vw, 40px); }
   .header-inner { flex-wrap: wrap; row-gap: 8px; }
@@ -343,7 +347,7 @@ ins.adsbygoogle { background: #ececf0; border-radius: var(--radius); }
   .hero { padding: 32px 0 16px; }
   .hero h1 { font-size: 30px; }
   .hero p { font-size: 16px; }
-  .grid { grid-template-columns: 1fr; }
+  .grid { grid-template-columns: minmax(0, 1fr); }
   .header-inner { padding: 10px 14px; }
   .logo { font-size: 20px; }
   .logo .radar { width: 22px; height: 22px; }
