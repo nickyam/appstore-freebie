@@ -59,6 +59,14 @@ jobs:
         with:
           python-version: "3.11"
 
+      # 自检 + 池规模容量告警（AGENTS.md 铁律 7 安全阀）：检测"付费→免费"判定逻辑，
+      # 并检查两区"有 IAP 的 app 数"是否逼近播种班 limit=4500；逼近/超限时在 CI 日志
+      # 发 ::warning::/::error:: 注解提示调大 limit。只读 data/iap-history，不改文件。
+      # continue-on-error：自检不过不阻断当日数据更新（与采集步骤同策略）。
+      - name: IAP collector selftest (含池规模容量告警)
+        continue-on-error: true
+        run: python scripts/iap_collector.py --selftest
+
       - name: Seed from apprcn (仅 08:13 北京班)
         continue-on-error: true
         run: |

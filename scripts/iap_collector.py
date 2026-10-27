@@ -45,6 +45,14 @@ TITLE_RE = re.compile(r'<title>(.*?)</title>', re.S)
 FREE_WINDOW = 7  # 连续免费 ≤7 天算有效限免事件；超过则过期（与 app 限免同逻辑）
 ITUNES_LOOKUP = "https://itunes.apple.com/lookup?id={ids}&country={region}&limit=200"
 
+# 播种班(UTC 00/01)全量热点扫描上限。必须与 .github/workflows/daily.yml 播种班 LIMIT
+# 保持一致（AGENTS.md 铁律 7 安全阀）：主池按"最近变价"降序后，LIMIT 名额优先覆盖
+# 近期变价 App；一旦"有 IAP 的 app 数"接近/超过此值，播种班就开始裁掉变价较旧的
+# IAP-app，可能漏检限免。监控池规模变更时要一并调大。
+SEED_LIMIT = 4500
+# 池规模容量检查：有 IAP 的 app 数距 SEED_LIMIT 不足此值时，selftest 发"临近"告警。
+POOL_WARN_HEADROOM = 300
+
 
 def parse_app_name(body):
     m = TITLE_RE.search(body)
@@ -347,6 +355,39 @@ def run(region, limit, delay):
     return events
 
 
+def check_pool_capacity():
+    """selftest 附加检查：监控"有 IAP 的 app 数"是否逼近播种班 limit（AGENTS.md 铁律 7 安全阀）。
+
+    只读 data/iap-history-{region}.json，不改任何文件；仅打印告警，不使 selftest 失败。
+    在 CI（GITHUB_ACTIONS=true）下用 ::warning::/::error:: 注解，便于在 Actions 日志里高亮。
+    """
+    gh = os.environ.get("GITHUB_ACTIONS") == "true"
+    print("  -- 池规模容量检查（铁律 7 安全阀）--")
+    for region in ("cn", "us"):
+        fp = os.path.join(REPO, "data", f"iap-history-{region}.json")
+        if not os.path.exists(fp):
+            print(f"    [{region}] 未找到 iap-history，跳过容量检查")
+            continue
+        try:
+            hist = json.load(open(fp, encoding="utf-8")).get("items", {})
+        except Exception as e:
+            print(f"    [{region}] 读 iap-history 失败，跳过（{e}）")
+            continue
+        iap_apps = {str(r.get("app_id")) for r in hist.values() if r.get("app_id")}
+        n = len(iap_apps)
+        headroom = SEED_LIMIT - n
+        if n > SEED_LIMIT:
+            msg = (f"[{region}] 有 IAP 的 app 数={n} 已超过播种班 limit={SEED_LIMIT}！"
+                   f"播种班将裁掉变价较旧的 IAP-app，可能漏检限免。请按 AGENTS.md 铁律 7 调大 limit。")
+            print(("::error::" if gh else "  [池规模-超限] ") + msg)
+        elif headroom <= POOL_WARN_HEADROOM:
+            msg = (f"[{region}] 有 IAP 的 app 数={n}，距播种班 limit={SEED_LIMIT} 仅剩 {headroom} 名额，"
+                   f"已逼近安全阀。请准备按 AGENTS.md 铁律 7 调大 limit。")
+            print(("::warning::" if gh else "  [池规模-临近] ") + msg)
+        else:
+            print(f"    [{region}] 有 IAP 的 app 数={n}，距 limit={SEED_LIMIT} 余量 {headroom}（安全）")
+
+
 def selftest():
     fake = {"meta": {}, "items": {
         "123::礼包A": {"app_id": "123", "app_name": "测试游戏", "name": "礼包A",
@@ -363,6 +404,7 @@ def selftest():
     events, cur = detect_events(fake, "cn", "2026-10-22")
     assert any(e["iap"] == "礼包A" for e in events), "应检测到 礼包A 限免事件"
     assert not any(e["iap"] == "常驻免费" for e in events), "永久免费不应进事件"
+    check_pool_capacity()
     print("SELFTEST PASS：付费→免费 被正确识别为限免事件；永久免费被正确排除。")
 
 
