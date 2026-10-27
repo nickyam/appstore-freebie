@@ -546,6 +546,11 @@
   function iapCard(it, region, isEvent) {
     var dict = I18N[CURRENT_LANG];
     var storeUrl = it.url || ('https://apps.apple.com/' + region + '/app/id' + it.app_id);
+    // 一个 App 可能同时有多个免费内购：优先用聚合后的 iaps 数组（来自 loadIap 按 app_id 分组），
+    // 单内购（旧数据/外部直接调用）回退到 it.iap 自身字段。
+    var iaps = (it.iaps && it.iaps.length) ? it.iaps :
+      [{ name: it.iap, price: it.price, days_free: it.days_free, last_paid_price: it.last_paid_price,
+         permanent_free: it.permanent_free, isEvent: it.__isEvent, since: it.since }];
     var card = el('a', 'card');
     if (it.page) {
       card.href = resolvePageUrl(it.page);   // 站内独立详情页（与本体限免卡片一致）
@@ -554,7 +559,7 @@
       card.target = '_blank';
       card.rel = 'noopener';
     }
-    card.setAttribute('aria-label', (it.app_name || '') + ' · ' + (it.iap || '') + ' · ' + dict.card_store);
+    card.setAttribute('aria-label', (it.app_name || '') + ' · ' + (iaps.map(function (x) { return x.name || ''; }).join(' / ') || '') + ' · ' + dict.card_store);
     if (it.icon) {
       var img = el('img');
       img.src = it.icon;
@@ -571,7 +576,8 @@
     var info = el('div', 'info');
     var nameRow = el('div', 'name-row');
     nameRow.appendChild(el('span', 'name', esc(it.app_name || '—')));
-    if (isEvent && it.days_free === 0) nameRow.appendChild(el('span', 'new-badge', esc(dict.badge_new)));
+    var hasNew = iaps.some(function (x) { return x.isEvent && x.days_free === 0; });
+    if (hasNew) nameRow.appendChild(el('span', 'new-badge', esc(dict.badge_new)));
     info.appendChild(nameRow);
     info.appendChild(el('div', 'dev', esc(it.dev || '')));            // 开发者
     if (it.genre) info.appendChild(el('div', 'genre', esc(it.genre)));  // 分类标签
@@ -580,18 +586,21 @@
     } else {
       info.appendChild(el('div', 'rating norate', esc(dict.no_rating)));
     }
-    // 末行：内购项名 + 免费时长/原价（绿色「免费」价格行已去掉；🎮 图标已按用户要求移除）
-    var meta;
-    if (isEvent && it.days_free != null) {
-      meta = esc(it.iap || '') + ' · ' +
-        (it.days_free === 0
-          ? dict.iap_today
-          : dict.iap_days + ' ' + it.days_free + ' ' + (CURRENT_LANG === 'en' ? 'days' : '天')) +
-        (it.last_paid_price ? (' · ' + dict.iap_original + ' ' + esc(it.last_paid_price)) : '');
-    } else {
-      meta = esc(it.iap || '') + (it.permanent_free ? (' · ' + dict.iap_perm_tag) : (' · ' + dict.iap_cur_free));
-    }
-    info.appendChild(el('div', 'dev', meta));
+    // 末行：列出该 App 的免费内购项（同一 App 多个内购合并到一张卡，不再重复成多张卡）
+    var metaBox = el('div', 'iap-meta');
+    iaps.forEach(function (x) {
+      var line;
+      if (x.isEvent && x.days_free != null) {
+        line = esc(x.name || '') + ' · ' +
+          (x.days_free === 0 ? dict.iap_today :
+            dict.iap_days + ' ' + x.days_free + ' ' + (CURRENT_LANG === 'en' ? 'days' : '天')) +
+          (x.last_paid_price ? (' · ' + dict.iap_original + ' ' + esc(x.last_paid_price)) : '');
+      } else {
+        line = esc(x.name || '') + (x.permanent_free ? (' · ' + dict.iap_perm_tag) : (' · ' + dict.iap_cur_free));
+      }
+      metaBox.appendChild(el('div', 'iap-line', line));
+    });
+    info.appendChild(metaBox);
     card.appendChild(info);
     return card;
   }
@@ -637,13 +646,37 @@
         return a.__days - b.__days || (b.rating || 0) - (a.rating || 0) ||
                (a.app_name || '').localeCompare(b.app_name || '');
       });
-      currentData.iap = feed;
+      // 按 app_id 聚合：同一 App 的多个免费内购合并成「一张卡 + 它的多个内购」，
+      // 而不是逐内购渲染成重复卡片（修复 7 Minute Workout 之类一个 App 多内购限免被拆成 N 张卡）。
+      var iapMap = {}, iapOrder = [];
+      feed.forEach(function (it) {
+        var aid = it.app_id;
+        if (!iapMap[aid]) { iapMap[aid] = { app: it, iaps: [], _days: 999, _evt: false }; iapOrder.push(aid); }
+        var g = iapMap[aid];
+        g.iaps.push({
+          name: it.iap, price: it.price, days_free: it.days_free,
+          last_paid_price: it.last_paid_price, permanent_free: it.permanent_free,
+          isEvent: it.__isEvent, since: it.since
+        });
+        if (it.__days != null && it.__days < g._days) g._days = it.__days;
+        if (it.__isEvent) g._evt = true;
+      });
+      var grouped = iapOrder.map(function (aid) {
+        var g = iapMap[aid], rep = g.app;
+        rep.iaps = g.iaps;
+        rep.__days = g._days;        // 取该 App 最新内购的状态天，用于排序（NEW 优先）
+        rep.__isEvent = g._evt;      // 任一内购是限免事件 → 卡片角标
+        return rep;
+      });
+      currentData.iap = grouped;
       iapNoData = false;
       iapLoaded = true;
-      // 内购原价计入「今日可省」（基于全量 feed，不随搜索变化；与本体限免/特价累加，切区时由 load() 重置本体部分）
+      // 内购原价计入「今日可省」（基于全量 grouped，遍历每个 App 的多个内购累加；不随搜索变化）
       var iapSaved = 0;
-      feed.forEach(function (it) {
-        if (it.last_paid_price) { var p = parsePrice(it.last_paid_price); if (p) iapSaved += p; }
+      grouped.forEach(function (it) {
+        (it.iaps || []).forEach(function (x) {
+          if (x.last_paid_price) { var p = parsePrice(x.last_paid_price); if (p) iapSaved += p; }
+        });
       });
       var ss = document.getElementById('statSaved');
       if (ss) ss.textContent = formatMoney(region, lastAppSaved + iapSaved);
@@ -659,7 +692,8 @@
     return list.filter(function (it) {
       if (state.genre && it.genre !== state.genre) return false;
       if (q) {
-        var hay = ((it.app_name || '') + ' ' + (it.dev || '') + ' ' + (it.genre || '') + ' ' + (it.iap || '')).toLowerCase();
+        var iapHay = (it.iaps ? it.iaps.map(function (x) { return x.name || ''; }).join(' ') : (it.iap || ''));
+        var hay = ((it.app_name || '') + ' ' + (it.dev || '') + ' ' + (it.genre || '') + ' ' + iapHay).toLowerCase();
         if (hay.indexOf(q) === -1) return false;
       }
       return true;

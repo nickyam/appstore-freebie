@@ -275,6 +275,10 @@ ins.adsbygoogle { background: #ececf0; border-radius: var(--radius); }
   overflow: hidden; word-break: break-word; line-height: 1.35; margin-top: 2px;
 }
 .card .genre { color: var(--muted); font-size: 13px; margin-top: 3px; }
+/* 内购限免卡：同一 App 的多个免费内购合并展示（聚合自 app_id，避免重复卡片） */
+.card .iap-meta { color: var(--muted); font-size: 12.5px; line-height: 1.5; margin-top: 4px; }
+.card .iap-line { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.card .iap-line + .iap-line { margin-top: 1px; }
 .card .rating { color: #ff9f0a; font-size: 13px; font-weight: 600; margin-top: 2px; display: flex; align-items: center; gap: 7px; }
 .card .rating.norate { color: var(--muted); font-weight: 400; }
 .dt-chip.norate { font-style: normal; }
