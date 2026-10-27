@@ -56,14 +56,24 @@ def parse_app_name(body):
 
 
 def load_pool(region, limit):
-    """每日复查池 = 保底池 + 主池（App 榜单池）。
+    """每日复查池 = 保底池 + 主池（App 榜单池，按"最近变价"降序）。
 
     保底池（2026-10-25 用户拍板，根治「僵尸条目」）：
       · data/iap-history-{region}.json 中 last_price 仍为免费的 app；
       · data/iap-current-free-{region}.json 中在挂的 app（发布集，双保险）。
     背景：主池按榜单滚动，限免 App 掉出榜单后即从池中消失，其「恢复付费」
     永远检测不到，会在网站上僵尸显示最多 FREE_WINDOW(7) 天。保底池排在主池
-    前面，保证不被 limit 裁掉；代价是每次挤掉少量主池尾部 App 的复查机会。
+    最前，保证不被 limit 裁掉；代价是每次挤掉少量主池尾部 App 的复查机会。
+
+    主池排序（2026-10-27 分级调度改造）：
+      主池来自 data/history-{region}.json 的 app_id，按"该 app 最近一次 IAP 变价日"
+      降序排列。iap-history 以 {app_id}::{iap_name} 为复合键，故先按 app_id 聚合、
+      取该 app 全部 IAP 的 max(last_change_date / last_date) 作为"最近变价日"；
+      iap-history 查不到的 app（无 IAP / 尚未被扫过）排在最后。
+      这样每个班次的 limit 名额优先落在"近期刚变价、最可能正在限免"的 App 上；
+      而无 IAP 的死重被 limit 裁掉也不影响检测质量——它们本就没有可限免的内购。
+      两区"有 IAP 的 app 数"（cn≈3574 / us≈3780）均 < 播种班 limit(4500)，
+      故排序后等于"扫完全部有 IAP 的 app + 少量无记录余量"，无损已知 app 的检测。
     """
     ids, seen = [], set()
 
@@ -73,16 +83,20 @@ def load_pool(region, limit):
             seen.add(aid)
             ids.append(aid)
 
+    # ---- 读 iap-history 一次：保底池与"主池排序"复用同一份读取 ----
     hist_path = os.path.join(REPO, "data", f"iap-history-{region}.json")
+    hist_items = {}
     if os.path.exists(hist_path):
         try:
-            hist = json.load(open(hist_path, encoding="utf-8"))
-            for rec in hist.get("items", {}).values():
-                if is_free(rec.get("last_price") or ""):
-                    add(rec.get("app_id"))
+            hist_items = json.load(open(hist_path, encoding="utf-8")).get("items", {}) or {}
         except Exception as e:
-            print(f"    [warn] 读 iap-history 保底池失败: {e}")
+            print(f"    [warn] 读 iap-history 失败: {e}")
 
+    # ---- 保底池①：iap-history 中 last_price 仍免费 ----
+    for rec in hist_items.values():
+        if is_free(rec.get("last_price") or ""):
+            add(rec.get("app_id"))
+    # ---- 保底池②：iap-current-free 在挂（双保险）----
     cur_path = os.path.join(REPO, "data", f"iap-current-free-{region}.json")
     if os.path.exists(cur_path):
         try:
@@ -92,18 +106,33 @@ def load_pool(region, limit):
         except Exception as e:
             print(f"    [warn] 读 iap-current-free 保底池失败: {e}")
 
+    # ---- 主池：history-{region}.json 的 app_id，按"最近变价日"降序 ----
+    # 先按 app_id 聚合 iap-history，取该 app 所有 IAP 的 max(last_change_date/last_date)
+    app_change = {}
+    for rec in hist_items.values():
+        aid = str(rec.get("app_id"))
+        d = rec.get("last_change_date") or rec.get("last_date") or ""
+        if aid not in app_change or (d and d > app_change[aid]):
+            app_change[aid] = d
+
     p = os.path.join(REPO, "data", f"history-{region}.json")
     if os.path.exists(p):
         d = json.load(open(p, encoding="utf-8"))
-        for x in d.keys():
+        # 排除已入保底池的 app，避免重复
+        main = [x for x in d.keys() if x not in seen]
+        # 排序键：(有变价日?, 变价日降序)。有记录(有 IAP)排最前、无记录排最后；
+        # 同组用稳定排序保留原 dict 顺序（无记录 app 按录入先后，新 app 自然靠后）。
+        main.sort(key=lambda a: (1 if a in app_change else 0,
+                                 app_change.get(a, "")), reverse=True)
+        for x in main:
             add(x)
     else:
         from iap_probe import get_game_ids
         cap = min(limit, 200) if limit and limit > 0 else 200
         for i, _ in get_game_ids(region, cap):
             add(i)
-    # limit <= 0 表示「不截断，扫全池」（2026-10-26 仓库转 public 后 Actions 分钟免费，
-    # 播种班改为全量覆盖：cn≈6144 / us≈8484，实测约 75min + 107min）。
+    # limit <= 0 表示「不截断，扫全池」（保留既有全量能力，仅 CI 播种班不再默认传 0；
+    # 2026-10-27 起播种班改传 4500，兼顾覆盖与单班时长）。
     return ids[:limit] if limit and limit > 0 else ids
 
 

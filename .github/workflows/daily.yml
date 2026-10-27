@@ -12,9 +12,11 @@ name: daily-freebie
 #                                失败——把「API 不可达被静默吞掉」变成红 X 报警（2026-10-25 A 方案）。
 #   2) 内购价格历史采集（iap_collector.py，cn + us）—— US 必须在非大陆 IP 跑（本 runner 即 GitHub 托管，非 CN）；
 #      同样 continue-on-error，采集抽风不会拖垮本体更新。
-#      扫描量按班次：播种班（UTC 00/01）limit=0 即全池覆盖（cn≈6144 / us≈8484，约 3.2h 整班）；
-#      其余 3 班 limit=2000 快速刷新热点。依据：仓库 2026-10-26 转为 public，
-#      标准 runner 分钟对公开仓库完全免费，故不再受 2000 分钟额度约束。
+#      扫描量按班次（2026-10-27 分级调度改造）：播种班（UTC 00/01）limit=4500——
+#      配合主池"按最近变价降序"排序，4500 已能覆盖两区全部"有 IAP 的 app"（cn≈3574 /
+#      us≈3780，均 < 4500）+ 少量无记录余量，等于砍掉无 IAP 死重而非砍事件 app，单班
+#      IAP 采集从 ~182min 降到 ~87min；其余 3 班 limit=2000 快速刷新热点。分钟免费，
+#      改造目的不是省额度，而是缩短播种班时长、提高扫描价值密度。
 #   3) 内购存在性探测（probe_iap_presence.py，cn + us）—— 抓 App Store 商品页的
 #      hasInAppPurchases，写 data/iap-presence-{region}.json，为「本体限免」卡片打
 #      「含内购 / 纯买断」徽章。必须在生成之前跑（generate 读取该文件加 has_iap 字段）。
@@ -82,11 +84,10 @@ jobs:
       - name: Collect IAP prices (cn)
         continue-on-error: true
         run: |
-          # 公开仓库后标准 runner 分钟完全免费（2026-10-26 仓库转为 public），
-          # 故播种班（北京 08:13 = UTC 00/01 时）扫全量池（cn≈6144），
-          # 其余 3 班仍扫 2000，保持"轻快刷新热点"的节奏。
+          # 播种班（北京 08:13 = UTC 00/01 时）扫 4500：主池已按"最近变价"降序，
+          # 4500 覆盖全部有 IAP 的 app + 余量；其余 3 班扫 2000 刷新热点。
           HR=$(date -u +%H)
-          if [ "$HR" = "00" ] || [ "$HR" = "01" ]; then LIMIT=0; else LIMIT=2000; fi
+          if [ "$HR" = "00" ] || [ "$HR" = "01" ]; then LIMIT=4500; else LIMIT=2000; fi
           echo "cn 内购采集：limit=$LIMIT（0 = 全量）"
           python scripts/iap_collector.py --region cn --limit $LIMIT --delay 0.3
 
@@ -94,7 +95,7 @@ jobs:
         continue-on-error: true
         run: |
           HR=$(date -u +%H)
-          if [ "$HR" = "00" ] || [ "$HR" = "01" ]; then LIMIT=0; else LIMIT=2000; fi
+          if [ "$HR" = "00" ] || [ "$HR" = "01" ]; then LIMIT=4500; else LIMIT=2000; fi
           echo "us 内购采集：limit=$LIMIT（0 = 全量）"
           python scripts/iap_collector.py --region us --limit $LIMIT --delay 0.3
 
@@ -151,8 +152,8 @@ jobs:
               python scripts/seed_from_apprcn.py || echo "::warning::apprcn 播种失败（非致命，沿用已有 history）"
               python scripts/seed_iap_from_apprcn.py || echo "::warning::iap apprcn 播种失败（非致命，沿用已有 history）"
             fi
-            # 与「Collect IAP prices」步骤保持一致：播种班全量，其余班 2000
-            if [ "$HR" = "00" ] || [ "$HR" = "01" ]; then LIMIT=0; else LIMIT=2000; fi
+            # 与「Collect IAP prices」步骤保持一致：播种班 4500，其余班 2000
+            if [ "$HR" = "00" ] || [ "$HR" = "01" ]; then LIMIT=4500; else LIMIT=2000; fi
             python scripts/iap_collector.py --region cn --limit $LIMIT --delay 0.3 || echo "::warning::cn 内购采集失败（非致命）"
             python scripts/iap_collector.py --region us --limit $LIMIT --delay 0.3 || echo "::warning::us 内购采集失败（非致命）"
             # 徽章数据（本体限免「含内购/纯买断」）——须在生成之前
