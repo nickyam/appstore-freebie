@@ -88,7 +88,7 @@ jobs:
           # 4500 覆盖全部有 IAP 的 app + 余量；其余 3 班扫 2000 刷新热点。
           HR=$(date -u +%H)
           if [ "$HR" = "00" ] || [ "$HR" = "01" ]; then LIMIT=4500; else LIMIT=2000; fi
-          echo "cn 内购采集：limit=$LIMIT（0 = 全量）"
+          echo "cn 内购采集：limit=$LIMIT（播种班=4500 覆盖全量热点 / 其余班=2000 刷新热点）"
           python scripts/iap_collector.py --region cn --limit $LIMIT --delay 0.3
 
       - name: Collect IAP prices (us)
@@ -96,7 +96,7 @@ jobs:
         run: |
           HR=$(date -u +%H)
           if [ "$HR" = "00" ] || [ "$HR" = "01" ]; then LIMIT=4500; else LIMIT=2000; fi
-          echo "us 内购采集：limit=$LIMIT（0 = 全量）"
+          echo "us 内购采集：limit=$LIMIT（播种班=4500 覆盖全量热点 / 其余班=2000 刷新热点）"
           python scripts/iap_collector.py --region us --limit $LIMIT --delay 0.3
 
       # 「本体限免」卡片的「含内购 / 纯买断」徽章数据（probe_iap_presence.py 独写
