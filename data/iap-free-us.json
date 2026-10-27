@@ -1,7 +1,7 @@
 {
   "updated": "2026-10-27",
   "region": "us",
-  "count": 4,
+  "count": 7,
   "events": [
     {
       "app_id": "284220417",
@@ -13,8 +13,8 @@
       "last_paid_date": "2026-10-27",
       "last_paid_price": "$0.00",
       "url": "https://apps.apple.com/us/app/currency/id284220417?uo=4",
-      "rating": 4.82752,
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c0/6e/65/c06e6577-b8e8-8974-8cd1-ac922299e4de/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-85-220.png/512x512bb.jpg",
+      "rating": 4.82756,
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2b/6e/b6/2b6eb6ab-9d49-b15d-7c32-3173474ae57f/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-85-220.png/512x512bb.jpg",
       "dev": "Jeffrey Grossman",
       "genre": "Travel",
       "page": "app/us-284220417.html"
@@ -52,20 +52,64 @@
       "page": "app/us-6821278362.html"
     },
     {
-      "app_id": "6748519522",
-      "app_name": "时间荚:正计时番茄钟·种植物·专注·自律·目标·习惯·冥想",
-      "iap": "TimeGrow: Pomodoro Timer Focus",
-      "price": "免费",
-      "free_since": "2026-10-22",
-      "days_free": 5,
-      "last_paid_date": "2026-10-22",
-      "last_paid_price": "—",
-      "url": "https://apps.apple.com/us/app/timegrow-pomodoro-timer-focus/id6748519522?uo=4",
-      "rating": 4.63636,
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6a/97/e8/6a97e8b1-d5ef-2cd8-709e-0a832f171688/TimeGrowIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
-      "dev": "灿豪 陈",
-      "genre": "Utilities",
-      "page": "app/us-6748519522.html"
+      "app_id": "680170305",
+      "app_name": "7 Minute Workout Challenge",
+      "iap": "Bonus Workout Pack 1",
+      "price": "$0.00",
+      "free_since": "2026-10-27",
+      "days_free": 0,
+      "last_paid_date": "2026-10-27",
+      "last_paid_price": "$1.99",
+      "url": "https://apps.apple.com/us/app/7-minute-workout-challenge/id680170305?uo=4",
+      "rating": 4.70407,
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/30/41/c4/3041c481-fa64-bd59-5c86-50d3c6569fe5/AppIcon-1x_U007emarketing-1-85-220.jpeg/512x512bb.jpg",
+      "dev": "Fitness Guide Inc",
+      "genre": "Health & Fitness"
+    },
+    {
+      "app_id": "680170305",
+      "app_name": "7 Minute Workout Challenge",
+      "iap": "Bonus Workout Pack 3",
+      "price": "$0.00",
+      "free_since": "2026-10-27",
+      "days_free": 0,
+      "last_paid_date": "2026-10-27",
+      "last_paid_price": "$0.99",
+      "url": "https://apps.apple.com/us/app/7-minute-workout-challenge/id680170305?uo=4",
+      "rating": 4.70407,
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/30/41/c4/3041c481-fa64-bd59-5c86-50d3c6569fe5/AppIcon-1x_U007emarketing-1-85-220.jpeg/512x512bb.jpg",
+      "dev": "Fitness Guide Inc",
+      "genre": "Health & Fitness"
+    },
+    {
+      "app_id": "680170305",
+      "app_name": "7 Minute Workout Challenge",
+      "iap": "Bonus Workout Pack 2",
+      "price": "$0.00",
+      "free_since": "2026-10-27",
+      "days_free": 0,
+      "last_paid_date": "2026-10-27",
+      "last_paid_price": "$1.99",
+      "url": "https://apps.apple.com/us/app/7-minute-workout-challenge/id680170305?uo=4",
+      "rating": 4.70407,
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/30/41/c4/3041c481-fa64-bd59-5c86-50d3c6569fe5/AppIcon-1x_U007emarketing-1-85-220.jpeg/512x512bb.jpg",
+      "dev": "Fitness Guide Inc",
+      "genre": "Health & Fitness"
+    },
+    {
+      "app_id": "680170305",
+      "app_name": "7 Minute Workout Challenge",
+      "iap": "Bonus Workout Pack 4",
+      "price": "$0.00",
+      "free_since": "2026-10-27",
+      "days_free": 0,
+      "last_paid_date": "2026-10-27",
+      "last_paid_price": "$1.99",
+      "url": "https://apps.apple.com/us/app/7-minute-workout-challenge/id680170305?uo=4",
+      "rating": 4.70407,
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/30/41/c4/3041c481-fa64-bd59-5c86-50d3c6569fe5/AppIcon-1x_U007emarketing-1-85-220.jpeg/512x512bb.jpg",
+      "dev": "Fitness Guide Inc",
+      "genre": "Health & Fitness"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "updated": "2026-10-27",
   "region": "us",
-  "count": 67,
+  "count": 189,
   "items": [
     {
       "app_id": "300048137",
@@ -364,30 +364,6 @@
       "since": "2026-10-27"
     },
     {
-      "app_id": "957061844",
-      "app_name": "Night Camera: Low Light FX Cam",
-      "iap": "Night Camera Pro",
-      "price": "$0.00",
-      "permanent_free": false,
-      "since": "2026-10-27"
-    },
-    {
-      "app_id": "6821278362",
-      "app_name": "StorageGo：手机存储空间清理工具",
-      "iap": "StorageGo Pro Lifetime",
-      "price": "$0.00",
-      "permanent_free": false,
-      "since": "2026-10-27"
-    },
-    {
-      "app_id": "6748519522",
-      "app_name": "时间荚:正计时番茄钟·种植物·专注·自律·目标·习惯·冥想",
-      "iap": "TimeGrow: Pomodoro Timer Focus",
-      "price": "免费",
-      "permanent_free": false,
-      "since": "2026-10-25"
-    },
-    {
       "app_id": "6758198708",
       "app_name": "Dungeons and Heartbeats",
       "iap": "Unlock Everything",
@@ -535,6 +511,1006 @@
       "app_id": "6778384248",
       "app_name": "Tap-Relay",
       "iap": "Unlock Everything",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "957061844",
+      "app_name": "Night Camera: Low Light FX Cam",
+      "iap": "Night Camera Pro",
+      "price": "$0.00",
+      "permanent_free": false,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "6821278362",
+      "app_name": "StorageGo：手机存储空间清理工具",
+      "iap": "StorageGo Pro Lifetime",
+      "price": "$0.00",
+      "permanent_free": false,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "6789004498",
+      "app_name": "Tabletally: Game Scorekeeper",
+      "iap": "Lifetime",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "6757162931",
+      "app_name": "Emotica: Understand Emotions",
+      "iap": "Emotica Pro Lifetime",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "6790143964",
+      "app_name": "OneFocus: Deep Work",
+      "iap": "OneFocus Pro Lifetime",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "6823810305",
+      "app_name": "Three Routes: Run & Walk",
+      "iap": "Three Routes Pro Lifetime",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "1020967894",
+      "app_name": "GPS Diagnostic: Satellite Test",
+      "iap": "Coordinates-Pro",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "432850619",
+      "app_name": "FL Studio Mobile",
+      "iap": "Groove Machine Synth",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "363738376",
+      "app_name": "forScore",
+      "iap": "Brahms: The Mutopia Collection",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "363738376",
+      "app_name": "forScore",
+      "iap": "Liszt: The Mutopia Collection",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "363738376",
+      "app_name": "forScore",
+      "iap": "Tchaikovsky: The Mutopia Collection",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "363738376",
+      "app_name": "forScore",
+      "iap": "Satie: The Mutopia Collection",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "363738376",
+      "app_name": "forScore",
+      "iap": "Schumann: The Mutopia Collection",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "363738376",
+      "app_name": "forScore",
+      "iap": "Händel: The Mutopia Collection",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "363738376",
+      "app_name": "forScore",
+      "iap": "Haydn: The Mutopia Collection",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "1660442751",
+      "app_name": "Vocal Tune PRO",
+      "iap": "Starts trial in old v1 version",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "478293637",
+      "app_name": "Anytune Pro+: Studio Tools",
+      "iap": "Promo",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "655607914",
+      "app_name": "Drumtune PRO | Drum Tuner",
+      "iap": "STANDARD ROCK KIT",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "655607914",
+      "app_name": "Drumtune PRO | Drum Tuner",
+      "iap": "BEAST OF SHADOWS",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "655607914",
+      "app_name": "Drumtune PRO | Drum Tuner",
+      "iap": "BEEPING BOBBIE",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "655607914",
+      "app_name": "Drumtune PRO | Drum Tuner",
+      "iap": "DEEP BLUE",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "655607914",
+      "app_name": "Drumtune PRO | Drum Tuner",
+      "iap": "A MAJOR'S LOW BLOW",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "450527929",
+      "app_name": "djay - DJ App & AI Mixer",
+      "iap": "Unlock Upgrade Features",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "475976577",
+      "app_name": "Perfect365: Face Makeup Editor",
+      "iap": "Free HotStyle: Bombshell",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "475976577",
+      "app_name": "Perfect365: Face Makeup Editor",
+      "iap": "Free HotStyle: Bumblebee",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "475976577",
+      "app_name": "Perfect365: Face Makeup Editor",
+      "iap": "Free HotStyle Set: Halloween",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "680170305",
+      "app_name": "7 Minute Workout Challenge",
+      "iap": "Bonus Workout Pack 1",
+      "price": "$0.00",
+      "permanent_free": false,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "680170305",
+      "app_name": "7 Minute Workout Challenge",
+      "iap": "Bonus Workout Pack 3",
+      "price": "$0.00",
+      "permanent_free": false,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "680170305",
+      "app_name": "7 Minute Workout Challenge",
+      "iap": "Bonus Workout Pack 2",
+      "price": "$0.00",
+      "permanent_free": false,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "680170305",
+      "app_name": "7 Minute Workout Challenge",
+      "iap": "Bonus Workout Pack 4",
+      "price": "$0.00",
+      "permanent_free": false,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "6767289656",
+      "app_name": "WheelTrip: Wheelchair GPS",
+      "iap": "14-day Trial",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "623592465",
+      "app_name": "Heads Up!",
+      "iap": "Just For Kids",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "623592465",
+      "app_name": "Heads Up!",
+      "iap": "Mix It Up",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "623592465",
+      "app_name": "Heads Up!",
+      "iap": "The Ellen Show",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "307569751",
+      "app_name": "NYT Games: Wordle & Crossword",
+      "iap": "Free Starter Pack",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "307569751",
+      "app_name": "NYT Games: Wordle & Crossword",
+      "iap": "Introducing the Midi",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "6789787443",
+      "app_name": "Simple Register",
+      "iap": "7-day Trial",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "467703220",
+      "app_name": "Elmo Calls",
+      "iap": "\"Playdate With Elmo\" Pack",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "892279069",
+      "app_name": "Star Walk 2 Pro: Sky Map Live",
+      "iap": "Constellations of Avengers",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "1270890718",
+      "app_name": "AutoPad — Ambient Pad Loops",
+      "iap": "Bonus Sounds",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "925289270",
+      "app_name": "Collins English Dictionary",
+      "iap": "Headword Audio Pack",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "6752997612",
+      "app_name": "Easy FA",
+      "iap": "FA All Questions",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "1441905750",
+      "app_name": "Distressed FX : Plus",
+      "iap": "Atmospheric Light",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "1441905750",
+      "app_name": "Distressed FX : Plus",
+      "iap": "Beyond Skies",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "1441905750",
+      "app_name": "Distressed FX : Plus",
+      "iap": "The Heavens",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "1441905750",
+      "app_name": "Distressed FX : Plus",
+      "iap": "The Lights",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "1441905750",
+      "app_name": "Distressed FX : Plus",
+      "iap": "Box of colors",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "1441905750",
+      "app_name": "Distressed FX : Plus",
+      "iap": "Painterly Grunge",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "1441905750",
+      "app_name": "Distressed FX : Plus",
+      "iap": "Bokeh Illusions",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "1441905750",
+      "app_name": "Distressed FX : Plus",
+      "iap": "Vintage Collection",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "1441905750",
+      "app_name": "Distressed FX : Plus",
+      "iap": "The Neutrals",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "1441905750",
+      "app_name": "Distressed FX : Plus",
+      "iap": "Obscure Textures",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "6447884280",
+      "app_name": "Superimpose - Erase Background",
+      "iap": "Remove Watermarks",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "650415564",
+      "app_name": "Mextures Photo Editor",
+      "iap": "X-Film Bundle",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "650415564",
+      "app_name": "Mextures Photo Editor",
+      "iap": "Outfitter Formula Pack",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "6467383947",
+      "app_name": "MiniMap Radar",
+      "iap": "Wasteland Theme",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "6467383947",
+      "app_name": "MiniMap Radar",
+      "iap": "Phantasy Skin",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "1339418001",
+      "app_name": "Minimoog Model D Synthesizer",
+      "iap": "Minimoog Classics",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "443693213",
+      "app_name": "myFuelLog: Car Maintenance",
+      "iap": "PDFTaxPro",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "970358327",
+      "app_name": "Death Lens",
+      "iap": "Unlimited Recording",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "6478163053",
+      "app_name": "Fibster: Lie Detector",
+      "iap": "Lifetime",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "596628003",
+      "app_name": "Jam Maestro: create guitar tab",
+      "iap": "Guitar: Epic Lead Soundpack",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "596628003",
+      "app_name": "Jam Maestro: create guitar tab",
+      "iap": "Guitar: Bright Clean Soundpack",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "596628003",
+      "app_name": "Jam Maestro: create guitar tab",
+      "iap": "Guitar: Shimmer Soundpack",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "596628003",
+      "app_name": "Jam Maestro: create guitar tab",
+      "iap": "Guitar: Stoner Doom Soundpack",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "596628003",
+      "app_name": "Jam Maestro: create guitar tab",
+      "iap": "Bass: Blacklisted Soundpack",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "596628003",
+      "app_name": "Jam Maestro: create guitar tab",
+      "iap": "Bass: Hazzard Soundpack",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "6762007357",
+      "app_name": "Tare: Calorie & Macro Tracker",
+      "iap": "7-day Trial",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "6799237536",
+      "app_name": "Coastal 360 Pro",
+      "iap": "Coastal Pro Staff Lifetime",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "1555459868",
+      "app_name": "Dawncaster: Deckbuilding RPG",
+      "iap": "Vaul of the Void Promo Pack",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "1198069267",
+      "app_name": "Tohitapu",
+      "iap": "New revised Thomas West bible",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "1198069267",
+      "app_name": "Tohitapu",
+      "iap": "Tongan Moulton bible",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "1198069267",
+      "app_name": "Tohitapu",
+      "iap": "Taulua bible",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "1198069267",
+      "app_name": "Tohitapu",
+      "iap": "Old Thomas West bible",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "1198069267",
+      "app_name": "Tohitapu",
+      "iap": "Tongan: the book of Mormon",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "1198069267",
+      "app_name": "Tohitapu",
+      "iap": "New world bible",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "1198069267",
+      "app_name": "Tohitapu",
+      "iap": "Tongan: the hidden books",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "1198069267",
+      "app_name": "Tohitapu",
+      "iap": "Tongan: doctrine & covenants",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "1198069267",
+      "app_name": "Tohitapu",
+      "iap": "Tongan: Pearl of great price",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "1198069267",
+      "app_name": "Tohitapu",
+      "iap": "Holy koran",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "1444383602",
+      "app_name": "Goodnotes: AI Notes, Docs, PDF",
+      "iap": "Goodnotes 6 Free Trial",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "1607543741",
+      "app_name": "Sun Quest: Seeker & Tracker",
+      "iap": "SunQuest - Migration Pack",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "983064638",
+      "app_name": "LTC SOM Regs",
+      "iap": "CMS Update 2020",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "438596432",
+      "app_name": "Video Star",
+      "iap": "Video Import Kit",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "438132417",
+      "app_name": "I Ching: Book of Changes",
+      "iap": "Full Book Content (Past Purchase)",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "1080181813",
+      "app_name": "Vocular",
+      "iap": "Pro Version",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "417401887",
+      "app_name": "WeatherTrack GRIB",
+      "iap": "Offline High Resolution Map",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "578982065",
+      "app_name": "Cookie Calls",
+      "iap": "\"Fortune Cookie\" pack",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "519994935",
+      "app_name": "Cosmic Eye",
+      "iap": "Cosmic Eye Pro",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "6774341898",
+      "app_name": "Videcho: Add Reverb to Video",
+      "iap": "7-day Trial",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "1041465860",
+      "app_name": "Model 15 Modular Synthesizer",
+      "iap": "Symbiotic Equations",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "1041465860",
+      "app_name": "Model 15 Modular Synthesizer",
+      "iap": "Synthesist Toolkit",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "961227503",
+      "app_name": "BEAKER by THIX",
+      "iap": "All Tools",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "6742345690",
+      "app_name": "Visit Tokyo: Travel Guide",
+      "iap": "Premium",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "1122768779",
+      "app_name": "Meal Reminders",
+      "iap": "Water tracking trial",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "686378579",
+      "app_name": "Contacts Sync Pro",
+      "iap": "Unlimited Syncs",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "686378579",
+      "app_name": "Contacts Sync Pro",
+      "iap": "Automatic Contact Syncing",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "977016099",
+      "app_name": "Little Stories: Bedtime Books",
+      "iap": "The Magic Christmas Tree",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "721838015",
+      "app_name": "Green Screen Wizard Mobile",
+      "iap": "Demo Backgrounds",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "331529422",
+      "app_name": "Relax Melodies P: Sleep Sounds",
+      "iap": "Free for Life Promo",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "412351574",
+      "app_name": "TouchChat HD- AAC w/ WordPower",
+      "iap": "Irisbond Hiru™ Eye Tracker",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "6808770041",
+      "app_name": "Bingester: TV",
+      "iap": "7-Day Trial",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "909222894",
+      "app_name": "ACDSee",
+      "iap": "Sunglasses",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "909222894",
+      "app_name": "ACDSee",
+      "iap": "Moustaches",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "909222894",
+      "app_name": "ACDSee",
+      "iap": "Hats",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "909222894",
+      "app_name": "ACDSee",
+      "iap": "Moustaches 2",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "909222894",
+      "app_name": "ACDSee",
+      "iap": "Wigs",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "909222894",
+      "app_name": "ACDSee",
+      "iap": "Glasses",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "909222894",
+      "app_name": "ACDSee",
+      "iap": "Crazy Shades",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "909222894",
+      "app_name": "ACDSee",
+      "iap": "Wigs 2",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "909222894",
+      "app_name": "ACDSee",
+      "iap": "Deluxe",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "494472589",
+      "app_name": "eZy Watermark Photos Classic",
+      "iap": "Custom Fonts",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "494472589",
+      "app_name": "eZy Watermark Photos Classic",
+      "iap": "Batch Watermarking",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "494472589",
+      "app_name": "eZy Watermark Photos Classic",
+      "iap": "Emotions Pack",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "494472589",
+      "app_name": "eZy Watermark Photos Classic",
+      "iap": "Funkit",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "494472589",
+      "app_name": "eZy Watermark Photos Classic",
+      "iap": "skulls set",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "494472589",
+      "app_name": "eZy Watermark Photos Classic",
+      "iap": "horoscopes set",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "494472589",
+      "app_name": "eZy Watermark Photos Classic",
+      "iap": "eagles set",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "494472589",
+      "app_name": "eZy Watermark Photos Classic",
+      "iap": "Stickers",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "494472589",
+      "app_name": "eZy Watermark Photos Classic",
+      "iap": "Cute Cartoons",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "494472589",
+      "app_name": "eZy Watermark Photos Classic",
+      "iap": "Christmas",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "1024395134",
+      "app_name": "Yam Display",
+      "iap": "Drag and Drop",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "1024395134",
+      "app_name": "Yam Display",
+      "iap": "Teleprompter Mode",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "1062358764",
+      "app_name": "Yam Air",
+      "iap": "Teleprompter Mode",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "1008067212",
+      "app_name": "Coverpad",
+      "iap": "14-Day Trial",
       "price": "$0.00",
       "permanent_free": true,
       "since": "2026-10-27"
