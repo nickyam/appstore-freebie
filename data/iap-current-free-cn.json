@@ -564,14 +564,6 @@
       "since": "2026-10-27"
     },
     {
-      "app_id": "6761163201",
-      "app_name": "壳图图 - 带壳截图",
-      "iap": "永久会员",
-      "price": "¥0.00",
-      "permanent_free": true,
-      "since": "2026-10-27"
-    },
-    {
       "app_id": "6821278362",
       "app_name": "StorageGo：手机存储空间清理工具",
       "iap": "StorageGo Pro 永久",
@@ -1151,6 +1143,14 @@
       "app_id": "1008067212",
       "app_name": "Coverpad",
       "iap": "14 天试用",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-10-27"
+    },
+    {
+      "app_id": "363738376",
+      "app_name": "forScore",
+      "iap": "Gottschalk: The Mutopia Collection",
       "price": "¥0.00",
       "permanent_free": true,
       "since": "2026-10-27"
