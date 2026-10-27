@@ -6,9 +6,9 @@
     "seeded_from": "apprcn",
     "seed_added": 9,
     "seed_total": 6323,
-    "pool_size": 8868,
-    "processed": 8860,
-    "skipped": 8,
+    "pool_size": 2000,
+    "processed": 2000,
+    "skipped": 0,
     "seed_last_ok": "2026-10-27T00:13:28Z",
     "seed_last_error": ""
   },
@@ -1408,7 +1408,7 @@
       "first_date": "2026-10-23",
       "first_price": "$3.99",
       "last_date": "2026-10-27",
-      "last_price": "$19.99",
+      "last_price": "$5.99",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
       "last_paid_date": "2026-10-27",
@@ -1418,7 +1418,7 @@
         "2026-10-24": "$5.99",
         "2026-10-25": "$5.99",
         "2026-10-26": "$5.99",
-        "2026-10-27": "$19.99"
+        "2026-10-27": "$5.99"
       }
     },
     "584606479::Simple Start": {
@@ -1450,7 +1450,7 @@
       "first_date": "2026-10-23",
       "first_price": "$38.00",
       "last_date": "2026-10-27",
-      "last_price": "$124.99",
+      "last_price": "$21.00",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
       "last_paid_date": "2026-10-27",
@@ -1460,7 +1460,7 @@
         "2026-10-24": "$21.00",
         "2026-10-25": "$21.00",
         "2026-10-26": "$21.00",
-        "2026-10-27": "$124.99"
+        "2026-10-27": "$21.00"
       }
     },
     "584606479::Solopreneur": {
@@ -2136,7 +2136,7 @@
       "first_date": "2026-10-23",
       "first_price": "$9.99",
       "last_date": "2026-10-27",
-      "last_price": "$9.99",
+      "last_price": "$12.99",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
       "last_paid_date": "2026-10-27",
@@ -2146,7 +2146,7 @@
         "2026-10-24": "$12.99",
         "2026-10-25": "$12.99",
         "2026-10-26": "$12.99",
-        "2026-10-27": "$9.99"
+        "2026-10-27": "$12.99"
       }
     },
     "1397865865::Monthly Access": {
@@ -2174,7 +2174,7 @@
       "first_date": "2026-10-23",
       "first_price": "$9.99",
       "last_date": "2026-10-27",
-      "last_price": "$9.99",
+      "last_price": "$7.99",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
       "last_paid_date": "2026-10-27",
@@ -2184,7 +2184,7 @@
         "2026-10-24": "$7.99",
         "2026-10-25": "$7.99",
         "2026-10-26": "$7.99",
-        "2026-10-27": "$9.99"
+        "2026-10-27": "$7.99"
       }
     },
     "1397865865::Yearly Access": {
@@ -2213,7 +2213,7 @@
       "first_date": "2026-10-23",
       "first_price": "$9.99",
       "last_date": "2026-10-27",
-      "last_price": "$29.99",
+      "last_price": "$49.99",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
       "last_paid_date": "2026-10-27",
@@ -2223,7 +2223,7 @@
         "2026-10-24": "$49.99",
         "2026-10-25": "$49.99",
         "2026-10-26": "$49.99",
-        "2026-10-27": "$29.99"
+        "2026-10-27": "$49.99"
       }
     },
     "1597439129::Weekly Full Access Free Trial": {
@@ -2697,7 +2697,7 @@
       "first_date": "2026-10-23",
       "first_price": "$8.99",
       "last_date": "2026-10-27",
-      "last_price": "$42.99",
+      "last_price": "$39.99",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
       "last_paid_date": "2026-10-27",
@@ -2707,7 +2707,7 @@
         "2026-10-24": "$42.99",
         "2026-10-25": "$42.99",
         "2026-10-26": "$39.99",
-        "2026-10-27": "$42.99"
+        "2026-10-27": "$39.99"
       }
     },
     "1151406354::Unlimited Faxes (1 week)": {
@@ -2735,7 +2735,7 @@
       "first_date": "2026-10-23",
       "first_price": "$9.99",
       "last_date": "2026-10-27",
-      "last_price": "$9.99",
+      "last_price": "$4.99",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
       "last_paid_date": "2026-10-27",
@@ -2743,7 +2743,7 @@
       "changes": {
         "2026-10-23": "$9.99",
         "2026-10-26": "$4.99",
-        "2026-10-27": "$9.99"
+        "2026-10-27": "$4.99"
       }
     },
     "540236748::Professional": {
@@ -9891,16 +9891,17 @@
       "first_date": "2026-10-23",
       "first_price": "$49.99",
       "last_date": "2026-10-27",
-      "last_price": "$49.99",
-      "last_change_date": "2026-10-26",
+      "last_price": "$59.99",
+      "last_change_date": "2026-10-27",
       "ever_paid": true,
-      "last_paid_date": "2026-10-26",
+      "last_paid_date": "2026-10-27",
       "free_since": null,
       "changes": {
         "2026-10-23": "$59.99",
         "2026-10-24": "$59.99",
         "2026-10-25": "$59.99",
-        "2026-10-26": "$49.99"
+        "2026-10-26": "$49.99",
+        "2026-10-27": "$59.99"
       }
     },
     "1517103958::Printer + Scanner Monthly": {
@@ -9953,7 +9954,7 @@
       "first_date": "2026-10-23",
       "first_price": "$49.99",
       "last_date": "2026-10-27",
-      "last_price": "$9.99",
+      "last_price": "$79.99",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
       "last_paid_date": "2026-10-27",
@@ -9963,7 +9964,7 @@
         "2026-10-24": "$79.99",
         "2026-10-25": "$79.99",
         "2026-10-26": "$9.99",
-        "2026-10-27": "$9.99"
+        "2026-10-27": "$79.99"
       }
     },
     "1563922708::Unlimited fax sending (1 week)": {
@@ -11200,7 +11201,7 @@
       "first_date": "2026-10-23",
       "first_price": "$6.99",
       "last_date": "2026-10-27",
-      "last_price": "$12.99",
+      "last_price": "$6.99",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
       "last_paid_date": "2026-10-27",
@@ -11210,7 +11211,7 @@
         "2026-10-24": "$12.99",
         "2026-10-25": "$12.99",
         "2026-10-26": "$12.99",
-        "2026-10-27": "$12.99"
+        "2026-10-27": "$6.99"
       }
     },
     "503757271::RainAware Suite - Monthly": {
@@ -12674,7 +12675,7 @@
       "first_date": "2026-10-23",
       "first_price": "$164.99",
       "last_date": "2026-10-27",
-      "last_price": "$99.99",
+      "last_price": "$119.99",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
       "last_paid_date": "2026-10-27",
@@ -12684,7 +12685,7 @@
         "2026-10-24": "$99.99",
         "2026-10-25": "$99.99",
         "2026-10-26": "$119.99",
-        "2026-10-27": "$99.99"
+        "2026-10-27": "$119.99"
       }
     },
     "997079492::WINDY PRO access": {
@@ -12978,14 +12979,14 @@
       "first_date": "2026-10-23",
       "first_price": "$9.99",
       "last_date": "2026-10-27",
-      "last_price": "$5.99",
+      "last_price": "$9.99",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
       "last_paid_date": "2026-10-27",
       "free_since": null,
       "changes": {
         "2026-10-23": "$9.99",
-        "2026-10-27": "$5.99"
+        "2026-10-27": "$9.99"
       }
     },
     "749083919::Weekly Bundle Subscription": {
@@ -14430,7 +14431,7 @@
       "first_date": "2026-10-23",
       "first_price": "$5.99",
       "last_date": "2026-10-27",
-      "last_price": "$39.99",
+      "last_price": "$29.99",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
       "last_paid_date": "2026-10-27",
@@ -14440,7 +14441,7 @@
         "2026-10-24": "$29.99",
         "2026-10-25": "$29.99",
         "2026-10-26": "$29.99",
-        "2026-10-27": "$39.99"
+        "2026-10-27": "$29.99"
       }
     },
     "1454249438::MoonX Premium Lifetime": {
@@ -14659,7 +14660,7 @@
       "first_date": "2026-10-23",
       "first_price": "$4.99",
       "last_date": "2026-10-27",
-      "last_price": "$9.99",
+      "last_price": "$5.99",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
       "last_paid_date": "2026-10-27",
@@ -14669,7 +14670,7 @@
         "2026-10-24": "$5.99",
         "2026-10-25": "$5.99",
         "2026-10-26": "$5.99",
-        "2026-10-27": "$9.99"
+        "2026-10-27": "$5.99"
       }
     },
     "1471394318::PRO Yearly": {
@@ -21800,7 +21801,7 @@
       "first_date": "2026-10-23",
       "first_price": "$9.99",
       "last_date": "2026-10-27",
-      "last_price": "$6.99",
+      "last_price": "$9.99",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
       "last_paid_date": "2026-10-27",
@@ -21809,7 +21810,7 @@
         "2026-10-23": "$9.99",
         "2026-10-25": "$6.99",
         "2026-10-26": "$6.99",
-        "2026-10-27": "$6.99"
+        "2026-10-27": "$9.99"
       }
     },
     "6754900760::Authenticator Weekly Premium": {
@@ -28346,7 +28347,7 @@
       "first_date": "2026-10-23",
       "first_price": "$9.99",
       "last_date": "2026-10-27",
-      "last_price": "$9.99",
+      "last_price": "$7.99",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
       "last_paid_date": "2026-10-27",
@@ -28356,7 +28357,7 @@
         "2026-10-24": "$3.99",
         "2026-10-25": "$3.99",
         "2026-10-26": "$3.99",
-        "2026-10-27": "$9.99"
+        "2026-10-27": "$7.99"
       }
     },
     "1173365557::Air Apps Pro": {
@@ -30232,7 +30233,7 @@
       "first_date": "2026-10-23",
       "first_price": "$39.99",
       "last_date": "2026-10-27",
-      "last_price": "$79.99",
+      "last_price": "$59.99",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
       "last_paid_date": "2026-10-27",
@@ -30242,7 +30243,7 @@
         "2026-10-24": "$59.99",
         "2026-10-25": "$59.99",
         "2026-10-26": "$59.99",
-        "2026-10-27": "$79.99"
+        "2026-10-27": "$59.99"
       }
     },
     "6758564907::Easina Weekly Membership": {
@@ -33439,7 +33440,7 @@
       "first_date": "2026-10-23",
       "first_price": "$49.00",
       "last_date": "2026-10-27",
-      "last_price": "$49.00",
+      "last_price": "$69.00",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
       "last_paid_date": "2026-10-27",
@@ -33449,7 +33450,7 @@
         "2026-10-24": "$69.00",
         "2026-10-25": "$69.00",
         "2026-10-26": "$69.00",
-        "2026-10-27": "$49.00"
+        "2026-10-27": "$69.00"
       }
     },
     "6443738607::Elite": {
@@ -37478,7 +37479,7 @@
       "first_date": "2026-10-23",
       "first_price": "$34.99",
       "last_date": "2026-10-27",
-      "last_price": "$34.99",
+      "last_price": "$39.99",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
       "last_paid_date": "2026-10-27",
@@ -37488,7 +37489,7 @@
         "2026-10-24": "$39.99",
         "2026-10-25": "$39.99",
         "2026-10-26": "$39.99",
-        "2026-10-27": "$34.99"
+        "2026-10-27": "$39.99"
       }
     },
     "6450622635::Pro Membership": {
@@ -38632,7 +38633,7 @@
       "first_date": "2026-10-23",
       "first_price": "$3.99",
       "last_date": "2026-10-27",
-      "last_price": "$3.99",
+      "last_price": "$14.99",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
       "last_paid_date": "2026-10-27",
@@ -38642,7 +38643,7 @@
         "2026-10-24": "$14.99",
         "2026-10-25": "$14.99",
         "2026-10-26": "$14.99",
-        "2026-10-27": "$3.99"
+        "2026-10-27": "$14.99"
       }
     },
     "6813949850::Historic Haunts Pass": {
@@ -41248,7 +41249,7 @@
       "first_date": "2026-10-23",
       "first_price": "$9.99",
       "last_date": "2026-10-27",
-      "last_price": "$9.99",
+      "last_price": "$2.99",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
       "last_paid_date": "2026-10-27",
@@ -41258,7 +41259,7 @@
         "2026-10-24": "$2.99",
         "2026-10-25": "$2.99",
         "2026-10-26": "$2.99",
-        "2026-10-27": "$9.99"
+        "2026-10-27": "$2.99"
       }
     },
     "477967747::Monthly Power Fishing Package": {
@@ -51440,7 +51441,7 @@
       "region": "us",
       "first_date": "2026-10-23",
       "first_price": "$14.99",
-      "last_date": "2026-10-23",
+      "last_date": "2026-10-27",
       "last_price": "$14.99",
       "last_change_date": "2026-10-23",
       "ever_paid": true,
@@ -55749,7 +55750,7 @@
       "first_date": "2026-10-23",
       "first_price": "$9.99",
       "last_date": "2026-10-27",
-      "last_price": "$4.99",
+      "last_price": "$2.99",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
       "last_paid_date": "2026-10-27",
@@ -55759,7 +55760,7 @@
         "2026-10-24": "$2.99",
         "2026-10-25": "$2.99",
         "2026-10-26": "$4.99",
-        "2026-10-27": "$4.99"
+        "2026-10-27": "$2.99"
       }
     },
     "1455336523::Get 1 Like to find best dating": {
@@ -60837,7 +60838,7 @@
       "first_date": "2026-10-23",
       "first_price": "$37.99",
       "last_date": "2026-10-27",
-      "last_price": "$99.99",
+      "last_price": "$69.99",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
       "last_paid_date": "2026-10-27",
@@ -60847,7 +60848,7 @@
         "2026-10-24": "$69.99",
         "2026-10-25": "$69.99",
         "2026-10-26": "$69.99",
-        "2026-10-27": "$99.99"
+        "2026-10-27": "$69.99"
       }
     },
     "1009499048::1 Week, Premium Feature": {
@@ -61130,7 +61131,7 @@
       "first_date": "2026-10-23",
       "first_price": "$24.99",
       "last_date": "2026-10-27",
-      "last_price": "$19.99",
+      "last_price": "$24.99",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
       "last_paid_date": "2026-10-27",
@@ -61140,7 +61141,7 @@
         "2026-10-24": "$24.99",
         "2026-10-25": "$24.99",
         "2026-10-26": "$19.99",
-        "2026-10-27": "$19.99"
+        "2026-10-27": "$24.99"
       }
     },
     "1449170265::3 Month Membership": {
@@ -65241,7 +65242,7 @@
       "first_date": "2026-10-23",
       "first_price": "$9.99",
       "last_date": "2026-10-27",
-      "last_price": "$49.99",
+      "last_price": "$7.99",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
       "last_paid_date": "2026-10-27",
@@ -65251,7 +65252,7 @@
         "2026-10-24": "$7.99",
         "2026-10-25": "$7.99",
         "2026-10-26": "$7.99",
-        "2026-10-27": "$49.99"
+        "2026-10-27": "$7.99"
       }
     },
     "1672111368::Premium Access Weekly": {
@@ -67194,7 +67195,7 @@
       "first_date": "2026-10-23",
       "first_price": "$19.99",
       "last_date": "2026-10-27",
-      "last_price": "$29.99",
+      "last_price": "$19.99",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
       "last_paid_date": "2026-10-27",
@@ -67204,7 +67205,7 @@
         "2026-10-24": "$29.99",
         "2026-10-25": "$29.99",
         "2026-10-26": "$29.99",
-        "2026-10-27": "$29.99"
+        "2026-10-27": "$19.99"
       }
     },
     "1609983545::Annual Subscription": {
@@ -67256,7 +67257,7 @@
       "region": "us",
       "first_date": "2026-10-23",
       "first_price": "$19.99",
-      "last_date": "2026-10-26",
+      "last_date": "2026-10-27",
       "last_price": "$19.99",
       "last_change_date": "2026-10-23",
       "ever_paid": true,
@@ -67732,7 +67733,7 @@
       "first_date": "2026-10-23",
       "first_price": "$59.99",
       "last_date": "2026-10-27",
-      "last_price": "$89.99",
+      "last_price": "$29.99",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
       "last_paid_date": "2026-10-27",
@@ -67742,7 +67743,7 @@
         "2026-10-24": "$89.99",
         "2026-10-25": "$29.99",
         "2026-10-26": "$89.99",
-        "2026-10-27": "$89.99"
+        "2026-10-27": "$29.99"
       }
     },
     "6761736440::BibleWatch Premium Free Trial": {
@@ -69642,7 +69643,7 @@
       "first_date": "2026-10-23",
       "first_price": "$34.99",
       "last_date": "2026-10-27",
-      "last_price": "$19.99",
+      "last_price": "$39.99",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
       "last_paid_date": "2026-10-27",
@@ -69652,7 +69653,7 @@
         "2026-10-24": "$19.99",
         "2026-10-25": "$19.99",
         "2026-10-26": "$19.99",
-        "2026-10-27": "$19.99"
+        "2026-10-27": "$39.99"
       }
     },
     "6759298323::Sacred Premium Weekly": {
@@ -69684,13 +69685,14 @@
       "first_date": "2026-10-23",
       "first_price": "$17.99",
       "last_date": "2026-10-27",
-      "last_price": "$17.99",
-      "last_change_date": "2026-10-23",
+      "last_price": "$29.99",
+      "last_change_date": "2026-10-27",
       "ever_paid": true,
-      "last_paid_date": "2026-10-23",
+      "last_paid_date": "2026-10-27",
       "free_since": null,
       "changes": {
-        "2026-10-23": "$17.99"
+        "2026-10-23": "$17.99",
+        "2026-10-27": "$29.99"
       }
     },
     "6759298323::Sacred Premium — Monthly": {
@@ -70522,7 +70524,7 @@
       "first_date": "2026-10-23",
       "first_price": "$9.99",
       "last_date": "2026-10-27",
-      "last_price": "$9.99",
+      "last_price": "$11.99",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
       "last_paid_date": "2026-10-27",
@@ -70532,7 +70534,7 @@
         "2026-10-24": "$11.99",
         "2026-10-25": "$11.99",
         "2026-10-26": "$11.99",
-        "2026-10-27": "$9.99"
+        "2026-10-27": "$11.99"
       }
     },
     "6742785176::Lens AI: Scanner & Identifier": {
@@ -70543,7 +70545,7 @@
       "first_date": "2026-10-23",
       "first_price": "$7.99",
       "last_date": "2026-10-27",
-      "last_price": "$7.99",
+      "last_price": "$19.99",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
       "last_paid_date": "2026-10-27",
@@ -70553,7 +70555,7 @@
         "2026-10-24": "$19.99",
         "2026-10-25": "$19.99",
         "2026-10-26": "$19.99",
-        "2026-10-27": "$7.99"
+        "2026-10-27": "$19.99"
       }
     },
     "6504186647::Unlimited scans": {
@@ -70564,7 +70566,7 @@
       "first_date": "2026-10-23",
       "first_price": "$7.99",
       "last_date": "2026-10-27",
-      "last_price": "$24.99",
+      "last_price": "$5.99",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
       "last_paid_date": "2026-10-27",
@@ -70574,7 +70576,7 @@
         "2026-10-24": "$24.99",
         "2026-10-25": "$24.99",
         "2026-10-26": "$5.99",
-        "2026-10-27": "$24.99"
+        "2026-10-27": "$5.99"
       }
     },
     "6504186647::Unlimited Scans and Collections": {
@@ -78065,7 +78067,7 @@
       "first_date": "2026-10-23",
       "first_price": "$17.99",
       "last_date": "2026-10-27",
-      "last_price": "$14.99",
+      "last_price": "$17.99",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
       "last_paid_date": "2026-10-27",
@@ -78075,7 +78077,7 @@
         "2026-10-24": "$17.99",
         "2026-10-25": "$14.99",
         "2026-10-26": "$14.99",
-        "2026-10-27": "$14.99"
+        "2026-10-27": "$17.99"
       }
     },
     "6450364080::Unlimited Plan(Annually)": {
@@ -79363,7 +79365,7 @@
       "region": "us",
       "first_date": "2026-10-23",
       "first_price": "$13.99",
-      "last_date": "2026-10-26",
+      "last_date": "2026-10-27",
       "last_price": "$13.99",
       "last_change_date": "2026-10-23",
       "ever_paid": true,
@@ -81093,7 +81095,7 @@
       "first_date": "2026-10-23",
       "first_price": "$79.99",
       "last_date": "2026-10-27",
-      "last_price": "$8.99",
+      "last_price": "$9.99",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
       "last_paid_date": "2026-10-27",
@@ -81103,7 +81105,7 @@
         "2026-10-24": "$9.99",
         "2026-10-25": "$9.99",
         "2026-10-26": "$9.99",
-        "2026-10-27": "$8.99"
+        "2026-10-27": "$9.99"
       }
     },
     "6451491556::Professional": {
@@ -83810,7 +83812,7 @@
       "first_date": "2026-10-23",
       "first_price": "$49.99",
       "last_date": "2026-10-27",
-      "last_price": "$49.99",
+      "last_price": "$9.99",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
       "last_paid_date": "2026-10-27",
@@ -83820,7 +83822,7 @@
         "2026-10-24": "$9.99",
         "2026-10-25": "$9.99",
         "2026-10-26": "$9.99",
-        "2026-10-27": "$49.99"
+        "2026-10-27": "$9.99"
       }
     },
     "1527395366::PDF Extra Premium Yearly": {
@@ -87008,7 +87010,7 @@
       "first_date": "2026-10-23",
       "first_price": "$9.99",
       "last_date": "2026-10-27",
-      "last_price": "$11.99",
+      "last_price": "$7.99",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
       "last_paid_date": "2026-10-27",
@@ -87018,7 +87020,7 @@
         "2026-10-24": "$7.99",
         "2026-10-25": "$7.99",
         "2026-10-26": "$11.99",
-        "2026-10-27": "$11.99"
+        "2026-10-27": "$7.99"
       }
     },
     "6466298983::Retake Pro 1 Year": {
@@ -87640,7 +87642,7 @@
       "first_date": "2026-10-23",
       "first_price": "$14.99",
       "last_date": "2026-10-27",
-      "last_price": "$39.99",
+      "last_price": "$14.99",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
       "last_paid_date": "2026-10-27",
@@ -87648,7 +87650,7 @@
       "changes": {
         "2026-10-23": "$14.99",
         "2026-10-26": "$39.99",
-        "2026-10-27": "$39.99"
+        "2026-10-27": "$14.99"
       }
     },
     "6446202561::Gifted subscription Tier 1": {
@@ -92958,7 +92960,7 @@
       "first_date": "2026-10-23",
       "first_price": "$6.00",
       "last_date": "2026-10-27",
-      "last_price": "$36.00",
+      "last_price": "$15.00",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
       "last_paid_date": "2026-10-27",
@@ -92968,7 +92970,7 @@
         "2026-10-24": "$15.00",
         "2026-10-25": "$15.00",
         "2026-10-26": "$15.00",
-        "2026-10-27": "$36.00"
+        "2026-10-27": "$15.00"
       }
     },
     "1561622206::Persona VIP": {
@@ -92979,7 +92981,7 @@
       "first_date": "2026-10-23",
       "first_price": "$14.99",
       "last_date": "2026-10-27",
-      "last_price": "$14.99",
+      "last_price": "$57.99",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
       "last_paid_date": "2026-10-27",
@@ -92989,7 +92991,7 @@
         "2026-10-24": "$57.99",
         "2026-10-25": "$57.99",
         "2026-10-26": "$57.99",
-        "2026-10-27": "$14.99"
+        "2026-10-27": "$57.99"
       }
     },
     "1561622206::Monthly Subscription": {
@@ -93051,7 +93053,7 @@
       "first_date": "2026-10-23",
       "first_price": "$12.99",
       "last_date": "2026-10-27",
-      "last_price": "$15.99",
+      "last_price": "$9.99",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
       "last_paid_date": "2026-10-27",
@@ -93061,7 +93063,7 @@
         "2026-10-24": "$15.99",
         "2026-10-25": "$15.99",
         "2026-10-26": "$15.99",
-        "2026-10-27": "$15.99"
+        "2026-10-27": "$9.99"
       }
     },
     "1540719743::Premium Cartoon Filter": {
@@ -93518,7 +93520,7 @@
       "first_date": "2026-10-23",
       "first_price": "$9.99",
       "last_date": "2026-10-27",
-      "last_price": "$29.99",
+      "last_price": "$19.99",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
       "last_paid_date": "2026-10-27",
@@ -93528,7 +93530,7 @@
         "2026-10-24": "$29.99",
         "2026-10-25": "$29.99",
         "2026-10-26": "$29.99",
-        "2026-10-27": "$29.99"
+        "2026-10-27": "$19.99"
       }
     },
     "1580668065::Ism - Premium Weekly": {
@@ -97033,7 +97035,7 @@
       "first_date": "2026-10-23",
       "first_price": "$32.99",
       "last_date": "2026-10-27",
-      "last_price": "$44.99",
+      "last_price": "$39.99",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
       "last_paid_date": "2026-10-27",
@@ -97043,7 +97045,7 @@
         "2026-10-24": "$39.99",
         "2026-10-25": "$39.99",
         "2026-10-26": "$39.99",
-        "2026-10-27": "$44.99"
+        "2026-10-27": "$39.99"
       }
     },
     "364387007::WSJ Twelve Month Subscription": {
@@ -99444,7 +99446,7 @@
       "first_date": "2026-10-23",
       "first_price": "$9.99",
       "last_date": "2026-10-27",
-      "last_price": "$3.99",
+      "last_price": "$109.99",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
       "last_paid_date": "2026-10-27",
@@ -99454,7 +99456,7 @@
         "2026-10-24": "$109.99",
         "2026-10-25": "$3.99",
         "2026-10-26": "$3.99",
-        "2026-10-27": "$3.99"
+        "2026-10-27": "$109.99"
       }
     },
     "294047850::Offre Duo": {
@@ -99465,15 +99467,16 @@
       "first_date": "2026-10-23",
       "first_price": "$19.99",
       "last_date": "2026-10-27",
-      "last_price": "$19.99",
-      "last_change_date": "2026-10-25",
+      "last_price": "$23.49",
+      "last_change_date": "2026-10-27",
       "ever_paid": true,
-      "last_paid_date": "2026-10-25",
+      "last_paid_date": "2026-10-27",
       "free_since": null,
       "changes": {
         "2026-10-23": "$23.49",
         "2026-10-24": "$23.49",
-        "2026-10-25": "$19.99"
+        "2026-10-25": "$19.99",
+        "2026-10-27": "$23.49"
       }
     },
     "294047850::Offre Essentiel Promo": {
@@ -100883,7 +100886,7 @@
       "first_date": "2026-10-23",
       "first_price": "$69.99",
       "last_date": "2026-10-27",
-      "last_price": "$19.99",
+      "last_price": "$69.99",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
       "last_paid_date": "2026-10-27",
@@ -100893,7 +100896,7 @@
         "2026-10-24": "$19.99",
         "2026-10-25": "$19.99",
         "2026-10-26": "$19.99",
-        "2026-10-27": "$19.99"
+        "2026-10-27": "$69.99"
       }
     },
     "904391210::Ad-Free Monthly": {
@@ -104230,7 +104233,7 @@
       "first_date": "2026-10-23",
       "first_price": "$24.99",
       "last_date": "2026-10-27",
-      "last_price": "$24.99",
+      "last_price": "$69.99",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
       "last_paid_date": "2026-10-27",
@@ -104239,7 +104242,7 @@
         "2026-10-23": "$69.99",
         "2026-10-24": "$69.99",
         "2026-10-25": "$69.99",
-        "2026-10-27": "$24.99"
+        "2026-10-27": "$69.99"
       }
     },
     "1072821501::Monthly Digital Rate": {
@@ -104250,7 +104253,7 @@
       "first_date": "2026-10-23",
       "first_price": "$19.99",
       "last_date": "2026-10-27",
-      "last_price": "$19.99",
+      "last_price": "$24.99",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
       "last_paid_date": "2026-10-27",
@@ -104259,7 +104262,7 @@
         "2026-10-23": "$24.99",
         "2026-10-24": "$24.99",
         "2026-10-25": "$24.99",
-        "2026-10-27": "$19.99"
+        "2026-10-27": "$24.99"
       }
     },
     "1072821501::Monthly Digital Subscription": {
@@ -105496,7 +105499,7 @@
       "region": "us",
       "first_date": "2026-10-23",
       "first_price": "$2.99",
-      "last_date": "2026-10-24",
+      "last_date": "2026-10-27",
       "last_price": "$2.99",
       "last_change_date": "2026-10-23",
       "ever_paid": true,
@@ -105598,7 +105601,7 @@
       "region": "us",
       "first_date": "2026-10-23",
       "first_price": "$12.99",
-      "last_date": "2026-10-26",
+      "last_date": "2026-10-27",
       "last_price": "$12.99",
       "last_change_date": "2026-10-23",
       "ever_paid": true,
@@ -107660,13 +107663,14 @@
       "first_date": "2026-10-25",
       "first_price": "$0.00",
       "last_date": "2026-10-27",
-      "last_price": "$0.00",
-      "last_change_date": "2026-10-25",
-      "ever_paid": false,
-      "last_paid_date": null,
+      "last_price": "$19.99",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
       "free_since": null,
       "changes": {
-        "2026-10-25": "$0.00"
+        "2026-10-25": "$0.00",
+        "2026-10-27": "$19.99"
       }
     },
     "6756910810::Monthly Pro": {
@@ -108121,13 +108125,14 @@
       "first_date": "2026-10-25",
       "first_price": "$0.00",
       "last_date": "2026-10-27",
-      "last_price": "$0.00",
-      "last_change_date": "2026-10-25",
-      "ever_paid": false,
-      "last_paid_date": null,
+      "last_price": "$24.99",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
       "free_since": null,
       "changes": {
-        "2026-10-25": "$0.00"
+        "2026-10-25": "$0.00",
+        "2026-10-27": "$24.99"
       }
     },
     "6772943882::Capture Unlock": {
@@ -109148,13 +109153,14 @@
       "first_date": "2026-10-26",
       "first_price": "$0.00",
       "last_date": "2026-10-27",
-      "last_price": "$0.00",
-      "last_change_date": "2026-10-26",
-      "ever_paid": false,
-      "last_paid_date": null,
+      "last_price": "$24.99",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
       "free_since": null,
       "changes": {
-        "2026-10-26": "$0.00"
+        "2026-10-26": "$0.00",
+        "2026-10-27": "$24.99"
       }
     },
     "6756211777::Pro Member - Lifetime": {
@@ -109216,13 +109222,14 @@
       "first_date": "2026-10-26",
       "first_price": "$0.00",
       "last_date": "2026-10-27",
-      "last_price": "$0.00",
-      "last_change_date": "2026-10-26",
-      "ever_paid": false,
-      "last_paid_date": null,
+      "last_price": "$14.99",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
       "free_since": null,
       "changes": {
-        "2026-10-26": "$0.00"
+        "2026-10-26": "$0.00",
+        "2026-10-27": "$14.99"
       }
     },
     "6768885559::YearlyPro": {
@@ -109659,14 +109666,14 @@
       "first_date": "2026-10-26",
       "first_price": "$1.99",
       "last_date": "2026-10-27",
-      "last_price": "$9.99",
+      "last_price": "$1.99",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
       "last_paid_date": "2026-10-27",
       "free_since": null,
       "changes": {
         "2026-10-26": "$9.99",
-        "2026-10-27": "$9.99"
+        "2026-10-27": "$1.99"
       }
     },
     "6742738427::Crossword Player Premium": {
@@ -110000,13 +110007,14 @@
       "first_date": "2026-10-26",
       "first_price": "$0.00",
       "last_date": "2026-10-27",
-      "last_price": "$0.00",
-      "last_change_date": "2026-10-26",
-      "ever_paid": false,
-      "last_paid_date": null,
+      "last_price": "$1.99",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
       "free_since": null,
       "changes": {
-        "2026-10-26": "$0.00"
+        "2026-10-26": "$0.00",
+        "2026-10-27": "$1.99"
       }
     },
     "6761884516::Lifetime": {
@@ -113718,13 +113726,13 @@
       "first_date": "2026-10-27",
       "first_price": "$39.99",
       "last_date": "2026-10-27",
-      "last_price": "$59.99",
+      "last_price": "$79.99",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
       "last_paid_date": "2026-10-27",
       "free_since": null,
       "changes": {
-        "2026-10-27": "$59.99"
+        "2026-10-27": "$79.99"
       }
     },
     "1562873100::Outfitter Subscription": {
@@ -117798,13 +117806,13 @@
       "first_date": "2026-10-27",
       "first_price": "$29.90",
       "last_date": "2026-10-27",
-      "last_price": "$35.90",
+      "last_price": "$34.49",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
       "last_paid_date": "2026-10-27",
       "free_since": null,
       "changes": {
-        "2026-10-27": "$35.90"
+        "2026-10-27": "$34.49"
       }
     },
     "1614144883::Monthly Subscription": {
@@ -118665,13 +118673,13 @@
       "first_date": "2026-10-27",
       "first_price": "$54.99",
       "last_date": "2026-10-27",
-      "last_price": "$56.99",
+      "last_price": "$54.99",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
       "last_paid_date": "2026-10-27",
       "free_since": null,
       "changes": {
-        "2026-10-27": "$56.99"
+        "2026-10-27": "$54.99"
       }
     },
     "625759466::Bikemap Premium Yearly": {
@@ -118682,13 +118690,13 @@
       "first_date": "2026-10-27",
       "first_price": "$34.99",
       "last_date": "2026-10-27",
-      "last_price": "$34.99",
+      "last_price": "$59.99",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
       "last_paid_date": "2026-10-27",
       "free_since": null,
       "changes": {
-        "2026-10-27": "$34.99"
+        "2026-10-27": "$59.99"
       }
     },
     "625759466::Bikemap Premium Quarterly": {
@@ -124224,13 +124232,13 @@
       "first_date": "2026-10-27",
       "first_price": "$47.99",
       "last_date": "2026-10-27",
-      "last_price": "$49.99",
+      "last_price": "$29.99",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
       "last_paid_date": "2026-10-27",
       "free_since": null,
       "changes": {
-        "2026-10-27": "$49.99"
+        "2026-10-27": "$29.99"
       }
     },
     "6471041035::Moongate Premium Monthly": {
@@ -124972,13 +124980,13 @@
       "first_date": "2026-10-27",
       "first_price": "$6.99",
       "last_date": "2026-10-27",
-      "last_price": "$4.99",
+      "last_price": "$14.99",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
       "last_paid_date": "2026-10-27",
       "free_since": null,
       "changes": {
-        "2026-10-27": "$4.99"
+        "2026-10-27": "$14.99"
       }
     },
     "6749384181::AutoChord - Premium Chords": {
@@ -125142,13 +125150,13 @@
       "first_date": "2026-10-27",
       "first_price": "$4.99",
       "last_date": "2026-10-27",
-      "last_price": "$4.99",
+      "last_price": "$8.99",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
       "last_paid_date": "2026-10-27",
       "free_since": null,
       "changes": {
-        "2026-10-27": "$4.99"
+        "2026-10-27": "$8.99"
       }
     },
     "1438248122::Yearly Special Premium": {
@@ -125193,13 +125201,13 @@
       "first_date": "2026-10-27",
       "first_price": "$49.99",
       "last_date": "2026-10-27",
-      "last_price": "$49.99",
+      "last_price": "$6.99",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
       "last_paid_date": "2026-10-27",
       "free_since": null,
       "changes": {
-        "2026-10-27": "$49.99"
+        "2026-10-27": "$6.99"
       }
     },
     "1438248122::Premium": {
@@ -125210,13 +125218,13 @@
       "first_date": "2026-10-27",
       "first_price": "$99.99",
       "last_date": "2026-10-27",
-      "last_price": "$79.99",
+      "last_price": "$7.99",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
       "last_paid_date": "2026-10-27",
       "free_since": null,
       "changes": {
-        "2026-10-27": "$79.99"
+        "2026-10-27": "$7.99"
       }
     },
     "1488977981::Sonos Radio HD Monthly": {
@@ -125414,13 +125422,13 @@
       "first_date": "2026-10-27",
       "first_price": "$59.99",
       "last_date": "2026-10-27",
-      "last_price": "$49.99",
+      "last_price": "$39.99",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
       "last_paid_date": "2026-10-27",
       "free_since": null,
       "changes": {
-        "2026-10-27": "$49.99"
+        "2026-10-27": "$39.99"
       }
     },
     "6499126830::Voice mode": {
@@ -129222,13 +129230,13 @@
       "first_date": "2026-10-27",
       "first_price": "$27.00",
       "last_date": "2026-10-27",
-      "last_price": "$30.00",
+      "last_price": "$27.00",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
       "last_paid_date": "2026-10-27",
       "free_since": null,
       "changes": {
-        "2026-10-27": "$30.00"
+        "2026-10-27": "$27.00"
       }
     },
     "6677033144::Yearly Pro plan": {
@@ -135665,13 +135673,13 @@
       "first_date": "2026-10-27",
       "first_price": "$9.99",
       "last_date": "2026-10-27",
-      "last_price": "$9.99",
+      "last_price": "$8.49",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
       "last_paid_date": "2026-10-27",
       "free_since": null,
       "changes": {
-        "2026-10-27": "$9.99"
+        "2026-10-27": "$8.49"
       }
     },
     "1669041518::Weekly Subscription 6.99": {
@@ -144182,13 +144190,13 @@
       "first_date": "2026-10-27",
       "first_price": "$79.99",
       "last_date": "2026-10-27",
-      "last_price": "$14.99",
+      "last_price": "$29.99",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
       "last_paid_date": "2026-10-27",
       "free_since": null,
       "changes": {
-        "2026-10-27": "$14.99"
+        "2026-10-27": "$29.99"
       }
     },
     "571800810::Calm Subscription": {
@@ -144641,13 +144649,13 @@
       "first_date": "2026-10-27",
       "first_price": "$94.99",
       "last_date": "2026-10-27",
-      "last_price": "$12.99",
+      "last_price": "$69.99",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
       "last_paid_date": "2026-10-27",
       "free_since": null,
       "changes": {
-        "2026-10-27": "$12.99"
+        "2026-10-27": "$69.99"
       }
     },
     "337472899::Insight Premium Meditation": {
@@ -145865,13 +145873,13 @@
       "first_date": "2026-10-27",
       "first_price": "$20.49",
       "last_date": "2026-10-27",
-      "last_price": "$37.99",
+      "last_price": "$28.49",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
       "last_paid_date": "2026-10-27",
       "free_since": null,
       "changes": {
-        "2026-10-27": "$37.99"
+        "2026-10-27": "$28.49"
       }
     },
     "1279295922::Premom": {
@@ -145899,13 +145907,13 @@
       "first_date": "2026-10-27",
       "first_price": "$26.99",
       "last_date": "2026-10-27",
-      "last_price": "$9.99",
+      "last_price": "$20.49",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
       "last_paid_date": "2026-10-27",
       "free_since": null,
       "changes": {
-        "2026-10-27": "$9.99"
+        "2026-10-27": "$20.49"
       }
     },
     "1279295922::Premom Fertility Tracker": {
@@ -147327,13 +147335,13 @@
       "first_date": "2026-10-27",
       "first_price": "$32.99",
       "last_date": "2026-10-27",
-      "last_price": "$23.90",
+      "last_price": "$19.99",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
       "last_paid_date": "2026-10-27",
       "free_since": null,
       "changes": {
-        "2026-10-27": "$23.90"
+        "2026-10-27": "$19.99"
       }
     },
     "1037595083::StepsApp Pedometer Pro": {
@@ -148959,13 +148967,13 @@
       "first_date": "2026-10-27",
       "first_price": "$39.99",
       "last_date": "2026-10-27",
-      "last_price": "$39.99",
+      "last_price": "$19.99",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
       "last_paid_date": "2026-10-27",
       "free_since": null,
       "changes": {
-        "2026-10-27": "$39.99"
+        "2026-10-27": "$19.99"
       }
     },
     "1083248251::Premium (Weekly)": {
@@ -153753,13 +153761,13 @@
       "first_date": "2026-10-27",
       "first_price": "$5.99",
       "last_date": "2026-10-27",
-      "last_price": "$3.99",
+      "last_price": "$7.99",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
       "last_paid_date": "2026-10-27",
       "free_since": null,
       "changes": {
-        "2026-10-27": "$3.99"
+        "2026-10-27": "$7.99"
       }
     },
     "1444761746::RFS Pro (1 year)": {
@@ -164242,13 +164250,13 @@
       "first_date": "2026-10-27",
       "first_price": "$2.99",
       "last_date": "2026-10-27",
-      "last_price": "$4.99",
+      "last_price": "$0.99",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
       "last_paid_date": "2026-10-27",
       "free_since": null,
       "changes": {
-        "2026-10-27": "$4.99"
+        "2026-10-27": "$0.99"
       }
     },
     "1484468651::Special Offer": {
@@ -177621,13 +177629,13 @@
       "first_date": "2026-10-27",
       "first_price": "$8.99",
       "last_date": "2026-10-27",
-      "last_price": "$8.99",
+      "last_price": "$19.99",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
       "last_paid_date": "2026-10-27",
       "free_since": null,
       "changes": {
-        "2026-10-27": "$8.99"
+        "2026-10-27": "$19.99"
       }
     },
     "1525179720::Budget Premium Monthly": {
@@ -177655,13 +177663,13 @@
       "first_date": "2026-10-27",
       "first_price": "$6.99",
       "last_date": "2026-10-27",
-      "last_price": "$6.99",
+      "last_price": "$14.99",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
       "last_paid_date": "2026-10-27",
       "free_since": null,
       "changes": {
-        "2026-10-27": "$6.99"
+        "2026-10-27": "$14.99"
       }
     },
     "1525179720::Family Premium": {
@@ -177672,13 +177680,13 @@
       "first_date": "2026-10-27",
       "first_price": "$14.99",
       "last_date": "2026-10-27",
-      "last_price": "$14.99",
+      "last_price": "$29.99",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
       "last_paid_date": "2026-10-27",
       "free_since": null,
       "changes": {
-        "2026-10-27": "$14.99"
+        "2026-10-27": "$29.99"
       }
     },
     "1525179720::Lifetime Premium Sale": {
@@ -186036,13 +186044,13 @@
       "first_date": "2026-10-27",
       "first_price": "$3.49",
       "last_date": "2026-10-27",
-      "last_price": "$19.99",
+      "last_price": "$24.99",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
       "last_paid_date": "2026-10-27",
       "free_since": null,
       "changes": {
-        "2026-10-27": "$19.99"
+        "2026-10-27": "$24.99"
       }
     },
     "879915134::VIP": {
@@ -187634,13 +187642,13 @@
       "first_date": "2026-10-27",
       "first_price": "$39.99",
       "last_date": "2026-10-27",
-      "last_price": "$39.99",
+      "last_price": "$25.99",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
       "last_paid_date": "2026-10-27",
       "free_since": null,
       "changes": {
-        "2026-10-27": "$39.99"
+        "2026-10-27": "$25.99"
       }
     },
     "6514312894::pay $19.99": {
@@ -195335,13 +195343,13 @@
       "first_date": "2026-10-27",
       "first_price": "$9.99",
       "last_date": "2026-10-27",
-      "last_price": "$39.99",
+      "last_price": "$5.99",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
       "last_paid_date": "2026-10-27",
       "free_since": null,
       "changes": {
-        "2026-10-27": "$39.99"
+        "2026-10-27": "$5.99"
       }
     },
     "1508098273::Keiki World - 7 Days Trial": {
@@ -196253,13 +196261,13 @@
       "first_date": "2026-10-27",
       "first_price": "$69.99",
       "last_date": "2026-10-27",
-      "last_price": "$29.99",
+      "last_price": "$119.99",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
       "last_paid_date": "2026-10-27",
       "free_since": null,
       "changes": {
-        "2026-10-27": "$29.99"
+        "2026-10-27": "$119.99"
       }
     },
     "1445023295::Pro Monthly Subscription": {
@@ -196916,13 +196924,13 @@
       "first_date": "2026-10-27",
       "first_price": "$14.99",
       "last_date": "2026-10-27",
-      "last_price": "$9.99",
+      "last_price": "$14.99",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
       "last_paid_date": "2026-10-27",
       "free_since": null,
       "changes": {
-        "2026-10-27": "$9.99"
+        "2026-10-27": "$14.99"
       }
     },
     "6736654449::Annual Subscription": {
@@ -197902,13 +197910,13 @@
       "first_date": "2026-10-27",
       "first_price": "$149.99",
       "last_date": "2026-10-27",
-      "last_price": "$148.99",
+      "last_price": "$159.99",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
       "last_paid_date": "2026-10-27",
       "free_since": null,
       "changes": {
-        "2026-10-27": "$148.99"
+        "2026-10-27": "$159.99"
       }
     },
     "1553283646::Expert Monthly Plan": {
@@ -198072,13 +198080,13 @@
       "first_date": "2026-10-27",
       "first_price": "$29.99",
       "last_date": "2026-10-27",
-      "last_price": "$5.99",
+      "last_price": "$19.99",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
       "last_paid_date": "2026-10-27",
       "free_since": null,
       "changes": {
-        "2026-10-27": "$5.99"
+        "2026-10-27": "$19.99"
       }
     },
     "1474578078::No Ads": {
@@ -201353,13 +201361,13 @@
       "first_date": "2026-10-27",
       "first_price": "$19.99",
       "last_date": "2026-10-27",
-      "last_price": "$34.99",
+      "last_price": "$29.99",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
       "last_paid_date": "2026-10-27",
       "free_since": null,
       "changes": {
-        "2026-10-27": "$34.99"
+        "2026-10-27": "$29.99"
       }
     },
     "1599756543::Ad Free 24 hours": {
@@ -201387,13 +201395,13 @@
       "first_date": "2026-10-27",
       "first_price": "$6.99",
       "last_date": "2026-10-27",
-      "last_price": "$7.99",
+      "last_price": "$5.99",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
       "last_paid_date": "2026-10-27",
       "free_since": null,
       "changes": {
-        "2026-10-27": "$7.99"
+        "2026-10-27": "$5.99"
       }
     },
     "1599756543::Monthly Subscription": {
@@ -201421,13 +201429,13 @@
       "first_date": "2026-10-27",
       "first_price": "$59.99",
       "last_date": "2026-10-27",
-      "last_price": "$79.99",
+      "last_price": "$39.99",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
       "last_paid_date": "2026-10-27",
       "free_since": null,
       "changes": {
-        "2026-10-27": "$79.99"
+        "2026-10-27": "$39.99"
       }
     },
     "1599756543::Full Access": {
@@ -201438,13 +201446,13 @@
       "first_date": "2026-10-27",
       "first_price": "$12.99",
       "last_date": "2026-10-27",
-      "last_price": "$12.99",
+      "last_price": "$6.99",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
       "last_paid_date": "2026-10-27",
       "free_since": null,
       "changes": {
-        "2026-10-27": "$12.99"
+        "2026-10-27": "$6.99"
       }
     },
     "395149950::Online Sharing Std (Monthly)": {
@@ -210006,13 +210014,13 @@
       "first_date": "2026-10-27",
       "first_price": "$6.99",
       "last_date": "2026-10-27",
-      "last_price": "$6.99",
+      "last_price": "$8.29",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
       "last_paid_date": "2026-10-27",
       "free_since": null,
       "changes": {
-        "2026-10-27": "$6.99"
+        "2026-10-27": "$8.29"
       }
     },
     "876336838::118喜点": {
@@ -210057,13 +210065,13 @@
       "first_date": "2026-10-27",
       "first_price": "$29.99",
       "last_date": "2026-10-27",
-      "last_price": "$29.99",
+      "last_price": "$36.49",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
       "last_paid_date": "2026-10-27",
       "free_since": null,
       "changes": {
-        "2026-10-27": "$29.99"
+        "2026-10-27": "$36.49"
       }
     },
     "876336838::18喜点": {
@@ -221481,13 +221489,13 @@
       "first_date": "2026-10-27",
       "first_price": "$2.99",
       "last_date": "2026-10-27",
-      "last_price": "$24.99",
+      "last_price": "$49.99",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
       "last_paid_date": "2026-10-27",
       "free_since": null,
       "changes": {
-        "2026-10-27": "$24.99"
+        "2026-10-27": "$49.99"
       }
     },
     "428498721::January 2013(ID:663721)": {
@@ -226887,13 +226895,13 @@
       "first_date": "2026-10-27",
       "first_price": "$9.99",
       "last_date": "2026-10-27",
-      "last_price": "$9.99",
+      "last_price": "$99.99",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
       "last_paid_date": "2026-10-27",
       "free_since": null,
       "changes": {
-        "2026-10-27": "$9.99"
+        "2026-10-27": "$99.99"
       }
     },
     "284815942::200 GB": {
@@ -226938,13 +226946,13 @@
       "first_date": "2026-10-27",
       "first_price": "$4.99",
       "last_date": "2026-10-27",
-      "last_price": "$49.99",
+      "last_price": "$4.99",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
       "last_paid_date": "2026-10-27",
       "free_since": null,
       "changes": {
-        "2026-10-27": "$49.99"
+        "2026-10-27": "$4.99"
       }
     },
     "284815942::30 GB": {
@@ -226972,13 +226980,13 @@
       "first_date": "2026-10-27",
       "first_price": "$1.99",
       "last_date": "2026-10-27",
-      "last_price": "$1.99",
+      "last_price": "$19.99",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
       "last_paid_date": "2026-10-27",
       "free_since": null,
       "changes": {
-        "2026-10-27": "$1.99"
+        "2026-10-27": "$19.99"
       }
     },
     "585027354::200 GB": {
@@ -228026,13 +228034,13 @@
       "first_date": "2026-10-27",
       "first_price": "$9.99",
       "last_date": "2026-10-27",
-      "last_price": "$9.99",
+      "last_price": "$11.99",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
       "last_paid_date": "2026-10-27",
       "free_since": null,
       "changes": {
-        "2026-10-27": "$9.99"
+        "2026-10-27": "$11.99"
       }
     },
     "1200318119::Pro Version": {
@@ -315243,6 +315251,1366 @@
       "free_since": null,
       "changes": {
         "2026-10-27": "$4.99"
+      }
+    },
+    "1555459868::Buy the devs a coffee": {
+      "app_id": "1555459868",
+      "app_name": "Dawncaster: Deckbuilding RPG",
+      "name": "Buy the devs a coffee",
+      "region": "us",
+      "first_date": "2026-10-27",
+      "first_price": "$4.99",
+      "last_date": "2026-10-27",
+      "last_price": "$4.99",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
+      "free_since": null,
+      "changes": {
+        "2026-10-27": "$4.99"
+      }
+    },
+    "1555459868::Infinitum Support Banner": {
+      "app_id": "1555459868",
+      "app_name": "Dawncaster: Deckbuilding RPG",
+      "name": "Infinitum Support Banner",
+      "region": "us",
+      "first_date": "2026-10-27",
+      "first_price": "$3.99",
+      "last_date": "2026-10-27",
+      "last_price": "$3.99",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
+      "free_since": null,
+      "changes": {
+        "2026-10-27": "$3.99"
+      }
+    },
+    "1555459868::Catalyst Support Pack": {
+      "app_id": "1555459868",
+      "app_name": "Dawncaster: Deckbuilding RPG",
+      "name": "Catalyst Support Pack",
+      "region": "us",
+      "first_date": "2026-10-27",
+      "first_price": "$4.99",
+      "last_date": "2026-10-27",
+      "last_price": "$4.99",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
+      "free_since": null,
+      "changes": {
+        "2026-10-27": "$4.99"
+      }
+    },
+    "6450370964::RainDrop Premium Yearly": {
+      "app_id": "6450370964",
+      "app_name": "RainDrop - Rain Totals & Radar",
+      "name": "RainDrop Premium Yearly",
+      "region": "us",
+      "first_date": "2026-10-27",
+      "first_price": "$99.99",
+      "last_date": "2026-10-27",
+      "last_price": "$99.99",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
+      "free_since": null,
+      "changes": {
+        "2026-10-27": "$99.99"
+      }
+    },
+    "6504182653::Annual Premium Offer": {
+      "app_id": "6504182653",
+      "app_name": "UniRemote：Universal TV Remote",
+      "name": "Annual Premium Offer",
+      "region": "us",
+      "first_date": "2026-10-27",
+      "first_price": "$29.99",
+      "last_date": "2026-10-27",
+      "last_price": "$29.99",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
+      "free_since": null,
+      "changes": {
+        "2026-10-27": "$29.99"
+      }
+    },
+    "1485509764::StoryReports Yearly Service": {
+      "app_id": "1485509764",
+      "app_name": "Reports+ for Followers Tracker",
+      "name": "StoryReports Yearly Service",
+      "region": "us",
+      "first_date": "2026-10-27",
+      "first_price": "$19.99",
+      "last_date": "2026-10-27",
+      "last_price": "$19.99",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
+      "free_since": null,
+      "changes": {
+        "2026-10-27": "$19.99"
+      }
+    },
+    "580791793::InTune Double Bass Add-on": {
+      "app_id": "580791793",
+      "app_name": "InTune – Tuning Practice",
+      "name": "InTune Double Bass Add-on",
+      "region": "us",
+      "first_date": "2026-10-27",
+      "first_price": "$0.99",
+      "last_date": "2026-10-27",
+      "last_price": "$0.99",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
+      "free_since": null,
+      "changes": {
+        "2026-10-27": "$0.99"
+      }
+    },
+    "6447001239::Proof of Creation": {
+      "app_id": "6447001239",
+      "app_name": "MyTunes : AI Music Generator",
+      "name": "Proof of Creation",
+      "region": "us",
+      "first_date": "2026-10-27",
+      "first_price": "$16.99",
+      "last_date": "2026-10-27",
+      "last_price": "$16.99",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
+      "free_since": null,
+      "changes": {
+        "2026-10-27": "$16.99"
+      }
+    },
+    "1438248122::Tuner Premium Pass.": {
+      "app_id": "1438248122",
+      "app_name": "Tuner Pro: Guitar Tuner & Tab",
+      "name": "Tuner Premium Pass.",
+      "region": "us",
+      "first_date": "2026-10-27",
+      "first_price": "$7.99",
+      "last_date": "2026-10-27",
+      "last_price": "$7.99",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
+      "free_since": null,
+      "changes": {
+        "2026-10-27": "$7.99"
+      }
+    },
+    "1438248122::Weekly premium pass": {
+      "app_id": "1438248122",
+      "app_name": "Tuner Pro: Guitar Tuner & Tab",
+      "name": "Weekly premium pass",
+      "region": "us",
+      "first_date": "2026-10-27",
+      "first_price": "$7.99",
+      "last_date": "2026-10-27",
+      "last_price": "$7.99",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
+      "free_since": null,
+      "changes": {
+        "2026-10-27": "$7.99"
+      }
+    },
+    "1438248122::Annually Premium Pass.": {
+      "app_id": "1438248122",
+      "app_name": "Tuner Pro: Guitar Tuner & Tab",
+      "name": "Annually Premium Pass.",
+      "region": "us",
+      "first_date": "2026-10-27",
+      "first_price": "$49.99",
+      "last_date": "2026-10-27",
+      "last_price": "$49.99",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
+      "free_since": null,
+      "changes": {
+        "2026-10-27": "$49.99"
+      }
+    },
+    "1438248122::Weekly Premium Pass.": {
+      "app_id": "1438248122",
+      "app_name": "Tuner Pro: Guitar Tuner & Tab",
+      "name": "Weekly Premium Pass.",
+      "region": "us",
+      "first_date": "2026-10-27",
+      "first_price": "$4.99",
+      "last_date": "2026-10-27",
+      "last_price": "$4.99",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
+      "free_since": null,
+      "changes": {
+        "2026-10-27": "$4.99"
+      }
+    },
+    "6499126830::Weekly subscription": {
+      "app_id": "6499126830",
+      "app_name": "AI Music Video Generator・Shoom",
+      "name": "Weekly subscription",
+      "region": "us",
+      "first_date": "2026-10-27",
+      "first_price": "$9.99",
+      "last_date": "2026-10-27",
+      "last_price": "$6.99",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
+      "free_since": null,
+      "changes": {
+        "2026-10-27": "$6.99"
+      }
+    },
+    "6499126830::Weekly access": {
+      "app_id": "6499126830",
+      "app_name": "AI Music Video Generator・Shoom",
+      "name": "Weekly access",
+      "region": "us",
+      "first_date": "2026-10-27",
+      "first_price": "$5.99",
+      "last_date": "2026-10-27",
+      "last_price": "$6.99",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
+      "free_since": null,
+      "changes": {
+        "2026-10-27": "$6.99"
+      }
+    },
+    "6499126830::1 Generation": {
+      "app_id": "6499126830",
+      "app_name": "AI Music Video Generator・Shoom",
+      "name": "1 Generation",
+      "region": "us",
+      "first_date": "2026-10-27",
+      "first_price": "$1.99",
+      "last_date": "2026-10-27",
+      "last_price": "$1.99",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
+      "free_since": null,
+      "changes": {
+        "2026-10-27": "$1.99"
+      }
+    },
+    "6499126830::20 Generations": {
+      "app_id": "6499126830",
+      "app_name": "AI Music Video Generator・Shoom",
+      "name": "20 Generations",
+      "region": "us",
+      "first_date": "2026-10-27",
+      "first_price": "$19.99",
+      "last_date": "2026-10-27",
+      "last_price": "$19.99",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
+      "free_since": null,
+      "changes": {
+        "2026-10-27": "$19.99"
+      }
+    },
+    "6499261254::230 credits": {
+      "app_id": "6499261254",
+      "app_name": "AI Song Generator - Zona",
+      "name": "230 credits",
+      "region": "us",
+      "first_date": "2026-10-27",
+      "first_price": "$14.99",
+      "last_date": "2026-10-27",
+      "last_price": "$14.99",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
+      "free_since": null,
+      "changes": {
+        "2026-10-27": "$14.99"
+      }
+    },
+    "6736849866::Annually Premium FreeTrial": {
+      "app_id": "6736849866",
+      "app_name": "Rythmix - AI Music Generator",
+      "name": "Annually Premium FreeTrial",
+      "region": "us",
+      "first_date": "2026-10-27",
+      "first_price": "$69.99",
+      "last_date": "2026-10-27",
+      "last_price": "$69.99",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
+      "free_since": null,
+      "changes": {
+        "2026-10-27": "$69.99"
+      }
+    },
+    "6677033144::4,000 Gold": {
+      "app_id": "6677033144",
+      "app_name": "Mureka: AI Radio & Music Maker",
+      "name": "4,000 Gold",
+      "region": "us",
+      "first_date": "2026-10-27",
+      "first_price": "$18.00",
+      "last_date": "2026-10-27",
+      "last_price": "$18.00",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
+      "free_since": null,
+      "changes": {
+        "2026-10-27": "$18.00"
+      }
+    },
+    "1596495598::Stemz Pro Weekly": {
+      "app_id": "1596495598",
+      "app_name": "Stemz: remover vocal audio pro",
+      "name": "Stemz Pro Weekly",
+      "region": "us",
+      "first_date": "2026-10-27",
+      "first_price": "$9.99",
+      "last_date": "2026-10-27",
+      "last_price": "$9.99",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
+      "free_since": null,
+      "changes": {
+        "2026-10-27": "$9.99"
+      }
+    },
+    "606173978::Full catalog access for 1 year": {
+      "app_id": "606173978",
+      "app_name": "Planner 5D: AI Home Design",
+      "name": "Full catalog access for 1 year",
+      "region": "us",
+      "first_date": "2026-10-27",
+      "first_price": "$15.99",
+      "last_date": "2026-10-27",
+      "last_price": "$15.99",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
+      "free_since": null,
+      "changes": {
+        "2026-10-27": "$15.99"
+      }
+    },
+    "6475792735::NymphX 3 Months": {
+      "app_id": "6475792735",
+      "app_name": "Nymph: Open-Minded Dating App",
+      "name": "NymphX 3 Months",
+      "region": "us",
+      "first_date": "2026-10-27",
+      "first_price": "$59.90",
+      "last_date": "2026-10-27",
+      "last_price": "$59.90",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
+      "free_since": null,
+      "changes": {
+        "2026-10-27": "$59.90"
+      }
+    },
+    "1037595083::Premium Yearly": {
+      "app_id": "1037595083",
+      "app_name": "StepsApp Pedometer",
+      "name": "Premium Yearly",
+      "region": "us",
+      "first_date": "2026-10-27",
+      "first_price": "$29.99",
+      "last_date": "2026-10-27",
+      "last_price": "$29.99",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
+      "free_since": null,
+      "changes": {
+        "2026-10-27": "$29.99"
+      }
+    },
+    "1636176641::6 Months": {
+      "app_id": "1636176641",
+      "app_name": "Pulsetto Wellness",
+      "name": "6 Months",
+      "region": "us",
+      "first_date": "2026-10-27",
+      "first_price": "$69.99",
+      "last_date": "2026-10-27",
+      "last_price": "$69.99",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
+      "free_since": null,
+      "changes": {
+        "2026-10-27": "$69.99"
+      }
+    },
+    "1574460221::JustFit Yearly VIP": {
+      "app_id": "1574460221",
+      "app_name": "JustFit: Lazy Workout & Fit",
+      "name": "JustFit Yearly VIP",
+      "region": "us",
+      "first_date": "2026-10-27",
+      "first_price": "$79.99",
+      "last_date": "2026-10-27",
+      "last_price": "$79.99",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
+      "free_since": null,
+      "changes": {
+        "2026-10-27": "$79.99"
+      }
+    },
+    "1261834568::Pile of Gems": {
+      "app_id": "1261834568",
+      "app_name": "Shadow Fight 2 Special Edition",
+      "name": "Pile of Gems",
+      "region": "us",
+      "first_date": "2026-10-27",
+      "first_price": "$2.99",
+      "last_date": "2026-10-27",
+      "last_price": "$2.99",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
+      "free_since": null,
+      "changes": {
+        "2026-10-27": "$2.99"
+      }
+    },
+    "1261834568::Casket of Gems": {
+      "app_id": "1261834568",
+      "app_name": "Shadow Fight 2 Special Edition",
+      "name": "Casket of Gems",
+      "region": "us",
+      "first_date": "2026-10-27",
+      "first_price": "$9.99",
+      "last_date": "2026-10-27",
+      "last_price": "$9.99",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
+      "free_since": null,
+      "changes": {
+        "2026-10-27": "$9.99"
+      }
+    },
+    "1261834568::Pile of Coins": {
+      "app_id": "1261834568",
+      "app_name": "Shadow Fight 2 Special Edition",
+      "name": "Pile of Coins",
+      "region": "us",
+      "first_date": "2026-10-27",
+      "first_price": "$0.99",
+      "last_date": "2026-10-27",
+      "last_price": "$0.99",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
+      "free_since": null,
+      "changes": {
+        "2026-10-27": "$0.99"
+      }
+    },
+    "1261834568::Bag of Coins": {
+      "app_id": "1261834568",
+      "app_name": "Shadow Fight 2 Special Edition",
+      "name": "Bag of Coins",
+      "region": "us",
+      "first_date": "2026-10-27",
+      "first_price": "$4.99",
+      "last_date": "2026-10-27",
+      "last_price": "$4.99",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
+      "free_since": null,
+      "changes": {
+        "2026-10-27": "$4.99"
+      }
+    },
+    "1261834568::Bag of Gems": {
+      "app_id": "1261834568",
+      "app_name": "Shadow Fight 2 Special Edition",
+      "name": "Bag of Gems",
+      "region": "us",
+      "first_date": "2026-10-27",
+      "first_price": "$19.99",
+      "last_date": "2026-10-27",
+      "last_price": "$19.99",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
+      "free_since": null,
+      "changes": {
+        "2026-10-27": "$19.99"
+      }
+    },
+    "1261834568::SF2SEPack3": {
+      "app_id": "1261834568",
+      "app_name": "Shadow Fight 2 Special Edition",
+      "name": "SF2SEPack3",
+      "region": "us",
+      "first_date": "2026-10-27",
+      "first_price": "$2.99",
+      "last_date": "2026-10-27",
+      "last_price": "$2.99",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
+      "free_since": null,
+      "changes": {
+        "2026-10-27": "$2.99"
+      }
+    },
+    "1261834568::Chest of Coins": {
+      "app_id": "1261834568",
+      "app_name": "Shadow Fight 2 Special Edition",
+      "name": "Chest of Coins",
+      "region": "us",
+      "first_date": "2026-10-27",
+      "first_price": "$19.99",
+      "last_date": "2026-10-27",
+      "last_price": "$19.99",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
+      "free_since": null,
+      "changes": {
+        "2026-10-27": "$19.99"
+      }
+    },
+    "1261834568::SF2SEPack10": {
+      "app_id": "1261834568",
+      "app_name": "Shadow Fight 2 Special Edition",
+      "name": "SF2SEPack10",
+      "region": "us",
+      "first_date": "2026-10-27",
+      "first_price": "$9.99",
+      "last_date": "2026-10-27",
+      "last_price": "$9.99",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
+      "free_since": null,
+      "changes": {
+        "2026-10-27": "$9.99"
+      }
+    },
+    "1261834568::Chest of Gems": {
+      "app_id": "1261834568",
+      "app_name": "Shadow Fight 2 Special Edition",
+      "name": "Chest of Gems",
+      "region": "us",
+      "first_date": "2026-10-27",
+      "first_price": "$49.99",
+      "last_date": "2026-10-27",
+      "last_price": "$49.99",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
+      "free_since": null,
+      "changes": {
+        "2026-10-27": "$49.99"
+      }
+    },
+    "1623318294::Special Bundle": {
+      "app_id": "1623318294",
+      "app_name": "Gossip Harbor®: Merge & Story",
+      "name": "Special Bundle",
+      "region": "us",
+      "first_date": "2026-10-27",
+      "first_price": "$4.99",
+      "last_date": "2026-10-27",
+      "last_price": "$4.99",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
+      "free_since": null,
+      "changes": {
+        "2026-10-27": "$4.99"
+      }
+    },
+    "1300146617::1145-Diamond Bundle": {
+      "app_id": "1300146617",
+      "app_name": "Free Fire x NARUTO SHIPPUDEN",
+      "name": "1145-Diamond Bundle",
+      "region": "us",
+      "first_date": "2026-10-27",
+      "first_price": "$10.99",
+      "last_date": "2026-10-27",
+      "last_price": "$10.99",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
+      "free_since": null,
+      "changes": {
+        "2026-10-27": "$10.99"
+      }
+    },
+    "638689075::Super Bundle": {
+      "app_id": "638689075",
+      "app_name": "Township",
+      "name": "Super Bundle",
+      "region": "us",
+      "first_date": "2026-10-27",
+      "first_price": "$15.99",
+      "last_date": "2026-10-27",
+      "last_price": "$15.99",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
+      "free_since": null,
+      "changes": {
+        "2026-10-27": "$15.99"
+      }
+    },
+    "1105855019::Gold Reserve": {
+      "app_id": "1105855019",
+      "app_name": "Gardenscapes",
+      "name": "Gold Reserve",
+      "region": "us",
+      "first_date": "2026-10-27",
+      "first_price": "$2.99",
+      "last_date": "2026-10-27",
+      "last_price": "$2.99",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
+      "free_since": null,
+      "changes": {
+        "2026-10-27": "$2.99"
+      }
+    },
+    "1105855019::1000 Coins": {
+      "app_id": "1105855019",
+      "app_name": "Gardenscapes",
+      "name": "1000 Coins",
+      "region": "us",
+      "first_date": "2026-10-27",
+      "first_price": "$1.99",
+      "last_date": "2026-10-27",
+      "last_price": "$0.99",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
+      "free_since": null,
+      "changes": {
+        "2026-10-27": "$0.99"
+      }
+    },
+    "1105855019::Hot Offer": {
+      "app_id": "1105855019",
+      "app_name": "Gardenscapes",
+      "name": "Hot Offer",
+      "region": "us",
+      "first_date": "2026-10-27",
+      "first_price": "$1.99",
+      "last_date": "2026-10-27",
+      "last_price": "$1.99",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
+      "free_since": null,
+      "changes": {
+        "2026-10-27": "$1.99"
+      }
+    },
+    "1105855019::Botanist Kit": {
+      "app_id": "1105855019",
+      "app_name": "Gardenscapes",
+      "name": "Botanist Kit",
+      "region": "us",
+      "first_date": "2026-10-27",
+      "first_price": "$5.99",
+      "last_date": "2026-10-27",
+      "last_price": "$5.99",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
+      "free_since": null,
+      "changes": {
+        "2026-10-27": "$5.99"
+      }
+    },
+    "1105855019::Golden ticket": {
+      "app_id": "1105855019",
+      "app_name": "Gardenscapes",
+      "name": "Golden ticket",
+      "region": "us",
+      "first_date": "2026-10-27",
+      "first_price": "$4.99",
+      "last_date": "2026-10-27",
+      "last_price": "$4.99",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
+      "free_since": null,
+      "changes": {
+        "2026-10-27": "$4.99"
+      }
+    },
+    "1105855019::Garden Kit": {
+      "app_id": "1105855019",
+      "app_name": "Gardenscapes",
+      "name": "Garden Kit",
+      "region": "us",
+      "first_date": "2026-10-27",
+      "first_price": "$1.99",
+      "last_date": "2026-10-27",
+      "last_price": "$0.99",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
+      "free_since": null,
+      "changes": {
+        "2026-10-27": "$0.99"
+      }
+    },
+    "1105855019::Florist Kit": {
+      "app_id": "1105855019",
+      "app_name": "Gardenscapes",
+      "name": "Florist Kit",
+      "region": "us",
+      "first_date": "2026-10-27",
+      "first_price": "$9.99",
+      "last_date": "2026-10-27",
+      "last_price": "$9.99",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
+      "free_since": null,
+      "changes": {
+        "2026-10-27": "$9.99"
+      }
+    },
+    "6779167923::ULTRA BUNDLE": {
+      "app_id": "6779167923",
+      "app_name": "Colony Flow!",
+      "name": "ULTRA BUNDLE",
+      "region": "us",
+      "first_date": "2026-10-27",
+      "first_price": "$39.99",
+      "last_date": "2026-10-27",
+      "last_price": "$39.99",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
+      "free_since": null,
+      "changes": {
+        "2026-10-27": "$39.99"
+      }
+    },
+    "1094930513::FC Offer 3": {
+      "app_id": "1094930513",
+      "app_name": "EA SPORTS FC Soccer Mobile 27",
+      "name": "FC Offer 3",
+      "region": "us",
+      "first_date": "2026-10-27",
+      "first_price": "$0.39",
+      "last_date": "2026-10-27",
+      "last_price": "$0.39",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
+      "free_since": null,
+      "changes": {
+        "2026-10-27": "$0.39"
+      }
+    },
+    "6618142292::Energy Package II": {
+      "app_id": "6618142292",
+      "app_name": "Flambé®: Merge and Cook",
+      "name": "Energy Package II",
+      "region": "us",
+      "first_date": "2026-10-27",
+      "first_price": "$3.99",
+      "last_date": "2026-10-27",
+      "last_price": "$3.99",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
+      "free_since": null,
+      "changes": {
+        "2026-10-27": "$3.99"
+      }
+    },
+    "6503603603::Energy Pack4": {
+      "app_id": "6503603603",
+      "app_name": "Mystery Town: Merge Games",
+      "name": "Energy Pack4",
+      "region": "us",
+      "first_date": "2026-10-27",
+      "first_price": "$9.99",
+      "last_date": "2026-10-27",
+      "last_price": "$9.99",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
+      "free_since": null,
+      "changes": {
+        "2026-10-27": "$9.99"
+      }
+    },
+    "6759788962::Regular Pass": {
+      "app_id": "6759788962",
+      "app_name": "Lordrush",
+      "name": "Regular Pass",
+      "region": "us",
+      "first_date": "2026-10-27",
+      "first_price": "$4.99",
+      "last_date": "2026-10-27",
+      "last_price": "$4.99",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
+      "free_since": null,
+      "changes": {
+        "2026-10-27": "$4.99"
+      }
+    },
+    "6752886832::Offer 7": {
+      "app_id": "6752886832",
+      "app_name": "Hotel Legacy: Merge Game",
+      "name": "Offer 7",
+      "region": "us",
+      "first_date": "2026-10-27",
+      "first_price": "$6.99",
+      "last_date": "2026-10-27",
+      "last_price": "$6.99",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
+      "free_since": null,
+      "changes": {
+        "2026-10-27": "$6.99"
+      }
+    },
+    "1607122287::Priority Pack": {
+      "app_id": "1607122287",
+      "app_name": "Triple Match 3D",
+      "name": "Priority Pack",
+      "region": "us",
+      "first_date": "2026-10-27",
+      "first_price": "$39.99",
+      "last_date": "2026-10-27",
+      "last_price": "$39.99",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
+      "free_since": null,
+      "changes": {
+        "2026-10-27": "$39.99"
+      }
+    },
+    "1586902173::Pro Plus Monthly Subscription": {
+      "app_id": "1586902173",
+      "app_name": "Solo: Your Gig Business App",
+      "name": "Pro Plus Monthly Subscription",
+      "region": "us",
+      "first_date": "2026-10-27",
+      "first_price": "$20.00",
+      "last_date": "2026-10-27",
+      "last_price": "$20.00",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
+      "free_since": null,
+      "changes": {
+        "2026-10-27": "$20.00"
+      }
+    },
+    "6468313323::Tier 5 contract for a month": {
+      "app_id": "6468313323",
+      "app_name": "Bitcoin Mining: Crypto Miner",
+      "name": "Tier 5 contract for a month",
+      "region": "us",
+      "first_date": "2026-10-27",
+      "first_price": "$34.99",
+      "last_date": "2026-10-27",
+      "last_price": "$34.99",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
+      "free_since": null,
+      "changes": {
+        "2026-10-27": "$34.99"
+      }
+    },
+    "1110552982::Premium 9.99 Monthly Plan": {
+      "app_id": "1110552982",
+      "app_name": "WalletHub: Credit & Budgeting",
+      "name": "Premium 9.99 Monthly Plan",
+      "region": "us",
+      "first_date": "2026-10-27",
+      "first_price": "$9.99",
+      "last_date": "2026-10-27",
+      "last_price": "$9.99",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
+      "free_since": null,
+      "changes": {
+        "2026-10-27": "$9.99"
+      }
+    },
+    "894546091::300 + 40 Coins": {
+      "app_id": "894546091",
+      "app_name": "WEBTOON: Manga, Comics, Manhwa",
+      "name": "300 + 40 Coins",
+      "region": "us",
+      "first_date": "2026-10-27",
+      "first_price": "$24.99",
+      "last_date": "2026-10-27",
+      "last_price": "$24.99",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
+      "free_since": null,
+      "changes": {
+        "2026-10-27": "$24.99"
+      }
+    },
+    "894546091::200+70 WEBTOON Premium": {
+      "app_id": "894546091",
+      "app_name": "WEBTOON: Manga, Comics, Manhwa",
+      "name": "200+70 WEBTOON Premium",
+      "region": "us",
+      "first_date": "2026-10-27",
+      "first_price": "$17.99",
+      "last_date": "2026-10-27",
+      "last_price": "$17.99",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
+      "free_since": null,
+      "changes": {
+        "2026-10-27": "$17.99"
+      }
+    },
+    "894546091::50+15 WEBTOON Premium": {
+      "app_id": "894546091",
+      "app_name": "WEBTOON: Manga, Comics, Manhwa",
+      "name": "50+15 WEBTOON Premium",
+      "region": "us",
+      "first_date": "2026-10-27",
+      "first_price": "$3.99",
+      "last_date": "2026-10-27",
+      "last_price": "$3.99",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
+      "free_since": null,
+      "changes": {
+        "2026-10-27": "$3.99"
+      }
+    },
+    "894546091::25+5 WEBTOON Premium": {
+      "app_id": "894546091",
+      "app_name": "WEBTOON: Manga, Comics, Manhwa",
+      "name": "25+5 WEBTOON Premium",
+      "region": "us",
+      "first_date": "2026-10-27",
+      "first_price": "$1.99",
+      "last_date": "2026-10-27",
+      "last_price": "$1.99",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
+      "free_since": null,
+      "changes": {
+        "2026-10-27": "$1.99"
+      }
+    },
+    "894546091::600+400 WEBTOON Premium": {
+      "app_id": "894546091",
+      "app_name": "WEBTOON: Manga, Comics, Manhwa",
+      "name": "600+400 WEBTOON Premium",
+      "region": "us",
+      "first_date": "2026-10-27",
+      "first_price": "$4.99",
+      "last_date": "2026-10-27",
+      "last_price": "$4.99",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
+      "free_since": null,
+      "changes": {
+        "2026-10-27": "$4.99"
+      }
+    },
+    "894546091::300+100 WEBTOON Premium": {
+      "app_id": "894546091",
+      "app_name": "WEBTOON: Manga, Comics, Manhwa",
+      "name": "300+100 WEBTOON Premium",
+      "region": "us",
+      "first_date": "2026-10-27",
+      "first_price": "$2.49",
+      "last_date": "2026-10-27",
+      "last_price": "$2.49",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
+      "free_since": null,
+      "changes": {
+        "2026-10-27": "$2.49"
+      }
+    },
+    "894546091::150+50 WEBTOON Premium": {
+      "app_id": "894546091",
+      "app_name": "WEBTOON: Manga, Comics, Manhwa",
+      "name": "150+50 WEBTOON Premium",
+      "region": "us",
+      "first_date": "2026-10-27",
+      "first_price": "$1.49",
+      "last_date": "2026-10-27",
+      "last_price": "$1.49",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
+      "free_since": null,
+      "changes": {
+        "2026-10-27": "$1.49"
+      }
+    },
+    "894546091::300+200 WEBTOON Premium": {
+      "app_id": "894546091",
+      "app_name": "WEBTOON: Manga, Comics, Manhwa",
+      "name": "300+200 WEBTOON Premium",
+      "region": "us",
+      "first_date": "2026-10-27",
+      "first_price": "$1.99",
+      "last_date": "2026-10-27",
+      "last_price": "$1.99",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
+      "free_since": null,
+      "changes": {
+        "2026-10-27": "$1.99"
+      }
+    },
+    "894546091::100+50 WEBTOON Premium": {
+      "app_id": "894546091",
+      "app_name": "WEBTOON: Manga, Comics, Manhwa",
+      "name": "100+50 WEBTOON Premium",
+      "region": "us",
+      "first_date": "2026-10-27",
+      "first_price": "$0.99",
+      "last_date": "2026-10-27",
+      "last_price": "$0.99",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
+      "free_since": null,
+      "changes": {
+        "2026-10-27": "$0.99"
+      }
+    },
+    "894546091::60+20 WEBTOON Premium": {
+      "app_id": "894546091",
+      "app_name": "WEBTOON: Manga, Comics, Manhwa",
+      "name": "60+20 WEBTOON Premium",
+      "region": "us",
+      "first_date": "2026-10-27",
+      "first_price": "$0.99",
+      "last_date": "2026-10-27",
+      "last_price": "$0.99",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
+      "free_since": null,
+      "changes": {
+        "2026-10-27": "$0.99"
+      }
+    },
+    "6503328539::Coins 50": {
+      "app_id": "6503328539",
+      "app_name": "MoreShort: Stream Drama Shorts",
+      "name": "Coins 50",
+      "region": "us",
+      "first_date": "2026-10-27",
+      "first_price": "$0.49",
+      "last_date": "2026-10-27",
+      "last_price": "$0.49",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
+      "free_since": null,
+      "changes": {
+        "2026-10-27": "$0.49"
+      }
+    },
+    "1610516671::5000 Coins": {
+      "app_id": "1610516671",
+      "app_name": "Gizmo: AI Tutor",
+      "name": "5000 Coins",
+      "region": "us",
+      "first_date": "2026-10-27",
+      "first_price": "$4.99",
+      "last_date": "2026-10-27",
+      "last_price": "$4.99",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
+      "free_since": null,
+      "changes": {
+        "2026-10-27": "$4.99"
+      }
+    },
+    "306310789::9 Coins": {
+      "app_id": "306310789",
+      "app_name": "Wattpad - Read & Write Stories",
+      "name": "9 Coins",
+      "region": "us",
+      "first_date": "2026-10-27",
+      "first_price": "$0.99",
+      "last_date": "2026-10-27",
+      "last_price": "$0.99",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
+      "free_since": null,
+      "changes": {
+        "2026-10-27": "$0.99"
+      }
+    },
+    "6783672289::5000 Coins": {
+      "app_id": "6783672289",
+      "app_name": "KissNovel - Romance Stories",
+      "name": "5000 Coins",
+      "region": "us",
+      "first_date": "2026-10-27",
+      "first_price": "$49.99",
+      "last_date": "2026-10-27",
+      "last_price": "$49.99",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
+      "free_since": null,
+      "changes": {
+        "2026-10-27": "$49.99"
+      }
+    },
+    "1524592877::Monthly VIP": {
+      "app_id": "1524592877",
+      "app_name": "WeRead: Popular Books & Novels",
+      "name": "Monthly VIP",
+      "region": "us",
+      "first_date": "2026-10-27",
+      "first_price": "$6.99",
+      "last_date": "2026-10-27",
+      "last_price": "$6.99",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
+      "free_since": null,
+      "changes": {
+        "2026-10-27": "$6.99"
+      }
+    },
+    "433592412::쿠키 175개": {
+      "app_id": "433592412",
+      "app_name": "SERIES - 네이버 시리즈",
+      "name": "쿠키 175개",
+      "region": "us",
+      "first_date": "2026-10-27",
+      "first_price": "$14.99",
+      "last_date": "2026-10-27",
+      "last_price": "$14.99",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
+      "free_since": null,
+      "changes": {
+        "2026-10-27": "$14.99"
+      }
+    },
+    "6744429534::365 Days VIP For $169.99": {
+      "app_id": "6744429534",
+      "app_name": "motonovel",
+      "name": "365 Days VIP For $169.99",
+      "region": "us",
+      "first_date": "2026-10-27",
+      "first_price": "$169.99",
+      "last_date": "2026-10-27",
+      "last_price": "$169.99",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
+      "free_since": null,
+      "changes": {
+        "2026-10-27": "$169.99"
+      }
+    },
+    "1500855883::capcut cloud space": {
+      "app_id": "1500855883",
+      "app_name": "CapCut: Photo & Video Editor",
+      "name": "capcut cloud space",
+      "region": "us",
+      "first_date": "2026-10-27",
+      "first_price": "$1.49",
+      "last_date": "2026-10-27",
+      "last_price": "$54.99",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
+      "free_since": null,
+      "changes": {
+        "2026-10-27": "$54.99"
+      }
+    },
+    "1217865434::Navigation & Traffic": {
+      "app_id": "1217865434",
+      "app_name": "Traffie Navigation & Traffic",
+      "name": "Navigation & Traffic",
+      "region": "us",
+      "first_date": "2026-10-27",
+      "first_price": "$2.99",
+      "last_date": "2026-10-27",
+      "last_price": "$2.99",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
+      "free_since": null,
+      "changes": {
+        "2026-10-27": "$2.99"
+      }
+    },
+    "553834731::Color Bomb": {
+      "app_id": "553834731",
+      "app_name": "Candy Crush Saga",
+      "name": "Color Bomb",
+      "region": "us",
+      "first_date": "2026-10-27",
+      "first_price": "$0.99",
+      "last_date": "2026-10-27",
+      "last_price": "$0.99",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
+      "free_since": null,
+      "changes": {
+        "2026-10-27": "$0.99"
+      }
+    },
+    "553834731::Jelly Fish": {
+      "app_id": "553834731",
+      "app_name": "Candy Crush Saga",
+      "name": "Jelly Fish",
+      "region": "us",
+      "first_date": "2026-10-27",
+      "first_price": "$1.99",
+      "last_date": "2026-10-27",
+      "last_price": "$1.99",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
+      "free_since": null,
+      "changes": {
+        "2026-10-27": "$1.99"
+      }
+    },
+    "553834731::Coconut Wheel": {
+      "app_id": "553834731",
+      "app_name": "Candy Crush Saga",
+      "name": "Coconut Wheel",
+      "region": "us",
+      "first_date": "2026-10-27",
+      "first_price": "$3.99",
+      "last_date": "2026-10-27",
+      "last_price": "$3.99",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
+      "free_since": null,
+      "changes": {
+        "2026-10-27": "$3.99"
+      }
+    },
+    "553834731::Free Switch": {
+      "app_id": "553834731",
+      "app_name": "Candy Crush Saga",
+      "name": "Free Switch",
+      "region": "us",
+      "first_date": "2026-10-27",
+      "first_price": "$2.99",
+      "last_date": "2026-10-27",
+      "last_price": "$2.99",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
+      "free_since": null,
+      "changes": {
+        "2026-10-27": "$2.99"
+      }
+    },
+    "553834731::Charm of Life": {
+      "app_id": "553834731",
+      "app_name": "Candy Crush Saga",
+      "name": "Charm of Life",
+      "region": "us",
+      "first_date": "2026-10-27",
+      "first_price": "$16.99",
+      "last_date": "2026-10-27",
+      "last_price": "$16.99",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
+      "free_since": null,
+      "changes": {
+        "2026-10-27": "$16.99"
+      }
+    },
+    "553834731::Charm of Frozen Time": {
+      "app_id": "553834731",
+      "app_name": "Candy Crush Saga",
+      "name": "Charm of Frozen Time",
+      "region": "us",
+      "first_date": "2026-10-27",
+      "first_price": "$24.99",
+      "last_date": "2026-10-27",
+      "last_price": "$24.99",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
+      "free_since": null,
+      "changes": {
+        "2026-10-27": "$24.99"
+      }
+    },
+    "553834731::Charm of Stripes": {
+      "app_id": "553834731",
+      "app_name": "Candy Crush Saga",
+      "name": "Charm of Stripes",
+      "region": "us",
+      "first_date": "2026-10-27",
+      "first_price": "$39.99",
+      "last_date": "2026-10-27",
+      "last_price": "$39.99",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
+      "free_since": null,
+      "changes": {
+        "2026-10-27": "$39.99"
       }
     }
   }
