@@ -1,7 +1,7 @@
 {
   "date": "2026-10-27",
   "country": "us",
-  "generated_at": "2026-10-27T11:11:35Z",
+  "generated_at": "2026-10-27T13:36:17Z",
   "freebies": [
     {
       "id": "6766726018",
@@ -94,7 +94,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -360,7 +360,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -646,7 +646,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -912,7 +912,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -1178,7 +1178,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -1457,7 +1457,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -1728,7 +1728,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -1994,7 +1994,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -2260,7 +2260,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -2526,7 +2526,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -2792,7 +2792,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -3058,7 +3058,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -3324,7 +3324,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -3590,7 +3590,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -3856,7 +3856,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -4132,7 +4132,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -4398,7 +4398,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -4664,7 +4664,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -4960,7 +4960,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -5251,7 +5251,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -5517,7 +5517,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -5783,7 +5783,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -6064,7 +6064,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -6330,7 +6330,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -6621,7 +6621,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -6922,7 +6922,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -7188,7 +7188,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -7479,7 +7479,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -7745,7 +7745,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -8011,7 +8011,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -8277,7 +8277,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -8543,7 +8543,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -8809,7 +8809,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -9075,7 +9075,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -9341,7 +9341,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -9617,7 +9617,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -9893,7 +9893,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -10169,7 +10169,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -10470,7 +10470,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -10766,7 +10766,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -11042,7 +11042,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -11318,7 +11318,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -11604,7 +11604,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -11880,7 +11880,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -12156,7 +12156,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -12432,7 +12432,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -12733,7 +12733,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -13009,7 +13009,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -13295,7 +13295,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -13571,7 +13571,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -13837,7 +13837,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -14113,7 +14113,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -14409,7 +14409,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -14705,7 +14705,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -14991,7 +14991,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -15154,292 +15154,6 @@
       "page": "app/us-6802460933.html"
     },
     {
-      "id": "6770604970",
-      "name": "PillSignal",
-      "dev": "POWER SATELLITE LLC",
-      "genre": "Medical",
-      "normal": "$0.99",
-      "current": "Free",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e1/52/c6/e152c6ac-aeb4-0fbf-c46d-987e1df0caf4/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-      "rating": 5,
-      "url": "https://apps.apple.com/us/app/pillsignal/id6770604970?uo=4",
-      "region": "us",
-      "type": "free",
-      "is_new": false,
-      "series": [
-        0.99,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "phistory": [
-        {
-          "d": "2026-10-22",
-          "p": 0.99
-        },
-        {
-          "d": "2026-10-23",
-          "p": 0
-        },
-        {
-          "d": "2026-10-24",
-          "p": 0
-        },
-        {
-          "d": "2026-10-25",
-          "p": 0
-        },
-        {
-          "d": "2026-10-26",
-          "p": 0
-        },
-        {
-          "d": "2026-10-27",
-          "p": 0
-        }
-      ],
-      "has_iap": false,
-      "rel": [
-        {
-          "id": "6766726018",
-          "name": "Backstage Live for Whatnot",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/57/0e/3a/570e3a49-1a0a-151c-5590-7b43f15842ae/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Business",
-          "type": "free",
-          "page": "app/us-6766726018.html",
-          "rating": 5,
-          "normal": "$39.99",
-          "current": "Free",
-          "has_iap": true,
-          "region": "us"
-        },
-        {
-          "id": "6751212219",
-          "name": "Benchmark Slope",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3a/b1/1f/3ab11f0a-5af7-15ae-2c38-c92db7a8e1b2/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
-          "genre": "Utilities",
-          "type": "free",
-          "page": "app/us-6751212219.html",
-          "rating": 5,
-          "normal": "$59.99",
-          "current": "Free",
-          "has_iap": true,
-          "region": "us"
-        },
-        {
-          "id": "6758106277",
-          "name": "Big North",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/07/a5/a5/07a5a596-e9c1-45ba-c139-19d0eab086eb/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Navigation",
-          "type": "free",
-          "page": "app/us-6758106277.html",
-          "rating": 5,
-          "normal": "$3.99",
-          "current": "Free",
-          "has_iap": false,
-          "region": "us"
-        },
-        {
-          "id": "6772830421",
-          "name": "Billable Hours Goal Tracker",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fc/e6/fe/fce6fe5d-3fae-49a5-f5c9-e52416fa60c2/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Business",
-          "type": "free",
-          "page": "app/us-6772830421.html",
-          "rating": 5,
-          "normal": "$0.99",
-          "current": "Free",
-          "has_iap": false,
-          "region": "us"
-        },
-        {
-          "id": "1573339334",
-          "name": "Digits of Pi (π)",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple125/v4/7d/34/e2/7d34e28c-48b5-a2ef-217b-fdfc784c41e0/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
-          "genre": "Education",
-          "type": "free",
-          "page": "app/us-1573339334.html",
-          "rating": 5,
-          "normal": "$8.00",
-          "current": "Free",
-          "has_iap": false,
-          "region": "us"
-        },
-        {
-          "id": "6740914910",
-          "name": "Explorineer | 10min IT Trends",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3c/e4/5c/3ce45c58-062b-a4ee-9daa-0d5e080aa84c/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-          "genre": "News",
-          "type": "deal",
-          "page": "app/us-6740914910.html",
-          "rating": 5,
-          "normal": "$3.99",
-          "current": "$1.99",
-          "has_iap": null,
-          "region": "us"
-        },
-        {
-          "id": "823968886",
-          "name": "Flappy Feet",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c3/11/40/c311402c-99de-7d66-457a-688cc667b38c/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-          "genre": "Games",
-          "type": "free",
-          "page": "app/us-823968886.html",
-          "rating": 5,
-          "normal": "$0.99",
-          "current": "Free",
-          "has_iap": false,
-          "region": "us"
-        },
-        {
-          "id": "380750809",
-          "name": "Gas/Oil: Fuel Mix Calculator",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a8/33/9e/a8339e0c-c75d-bf19-2cc5-386451f3bed3/AppIcon-1x_U007epad-0-1-85-220-0.png/512x512bb.jpg",
-          "genre": "Utilities",
-          "type": "free",
-          "page": "app/us-380750809.html",
-          "rating": 5,
-          "normal": "$0.99",
-          "current": "Free",
-          "has_iap": true,
-          "region": "us"
-        },
-        {
-          "id": "6760091442",
-          "name": "Gokaku: JLPT Vocab N5 - N1",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f8/74/3c/f8743c7e-c8da-13d5-b86d-ac13290aa388/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Education",
-          "type": "free",
-          "page": "app/us-6760091442.html",
-          "rating": 5,
-          "normal": "$0.99",
-          "current": "Free",
-          "has_iap": false,
-          "region": "us"
-        },
-        {
-          "id": "6777865236",
-          "name": "Habit Road - Habit Tracker",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a9/1c/b7/a91cb733-9f71-a0d3-d494-12c6ba00519a/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Productivity",
-          "type": "free",
-          "page": "app/us-6777865236.html",
-          "rating": 5,
-          "normal": "$0.99",
-          "current": "Free",
-          "has_iap": false,
-          "region": "us"
-        },
-        {
-          "id": "6813447712",
-          "name": "Hook Player",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/bf/4a/e1/bf4ae18c-a2d0-4e6c-a7a8-a1580e52a359/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Music",
-          "type": "free",
-          "page": "app/us-6813447712.html",
-          "rating": 5,
-          "normal": "$0.49",
-          "current": "Free",
-          "has_iap": false,
-          "region": "us"
-        },
-        {
-          "id": "6757914701",
-          "name": "MP4Play",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/81/6d/1d/816d1da2-494e-553e-76dd-d984244c897e/AppIcon-1x_U007ephone-0-1-85-220-0.jpeg/512x512bb.jpg",
-          "genre": "Entertainment",
-          "type": "free",
-          "page": "app/us-6757914701.html",
-          "rating": 5,
-          "normal": "$0.49",
-          "current": "Free",
-          "has_iap": false,
-          "region": "us"
-        },
-        {
-          "id": "6758001646",
-          "name": "MasterTone",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e6/15/96/e6159631-7458-5f7e-591e-37e60131e535/AppIcon-1x_U007epad-0-1-85-220-0.png/512x512bb.jpg",
-          "genre": "Music",
-          "type": "free",
-          "page": "app/us-6758001646.html",
-          "rating": 5,
-          "normal": "$0.49",
-          "current": "Free",
-          "has_iap": false,
-          "region": "us"
-        },
-        {
-          "id": "6815392968",
-          "name": "NoAd Radar",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f8/f1/50/f8f150b3-92ef-dff9-6182-19d79e98fff0/expo-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Weather",
-          "type": "deal",
-          "page": "app/us-6815392968.html",
-          "rating": 5,
-          "normal": "$4.99",
-          "current": "$1.99",
-          "has_iap": false,
-          "region": "us"
-        },
-        {
-          "id": "1507673974",
-          "name": "Piiika",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/96/b3/d1/96b3d189-8c3a-dee6-de74-4dc3e82ad1e1/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/512x512bb.jpg",
-          "genre": "Graphics & Design",
-          "type": "free",
-          "page": "app/us-1507673974.html",
-          "rating": 5,
-          "normal": "$8.00",
-          "current": "Free",
-          "has_iap": false,
-          "region": "us"
-        },
-        {
-          "id": "6758436044",
-          "name": "Previewra",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/82/0b/37/820b370a-f967-a641-5cf0-eff461f91ec0/AppIcon-1x_U007epad-0-1-85-220-0.png/512x512bb.jpg",
-          "genre": "Music",
-          "type": "free",
-          "page": "app/us-6758436044.html",
-          "rating": 5,
-          "normal": "$0.49",
-          "current": "Free",
-          "has_iap": false,
-          "region": "us"
-        },
-        {
-          "id": "6762004078",
-          "name": "Roost Home",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/09/eb/bd/09ebbd19-19c6-240b-5444-72b45e51dab4/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Utilities",
-          "type": "free",
-          "page": "app/us-6762004078.html",
-          "rating": 5,
-          "normal": "$0.99",
-          "current": "Free",
-          "has_iap": false,
-          "region": "us"
-        },
-        {
-          "id": "6804343106",
-          "name": "Safolio: Private Vault",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f0/5b/cc/f05bcc30-0708-94ab-66ff-f70357419926/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "Productivity",
-          "type": "free",
-          "page": "app/us-6804343106.html",
-          "rating": 5,
-          "normal": "$8.00",
-          "current": "Free",
-          "has_iap": false,
-          "region": "us"
-        }
-      ],
-      "page": "app/us-6770604970.html"
-    },
-    {
       "id": "6791378677",
       "name": "Repline: Workout Tracker",
       "dev": "Tucker Briggs",
@@ -15553,7 +15267,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -15839,7 +15553,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -16135,7 +15849,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -16431,7 +16145,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -16707,7 +16421,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -17008,7 +16722,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -17304,7 +17018,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -17580,7 +17294,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -17856,7 +17570,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -18152,7 +17866,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -18428,7 +18142,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -18729,7 +18443,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -19030,7 +18744,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -19306,7 +19020,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -19582,7 +19296,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -19858,7 +19572,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -20134,7 +19848,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -20410,7 +20124,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -20686,7 +20400,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -20972,7 +20686,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -21273,7 +20987,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -21559,7 +21273,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -21835,7 +21549,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -22131,7 +21845,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -22427,7 +22141,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -22713,7 +22427,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -22989,7 +22703,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -23275,7 +22989,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -23576,7 +23290,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -23862,7 +23576,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -24153,7 +23867,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -24429,7 +24143,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -24725,7 +24439,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -25021,7 +24735,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -25307,7 +25021,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -25608,7 +25322,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -25884,7 +25598,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -26170,7 +25884,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -26446,7 +26160,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -26722,7 +26436,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -26998,7 +26712,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -27284,7 +26998,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -27560,7 +27274,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -27836,7 +27550,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -28122,7 +27836,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -28418,7 +28132,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -28694,7 +28408,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -28970,7 +28684,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -29246,7 +28960,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -29532,7 +29246,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -29818,7 +29532,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -30119,7 +29833,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -30415,7 +30129,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -30691,7 +30405,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -30967,7 +30681,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -31253,7 +30967,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -31539,7 +31253,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -31825,7 +31539,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -32121,7 +31835,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -32407,7 +32121,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -32683,7 +32397,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -32959,7 +32673,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -33235,7 +32949,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -33521,7 +33235,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -33817,7 +33531,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -34093,7 +33807,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -34394,7 +34108,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -34670,7 +34384,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -34946,7 +34660,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -35232,7 +34946,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -35508,7 +35222,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -35677,7 +35391,7 @@
       "genre": "Music",
       "normal": "$0.99",
       "current": "Free",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/41/04/49/410449ca-2d3b-d612-c58b-b3677f0278ba/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/be/6f/5c/be6f5cff-6414-f360-d137-5d61dbc227a4/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/512x512bb.jpg",
       "rating": 1.75,
       "url": "https://apps.apple.com/us/app/polymachine/id6761276852?uo=4",
       "region": "us",
@@ -35784,7 +35498,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -36070,7 +35784,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -36371,7 +36085,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -36667,7 +36381,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -36963,7 +36677,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -37189,6 +36903,7 @@
           "p": 1.99
         }
       ],
+      "has_iap": false,
       "rel": [
         {
           "id": "6766726018",
@@ -37561,7 +37276,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -37857,7 +37572,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -38153,7 +37868,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -38454,7 +38169,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -38755,7 +38470,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -38924,7 +38639,7 @@
       "genre": "Finance",
       "normal": "$3.99",
       "current": "$1.99",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/15/46/df/1546dfd7-535e-672a-71b8-12d55d334dcd/AppIcon-0-0-1x_U007emarketing-0-8-85-220.png/512x512bb.jpg",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0a/da/da/0adada0f-8581-a388-5e41-7078d2e9235c/AppIcon-0-0-1x_U007emarketing-0-8-85-220.png/512x512bb.jpg",
       "rating": 1,
       "url": "https://apps.apple.com/us/app/crypto-watch/id1326150103?uo=4",
       "region": "us",
@@ -39051,7 +38766,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -39347,7 +39062,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -39623,7 +39338,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -39909,7 +39624,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -40195,7 +39910,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -40496,7 +40211,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -40792,7 +40507,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -41093,7 +40808,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -41394,7 +41109,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -41690,7 +41405,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {
@@ -41991,7 +41706,7 @@
           "rating": 5,
           "normal": "$3.99",
           "current": "$1.99",
-          "has_iap": null,
+          "has_iap": false,
           "region": "us"
         },
         {

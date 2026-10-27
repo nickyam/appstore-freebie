@@ -7,8 +7,8 @@
     "seed_added": 9,
     "seed_total": 6323,
     "pool_size": 2000,
-    "processed": 1999,
-    "skipped": 1,
+    "processed": 2000,
+    "skipped": 0,
     "seed_last_ok": "2026-10-27T00:13:28Z",
     "seed_last_error": ""
   },
@@ -100886,7 +100886,7 @@
       "first_date": "2026-10-23",
       "first_price": "$69.99",
       "last_date": "2026-10-27",
-      "last_price": "$19.99",
+      "last_price": "$69.99",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
       "last_paid_date": "2026-10-27",
@@ -100896,7 +100896,7 @@
         "2026-10-24": "$19.99",
         "2026-10-25": "$19.99",
         "2026-10-26": "$19.99",
-        "2026-10-27": "$19.99"
+        "2026-10-27": "$69.99"
       }
     },
     "904391210::Ad-Free Monthly": {
@@ -228034,13 +228034,13 @@
       "first_date": "2026-10-27",
       "first_price": "$9.99",
       "last_date": "2026-10-27",
-      "last_price": "$9.99",
+      "last_price": "$11.99",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
       "last_paid_date": "2026-10-27",
       "free_since": null,
       "changes": {
-        "2026-10-27": "$9.99"
+        "2026-10-27": "$11.99"
       }
     },
     "1200318119::Pro Version": {
@@ -316458,6 +316458,159 @@
       "free_since": null,
       "changes": {
         "2026-10-27": "$169.99"
+      }
+    },
+    "1500855883::capcut cloud space": {
+      "app_id": "1500855883",
+      "app_name": "CapCut: Photo & Video Editor",
+      "name": "capcut cloud space",
+      "region": "us",
+      "first_date": "2026-10-27",
+      "first_price": "$1.49",
+      "last_date": "2026-10-27",
+      "last_price": "$54.99",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
+      "free_since": null,
+      "changes": {
+        "2026-10-27": "$54.99"
+      }
+    },
+    "1217865434::Navigation & Traffic": {
+      "app_id": "1217865434",
+      "app_name": "Traffie Navigation & Traffic",
+      "name": "Navigation & Traffic",
+      "region": "us",
+      "first_date": "2026-10-27",
+      "first_price": "$2.99",
+      "last_date": "2026-10-27",
+      "last_price": "$2.99",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
+      "free_since": null,
+      "changes": {
+        "2026-10-27": "$2.99"
+      }
+    },
+    "553834731::Color Bomb": {
+      "app_id": "553834731",
+      "app_name": "Candy Crush Saga",
+      "name": "Color Bomb",
+      "region": "us",
+      "first_date": "2026-10-27",
+      "first_price": "$0.99",
+      "last_date": "2026-10-27",
+      "last_price": "$0.99",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
+      "free_since": null,
+      "changes": {
+        "2026-10-27": "$0.99"
+      }
+    },
+    "553834731::Jelly Fish": {
+      "app_id": "553834731",
+      "app_name": "Candy Crush Saga",
+      "name": "Jelly Fish",
+      "region": "us",
+      "first_date": "2026-10-27",
+      "first_price": "$1.99",
+      "last_date": "2026-10-27",
+      "last_price": "$1.99",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
+      "free_since": null,
+      "changes": {
+        "2026-10-27": "$1.99"
+      }
+    },
+    "553834731::Coconut Wheel": {
+      "app_id": "553834731",
+      "app_name": "Candy Crush Saga",
+      "name": "Coconut Wheel",
+      "region": "us",
+      "first_date": "2026-10-27",
+      "first_price": "$3.99",
+      "last_date": "2026-10-27",
+      "last_price": "$3.99",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
+      "free_since": null,
+      "changes": {
+        "2026-10-27": "$3.99"
+      }
+    },
+    "553834731::Free Switch": {
+      "app_id": "553834731",
+      "app_name": "Candy Crush Saga",
+      "name": "Free Switch",
+      "region": "us",
+      "first_date": "2026-10-27",
+      "first_price": "$2.99",
+      "last_date": "2026-10-27",
+      "last_price": "$2.99",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
+      "free_since": null,
+      "changes": {
+        "2026-10-27": "$2.99"
+      }
+    },
+    "553834731::Charm of Life": {
+      "app_id": "553834731",
+      "app_name": "Candy Crush Saga",
+      "name": "Charm of Life",
+      "region": "us",
+      "first_date": "2026-10-27",
+      "first_price": "$16.99",
+      "last_date": "2026-10-27",
+      "last_price": "$16.99",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
+      "free_since": null,
+      "changes": {
+        "2026-10-27": "$16.99"
+      }
+    },
+    "553834731::Charm of Frozen Time": {
+      "app_id": "553834731",
+      "app_name": "Candy Crush Saga",
+      "name": "Charm of Frozen Time",
+      "region": "us",
+      "first_date": "2026-10-27",
+      "first_price": "$24.99",
+      "last_date": "2026-10-27",
+      "last_price": "$24.99",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
+      "free_since": null,
+      "changes": {
+        "2026-10-27": "$24.99"
+      }
+    },
+    "553834731::Charm of Stripes": {
+      "app_id": "553834731",
+      "app_name": "Candy Crush Saga",
+      "name": "Charm of Stripes",
+      "region": "us",
+      "first_date": "2026-10-27",
+      "first_price": "$39.99",
+      "last_date": "2026-10-27",
+      "last_price": "$39.99",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
+      "free_since": null,
+      "changes": {
+        "2026-10-27": "$39.99"
       }
     }
   }

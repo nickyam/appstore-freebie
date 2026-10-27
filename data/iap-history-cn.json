@@ -4,8 +4,8 @@
     "version": 1,
     "updated": "2026-10-27",
     "pool_size": 2000,
-    "processed": 1998,
-    "skipped": 2,
+    "processed": 1997,
+    "skipped": 3,
     "seeded_from": "apprcn",
     "seed_added": 0,
     "seed_total": 7268,
@@ -3659,7 +3659,7 @@
       "first_date": "2026-10-22",
       "first_price": "¥58.00",
       "last_date": "2026-10-27",
-      "last_price": "¥228.00",
+      "last_price": "¥100.00",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
       "last_paid_date": "2026-10-27",
@@ -3670,7 +3670,7 @@
         "2026-10-24": "¥100.00",
         "2026-10-25": "¥100.00",
         "2026-10-26": "¥100.00",
-        "2026-10-27": "¥228.00"
+        "2026-10-27": "¥100.00"
       }
     },
     "954963044::1 个月 SView 99 看": {
@@ -5846,7 +5846,7 @@
       "first_date": "2026-10-22",
       "first_price": "¥68.00",
       "last_date": "2026-10-27",
-      "last_price": "¥48.00",
+      "last_price": "¥398.00",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
       "last_paid_date": "2026-10-27",
@@ -5857,7 +5857,7 @@
         "2026-10-24": "¥398.00",
         "2026-10-25": "¥398.00",
         "2026-10-26": "¥398.00",
-        "2026-10-27": "¥48.00"
+        "2026-10-27": "¥398.00"
       }
     },
     "6739768021::Smart Printer App Pro": {
@@ -11036,7 +11036,7 @@
       "first_date": "2026-10-22",
       "first_price": "¥363.00",
       "last_date": "2026-10-27",
-      "last_price": "¥40.00",
+      "last_price": "¥273.00",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
       "last_paid_date": "2026-10-27",
@@ -11047,7 +11047,7 @@
         "2026-10-24": "¥273.00",
         "2026-10-25": "¥273.00",
         "2026-10-26": "¥273.00",
-        "2026-10-27": "¥40.00"
+        "2026-10-27": "¥273.00"
       }
     },
     "1413092345::1 Year Business Pack": {
@@ -11075,7 +11075,7 @@
       "first_date": "2026-10-22",
       "first_price": "¥43.00",
       "last_date": "2026-10-27",
-      "last_price": "¥43.00",
+      "last_price": "¥363.00",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
       "last_paid_date": "2026-10-27",
@@ -11086,7 +11086,7 @@
         "2026-10-24": "¥363.00",
         "2026-10-25": "¥363.00",
         "2026-10-26": "¥363.00",
-        "2026-10-27": "¥43.00"
+        "2026-10-27": "¥363.00"
       }
     },
     "1413092345::1 Month Business Pack": {
@@ -355364,6 +355364,465 @@
       "free_since": null,
       "changes": {
         "2026-10-27": "¥488.00"
+      }
+    },
+    "1470373330::50 Video Credits": {
+      "app_id": "1470373330",
+      "app_name": "Remini - 人工智能修图",
+      "name": "50 Video Credits",
+      "region": "cn",
+      "first_date": "2026-10-27",
+      "first_price": "¥228.00",
+      "last_date": "2026-10-27",
+      "last_price": "¥228.00",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
+      "free_since": null,
+      "changes": {
+        "2026-10-27": "¥228.00"
+      }
+    },
+    "1470373330::25 Video Credits": {
+      "app_id": "1470373330",
+      "app_name": "Remini - 人工智能修图",
+      "name": "25 Video Credits",
+      "region": "cn",
+      "first_date": "2026-10-27",
+      "first_price": "¥148.00",
+      "last_date": "2026-10-27",
+      "last_price": "¥148.00",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
+      "free_since": null,
+      "changes": {
+        "2026-10-27": "¥148.00"
+      }
+    },
+    "1470373330::10 Video Credits": {
+      "app_id": "1470373330",
+      "app_name": "Remini - 人工智能修图",
+      "name": "10 Video Credits",
+      "region": "cn",
+      "first_date": "2026-10-27",
+      "first_price": "¥68.00",
+      "last_date": "2026-10-27",
+      "last_price": "¥68.00",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
+      "free_since": null,
+      "changes": {
+        "2026-10-27": "¥68.00"
+      }
+    },
+    "1470373330::Remini Lite Monthly": {
+      "app_id": "1470373330",
+      "app_name": "Remini - 人工智能修图",
+      "name": "Remini Lite Monthly",
+      "region": "cn",
+      "first_date": "2026-10-27",
+      "first_price": "¥22.00",
+      "last_date": "2026-10-27",
+      "last_price": "¥22.00",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
+      "free_since": null,
+      "changes": {
+        "2026-10-27": "¥22.00"
+      }
+    },
+    "1470373330::Remini Pro Monthly": {
+      "app_id": "1470373330",
+      "app_name": "Remini - 人工智能修图",
+      "name": "Remini Pro Monthly",
+      "region": "cn",
+      "first_date": "2026-10-27",
+      "first_price": "¥38.00",
+      "last_date": "2026-10-27",
+      "last_price": "¥38.00",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
+      "free_since": null,
+      "changes": {
+        "2026-10-27": "¥38.00"
+      }
+    },
+    "1470373330::Remini Pro Weekly with Free Trial": {
+      "app_id": "1470373330",
+      "app_name": "Remini - 人工智能修图",
+      "name": "Remini Pro Weekly with Free Trial",
+      "region": "cn",
+      "first_date": "2026-10-27",
+      "first_price": "¥68.00",
+      "last_date": "2026-10-27",
+      "last_price": "¥68.00",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
+      "free_since": null,
+      "changes": {
+        "2026-10-27": "¥68.00"
+      }
+    },
+    "1470373330::Remini Pro Weekly with Intro Price": {
+      "app_id": "1470373330",
+      "app_name": "Remini - 人工智能修图",
+      "name": "Remini Pro Weekly with Intro Price",
+      "region": "cn",
+      "first_date": "2026-10-27",
+      "first_price": "¥68.00",
+      "last_date": "2026-10-27",
+      "last_price": "¥68.00",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
+      "free_since": null,
+      "changes": {
+        "2026-10-27": "¥68.00"
+      }
+    },
+    "1570403223::超级通行证": {
+      "app_id": "1570403223",
+      "app_name": "梦幻家园 - Homescapes",
+      "name": "超级通行证",
+      "region": "cn",
+      "first_date": "2026-10-27",
+      "first_price": "¥58.00",
+      "last_date": "2026-10-27",
+      "last_price": "¥22.00",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
+      "free_since": null,
+      "changes": {
+        "2026-10-27": "¥22.00"
+      }
+    },
+    "1570403223::黃金通行證": {
+      "app_id": "1570403223",
+      "app_name": "梦幻家园 - Homescapes",
+      "name": "黃金通行證",
+      "region": "cn",
+      "first_date": "2026-10-27",
+      "first_price": "¥38.00",
+      "last_date": "2026-10-27",
+      "last_price": "¥38.00",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
+      "free_since": null,
+      "changes": {
+        "2026-10-27": "¥38.00"
+      }
+    },
+    "1570403223::派对时间": {
+      "app_id": "1570403223",
+      "app_name": "梦幻家园 - Homescapes",
+      "name": "派对时间",
+      "region": "cn",
+      "first_date": "2026-10-27",
+      "first_price": "¥48.00",
+      "last_date": "2026-10-27",
+      "last_price": "¥15.00",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
+      "free_since": null,
+      "changes": {
+        "2026-10-27": "¥15.00"
+      }
+    },
+    "385285922::1个月乐视超级影视会员": {
+      "app_id": "385285922",
+      "app_name": "乐视视频 就视不一样",
+      "name": "1个月乐视超级影视会员",
+      "region": "cn",
+      "first_date": "2026-10-27",
+      "first_price": "¥30.00",
+      "last_date": "2026-10-27",
+      "last_price": "¥88.00",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
+      "free_since": null,
+      "changes": {
+        "2026-10-27": "¥88.00"
+      }
+    },
+    "385285922::3个月乐视超级影视会员": {
+      "app_id": "385285922",
+      "app_name": "乐视视频 就视不一样",
+      "name": "3个月乐视超级影视会员",
+      "region": "cn",
+      "first_date": "2026-10-27",
+      "first_price": "¥90.00",
+      "last_date": "2026-10-27",
+      "last_price": "¥90.00",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
+      "free_since": null,
+      "changes": {
+        "2026-10-27": "¥90.00"
+      }
+    },
+    "385285922::6个月超级影视会员套餐": {
+      "app_id": "385285922",
+      "app_name": "乐视视频 就视不一样",
+      "name": "6个月超级影视会员套餐",
+      "region": "cn",
+      "first_date": "2026-10-27",
+      "first_price": "¥179.00",
+      "last_date": "2026-10-27",
+      "last_price": "¥179.00",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
+      "free_since": null,
+      "changes": {
+        "2026-10-27": "¥179.00"
+      }
+    },
+    "385285922::12个月乐视超级影视会员": {
+      "app_id": "385285922",
+      "app_name": "乐视视频 就视不一样",
+      "name": "12个月乐视超级影视会员",
+      "region": "cn",
+      "first_date": "2026-10-27",
+      "first_price": "¥299.00",
+      "last_date": "2026-10-27",
+      "last_price": "¥299.00",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
+      "free_since": null,
+      "changes": {
+        "2026-10-27": "¥299.00"
+      }
+    },
+    "385285922::12 个月乐视超级影视会员": {
+      "app_id": "385285922",
+      "app_name": "乐视视频 就视不一样",
+      "name": "12 个月乐视超级影视会员",
+      "region": "cn",
+      "first_date": "2026-10-27",
+      "first_price": "¥498.00",
+      "last_date": "2026-10-27",
+      "last_price": "¥498.00",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
+      "free_since": null,
+      "changes": {
+        "2026-10-27": "¥498.00"
+      }
+    },
+    "385285922::付费点播": {
+      "app_id": "385285922",
+      "app_name": "乐视视频 就视不一样",
+      "name": "付费点播",
+      "region": "cn",
+      "first_date": "2026-10-27",
+      "first_price": "¥28.00",
+      "last_date": "2026-10-27",
+      "last_price": "¥28.00",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
+      "free_since": null,
+      "changes": {
+        "2026-10-27": "¥28.00"
+      }
+    },
+    "6802555120::230直购": {
+      "app_id": "6802555120",
+      "app_name": "霸刀传奇-烽烟再起",
+      "name": "230直购",
+      "region": "cn",
+      "first_date": "2026-10-27",
+      "first_price": "¥230.00",
+      "last_date": "2026-10-27",
+      "last_price": "¥230.00",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
+      "free_since": null,
+      "changes": {
+        "2026-10-27": "¥230.00"
+      }
+    },
+    "6802555120::288直购": {
+      "app_id": "6802555120",
+      "app_name": "霸刀传奇-烽烟再起",
+      "name": "288直购",
+      "region": "cn",
+      "first_date": "2026-10-27",
+      "first_price": "¥288.00",
+      "last_date": "2026-10-27",
+      "last_price": "¥288.00",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
+      "free_since": null,
+      "changes": {
+        "2026-10-27": "¥288.00"
+      }
+    },
+    "6802555120::46直购": {
+      "app_id": "6802555120",
+      "app_name": "霸刀传奇-烽烟再起",
+      "name": "46直购",
+      "region": "cn",
+      "first_date": "2026-10-27",
+      "first_price": "¥46.00",
+      "last_date": "2026-10-27",
+      "last_price": "¥46.00",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
+      "free_since": null,
+      "changes": {
+        "2026-10-27": "¥46.00"
+      }
+    },
+    "1005423273::326金米": {
+      "app_id": "1005423273",
+      "app_name": "医学界医生站-中国医生的学习与临床决策加油站",
+      "name": "326金米",
+      "region": "cn",
+      "first_date": "2026-10-27",
+      "first_price": "¥489.00",
+      "last_date": "2026-10-27",
+      "last_price": "¥489.00",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
+      "free_since": null,
+      "changes": {
+        "2026-10-27": "¥489.00"
+      }
+    },
+    "1005423273::652金米": {
+      "app_id": "1005423273",
+      "app_name": "医学界医生站-中国医生的学习与临床决策加油站",
+      "name": "652金米",
+      "region": "cn",
+      "first_date": "2026-10-27",
+      "first_price": "¥978.00",
+      "last_date": "2026-10-27",
+      "last_price": "¥978.00",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
+      "free_since": null,
+      "changes": {
+        "2026-10-27": "¥978.00"
+      }
+    },
+    "1005423273::50金米": {
+      "app_id": "1005423273",
+      "app_name": "医学界医生站-中国医生的学习与临床决策加油站",
+      "name": "50金米",
+      "region": "cn",
+      "first_date": "2026-10-27",
+      "first_price": "¥75.00",
+      "last_date": "2026-10-27",
+      "last_price": "¥75.00",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
+      "free_since": null,
+      "changes": {
+        "2026-10-27": "¥75.00"
+      }
+    },
+    "1005423273::98金米": {
+      "app_id": "1005423273",
+      "app_name": "医学界医生站-中国医生的学习与临床决策加油站",
+      "name": "98金米",
+      "region": "cn",
+      "first_date": "2026-10-27",
+      "first_price": "¥147.00",
+      "last_date": "2026-10-27",
+      "last_price": "¥147.00",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
+      "free_since": null,
+      "changes": {
+        "2026-10-27": "¥147.00"
+      }
+    },
+    "1005423273::30金米": {
+      "app_id": "1005423273",
+      "app_name": "医学界医生站-中国医生的学习与临床决策加油站",
+      "name": "30金米",
+      "region": "cn",
+      "first_date": "2026-10-27",
+      "first_price": "¥45.00",
+      "last_date": "2026-10-27",
+      "last_price": "¥45.00",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
+      "free_since": null,
+      "changes": {
+        "2026-10-27": "¥45.00"
+      }
+    },
+    "1005423273::1金米": {
+      "app_id": "1005423273",
+      "app_name": "医学界医生站-中国医生的学习与临床决策加油站",
+      "name": "1金米",
+      "region": "cn",
+      "first_date": "2026-10-27",
+      "first_price": "¥1.50",
+      "last_date": "2026-10-27",
+      "last_price": "¥1.50",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
+      "free_since": null,
+      "changes": {
+        "2026-10-27": "¥1.50"
+      }
+    },
+    "1005423273::1金豆": {
+      "app_id": "1005423273",
+      "app_name": "医学界医生站-中国医生的学习与临床决策加油站",
+      "name": "1金豆",
+      "region": "cn",
+      "first_date": "2026-10-27",
+      "first_price": "¥1.50",
+      "last_date": "2026-10-27",
+      "last_price": "¥1.50",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
+      "free_since": null,
+      "changes": {
+        "2026-10-27": "¥1.50"
+      }
+    },
+    "1005423273::326金豆": {
+      "app_id": "1005423273",
+      "app_name": "医学界医生站-中国医生的学习与临床决策加油站",
+      "name": "326金豆",
+      "region": "cn",
+      "first_date": "2026-10-27",
+      "first_price": "¥489.00",
+      "last_date": "2026-10-27",
+      "last_price": "¥489.00",
+      "last_change_date": "2026-10-27",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-27",
+      "free_since": null,
+      "changes": {
+        "2026-10-27": "¥489.00"
       }
     }
   }
