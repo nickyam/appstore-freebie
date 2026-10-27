@@ -62,7 +62,10 @@ jobs:
           # PATHS 必须覆盖 generate.py 会改写的全部文件（含 6 个根级静态页：
           # stamp_asset_version()/sync_includes() 会全量改写所有 .html；漏加会导致
           # 「已改未暂存」→ git pull --rebase 拒绝 → 整班红）
-          PATHS="data/free-today-cn.json data/free-today-us.json data/history-cn.json data/history-us.json index.html about.html privacy.html terms.html 404.html app-page.html app/ sitemap.xml"
+          # 🔴 iap-free-{region}.json 也必须在列：generate.py 的 backfill_iap_page_fields()
+          # 会在出页后回写该文件的 page 指针（消除首页内购卡片直跳 App Store），
+          # 漏加 → 工作树残留未暂存改动 → rebase 报 unstaged → 整班红。
+          PATHS="data/free-today-cn.json data/free-today-us.json data/history-cn.json data/history-us.json data/iap-free-cn.json data/iap-free-us.json index.html about.html privacy.html terms.html 404.html app-page.html app/ sitemap.xml"
           MSG="daily-full: App Store 全量回查 $(date -u +%Y-%m-%d)"
 
           # 双区全量生成（带 3 次重试；Apple 接口偶发超时/限流）
