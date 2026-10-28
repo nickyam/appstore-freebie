@@ -250,7 +250,7 @@ def detect_events(hist, region, today):
     return events, current_free
 
 
-def enrich_events_itunes(region, events):
+def enrich_events_itunes(region, events, current_free=None):
     """给限免事件补 App 元数据（评分/图标/开发者/分类），并剔除无评分事件。
 
     背景：detect_events 直接产出的事件只有价格字段、没有 rating；前端首页的
@@ -263,9 +263,10 @@ def enrich_events_itunes(region, events):
     全站唯一写页人）；此处仅当文件已存在才给 page 字段——新事件在采集器运行后、
     generate 出页前的窗口期内回退 App Store 外链，避免 404。
     """
-    if not events:
-        return events
-    ids = sorted({e["app_id"] for e in events})
+    if not events and not current_free:
+        return events, (current_free or [])
+    ids = sorted({e["app_id"] for e in events} |
+                 {it["app_id"] for it in (current_free or [])})
     meta = {}
     for i in range(0, len(ids), 100):
         batch = ids[i:i + 100]
@@ -290,8 +291,16 @@ def enrich_events_itunes(region, events):
                 "rating": r.get("averageUserRating") or 0,
                 "icon": r.get("artworkUrl512") or r.get("artworkUrl100") or "",
                 "url": r.get("trackViewUrl") or "",
+                "app_price": r.get("formattedPrice") or "",  # App 本体价（可 0=免费 或非 0）
             }
         time.sleep(1)
+    # 「当前免费内购」(current_free) 也附上 App 本体价（可 0 或非 0），供前端一并展示；
+    # 不按评分过滤，保持原行为（无评分也展示当前免费内购）。
+    if current_free:
+        for it in current_free:
+            m = meta.get(it["app_id"]) or {}
+            if m.get("app_price"):
+                it["app_price"] = m["app_price"]
     out = []
     for e in events:
         m = meta.get(e["app_id"]) or {}
@@ -302,6 +311,8 @@ def enrich_events_itunes(region, events):
         e["icon"] = m.get("icon", "")
         e["dev"] = m.get("dev", "")
         e["genre"] = m.get("genre", "")
+        if m.get("app_price"):
+            e["app_price"] = m["app_price"]
         if m.get("url"):
             e["url"] = m["url"]
         if not e.get("app_name") and m.get("name"):
@@ -310,7 +321,7 @@ def enrich_events_itunes(region, events):
         if os.path.exists(os.path.join(REPO, page_rel)):
             e["page"] = page_rel
         out.append(e)
-    return out
+    return out, (current_free or [])
 
 
 def run(region, limit, delay):
@@ -345,7 +356,7 @@ def run(region, limit, delay):
                          "processed": ok, "skipped": skip})
     save_json(f"iap-history-{region}.json", hist)
     events, current_free = detect_events(hist, region, today)
-    events = enrich_events_itunes(region, events)  # 补评分富化；无评分不收录
+    events, current_free = enrich_events_itunes(region, events, current_free)  # 补评分富化+App本体价；无评分不收录
     save_json(f"iap-free-{region}.json",
               {"updated": today, "region": region, "count": len(events), "events": events})
     save_json(f"iap-current-free-{region}.json",

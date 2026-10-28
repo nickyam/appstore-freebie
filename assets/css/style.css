@@ -279,6 +279,7 @@ ins.adsbygoogle { background: #ececf0; border-radius: var(--radius); }
   overflow: hidden; word-break: break-word; line-height: 1.35; margin-top: 2px;
 }
 .card .genre { color: var(--muted); font-size: 13px; margin-top: 3px; }
+.card .app-price { color: var(--muted); font-size: 12.5px; margin-top: 2px; }
 /* 内购限免卡：同一 App 的多个免费内购合并展示（聚合自 app_id，避免重复卡片） */
 .card .iap-meta { color: var(--muted); font-size: 12.5px; line-height: 1.5; margin-top: 4px; }
 .card .iap-line { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }

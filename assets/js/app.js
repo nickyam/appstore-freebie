@@ -33,6 +33,7 @@
       iap_today: '今日起免费',
       iap_perm_tag: '常驻免费(赠品)',
       iap_cur_free: '当前免费',
+      iap_app_price: 'App 本体价',
       dt_iap_title: '🎁 内购限时免费',
       back_top: '返回顶部',
       loading: '加载中…',
@@ -190,6 +191,7 @@
       iap_today: 'Free since today',
       iap_perm_tag: 'Permanent free (gift)',
       iap_cur_free: 'Currently free',
+      iap_app_price: 'App price',
       dt_iap_title: '🎁 IAP Limited-Time Free',
       back_top: 'Back to top',
       loading: 'Loading…',
@@ -585,6 +587,10 @@
       info.appendChild(el('div', 'rating', '★ ' + (Math.round(it.rating * 10) / 10).toFixed(1)));
     } else {
       info.appendChild(el('div', 'rating norate', esc(dict.no_rating)));
+    }
+    // 本体价格（可 0=免费 或非 0）：与内购限免并列展示，让「内购限免板块」同时呈现 App 本体价与内购限免
+    if (it.app_price) {
+      info.appendChild(el('div', 'app-price', esc(dict.iap_app_price + ' ' + it.app_price)));
     }
     // 末行：列出该 App 的免费内购项（同一 App 多个内购合并到一张卡，不再重复成多张卡）
     var metaBox = el('div', 'iap-meta');
