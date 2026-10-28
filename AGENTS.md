@@ -29,7 +29,7 @@
    - 限免：当前价=0 且 曾收费(ec) 且 连续免费天数 ≤ 7（LONG_FREE_DAYS）。
    - 降价：当前价 < 历史最高价 且 降幅 ≥ 50%（DEAL_DROP_PCT）。
    - 永久免费（全程 0）不收录；**无评分（rating≤0）一律不收录**（本体与内购统一规则）。
-   - 内购限免：仅「付费→0」跳变算事件；ever_paid=False 的永久免费内购归入"常驻免费"，不进事件 feed。
+   - 内购限免：仅「付费→0」跳变算事件；ever_paid=False 的永久免费内购归入"常驻免费"，不进事件 feed。**试用 / 试玩 / 体验版 / 体验卡 / 体验券 / trial / free trial 类内购一律不算内购限免**（只是免费试用，不是真·促销限免；Apple 常把试用期标成 免费/Free，故在 `iap_probe.is_trial_iap` 按名字剔除，且 `FREE_TOKENS` 不含 free trial/免费试用）。
 
 5. **CI 铁律：PATHS 必须覆盖所有被改写文件**
    daily.yml / daily-full.yml 的 `git add $PATHS` 必须包含 generate.py 与采集器会写到的全部文件（6 个根级 html、app/、sitemap.xml、全部 data/ 产物、.seed_iap_apprcn_manifest.json）。
