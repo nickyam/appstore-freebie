@@ -1,39 +1,16 @@
 {
-  "updated": "2026-10-28",
+  "updated": "2026-10-29",
   "region": "cn",
-  "count": 162,
+  "count": 153,
   "items": [
-    {
-      "app_id": "364859644",
-      "app_name": "Offline Pages",
-      "iap": "Offline Pages Pro",
-      "price": "¥0.00",
-      "permanent_free": false,
-      "since": "2026-10-28"
-    },
     {
       "app_id": "1576118042",
       "app_name": "Rhymelo",
       "iap": "Unlock All Rhymes",
       "price": "¥0.00",
       "permanent_free": false,
-      "since": "2026-10-28"
-    },
-    {
-      "app_id": "6446667745",
-      "app_name": "StressTracker压力自测：实时精准测压力，压力分析",
-      "iap": "永久会员",
-      "price": "¥0.00",
-      "permanent_free": false,
-      "since": "2026-10-28"
-    },
-    {
-      "app_id": "284220417",
-      "app_name": "Currency",
-      "iap": "Currency Pro",
-      "price": "¥0.00",
-      "permanent_free": false,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "免费"
     },
     {
       "app_id": "957061929",
@@ -41,7 +18,8 @@
       "iap": "PDF Scanner Pro",
       "price": "¥0.00",
       "permanent_free": false,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "¥3.00"
     },
     {
       "app_id": "6758658840",
@@ -49,7 +27,8 @@
       "iap": "PRO Lifetime",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "¥8.00"
     },
     {
       "app_id": "417401887",
@@ -57,7 +36,8 @@
       "iap": "Offline High Resolution Map",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "¥68.00"
     },
     {
       "app_id": "1439723850",
@@ -65,7 +45,8 @@
       "iap": "桌面透明小组件",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "¥3.00"
     },
     {
       "app_id": "6446212291",
@@ -73,7 +54,8 @@
       "iap": "去除部分广告",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "免费"
     },
     {
       "app_id": "1014618396",
@@ -81,7 +63,8 @@
       "iap": "Paris",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "免费"
     },
     {
       "app_id": "1095903651",
@@ -89,7 +72,8 @@
       "iap": "特效7",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "¥1.00"
     },
     {
       "app_id": "1095903651",
@@ -97,7 +81,8 @@
       "iap": "特效2",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "¥1.00"
     },
     {
       "app_id": "1095903651",
@@ -105,7 +90,8 @@
       "iap": "特效3",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "¥1.00"
     },
     {
       "app_id": "1095903651",
@@ -113,7 +99,8 @@
       "iap": "特效6",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "¥1.00"
     },
     {
       "app_id": "1095903651",
@@ -121,7 +108,8 @@
       "iap": "特效5",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "¥1.00"
     },
     {
       "app_id": "1095903651",
@@ -129,7 +117,8 @@
       "iap": "特效4",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "¥1.00"
     },
     {
       "app_id": "1095903651",
@@ -137,7 +126,8 @@
       "iap": "特效1",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "¥1.00"
     },
     {
       "app_id": "316133247",
@@ -145,7 +135,8 @@
       "iap": "Example sentence search activation",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "¥168.00"
     },
     {
       "app_id": "925289270",
@@ -153,7 +144,8 @@
       "iap": "Headword Audio Pack",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "¥15.00"
     },
     {
       "app_id": "1263344297",
@@ -161,7 +153,8 @@
       "iap": "视频模组卷",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "¥22.00"
     },
     {
       "app_id": "1257281849",
@@ -169,7 +162,8 @@
       "iap": "Apollo Lunar Missions",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "¥48.00"
     },
     {
       "app_id": "926221123",
@@ -177,7 +171,8 @@
       "iap": "Headword Audio Pack",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "¥48.00"
     },
     {
       "app_id": "1024395134",
@@ -185,7 +180,8 @@
       "iap": "Drag and Drop",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "¥58.00"
     },
     {
       "app_id": "1024395134",
@@ -193,7 +189,8 @@
       "iap": "Teleprompter Mode",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "¥58.00"
     },
     {
       "app_id": "388627783",
@@ -201,7 +198,8 @@
       "iap": "扫描全能王教师认证会员",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "免费"
     },
     {
       "app_id": "388627783",
@@ -209,15 +207,8 @@
       "iap": "扫描全能王学生认证会员",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
-    },
-    {
-      "app_id": "1444383602",
-      "app_name": "Goodnotes：AI 笔记、白板、PDF",
-      "iap": "Goodnotes 6 免费试用",
-      "price": "¥0.00",
-      "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "免费"
     },
     {
       "app_id": "1444383602",
@@ -225,7 +216,8 @@
       "iap": "多功能计划本-用于学习、工作和生活（粉棕色主题-中文含贴纸",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "免费"
     },
     {
       "app_id": "1444383602",
@@ -233,7 +225,8 @@
       "iap": "好心智杂志",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "免费"
     },
     {
       "app_id": "1444383602",
@@ -241,7 +234,8 @@
       "iap": "秋日猫猫贴纸组",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "免费"
     },
     {
       "app_id": "730712409",
@@ -249,7 +243,8 @@
       "iap": "ZERO: 直接传感器捕捉",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "¥68.00"
     },
     {
       "app_id": "730712409",
@@ -257,7 +252,8 @@
       "iap": "AI 空间",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "¥68.00"
     },
     {
       "app_id": "730712409",
@@ -265,7 +261,8 @@
       "iap": "批量照片动作",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "¥68.00"
     },
     {
       "app_id": "406541444",
@@ -273,7 +270,8 @@
       "iap": "默片主题",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "¥28.00"
     },
     {
       "app_id": "406541444",
@@ -281,7 +279,8 @@
       "iap": "倒计时主题",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "¥28.00"
     },
     {
       "app_id": "406541444",
@@ -289,7 +288,8 @@
       "iap": "炫光主题",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "¥28.00"
     },
     {
       "app_id": "766214869",
@@ -297,7 +297,8 @@
       "iap": "曝光",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "¥22.00"
     },
     {
       "app_id": "766214869",
@@ -305,7 +306,8 @@
       "iap": "光基础",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "¥22.00"
     },
     {
       "app_id": "766214869",
@@ -313,7 +315,8 @@
       "iap": "White Balance",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "¥22.00"
     },
     {
       "app_id": "766214869",
@@ -321,7 +324,8 @@
       "iap": "构图基础",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "¥22.00"
     },
     {
       "app_id": "766214869",
@@ -329,7 +333,8 @@
       "iap": "快门速度",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "¥22.00"
     },
     {
       "app_id": "766214869",
@@ -337,7 +342,8 @@
       "iap": "焦深",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "¥22.00"
     },
     {
       "app_id": "766214869",
@@ -345,7 +351,8 @@
       "iap": "控光设备",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "¥22.00"
     },
     {
       "app_id": "1149994032",
@@ -353,7 +360,8 @@
       "iap": "自动",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "免费"
     },
     {
       "app_id": "588013838",
@@ -361,7 +369,8 @@
       "iap": "The Aesthetic Series",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "免费"
     },
     {
       "app_id": "588013838",
@@ -369,7 +378,8 @@
       "iap": "Hypebeast / HB",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "免费"
     },
     {
       "app_id": "588013838",
@@ -377,7 +387,8 @@
       "iap": "Krochet Kids intl.",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "免费"
     },
     {
       "app_id": "588013838",
@@ -385,7 +396,8 @@
       "iap": "NikeLab ACG",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "免费"
     },
     {
       "app_id": "588013838",
@@ -393,7 +405,8 @@
       "iap": "Nike Sportswear / Tech Pack",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "免费"
     },
     {
       "app_id": "588013838",
@@ -401,7 +414,8 @@
       "iap": "Distortia Pack",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "免费"
     },
     {
       "app_id": "588013838",
@@ -409,7 +423,8 @@
       "iap": "Ta-ku x VSCO",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "免费"
     },
     {
       "app_id": "588013838",
@@ -417,7 +432,8 @@
       "iap": "Neocha",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "免费"
     },
     {
       "app_id": "588013838",
@@ -425,7 +441,8 @@
       "iap": "We the Creators",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "免费"
     },
     {
       "app_id": "1362548649",
@@ -433,7 +450,8 @@
       "iap": "NOMO TOY F",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "免费"
     },
     {
       "app_id": "1362548649",
@@ -441,7 +459,8 @@
       "iap": "NOMO ROMA",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "免费"
     },
     {
       "app_id": "1362548649",
@@ -449,7 +468,8 @@
       "iap": "NOMO FR2",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "免费"
     },
     {
       "app_id": "1362548649",
@@ -457,7 +477,8 @@
       "iap": "NOMO TOY K",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "免费"
     },
     {
       "app_id": "1362548649",
@@ -465,7 +486,8 @@
       "iap": "NOMO 2007",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "免费"
     },
     {
       "app_id": "1570093460",
@@ -473,7 +495,8 @@
       "iap": "INS G-0",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "免费"
     },
     {
       "app_id": "1020967894",
@@ -481,7 +504,8 @@
       "iap": "专业人员座标(仅限英语)",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "¥22.00"
     },
     {
       "app_id": "432850619",
@@ -489,7 +513,8 @@
       "iap": "Groove Machine Synth",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "¥88.00"
     },
     {
       "app_id": "363738376",
@@ -497,7 +522,8 @@
       "iap": "Brahms: The Mutopia Collection",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "¥168.00"
     },
     {
       "app_id": "363738376",
@@ -505,7 +531,8 @@
       "iap": "Liszt: The Mutopia Collection",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "¥168.00"
     },
     {
       "app_id": "363738376",
@@ -513,7 +540,8 @@
       "iap": "Burgmüller: The Mutopia Collection",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "¥168.00"
     },
     {
       "app_id": "363738376",
@@ -521,7 +549,8 @@
       "iap": "Schumann: The Mutopia Collection",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "¥168.00"
     },
     {
       "app_id": "363738376",
@@ -529,7 +558,8 @@
       "iap": "Tchaikovsky: The Mutopia Collection",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "¥168.00"
     },
     {
       "app_id": "363738376",
@@ -537,7 +567,8 @@
       "iap": "Haydn: The Mutopia Collection",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "¥168.00"
     },
     {
       "app_id": "363738376",
@@ -545,7 +576,8 @@
       "iap": "Gottschalk: The Mutopia Collection",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "¥168.00"
     },
     {
       "app_id": "363738376",
@@ -553,7 +585,8 @@
       "iap": "Verdi: The Mutopia Collection",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "¥168.00"
     },
     {
       "app_id": "363738376",
@@ -561,7 +594,8 @@
       "iap": "Rameau: The Mutopia Collection",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "¥168.00"
     },
     {
       "app_id": "377848312",
@@ -569,7 +603,8 @@
       "iap": "Aquarela",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "¥38.00"
     },
     {
       "app_id": "377848312",
@@ -577,7 +612,8 @@
       "iap": "Classic deej skin",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "¥38.00"
     },
     {
       "app_id": "6776121093",
@@ -585,7 +621,8 @@
       "iap": "Premium Lifetime",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "免费"
     },
     {
       "app_id": "6741854065",
@@ -593,7 +630,8 @@
       "iap": "新永久会员",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "免费"
     },
     {
       "app_id": "6821278362",
@@ -601,7 +639,8 @@
       "iap": "StorageGo Pro 永久",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "免费"
     },
     {
       "app_id": "6802706711",
@@ -609,7 +648,8 @@
       "iap": "Remove Watermark",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "免费"
     },
     {
       "app_id": "6790040520",
@@ -617,7 +657,8 @@
       "iap": "基础买断版",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "免费"
     },
     {
       "app_id": "6748983354",
@@ -625,7 +666,8 @@
       "iap": "Lifetime Premium",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "免费"
     },
     {
       "app_id": "1095061668",
@@ -633,7 +675,8 @@
       "iap": "Sticker Picker",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "¥8.00"
     },
     {
       "app_id": "1623275786",
@@ -641,15 +684,8 @@
       "iap": "All Calendars",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
-    },
-    {
-      "app_id": "6819051367",
-      "app_name": "Life Cost: Price in Work Time",
-      "iap": "14-Day Free Trial",
-      "price": "¥0.00",
-      "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "免费"
     },
     {
       "app_id": "6823810305",
@@ -657,7 +693,8 @@
       "iap": "Three Routes Pro Lifetime",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "免费"
     },
     {
       "app_id": "6757162931",
@@ -665,7 +702,8 @@
       "iap": "Emotica Pro Lifetime",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "免费"
     },
     {
       "app_id": "450527929",
@@ -673,7 +711,8 @@
       "iap": "解锁升级功能",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "免费"
     },
     {
       "app_id": "935528099",
@@ -681,7 +720,8 @@
       "iap": "音乐合集SP01",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "¥1.00"
     },
     {
       "app_id": "1460011387",
@@ -689,7 +729,8 @@
       "iap": "CN 帐户图标包 2",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "免费"
     },
     {
       "app_id": "1460011387",
@@ -697,7 +738,8 @@
       "iap": "CN 帐户图标包 1",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "免费"
     },
     {
       "app_id": "1460011387",
@@ -705,7 +747,8 @@
       "iap": "CN 帐户图标包 4",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "免费"
     },
     {
       "app_id": "1460011387",
@@ -713,7 +756,8 @@
       "iap": "CN 帐户图标包 3",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "免费"
     },
     {
       "app_id": "1460011387",
@@ -721,7 +765,8 @@
       "iap": "TW 帐户图标包 3",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "免费"
     },
     {
       "app_id": "1460011387",
@@ -729,7 +774,8 @@
       "iap": "TW 帐户图标包 1",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "免费"
     },
     {
       "app_id": "1460011387",
@@ -737,7 +783,8 @@
       "iap": "TW 帐户图标包 2",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "免费"
     },
     {
       "app_id": "1460011387",
@@ -745,7 +792,8 @@
       "iap": "HK 帐户图标包 1",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "免费"
     },
     {
       "app_id": "1136220934",
@@ -753,7 +801,8 @@
       "iap": "DTS 音效",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "免费"
     },
     {
       "app_id": "1136220934",
@@ -761,7 +810,8 @@
       "iap": "杜比音效",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "免费"
     },
     {
       "app_id": "961227503",
@@ -769,7 +819,8 @@
       "iap": "专业工具",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "¥8.00"
     },
     {
       "app_id": "892279069",
@@ -777,7 +828,8 @@
       "iap": "Constellations of Avengers",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "¥22.00"
     },
     {
       "app_id": "6737119574",
@@ -785,7 +837,8 @@
       "iap": "终身会员·内测专享",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "免费"
     },
     {
       "app_id": "6742887304",
@@ -793,7 +846,8 @@
       "iap": "永久会员",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "¥1.00"
     },
     {
       "app_id": "764386155",
@@ -801,7 +855,8 @@
       "iap": "汉字字库更新",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "免费"
     },
     {
       "app_id": "650415564",
@@ -809,7 +864,8 @@
       "iap": "X-Film Bundle",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "¥15.00"
     },
     {
       "app_id": "650415564",
@@ -817,7 +873,8 @@
       "iap": "Outfitter Formula Pack",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "¥15.00"
     },
     {
       "app_id": "1067575393",
@@ -825,7 +882,8 @@
       "iap": "去除广告",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "¥1.00"
     },
     {
       "app_id": "1375390276",
@@ -833,7 +891,8 @@
       "iap": "限免滤镜",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "免费"
     },
     {
       "app_id": "448200679",
@@ -841,7 +900,8 @@
       "iap": "冥想介绍",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "¥22.00"
     },
     {
       "app_id": "448200679",
@@ -849,7 +909,8 @@
       "iap": "无限动力",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "¥22.00"
     },
     {
       "app_id": "6752997612",
@@ -857,7 +918,8 @@
       "iap": "FA All Questions",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "免费"
     },
     {
       "app_id": "300048137",
@@ -865,7 +927,8 @@
       "iap": "Platinum Restore",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "免费"
     },
     {
       "app_id": "1627645755",
@@ -873,7 +936,8 @@
       "iap": "解锁全部皮肤",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "¥1.00"
     },
     {
       "app_id": "412380315",
@@ -881,7 +945,8 @@
       "iap": "Version 4: Complete Features Bundle",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "¥98.00"
     },
     {
       "app_id": "1514946045",
@@ -889,7 +954,8 @@
       "iap": "世界遗产",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "免费"
     },
     {
       "app_id": "1514946045",
@@ -897,15 +963,8 @@
       "iap": "宁夏自治区地图",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
-    },
-    {
-      "app_id": "1469549281",
-      "app_name": "Oxford Advanced Learner's Dict",
-      "iap": "Free 3-day trial",
-      "price": "¥0.00",
-      "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "免费"
     },
     {
       "app_id": "426007025",
@@ -913,7 +972,8 @@
       "iap": "CalConvert Pro",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "免费"
     },
     {
       "app_id": "1437345765",
@@ -921,7 +981,8 @@
       "iap": "删除广告",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "¥68.00"
     },
     {
       "app_id": "1182856129",
@@ -929,7 +990,8 @@
       "iap": "几个章节",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "¥22.00"
     },
     {
       "app_id": "550101894",
@@ -937,7 +999,8 @@
       "iap": "离线数据授权",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "¥58.00"
     },
     {
       "app_id": "585193266",
@@ -945,7 +1008,8 @@
       "iap": "North America Premium",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "免费"
     },
     {
       "app_id": "478293637",
@@ -953,15 +1017,8 @@
       "iap": "Promo",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
-    },
-    {
-      "app_id": "6742965175",
-      "app_name": "码上取 - 让取件更简单",
-      "iap": "7天试用",
-      "price": "¥0.00",
-      "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "¥98.00"
     },
     {
       "app_id": "451567051",
@@ -969,7 +1026,8 @@
       "iap": "忏悔录-奥古斯丁",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "¥38.00"
     },
     {
       "app_id": "451567051",
@@ -977,7 +1035,8 @@
       "iap": "《天路历程》",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "¥38.00"
     },
     {
       "app_id": "451567051",
@@ -985,7 +1044,8 @@
       "iap": "圣经难字表",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "¥38.00"
     },
     {
       "app_id": "6780591952",
@@ -993,15 +1053,8 @@
       "iap": "PRO",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
-    },
-    {
-      "app_id": "6774341898",
-      "app_name": "Videcho: Add Reverb to Video",
-      "iap": "7-day Trial",
-      "price": "¥0.00",
-      "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "¥38.00"
     },
     {
       "app_id": "1078569202",
@@ -1009,7 +1062,8 @@
       "iap": "视频及模组卷",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "¥22.00"
     },
     {
       "app_id": "1078569202",
@@ -1017,7 +1071,8 @@
       "iap": "B2轰炸机地毯式轰炸",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "¥22.00"
     },
     {
       "app_id": "1078569202",
@@ -1025,7 +1080,8 @@
       "iap": "兰博基尼 Veneno",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "¥22.00"
     },
     {
       "app_id": "1078569202",
@@ -1033,7 +1089,8 @@
       "iap": "隐形轰炸机",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "¥22.00"
     },
     {
       "app_id": "1078569202",
@@ -1041,7 +1098,8 @@
       "iap": "星球大战 - 帝国歼星舰和Motojet",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "¥22.00"
     },
     {
       "app_id": "1078569202",
@@ -1049,7 +1107,8 @@
       "iap": "增强版蝙蝠侠",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "¥22.00"
     },
     {
       "app_id": "1078569202",
@@ -1057,7 +1116,8 @@
       "iap": "钢铁侠",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "¥22.00"
     },
     {
       "app_id": "1078569202",
@@ -1065,7 +1125,8 @@
       "iap": "Jetpack",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "¥22.00"
     },
     {
       "app_id": "1078569202",
@@ -1073,7 +1134,8 @@
       "iap": "蝙蝠侠",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "¥22.00"
     },
     {
       "app_id": "1567654881",
@@ -1081,7 +1143,8 @@
       "iap": "Apollo Lunar Missions",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "¥68.00"
     },
     {
       "app_id": "6443581415",
@@ -1089,7 +1152,8 @@
       "iap": "Lifetime",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "免费"
     },
     {
       "app_id": "686525577",
@@ -1097,7 +1161,8 @@
       "iap": "离线数据",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "¥58.00"
     },
     {
       "app_id": "1149178596",
@@ -1105,7 +1170,8 @@
       "iap": "全部家具模组和视频卷",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "¥22.00"
     },
     {
       "app_id": "6816689330",
@@ -1113,7 +1179,8 @@
       "iap": "Pro 永久版",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "¥6.00"
     },
     {
       "app_id": "1558783458",
@@ -1121,7 +1188,8 @@
       "iap": "Pro version",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "¥15.00"
     },
     {
       "app_id": "1062358764",
@@ -1129,7 +1197,8 @@
       "iap": "Teleprompter Mode",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "¥28.00"
     },
     {
       "app_id": "443829823",
@@ -1137,15 +1206,8 @@
       "iap": "Full Book Content (Past Purchase)",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
-    },
-    {
-      "app_id": "1008067212",
-      "app_name": "Coverpad",
-      "iap": "14 天试用",
-      "price": "¥0.00",
-      "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "¥58.00"
     },
     {
       "app_id": "6812623223",
@@ -1153,7 +1215,8 @@
       "iap": "永久会员",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "免费"
     },
     {
       "app_id": "1065198021",
@@ -1161,7 +1224,8 @@
       "iap": "会员资格",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "免费"
     },
     {
       "app_id": "1071126584",
@@ -1169,7 +1233,8 @@
       "iap": "启用所有功能",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "免费"
     },
     {
       "app_id": "1460687131",
@@ -1177,7 +1242,8 @@
       "iap": "Treino FIT HOME",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "免费"
     },
     {
       "app_id": "493136154",
@@ -1185,7 +1251,8 @@
       "iap": "Bonus Sound Pack",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "免费"
     },
     {
       "app_id": "493136154",
@@ -1193,7 +1260,8 @@
       "iap": "Gulkave",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "免费"
     },
     {
       "app_id": "493136154",
@@ -1201,7 +1269,8 @@
       "iap": "Night Owl Classic",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "免费"
     },
     {
       "app_id": "493136154",
@@ -1209,7 +1278,8 @@
       "iap": "Pocket Monk",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "免费"
     },
     {
       "app_id": "493136154",
@@ -1217,7 +1287,8 @@
       "iap": "The Heist Classic",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "免费"
     },
     {
       "app_id": "493136154",
@@ -1225,7 +1296,8 @@
       "iap": "Cormorant Garamond",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "免费"
     },
     {
       "app_id": "493136154",
@@ -1233,7 +1305,8 @@
       "iap": "Ultraviolet Classic",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "免费"
     },
     {
       "app_id": "493136154",
@@ -1241,7 +1314,8 @@
       "iap": "Pretty Princess Classic",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "免费"
     },
     {
       "app_id": "6753014760",
@@ -1249,7 +1323,8 @@
       "iap": "Custom Time Signatures",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "免费"
     },
     {
       "app_id": "6757113661",
@@ -1257,7 +1332,8 @@
       "iap": "课前提醒服务",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "¥6.00"
     },
     {
       "app_id": "6758056060",
@@ -1265,7 +1341,8 @@
       "iap": "National Parks Collection - Germany",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "免费"
     },
     {
       "app_id": "6758056060",
@@ -1273,7 +1350,8 @@
       "iap": "National Parks - Great Britain",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "免费"
     },
     {
       "app_id": "6758056060",
@@ -1281,7 +1359,8 @@
       "iap": "100 Fine Castles of Japan",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "免费"
     },
     {
       "app_id": "6758226158",
@@ -1289,7 +1368,8 @@
       "iap": "LifeTime Pro",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "免费"
     },
     {
       "app_id": "6779525326",
@@ -1297,7 +1377,8 @@
       "iap": "API Wallet Pro",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
+      "since": "2026-10-28",
+      "app_price": "免费"
     }
   ]
 }
