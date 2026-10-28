@@ -1,7 +1,7 @@
 {
   "updated": "2026-10-28",
   "region": "cn",
-  "count": 6,
+  "count": 5,
   "events": [
     {
       "app_id": "364859644",
@@ -18,22 +18,6 @@
       "dev": "Codium Labs LLC",
       "genre": "旅游",
       "page": "app/cn-364859644.html"
-    },
-    {
-      "app_id": "6741730996",
-      "app_name": "手机测速-网络测速·测网速speedtest",
-      "iap": "手机测速永久会员",
-      "price": "¥0.00",
-      "free_since": "2026-10-28",
-      "days_free": 0,
-      "last_paid_date": "2026-10-28",
-      "last_paid_price": "¥15.00",
-      "url": "https://apps.apple.com/cn/app/%E6%89%8B%E6%9C%BA%E6%B5%8B%E9%80%9F-%E7%BD%91%E7%BB%9C%E6%B5%8B%E9%80%9F-%E6%B5%8B%E7%BD%91%E9%80%9Fspeedtest/id6741730996?uo=4",
-      "rating": 4.01176,
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/84/b3/1f/84b31fdb-11d3-a921-e5bd-0be9dab9b221/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
-      "dev": "Wuhan Yuhang Technology Co., Ltd",
-      "genre": "效率",
-      "page": "app/cn-6741730996.html"
     },
     {
       "app_id": "1576118042",
@@ -61,7 +45,7 @@
       "last_paid_date": "2026-10-28",
       "last_paid_price": "¥0.00",
       "url": "https://apps.apple.com/cn/app/stresstracker%E5%8E%8B%E5%8A%9B%E8%87%AA%E6%B5%8B-%E5%AE%9E%E6%97%B6%E7%B2%BE%E5%87%86%E6%B5%8B%E5%8E%8B%E5%8A%9B-%E5%8E%8B%E5%8A%9B%E5%88%86%E6%9E%90/id6446667745?uo=4",
-      "rating": 4.83839,
+      "rating": 4.83843,
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/db/1e/87/db1e8792-925f-fdfe-b688-4e2b4765074f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
       "dev": "赞美 陈",
       "genre": "健康健美",
@@ -77,7 +61,7 @@
       "last_paid_date": "2026-10-28",
       "last_paid_price": "¥0.00",
       "url": "https://apps.apple.com/cn/app/currency/id284220417?uo=4",
-      "rating": 4.89721,
+      "rating": 4.89723,
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2b/6e/b6/2b6eb6ab-9d49-b15d-7c32-3173474ae57f/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-85-220.png/512x512bb.jpg",
       "dev": "Jeffrey Grossman",
       "genre": "旅游",

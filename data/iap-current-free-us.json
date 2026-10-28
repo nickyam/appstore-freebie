@@ -1,7 +1,7 @@
 {
   "updated": "2026-10-28",
   "region": "us",
-  "count": 200,
+  "count": 201,
   "items": [
     {
       "app_id": "300048137",
@@ -1599,6 +1599,14 @@
       "app_id": "6787702158",
       "app_name": "返航",
       "iap": "Homeward Pro Lifetime",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-28"
+    },
+    {
+      "app_id": "494472589",
+      "app_name": "eZy Watermark Photos Classic",
+      "iap": "NewYear",
       "price": "$0.00",
       "permanent_free": true,
       "since": "2026-10-28"
