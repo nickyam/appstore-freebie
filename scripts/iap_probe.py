@@ -33,7 +33,14 @@ import sys, re, json, html, time, argparse, urllib.request
 RSS = "https://itunes.apple.com/{region}/rss/topfreeapplications/limit={limit}/genre=6014/json"
 UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 "
       "(KHTML, like Gecko) Version/17.0 Safari/605.1.15")
-FREE_TOKENS = {"免费", "free", "free trial", "免费试用"}
+FREE_TOKENS = {"免费", "free"}  # 注意：free trial / 免费试用 不是真免费内购，见 is_trial_iap 剔除
+
+# 试用 / 试玩 / 体验版 / 体验卡 / 体验券 / trial / free trial 一律不算「内购限免」
+# （它们只是免费试用，不是真·促销限免；Apple 常把试用期标成 免费/Free，故必须按名字剔除）
+TRIAL_KEYWORDS = ("试用", "试玩", "体验版", "体验卡", "体验券", "trial")
+def is_trial_iap(name):
+    n = (name or "").lower()
+    return any(k in n for k in TRIAL_KEYWORDS)
 
 # 价格必须以货币符号开头，或恰好是免费词（避免误吞开发者信息里的数字串）
 IAP_PRICE_RE = re.compile(r'^(?:¥|\$|us\$)\s?[\d,]+(?:\.\d{2})?$', re.I)
@@ -70,6 +77,8 @@ def parse_iap(body):
             continue
         name = html.unescape(re.sub(r'\s+', ' ', spans[0])).strip()
         price = html.unescape(re.sub(r'\s+', ' ', spans[1])).strip()
+        if is_trial_iap(name):
+            continue                      # 试用/试玩/体验版等只是免费试用，不算内购限免
         p = price.strip()
         if IAP_PRICE_RE.match(p) or p.lower() in FREE_TOKENS:
             items.append((name, price))

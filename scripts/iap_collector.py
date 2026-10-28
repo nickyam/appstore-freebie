@@ -35,7 +35,7 @@ import sys, os, re, json, html, time, argparse, urllib.request
 from datetime import datetime, timedelta, timezone
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from iap_probe import fetch, parse_iap, is_free  # noqa: E402
+from iap_probe import fetch, parse_iap, is_free, is_trial_iap  # noqa: E402
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 REPO = os.path.dirname(HERE)
@@ -218,6 +218,8 @@ def detect_events(hist, region, today):
     for key, rec in hist["items"].items():
         if not is_free(rec["last_price"]):
             continue
+        if is_trial_iap(rec.get("name", "")):
+            continue                      # 试用/试玩/体验版等只是免费试用，不算内购限免
         permanent = not rec["ever_paid"]
         entry = {
             "app_id": rec["app_id"], "app_name": rec.get("app_name", ""),

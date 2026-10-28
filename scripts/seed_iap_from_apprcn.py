@@ -65,6 +65,7 @@ DATA_DIR = os.path.join(REPO, "data")
 sys.path.insert(0, HERE)
 
 from iap_collector import save_json  # noqa: E402
+from iap_probe import is_trial_iap  # noqa: E402
 from seed_from_apprcn import seed_entry, utc_today  # noqa: E402
 
 SNAPSHOT_URL = "https://monitor-appstore.apprcn.com/api/v1/snapshot?region={region}&type=free"
@@ -122,6 +123,8 @@ def collect_current_free(data, region):
             for it in (r.get("items") or []):
                 if not it.get("free"):
                     continue
+                if is_trial_iap(it.get("name") or ""):
+                    continue                      # 试用/试玩/体验版等只是免费试用，不算内购限免
                 out.append({
                     "app_id": aid,
                     "app_name": app_name,
