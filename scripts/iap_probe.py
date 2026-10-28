@@ -89,7 +89,42 @@ def parse_iap(body):
         if k not in seen:
             seen.add(k)
             uniq.append((n, p))
-    return uniq
+
+    # ---- 同名归并（2026-10-28 修）：订阅型内购的「免费试用」不能算限免 ----
+    # Apple 对订阅（含 intro offer 免费试用）会在 IAP 列表里把同一内购名列出多条：
+    # 各档位原价 + 一条试用期价格 ¥0.00/$0.00。实测样本：
+    #   Currency                → Currency Pro: ¥148.00 与 ¥0.00（免费1周，然后每年 ¥148）
+    #   Offline Pages           → Offline Pages Pro: ¥38.00/¥22.00/¥15.00/¥0.00
+    #   StressTracker           → 永久会员: ¥98.00/¥158.00/¥0.00
+    # 而真·限免的内购在页面上只会剩一条 ¥0.00（如 PDF Scanner Pro、Unlock All Rhymes）。
+    # 故：同名多价时，0 价一律视为试用期价格丢弃，保留最贵的在售价；同名只有 0 价才保留。
+    by_name = {}
+    for n, p in uniq:
+        by_name[n] = _prefer_price(by_name[n], p) if n in by_name else p
+    return [(n, p) for n, p in by_name.items()]
+
+
+def _price_val(p):
+    """从价格串里取出数值用于比较；取不到按 0 处理。"""
+    m = re.search(r'[\d,]+(?:\.\d+)?', p or "")
+    if not m:
+        return 0.0
+    try:
+        return float(m.group(0).replace(",", ""))
+    except ValueError:
+        return 0.0
+
+
+def _prefer_price(a, b):
+    """同名内购出现多个价格时，保留更能代表「在售原价」的那个（非 0 优先、其次取高）。"""
+    fa, fb = is_free(a), is_free(b)
+    if fa and not fb:
+        return b                      # 0 价是试用期价格，丢弃
+    if fb and not fa:
+        return a
+    if fa and fb:
+        return a                      # 两个都是 0：保留先出现的
+    return a if _price_val(a) >= _price_val(b) else b
 
 
 def is_free(price):

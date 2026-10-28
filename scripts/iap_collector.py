@@ -221,6 +221,19 @@ def detect_events(hist, region, today):
         if is_trial_iap(rec.get("name", "")):
             continue                      # 试用/试玩/体验版等只是免费试用，不算内购限免
         permanent = not rec["ever_paid"]
+        # 付费轨迹校验（2026-10-28 加，同时清理存量污染）——仅对「声称曾经付费」的条目：
+        #   真·限免必然在 changes 里留下「付费价 → 0」的可观测轨迹，如
+        #   PDF Scanner Pro: {10-27: ¥8.00, 10-28: ¥0.00}。
+        #   而订阅的「免费试用 intro offer」会让 Apple 在同一内购名下同时列出原价与
+        #   试用期 ¥0.00，采集器同批次内两次写入同一复合键，付费价被 0 覆盖掉，
+        #   结果 changes 里从头到尾只有 0（first_price 却残留着付费价）——这是误报。
+        #   实测误报样本：Currency Pro(cn/us)、Offline Pages Pro、永久会员、
+        #   Bonus Workout Pack 1~4(us)。故 changes 中查不到任何付费价的一律不认。
+        #   常驻免费（permanent）条目本就一直 0、由 permanent_free 标记区分，不受此约束。
+        if not permanent:
+            changes = rec.get("changes") or {}
+            if not any(not is_free(p) for p in changes.values()):
+                continue                  # 从未观测到付费价 → 试用期价格误报
         entry = {
             "app_id": rec["app_id"], "app_name": rec.get("app_name", ""),
             "iap": rec["name"], "price": rec["last_price"],

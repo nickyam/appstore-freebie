@@ -30,6 +30,7 @@
    - 降价：当前价 < 历史最高价 且 降幅 ≥ 50%（DEAL_DROP_PCT）。
    - 永久免费（全程 0）不收录；**无评分（rating≤0）一律不收录**（本体与内购统一规则）。
    - 内购限免：仅「付费→0」跳变算事件；ever_paid=False 的永久免费内购归入"常驻免费"，不进事件 feed。**试用 / 试玩 / 体验版 / 体验卡 / 体验券 / trial / free trial 类内购一律不算内购限免**（只是免费试用，不是真·促销限免；Apple 常把试用期标成 免费/Free，故在 `iap_probe.is_trial_iap` 按名字剔除，且 `FREE_TOKENS` 不含 free trial/免费试用）。
+   - **订阅的「免费试用 intro offer」同样不算限免**（2026-10-28 修，勿回退）：Apple 会把订阅的每个档位连同试用期价格一起列在 IAP 列表里，表现为**同一内购名出现多个价格、其中一条是 ¥0.00/$0.00**（实测：Currency Pro ¥148+¥0、Offline Pages Pro ¥38/¥22/¥15/¥0、永久会员 ¥98/¥158/¥0、Bonus Workout Pack 1~4）。真·限免在页面上只会剩**单独一条** ¥0.00（如 PDF Scanner Pro ¥8→¥0、Unlock All Rhymes ¥38→¥0）。故：① `iap_probe.parse_iap` 同名归并时丢弃 0 价、保留最贵在售价；② `iap_collector.detect_events` 对 ever_paid 条目做**付费轨迹校验**——`changes` 中查不到任何付费价的一律不认（订阅试用会让同批次两次写入同一复合键、付费价被 0 覆盖，导致 changes 全 0 而 first_price 残留付费价，这是误报的指纹）。
 
 5. **CI 铁律：PATHS 必须覆盖所有被改写文件**
    daily.yml / daily-full.yml 的 `git add $PATHS` 必须包含 generate.py 与采集器会写到的全部文件（6 个根级 html、app/、sitemap.xml、全部 data/ 产物、.seed_iap_apprcn_manifest.json）。
