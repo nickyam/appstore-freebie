@@ -1,8 +1,48 @@
 {
   "updated": "2026-10-28",
   "region": "cn",
-  "count": 144,
+  "count": 162,
   "items": [
+    {
+      "app_id": "364859644",
+      "app_name": "Offline Pages",
+      "iap": "Offline Pages Pro",
+      "price": "¥0.00",
+      "permanent_free": false,
+      "since": "2026-10-28"
+    },
+    {
+      "app_id": "1576118042",
+      "app_name": "Rhymelo",
+      "iap": "Unlock All Rhymes",
+      "price": "¥0.00",
+      "permanent_free": false,
+      "since": "2026-10-28"
+    },
+    {
+      "app_id": "6446667745",
+      "app_name": "StressTracker压力自测：实时精准测压力，压力分析",
+      "iap": "永久会员",
+      "price": "¥0.00",
+      "permanent_free": false,
+      "since": "2026-10-28"
+    },
+    {
+      "app_id": "284220417",
+      "app_name": "Currency",
+      "iap": "Currency Pro",
+      "price": "¥0.00",
+      "permanent_free": false,
+      "since": "2026-10-28"
+    },
+    {
+      "app_id": "957061929",
+      "app_name": "PDF扫描仪：日期水印",
+      "iap": "PDF Scanner Pro",
+      "price": "¥0.00",
+      "permanent_free": false,
+      "since": "2026-10-28"
+    },
     {
       "app_id": "6758658840",
       "app_name": "PixPhoto:证件照,高清证件照制作",
@@ -25,14 +65,6 @@
       "iap": "桌面透明小组件",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
-    },
-    {
-      "app_id": "364859644",
-      "app_name": "Offline Pages",
-      "iap": "Offline Pages Pro",
-      "price": "¥0.00",
-      "permanent_free": false,
       "since": "2026-10-28"
     },
     {
@@ -62,7 +94,7 @@
     {
       "app_id": "1095903651",
       "app_name": "【到了吗】-线下约会·甜蛙·约K歌、看电影、密室逃脱...",
-      "iap": "特效3",
+      "iap": "特效2",
       "price": "¥0.00",
       "permanent_free": true,
       "since": "2026-10-28"
@@ -70,7 +102,7 @@
     {
       "app_id": "1095903651",
       "app_name": "【到了吗】-线下约会·甜蛙·约K歌、看电影、密室逃脱...",
-      "iap": "特效2",
+      "iap": "特效3",
       "price": "¥0.00",
       "permanent_free": true,
       "since": "2026-10-28"
@@ -510,6 +542,14 @@
     {
       "app_id": "363738376",
       "app_name": "forScore",
+      "iap": "Gottschalk: The Mutopia Collection",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-10-28"
+    },
+    {
+      "app_id": "363738376",
+      "app_name": "forScore",
       "iap": "Verdi: The Mutopia Collection",
       "price": "¥0.00",
       "permanent_free": true,
@@ -522,14 +562,6 @@
       "price": "¥0.00",
       "permanent_free": true,
       "since": "2026-10-28"
-    },
-    {
-      "app_id": "363738376",
-      "app_name": "forScore",
-      "iap": "Satie: The Mutopia Collection",
-      "price": "¥0.00",
-      "permanent_free": true,
-      "since": "2026-10-27"
     },
     {
       "app_id": "377848312",
@@ -567,14 +599,6 @@
       "app_id": "6821278362",
       "app_name": "StorageGo：手机存储空间清理工具",
       "iap": "StorageGo Pro 永久",
-      "price": "¥0.00",
-      "permanent_free": true,
-      "since": "2026-10-28"
-    },
-    {
-      "app_id": "6809827203",
-      "app_name": "BaudHub：Modbus 助手",
-      "iap": "BaudHub Pro",
       "price": "¥0.00",
       "permanent_free": true,
       "since": "2026-10-28"
@@ -636,14 +660,6 @@
       "since": "2026-10-28"
     },
     {
-      "app_id": "957061844",
-      "app_name": "Night Camera: Low Light FX Cam",
-      "iap": "Night Camera Pro",
-      "price": "¥0.00",
-      "permanent_free": true,
-      "since": "2026-10-28"
-    },
-    {
       "app_id": "6757162931",
       "app_name": "Emotica - 情绪追踪与心情日记",
       "iap": "Emotica Pro Lifetime",
@@ -657,14 +673,6 @@
       "iap": "解锁升级功能",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
-    },
-    {
-      "app_id": "6446667745",
-      "app_name": "StressTracker压力自测：实时精准测压力，压力分析",
-      "iap": "永久会员",
-      "price": "¥0.00",
-      "permanent_free": false,
       "since": "2026-10-28"
     },
     {
@@ -1068,14 +1076,6 @@
       "since": "2026-10-28"
     },
     {
-      "app_id": "284220417",
-      "app_name": "Currency",
-      "iap": "Currency Pro",
-      "price": "¥0.00",
-      "permanent_free": false,
-      "since": "2026-10-28"
-    },
-    {
       "app_id": "1567654881",
       "app_name": "SkySafari 7 Plus",
       "iap": "Apollo Lunar Missions",
@@ -1148,9 +1148,153 @@
       "since": "2026-10-28"
     },
     {
-      "app_id": "363738376",
-      "app_name": "forScore",
-      "iap": "Gottschalk: The Mutopia Collection",
+      "app_id": "6812623223",
+      "app_name": "Healia：睡眠评分·心率变异·压力·血氧·步数·恢复",
+      "iap": "永久会员",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-10-28"
+    },
+    {
+      "app_id": "1065198021",
+      "app_name": "AAA法语- 零基础学法语必备全能学习法语助手",
+      "iap": "会员资格",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-10-28"
+    },
+    {
+      "app_id": "1071126584",
+      "app_name": "Visionist",
+      "iap": "启用所有功能",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-10-28"
+    },
+    {
+      "app_id": "1460687131",
+      "app_name": "PLAY NO TREINO",
+      "iap": "Treino FIT HOME",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-10-28"
+    },
+    {
+      "app_id": "493136154",
+      "app_name": "Clear: To Dos & Reminders",
+      "iap": "Bonus Sound Pack",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-10-28"
+    },
+    {
+      "app_id": "493136154",
+      "app_name": "Clear: To Dos & Reminders",
+      "iap": "Gulkave",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-10-28"
+    },
+    {
+      "app_id": "493136154",
+      "app_name": "Clear: To Dos & Reminders",
+      "iap": "Night Owl Classic",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-10-28"
+    },
+    {
+      "app_id": "493136154",
+      "app_name": "Clear: To Dos & Reminders",
+      "iap": "Pocket Monk",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-10-28"
+    },
+    {
+      "app_id": "493136154",
+      "app_name": "Clear: To Dos & Reminders",
+      "iap": "The Heist Classic",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-10-28"
+    },
+    {
+      "app_id": "493136154",
+      "app_name": "Clear: To Dos & Reminders",
+      "iap": "Cormorant Garamond",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-10-28"
+    },
+    {
+      "app_id": "493136154",
+      "app_name": "Clear: To Dos & Reminders",
+      "iap": "Ultraviolet Classic",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-10-28"
+    },
+    {
+      "app_id": "493136154",
+      "app_name": "Clear: To Dos & Reminders",
+      "iap": "Pretty Princess Classic",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-10-28"
+    },
+    {
+      "app_id": "6753014760",
+      "app_name": "Very Good Metronome",
+      "iap": "Custom Time Signatures",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-10-28"
+    },
+    {
+      "app_id": "6757113661",
+      "app_name": "虫虫课表",
+      "iap": "课前提醒服务",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-10-28"
+    },
+    {
+      "app_id": "6758056060",
+      "app_name": "我去哪了? 足迹与到访记录、停留时间和国家公园收藏",
+      "iap": "National Parks Collection - Germany",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-10-28"
+    },
+    {
+      "app_id": "6758056060",
+      "app_name": "我去哪了? 足迹与到访记录、停留时间和国家公园收藏",
+      "iap": "National Parks - Great Britain",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-10-28"
+    },
+    {
+      "app_id": "6758056060",
+      "app_name": "我去哪了? 足迹与到访记录、停留时间和国家公园收藏",
+      "iap": "100 Fine Castles of Japan",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-10-28"
+    },
+    {
+      "app_id": "6758226158",
+      "app_name": "iSmileFace",
+      "iap": "LifeTime Pro",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-10-28"
+    },
+    {
+      "app_id": "6779525326",
+      "app_name": "API Wallet",
+      "iap": "API Wallet Pro",
       "price": "¥0.00",
       "permanent_free": true,
       "since": "2026-10-28"

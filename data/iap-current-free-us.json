@@ -1,7 +1,7 @@
 {
   "updated": "2026-10-28",
   "region": "us",
-  "count": 183,
+  "count": 202,
   "items": [
     {
       "app_id": "300048137",
@@ -356,14 +356,6 @@
       "since": "2026-10-28"
     },
     {
-      "app_id": "6809827203",
-      "app_name": "BaudHub: Modbus Assistant",
-      "iap": "BaudHub Pro",
-      "price": "$0.00",
-      "permanent_free": true,
-      "since": "2026-10-28"
-    },
-    {
       "app_id": "6741854065",
       "app_name": "多能记-一目了然 记的多",
       "iap": "新永久会员",
@@ -465,22 +457,6 @@
       "iap": "Unlock Everything",
       "price": "$0.00",
       "permanent_free": true,
-      "since": "2026-10-28"
-    },
-    {
-      "app_id": "957061844",
-      "app_name": "Night Camera: Low Light FX Cam",
-      "iap": "Night Camera Pro",
-      "price": "$0.00",
-      "permanent_free": false,
-      "since": "2026-10-28"
-    },
-    {
-      "app_id": "6821278362",
-      "app_name": "StorageGo：手机存储空间清理工具",
-      "iap": "StorageGo Pro Lifetime",
-      "price": "$0.00",
-      "permanent_free": false,
       "since": "2026-10-28"
     },
     {
@@ -1463,6 +1439,182 @@
       "app_id": "1008067212",
       "app_name": "Coverpad",
       "iap": "14-Day Trial",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-28"
+    },
+    {
+      "app_id": "6821278362",
+      "app_name": "StorageGo: Space Organizer",
+      "iap": "StorageGo Pro Lifetime",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-28"
+    },
+    {
+      "app_id": "1065198021",
+      "app_name": "Learn French- For Beginners",
+      "iap": "会员资格",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-28"
+    },
+    {
+      "app_id": "1071126584",
+      "app_name": "Visionist",
+      "iap": "Unlock All Styles",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-28"
+    },
+    {
+      "app_id": "1576118042",
+      "app_name": "Rhymelo",
+      "iap": "Unlock All Rhymes",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-28"
+    },
+    {
+      "app_id": "493136154",
+      "app_name": "Clear: To Dos & Reminders",
+      "iap": "Bonus Sound Pack",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-28"
+    },
+    {
+      "app_id": "493136154",
+      "app_name": "Clear: To Dos & Reminders",
+      "iap": "Cormorant Garamond",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-28"
+    },
+    {
+      "app_id": "493136154",
+      "app_name": "Clear: To Dos & Reminders",
+      "iap": "Gulkave",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-28"
+    },
+    {
+      "app_id": "493136154",
+      "app_name": "Clear: To Dos & Reminders",
+      "iap": "Chicago FLF",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-28"
+    },
+    {
+      "app_id": "493136154",
+      "app_name": "Clear: To Dos & Reminders",
+      "iap": "Pocket Monk",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-28"
+    },
+    {
+      "app_id": "6451401303",
+      "app_name": "Pineapple English: Word Match",
+      "iap": "Lifetime PRO",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-28"
+    },
+    {
+      "app_id": "6503618185",
+      "app_name": "EduLaw",
+      "iap": "ถาม-ตอบ แพ่ง",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-28"
+    },
+    {
+      "app_id": "6503618185",
+      "app_name": "EduLaw",
+      "iap": "ถาม-ตอบ อาญา ล่าสุด 2563",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-28"
+    },
+    {
+      "app_id": "6503618185",
+      "app_name": "EduLaw",
+      "iap": "ถาม-ตอบ วิ.อาญา ล่าสุด 2560",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-28"
+    },
+    {
+      "app_id": "6503618185",
+      "app_name": "EduLaw",
+      "iap": "ถาม-ตอบ ทรัพย์สิน",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-28"
+    },
+    {
+      "app_id": "6746424794",
+      "app_name": "Hindu Mantras and Meditation",
+      "iap": "Lifetime Premium",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-28"
+    },
+    {
+      "app_id": "6753014760",
+      "app_name": "Very Good Metronome",
+      "iap": "Custom Time Signatures",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-28"
+    },
+    {
+      "app_id": "6758226158",
+      "app_name": "iSmileFace",
+      "iap": "LifeTime Pro",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-28"
+    },
+    {
+      "app_id": "6776223504",
+      "app_name": "KoKoFlash",
+      "iap": "ここフラッシュ PRO版",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-28"
+    },
+    {
+      "app_id": "6778001734",
+      "app_name": "Endoku",
+      "iap": "Unlock Everything",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-28"
+    },
+    {
+      "app_id": "6779525326",
+      "app_name": "API Wallet",
+      "iap": "API Wallet Pro",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-28"
+    },
+    {
+      "app_id": "6781580778",
+      "app_name": "Nota AI:Meeting Recorder Agent",
+      "iap": "LifeTime",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-28"
+    },
+    {
+      "app_id": "6787702158",
+      "app_name": "返航",
+      "iap": "Homeward Pro Lifetime",
       "price": "$0.00",
       "permanent_free": true,
       "since": "2026-10-28"
