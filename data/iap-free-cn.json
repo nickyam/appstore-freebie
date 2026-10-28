@@ -1,25 +1,8 @@
 {
   "updated": "2026-10-29",
   "region": "cn",
-  "count": 2,
+  "count": 1,
   "events": [
-    {
-      "app_id": "1576118042",
-      "app_name": "Rhymelo",
-      "iap": "Unlock All Rhymes",
-      "price": "¥0.00",
-      "free_since": "2026-10-28",
-      "days_free": 1,
-      "last_paid_date": "2026-10-25",
-      "last_paid_price": "¥38.00",
-      "url": "https://apps.apple.com/cn/app/rhymelo/id1576118042?uo=4",
-      "rating": 5,
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e5/a4/2c/e5a42c41-b340-e544-89b8-b7990668ae15/AppIcon-0-0-1x_U007epad-0-1-sRGB-85-220.png/512x512bb.jpg",
-      "dev": "Bijoy Thangaraj",
-      "genre": "音乐",
-      "app_price": "免费",
-      "page": "app/cn-1576118042.html"
-    },
     {
       "app_id": "957061929",
       "app_name": "PDF扫描仪：日期水印",
