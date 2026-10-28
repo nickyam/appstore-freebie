@@ -3,9 +3,9 @@
     "region": "cn",
     "version": 1,
     "updated": "2026-10-28",
-    "pool_size": 4500,
-    "processed": 4483,
-    "skipped": 17,
+    "pool_size": 2000,
+    "processed": 2000,
+    "skipped": 0,
     "seeded_from": "apprcn",
     "seed_added": 1,
     "seed_total": 20750,
@@ -1907,7 +1907,7 @@
       "first_date": "2026-10-22",
       "first_price": "¥60.00",
       "last_date": "2026-10-28",
-      "last_price": "¥60.00",
+      "last_price": "¥59.00",
       "last_change_date": "2026-10-28",
       "ever_paid": true,
       "last_paid_date": "2026-10-28",
@@ -1919,7 +1919,7 @@
         "2026-10-25": "¥59.00",
         "2026-10-26": "¥60.00",
         "2026-10-27": "¥59.00",
-        "2026-10-28": "¥60.00"
+        "2026-10-28": "¥59.00"
       }
     },
     "1527039353::供需集市会员（连续包月）": {
@@ -1930,7 +1930,7 @@
       "first_date": "2026-10-22",
       "first_price": "¥69.00",
       "last_date": "2026-10-28",
-      "last_price": "¥59.00",
+      "last_price": "¥69.00",
       "last_change_date": "2026-10-28",
       "ever_paid": true,
       "last_paid_date": "2026-10-28",
@@ -1941,7 +1941,7 @@
         "2026-10-24": "¥69.00",
         "2026-10-26": "¥59.00",
         "2026-10-27": "¥69.00",
-        "2026-10-28": "¥59.00"
+        "2026-10-28": "¥69.00"
       }
     },
     "1527039353::爱企查SVIP（连续包季）": {
@@ -2241,7 +2241,7 @@
       "first_date": "2026-10-22",
       "first_price": "¥88.00",
       "last_date": "2026-10-28",
-      "last_price": "¥78.00",
+      "last_price": "¥88.00",
       "last_change_date": "2026-10-28",
       "ever_paid": true,
       "last_paid_date": "2026-10-28",
@@ -2253,7 +2253,7 @@
         "2026-10-25": "¥78.00",
         "2026-10-26": "¥88.00",
         "2026-10-27": "¥88.00",
-        "2026-10-28": "¥78.00"
+        "2026-10-28": "¥88.00"
       }
     },
     "488033535::聊天加油包30天": {
@@ -27079,7 +27079,7 @@
       "first_date": "2026-10-23",
       "first_price": "¥68.00",
       "last_date": "2026-10-28",
-      "last_price": "¥68.00",
+      "last_price": "¥60.00",
       "last_change_date": "2026-10-28",
       "ever_paid": true,
       "last_paid_date": "2026-10-28",
@@ -27090,7 +27090,7 @@
         "2026-10-25": "¥60.00",
         "2026-10-26": "¥60.00",
         "2026-10-27": "¥60.00",
-        "2026-10-28": "¥68.00"
+        "2026-10-28": "¥60.00"
       }
     },
     "1519407428::专业版全球节点插件1个月": {
@@ -28789,7 +28789,7 @@
       "first_date": "2026-10-23",
       "first_price": "¥29.80",
       "last_date": "2026-10-28",
-      "last_price": "¥27.80",
+      "last_price": "¥29.80",
       "last_change_date": "2026-10-28",
       "ever_paid": true,
       "last_paid_date": "2026-10-28",
@@ -28800,7 +28800,7 @@
         "2026-10-25": "¥27.80",
         "2026-10-26": "¥27.80",
         "2026-10-27": "¥27.80",
-        "2026-10-28": "¥27.80"
+        "2026-10-28": "¥29.80"
       }
     },
     "1477291324::尊享版卡券": {
@@ -29722,7 +29722,7 @@
       "region": "cn",
       "first_date": "2026-10-23",
       "first_price": "¥18.00",
-      "last_date": "2026-10-26",
+      "last_date": "2026-10-28",
       "last_price": "¥18.00",
       "last_change_date": "2026-10-23",
       "ever_paid": true,
@@ -31002,7 +31002,7 @@
       "first_date": "2026-10-23",
       "first_price": "¥10.00",
       "last_date": "2026-10-28",
-      "last_price": "¥80.00",
+      "last_price": "¥140.00",
       "last_change_date": "2026-10-28",
       "ever_paid": true,
       "last_paid_date": "2026-10-28",
@@ -31013,7 +31013,7 @@
         "2026-10-25": "¥140.00",
         "2026-10-26": "¥140.00",
         "2026-10-27": "¥80.00",
-        "2026-10-28": "¥80.00"
+        "2026-10-28": "¥140.00"
       }
     },
     "6762321369::搭子Pro会员年卡": {
@@ -36903,7 +36903,7 @@
       "first_date": "2026-10-23",
       "first_price": "¥68.00",
       "last_date": "2026-10-28",
-      "last_price": "¥45.00",
+      "last_price": "¥88.00",
       "last_change_date": "2026-10-28",
       "ever_paid": true,
       "last_paid_date": "2026-10-28",
@@ -36914,7 +36914,7 @@
         "2026-10-25": "¥45.00",
         "2026-10-26": "¥45.00",
         "2026-10-27": "¥45.00",
-        "2026-10-28": "¥45.00"
+        "2026-10-28": "¥88.00"
       }
     },
     "1659364578::空旅3个月VIP": {
@@ -45623,7 +45623,7 @@
       "region": "cn",
       "first_date": "2026-10-23",
       "first_price": "¥98.00",
-      "last_date": "2026-10-27",
+      "last_date": "2026-10-28",
       "last_price": "¥98.00",
       "last_change_date": "2026-10-23",
       "ever_paid": true,
@@ -45657,7 +45657,7 @@
       "region": "cn",
       "first_date": "2026-10-23",
       "first_price": "¥198.00",
-      "last_date": "2026-10-27",
+      "last_date": "2026-10-28",
       "last_price": "¥198.00",
       "last_change_date": "2026-10-23",
       "ever_paid": true,
@@ -45691,7 +45691,7 @@
       "region": "cn",
       "first_date": "2026-10-23",
       "first_price": "¥1,998.00",
-      "last_date": "2026-10-27",
+      "last_date": "2026-10-28",
       "last_price": "¥1,998.00",
       "last_change_date": "2026-10-23",
       "ever_paid": true,
@@ -45708,7 +45708,7 @@
       "region": "cn",
       "first_date": "2026-10-23",
       "first_price": "¥588.00",
-      "last_date": "2026-10-27",
+      "last_date": "2026-10-28",
       "last_price": "¥588.00",
       "last_change_date": "2026-10-23",
       "ever_paid": true,
@@ -45913,7 +45913,7 @@
       "first_date": "2026-10-23",
       "first_price": "¥10.00",
       "last_date": "2026-10-28",
-      "last_price": "¥300.00",
+      "last_price": "¥898.00",
       "last_change_date": "2026-10-28",
       "ever_paid": true,
       "last_paid_date": "2026-10-28",
@@ -45924,7 +45924,7 @@
         "2026-10-25": "¥300.00",
         "2026-10-26": "¥300.00",
         "2026-10-27": "¥898.00",
-        "2026-10-28": "¥300.00"
+        "2026-10-28": "¥898.00"
       }
     },
     "983114342::88元＝58鱼": {
@@ -57476,7 +57476,7 @@
       "first_date": "2026-10-23",
       "first_price": "¥38.00",
       "last_date": "2026-10-28",
-      "last_price": "¥48.00",
+      "last_price": "¥7.00",
       "last_change_date": "2026-10-28",
       "ever_paid": true,
       "last_paid_date": "2026-10-28",
@@ -57487,7 +57487,7 @@
         "2026-10-25": "¥48.00",
         "2026-10-26": "¥48.00",
         "2026-10-27": "¥48.00",
-        "2026-10-28": "¥48.00"
+        "2026-10-28": "¥7.00"
       }
     },
     "338088432::Get 1 Year Access": {
@@ -65171,7 +65171,7 @@
       "region": "cn",
       "first_date": "2026-10-23",
       "first_price": "¥30.00",
-      "last_date": "2026-10-27",
+      "last_date": "2026-10-28",
       "last_price": "¥30.00",
       "last_change_date": "2026-10-23",
       "ever_paid": true,
@@ -80796,7 +80796,7 @@
       "region": "cn",
       "first_date": "2026-10-23",
       "first_price": "¥248.00",
-      "last_date": "2026-10-27",
+      "last_date": "2026-10-28",
       "last_price": "¥248.00",
       "last_change_date": "2026-10-23",
       "ever_paid": true,
@@ -81951,7 +81951,7 @@
       "first_date": "2026-10-23",
       "first_price": "¥293.00",
       "last_date": "2026-10-28",
-      "last_price": "¥508.00",
+      "last_price": "¥173.00",
       "last_change_date": "2026-10-28",
       "ever_paid": true,
       "last_paid_date": "2026-10-28",
@@ -81962,7 +81962,7 @@
         "2026-10-25": "¥508.00",
         "2026-10-26": "¥508.00",
         "2026-10-27": "¥508.00",
-        "2026-10-28": "¥508.00"
+        "2026-10-28": "¥173.00"
       }
     },
     "1102728735::Yearly Premium Translations": {
@@ -85916,7 +85916,7 @@
       "first_date": "2026-10-23",
       "first_price": "¥40.00",
       "last_date": "2026-10-28",
-      "last_price": "¥30.00",
+      "last_price": "¥40.00",
       "last_change_date": "2026-10-28",
       "ever_paid": true,
       "last_paid_date": "2026-10-28",
@@ -85926,7 +85926,7 @@
         "2026-10-24": "¥40.00",
         "2026-10-26": "¥40.00",
         "2026-10-27": "¥40.00",
-        "2026-10-28": "¥30.00"
+        "2026-10-28": "¥40.00"
       }
     },
     "1503466530::白金会员连续包月": {
@@ -86632,7 +86632,7 @@
       "first_date": "2026-10-23",
       "first_price": "¥118.00",
       "last_date": "2026-10-28",
-      "last_price": "¥98.00",
+      "last_price": "¥118.00",
       "last_change_date": "2026-10-28",
       "ever_paid": true,
       "last_paid_date": "2026-10-28",
@@ -86643,7 +86643,7 @@
         "2026-10-25": "¥98.00",
         "2026-10-26": "¥98.00",
         "2026-10-27": "¥118.00",
-        "2026-10-28": "¥98.00"
+        "2026-10-28": "¥118.00"
       }
     },
     "6450447757::【夸克扫描会员-连续包月】": {
@@ -88744,7 +88744,7 @@
       "first_date": "2026-10-23",
       "first_price": "¥168.00",
       "last_date": "2026-10-28",
-      "last_price": "¥128.00",
+      "last_price": "¥158.00",
       "last_change_date": "2026-10-28",
       "ever_paid": true,
       "last_paid_date": "2026-10-28",
@@ -88755,7 +88755,7 @@
         "2026-10-25": "¥158.00",
         "2026-10-26": "¥158.00",
         "2026-10-27": "¥158.00",
-        "2026-10-28": "¥128.00"
+        "2026-10-28": "¥158.00"
       }
     },
     "1370780836::1个月文档超会plus-自动续期": {
@@ -88839,7 +88839,7 @@
       "first_date": "2026-10-23",
       "first_price": "¥29.00",
       "last_date": "2026-10-28",
-      "last_price": "¥29.00",
+      "last_price": "¥69.00",
       "last_change_date": "2026-10-28",
       "ever_paid": true,
       "last_paid_date": "2026-10-28",
@@ -88850,7 +88850,7 @@
         "2026-10-25": "¥69.00",
         "2026-10-26": "¥29.00",
         "2026-10-27": "¥69.00",
-        "2026-10-28": "¥29.00"
+        "2026-10-28": "¥69.00"
       }
     },
     "6670379647::转写10个小时购买": {
@@ -91377,7 +91377,7 @@
       "region": "cn",
       "first_date": "2026-10-23",
       "first_price": "¥58.00",
-      "last_date": "2026-10-27",
+      "last_date": "2026-10-28",
       "last_price": "¥58.00",
       "last_change_date": "2026-10-23",
       "ever_paid": true,
@@ -103530,7 +103530,7 @@
       "first_date": "2026-10-23",
       "first_price": "¥99.00",
       "last_date": "2026-10-28",
-      "last_price": "¥99.00",
+      "last_price": "¥109.00",
       "last_change_date": "2026-10-28",
       "ever_paid": true,
       "last_paid_date": "2026-10-28",
@@ -103541,7 +103541,7 @@
         "2026-10-25": "¥109.00",
         "2026-10-26": "¥109.00",
         "2026-10-27": "¥109.00",
-        "2026-10-28": "¥99.00"
+        "2026-10-28": "¥109.00"
       }
     },
     "6478484001::10G存储空间": {
@@ -117198,7 +117198,7 @@
       "region": "cn",
       "first_date": "2026-10-23",
       "first_price": "¥30.00",
-      "last_date": "2026-10-23",
+      "last_date": "2026-10-28",
       "last_price": "¥30.00",
       "last_change_date": "2026-10-23",
       "ever_paid": true,
@@ -117283,7 +117283,7 @@
       "region": "cn",
       "first_date": "2026-10-23",
       "first_price": "¥68.00",
-      "last_date": "2026-10-27",
+      "last_date": "2026-10-28",
       "last_price": "¥68.00",
       "last_change_date": "2026-10-23",
       "ever_paid": true,
@@ -119527,7 +119527,7 @@
       "region": "cn",
       "first_date": "2026-10-24",
       "first_price": "¥12.00",
-      "last_date": "2026-10-27",
+      "last_date": "2026-10-28",
       "last_price": "¥12.00",
       "last_change_date": "2026-10-24",
       "ever_paid": true,
@@ -121474,15 +121474,15 @@
       "first_date": "2026-10-25",
       "first_price": "¥18.00",
       "last_date": "2026-10-28",
-      "last_price": "¥38.00",
+      "last_price": "¥0.00",
       "last_change_date": "2026-10-28",
       "ever_paid": true,
       "last_paid_date": "2026-10-28",
-      "free_since": null,
+      "free_since": "2026-10-28",
       "changes": {
         "2026-10-25": "¥18.00",
         "2026-10-26": "¥15.00",
-        "2026-10-28": "¥38.00"
+        "2026-10-28": "¥0.00"
       }
     },
     "6741730996::年度会员": {
@@ -123629,7 +123629,7 @@
       "region": "cn",
       "first_date": "2026-10-26",
       "first_price": "¥1.00",
-      "last_date": "2026-10-27",
+      "last_date": "2026-10-28",
       "last_price": "¥1.00",
       "last_change_date": "2026-10-26",
       "ever_paid": true,
@@ -133233,14 +133233,14 @@
       "first_date": "2026-10-27",
       "first_price": "¥12.00",
       "last_date": "2026-10-28",
-      "last_price": "¥50.00",
+      "last_price": "¥90.00",
       "last_change_date": "2026-10-28",
       "ever_paid": true,
       "last_paid_date": "2026-10-28",
       "free_since": null,
       "changes": {
         "2026-10-27": "¥90.00",
-        "2026-10-28": "¥50.00"
+        "2026-10-28": "¥90.00"
       }
     },
     "6450210894::来音制谱-年会员": {
@@ -135182,14 +135182,14 @@
       "first_date": "2026-10-27",
       "first_price": "¥58.00",
       "last_date": "2026-10-28",
-      "last_price": "¥38.00",
+      "last_price": "¥48.00",
       "last_change_date": "2026-10-28",
       "ever_paid": true,
       "last_paid_date": "2026-10-28",
       "free_since": null,
       "changes": {
         "2026-10-27": "¥38.00",
-        "2026-10-28": "¥38.00"
+        "2026-10-28": "¥48.00"
       }
     },
     "6444621447::Weekly Plan": {
@@ -135200,14 +135200,14 @@
       "first_date": "2026-10-27",
       "first_price": "¥58.00",
       "last_date": "2026-10-28",
-      "last_price": "¥68.00",
+      "last_price": "¥48.00",
       "last_change_date": "2026-10-28",
       "ever_paid": true,
       "last_paid_date": "2026-10-28",
       "free_since": null,
       "changes": {
         "2026-10-27": "¥68.00",
-        "2026-10-28": "¥68.00"
+        "2026-10-28": "¥48.00"
       }
     },
     "6444621447::premium": {
@@ -143183,14 +143183,14 @@
       "first_date": "2026-10-27",
       "first_price": "¥29.90",
       "last_date": "2026-10-28",
-      "last_price": "¥99.90",
+      "last_price": "¥49.90",
       "last_change_date": "2026-10-28",
       "ever_paid": true,
       "last_paid_date": "2026-10-28",
       "free_since": null,
       "changes": {
         "2026-10-27": "¥99.90",
-        "2026-10-28": "¥99.90"
+        "2026-10-28": "¥49.90"
       }
     },
     "6760640489::立即开启守护": {
@@ -152426,14 +152426,14 @@
       "first_date": "2026-10-27",
       "first_price": "¥30.00",
       "last_date": "2026-10-28",
-      "last_price": "¥58.00",
+      "last_price": "¥48.00",
       "last_change_date": "2026-10-28",
       "ever_paid": true,
       "last_paid_date": "2026-10-28",
       "free_since": null,
       "changes": {
         "2026-10-27": "¥58.00",
-        "2026-10-28": "¥58.00"
+        "2026-10-28": "¥48.00"
       }
     },
     "540679302::新人专属首月优惠": {
@@ -153148,14 +153148,14 @@
       "first_date": "2026-10-27",
       "first_price": "¥188.00",
       "last_date": "2026-10-28",
-      "last_price": "¥148.00",
+      "last_price": "¥98.00",
       "last_change_date": "2026-10-28",
       "ever_paid": true,
       "last_paid_date": "2026-10-28",
       "free_since": null,
       "changes": {
         "2026-10-27": "¥148.00",
-        "2026-10-28": "¥148.00"
+        "2026-10-28": "¥98.00"
       }
     },
     "1025313530::蜗牛睡眠-终身会员": {
@@ -153199,7 +153199,7 @@
       "region": "cn",
       "first_date": "2026-10-27",
       "first_price": "¥8.00",
-      "last_date": "2026-10-27",
+      "last_date": "2026-10-28",
       "last_price": "¥8.00",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
@@ -172973,14 +172973,14 @@
       "first_date": "2026-10-27",
       "first_price": "¥30.00",
       "last_date": "2026-10-28",
-      "last_price": "¥12.00",
+      "last_price": "¥45.00",
       "last_change_date": "2026-10-28",
       "ever_paid": true,
       "last_paid_date": "2026-10-28",
       "free_since": null,
       "changes": {
         "2026-10-27": "¥12.00",
-        "2026-10-28": "¥12.00"
+        "2026-10-28": "¥45.00"
       }
     },
     "1595603316::680点券": {
@@ -189332,7 +189332,7 @@
       "region": "cn",
       "first_date": "2026-10-27",
       "first_price": "¥12.00",
-      "last_date": "2026-10-27",
+      "last_date": "2026-10-28",
       "last_price": "¥12.00",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
@@ -189536,7 +189536,7 @@
       "region": "cn",
       "first_date": "2026-10-27",
       "first_price": "¥268.00",
-      "last_date": "2026-10-27",
+      "last_date": "2026-10-28",
       "last_price": "¥268.00",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
@@ -196206,7 +196206,7 @@
       "region": "cn",
       "first_date": "2026-10-27",
       "first_price": "¥6.00",
-      "last_date": "2026-10-27",
+      "last_date": "2026-10-28",
       "last_price": "¥6.00",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
@@ -215241,14 +215241,14 @@
       "first_date": "2026-10-27",
       "first_price": "¥198.00",
       "last_date": "2026-10-28",
-      "last_price": "¥49.00",
+      "last_price": "¥299.00",
       "last_change_date": "2026-10-28",
       "ever_paid": true,
       "last_paid_date": "2026-10-28",
       "free_since": null,
       "changes": {
         "2026-10-27": "¥49.00",
-        "2026-10-28": "¥49.00"
+        "2026-10-28": "¥299.00"
       }
     },
     "990959871::3个月初中数学洋葱课程": {
@@ -222365,14 +222365,14 @@
       "first_date": "2026-10-27",
       "first_price": "¥19.90",
       "last_date": "2026-10-28",
-      "last_price": "¥58.00",
+      "last_price": "¥35.00",
       "last_change_date": "2026-10-28",
       "ever_paid": true,
       "last_paid_date": "2026-10-28",
       "free_since": null,
       "changes": {
         "2026-10-27": "¥35.00",
-        "2026-10-28": "¥58.00"
+        "2026-10-28": "¥35.00"
       }
     },
     "6741795981::高级会员年卡": {
@@ -244553,13 +244553,14 @@
       "first_date": "2026-10-27",
       "first_price": "¥58.00",
       "last_date": "2026-10-28",
-      "last_price": "¥58.00",
-      "last_change_date": "2026-10-27",
+      "last_price": "¥68.00",
+      "last_change_date": "2026-10-28",
       "ever_paid": true,
-      "last_paid_date": "2026-10-27",
+      "last_paid_date": "2026-10-28",
       "free_since": null,
       "changes": {
-        "2026-10-27": "¥58.00"
+        "2026-10-27": "¥58.00",
+        "2026-10-28": "¥68.00"
       }
     },
     "6742411841::喂养日志 专业版月度订阅": {
@@ -279682,14 +279683,14 @@
       "first_date": "2026-10-27",
       "first_price": "¥22.00",
       "last_date": "2026-10-28",
-      "last_price": "¥8.00",
+      "last_price": "¥38.00",
       "last_change_date": "2026-10-28",
       "ever_paid": true,
       "last_paid_date": "2026-10-28",
       "free_since": null,
       "changes": {
         "2026-10-27": "¥8.00",
-        "2026-10-28": "¥8.00"
+        "2026-10-28": "¥38.00"
       }
     },
     "6470660460::Cellular Finder Month": {
@@ -281919,14 +281920,14 @@
       "first_date": "2026-10-27",
       "first_price": "¥128.00",
       "last_date": "2026-10-28",
-      "last_price": "¥238.00",
+      "last_price": "¥128.00",
       "last_change_date": "2026-10-28",
       "ever_paid": true,
       "last_paid_date": "2026-10-28",
       "free_since": null,
       "changes": {
         "2026-10-27": "¥238.00",
-        "2026-10-28": "¥238.00"
+        "2026-10-28": "¥128.00"
       }
     },
     "6448731078::智能口语大师学霸会员": {
@@ -284894,14 +284895,14 @@
       "first_date": "2026-10-27",
       "first_price": "¥35.00",
       "last_date": "2026-10-28",
-      "last_price": "¥17.80",
+      "last_price": "¥28.00",
       "last_change_date": "2026-10-28",
       "ever_paid": true,
       "last_paid_date": "2026-10-28",
       "free_since": null,
       "changes": {
         "2026-10-27": "¥17.80",
-        "2026-10-28": "¥17.80"
+        "2026-10-28": "¥28.00"
       }
     },
     "6742528141::10.5个信币": {
@@ -301033,14 +301034,14 @@
       "first_date": "2026-10-27",
       "first_price": "¥759.00",
       "last_date": "2026-10-28",
-      "last_price": "¥555.00",
+      "last_price": "¥493.00",
       "last_change_date": "2026-10-28",
       "ever_paid": true,
       "last_paid_date": "2026-10-28",
       "free_since": null,
       "changes": {
         "2026-10-27": "¥555.00",
-        "2026-10-28": "¥555.00"
+        "2026-10-28": "¥493.00"
       }
     },
     "1003630908::39元/月": {
@@ -302125,14 +302126,14 @@
       "first_date": "2026-10-27",
       "first_price": "¥68.00",
       "last_date": "2026-10-28",
-      "last_price": "¥328.00",
+      "last_price": "¥148.00",
       "last_change_date": "2026-10-28",
       "ever_paid": true,
       "last_paid_date": "2026-10-28",
       "free_since": null,
       "changes": {
         "2026-10-27": "¥328.00",
-        "2026-10-28": "¥328.00"
+        "2026-10-28": "¥148.00"
       }
     },
     "6756606000::Tokens": {
@@ -314851,7 +314852,7 @@
       "region": "cn",
       "first_date": "2026-10-27",
       "first_price": "¥40.00",
-      "last_date": "2026-10-27",
+      "last_date": "2026-10-28",
       "last_price": "¥40.00",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
@@ -324099,13 +324100,14 @@
       "first_date": "2026-10-27",
       "first_price": "¥28.00",
       "last_date": "2026-10-28",
-      "last_price": "¥28.00",
-      "last_change_date": "2026-10-27",
+      "last_price": "¥58.00",
+      "last_change_date": "2026-10-28",
       "ever_paid": true,
-      "last_paid_date": "2026-10-27",
+      "last_paid_date": "2026-10-28",
       "free_since": null,
       "changes": {
-        "2026-10-27": "¥28.00"
+        "2026-10-27": "¥28.00",
+        "2026-10-28": "¥58.00"
       }
     },
     "908698556::完整版本! 绘画儿童游戏孩子通婴儿早教": {
@@ -328035,14 +328037,14 @@
       "first_date": "2026-10-27",
       "first_price": "¥6.00",
       "last_date": "2026-10-28",
-      "last_price": "¥18.00",
+      "last_price": "¥68.00",
       "last_change_date": "2026-10-28",
       "ever_paid": true,
       "last_paid_date": "2026-10-28",
       "free_since": null,
       "changes": {
         "2026-10-27": "¥18.00",
-        "2026-10-28": "¥18.00"
+        "2026-10-28": "¥68.00"
       }
     },
     "1634177358::额外建筑工": {
@@ -330601,14 +330603,14 @@
       "first_date": "2026-10-27",
       "first_price": "¥288.00",
       "last_date": "2026-10-28",
-      "last_price": "¥268.00",
+      "last_price": "¥288.00",
       "last_change_date": "2026-10-28",
       "ever_paid": true,
       "last_paid_date": "2026-10-28",
       "free_since": null,
       "changes": {
         "2026-10-27": "¥268.00",
-        "2026-10-28": "¥268.00"
+        "2026-10-28": "¥288.00"
       }
     },
     "1103142122::大家的法语1优惠购": {
@@ -341365,7 +341367,7 @@
       "region": "cn",
       "first_date": "2026-10-27",
       "first_price": "¥198.00",
-      "last_date": "2026-10-27",
+      "last_date": "2026-10-28",
       "last_price": "¥198.00",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
@@ -351812,7 +351814,7 @@
       "region": "cn",
       "first_date": "2026-10-27",
       "first_price": "¥50.00",
-      "last_date": "2026-10-27",
+      "last_date": "2026-10-28",
       "last_price": "¥50.00",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
@@ -352442,7 +352444,7 @@
       "region": "cn",
       "first_date": "2026-10-27",
       "first_price": "¥198.00",
-      "last_date": "2026-10-27",
+      "last_date": "2026-10-28",
       "last_price": "¥198.00",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
@@ -352459,7 +352461,7 @@
       "region": "cn",
       "first_date": "2026-10-27",
       "first_price": "¥58.00",
-      "last_date": "2026-10-27",
+      "last_date": "2026-10-28",
       "last_price": "¥58.00",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
@@ -353071,7 +353073,7 @@
       "region": "cn",
       "first_date": "2026-10-27",
       "first_price": "¥25.00",
-      "last_date": "2026-10-27",
+      "last_date": "2026-10-28",
       "last_price": "¥25.00",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
@@ -353088,7 +353090,7 @@
       "region": "cn",
       "first_date": "2026-10-27",
       "first_price": "¥86.00",
-      "last_date": "2026-10-27",
+      "last_date": "2026-10-28",
       "last_price": "¥86.00",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
@@ -353343,7 +353345,7 @@
       "region": "cn",
       "first_date": "2026-10-27",
       "first_price": "¥18.00",
-      "last_date": "2026-10-27",
+      "last_date": "2026-10-28",
       "last_price": "¥18.00",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
@@ -353360,7 +353362,7 @@
       "region": "cn",
       "first_date": "2026-10-27",
       "first_price": "¥68.00",
-      "last_date": "2026-10-27",
+      "last_date": "2026-10-28",
       "last_price": "¥68.00",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
@@ -353428,7 +353430,7 @@
       "region": "cn",
       "first_date": "2026-10-27",
       "first_price": "¥18.00",
-      "last_date": "2026-10-27",
+      "last_date": "2026-10-28",
       "last_price": "¥18.00",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
@@ -353718,7 +353720,7 @@
       "region": "cn",
       "first_date": "2026-10-27",
       "first_price": "¥188.00",
-      "last_date": "2026-10-27",
+      "last_date": "2026-10-28",
       "last_price": "¥188.00",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
@@ -360868,6 +360870,533 @@
       "free_since": null,
       "changes": {
         "2026-10-28": "¥68.00"
+      }
+    },
+    "1659364578::空旅2个月SVIP": {
+      "app_id": "1659364578",
+      "app_name": "空旅-找个旅行搭子",
+      "name": "空旅2个月SVIP",
+      "region": "cn",
+      "first_date": "2026-10-28",
+      "first_price": "¥258.00",
+      "last_date": "2026-10-28",
+      "last_price": "¥258.00",
+      "last_change_date": "2026-10-28",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-28",
+      "free_since": null,
+      "changes": {
+        "2026-10-28": "¥258.00"
+      }
+    },
+    "1456559188::TXT DigitalM 9 Jelly": {
+      "app_id": "1456559188",
+      "app_name": "Weverse-和艺人更靠近",
+      "name": "TXT DigitalM 9 Jelly",
+      "region": "cn",
+      "first_date": "2026-10-28",
+      "first_price": "¥15.00",
+      "last_date": "2026-10-28",
+      "last_price": "¥15.00",
+      "last_change_date": "2026-10-28",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-28",
+      "free_since": null,
+      "changes": {
+        "2026-10-28": "¥15.00"
+      }
+    },
+    "6743102708::200 晶石（9折优惠）": {
+      "app_id": "6743102708",
+      "app_name": "元仔-(原PawLove)闺蜜情侣养宠互动工具App",
+      "name": "200 晶石（9折优惠）",
+      "region": "cn",
+      "first_date": "2026-10-28",
+      "first_price": "¥18.00",
+      "last_date": "2026-10-28",
+      "last_price": "¥18.00",
+      "last_change_date": "2026-10-28",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-28",
+      "free_since": null,
+      "changes": {
+        "2026-10-28": "¥18.00"
+      }
+    },
+    "6743102708::1000 晶石（8折优惠）": {
+      "app_id": "6743102708",
+      "app_name": "元仔-(原PawLove)闺蜜情侣养宠互动工具App",
+      "name": "1000 晶石（8折优惠）",
+      "region": "cn",
+      "first_date": "2026-10-28",
+      "first_price": "¥80.00",
+      "last_date": "2026-10-28",
+      "last_price": "¥80.00",
+      "last_change_date": "2026-10-28",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-28",
+      "free_since": null,
+      "changes": {
+        "2026-10-28": "¥80.00"
+      }
+    },
+    "6743102708::5000 晶石（7折优惠）": {
+      "app_id": "6743102708",
+      "app_name": "元仔-(原PawLove)闺蜜情侣养宠互动工具App",
+      "name": "5000 晶石（7折优惠）",
+      "region": "cn",
+      "first_date": "2026-10-28",
+      "first_price": "¥350.00",
+      "last_date": "2026-10-28",
+      "last_price": "¥350.00",
+      "last_change_date": "2026-10-28",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-28",
+      "free_since": null,
+      "changes": {
+        "2026-10-28": "¥350.00"
+      }
+    },
+    "6743102708::500 晶石（8折优惠）": {
+      "app_id": "6743102708",
+      "app_name": "元仔-(原PawLove)闺蜜情侣养宠互动工具App",
+      "name": "500 晶石（8折优惠）",
+      "region": "cn",
+      "first_date": "2026-10-28",
+      "first_price": "¥40.00",
+      "last_date": "2026-10-28",
+      "last_price": "¥40.00",
+      "last_change_date": "2026-10-28",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-28",
+      "free_since": null,
+      "changes": {
+        "2026-10-28": "¥40.00"
+      }
+    },
+    "6743102708::2000 晶石（75折优惠）": {
+      "app_id": "6743102708",
+      "app_name": "元仔-(原PawLove)闺蜜情侣养宠互动工具App",
+      "name": "2000 晶石（75折优惠）",
+      "region": "cn",
+      "first_date": "2026-10-28",
+      "first_price": "¥150.00",
+      "last_date": "2026-10-28",
+      "last_price": "¥150.00",
+      "last_change_date": "2026-10-28",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-28",
+      "free_since": null,
+      "changes": {
+        "2026-10-28": "¥150.00"
+      }
+    },
+    "6743102708::10000 晶石（59折优惠）": {
+      "app_id": "6743102708",
+      "app_name": "元仔-(原PawLove)闺蜜情侣养宠互动工具App",
+      "name": "10000 晶石（59折优惠）",
+      "region": "cn",
+      "first_date": "2026-10-28",
+      "first_price": "¥588.00",
+      "last_date": "2026-10-28",
+      "last_price": "¥588.00",
+      "last_change_date": "2026-10-28",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-28",
+      "free_since": null,
+      "changes": {
+        "2026-10-28": "¥588.00"
+      }
+    },
+    "6743102708::氪金进阶-20晶石": {
+      "app_id": "6743102708",
+      "app_name": "元仔-(原PawLove)闺蜜情侣养宠互动工具App",
+      "name": "氪金进阶-20晶石",
+      "region": "cn",
+      "first_date": "2026-10-28",
+      "first_price": "¥1.00",
+      "last_date": "2026-10-28",
+      "last_price": "¥1.00",
+      "last_change_date": "2026-10-28",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-28",
+      "free_since": null,
+      "changes": {
+        "2026-10-28": "¥1.00"
+      }
+    },
+    "540679302::自动订阅-包月": {
+      "app_id": "540679302",
+      "app_name": "每日瑜伽-专业的瑜伽普拉提健身塑形APP",
+      "name": "自动订阅-包月",
+      "region": "cn",
+      "first_date": "2026-10-28",
+      "first_price": "¥30.00",
+      "last_date": "2026-10-28",
+      "last_price": "¥30.00",
+      "last_change_date": "2026-10-28",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-28",
+      "free_since": null,
+      "changes": {
+        "2026-10-28": "¥30.00"
+      }
+    },
+    "6756961871::狒狒小礼": {
+      "app_id": "6756961871",
+      "app_name": "诡秘之主",
+      "name": "狒狒小礼",
+      "region": "cn",
+      "first_date": "2026-10-28",
+      "first_price": "¥1.00",
+      "last_date": "2026-10-28",
+      "last_price": "¥1.00",
+      "last_change_date": "2026-10-28",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-28",
+      "free_since": null,
+      "changes": {
+        "2026-10-28": "¥1.00"
+      }
+    },
+    "1498402704::羲和御车礼包": {
+      "app_id": "1498402704",
+      "app_name": "江南百景图",
+      "name": "羲和御车礼包",
+      "region": "cn",
+      "first_date": "2026-10-28",
+      "first_price": "¥88.00",
+      "last_date": "2026-10-28",
+      "last_price": "¥88.00",
+      "last_change_date": "2026-10-28",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-28",
+      "free_since": null,
+      "changes": {
+        "2026-10-28": "¥88.00"
+      }
+    },
+    "1498402704::江南锦囊礼包": {
+      "app_id": "1498402704",
+      "app_name": "江南百景图",
+      "name": "江南锦囊礼包",
+      "region": "cn",
+      "first_date": "2026-10-28",
+      "first_price": "¥6.00",
+      "last_date": "2026-10-28",
+      "last_price": "¥6.00",
+      "last_change_date": "2026-10-28",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-28",
+      "free_since": null,
+      "changes": {
+        "2026-10-28": "¥6.00"
+      }
+    },
+    "6479694167::420 K豆": {
+      "app_id": "6479694167",
+      "app_name": "Qni-音乐杀、猜歌、全民社交平台",
+      "name": "420 K豆",
+      "region": "cn",
+      "first_date": "2026-10-28",
+      "first_price": "¥6.00",
+      "last_date": "2026-10-28",
+      "last_price": "¥6.00",
+      "last_change_date": "2026-10-28",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-28",
+      "free_since": null,
+      "changes": {
+        "2026-10-28": "¥6.00"
+      }
+    },
+    "6451403869::vip半年卡": {
+      "app_id": "6451403869",
+      "app_name": "英语天天练",
+      "name": "vip半年卡",
+      "region": "cn",
+      "first_date": "2026-10-28",
+      "first_price": "¥198.00",
+      "last_date": "2026-10-28",
+      "last_price": "¥198.00",
+      "last_change_date": "2026-10-28",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-28",
+      "free_since": null,
+      "changes": {
+        "2026-10-28": "¥198.00"
+      }
+    },
+    "6448731078::连续包年会员": {
+      "app_id": "6448731078",
+      "app_name": "智能口语大师-英语口语听力学习软件",
+      "name": "连续包年会员",
+      "region": "cn",
+      "first_date": "2026-10-28",
+      "first_price": "¥198.00",
+      "last_date": "2026-10-28",
+      "last_price": "¥198.00",
+      "last_change_date": "2026-10-28",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-28",
+      "free_since": null,
+      "changes": {
+        "2026-10-28": "¥198.00"
+      }
+    },
+    "6742528141::VIP年卡": {
+      "app_id": "6742528141",
+      "app_name": "信商圈",
+      "name": "VIP年卡",
+      "region": "cn",
+      "first_date": "2026-10-28",
+      "first_price": "¥358.00",
+      "last_date": "2026-10-28",
+      "last_price": "¥358.00",
+      "last_change_date": "2026-10-28",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-28",
+      "free_since": null,
+      "changes": {
+        "2026-10-28": "¥358.00"
+      }
+    },
+    "6742864540::12元礼包": {
+      "app_id": "6742864540",
+      "app_name": "兔哈皮电玩-街机魔鬼城",
+      "name": "12元礼包",
+      "region": "cn",
+      "first_date": "2026-10-28",
+      "first_price": "¥12.00",
+      "last_date": "2026-10-28",
+      "last_price": "¥12.00",
+      "last_change_date": "2026-10-28",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-28",
+      "free_since": null,
+      "changes": {
+        "2026-10-28": "¥12.00"
+      }
+    },
+    "1103142122::外研社法语优惠购_298": {
+      "app_id": "1103142122",
+      "app_name": "外研社法语-官方正版出品",
+      "name": "外研社法语优惠购_298",
+      "region": "cn",
+      "first_date": "2026-10-28",
+      "first_price": "¥298.00",
+      "last_date": "2026-10-28",
+      "last_price": "¥298.00",
+      "last_change_date": "2026-10-28",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-28",
+      "free_since": null,
+      "changes": {
+        "2026-10-28": "¥298.00"
+      }
+    },
+    "6803396112::SVIP会员自动订阅（1月）": {
+      "app_id": "6803396112",
+      "app_name": "A7match-高净值人群恋爱平台",
+      "name": "SVIP会员自动订阅（1月）",
+      "region": "cn",
+      "first_date": "2026-10-28",
+      "first_price": "¥588.00",
+      "last_date": "2026-10-28",
+      "last_price": "¥588.00",
+      "last_change_date": "2026-10-28",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-28",
+      "free_since": null,
+      "changes": {
+        "2026-10-28": "¥588.00"
+      }
+    },
+    "6749045841::波恩哈特_折扣": {
+      "app_id": "6749045841",
+      "app_name": "王国保卫战5",
+      "name": "波恩哈特_折扣",
+      "region": "cn",
+      "first_date": "2026-10-28",
+      "first_price": "¥30.00",
+      "last_date": "2026-10-28",
+      "last_price": "¥30.00",
+      "last_change_date": "2026-10-28",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-28",
+      "free_since": null,
+      "changes": {
+        "2026-10-28": "¥30.00"
+      }
+    },
+    "1305599559::300FIFA点券": {
+      "app_id": "1305599559",
+      "app_name": "FC足球世界-Next",
+      "name": "300FIFA点券",
+      "region": "cn",
+      "first_date": "2026-10-28",
+      "first_price": "¥30.00",
+      "last_date": "2026-10-28",
+      "last_price": "¥30.00",
+      "last_change_date": "2026-10-28",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-28",
+      "free_since": null,
+      "changes": {
+        "2026-10-28": "¥30.00"
+      }
+    },
+    "1501314785::60点券": {
+      "app_id": "1501314785",
+      "app_name": "途游斗地主（比赛版）",
+      "name": "60点券",
+      "region": "cn",
+      "first_date": "2026-10-28",
+      "first_price": "¥6.00",
+      "last_date": "2026-10-28",
+      "last_price": "¥6.00",
+      "last_change_date": "2026-10-28",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-28",
+      "free_since": null,
+      "changes": {
+        "2026-10-28": "¥6.00"
+      }
+    },
+    "841140063::40包经典扩展包": {
+      "app_id": "841140063",
+      "app_name": "炉石传说",
+      "name": "40包经典扩展包",
+      "region": "cn",
+      "first_date": "2026-10-28",
+      "first_price": "¥328.00",
+      "last_date": "2026-10-28",
+      "last_price": "¥328.00",
+      "last_change_date": "2026-10-28",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-28",
+      "free_since": null,
+      "changes": {
+        "2026-10-28": "¥328.00"
+      }
+    },
+    "6474127167::1元礼包-1": {
+      "app_id": "6474127167",
+      "app_name": "世界之外",
+      "name": "1元礼包-1",
+      "region": "cn",
+      "first_date": "2026-10-28",
+      "first_price": "¥1.00",
+      "last_date": "2026-10-28",
+      "last_price": "¥1.00",
+      "last_change_date": "2026-10-28",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-28",
+      "free_since": null,
+      "changes": {
+        "2026-10-28": "¥1.00"
+      }
+    },
+    "6451352949::水畔蠢萌": {
+      "app_id": "6451352949",
+      "app_name": "鱼影 - 掌上体感钓鱼模拟器",
+      "name": "水畔蠢萌",
+      "region": "cn",
+      "first_date": "2026-10-28",
+      "first_price": "¥6.00",
+      "last_date": "2026-10-28",
+      "last_price": "¥6.00",
+      "last_change_date": "2026-10-28",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-28",
+      "free_since": null,
+      "changes": {
+        "2026-10-28": "¥6.00"
+      }
+    },
+    "6471839445::YELLOW GOLD RYUKIN": {
+      "app_id": "6471839445",
+      "app_name": "RYUKIN",
+      "name": "YELLOW GOLD RYUKIN",
+      "region": "cn",
+      "first_date": "2026-10-28",
+      "first_price": "¥15.00",
+      "last_date": "2026-10-28",
+      "last_price": "¥15.00",
+      "last_change_date": "2026-10-28",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-28",
+      "free_since": null,
+      "changes": {
+        "2026-10-28": "¥15.00"
+      }
+    },
+    "6748302425::李诗洁SHIJIE": {
+      "app_id": "6748302425",
+      "app_name": "Blooming Talk China",
+      "name": "李诗洁SHIJIE",
+      "region": "cn",
+      "first_date": "2026-10-28",
+      "first_price": "¥36.00",
+      "last_date": "2026-10-28",
+      "last_price": "¥36.00",
+      "last_change_date": "2026-10-28",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-28",
+      "free_since": null,
+      "changes": {
+        "2026-10-28": "¥36.00"
+      }
+    },
+    "6446480483::JANGHANEUM 1 Ticket(1Month)": {
+      "app_id": "6446480483",
+      "app_name": "Plus Chat",
+      "name": "JANGHANEUM 1 Ticket(1Month)",
+      "region": "cn",
+      "first_date": "2026-10-28",
+      "first_price": "¥22.00",
+      "last_date": "2026-10-28",
+      "last_price": "¥22.00",
+      "last_change_date": "2026-10-28",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-28",
+      "free_since": null,
+      "changes": {
+        "2026-10-28": "¥22.00"
+      }
+    },
+    "6446135346::新手礼包1": {
+      "app_id": "6446135346",
+      "app_name": "鲸鱼盒子-街机推币机疯狂魔鬼城线上推币电玩城",
+      "name": "新手礼包1",
+      "region": "cn",
+      "first_date": "2026-10-28",
+      "first_price": "¥6.00",
+      "last_date": "2026-10-28",
+      "last_price": "¥6.00",
+      "last_change_date": "2026-10-28",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-28",
+      "free_since": null,
+      "changes": {
+        "2026-10-28": "¥6.00"
+      }
+    },
+    "1444995576::12个月": {
+      "app_id": "1444995576",
+      "app_name": "小布咕-宝宝巴士故事、儿歌、音乐",
+      "name": "12个月",
+      "region": "cn",
+      "first_date": "2026-10-28",
+      "first_price": "¥198.00",
+      "last_date": "2026-10-28",
+      "last_price": "¥198.00",
+      "last_change_date": "2026-10-28",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-28",
+      "free_since": null,
+      "changes": {
+        "2026-10-28": "¥198.00"
       }
     }
   }

@@ -1,7 +1,7 @@
 {
   "updated": "2026-10-28",
   "region": "us",
-  "count": 202,
+  "count": 200,
   "items": [
     {
       "app_id": "300048137",
@@ -343,14 +343,6 @@
       "app_id": "6748983354",
       "app_name": "Alarm Clock",
       "iap": "Lifetime Premium",
-      "price": "$0.00",
-      "permanent_free": true,
-      "since": "2026-10-28"
-    },
-    {
-      "app_id": "6758198708",
-      "app_name": "Dungeons and Heartbeats",
-      "iap": "Unlock Everything",
       "price": "$0.00",
       "permanent_free": true,
       "since": "2026-10-28"
@@ -1511,14 +1503,6 @@
       "app_id": "493136154",
       "app_name": "Clear: To Dos & Reminders",
       "iap": "Pocket Monk",
-      "price": "$0.00",
-      "permanent_free": true,
-      "since": "2026-10-28"
-    },
-    {
-      "app_id": "6451401303",
-      "app_name": "Pineapple English: Word Match",
-      "iap": "Lifetime PRO",
       "price": "$0.00",
       "permanent_free": true,
       "since": "2026-10-28"

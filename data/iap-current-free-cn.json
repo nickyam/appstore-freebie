@@ -1,12 +1,20 @@
 {
   "updated": "2026-10-28",
   "region": "cn",
-  "count": 162,
+  "count": 163,
   "items": [
     {
       "app_id": "364859644",
       "app_name": "Offline Pages",
       "iap": "Offline Pages Pro",
+      "price": "¥0.00",
+      "permanent_free": false,
+      "since": "2026-10-28"
+    },
+    {
+      "app_id": "6741730996",
+      "app_name": "手机测速-网络测速·测网速speedtest",
+      "iap": "手机测速永久会员",
       "price": "¥0.00",
       "permanent_free": false,
       "since": "2026-10-28"
