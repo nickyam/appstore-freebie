@@ -4,6 +4,15 @@
   "count": 194,
   "items": [
     {
+      "app_id": "6741730996",
+      "app_name": "SpeedTest: WIFI Speed Test",
+      "iap": "PRO lifetime",
+      "price": "$0.00",
+      "permanent_free": false,
+      "since": "2026-10-29",
+      "app_price": "Free"
+    },
+    {
       "app_id": "300048137",
       "app_name": "AccuWeather: Weather Forecast",
       "iap": "Platinum Restore",
@@ -484,15 +493,6 @@
       "app_id": "6778384248",
       "app_name": "Tap-Relay",
       "iap": "Unlock Everything",
-      "price": "$0.00",
-      "permanent_free": true,
-      "since": "2026-10-29",
-      "app_price": "Free"
-    },
-    {
-      "app_id": "6789004498",
-      "app_name": "Tabletally: Game Scorekeeper",
-      "iap": "Lifetime",
       "price": "$0.00",
       "permanent_free": true,
       "since": "2026-10-29",

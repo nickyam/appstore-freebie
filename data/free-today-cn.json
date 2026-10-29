@@ -1,7 +1,7 @@
 {
   "date": "2026-10-29",
   "country": "cn",
-  "generated_at": "2026-10-29T04:55:42Z",
+  "generated_at": "2026-10-29T10:54:37Z",
   "freebies": [
     {
       "id": "6789210972",
@@ -137,6 +137,19 @@
           "region": "cn"
         },
         {
+          "id": "892393815",
+          "name": "录音机 - AVR PRO",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/b6/82/5eb682b5-7f85-a130-942c-3de61de222b5/AppIcon_PRO-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "商务",
+          "type": "deal",
+          "page": "app/cn-892393815.html",
+          "rating": 4.7268,
+          "normal": "¥28.00",
+          "current": "¥8.00",
+          "has_iap": null,
+          "region": "cn"
+        },
+        {
           "id": "488674899",
           "name": "实时天气雷达Pro - 降雨预报",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/c0/71/d7c071ab-5436-0659-cec6-f29fc53ac0a2/AppIcon-Full-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
@@ -251,19 +264,6 @@
           "normal": "¥78.00",
           "current": "免费",
           "has_iap": true,
-          "region": "cn"
-        },
-        {
-          "id": "1461710896",
-          "name": "WatchAnything - 表盘",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7d/9f/14/7d9f140b-e4a3-9982-f485-f8734da1c0c4/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
-          "genre": "生活",
-          "type": "free",
-          "page": "app/cn-1461710896.html",
-          "rating": 3.46154,
-          "normal": "¥1.99",
-          "current": "免费",
-          "has_iap": false,
           "region": "cn"
         }
       ],
@@ -403,6 +403,19 @@
           "region": "cn"
         },
         {
+          "id": "892393815",
+          "name": "录音机 - AVR PRO",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/b6/82/5eb682b5-7f85-a130-942c-3de61de222b5/AppIcon_PRO-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "商务",
+          "type": "deal",
+          "page": "app/cn-892393815.html",
+          "rating": 4.7268,
+          "normal": "¥28.00",
+          "current": "¥8.00",
+          "has_iap": null,
+          "region": "cn"
+        },
+        {
           "id": "488674899",
           "name": "实时天气雷达Pro - 降雨预报",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/c0/71/d7c071ab-5436-0659-cec6-f29fc53ac0a2/AppIcon-Full-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
@@ -517,19 +530,6 @@
           "normal": "¥78.00",
           "current": "免费",
           "has_iap": true,
-          "region": "cn"
-        },
-        {
-          "id": "1461710896",
-          "name": "WatchAnything - 表盘",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7d/9f/14/7d9f140b-e4a3-9982-f485-f8734da1c0c4/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
-          "genre": "生活",
-          "type": "free",
-          "page": "app/cn-1461710896.html",
-          "rating": 3.46154,
-          "normal": "¥1.99",
-          "current": "免费",
-          "has_iap": false,
           "region": "cn"
         }
       ],
@@ -669,6 +669,19 @@
           "region": "cn"
         },
         {
+          "id": "892393815",
+          "name": "录音机 - AVR PRO",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/b6/82/5eb682b5-7f85-a130-942c-3de61de222b5/AppIcon_PRO-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "商务",
+          "type": "deal",
+          "page": "app/cn-892393815.html",
+          "rating": 4.7268,
+          "normal": "¥28.00",
+          "current": "¥8.00",
+          "has_iap": null,
+          "region": "cn"
+        },
+        {
           "id": "488674899",
           "name": "实时天气雷达Pro - 降雨预报",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/c0/71/d7c071ab-5436-0659-cec6-f29fc53ac0a2/AppIcon-Full-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
@@ -783,19 +796,6 @@
           "normal": "¥78.00",
           "current": "免费",
           "has_iap": true,
-          "region": "cn"
-        },
-        {
-          "id": "1461710896",
-          "name": "WatchAnything - 表盘",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7d/9f/14/7d9f140b-e4a3-9982-f485-f8734da1c0c4/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
-          "genre": "生活",
-          "type": "free",
-          "page": "app/cn-1461710896.html",
-          "rating": 3.46154,
-          "normal": "¥1.99",
-          "current": "免费",
-          "has_iap": false,
           "region": "cn"
         }
       ],
@@ -935,6 +935,19 @@
           "region": "cn"
         },
         {
+          "id": "892393815",
+          "name": "录音机 - AVR PRO",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/b6/82/5eb682b5-7f85-a130-942c-3de61de222b5/AppIcon_PRO-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "商务",
+          "type": "deal",
+          "page": "app/cn-892393815.html",
+          "rating": 4.7268,
+          "normal": "¥28.00",
+          "current": "¥8.00",
+          "has_iap": null,
+          "region": "cn"
+        },
+        {
           "id": "488674899",
           "name": "实时天气雷达Pro - 降雨预报",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/c0/71/d7c071ab-5436-0659-cec6-f29fc53ac0a2/AppIcon-Full-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
@@ -1049,19 +1062,6 @@
           "normal": "¥78.00",
           "current": "免费",
           "has_iap": true,
-          "region": "cn"
-        },
-        {
-          "id": "1461710896",
-          "name": "WatchAnything - 表盘",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7d/9f/14/7d9f140b-e4a3-9982-f485-f8734da1c0c4/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
-          "genre": "生活",
-          "type": "free",
-          "page": "app/cn-1461710896.html",
-          "rating": 3.46154,
-          "normal": "¥1.99",
-          "current": "免费",
-          "has_iap": false,
           "region": "cn"
         }
       ],
@@ -1201,6 +1201,19 @@
           "region": "cn"
         },
         {
+          "id": "892393815",
+          "name": "录音机 - AVR PRO",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/b6/82/5eb682b5-7f85-a130-942c-3de61de222b5/AppIcon_PRO-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "商务",
+          "type": "deal",
+          "page": "app/cn-892393815.html",
+          "rating": 4.7268,
+          "normal": "¥28.00",
+          "current": "¥8.00",
+          "has_iap": null,
+          "region": "cn"
+        },
+        {
           "id": "488674899",
           "name": "实时天气雷达Pro - 降雨预报",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/c0/71/d7c071ab-5436-0659-cec6-f29fc53ac0a2/AppIcon-Full-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
@@ -1315,19 +1328,6 @@
           "normal": "¥78.00",
           "current": "免费",
           "has_iap": true,
-          "region": "cn"
-        },
-        {
-          "id": "1461710896",
-          "name": "WatchAnything - 表盘",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7d/9f/14/7d9f140b-e4a3-9982-f485-f8734da1c0c4/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
-          "genre": "生活",
-          "type": "free",
-          "page": "app/cn-1461710896.html",
-          "rating": 3.46154,
-          "normal": "¥1.99",
-          "current": "免费",
-          "has_iap": false,
           "region": "cn"
         }
       ],
@@ -1467,6 +1467,19 @@
           "region": "cn"
         },
         {
+          "id": "892393815",
+          "name": "录音机 - AVR PRO",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/b6/82/5eb682b5-7f85-a130-942c-3de61de222b5/AppIcon_PRO-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "商务",
+          "type": "deal",
+          "page": "app/cn-892393815.html",
+          "rating": 4.7268,
+          "normal": "¥28.00",
+          "current": "¥8.00",
+          "has_iap": null,
+          "region": "cn"
+        },
+        {
           "id": "488674899",
           "name": "实时天气雷达Pro - 降雨预报",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/c0/71/d7c071ab-5436-0659-cec6-f29fc53ac0a2/AppIcon-Full-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
@@ -1581,19 +1594,6 @@
           "normal": "¥78.00",
           "current": "免费",
           "has_iap": true,
-          "region": "cn"
-        },
-        {
-          "id": "1461710896",
-          "name": "WatchAnything - 表盘",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7d/9f/14/7d9f140b-e4a3-9982-f485-f8734da1c0c4/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
-          "genre": "生活",
-          "type": "free",
-          "page": "app/cn-1461710896.html",
-          "rating": 3.46154,
-          "normal": "¥1.99",
-          "current": "免费",
-          "has_iap": false,
           "region": "cn"
         }
       ],
@@ -1733,6 +1733,19 @@
           "region": "cn"
         },
         {
+          "id": "892393815",
+          "name": "录音机 - AVR PRO",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/b6/82/5eb682b5-7f85-a130-942c-3de61de222b5/AppIcon_PRO-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "商务",
+          "type": "deal",
+          "page": "app/cn-892393815.html",
+          "rating": 4.7268,
+          "normal": "¥28.00",
+          "current": "¥8.00",
+          "has_iap": null,
+          "region": "cn"
+        },
+        {
           "id": "488674899",
           "name": "实时天气雷达Pro - 降雨预报",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/c0/71/d7c071ab-5436-0659-cec6-f29fc53ac0a2/AppIcon-Full-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
@@ -1847,19 +1860,6 @@
           "normal": "¥78.00",
           "current": "免费",
           "has_iap": true,
-          "region": "cn"
-        },
-        {
-          "id": "1461710896",
-          "name": "WatchAnything - 表盘",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7d/9f/14/7d9f140b-e4a3-9982-f485-f8734da1c0c4/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
-          "genre": "生活",
-          "type": "free",
-          "page": "app/cn-1461710896.html",
-          "rating": 3.46154,
-          "normal": "¥1.99",
-          "current": "免费",
-          "has_iap": false,
           "region": "cn"
         }
       ],
@@ -2004,6 +2004,19 @@
           "region": "cn"
         },
         {
+          "id": "892393815",
+          "name": "录音机 - AVR PRO",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/b6/82/5eb682b5-7f85-a130-942c-3de61de222b5/AppIcon_PRO-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "商务",
+          "type": "deal",
+          "page": "app/cn-892393815.html",
+          "rating": 4.7268,
+          "normal": "¥28.00",
+          "current": "¥8.00",
+          "has_iap": null,
+          "region": "cn"
+        },
+        {
           "id": "488674899",
           "name": "实时天气雷达Pro - 降雨预报",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/c0/71/d7c071ab-5436-0659-cec6-f29fc53ac0a2/AppIcon-Full-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
@@ -2118,19 +2131,6 @@
           "normal": "¥78.00",
           "current": "免费",
           "has_iap": true,
-          "region": "cn"
-        },
-        {
-          "id": "1461710896",
-          "name": "WatchAnything - 表盘",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7d/9f/14/7d9f140b-e4a3-9982-f485-f8734da1c0c4/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
-          "genre": "生活",
-          "type": "free",
-          "page": "app/cn-1461710896.html",
-          "rating": 3.46154,
-          "normal": "¥1.99",
-          "current": "免费",
-          "has_iap": false,
           "region": "cn"
         }
       ],
@@ -2270,6 +2270,19 @@
           "region": "cn"
         },
         {
+          "id": "892393815",
+          "name": "录音机 - AVR PRO",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/b6/82/5eb682b5-7f85-a130-942c-3de61de222b5/AppIcon_PRO-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "商务",
+          "type": "deal",
+          "page": "app/cn-892393815.html",
+          "rating": 4.7268,
+          "normal": "¥28.00",
+          "current": "¥8.00",
+          "has_iap": null,
+          "region": "cn"
+        },
+        {
           "id": "488674899",
           "name": "实时天气雷达Pro - 降雨预报",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/c0/71/d7c071ab-5436-0659-cec6-f29fc53ac0a2/AppIcon-Full-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
@@ -2384,19 +2397,6 @@
           "normal": "¥78.00",
           "current": "免费",
           "has_iap": true,
-          "region": "cn"
-        },
-        {
-          "id": "1461710896",
-          "name": "WatchAnything - 表盘",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7d/9f/14/7d9f140b-e4a3-9982-f485-f8734da1c0c4/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
-          "genre": "生活",
-          "type": "free",
-          "page": "app/cn-1461710896.html",
-          "rating": 3.46154,
-          "normal": "¥1.99",
-          "current": "免费",
-          "has_iap": false,
           "region": "cn"
         }
       ],
@@ -2594,6 +2594,19 @@
           "region": "cn"
         },
         {
+          "id": "892393815",
+          "name": "录音机 - AVR PRO",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/b6/82/5eb682b5-7f85-a130-942c-3de61de222b5/AppIcon_PRO-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "商务",
+          "type": "deal",
+          "page": "app/cn-892393815.html",
+          "rating": 4.7268,
+          "normal": "¥28.00",
+          "current": "¥8.00",
+          "has_iap": null,
+          "region": "cn"
+        },
+        {
           "id": "6759275171",
           "name": "翻页时钟天气 : AeroFlap AI+",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/96/7c/c6/967cc6ea-1dd0-c5de-3b9f-021ee86b8fe6/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
@@ -2695,19 +2708,6 @@
           "normal": "¥78.00",
           "current": "免费",
           "has_iap": true,
-          "region": "cn"
-        },
-        {
-          "id": "1461710896",
-          "name": "WatchAnything - 表盘",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7d/9f/14/7d9f140b-e4a3-9982-f485-f8734da1c0c4/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
-          "genre": "生活",
-          "type": "free",
-          "page": "app/cn-1461710896.html",
-          "rating": 3.46154,
-          "normal": "¥1.99",
-          "current": "免费",
-          "has_iap": false,
           "region": "cn"
         }
       ],
@@ -2860,6 +2860,19 @@
           "region": "cn"
         },
         {
+          "id": "892393815",
+          "name": "录音机 - AVR PRO",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/b6/82/5eb682b5-7f85-a130-942c-3de61de222b5/AppIcon_PRO-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "商务",
+          "type": "deal",
+          "page": "app/cn-892393815.html",
+          "rating": 4.7268,
+          "normal": "¥28.00",
+          "current": "¥8.00",
+          "has_iap": null,
+          "region": "cn"
+        },
+        {
           "id": "488674899",
           "name": "实时天气雷达Pro - 降雨预报",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/c0/71/d7c071ab-5436-0659-cec6-f29fc53ac0a2/AppIcon-Full-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
@@ -2961,19 +2974,6 @@
           "normal": "¥78.00",
           "current": "免费",
           "has_iap": true,
-          "region": "cn"
-        },
-        {
-          "id": "1461710896",
-          "name": "WatchAnything - 表盘",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7d/9f/14/7d9f140b-e4a3-9982-f485-f8734da1c0c4/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
-          "genre": "生活",
-          "type": "free",
-          "page": "app/cn-1461710896.html",
-          "rating": 3.46154,
-          "normal": "¥1.99",
-          "current": "免费",
-          "has_iap": false,
           "region": "cn"
         }
       ],
@@ -3126,6 +3126,19 @@
           "region": "cn"
         },
         {
+          "id": "892393815",
+          "name": "录音机 - AVR PRO",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/b6/82/5eb682b5-7f85-a130-942c-3de61de222b5/AppIcon_PRO-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "商务",
+          "type": "deal",
+          "page": "app/cn-892393815.html",
+          "rating": 4.7268,
+          "normal": "¥28.00",
+          "current": "¥8.00",
+          "has_iap": null,
+          "region": "cn"
+        },
+        {
           "id": "488674899",
           "name": "实时天气雷达Pro - 降雨预报",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/c0/71/d7c071ab-5436-0659-cec6-f29fc53ac0a2/AppIcon-Full-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
@@ -3227,19 +3240,6 @@
           "normal": "¥78.00",
           "current": "免费",
           "has_iap": true,
-          "region": "cn"
-        },
-        {
-          "id": "1461710896",
-          "name": "WatchAnything - 表盘",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7d/9f/14/7d9f140b-e4a3-9982-f485-f8734da1c0c4/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
-          "genre": "生活",
-          "type": "free",
-          "page": "app/cn-1461710896.html",
-          "rating": 3.46154,
-          "normal": "¥1.99",
-          "current": "免费",
-          "has_iap": false,
           "region": "cn"
         }
       ],
@@ -3392,6 +3392,19 @@
           "region": "cn"
         },
         {
+          "id": "892393815",
+          "name": "录音机 - AVR PRO",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/b6/82/5eb682b5-7f85-a130-942c-3de61de222b5/AppIcon_PRO-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "商务",
+          "type": "deal",
+          "page": "app/cn-892393815.html",
+          "rating": 4.7268,
+          "normal": "¥28.00",
+          "current": "¥8.00",
+          "has_iap": null,
+          "region": "cn"
+        },
+        {
           "id": "488674899",
           "name": "实时天气雷达Pro - 降雨预报",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/c0/71/d7c071ab-5436-0659-cec6-f29fc53ac0a2/AppIcon-Full-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
@@ -3493,19 +3506,6 @@
           "normal": "¥78.00",
           "current": "免费",
           "has_iap": true,
-          "region": "cn"
-        },
-        {
-          "id": "1461710896",
-          "name": "WatchAnything - 表盘",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7d/9f/14/7d9f140b-e4a3-9982-f485-f8734da1c0c4/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
-          "genre": "生活",
-          "type": "free",
-          "page": "app/cn-1461710896.html",
-          "rating": 3.46154,
-          "normal": "¥1.99",
-          "current": "免费",
-          "has_iap": false,
           "region": "cn"
         }
       ],
@@ -3658,6 +3658,19 @@
           "region": "cn"
         },
         {
+          "id": "892393815",
+          "name": "录音机 - AVR PRO",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/b6/82/5eb682b5-7f85-a130-942c-3de61de222b5/AppIcon_PRO-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "商务",
+          "type": "deal",
+          "page": "app/cn-892393815.html",
+          "rating": 4.7268,
+          "normal": "¥28.00",
+          "current": "¥8.00",
+          "has_iap": null,
+          "region": "cn"
+        },
+        {
           "id": "488674899",
           "name": "实时天气雷达Pro - 降雨预报",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/c0/71/d7c071ab-5436-0659-cec6-f29fc53ac0a2/AppIcon-Full-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
@@ -3759,19 +3772,6 @@
           "normal": "¥78.00",
           "current": "免费",
           "has_iap": true,
-          "region": "cn"
-        },
-        {
-          "id": "1461710896",
-          "name": "WatchAnything - 表盘",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7d/9f/14/7d9f140b-e4a3-9982-f485-f8734da1c0c4/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
-          "genre": "生活",
-          "type": "free",
-          "page": "app/cn-1461710896.html",
-          "rating": 3.46154,
-          "normal": "¥1.99",
-          "current": "免费",
-          "has_iap": false,
           "region": "cn"
         }
       ],
@@ -3924,6 +3924,19 @@
           "region": "cn"
         },
         {
+          "id": "892393815",
+          "name": "录音机 - AVR PRO",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/b6/82/5eb682b5-7f85-a130-942c-3de61de222b5/AppIcon_PRO-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "商务",
+          "type": "deal",
+          "page": "app/cn-892393815.html",
+          "rating": 4.7268,
+          "normal": "¥28.00",
+          "current": "¥8.00",
+          "has_iap": null,
+          "region": "cn"
+        },
+        {
           "id": "488674899",
           "name": "实时天气雷达Pro - 降雨预报",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/c0/71/d7c071ab-5436-0659-cec6-f29fc53ac0a2/AppIcon-Full-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
@@ -4025,19 +4038,6 @@
           "normal": "¥78.00",
           "current": "免费",
           "has_iap": true,
-          "region": "cn"
-        },
-        {
-          "id": "1461710896",
-          "name": "WatchAnything - 表盘",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7d/9f/14/7d9f140b-e4a3-9982-f485-f8734da1c0c4/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
-          "genre": "生活",
-          "type": "free",
-          "page": "app/cn-1461710896.html",
-          "rating": 3.46154,
-          "normal": "¥1.99",
-          "current": "免费",
-          "has_iap": false,
           "region": "cn"
         }
       ],
@@ -4190,6 +4190,19 @@
           "region": "cn"
         },
         {
+          "id": "892393815",
+          "name": "录音机 - AVR PRO",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/b6/82/5eb682b5-7f85-a130-942c-3de61de222b5/AppIcon_PRO-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "商务",
+          "type": "deal",
+          "page": "app/cn-892393815.html",
+          "rating": 4.7268,
+          "normal": "¥28.00",
+          "current": "¥8.00",
+          "has_iap": null,
+          "region": "cn"
+        },
+        {
           "id": "488674899",
           "name": "实时天气雷达Pro - 降雨预报",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/c0/71/d7c071ab-5436-0659-cec6-f29fc53ac0a2/AppIcon-Full-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
@@ -4291,19 +4304,6 @@
           "normal": "¥78.00",
           "current": "免费",
           "has_iap": true,
-          "region": "cn"
-        },
-        {
-          "id": "1461710896",
-          "name": "WatchAnything - 表盘",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7d/9f/14/7d9f140b-e4a3-9982-f485-f8734da1c0c4/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
-          "genre": "生活",
-          "type": "free",
-          "page": "app/cn-1461710896.html",
-          "rating": 3.46154,
-          "normal": "¥1.99",
-          "current": "免费",
-          "has_iap": false,
           "region": "cn"
         }
       ],
@@ -4456,6 +4456,19 @@
           "region": "cn"
         },
         {
+          "id": "892393815",
+          "name": "录音机 - AVR PRO",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/b6/82/5eb682b5-7f85-a130-942c-3de61de222b5/AppIcon_PRO-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "商务",
+          "type": "deal",
+          "page": "app/cn-892393815.html",
+          "rating": 4.7268,
+          "normal": "¥28.00",
+          "current": "¥8.00",
+          "has_iap": null,
+          "region": "cn"
+        },
+        {
           "id": "488674899",
           "name": "实时天气雷达Pro - 降雨预报",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/c0/71/d7c071ab-5436-0659-cec6-f29fc53ac0a2/AppIcon-Full-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
@@ -4556,19 +4569,6 @@
           "rating": 4.05814,
           "normal": "¥3.00",
           "current": "¥1.00",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
-          "id": "1461710896",
-          "name": "WatchAnything - 表盘",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7d/9f/14/7d9f140b-e4a3-9982-f485-f8734da1c0c4/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
-          "genre": "生活",
-          "type": "free",
-          "page": "app/cn-1461710896.html",
-          "rating": 3.46154,
-          "normal": "¥1.99",
-          "current": "免费",
           "has_iap": false,
           "region": "cn"
         }
@@ -4722,6 +4722,19 @@
           "region": "cn"
         },
         {
+          "id": "892393815",
+          "name": "录音机 - AVR PRO",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/b6/82/5eb682b5-7f85-a130-942c-3de61de222b5/AppIcon_PRO-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "商务",
+          "type": "deal",
+          "page": "app/cn-892393815.html",
+          "rating": 4.7268,
+          "normal": "¥28.00",
+          "current": "¥8.00",
+          "has_iap": null,
+          "region": "cn"
+        },
+        {
           "id": "488674899",
           "name": "实时天气雷达Pro - 降雨预报",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/c0/71/d7c071ab-5436-0659-cec6-f29fc53ac0a2/AppIcon-Full-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
@@ -4823,19 +4836,6 @@
           "normal": "¥3.00",
           "current": "¥1.00",
           "has_iap": false,
-          "region": "cn"
-        },
-        {
-          "id": "1566504157",
-          "name": "天体重力 - 牛顿万有引力定律",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3b/2c/6e/3b2c6e9e-8915-8ef3-7fdc-ab16fb3421fb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-          "genre": "娱乐",
-          "type": "free",
-          "page": "app/cn-1566504157.html",
-          "rating": 3.84474,
-          "normal": "¥78.00",
-          "current": "免费",
-          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -4988,6 +4988,19 @@
           "region": "cn"
         },
         {
+          "id": "892393815",
+          "name": "录音机 - AVR PRO",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/b6/82/5eb682b5-7f85-a130-942c-3de61de222b5/AppIcon_PRO-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "商务",
+          "type": "deal",
+          "page": "app/cn-892393815.html",
+          "rating": 4.7268,
+          "normal": "¥28.00",
+          "current": "¥8.00",
+          "has_iap": null,
+          "region": "cn"
+        },
+        {
           "id": "488674899",
           "name": "实时天气雷达Pro - 降雨预报",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/c0/71/d7c071ab-5436-0659-cec6-f29fc53ac0a2/AppIcon-Full-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
@@ -5089,19 +5102,6 @@
           "normal": "¥3.00",
           "current": "¥1.00",
           "has_iap": false,
-          "region": "cn"
-        },
-        {
-          "id": "1566504157",
-          "name": "天体重力 - 牛顿万有引力定律",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3b/2c/6e/3b2c6e9e-8915-8ef3-7fdc-ab16fb3421fb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-          "genre": "娱乐",
-          "type": "free",
-          "page": "app/cn-1566504157.html",
-          "rating": 3.84474,
-          "normal": "¥78.00",
-          "current": "免费",
-          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -5254,6 +5254,19 @@
           "region": "cn"
         },
         {
+          "id": "892393815",
+          "name": "录音机 - AVR PRO",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/b6/82/5eb682b5-7f85-a130-942c-3de61de222b5/AppIcon_PRO-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "商务",
+          "type": "deal",
+          "page": "app/cn-892393815.html",
+          "rating": 4.7268,
+          "normal": "¥28.00",
+          "current": "¥8.00",
+          "has_iap": null,
+          "region": "cn"
+        },
+        {
           "id": "488674899",
           "name": "实时天气雷达Pro - 降雨预报",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/c0/71/d7c071ab-5436-0659-cec6-f29fc53ac0a2/AppIcon-Full-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
@@ -5355,19 +5368,6 @@
           "normal": "¥3.00",
           "current": "¥1.00",
           "has_iap": false,
-          "region": "cn"
-        },
-        {
-          "id": "1566504157",
-          "name": "天体重力 - 牛顿万有引力定律",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3b/2c/6e/3b2c6e9e-8915-8ef3-7fdc-ab16fb3421fb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-          "genre": "娱乐",
-          "type": "free",
-          "page": "app/cn-1566504157.html",
-          "rating": 3.84474,
-          "normal": "¥78.00",
-          "current": "免费",
-          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -5520,6 +5520,19 @@
           "region": "cn"
         },
         {
+          "id": "892393815",
+          "name": "录音机 - AVR PRO",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/b6/82/5eb682b5-7f85-a130-942c-3de61de222b5/AppIcon_PRO-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "商务",
+          "type": "deal",
+          "page": "app/cn-892393815.html",
+          "rating": 4.7268,
+          "normal": "¥28.00",
+          "current": "¥8.00",
+          "has_iap": null,
+          "region": "cn"
+        },
+        {
           "id": "488674899",
           "name": "实时天气雷达Pro - 降雨预报",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/c0/71/d7c071ab-5436-0659-cec6-f29fc53ac0a2/AppIcon-Full-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
@@ -5621,19 +5634,6 @@
           "normal": "¥3.00",
           "current": "¥1.00",
           "has_iap": false,
-          "region": "cn"
-        },
-        {
-          "id": "1566504157",
-          "name": "天体重力 - 牛顿万有引力定律",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3b/2c/6e/3b2c6e9e-8915-8ef3-7fdc-ab16fb3421fb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-          "genre": "娱乐",
-          "type": "free",
-          "page": "app/cn-1566504157.html",
-          "rating": 3.84474,
-          "normal": "¥78.00",
-          "current": "免费",
-          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -5786,6 +5786,19 @@
           "region": "cn"
         },
         {
+          "id": "892393815",
+          "name": "录音机 - AVR PRO",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/b6/82/5eb682b5-7f85-a130-942c-3de61de222b5/AppIcon_PRO-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "商务",
+          "type": "deal",
+          "page": "app/cn-892393815.html",
+          "rating": 4.7268,
+          "normal": "¥28.00",
+          "current": "¥8.00",
+          "has_iap": null,
+          "region": "cn"
+        },
+        {
           "id": "488674899",
           "name": "实时天气雷达Pro - 降雨预报",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/c0/71/d7c071ab-5436-0659-cec6-f29fc53ac0a2/AppIcon-Full-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
@@ -5887,19 +5900,6 @@
           "normal": "¥3.00",
           "current": "¥1.00",
           "has_iap": false,
-          "region": "cn"
-        },
-        {
-          "id": "1566504157",
-          "name": "天体重力 - 牛顿万有引力定律",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3b/2c/6e/3b2c6e9e-8915-8ef3-7fdc-ab16fb3421fb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-          "genre": "娱乐",
-          "type": "free",
-          "page": "app/cn-1566504157.html",
-          "rating": 3.84474,
-          "normal": "¥78.00",
-          "current": "免费",
-          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -6052,6 +6052,19 @@
           "region": "cn"
         },
         {
+          "id": "892393815",
+          "name": "录音机 - AVR PRO",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/b6/82/5eb682b5-7f85-a130-942c-3de61de222b5/AppIcon_PRO-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "商务",
+          "type": "deal",
+          "page": "app/cn-892393815.html",
+          "rating": 4.7268,
+          "normal": "¥28.00",
+          "current": "¥8.00",
+          "has_iap": null,
+          "region": "cn"
+        },
+        {
           "id": "488674899",
           "name": "实时天气雷达Pro - 降雨预报",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/c0/71/d7c071ab-5436-0659-cec6-f29fc53ac0a2/AppIcon-Full-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
@@ -6153,19 +6166,6 @@
           "normal": "¥3.00",
           "current": "¥1.00",
           "has_iap": false,
-          "region": "cn"
-        },
-        {
-          "id": "1566504157",
-          "name": "天体重力 - 牛顿万有引力定律",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3b/2c/6e/3b2c6e9e-8915-8ef3-7fdc-ab16fb3421fb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-          "genre": "娱乐",
-          "type": "free",
-          "page": "app/cn-1566504157.html",
-          "rating": 3.84474,
-          "normal": "¥78.00",
-          "current": "免费",
-          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -6348,6 +6348,19 @@
           "region": "cn"
         },
         {
+          "id": "892393815",
+          "name": "录音机 - AVR PRO",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/b6/82/5eb682b5-7f85-a130-942c-3de61de222b5/AppIcon_PRO-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "商务",
+          "type": "deal",
+          "page": "app/cn-892393815.html",
+          "rating": 4.7268,
+          "normal": "¥28.00",
+          "current": "¥8.00",
+          "has_iap": null,
+          "region": "cn"
+        },
+        {
           "id": "488674899",
           "name": "实时天气雷达Pro - 降雨预报",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/c0/71/d7c071ab-5436-0659-cec6-f29fc53ac0a2/AppIcon-Full-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
@@ -6449,19 +6462,6 @@
           "normal": "¥3.00",
           "current": "¥1.00",
           "has_iap": false,
-          "region": "cn"
-        },
-        {
-          "id": "1566504157",
-          "name": "天体重力 - 牛顿万有引力定律",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3b/2c/6e/3b2c6e9e-8915-8ef3-7fdc-ab16fb3421fb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-          "genre": "娱乐",
-          "type": "free",
-          "page": "app/cn-1566504157.html",
-          "rating": 3.84474,
-          "normal": "¥78.00",
-          "current": "免费",
-          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -6644,6 +6644,19 @@
           "region": "cn"
         },
         {
+          "id": "892393815",
+          "name": "录音机 - AVR PRO",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/b6/82/5eb682b5-7f85-a130-942c-3de61de222b5/AppIcon_PRO-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "商务",
+          "type": "deal",
+          "page": "app/cn-892393815.html",
+          "rating": 4.7268,
+          "normal": "¥28.00",
+          "current": "¥8.00",
+          "has_iap": null,
+          "region": "cn"
+        },
+        {
           "id": "488674899",
           "name": "实时天气雷达Pro - 降雨预报",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/c0/71/d7c071ab-5436-0659-cec6-f29fc53ac0a2/AppIcon-Full-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
@@ -6745,19 +6758,6 @@
           "normal": "¥3.00",
           "current": "¥1.00",
           "has_iap": false,
-          "region": "cn"
-        },
-        {
-          "id": "1566504157",
-          "name": "天体重力 - 牛顿万有引力定律",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3b/2c/6e/3b2c6e9e-8915-8ef3-7fdc-ab16fb3421fb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-          "genre": "娱乐",
-          "type": "free",
-          "page": "app/cn-1566504157.html",
-          "rating": 3.84474,
-          "normal": "¥78.00",
-          "current": "免费",
-          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -6930,6 +6930,19 @@
           "region": "cn"
         },
         {
+          "id": "892393815",
+          "name": "录音机 - AVR PRO",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/b6/82/5eb682b5-7f85-a130-942c-3de61de222b5/AppIcon_PRO-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "商务",
+          "type": "deal",
+          "page": "app/cn-892393815.html",
+          "rating": 4.7268,
+          "normal": "¥28.00",
+          "current": "¥8.00",
+          "has_iap": null,
+          "region": "cn"
+        },
+        {
           "id": "488674899",
           "name": "实时天气雷达Pro - 降雨预报",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/c0/71/d7c071ab-5436-0659-cec6-f29fc53ac0a2/AppIcon-Full-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
@@ -7031,19 +7044,6 @@
           "normal": "¥3.00",
           "current": "¥1.00",
           "has_iap": false,
-          "region": "cn"
-        },
-        {
-          "id": "1566504157",
-          "name": "天体重力 - 牛顿万有引力定律",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3b/2c/6e/3b2c6e9e-8915-8ef3-7fdc-ab16fb3421fb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-          "genre": "娱乐",
-          "type": "free",
-          "page": "app/cn-1566504157.html",
-          "rating": 3.84474,
-          "normal": "¥78.00",
-          "current": "免费",
-          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -7206,6 +7206,19 @@
           "region": "cn"
         },
         {
+          "id": "892393815",
+          "name": "录音机 - AVR PRO",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/b6/82/5eb682b5-7f85-a130-942c-3de61de222b5/AppIcon_PRO-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "商务",
+          "type": "deal",
+          "page": "app/cn-892393815.html",
+          "rating": 4.7268,
+          "normal": "¥28.00",
+          "current": "¥8.00",
+          "has_iap": null,
+          "region": "cn"
+        },
+        {
           "id": "488674899",
           "name": "实时天气雷达Pro - 降雨预报",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/c0/71/d7c071ab-5436-0659-cec6-f29fc53ac0a2/AppIcon-Full-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
@@ -7307,19 +7320,6 @@
           "normal": "¥3.00",
           "current": "¥1.00",
           "has_iap": false,
-          "region": "cn"
-        },
-        {
-          "id": "1566504157",
-          "name": "天体重力 - 牛顿万有引力定律",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3b/2c/6e/3b2c6e9e-8915-8ef3-7fdc-ab16fb3421fb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-          "genre": "娱乐",
-          "type": "free",
-          "page": "app/cn-1566504157.html",
-          "rating": 3.84474,
-          "normal": "¥78.00",
-          "current": "免费",
-          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -7482,6 +7482,19 @@
           "region": "cn"
         },
         {
+          "id": "892393815",
+          "name": "录音机 - AVR PRO",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/b6/82/5eb682b5-7f85-a130-942c-3de61de222b5/AppIcon_PRO-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "商务",
+          "type": "deal",
+          "page": "app/cn-892393815.html",
+          "rating": 4.7268,
+          "normal": "¥28.00",
+          "current": "¥8.00",
+          "has_iap": null,
+          "region": "cn"
+        },
+        {
           "id": "488674899",
           "name": "实时天气雷达Pro - 降雨预报",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/c0/71/d7c071ab-5436-0659-cec6-f29fc53ac0a2/AppIcon-Full-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
@@ -7583,19 +7596,6 @@
           "normal": "¥3.00",
           "current": "¥1.00",
           "has_iap": false,
-          "region": "cn"
-        },
-        {
-          "id": "1566504157",
-          "name": "天体重力 - 牛顿万有引力定律",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3b/2c/6e/3b2c6e9e-8915-8ef3-7fdc-ab16fb3421fb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-          "genre": "娱乐",
-          "type": "free",
-          "page": "app/cn-1566504157.html",
-          "rating": 3.84474,
-          "normal": "¥78.00",
-          "current": "免费",
-          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -7778,6 +7778,19 @@
           "region": "cn"
         },
         {
+          "id": "892393815",
+          "name": "录音机 - AVR PRO",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/b6/82/5eb682b5-7f85-a130-942c-3de61de222b5/AppIcon_PRO-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "商务",
+          "type": "deal",
+          "page": "app/cn-892393815.html",
+          "rating": 4.7268,
+          "normal": "¥28.00",
+          "current": "¥8.00",
+          "has_iap": null,
+          "region": "cn"
+        },
+        {
           "id": "488674899",
           "name": "实时天气雷达Pro - 降雨预报",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/c0/71/d7c071ab-5436-0659-cec6-f29fc53ac0a2/AppIcon-Full-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
@@ -7879,19 +7892,6 @@
           "normal": "¥3.00",
           "current": "¥1.00",
           "has_iap": false,
-          "region": "cn"
-        },
-        {
-          "id": "1566504157",
-          "name": "天体重力 - 牛顿万有引力定律",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3b/2c/6e/3b2c6e9e-8915-8ef3-7fdc-ab16fb3421fb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-          "genre": "娱乐",
-          "type": "free",
-          "page": "app/cn-1566504157.html",
-          "rating": 3.84474,
-          "normal": "¥78.00",
-          "current": "免费",
-          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -8084,6 +8084,19 @@
           "region": "cn"
         },
         {
+          "id": "892393815",
+          "name": "录音机 - AVR PRO",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/b6/82/5eb682b5-7f85-a130-942c-3de61de222b5/AppIcon_PRO-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "商务",
+          "type": "deal",
+          "page": "app/cn-892393815.html",
+          "rating": 4.7268,
+          "normal": "¥28.00",
+          "current": "¥8.00",
+          "has_iap": null,
+          "region": "cn"
+        },
+        {
           "id": "488674899",
           "name": "实时天气雷达Pro - 降雨预报",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/c0/71/d7c071ab-5436-0659-cec6-f29fc53ac0a2/AppIcon-Full-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
@@ -8185,19 +8198,6 @@
           "normal": "¥3.00",
           "current": "¥1.00",
           "has_iap": false,
-          "region": "cn"
-        },
-        {
-          "id": "1566504157",
-          "name": "天体重力 - 牛顿万有引力定律",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3b/2c/6e/3b2c6e9e-8915-8ef3-7fdc-ab16fb3421fb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-          "genre": "娱乐",
-          "type": "free",
-          "page": "app/cn-1566504157.html",
-          "rating": 3.84474,
-          "normal": "¥78.00",
-          "current": "免费",
-          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -8360,6 +8360,19 @@
           "region": "cn"
         },
         {
+          "id": "892393815",
+          "name": "录音机 - AVR PRO",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/b6/82/5eb682b5-7f85-a130-942c-3de61de222b5/AppIcon_PRO-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "商务",
+          "type": "deal",
+          "page": "app/cn-892393815.html",
+          "rating": 4.7268,
+          "normal": "¥28.00",
+          "current": "¥8.00",
+          "has_iap": null,
+          "region": "cn"
+        },
+        {
           "id": "488674899",
           "name": "实时天气雷达Pro - 降雨预报",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/c0/71/d7c071ab-5436-0659-cec6-f29fc53ac0a2/AppIcon-Full-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
@@ -8461,19 +8474,6 @@
           "normal": "¥3.00",
           "current": "¥1.00",
           "has_iap": false,
-          "region": "cn"
-        },
-        {
-          "id": "1566504157",
-          "name": "天体重力 - 牛顿万有引力定律",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3b/2c/6e/3b2c6e9e-8915-8ef3-7fdc-ab16fb3421fb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-          "genre": "娱乐",
-          "type": "free",
-          "page": "app/cn-1566504157.html",
-          "rating": 3.84474,
-          "normal": "¥78.00",
-          "current": "免费",
-          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -8656,6 +8656,19 @@
           "region": "cn"
         },
         {
+          "id": "892393815",
+          "name": "录音机 - AVR PRO",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/b6/82/5eb682b5-7f85-a130-942c-3de61de222b5/AppIcon_PRO-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "商务",
+          "type": "deal",
+          "page": "app/cn-892393815.html",
+          "rating": 4.7268,
+          "normal": "¥28.00",
+          "current": "¥8.00",
+          "has_iap": null,
+          "region": "cn"
+        },
+        {
           "id": "488674899",
           "name": "实时天气雷达Pro - 降雨预报",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/c0/71/d7c071ab-5436-0659-cec6-f29fc53ac0a2/AppIcon-Full-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
@@ -8757,19 +8770,6 @@
           "normal": "¥3.00",
           "current": "¥1.00",
           "has_iap": false,
-          "region": "cn"
-        },
-        {
-          "id": "1566504157",
-          "name": "天体重力 - 牛顿万有引力定律",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3b/2c/6e/3b2c6e9e-8915-8ef3-7fdc-ab16fb3421fb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-          "genre": "娱乐",
-          "type": "free",
-          "page": "app/cn-1566504157.html",
-          "rating": 3.84474,
-          "normal": "¥78.00",
-          "current": "免费",
-          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -8952,6 +8952,19 @@
           "region": "cn"
         },
         {
+          "id": "892393815",
+          "name": "录音机 - AVR PRO",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/b6/82/5eb682b5-7f85-a130-942c-3de61de222b5/AppIcon_PRO-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "商务",
+          "type": "deal",
+          "page": "app/cn-892393815.html",
+          "rating": 4.7268,
+          "normal": "¥28.00",
+          "current": "¥8.00",
+          "has_iap": null,
+          "region": "cn"
+        },
+        {
           "id": "488674899",
           "name": "实时天气雷达Pro - 降雨预报",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/c0/71/d7c071ab-5436-0659-cec6-f29fc53ac0a2/AppIcon-Full-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
@@ -9053,19 +9066,6 @@
           "normal": "¥3.00",
           "current": "¥1.00",
           "has_iap": false,
-          "region": "cn"
-        },
-        {
-          "id": "1566504157",
-          "name": "天体重力 - 牛顿万有引力定律",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3b/2c/6e/3b2c6e9e-8915-8ef3-7fdc-ab16fb3421fb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-          "genre": "娱乐",
-          "type": "free",
-          "page": "app/cn-1566504157.html",
-          "rating": 3.84474,
-          "normal": "¥78.00",
-          "current": "免费",
-          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -9248,6 +9248,19 @@
           "region": "cn"
         },
         {
+          "id": "892393815",
+          "name": "录音机 - AVR PRO",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/b6/82/5eb682b5-7f85-a130-942c-3de61de222b5/AppIcon_PRO-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "商务",
+          "type": "deal",
+          "page": "app/cn-892393815.html",
+          "rating": 4.7268,
+          "normal": "¥28.00",
+          "current": "¥8.00",
+          "has_iap": null,
+          "region": "cn"
+        },
+        {
           "id": "488674899",
           "name": "实时天气雷达Pro - 降雨预报",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/c0/71/d7c071ab-5436-0659-cec6-f29fc53ac0a2/AppIcon-Full-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
@@ -9350,19 +9363,6 @@
           "current": "¥1.00",
           "has_iap": false,
           "region": "cn"
-        },
-        {
-          "id": "1566504157",
-          "name": "天体重力 - 牛顿万有引力定律",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3b/2c/6e/3b2c6e9e-8915-8ef3-7fdc-ab16fb3421fb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-          "genre": "娱乐",
-          "type": "free",
-          "page": "app/cn-1566504157.html",
-          "rating": 3.84474,
-          "normal": "¥78.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
         }
       ],
       "page": "app/cn-392514814.html"
@@ -9374,7 +9374,7 @@
       "genre": "工具",
       "normal": "¥8.00",
       "current": "免费",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d8/cd/67/d8cd67ac-3050-4568-3b53-90fc42c647a4/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8c/be/15/8cbe152f-0e43-245a-dc25-3a1c8eefd976/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
       "rating": 5,
       "url": "https://apps.apple.com/cn/app/isecret-protected-photos/id428759001?uo=4",
       "region": "cn",
@@ -9524,6 +9524,19 @@
           "region": "cn"
         },
         {
+          "id": "892393815",
+          "name": "录音机 - AVR PRO",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/b6/82/5eb682b5-7f85-a130-942c-3de61de222b5/AppIcon_PRO-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "商务",
+          "type": "deal",
+          "page": "app/cn-892393815.html",
+          "rating": 4.7268,
+          "normal": "¥28.00",
+          "current": "¥8.00",
+          "has_iap": null,
+          "region": "cn"
+        },
+        {
           "id": "488674899",
           "name": "实时天气雷达Pro - 降雨预报",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/c0/71/d7c071ab-5436-0659-cec6-f29fc53ac0a2/AppIcon-Full-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
@@ -9625,19 +9638,6 @@
           "normal": "¥3.00",
           "current": "¥1.00",
           "has_iap": false,
-          "region": "cn"
-        },
-        {
-          "id": "1566504157",
-          "name": "天体重力 - 牛顿万有引力定律",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3b/2c/6e/3b2c6e9e-8915-8ef3-7fdc-ab16fb3421fb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-          "genre": "娱乐",
-          "type": "free",
-          "page": "app/cn-1566504157.html",
-          "rating": 3.84474,
-          "normal": "¥78.00",
-          "current": "免费",
-          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -9835,6 +9835,19 @@
           "region": "cn"
         },
         {
+          "id": "892393815",
+          "name": "录音机 - AVR PRO",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/b6/82/5eb682b5-7f85-a130-942c-3de61de222b5/AppIcon_PRO-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "商务",
+          "type": "deal",
+          "page": "app/cn-892393815.html",
+          "rating": 4.7268,
+          "normal": "¥28.00",
+          "current": "¥8.00",
+          "has_iap": null,
+          "region": "cn"
+        },
+        {
           "id": "488674899",
           "name": "实时天气雷达Pro - 降雨预报",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/c0/71/d7c071ab-5436-0659-cec6-f29fc53ac0a2/AppIcon-Full-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
@@ -9936,19 +9949,6 @@
           "normal": "¥3.00",
           "current": "¥1.00",
           "has_iap": false,
-          "region": "cn"
-        },
-        {
-          "id": "1566504157",
-          "name": "天体重力 - 牛顿万有引力定律",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3b/2c/6e/3b2c6e9e-8915-8ef3-7fdc-ab16fb3421fb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-          "genre": "娱乐",
-          "type": "free",
-          "page": "app/cn-1566504157.html",
-          "rating": 3.84474,
-          "normal": "¥78.00",
-          "current": "免费",
-          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -10111,6 +10111,19 @@
           "region": "cn"
         },
         {
+          "id": "892393815",
+          "name": "录音机 - AVR PRO",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/b6/82/5eb682b5-7f85-a130-942c-3de61de222b5/AppIcon_PRO-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "商务",
+          "type": "deal",
+          "page": "app/cn-892393815.html",
+          "rating": 4.7268,
+          "normal": "¥28.00",
+          "current": "¥8.00",
+          "has_iap": null,
+          "region": "cn"
+        },
+        {
           "id": "488674899",
           "name": "实时天气雷达Pro - 降雨预报",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/c0/71/d7c071ab-5436-0659-cec6-f29fc53ac0a2/AppIcon-Full-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
@@ -10212,19 +10225,6 @@
           "normal": "¥3.00",
           "current": "¥1.00",
           "has_iap": false,
-          "region": "cn"
-        },
-        {
-          "id": "1566504157",
-          "name": "天体重力 - 牛顿万有引力定律",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3b/2c/6e/3b2c6e9e-8915-8ef3-7fdc-ab16fb3421fb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-          "genre": "娱乐",
-          "type": "free",
-          "page": "app/cn-1566504157.html",
-          "rating": 3.84474,
-          "normal": "¥78.00",
-          "current": "免费",
-          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -10387,6 +10387,19 @@
           "region": "cn"
         },
         {
+          "id": "892393815",
+          "name": "录音机 - AVR PRO",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/b6/82/5eb682b5-7f85-a130-942c-3de61de222b5/AppIcon_PRO-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "商务",
+          "type": "deal",
+          "page": "app/cn-892393815.html",
+          "rating": 4.7268,
+          "normal": "¥28.00",
+          "current": "¥8.00",
+          "has_iap": null,
+          "region": "cn"
+        },
+        {
           "id": "488674899",
           "name": "实时天气雷达Pro - 降雨预报",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/c0/71/d7c071ab-5436-0659-cec6-f29fc53ac0a2/AppIcon-Full-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
@@ -10488,19 +10501,6 @@
           "normal": "¥3.00",
           "current": "¥1.00",
           "has_iap": false,
-          "region": "cn"
-        },
-        {
-          "id": "1566504157",
-          "name": "天体重力 - 牛顿万有引力定律",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3b/2c/6e/3b2c6e9e-8915-8ef3-7fdc-ab16fb3421fb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-          "genre": "娱乐",
-          "type": "free",
-          "page": "app/cn-1566504157.html",
-          "rating": 3.84474,
-          "normal": "¥78.00",
-          "current": "免费",
-          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -10688,6 +10688,19 @@
           "region": "cn"
         },
         {
+          "id": "892393815",
+          "name": "录音机 - AVR PRO",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/b6/82/5eb682b5-7f85-a130-942c-3de61de222b5/AppIcon_PRO-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "商务",
+          "type": "deal",
+          "page": "app/cn-892393815.html",
+          "rating": 4.7268,
+          "normal": "¥28.00",
+          "current": "¥8.00",
+          "has_iap": null,
+          "region": "cn"
+        },
+        {
           "id": "488674899",
           "name": "实时天气雷达Pro - 降雨预报",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/c0/71/d7c071ab-5436-0659-cec6-f29fc53ac0a2/AppIcon-Full-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
@@ -10789,19 +10802,6 @@
           "normal": "¥3.00",
           "current": "¥1.00",
           "has_iap": false,
-          "region": "cn"
-        },
-        {
-          "id": "1566504157",
-          "name": "天体重力 - 牛顿万有引力定律",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3b/2c/6e/3b2c6e9e-8915-8ef3-7fdc-ab16fb3421fb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-          "genre": "娱乐",
-          "type": "free",
-          "page": "app/cn-1566504157.html",
-          "rating": 3.84474,
-          "normal": "¥78.00",
-          "current": "免费",
-          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -10974,6 +10974,19 @@
           "region": "cn"
         },
         {
+          "id": "892393815",
+          "name": "录音机 - AVR PRO",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/b6/82/5eb682b5-7f85-a130-942c-3de61de222b5/AppIcon_PRO-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "商务",
+          "type": "deal",
+          "page": "app/cn-892393815.html",
+          "rating": 4.7268,
+          "normal": "¥28.00",
+          "current": "¥8.00",
+          "has_iap": null,
+          "region": "cn"
+        },
+        {
           "id": "488674899",
           "name": "实时天气雷达Pro - 降雨预报",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/c0/71/d7c071ab-5436-0659-cec6-f29fc53ac0a2/AppIcon-Full-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
@@ -11076,19 +11089,6 @@
           "current": "¥1.00",
           "has_iap": false,
           "region": "cn"
-        },
-        {
-          "id": "1566504157",
-          "name": "天体重力 - 牛顿万有引力定律",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3b/2c/6e/3b2c6e9e-8915-8ef3-7fdc-ab16fb3421fb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-          "genre": "娱乐",
-          "type": "free",
-          "page": "app/cn-1566504157.html",
-          "rating": 3.84474,
-          "normal": "¥78.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
         }
       ],
       "page": "app/cn-6759726640.html"
@@ -11101,7 +11101,7 @@
       "normal": "¥1.00",
       "current": "免费",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/18/0d/51/180d51f2-f10f-703d-1070-b64e6efc3e0d/AppIcon-0-1x_U007epad-0-1-85-220-0.png/512x512bb.jpg",
-      "rating": 4.92593,
+      "rating": 4.93103,
       "url": "https://apps.apple.com/cn/app/%E5%8F%8C%E6%91%84%E7%9B%B8%E6%9C%BA-%E5%90%8C%E6%97%B6%E5%BD%95%E5%88%B6%E6%A8%AA%E5%B1%8F%E5%92%8C%E7%AB%96%E5%B1%8F%E8%A7%86%E9%A2%91dual-shot/id6762236318?uo=4",
       "region": "cn",
       "type": "free",
@@ -11270,6 +11270,19 @@
           "region": "cn"
         },
         {
+          "id": "892393815",
+          "name": "录音机 - AVR PRO",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/b6/82/5eb682b5-7f85-a130-942c-3de61de222b5/AppIcon_PRO-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "商务",
+          "type": "deal",
+          "page": "app/cn-892393815.html",
+          "rating": 4.7268,
+          "normal": "¥28.00",
+          "current": "¥8.00",
+          "has_iap": null,
+          "region": "cn"
+        },
+        {
           "id": "488674899",
           "name": "实时天气雷达Pro - 降雨预报",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/c0/71/d7c071ab-5436-0659-cec6-f29fc53ac0a2/AppIcon-Full-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
@@ -11371,19 +11384,6 @@
           "normal": "¥3.00",
           "current": "¥1.00",
           "has_iap": false,
-          "region": "cn"
-        },
-        {
-          "id": "1566504157",
-          "name": "天体重力 - 牛顿万有引力定律",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3b/2c/6e/3b2c6e9e-8915-8ef3-7fdc-ab16fb3421fb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-          "genre": "娱乐",
-          "type": "free",
-          "page": "app/cn-1566504157.html",
-          "rating": 3.84474,
-          "normal": "¥78.00",
-          "current": "免费",
-          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -11561,6 +11561,19 @@
           "region": "cn"
         },
         {
+          "id": "892393815",
+          "name": "录音机 - AVR PRO",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/b6/82/5eb682b5-7f85-a130-942c-3de61de222b5/AppIcon_PRO-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "商务",
+          "type": "deal",
+          "page": "app/cn-892393815.html",
+          "rating": 4.7268,
+          "normal": "¥28.00",
+          "current": "¥8.00",
+          "has_iap": null,
+          "region": "cn"
+        },
+        {
           "id": "488674899",
           "name": "实时天气雷达Pro - 降雨预报",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/c0/71/d7c071ab-5436-0659-cec6-f29fc53ac0a2/AppIcon-Full-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
@@ -11662,19 +11675,6 @@
           "normal": "¥3.00",
           "current": "¥1.00",
           "has_iap": false,
-          "region": "cn"
-        },
-        {
-          "id": "1566504157",
-          "name": "天体重力 - 牛顿万有引力定律",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3b/2c/6e/3b2c6e9e-8915-8ef3-7fdc-ab16fb3421fb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-          "genre": "娱乐",
-          "type": "free",
-          "page": "app/cn-1566504157.html",
-          "rating": 3.84474,
-          "normal": "¥78.00",
-          "current": "免费",
-          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -11867,6 +11867,19 @@
           "region": "cn"
         },
         {
+          "id": "892393815",
+          "name": "录音机 - AVR PRO",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/b6/82/5eb682b5-7f85-a130-942c-3de61de222b5/AppIcon_PRO-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "商务",
+          "type": "deal",
+          "page": "app/cn-892393815.html",
+          "rating": 4.7268,
+          "normal": "¥28.00",
+          "current": "¥8.00",
+          "has_iap": null,
+          "region": "cn"
+        },
+        {
           "id": "488674899",
           "name": "实时天气雷达Pro - 降雨预报",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/c0/71/d7c071ab-5436-0659-cec6-f29fc53ac0a2/AppIcon-Full-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
@@ -11968,19 +11981,6 @@
           "normal": "¥3.00",
           "current": "¥1.00",
           "has_iap": false,
-          "region": "cn"
-        },
-        {
-          "id": "1566504157",
-          "name": "天体重力 - 牛顿万有引力定律",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3b/2c/6e/3b2c6e9e-8915-8ef3-7fdc-ab16fb3421fb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-          "genre": "娱乐",
-          "type": "free",
-          "page": "app/cn-1566504157.html",
-          "rating": 3.84474,
-          "normal": "¥78.00",
-          "current": "免费",
-          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -12163,6 +12163,19 @@
           "region": "cn"
         },
         {
+          "id": "892393815",
+          "name": "录音机 - AVR PRO",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/b6/82/5eb682b5-7f85-a130-942c-3de61de222b5/AppIcon_PRO-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "商务",
+          "type": "deal",
+          "page": "app/cn-892393815.html",
+          "rating": 4.7268,
+          "normal": "¥28.00",
+          "current": "¥8.00",
+          "has_iap": null,
+          "region": "cn"
+        },
+        {
           "id": "488674899",
           "name": "实时天气雷达Pro - 降雨预报",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/c0/71/d7c071ab-5436-0659-cec6-f29fc53ac0a2/AppIcon-Full-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
@@ -12264,19 +12277,6 @@
           "normal": "¥3.00",
           "current": "¥1.00",
           "has_iap": false,
-          "region": "cn"
-        },
-        {
-          "id": "1566504157",
-          "name": "天体重力 - 牛顿万有引力定律",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3b/2c/6e/3b2c6e9e-8915-8ef3-7fdc-ab16fb3421fb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-          "genre": "娱乐",
-          "type": "free",
-          "page": "app/cn-1566504157.html",
-          "rating": 3.84474,
-          "normal": "¥78.00",
-          "current": "免费",
-          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -12449,6 +12449,19 @@
           "region": "cn"
         },
         {
+          "id": "892393815",
+          "name": "录音机 - AVR PRO",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/b6/82/5eb682b5-7f85-a130-942c-3de61de222b5/AppIcon_PRO-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "商务",
+          "type": "deal",
+          "page": "app/cn-892393815.html",
+          "rating": 4.7268,
+          "normal": "¥28.00",
+          "current": "¥8.00",
+          "has_iap": null,
+          "region": "cn"
+        },
+        {
           "id": "488674899",
           "name": "实时天气雷达Pro - 降雨预报",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/c0/71/d7c071ab-5436-0659-cec6-f29fc53ac0a2/AppIcon-Full-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
@@ -12550,19 +12563,6 @@
           "normal": "¥3.00",
           "current": "¥1.00",
           "has_iap": false,
-          "region": "cn"
-        },
-        {
-          "id": "1566504157",
-          "name": "天体重力 - 牛顿万有引力定律",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3b/2c/6e/3b2c6e9e-8915-8ef3-7fdc-ab16fb3421fb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-          "genre": "娱乐",
-          "type": "free",
-          "page": "app/cn-1566504157.html",
-          "rating": 3.84474,
-          "normal": "¥78.00",
-          "current": "免费",
-          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -12735,6 +12735,19 @@
           "region": "cn"
         },
         {
+          "id": "892393815",
+          "name": "录音机 - AVR PRO",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/b6/82/5eb682b5-7f85-a130-942c-3de61de222b5/AppIcon_PRO-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "商务",
+          "type": "deal",
+          "page": "app/cn-892393815.html",
+          "rating": 4.7268,
+          "normal": "¥28.00",
+          "current": "¥8.00",
+          "has_iap": null,
+          "region": "cn"
+        },
+        {
           "id": "488674899",
           "name": "实时天气雷达Pro - 降雨预报",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/c0/71/d7c071ab-5436-0659-cec6-f29fc53ac0a2/AppIcon-Full-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
@@ -12836,19 +12849,6 @@
           "normal": "¥3.00",
           "current": "¥1.00",
           "has_iap": false,
-          "region": "cn"
-        },
-        {
-          "id": "1566504157",
-          "name": "天体重力 - 牛顿万有引力定律",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3b/2c/6e/3b2c6e9e-8915-8ef3-7fdc-ab16fb3421fb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-          "genre": "娱乐",
-          "type": "free",
-          "page": "app/cn-1566504157.html",
-          "rating": 3.84474,
-          "normal": "¥78.00",
-          "current": "免费",
-          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -13046,6 +13046,19 @@
           "region": "cn"
         },
         {
+          "id": "892393815",
+          "name": "录音机 - AVR PRO",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/b6/82/5eb682b5-7f85-a130-942c-3de61de222b5/AppIcon_PRO-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "商务",
+          "type": "deal",
+          "page": "app/cn-892393815.html",
+          "rating": 4.7268,
+          "normal": "¥28.00",
+          "current": "¥8.00",
+          "has_iap": null,
+          "region": "cn"
+        },
+        {
           "id": "488674899",
           "name": "实时天气雷达Pro - 降雨预报",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/c0/71/d7c071ab-5436-0659-cec6-f29fc53ac0a2/AppIcon-Full-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
@@ -13147,19 +13160,6 @@
           "normal": "¥3.00",
           "current": "¥1.00",
           "has_iap": false,
-          "region": "cn"
-        },
-        {
-          "id": "1566504157",
-          "name": "天体重力 - 牛顿万有引力定律",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3b/2c/6e/3b2c6e9e-8915-8ef3-7fdc-ab16fb3421fb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-          "genre": "娱乐",
-          "type": "free",
-          "page": "app/cn-1566504157.html",
-          "rating": 3.84474,
-          "normal": "¥78.00",
-          "current": "免费",
-          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -13357,6 +13357,19 @@
           "region": "cn"
         },
         {
+          "id": "892393815",
+          "name": "录音机 - AVR PRO",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/b6/82/5eb682b5-7f85-a130-942c-3de61de222b5/AppIcon_PRO-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "商务",
+          "type": "deal",
+          "page": "app/cn-892393815.html",
+          "rating": 4.7268,
+          "normal": "¥28.00",
+          "current": "¥8.00",
+          "has_iap": null,
+          "region": "cn"
+        },
+        {
           "id": "488674899",
           "name": "实时天气雷达Pro - 降雨预报",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/c0/71/d7c071ab-5436-0659-cec6-f29fc53ac0a2/AppIcon-Full-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
@@ -13458,19 +13471,6 @@
           "normal": "¥3.00",
           "current": "¥1.00",
           "has_iap": false,
-          "region": "cn"
-        },
-        {
-          "id": "1566504157",
-          "name": "天体重力 - 牛顿万有引力定律",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3b/2c/6e/3b2c6e9e-8915-8ef3-7fdc-ab16fb3421fb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-          "genre": "娱乐",
-          "type": "free",
-          "page": "app/cn-1566504157.html",
-          "rating": 3.84474,
-          "normal": "¥78.00",
-          "current": "免费",
-          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -13643,6 +13643,19 @@
           "region": "cn"
         },
         {
+          "id": "892393815",
+          "name": "录音机 - AVR PRO",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/b6/82/5eb682b5-7f85-a130-942c-3de61de222b5/AppIcon_PRO-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "商务",
+          "type": "deal",
+          "page": "app/cn-892393815.html",
+          "rating": 4.7268,
+          "normal": "¥28.00",
+          "current": "¥8.00",
+          "has_iap": null,
+          "region": "cn"
+        },
+        {
           "id": "488674899",
           "name": "实时天气雷达Pro - 降雨预报",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/c0/71/d7c071ab-5436-0659-cec6-f29fc53ac0a2/AppIcon-Full-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
@@ -13744,19 +13757,6 @@
           "normal": "¥3.00",
           "current": "¥1.00",
           "has_iap": false,
-          "region": "cn"
-        },
-        {
-          "id": "1566504157",
-          "name": "天体重力 - 牛顿万有引力定律",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3b/2c/6e/3b2c6e9e-8915-8ef3-7fdc-ab16fb3421fb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-          "genre": "娱乐",
-          "type": "free",
-          "page": "app/cn-1566504157.html",
-          "rating": 3.84474,
-          "normal": "¥78.00",
-          "current": "免费",
-          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -13929,6 +13929,19 @@
           "region": "cn"
         },
         {
+          "id": "892393815",
+          "name": "录音机 - AVR PRO",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/b6/82/5eb682b5-7f85-a130-942c-3de61de222b5/AppIcon_PRO-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "商务",
+          "type": "deal",
+          "page": "app/cn-892393815.html",
+          "rating": 4.7268,
+          "normal": "¥28.00",
+          "current": "¥8.00",
+          "has_iap": null,
+          "region": "cn"
+        },
+        {
           "id": "488674899",
           "name": "实时天气雷达Pro - 降雨预报",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/c0/71/d7c071ab-5436-0659-cec6-f29fc53ac0a2/AppIcon-Full-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
@@ -14030,19 +14043,6 @@
           "normal": "¥3.00",
           "current": "¥1.00",
           "has_iap": false,
-          "region": "cn"
-        },
-        {
-          "id": "1566504157",
-          "name": "天体重力 - 牛顿万有引力定律",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3b/2c/6e/3b2c6e9e-8915-8ef3-7fdc-ab16fb3421fb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-          "genre": "娱乐",
-          "type": "free",
-          "page": "app/cn-1566504157.html",
-          "rating": 3.84474,
-          "normal": "¥78.00",
-          "current": "免费",
-          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -14225,6 +14225,19 @@
           "region": "cn"
         },
         {
+          "id": "892393815",
+          "name": "录音机 - AVR PRO",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/b6/82/5eb682b5-7f85-a130-942c-3de61de222b5/AppIcon_PRO-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "商务",
+          "type": "deal",
+          "page": "app/cn-892393815.html",
+          "rating": 4.7268,
+          "normal": "¥28.00",
+          "current": "¥8.00",
+          "has_iap": null,
+          "region": "cn"
+        },
+        {
           "id": "488674899",
           "name": "实时天气雷达Pro - 降雨预报",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/c0/71/d7c071ab-5436-0659-cec6-f29fc53ac0a2/AppIcon-Full-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
@@ -14326,19 +14339,6 @@
           "normal": "¥3.00",
           "current": "¥1.00",
           "has_iap": false,
-          "region": "cn"
-        },
-        {
-          "id": "1566504157",
-          "name": "天体重力 - 牛顿万有引力定律",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3b/2c/6e/3b2c6e9e-8915-8ef3-7fdc-ab16fb3421fb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-          "genre": "娱乐",
-          "type": "free",
-          "page": "app/cn-1566504157.html",
-          "rating": 3.84474,
-          "normal": "¥78.00",
-          "current": "免费",
-          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -14521,6 +14521,19 @@
           "region": "cn"
         },
         {
+          "id": "892393815",
+          "name": "录音机 - AVR PRO",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/b6/82/5eb682b5-7f85-a130-942c-3de61de222b5/AppIcon_PRO-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "商务",
+          "type": "deal",
+          "page": "app/cn-892393815.html",
+          "rating": 4.7268,
+          "normal": "¥28.00",
+          "current": "¥8.00",
+          "has_iap": null,
+          "region": "cn"
+        },
+        {
           "id": "488674899",
           "name": "实时天气雷达Pro - 降雨预报",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/c0/71/d7c071ab-5436-0659-cec6-f29fc53ac0a2/AppIcon-Full-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
@@ -14622,19 +14635,6 @@
           "normal": "¥3.00",
           "current": "¥1.00",
           "has_iap": false,
-          "region": "cn"
-        },
-        {
-          "id": "1566504157",
-          "name": "天体重力 - 牛顿万有引力定律",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3b/2c/6e/3b2c6e9e-8915-8ef3-7fdc-ab16fb3421fb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-          "genre": "娱乐",
-          "type": "free",
-          "page": "app/cn-1566504157.html",
-          "rating": 3.84474,
-          "normal": "¥78.00",
-          "current": "免费",
-          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -14822,6 +14822,19 @@
           "region": "cn"
         },
         {
+          "id": "892393815",
+          "name": "录音机 - AVR PRO",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/b6/82/5eb682b5-7f85-a130-942c-3de61de222b5/AppIcon_PRO-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "商务",
+          "type": "deal",
+          "page": "app/cn-892393815.html",
+          "rating": 4.7268,
+          "normal": "¥28.00",
+          "current": "¥8.00",
+          "has_iap": null,
+          "region": "cn"
+        },
+        {
           "id": "488674899",
           "name": "实时天气雷达Pro - 降雨预报",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/c0/71/d7c071ab-5436-0659-cec6-f29fc53ac0a2/AppIcon-Full-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
@@ -14923,19 +14936,6 @@
           "normal": "¥3.00",
           "current": "¥1.00",
           "has_iap": false,
-          "region": "cn"
-        },
-        {
-          "id": "1566504157",
-          "name": "天体重力 - 牛顿万有引力定律",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3b/2c/6e/3b2c6e9e-8915-8ef3-7fdc-ab16fb3421fb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-          "genre": "娱乐",
-          "type": "free",
-          "page": "app/cn-1566504157.html",
-          "rating": 3.84474,
-          "normal": "¥78.00",
-          "current": "免费",
-          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -15108,6 +15108,19 @@
           "region": "cn"
         },
         {
+          "id": "892393815",
+          "name": "录音机 - AVR PRO",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/b6/82/5eb682b5-7f85-a130-942c-3de61de222b5/AppIcon_PRO-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "商务",
+          "type": "deal",
+          "page": "app/cn-892393815.html",
+          "rating": 4.7268,
+          "normal": "¥28.00",
+          "current": "¥8.00",
+          "has_iap": null,
+          "region": "cn"
+        },
+        {
           "id": "488674899",
           "name": "实时天气雷达Pro - 降雨预报",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/c0/71/d7c071ab-5436-0659-cec6-f29fc53ac0a2/AppIcon-Full-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
@@ -15209,19 +15222,6 @@
           "normal": "¥3.00",
           "current": "¥1.00",
           "has_iap": false,
-          "region": "cn"
-        },
-        {
-          "id": "1566504157",
-          "name": "天体重力 - 牛顿万有引力定律",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3b/2c/6e/3b2c6e9e-8915-8ef3-7fdc-ab16fb3421fb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-          "genre": "娱乐",
-          "type": "free",
-          "page": "app/cn-1566504157.html",
-          "rating": 3.84474,
-          "normal": "¥78.00",
-          "current": "免费",
-          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -15394,6 +15394,19 @@
           "region": "cn"
         },
         {
+          "id": "892393815",
+          "name": "录音机 - AVR PRO",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/b6/82/5eb682b5-7f85-a130-942c-3de61de222b5/AppIcon_PRO-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "商务",
+          "type": "deal",
+          "page": "app/cn-892393815.html",
+          "rating": 4.7268,
+          "normal": "¥28.00",
+          "current": "¥8.00",
+          "has_iap": null,
+          "region": "cn"
+        },
+        {
           "id": "488674899",
           "name": "实时天气雷达Pro - 降雨预报",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/c0/71/d7c071ab-5436-0659-cec6-f29fc53ac0a2/AppIcon-Full-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
@@ -15495,19 +15508,6 @@
           "normal": "¥3.00",
           "current": "¥1.00",
           "has_iap": false,
-          "region": "cn"
-        },
-        {
-          "id": "1566504157",
-          "name": "天体重力 - 牛顿万有引力定律",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3b/2c/6e/3b2c6e9e-8915-8ef3-7fdc-ab16fb3421fb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-          "genre": "娱乐",
-          "type": "free",
-          "page": "app/cn-1566504157.html",
-          "rating": 3.84474,
-          "normal": "¥78.00",
-          "current": "免费",
-          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -15700,6 +15700,19 @@
           "region": "cn"
         },
         {
+          "id": "892393815",
+          "name": "录音机 - AVR PRO",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/b6/82/5eb682b5-7f85-a130-942c-3de61de222b5/AppIcon_PRO-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "商务",
+          "type": "deal",
+          "page": "app/cn-892393815.html",
+          "rating": 4.7268,
+          "normal": "¥28.00",
+          "current": "¥8.00",
+          "has_iap": null,
+          "region": "cn"
+        },
+        {
           "id": "488674899",
           "name": "实时天气雷达Pro - 降雨预报",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/c0/71/d7c071ab-5436-0659-cec6-f29fc53ac0a2/AppIcon-Full-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
@@ -15801,19 +15814,6 @@
           "normal": "¥3.00",
           "current": "¥1.00",
           "has_iap": false,
-          "region": "cn"
-        },
-        {
-          "id": "1566504157",
-          "name": "天体重力 - 牛顿万有引力定律",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3b/2c/6e/3b2c6e9e-8915-8ef3-7fdc-ab16fb3421fb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-          "genre": "娱乐",
-          "type": "free",
-          "page": "app/cn-1566504157.html",
-          "rating": 3.84474,
-          "normal": "¥78.00",
-          "current": "免费",
-          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -15976,6 +15976,19 @@
           "region": "cn"
         },
         {
+          "id": "892393815",
+          "name": "录音机 - AVR PRO",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/b6/82/5eb682b5-7f85-a130-942c-3de61de222b5/AppIcon_PRO-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "商务",
+          "type": "deal",
+          "page": "app/cn-892393815.html",
+          "rating": 4.7268,
+          "normal": "¥28.00",
+          "current": "¥8.00",
+          "has_iap": null,
+          "region": "cn"
+        },
+        {
           "id": "488674899",
           "name": "实时天气雷达Pro - 降雨预报",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/c0/71/d7c071ab-5436-0659-cec6-f29fc53ac0a2/AppIcon-Full-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
@@ -16077,19 +16090,6 @@
           "normal": "¥3.00",
           "current": "¥1.00",
           "has_iap": false,
-          "region": "cn"
-        },
-        {
-          "id": "1566504157",
-          "name": "天体重力 - 牛顿万有引力定律",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3b/2c/6e/3b2c6e9e-8915-8ef3-7fdc-ab16fb3421fb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-          "genre": "娱乐",
-          "type": "free",
-          "page": "app/cn-1566504157.html",
-          "rating": 3.84474,
-          "normal": "¥78.00",
-          "current": "免费",
-          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -16262,6 +16262,19 @@
           "region": "cn"
         },
         {
+          "id": "892393815",
+          "name": "录音机 - AVR PRO",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/b6/82/5eb682b5-7f85-a130-942c-3de61de222b5/AppIcon_PRO-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "商务",
+          "type": "deal",
+          "page": "app/cn-892393815.html",
+          "rating": 4.7268,
+          "normal": "¥28.00",
+          "current": "¥8.00",
+          "has_iap": null,
+          "region": "cn"
+        },
+        {
           "id": "488674899",
           "name": "实时天气雷达Pro - 降雨预报",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/c0/71/d7c071ab-5436-0659-cec6-f29fc53ac0a2/AppIcon-Full-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
@@ -16363,19 +16376,6 @@
           "normal": "¥3.00",
           "current": "¥1.00",
           "has_iap": false,
-          "region": "cn"
-        },
-        {
-          "id": "1566504157",
-          "name": "天体重力 - 牛顿万有引力定律",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3b/2c/6e/3b2c6e9e-8915-8ef3-7fdc-ab16fb3421fb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-          "genre": "娱乐",
-          "type": "free",
-          "page": "app/cn-1566504157.html",
-          "rating": 3.84474,
-          "normal": "¥78.00",
-          "current": "免费",
-          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -16558,6 +16558,19 @@
           "region": "cn"
         },
         {
+          "id": "892393815",
+          "name": "录音机 - AVR PRO",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/b6/82/5eb682b5-7f85-a130-942c-3de61de222b5/AppIcon_PRO-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "商务",
+          "type": "deal",
+          "page": "app/cn-892393815.html",
+          "rating": 4.7268,
+          "normal": "¥28.00",
+          "current": "¥8.00",
+          "has_iap": null,
+          "region": "cn"
+        },
+        {
           "id": "488674899",
           "name": "实时天气雷达Pro - 降雨预报",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/c0/71/d7c071ab-5436-0659-cec6-f29fc53ac0a2/AppIcon-Full-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
@@ -16659,19 +16672,6 @@
           "normal": "¥3.00",
           "current": "¥1.00",
           "has_iap": false,
-          "region": "cn"
-        },
-        {
-          "id": "1566504157",
-          "name": "天体重力 - 牛顿万有引力定律",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3b/2c/6e/3b2c6e9e-8915-8ef3-7fdc-ab16fb3421fb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-          "genre": "娱乐",
-          "type": "free",
-          "page": "app/cn-1566504157.html",
-          "rating": 3.84474,
-          "normal": "¥78.00",
-          "current": "免费",
-          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -16844,6 +16844,19 @@
           "region": "cn"
         },
         {
+          "id": "892393815",
+          "name": "录音机 - AVR PRO",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/b6/82/5eb682b5-7f85-a130-942c-3de61de222b5/AppIcon_PRO-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "商务",
+          "type": "deal",
+          "page": "app/cn-892393815.html",
+          "rating": 4.7268,
+          "normal": "¥28.00",
+          "current": "¥8.00",
+          "has_iap": null,
+          "region": "cn"
+        },
+        {
           "id": "488674899",
           "name": "实时天气雷达Pro - 降雨预报",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/c0/71/d7c071ab-5436-0659-cec6-f29fc53ac0a2/AppIcon-Full-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
@@ -16945,19 +16958,6 @@
           "normal": "¥3.00",
           "current": "¥1.00",
           "has_iap": false,
-          "region": "cn"
-        },
-        {
-          "id": "1566504157",
-          "name": "天体重力 - 牛顿万有引力定律",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3b/2c/6e/3b2c6e9e-8915-8ef3-7fdc-ab16fb3421fb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-          "genre": "娱乐",
-          "type": "free",
-          "page": "app/cn-1566504157.html",
-          "rating": 3.84474,
-          "normal": "¥78.00",
-          "current": "免费",
-          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -17155,6 +17155,19 @@
           "region": "cn"
         },
         {
+          "id": "892393815",
+          "name": "录音机 - AVR PRO",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/b6/82/5eb682b5-7f85-a130-942c-3de61de222b5/AppIcon_PRO-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "商务",
+          "type": "deal",
+          "page": "app/cn-892393815.html",
+          "rating": 4.7268,
+          "normal": "¥28.00",
+          "current": "¥8.00",
+          "has_iap": null,
+          "region": "cn"
+        },
+        {
           "id": "488674899",
           "name": "实时天气雷达Pro - 降雨预报",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/c0/71/d7c071ab-5436-0659-cec6-f29fc53ac0a2/AppIcon-Full-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
@@ -17256,19 +17269,6 @@
           "normal": "¥3.00",
           "current": "¥1.00",
           "has_iap": false,
-          "region": "cn"
-        },
-        {
-          "id": "1566504157",
-          "name": "天体重力 - 牛顿万有引力定律",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3b/2c/6e/3b2c6e9e-8915-8ef3-7fdc-ab16fb3421fb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-          "genre": "娱乐",
-          "type": "free",
-          "page": "app/cn-1566504157.html",
-          "rating": 3.84474,
-          "normal": "¥78.00",
-          "current": "免费",
-          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -17441,6 +17441,19 @@
           "region": "cn"
         },
         {
+          "id": "892393815",
+          "name": "录音机 - AVR PRO",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/b6/82/5eb682b5-7f85-a130-942c-3de61de222b5/AppIcon_PRO-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "商务",
+          "type": "deal",
+          "page": "app/cn-892393815.html",
+          "rating": 4.7268,
+          "normal": "¥28.00",
+          "current": "¥8.00",
+          "has_iap": null,
+          "region": "cn"
+        },
+        {
           "id": "488674899",
           "name": "实时天气雷达Pro - 降雨预报",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/c0/71/d7c071ab-5436-0659-cec6-f29fc53ac0a2/AppIcon-Full-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
@@ -17542,19 +17555,6 @@
           "normal": "¥3.00",
           "current": "¥1.00",
           "has_iap": false,
-          "region": "cn"
-        },
-        {
-          "id": "1566504157",
-          "name": "天体重力 - 牛顿万有引力定律",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3b/2c/6e/3b2c6e9e-8915-8ef3-7fdc-ab16fb3421fb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-          "genre": "娱乐",
-          "type": "free",
-          "page": "app/cn-1566504157.html",
-          "rating": 3.84474,
-          "normal": "¥78.00",
-          "current": "免费",
-          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -17747,6 +17747,19 @@
           "region": "cn"
         },
         {
+          "id": "892393815",
+          "name": "录音机 - AVR PRO",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/b6/82/5eb682b5-7f85-a130-942c-3de61de222b5/AppIcon_PRO-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "商务",
+          "type": "deal",
+          "page": "app/cn-892393815.html",
+          "rating": 4.7268,
+          "normal": "¥28.00",
+          "current": "¥8.00",
+          "has_iap": null,
+          "region": "cn"
+        },
+        {
           "id": "488674899",
           "name": "实时天气雷达Pro - 降雨预报",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/c0/71/d7c071ab-5436-0659-cec6-f29fc53ac0a2/AppIcon-Full-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
@@ -17848,19 +17861,6 @@
           "normal": "¥3.00",
           "current": "¥1.00",
           "has_iap": false,
-          "region": "cn"
-        },
-        {
-          "id": "1566504157",
-          "name": "天体重力 - 牛顿万有引力定律",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3b/2c/6e/3b2c6e9e-8915-8ef3-7fdc-ab16fb3421fb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-          "genre": "娱乐",
-          "type": "free",
-          "page": "app/cn-1566504157.html",
-          "rating": 3.84474,
-          "normal": "¥78.00",
-          "current": "免费",
-          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -18058,6 +18058,19 @@
           "region": "cn"
         },
         {
+          "id": "892393815",
+          "name": "录音机 - AVR PRO",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/b6/82/5eb682b5-7f85-a130-942c-3de61de222b5/AppIcon_PRO-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "商务",
+          "type": "deal",
+          "page": "app/cn-892393815.html",
+          "rating": 4.7268,
+          "normal": "¥28.00",
+          "current": "¥8.00",
+          "has_iap": null,
+          "region": "cn"
+        },
+        {
           "id": "488674899",
           "name": "实时天气雷达Pro - 降雨预报",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/c0/71/d7c071ab-5436-0659-cec6-f29fc53ac0a2/AppIcon-Full-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
@@ -18159,19 +18172,6 @@
           "normal": "¥3.00",
           "current": "¥1.00",
           "has_iap": false,
-          "region": "cn"
-        },
-        {
-          "id": "1566504157",
-          "name": "天体重力 - 牛顿万有引力定律",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3b/2c/6e/3b2c6e9e-8915-8ef3-7fdc-ab16fb3421fb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-          "genre": "娱乐",
-          "type": "free",
-          "page": "app/cn-1566504157.html",
-          "rating": 3.84474,
-          "normal": "¥78.00",
-          "current": "免费",
-          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -18364,6 +18364,19 @@
           "region": "cn"
         },
         {
+          "id": "892393815",
+          "name": "录音机 - AVR PRO",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/b6/82/5eb682b5-7f85-a130-942c-3de61de222b5/AppIcon_PRO-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "商务",
+          "type": "deal",
+          "page": "app/cn-892393815.html",
+          "rating": 4.7268,
+          "normal": "¥28.00",
+          "current": "¥8.00",
+          "has_iap": null,
+          "region": "cn"
+        },
+        {
           "id": "488674899",
           "name": "实时天气雷达Pro - 降雨预报",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/c0/71/d7c071ab-5436-0659-cec6-f29fc53ac0a2/AppIcon-Full-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
@@ -18465,19 +18478,6 @@
           "normal": "¥3.00",
           "current": "¥1.00",
           "has_iap": false,
-          "region": "cn"
-        },
-        {
-          "id": "1566504157",
-          "name": "天体重力 - 牛顿万有引力定律",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3b/2c/6e/3b2c6e9e-8915-8ef3-7fdc-ab16fb3421fb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-          "genre": "娱乐",
-          "type": "free",
-          "page": "app/cn-1566504157.html",
-          "rating": 3.84474,
-          "normal": "¥78.00",
-          "current": "免费",
-          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -18650,6 +18650,19 @@
           "region": "cn"
         },
         {
+          "id": "892393815",
+          "name": "录音机 - AVR PRO",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/b6/82/5eb682b5-7f85-a130-942c-3de61de222b5/AppIcon_PRO-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "商务",
+          "type": "deal",
+          "page": "app/cn-892393815.html",
+          "rating": 4.7268,
+          "normal": "¥28.00",
+          "current": "¥8.00",
+          "has_iap": null,
+          "region": "cn"
+        },
+        {
           "id": "488674899",
           "name": "实时天气雷达Pro - 降雨预报",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/c0/71/d7c071ab-5436-0659-cec6-f29fc53ac0a2/AppIcon-Full-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
@@ -18751,19 +18764,6 @@
           "normal": "¥3.00",
           "current": "¥1.00",
           "has_iap": false,
-          "region": "cn"
-        },
-        {
-          "id": "1566504157",
-          "name": "天体重力 - 牛顿万有引力定律",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3b/2c/6e/3b2c6e9e-8915-8ef3-7fdc-ab16fb3421fb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-          "genre": "娱乐",
-          "type": "free",
-          "page": "app/cn-1566504157.html",
-          "rating": 3.84474,
-          "normal": "¥78.00",
-          "current": "免费",
-          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -18926,6 +18926,19 @@
           "region": "cn"
         },
         {
+          "id": "892393815",
+          "name": "录音机 - AVR PRO",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/b6/82/5eb682b5-7f85-a130-942c-3de61de222b5/AppIcon_PRO-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "商务",
+          "type": "deal",
+          "page": "app/cn-892393815.html",
+          "rating": 4.7268,
+          "normal": "¥28.00",
+          "current": "¥8.00",
+          "has_iap": null,
+          "region": "cn"
+        },
+        {
           "id": "488674899",
           "name": "实时天气雷达Pro - 降雨预报",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/c0/71/d7c071ab-5436-0659-cec6-f29fc53ac0a2/AppIcon-Full-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
@@ -19027,19 +19040,6 @@
           "normal": "¥3.00",
           "current": "¥1.00",
           "has_iap": false,
-          "region": "cn"
-        },
-        {
-          "id": "1566504157",
-          "name": "天体重力 - 牛顿万有引力定律",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3b/2c/6e/3b2c6e9e-8915-8ef3-7fdc-ab16fb3421fb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-          "genre": "娱乐",
-          "type": "free",
-          "page": "app/cn-1566504157.html",
-          "rating": 3.84474,
-          "normal": "¥78.00",
-          "current": "免费",
-          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -19212,6 +19212,19 @@
           "region": "cn"
         },
         {
+          "id": "892393815",
+          "name": "录音机 - AVR PRO",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/b6/82/5eb682b5-7f85-a130-942c-3de61de222b5/AppIcon_PRO-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "商务",
+          "type": "deal",
+          "page": "app/cn-892393815.html",
+          "rating": 4.7268,
+          "normal": "¥28.00",
+          "current": "¥8.00",
+          "has_iap": null,
+          "region": "cn"
+        },
+        {
           "id": "488674899",
           "name": "实时天气雷达Pro - 降雨预报",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/c0/71/d7c071ab-5436-0659-cec6-f29fc53ac0a2/AppIcon-Full-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
@@ -19313,19 +19326,6 @@
           "normal": "¥3.00",
           "current": "¥1.00",
           "has_iap": false,
-          "region": "cn"
-        },
-        {
-          "id": "1566504157",
-          "name": "天体重力 - 牛顿万有引力定律",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3b/2c/6e/3b2c6e9e-8915-8ef3-7fdc-ab16fb3421fb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-          "genre": "娱乐",
-          "type": "free",
-          "page": "app/cn-1566504157.html",
-          "rating": 3.84474,
-          "normal": "¥78.00",
-          "current": "免费",
-          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -19488,6 +19488,19 @@
           "region": "cn"
         },
         {
+          "id": "892393815",
+          "name": "录音机 - AVR PRO",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/b6/82/5eb682b5-7f85-a130-942c-3de61de222b5/AppIcon_PRO-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "商务",
+          "type": "deal",
+          "page": "app/cn-892393815.html",
+          "rating": 4.7268,
+          "normal": "¥28.00",
+          "current": "¥8.00",
+          "has_iap": null,
+          "region": "cn"
+        },
+        {
           "id": "488674899",
           "name": "实时天气雷达Pro - 降雨预报",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/c0/71/d7c071ab-5436-0659-cec6-f29fc53ac0a2/AppIcon-Full-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
@@ -19589,19 +19602,6 @@
           "normal": "¥3.00",
           "current": "¥1.00",
           "has_iap": false,
-          "region": "cn"
-        },
-        {
-          "id": "1566504157",
-          "name": "天体重力 - 牛顿万有引力定律",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3b/2c/6e/3b2c6e9e-8915-8ef3-7fdc-ab16fb3421fb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-          "genre": "娱乐",
-          "type": "free",
-          "page": "app/cn-1566504157.html",
-          "rating": 3.84474,
-          "normal": "¥78.00",
-          "current": "免费",
-          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -19759,6 +19759,19 @@
           "region": "cn"
         },
         {
+          "id": "892393815",
+          "name": "录音机 - AVR PRO",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/b6/82/5eb682b5-7f85-a130-942c-3de61de222b5/AppIcon_PRO-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "商务",
+          "type": "deal",
+          "page": "app/cn-892393815.html",
+          "rating": 4.7268,
+          "normal": "¥28.00",
+          "current": "¥8.00",
+          "has_iap": null,
+          "region": "cn"
+        },
+        {
           "id": "488674899",
           "name": "实时天气雷达Pro - 降雨预报",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/c0/71/d7c071ab-5436-0659-cec6-f29fc53ac0a2/AppIcon-Full-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
@@ -19860,19 +19873,6 @@
           "normal": "¥3.00",
           "current": "¥1.00",
           "has_iap": false,
-          "region": "cn"
-        },
-        {
-          "id": "1566504157",
-          "name": "天体重力 - 牛顿万有引力定律",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3b/2c/6e/3b2c6e9e-8915-8ef3-7fdc-ab16fb3421fb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-          "genre": "娱乐",
-          "type": "free",
-          "page": "app/cn-1566504157.html",
-          "rating": 3.84474,
-          "normal": "¥78.00",
-          "current": "免费",
-          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -20045,6 +20045,19 @@
           "region": "cn"
         },
         {
+          "id": "892393815",
+          "name": "录音机 - AVR PRO",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/b6/82/5eb682b5-7f85-a130-942c-3de61de222b5/AppIcon_PRO-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "商务",
+          "type": "deal",
+          "page": "app/cn-892393815.html",
+          "rating": 4.7268,
+          "normal": "¥28.00",
+          "current": "¥8.00",
+          "has_iap": null,
+          "region": "cn"
+        },
+        {
           "id": "488674899",
           "name": "实时天气雷达Pro - 降雨预报",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/c0/71/d7c071ab-5436-0659-cec6-f29fc53ac0a2/AppIcon-Full-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
@@ -20146,19 +20159,6 @@
           "normal": "¥3.00",
           "current": "¥1.00",
           "has_iap": false,
-          "region": "cn"
-        },
-        {
-          "id": "1566504157",
-          "name": "天体重力 - 牛顿万有引力定律",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3b/2c/6e/3b2c6e9e-8915-8ef3-7fdc-ab16fb3421fb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-          "genre": "娱乐",
-          "type": "free",
-          "page": "app/cn-1566504157.html",
-          "rating": 3.84474,
-          "normal": "¥78.00",
-          "current": "免费",
-          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -20341,6 +20341,19 @@
           "region": "cn"
         },
         {
+          "id": "892393815",
+          "name": "录音机 - AVR PRO",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/b6/82/5eb682b5-7f85-a130-942c-3de61de222b5/AppIcon_PRO-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "商务",
+          "type": "deal",
+          "page": "app/cn-892393815.html",
+          "rating": 4.7268,
+          "normal": "¥28.00",
+          "current": "¥8.00",
+          "has_iap": null,
+          "region": "cn"
+        },
+        {
           "id": "488674899",
           "name": "实时天气雷达Pro - 降雨预报",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/c0/71/d7c071ab-5436-0659-cec6-f29fc53ac0a2/AppIcon-Full-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
@@ -20442,19 +20455,6 @@
           "normal": "¥3.00",
           "current": "¥1.00",
           "has_iap": false,
-          "region": "cn"
-        },
-        {
-          "id": "1566504157",
-          "name": "天体重力 - 牛顿万有引力定律",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3b/2c/6e/3b2c6e9e-8915-8ef3-7fdc-ab16fb3421fb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-          "genre": "娱乐",
-          "type": "free",
-          "page": "app/cn-1566504157.html",
-          "rating": 3.84474,
-          "normal": "¥78.00",
-          "current": "免费",
-          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -20617,6 +20617,19 @@
           "region": "cn"
         },
         {
+          "id": "892393815",
+          "name": "录音机 - AVR PRO",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/b6/82/5eb682b5-7f85-a130-942c-3de61de222b5/AppIcon_PRO-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "商务",
+          "type": "deal",
+          "page": "app/cn-892393815.html",
+          "rating": 4.7268,
+          "normal": "¥28.00",
+          "current": "¥8.00",
+          "has_iap": null,
+          "region": "cn"
+        },
+        {
           "id": "488674899",
           "name": "实时天气雷达Pro - 降雨预报",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/c0/71/d7c071ab-5436-0659-cec6-f29fc53ac0a2/AppIcon-Full-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
@@ -20718,19 +20731,6 @@
           "normal": "¥3.00",
           "current": "¥1.00",
           "has_iap": false,
-          "region": "cn"
-        },
-        {
-          "id": "1566504157",
-          "name": "天体重力 - 牛顿万有引力定律",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3b/2c/6e/3b2c6e9e-8915-8ef3-7fdc-ab16fb3421fb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-          "genre": "娱乐",
-          "type": "free",
-          "page": "app/cn-1566504157.html",
-          "rating": 3.84474,
-          "normal": "¥78.00",
-          "current": "免费",
-          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -20903,6 +20903,19 @@
           "region": "cn"
         },
         {
+          "id": "892393815",
+          "name": "录音机 - AVR PRO",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/b6/82/5eb682b5-7f85-a130-942c-3de61de222b5/AppIcon_PRO-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "商务",
+          "type": "deal",
+          "page": "app/cn-892393815.html",
+          "rating": 4.7268,
+          "normal": "¥28.00",
+          "current": "¥8.00",
+          "has_iap": null,
+          "region": "cn"
+        },
+        {
           "id": "488674899",
           "name": "实时天气雷达Pro - 降雨预报",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/c0/71/d7c071ab-5436-0659-cec6-f29fc53ac0a2/AppIcon-Full-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
@@ -21004,19 +21017,6 @@
           "normal": "¥3.00",
           "current": "¥1.00",
           "has_iap": false,
-          "region": "cn"
-        },
-        {
-          "id": "1566504157",
-          "name": "天体重力 - 牛顿万有引力定律",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3b/2c/6e/3b2c6e9e-8915-8ef3-7fdc-ab16fb3421fb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-          "genre": "娱乐",
-          "type": "free",
-          "page": "app/cn-1566504157.html",
-          "rating": 3.84474,
-          "normal": "¥78.00",
-          "current": "免费",
-          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -21214,6 +21214,19 @@
           "region": "cn"
         },
         {
+          "id": "892393815",
+          "name": "录音机 - AVR PRO",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/b6/82/5eb682b5-7f85-a130-942c-3de61de222b5/AppIcon_PRO-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "商务",
+          "type": "deal",
+          "page": "app/cn-892393815.html",
+          "rating": 4.7268,
+          "normal": "¥28.00",
+          "current": "¥8.00",
+          "has_iap": null,
+          "region": "cn"
+        },
+        {
           "id": "488674899",
           "name": "实时天气雷达Pro - 降雨预报",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/c0/71/d7c071ab-5436-0659-cec6-f29fc53ac0a2/AppIcon-Full-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
@@ -21315,19 +21328,6 @@
           "normal": "¥3.00",
           "current": "¥1.00",
           "has_iap": false,
-          "region": "cn"
-        },
-        {
-          "id": "1566504157",
-          "name": "天体重力 - 牛顿万有引力定律",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3b/2c/6e/3b2c6e9e-8915-8ef3-7fdc-ab16fb3421fb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-          "genre": "娱乐",
-          "type": "free",
-          "page": "app/cn-1566504157.html",
-          "rating": 3.84474,
-          "normal": "¥78.00",
-          "current": "免费",
-          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -21500,6 +21500,19 @@
           "region": "cn"
         },
         {
+          "id": "892393815",
+          "name": "录音机 - AVR PRO",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/b6/82/5eb682b5-7f85-a130-942c-3de61de222b5/AppIcon_PRO-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "商务",
+          "type": "deal",
+          "page": "app/cn-892393815.html",
+          "rating": 4.7268,
+          "normal": "¥28.00",
+          "current": "¥8.00",
+          "has_iap": null,
+          "region": "cn"
+        },
+        {
           "id": "488674899",
           "name": "实时天气雷达Pro - 降雨预报",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/c0/71/d7c071ab-5436-0659-cec6-f29fc53ac0a2/AppIcon-Full-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
@@ -21601,19 +21614,6 @@
           "normal": "¥3.00",
           "current": "¥1.00",
           "has_iap": false,
-          "region": "cn"
-        },
-        {
-          "id": "1566504157",
-          "name": "天体重力 - 牛顿万有引力定律",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3b/2c/6e/3b2c6e9e-8915-8ef3-7fdc-ab16fb3421fb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-          "genre": "娱乐",
-          "type": "free",
-          "page": "app/cn-1566504157.html",
-          "rating": 3.84474,
-          "normal": "¥78.00",
-          "current": "免费",
-          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -21786,6 +21786,19 @@
           "region": "cn"
         },
         {
+          "id": "892393815",
+          "name": "录音机 - AVR PRO",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/b6/82/5eb682b5-7f85-a130-942c-3de61de222b5/AppIcon_PRO-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "商务",
+          "type": "deal",
+          "page": "app/cn-892393815.html",
+          "rating": 4.7268,
+          "normal": "¥28.00",
+          "current": "¥8.00",
+          "has_iap": null,
+          "region": "cn"
+        },
+        {
           "id": "488674899",
           "name": "实时天气雷达Pro - 降雨预报",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/c0/71/d7c071ab-5436-0659-cec6-f29fc53ac0a2/AppIcon-Full-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
@@ -21887,19 +21900,6 @@
           "normal": "¥3.00",
           "current": "¥1.00",
           "has_iap": false,
-          "region": "cn"
-        },
-        {
-          "id": "1566504157",
-          "name": "天体重力 - 牛顿万有引力定律",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3b/2c/6e/3b2c6e9e-8915-8ef3-7fdc-ab16fb3421fb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-          "genre": "娱乐",
-          "type": "free",
-          "page": "app/cn-1566504157.html",
-          "rating": 3.84474,
-          "normal": "¥78.00",
-          "current": "免费",
-          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -22072,6 +22072,19 @@
           "region": "cn"
         },
         {
+          "id": "892393815",
+          "name": "录音机 - AVR PRO",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/b6/82/5eb682b5-7f85-a130-942c-3de61de222b5/AppIcon_PRO-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "商务",
+          "type": "deal",
+          "page": "app/cn-892393815.html",
+          "rating": 4.7268,
+          "normal": "¥28.00",
+          "current": "¥8.00",
+          "has_iap": null,
+          "region": "cn"
+        },
+        {
           "id": "488674899",
           "name": "实时天气雷达Pro - 降雨预报",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/c0/71/d7c071ab-5436-0659-cec6-f29fc53ac0a2/AppIcon-Full-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
@@ -22173,19 +22186,6 @@
           "normal": "¥3.00",
           "current": "¥1.00",
           "has_iap": false,
-          "region": "cn"
-        },
-        {
-          "id": "1566504157",
-          "name": "天体重力 - 牛顿万有引力定律",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3b/2c/6e/3b2c6e9e-8915-8ef3-7fdc-ab16fb3421fb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-          "genre": "娱乐",
-          "type": "free",
-          "page": "app/cn-1566504157.html",
-          "rating": 3.84474,
-          "normal": "¥78.00",
-          "current": "免费",
-          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -22348,6 +22348,19 @@
           "region": "cn"
         },
         {
+          "id": "892393815",
+          "name": "录音机 - AVR PRO",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/b6/82/5eb682b5-7f85-a130-942c-3de61de222b5/AppIcon_PRO-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "商务",
+          "type": "deal",
+          "page": "app/cn-892393815.html",
+          "rating": 4.7268,
+          "normal": "¥28.00",
+          "current": "¥8.00",
+          "has_iap": null,
+          "region": "cn"
+        },
+        {
           "id": "488674899",
           "name": "实时天气雷达Pro - 降雨预报",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/c0/71/d7c071ab-5436-0659-cec6-f29fc53ac0a2/AppIcon-Full-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
@@ -22449,294 +22462,10 @@
           "normal": "¥3.00",
           "current": "¥1.00",
           "has_iap": false,
-          "region": "cn"
-        },
-        {
-          "id": "1566504157",
-          "name": "天体重力 - 牛顿万有引力定律",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3b/2c/6e/3b2c6e9e-8915-8ef3-7fdc-ab16fb3421fb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-          "genre": "娱乐",
-          "type": "free",
-          "page": "app/cn-1566504157.html",
-          "rating": 3.84474,
-          "normal": "¥78.00",
-          "current": "免费",
-          "has_iap": true,
           "region": "cn"
         }
       ],
       "page": "app/cn-1435718184.html"
-    },
-    {
-      "id": "6798767414",
-      "name": "攀岩相机",
-      "dev": "勃涛 王",
-      "genre": "摄影与录像",
-      "normal": "¥4.99",
-      "current": "免费",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7e/c0/35/7ec035ec-bc65-33ff-2531-f06944803ca7/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
-      "rating": 3.5,
-      "url": "https://apps.apple.com/cn/app/%E6%94%80%E5%B2%A9%E7%9B%B8%E6%9C%BA/id6798767414?uo=4",
-      "region": "cn",
-      "type": "free",
-      "is_new": false,
-      "series": [
-        4.99,
-        0,
-        0
-      ],
-      "phistory": [
-        {
-          "d": "2026-10-27",
-          "p": 4.99
-        },
-        {
-          "d": "2026-10-28",
-          "p": 0
-        },
-        {
-          "d": "2026-10-29",
-          "p": 0
-        }
-      ],
-      "has_iap": false,
-      "rel": [
-        {
-          "id": "6789210972",
-          "name": "Cozy Drive - Chill Car Driving",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/94/1a/39/941a3949-619f-1f5a-6cd8-0d9b41b0032e/AppIcon-0-0-1x_U007epad-0-1-sRGB-85-220.png/512x512bb.jpg",
-          "genre": "游戏",
-          "type": "free",
-          "page": "app/cn-6789210972.html",
-          "rating": 5,
-          "normal": "¥2.99",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
-          "id": "6753138898",
-          "name": "SongDetect 音乐识别与播放",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e1/33/af/e133af41-8865-5cda-a631-a6558ec5e569/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
-          "genre": "音乐",
-          "type": "free",
-          "page": "app/cn-6753138898.html",
-          "rating": 5,
-          "normal": "¥0.99",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
-          "id": "6745524323",
-          "name": "Time@Location",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1a/12/ce/1a12ce5b-b2fd-d4ff-b1c8-16c325119dfe/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "效率",
-          "type": "free",
-          "page": "app/cn-6745524323.html",
-          "rating": 5,
-          "normal": "¥28.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
-          "id": "6758896883",
-          "name": "airosphere: breathe your way",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/60/8d/d2/608dd272-ff6d-22bc-72dc-0a3e1ec723a8/AppIcon-0-0-1x_U007ephone-0-1-85-220.jpeg/512x512bb.jpg",
-          "genre": "健康健美",
-          "type": "free",
-          "page": "app/cn-6758896883.html",
-          "rating": 5,
-          "normal": "¥8.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
-          "id": "6758016252",
-          "name": "今天好吗",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b6/6c/9a/b66c9aed-c5ea-becf-2be4-e810158f8b23/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6758016252.html",
-          "rating": 5,
-          "normal": "¥1.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
-          "id": "639359472",
-          "name": "疯狂点击世界赛",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4d/57/81/4d578145-1ff4-6b24-c347-3d5be1489991/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.jpeg/512x512bb.jpg",
-          "genre": "娱乐",
-          "type": "free",
-          "page": "app/cn-639359472.html",
-          "rating": 5,
-          "normal": "¥28.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
-          "id": "454083579",
-          "name": "食棋",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/29/ea/f0/29eaf0a0-f12a-9d6e-ac92-1d99123a3c54/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/512x512bb.jpg",
-          "genre": "娱乐",
-          "type": "free",
-          "page": "app/cn-454083579.html",
-          "rating": 5,
-          "normal": "¥22.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
-          "id": "1661609052",
-          "name": "可视化元素周期表 - 化学元素图谱",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6f/94/4e/6f944e9b-7f4f-7b7c-8cbd-8c8bf7e4fa22/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "教育",
-          "type": "free",
-          "page": "app/cn-1661609052.html",
-          "rating": 4.97368,
-          "normal": "¥15.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
-          "id": "1515294700",
-          "name": "鼠标·键盘",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/88/4d/9c/884d9cf5-255a-e901-f437-b12d9f9eb32d/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg",
-          "genre": "效率",
-          "type": "free",
-          "page": "app/cn-1515294700.html",
-          "rating": 4.86581,
-          "normal": "¥22.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
-          "id": "488674899",
-          "name": "实时天气雷达Pro - 降雨预报",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/c0/71/d7c071ab-5436-0659-cec6-f29fc53ac0a2/AppIcon-Full-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
-          "genre": "天气",
-          "type": "free",
-          "page": "app/cn-488674899.html",
-          "rating": 4.60968,
-          "normal": "¥118.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
-          "id": "6759275171",
-          "name": "翻页时钟天气 : AeroFlap AI+",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/96/7c/c6/967cc6ea-1dd0-c5de-3b9f-021ee86b8fe6/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "效率",
-          "type": "free",
-          "page": "app/cn-6759275171.html",
-          "rating": 4.5,
-          "normal": "¥8.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
-          "id": "627038315",
-          "name": "Geo Tracker: GPS Tracking",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8c/fb/90/8cfb902b-41d5-3162-890e-84c22aae4fb3/GeoTrackerIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
-          "genre": "导航",
-          "type": "free",
-          "page": "app/cn-627038315.html",
-          "rating": 4.33333,
-          "normal": "¥8.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
-          "id": "507828762",
-          "name": "超级坦克大战 (Super Tank Battle)",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/eb/24/5c/eb245c84-220a-2920-96f5-71008c3850b4/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/512x512bb.jpg",
-          "genre": "娱乐",
-          "type": "free",
-          "page": "app/cn-507828762.html",
-          "rating": 4.2195,
-          "normal": "¥10.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
-          "id": "1071029816",
-          "name": "英文字母 - 学习英语字母发音和书写入门基础教程",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/06/7c/2b/067c2b68-26e7-3cf8-f0e4-30451b86829e/AppIcon-1x_U007emarketing-0-8-0-0-85-220-0.png/512x512bb.jpg",
-          "genre": "教育",
-          "type": "free",
-          "page": "app/cn-1071029816.html",
-          "rating": 4.20388,
-          "normal": "¥18.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
-          "id": "1247126338",
-          "name": "思维简图PSP导图笔记创意记事本最强大脑记忆神器备忘录",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple127/v4/6b/45/f8/6b45f8cf-0073-9e11-e979-e06402573f53/pr_source.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-1247126338.html",
-          "rating": 4.2,
-          "normal": "¥8.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
-          "id": "843807285",
-          "name": "酷酷鱼",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple/v4/d9/ea/7b/d9ea7bb6-f370-b71b-f9d7-3d3e4f7d145c/mzl.tqefnvmj.png/512x512bb.jpg",
-          "genre": "游戏",
-          "type": "free",
-          "page": "app/cn-843807285.html",
-          "rating": 4.13333,
-          "normal": "¥0.99",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
-          "id": "6758746366",
-          "name": "全球电视 - 观看世界各地电视节目",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/dd/03/0ddd03be-bae5-f7ad-e5e1-55d335b2b9f3/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "娱乐",
-          "type": "deal",
-          "page": "app/cn-6758746366.html",
-          "rating": 4.05814,
-          "normal": "¥3.00",
-          "current": "¥1.00",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
-          "id": "1566504157",
-          "name": "天体重力 - 牛顿万有引力定律",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3b/2c/6e/3b2c6e9e-8915-8ef3-7fdc-ab16fb3421fb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-          "genre": "娱乐",
-          "type": "free",
-          "page": "app/cn-1566504157.html",
-          "rating": 3.84474,
-          "normal": "¥78.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        }
-      ],
-      "page": "app/cn-6798767414.html"
     },
     {
       "id": "1619885469",
@@ -22905,6 +22634,19 @@
           "region": "cn"
         },
         {
+          "id": "892393815",
+          "name": "录音机 - AVR PRO",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/b6/82/5eb682b5-7f85-a130-942c-3de61de222b5/AppIcon_PRO-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "商务",
+          "type": "deal",
+          "page": "app/cn-892393815.html",
+          "rating": 4.7268,
+          "normal": "¥28.00",
+          "current": "¥8.00",
+          "has_iap": null,
+          "region": "cn"
+        },
+        {
           "id": "488674899",
           "name": "实时天气雷达Pro - 降雨预报",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/c0/71/d7c071ab-5436-0659-cec6-f29fc53ac0a2/AppIcon-Full-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
@@ -23006,19 +22748,6 @@
           "normal": "¥3.00",
           "current": "¥1.00",
           "has_iap": false,
-          "region": "cn"
-        },
-        {
-          "id": "1566504157",
-          "name": "天体重力 - 牛顿万有引力定律",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3b/2c/6e/3b2c6e9e-8915-8ef3-7fdc-ab16fb3421fb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-          "genre": "娱乐",
-          "type": "free",
-          "page": "app/cn-1566504157.html",
-          "rating": 3.84474,
-          "normal": "¥78.00",
-          "current": "免费",
-          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -23176,6 +22905,19 @@
           "region": "cn"
         },
         {
+          "id": "892393815",
+          "name": "录音机 - AVR PRO",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/b6/82/5eb682b5-7f85-a130-942c-3de61de222b5/AppIcon_PRO-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "商务",
+          "type": "deal",
+          "page": "app/cn-892393815.html",
+          "rating": 4.7268,
+          "normal": "¥28.00",
+          "current": "¥8.00",
+          "has_iap": null,
+          "region": "cn"
+        },
+        {
           "id": "488674899",
           "name": "实时天气雷达Pro - 降雨预报",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/c0/71/d7c071ab-5436-0659-cec6-f29fc53ac0a2/AppIcon-Full-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
@@ -23277,19 +23019,6 @@
           "normal": "¥3.00",
           "current": "¥1.00",
           "has_iap": false,
-          "region": "cn"
-        },
-        {
-          "id": "1566504157",
-          "name": "天体重力 - 牛顿万有引力定律",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3b/2c/6e/3b2c6e9e-8915-8ef3-7fdc-ab16fb3421fb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-          "genre": "娱乐",
-          "type": "free",
-          "page": "app/cn-1566504157.html",
-          "rating": 3.84474,
-          "normal": "¥78.00",
-          "current": "免费",
-          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -23462,6 +23191,19 @@
           "region": "cn"
         },
         {
+          "id": "892393815",
+          "name": "录音机 - AVR PRO",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/b6/82/5eb682b5-7f85-a130-942c-3de61de222b5/AppIcon_PRO-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "商务",
+          "type": "deal",
+          "page": "app/cn-892393815.html",
+          "rating": 4.7268,
+          "normal": "¥28.00",
+          "current": "¥8.00",
+          "has_iap": null,
+          "region": "cn"
+        },
+        {
           "id": "488674899",
           "name": "实时天气雷达Pro - 降雨预报",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/c0/71/d7c071ab-5436-0659-cec6-f29fc53ac0a2/AppIcon-Full-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
@@ -23563,19 +23305,6 @@
           "normal": "¥3.00",
           "current": "¥1.00",
           "has_iap": false,
-          "region": "cn"
-        },
-        {
-          "id": "1566504157",
-          "name": "天体重力 - 牛顿万有引力定律",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3b/2c/6e/3b2c6e9e-8915-8ef3-7fdc-ab16fb3421fb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-          "genre": "娱乐",
-          "type": "free",
-          "page": "app/cn-1566504157.html",
-          "rating": 3.84474,
-          "normal": "¥78.00",
-          "current": "免费",
-          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -23733,6 +23462,19 @@
           "region": "cn"
         },
         {
+          "id": "892393815",
+          "name": "录音机 - AVR PRO",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/b6/82/5eb682b5-7f85-a130-942c-3de61de222b5/AppIcon_PRO-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "商务",
+          "type": "deal",
+          "page": "app/cn-892393815.html",
+          "rating": 4.7268,
+          "normal": "¥28.00",
+          "current": "¥8.00",
+          "has_iap": null,
+          "region": "cn"
+        },
+        {
           "id": "488674899",
           "name": "实时天气雷达Pro - 降雨预报",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/c0/71/d7c071ab-5436-0659-cec6-f29fc53ac0a2/AppIcon-Full-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
@@ -23834,19 +23576,6 @@
           "normal": "¥3.00",
           "current": "¥1.00",
           "has_iap": false,
-          "region": "cn"
-        },
-        {
-          "id": "1566504157",
-          "name": "天体重力 - 牛顿万有引力定律",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3b/2c/6e/3b2c6e9e-8915-8ef3-7fdc-ab16fb3421fb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-          "genre": "娱乐",
-          "type": "free",
-          "page": "app/cn-1566504157.html",
-          "rating": 3.84474,
-          "normal": "¥78.00",
-          "current": "免费",
-          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -24029,6 +23758,19 @@
           "region": "cn"
         },
         {
+          "id": "892393815",
+          "name": "录音机 - AVR PRO",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/b6/82/5eb682b5-7f85-a130-942c-3de61de222b5/AppIcon_PRO-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "商务",
+          "type": "deal",
+          "page": "app/cn-892393815.html",
+          "rating": 4.7268,
+          "normal": "¥28.00",
+          "current": "¥8.00",
+          "has_iap": null,
+          "region": "cn"
+        },
+        {
           "id": "488674899",
           "name": "实时天气雷达Pro - 降雨预报",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/c0/71/d7c071ab-5436-0659-cec6-f29fc53ac0a2/AppIcon-Full-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
@@ -24131,22 +23873,280 @@
           "current": "¥1.00",
           "has_iap": false,
           "region": "cn"
-        },
-        {
-          "id": "1566504157",
-          "name": "天体重力 - 牛顿万有引力定律",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3b/2c/6e/3b2c6e9e-8915-8ef3-7fdc-ab16fb3421fb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-          "genre": "娱乐",
-          "type": "free",
-          "page": "app/cn-1566504157.html",
-          "rating": 3.84474,
-          "normal": "¥78.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
         }
       ],
       "page": "app/cn-586387813.html"
+    },
+    {
+      "id": "6798767414",
+      "name": "攀岩相机",
+      "dev": "勃涛 王",
+      "genre": "摄影与录像",
+      "normal": "¥4.99",
+      "current": "免费",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7e/c0/35/7ec035ec-bc65-33ff-2531-f06944803ca7/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+      "rating": 3,
+      "url": "https://apps.apple.com/cn/app/%E6%94%80%E5%B2%A9%E7%9B%B8%E6%9C%BA/id6798767414?uo=4",
+      "region": "cn",
+      "type": "free",
+      "is_new": false,
+      "series": [
+        4.99,
+        0,
+        0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-27",
+          "p": 4.99
+        },
+        {
+          "d": "2026-10-28",
+          "p": 0
+        },
+        {
+          "d": "2026-10-29",
+          "p": 0
+        }
+      ],
+      "has_iap": false,
+      "rel": [
+        {
+          "id": "6789210972",
+          "name": "Cozy Drive - Chill Car Driving",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/94/1a/39/941a3949-619f-1f5a-6cd8-0d9b41b0032e/AppIcon-0-0-1x_U007epad-0-1-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "游戏",
+          "type": "free",
+          "page": "app/cn-6789210972.html",
+          "rating": 5,
+          "normal": "¥2.99",
+          "current": "免费",
+          "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6753138898",
+          "name": "SongDetect 音乐识别与播放",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e1/33/af/e133af41-8865-5cda-a631-a6558ec5e569/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+          "genre": "音乐",
+          "type": "free",
+          "page": "app/cn-6753138898.html",
+          "rating": 5,
+          "normal": "¥0.99",
+          "current": "免费",
+          "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6745524323",
+          "name": "Time@Location",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1a/12/ce/1a12ce5b-b2fd-d4ff-b1c8-16c325119dfe/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "效率",
+          "type": "free",
+          "page": "app/cn-6745524323.html",
+          "rating": 5,
+          "normal": "¥28.00",
+          "current": "免费",
+          "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6758896883",
+          "name": "airosphere: breathe your way",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/60/8d/d2/608dd272-ff6d-22bc-72dc-0a3e1ec723a8/AppIcon-0-0-1x_U007ephone-0-1-85-220.jpeg/512x512bb.jpg",
+          "genre": "健康健美",
+          "type": "free",
+          "page": "app/cn-6758896883.html",
+          "rating": 5,
+          "normal": "¥8.00",
+          "current": "免费",
+          "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6758016252",
+          "name": "今天好吗",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b6/6c/9a/b66c9aed-c5ea-becf-2be4-e810158f8b23/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "工具",
+          "type": "free",
+          "page": "app/cn-6758016252.html",
+          "rating": 5,
+          "normal": "¥1.00",
+          "current": "免费",
+          "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "639359472",
+          "name": "疯狂点击世界赛",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4d/57/81/4d578145-1ff4-6b24-c347-3d5be1489991/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.jpeg/512x512bb.jpg",
+          "genre": "娱乐",
+          "type": "free",
+          "page": "app/cn-639359472.html",
+          "rating": 5,
+          "normal": "¥28.00",
+          "current": "免费",
+          "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "454083579",
+          "name": "食棋",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/29/ea/f0/29eaf0a0-f12a-9d6e-ac92-1d99123a3c54/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/512x512bb.jpg",
+          "genre": "娱乐",
+          "type": "free",
+          "page": "app/cn-454083579.html",
+          "rating": 5,
+          "normal": "¥22.00",
+          "current": "免费",
+          "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "1661609052",
+          "name": "可视化元素周期表 - 化学元素图谱",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6f/94/4e/6f944e9b-7f4f-7b7c-8cbd-8c8bf7e4fa22/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "教育",
+          "type": "free",
+          "page": "app/cn-1661609052.html",
+          "rating": 4.97368,
+          "normal": "¥15.00",
+          "current": "免费",
+          "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "1515294700",
+          "name": "鼠标·键盘",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/88/4d/9c/884d9cf5-255a-e901-f437-b12d9f9eb32d/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "效率",
+          "type": "free",
+          "page": "app/cn-1515294700.html",
+          "rating": 4.86581,
+          "normal": "¥22.00",
+          "current": "免费",
+          "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "892393815",
+          "name": "录音机 - AVR PRO",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/b6/82/5eb682b5-7f85-a130-942c-3de61de222b5/AppIcon_PRO-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "商务",
+          "type": "deal",
+          "page": "app/cn-892393815.html",
+          "rating": 4.7268,
+          "normal": "¥28.00",
+          "current": "¥8.00",
+          "has_iap": null,
+          "region": "cn"
+        },
+        {
+          "id": "488674899",
+          "name": "实时天气雷达Pro - 降雨预报",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/c0/71/d7c071ab-5436-0659-cec6-f29fc53ac0a2/AppIcon-Full-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "天气",
+          "type": "free",
+          "page": "app/cn-488674899.html",
+          "rating": 4.60968,
+          "normal": "¥118.00",
+          "current": "免费",
+          "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "6759275171",
+          "name": "翻页时钟天气 : AeroFlap AI+",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/96/7c/c6/967cc6ea-1dd0-c5de-3b9f-021ee86b8fe6/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "效率",
+          "type": "free",
+          "page": "app/cn-6759275171.html",
+          "rating": 4.5,
+          "normal": "¥8.00",
+          "current": "免费",
+          "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "627038315",
+          "name": "Geo Tracker: GPS Tracking",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8c/fb/90/8cfb902b-41d5-3162-890e-84c22aae4fb3/GeoTrackerIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+          "genre": "导航",
+          "type": "free",
+          "page": "app/cn-627038315.html",
+          "rating": 4.33333,
+          "normal": "¥8.00",
+          "current": "免费",
+          "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "507828762",
+          "name": "超级坦克大战 (Super Tank Battle)",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/eb/24/5c/eb245c84-220a-2920-96f5-71008c3850b4/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/512x512bb.jpg",
+          "genre": "娱乐",
+          "type": "free",
+          "page": "app/cn-507828762.html",
+          "rating": 4.2195,
+          "normal": "¥10.00",
+          "current": "免费",
+          "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "1071029816",
+          "name": "英文字母 - 学习英语字母发音和书写入门基础教程",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/06/7c/2b/067c2b68-26e7-3cf8-f0e4-30451b86829e/AppIcon-1x_U007emarketing-0-8-0-0-85-220-0.png/512x512bb.jpg",
+          "genre": "教育",
+          "type": "free",
+          "page": "app/cn-1071029816.html",
+          "rating": 4.20388,
+          "normal": "¥18.00",
+          "current": "免费",
+          "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "1247126338",
+          "name": "思维简图PSP导图笔记创意记事本最强大脑记忆神器备忘录",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple127/v4/6b/45/f8/6b45f8cf-0073-9e11-e979-e06402573f53/pr_source.png/512x512bb.jpg",
+          "genre": "工具",
+          "type": "free",
+          "page": "app/cn-1247126338.html",
+          "rating": 4.2,
+          "normal": "¥8.00",
+          "current": "免费",
+          "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "843807285",
+          "name": "酷酷鱼",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple/v4/d9/ea/7b/d9ea7bb6-f370-b71b-f9d7-3d3e4f7d145c/mzl.tqefnvmj.png/512x512bb.jpg",
+          "genre": "游戏",
+          "type": "free",
+          "page": "app/cn-843807285.html",
+          "rating": 4.13333,
+          "normal": "¥0.99",
+          "current": "免费",
+          "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6758746366",
+          "name": "全球电视 - 观看世界各地电视节目",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/dd/03/0ddd03be-bae5-f7ad-e5e1-55d335b2b9f3/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "娱乐",
+          "type": "deal",
+          "page": "app/cn-6758746366.html",
+          "rating": 4.05814,
+          "normal": "¥3.00",
+          "current": "¥1.00",
+          "has_iap": false,
+          "region": "cn"
+        }
+      ],
+      "page": "app/cn-6798767414.html"
     },
     {
       "id": "6799450143",
@@ -24305,6 +24305,19 @@
           "region": "cn"
         },
         {
+          "id": "892393815",
+          "name": "录音机 - AVR PRO",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/b6/82/5eb682b5-7f85-a130-942c-3de61de222b5/AppIcon_PRO-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "商务",
+          "type": "deal",
+          "page": "app/cn-892393815.html",
+          "rating": 4.7268,
+          "normal": "¥28.00",
+          "current": "¥8.00",
+          "has_iap": null,
+          "region": "cn"
+        },
+        {
           "id": "488674899",
           "name": "实时天气雷达Pro - 降雨预报",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/c0/71/d7c071ab-5436-0659-cec6-f29fc53ac0a2/AppIcon-Full-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
@@ -24406,19 +24419,6 @@
           "normal": "¥3.00",
           "current": "¥1.00",
           "has_iap": false,
-          "region": "cn"
-        },
-        {
-          "id": "1566504157",
-          "name": "天体重力 - 牛顿万有引力定律",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3b/2c/6e/3b2c6e9e-8915-8ef3-7fdc-ab16fb3421fb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-          "genre": "娱乐",
-          "type": "free",
-          "page": "app/cn-1566504157.html",
-          "rating": 3.84474,
-          "normal": "¥78.00",
-          "current": "免费",
-          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -24591,6 +24591,19 @@
           "region": "cn"
         },
         {
+          "id": "892393815",
+          "name": "录音机 - AVR PRO",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/b6/82/5eb682b5-7f85-a130-942c-3de61de222b5/AppIcon_PRO-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "商务",
+          "type": "deal",
+          "page": "app/cn-892393815.html",
+          "rating": 4.7268,
+          "normal": "¥28.00",
+          "current": "¥8.00",
+          "has_iap": null,
+          "region": "cn"
+        },
+        {
           "id": "488674899",
           "name": "实时天气雷达Pro - 降雨预报",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/c0/71/d7c071ab-5436-0659-cec6-f29fc53ac0a2/AppIcon-Full-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
@@ -24692,19 +24705,6 @@
           "normal": "¥3.00",
           "current": "¥1.00",
           "has_iap": false,
-          "region": "cn"
-        },
-        {
-          "id": "1566504157",
-          "name": "天体重力 - 牛顿万有引力定律",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3b/2c/6e/3b2c6e9e-8915-8ef3-7fdc-ab16fb3421fb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-          "genre": "娱乐",
-          "type": "free",
-          "page": "app/cn-1566504157.html",
-          "rating": 3.84474,
-          "normal": "¥78.00",
-          "current": "免费",
-          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -24877,6 +24877,19 @@
           "region": "cn"
         },
         {
+          "id": "892393815",
+          "name": "录音机 - AVR PRO",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/b6/82/5eb682b5-7f85-a130-942c-3de61de222b5/AppIcon_PRO-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "商务",
+          "type": "deal",
+          "page": "app/cn-892393815.html",
+          "rating": 4.7268,
+          "normal": "¥28.00",
+          "current": "¥8.00",
+          "has_iap": null,
+          "region": "cn"
+        },
+        {
           "id": "488674899",
           "name": "实时天气雷达Pro - 降雨预报",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/c0/71/d7c071ab-5436-0659-cec6-f29fc53ac0a2/AppIcon-Full-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
@@ -24978,19 +24991,6 @@
           "normal": "¥3.00",
           "current": "¥1.00",
           "has_iap": false,
-          "region": "cn"
-        },
-        {
-          "id": "1566504157",
-          "name": "天体重力 - 牛顿万有引力定律",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3b/2c/6e/3b2c6e9e-8915-8ef3-7fdc-ab16fb3421fb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-          "genre": "娱乐",
-          "type": "free",
-          "page": "app/cn-1566504157.html",
-          "rating": 3.84474,
-          "normal": "¥78.00",
-          "current": "免费",
-          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -25153,6 +25153,19 @@
           "region": "cn"
         },
         {
+          "id": "892393815",
+          "name": "录音机 - AVR PRO",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/b6/82/5eb682b5-7f85-a130-942c-3de61de222b5/AppIcon_PRO-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "商务",
+          "type": "deal",
+          "page": "app/cn-892393815.html",
+          "rating": 4.7268,
+          "normal": "¥28.00",
+          "current": "¥8.00",
+          "has_iap": null,
+          "region": "cn"
+        },
+        {
           "id": "488674899",
           "name": "实时天气雷达Pro - 降雨预报",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/c0/71/d7c071ab-5436-0659-cec6-f29fc53ac0a2/AppIcon-Full-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
@@ -25254,19 +25267,6 @@
           "normal": "¥3.00",
           "current": "¥1.00",
           "has_iap": false,
-          "region": "cn"
-        },
-        {
-          "id": "1566504157",
-          "name": "天体重力 - 牛顿万有引力定律",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3b/2c/6e/3b2c6e9e-8915-8ef3-7fdc-ab16fb3421fb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-          "genre": "娱乐",
-          "type": "free",
-          "page": "app/cn-1566504157.html",
-          "rating": 3.84474,
-          "normal": "¥78.00",
-          "current": "免费",
-          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -25439,6 +25439,19 @@
           "region": "cn"
         },
         {
+          "id": "892393815",
+          "name": "录音机 - AVR PRO",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/b6/82/5eb682b5-7f85-a130-942c-3de61de222b5/AppIcon_PRO-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "商务",
+          "type": "deal",
+          "page": "app/cn-892393815.html",
+          "rating": 4.7268,
+          "normal": "¥28.00",
+          "current": "¥8.00",
+          "has_iap": null,
+          "region": "cn"
+        },
+        {
           "id": "488674899",
           "name": "实时天气雷达Pro - 降雨预报",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/c0/71/d7c071ab-5436-0659-cec6-f29fc53ac0a2/AppIcon-Full-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
@@ -25540,19 +25553,6 @@
           "normal": "¥3.00",
           "current": "¥1.00",
           "has_iap": false,
-          "region": "cn"
-        },
-        {
-          "id": "1566504157",
-          "name": "天体重力 - 牛顿万有引力定律",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3b/2c/6e/3b2c6e9e-8915-8ef3-7fdc-ab16fb3421fb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-          "genre": "娱乐",
-          "type": "free",
-          "page": "app/cn-1566504157.html",
-          "rating": 3.84474,
-          "normal": "¥78.00",
-          "current": "免费",
-          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -25715,6 +25715,19 @@
           "region": "cn"
         },
         {
+          "id": "892393815",
+          "name": "录音机 - AVR PRO",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/b6/82/5eb682b5-7f85-a130-942c-3de61de222b5/AppIcon_PRO-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "商务",
+          "type": "deal",
+          "page": "app/cn-892393815.html",
+          "rating": 4.7268,
+          "normal": "¥28.00",
+          "current": "¥8.00",
+          "has_iap": null,
+          "region": "cn"
+        },
+        {
           "id": "488674899",
           "name": "实时天气雷达Pro - 降雨预报",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/c0/71/d7c071ab-5436-0659-cec6-f29fc53ac0a2/AppIcon-Full-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
@@ -25816,19 +25829,6 @@
           "normal": "¥3.00",
           "current": "¥1.00",
           "has_iap": false,
-          "region": "cn"
-        },
-        {
-          "id": "1566504157",
-          "name": "天体重力 - 牛顿万有引力定律",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3b/2c/6e/3b2c6e9e-8915-8ef3-7fdc-ab16fb3421fb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-          "genre": "娱乐",
-          "type": "free",
-          "page": "app/cn-1566504157.html",
-          "rating": 3.84474,
-          "normal": "¥78.00",
-          "current": "免费",
-          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -26011,6 +26011,19 @@
           "region": "cn"
         },
         {
+          "id": "892393815",
+          "name": "录音机 - AVR PRO",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/b6/82/5eb682b5-7f85-a130-942c-3de61de222b5/AppIcon_PRO-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "商务",
+          "type": "deal",
+          "page": "app/cn-892393815.html",
+          "rating": 4.7268,
+          "normal": "¥28.00",
+          "current": "¥8.00",
+          "has_iap": null,
+          "region": "cn"
+        },
+        {
           "id": "488674899",
           "name": "实时天气雷达Pro - 降雨预报",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/c0/71/d7c071ab-5436-0659-cec6-f29fc53ac0a2/AppIcon-Full-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
@@ -26113,19 +26126,6 @@
           "current": "¥1.00",
           "has_iap": false,
           "region": "cn"
-        },
-        {
-          "id": "1566504157",
-          "name": "天体重力 - 牛顿万有引力定律",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3b/2c/6e/3b2c6e9e-8915-8ef3-7fdc-ab16fb3421fb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-          "genre": "娱乐",
-          "type": "free",
-          "page": "app/cn-1566504157.html",
-          "rating": 3.84474,
-          "normal": "¥78.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
         }
       ],
       "page": "app/cn-1018238379.html"
@@ -26133,63 +26133,77 @@
   ],
   "deals": [
     {
-      "id": "6758746366",
-      "name": "全球电视 - 观看世界各地电视节目",
-      "dev": "恒盛 程",
-      "genre": "娱乐",
-      "normal": "¥3.00",
-      "current": "¥1.00",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/dd/03/0ddd03be-bae5-f7ad-e5e1-55d335b2b9f3/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-      "rating": 4.05814,
-      "url": "https://apps.apple.com/cn/app/%E5%85%A8%E7%90%83%E7%94%B5%E8%A7%86-%E8%A7%82%E7%9C%8B%E4%B8%96%E7%95%8C%E5%90%84%E5%9C%B0%E7%94%B5%E8%A7%86%E8%8A%82%E7%9B%AE/id6758746366?uo=4",
+      "id": "892393815",
+      "name": "录音机 - AVR PRO",
+      "dev": "Newkline Co., Ltd.",
+      "genre": "商务",
+      "normal": "¥28.00",
+      "current": "¥8.00",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/b6/82/5eb682b5-7f85-a130-942c-3de61de222b5/AppIcon_PRO-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+      "rating": 4.7268,
+      "url": "https://apps.apple.com/cn/app/%E5%BD%95%E9%9F%B3%E6%9C%BA-avr-pro/id892393815?uo=4",
       "region": "cn",
       "type": "deal",
       "is_new": true,
       "series": [
-        3.0,
-        3.0,
-        3.0,
-        3.0,
-        3.0,
-        3.0,
-        3.0,
-        1.0
+        28.0,
+        28.0,
+        28.0,
+        28.0,
+        28.0,
+        28.0,
+        28.0,
+        15.0,
+        15.0,
+        15.0,
+        8.0
       ],
       "phistory": [
         {
+          "d": "2026-10-19",
+          "p": 28.0
+        },
+        {
+          "d": "2026-10-20",
+          "p": 28.0
+        },
+        {
           "d": "2026-10-21",
-          "p": 3.0
+          "p": 28.0
         },
         {
           "d": "2026-10-22",
-          "p": 3.0
+          "p": 28.0
         },
         {
           "d": "2026-10-23",
-          "p": 3.0
+          "p": 28.0
         },
         {
           "d": "2026-10-24",
-          "p": 3.0
+          "p": 28.0
+        },
+        {
+          "d": "2026-10-25",
+          "p": 28.0
         },
         {
           "d": "2026-10-26",
-          "p": 3.0
+          "p": 15.0
         },
         {
           "d": "2026-10-27",
-          "p": 3.0
+          "p": 15.0
         },
         {
           "d": "2026-10-28",
-          "p": 3.0
+          "p": 15.0
         },
         {
           "d": "2026-10-29",
-          "p": 1.0
+          "p": 8.0
         }
       ],
-      "has_iap": false,
       "rel": [
         {
           "id": "6789210972",
@@ -26400,6 +26414,19 @@
           "region": "cn"
         },
         {
+          "id": "6758746366",
+          "name": "全球电视 - 观看世界各地电视节目",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/dd/03/0ddd03be-bae5-f7ad-e5e1-55d335b2b9f3/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "娱乐",
+          "type": "deal",
+          "page": "app/cn-6758746366.html",
+          "rating": 4.05814,
+          "normal": "¥3.00",
+          "current": "¥1.00",
+          "has_iap": false,
+          "region": "cn"
+        },
+        {
           "id": "1566504157",
           "name": "天体重力 - 牛顿万有引力定律",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3b/2c/6e/3b2c6e9e-8915-8ef3-7fdc-ab16fb3421fb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
@@ -26411,18 +26438,301 @@
           "current": "免费",
           "has_iap": true,
           "region": "cn"
+        }
+      ],
+      "page": "app/cn-892393815.html"
+    },
+    {
+      "id": "6758746366",
+      "name": "全球电视 - 观看世界各地电视节目",
+      "dev": "恒盛 程",
+      "genre": "娱乐",
+      "normal": "¥3.00",
+      "current": "¥1.00",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/dd/03/0ddd03be-bae5-f7ad-e5e1-55d335b2b9f3/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "rating": 4.05814,
+      "url": "https://apps.apple.com/cn/app/%E5%85%A8%E7%90%83%E7%94%B5%E8%A7%86-%E8%A7%82%E7%9C%8B%E4%B8%96%E7%95%8C%E5%90%84%E5%9C%B0%E7%94%B5%E8%A7%86%E8%8A%82%E7%9B%AE/id6758746366?uo=4",
+      "region": "cn",
+      "type": "deal",
+      "is_new": true,
+      "series": [
+        3.0,
+        3.0,
+        3.0,
+        3.0,
+        3.0,
+        3.0,
+        3.0,
+        1.0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-21",
+          "p": 3.0
         },
         {
-          "id": "1461710896",
-          "name": "WatchAnything - 表盘",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7d/9f/14/7d9f140b-e4a3-9982-f485-f8734da1c0c4/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
-          "genre": "生活",
+          "d": "2026-10-22",
+          "p": 3.0
+        },
+        {
+          "d": "2026-10-23",
+          "p": 3.0
+        },
+        {
+          "d": "2026-10-24",
+          "p": 3.0
+        },
+        {
+          "d": "2026-10-26",
+          "p": 3.0
+        },
+        {
+          "d": "2026-10-27",
+          "p": 3.0
+        },
+        {
+          "d": "2026-10-28",
+          "p": 3.0
+        },
+        {
+          "d": "2026-10-29",
+          "p": 1.0
+        }
+      ],
+      "has_iap": false,
+      "rel": [
+        {
+          "id": "6789210972",
+          "name": "Cozy Drive - Chill Car Driving",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/94/1a/39/941a3949-619f-1f5a-6cd8-0d9b41b0032e/AppIcon-0-0-1x_U007epad-0-1-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "游戏",
           "type": "free",
-          "page": "app/cn-1461710896.html",
-          "rating": 3.46154,
-          "normal": "¥1.99",
+          "page": "app/cn-6789210972.html",
+          "rating": 5,
+          "normal": "¥2.99",
           "current": "免费",
           "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6753138898",
+          "name": "SongDetect 音乐识别与播放",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e1/33/af/e133af41-8865-5cda-a631-a6558ec5e569/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+          "genre": "音乐",
+          "type": "free",
+          "page": "app/cn-6753138898.html",
+          "rating": 5,
+          "normal": "¥0.99",
+          "current": "免费",
+          "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6745524323",
+          "name": "Time@Location",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1a/12/ce/1a12ce5b-b2fd-d4ff-b1c8-16c325119dfe/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "效率",
+          "type": "free",
+          "page": "app/cn-6745524323.html",
+          "rating": 5,
+          "normal": "¥28.00",
+          "current": "免费",
+          "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6758896883",
+          "name": "airosphere: breathe your way",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/60/8d/d2/608dd272-ff6d-22bc-72dc-0a3e1ec723a8/AppIcon-0-0-1x_U007ephone-0-1-85-220.jpeg/512x512bb.jpg",
+          "genre": "健康健美",
+          "type": "free",
+          "page": "app/cn-6758896883.html",
+          "rating": 5,
+          "normal": "¥8.00",
+          "current": "免费",
+          "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6758016252",
+          "name": "今天好吗",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b6/6c/9a/b66c9aed-c5ea-becf-2be4-e810158f8b23/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "工具",
+          "type": "free",
+          "page": "app/cn-6758016252.html",
+          "rating": 5,
+          "normal": "¥1.00",
+          "current": "免费",
+          "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "639359472",
+          "name": "疯狂点击世界赛",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4d/57/81/4d578145-1ff4-6b24-c347-3d5be1489991/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.jpeg/512x512bb.jpg",
+          "genre": "娱乐",
+          "type": "free",
+          "page": "app/cn-639359472.html",
+          "rating": 5,
+          "normal": "¥28.00",
+          "current": "免费",
+          "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "454083579",
+          "name": "食棋",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/29/ea/f0/29eaf0a0-f12a-9d6e-ac92-1d99123a3c54/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/512x512bb.jpg",
+          "genre": "娱乐",
+          "type": "free",
+          "page": "app/cn-454083579.html",
+          "rating": 5,
+          "normal": "¥22.00",
+          "current": "免费",
+          "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "1661609052",
+          "name": "可视化元素周期表 - 化学元素图谱",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6f/94/4e/6f944e9b-7f4f-7b7c-8cbd-8c8bf7e4fa22/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "教育",
+          "type": "free",
+          "page": "app/cn-1661609052.html",
+          "rating": 4.97368,
+          "normal": "¥15.00",
+          "current": "免费",
+          "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "1515294700",
+          "name": "鼠标·键盘",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/88/4d/9c/884d9cf5-255a-e901-f437-b12d9f9eb32d/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "效率",
+          "type": "free",
+          "page": "app/cn-1515294700.html",
+          "rating": 4.86581,
+          "normal": "¥22.00",
+          "current": "免费",
+          "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "892393815",
+          "name": "录音机 - AVR PRO",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/b6/82/5eb682b5-7f85-a130-942c-3de61de222b5/AppIcon_PRO-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "商务",
+          "type": "deal",
+          "page": "app/cn-892393815.html",
+          "rating": 4.7268,
+          "normal": "¥28.00",
+          "current": "¥8.00",
+          "has_iap": null,
+          "region": "cn"
+        },
+        {
+          "id": "488674899",
+          "name": "实时天气雷达Pro - 降雨预报",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/c0/71/d7c071ab-5436-0659-cec6-f29fc53ac0a2/AppIcon-Full-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "天气",
+          "type": "free",
+          "page": "app/cn-488674899.html",
+          "rating": 4.60968,
+          "normal": "¥118.00",
+          "current": "免费",
+          "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "6759275171",
+          "name": "翻页时钟天气 : AeroFlap AI+",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/96/7c/c6/967cc6ea-1dd0-c5de-3b9f-021ee86b8fe6/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "效率",
+          "type": "free",
+          "page": "app/cn-6759275171.html",
+          "rating": 4.5,
+          "normal": "¥8.00",
+          "current": "免费",
+          "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "627038315",
+          "name": "Geo Tracker: GPS Tracking",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8c/fb/90/8cfb902b-41d5-3162-890e-84c22aae4fb3/GeoTrackerIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+          "genre": "导航",
+          "type": "free",
+          "page": "app/cn-627038315.html",
+          "rating": 4.33333,
+          "normal": "¥8.00",
+          "current": "免费",
+          "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "507828762",
+          "name": "超级坦克大战 (Super Tank Battle)",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/eb/24/5c/eb245c84-220a-2920-96f5-71008c3850b4/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/512x512bb.jpg",
+          "genre": "娱乐",
+          "type": "free",
+          "page": "app/cn-507828762.html",
+          "rating": 4.2195,
+          "normal": "¥10.00",
+          "current": "免费",
+          "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "1071029816",
+          "name": "英文字母 - 学习英语字母发音和书写入门基础教程",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/06/7c/2b/067c2b68-26e7-3cf8-f0e4-30451b86829e/AppIcon-1x_U007emarketing-0-8-0-0-85-220-0.png/512x512bb.jpg",
+          "genre": "教育",
+          "type": "free",
+          "page": "app/cn-1071029816.html",
+          "rating": 4.20388,
+          "normal": "¥18.00",
+          "current": "免费",
+          "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "1247126338",
+          "name": "思维简图PSP导图笔记创意记事本最强大脑记忆神器备忘录",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple127/v4/6b/45/f8/6b45f8cf-0073-9e11-e979-e06402573f53/pr_source.png/512x512bb.jpg",
+          "genre": "工具",
+          "type": "free",
+          "page": "app/cn-1247126338.html",
+          "rating": 4.2,
+          "normal": "¥8.00",
+          "current": "免费",
+          "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "843807285",
+          "name": "酷酷鱼",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple/v4/d9/ea/7b/d9ea7bb6-f370-b71b-f9d7-3d3e4f7d145c/mzl.tqefnvmj.png/512x512bb.jpg",
+          "genre": "游戏",
+          "type": "free",
+          "page": "app/cn-843807285.html",
+          "rating": 4.13333,
+          "normal": "¥0.99",
+          "current": "免费",
+          "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "1566504157",
+          "name": "天体重力 - 牛顿万有引力定律",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3b/2c/6e/3b2c6e9e-8915-8ef3-7fdc-ab16fb3421fb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "娱乐",
+          "type": "free",
+          "page": "app/cn-1566504157.html",
+          "rating": 3.84474,
+          "normal": "¥78.00",
+          "current": "免费",
+          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -26620,6 +26930,19 @@
           "region": "cn"
         },
         {
+          "id": "892393815",
+          "name": "录音机 - AVR PRO",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/b6/82/5eb682b5-7f85-a130-942c-3de61de222b5/AppIcon_PRO-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "商务",
+          "type": "deal",
+          "page": "app/cn-892393815.html",
+          "rating": 4.7268,
+          "normal": "¥28.00",
+          "current": "¥8.00",
+          "has_iap": null,
+          "region": "cn"
+        },
+        {
           "id": "488674899",
           "name": "实时天气雷达Pro - 降雨预报",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/c0/71/d7c071ab-5436-0659-cec6-f29fc53ac0a2/AppIcon-Full-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
@@ -26721,19 +27044,6 @@
           "normal": "¥3.00",
           "current": "¥1.00",
           "has_iap": false,
-          "region": "cn"
-        },
-        {
-          "id": "1566504157",
-          "name": "天体重力 - 牛顿万有引力定律",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3b/2c/6e/3b2c6e9e-8915-8ef3-7fdc-ab16fb3421fb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-          "genre": "娱乐",
-          "type": "free",
-          "page": "app/cn-1566504157.html",
-          "rating": 3.84474,
-          "normal": "¥78.00",
-          "current": "免费",
-          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -26931,6 +27241,19 @@
           "region": "cn"
         },
         {
+          "id": "892393815",
+          "name": "录音机 - AVR PRO",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/b6/82/5eb682b5-7f85-a130-942c-3de61de222b5/AppIcon_PRO-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "商务",
+          "type": "deal",
+          "page": "app/cn-892393815.html",
+          "rating": 4.7268,
+          "normal": "¥28.00",
+          "current": "¥8.00",
+          "has_iap": null,
+          "region": "cn"
+        },
+        {
           "id": "488674899",
           "name": "实时天气雷达Pro - 降雨预报",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/c0/71/d7c071ab-5436-0659-cec6-f29fc53ac0a2/AppIcon-Full-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
@@ -27033,19 +27356,6 @@
           "current": "¥1.00",
           "has_iap": false,
           "region": "cn"
-        },
-        {
-          "id": "1566504157",
-          "name": "天体重力 - 牛顿万有引力定律",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3b/2c/6e/3b2c6e9e-8915-8ef3-7fdc-ab16fb3421fb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-          "genre": "娱乐",
-          "type": "free",
-          "page": "app/cn-1566504157.html",
-          "rating": 3.84474,
-          "normal": "¥78.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
         }
       ],
       "page": "app/cn-6816555427.html"
@@ -27058,7 +27368,7 @@
       "normal": "¥3.00",
       "current": "¥1.00",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/cf/b4/61/cfb4610e-f357-54dd-fcbc-99c881c4ad58/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-      "rating": 4.90116,
+      "rating": 4.90172,
       "url": "https://apps.apple.com/cn/app/%E9%80%BB%E8%BE%91%E8%AE%AD%E7%BB%83-%E6%89%AB%E9%9B%B7%E6%97%A0%E5%B9%BF%E5%91%8A-2048-%E6%95%B0%E7%8B%AC-%E5%8D%8E%E5%AE%B9%E9%81%93-%E4%BF%84%E7%BD%97%E6%96%AF%E6%96%B9%E5%9D%97%E7%BB%8F%E5%85%B8/id6756371706?uo=4",
       "region": "cn",
       "type": "deal",
@@ -27242,6 +27552,19 @@
           "region": "cn"
         },
         {
+          "id": "892393815",
+          "name": "录音机 - AVR PRO",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/b6/82/5eb682b5-7f85-a130-942c-3de61de222b5/AppIcon_PRO-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "商务",
+          "type": "deal",
+          "page": "app/cn-892393815.html",
+          "rating": 4.7268,
+          "normal": "¥28.00",
+          "current": "¥8.00",
+          "has_iap": null,
+          "region": "cn"
+        },
+        {
           "id": "488674899",
           "name": "实时天气雷达Pro - 降雨预报",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/c0/71/d7c071ab-5436-0659-cec6-f29fc53ac0a2/AppIcon-Full-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
@@ -27343,19 +27666,6 @@
           "normal": "¥3.00",
           "current": "¥1.00",
           "has_iap": false,
-          "region": "cn"
-        },
-        {
-          "id": "1566504157",
-          "name": "天体重力 - 牛顿万有引力定律",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3b/2c/6e/3b2c6e9e-8915-8ef3-7fdc-ab16fb3421fb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-          "genre": "娱乐",
-          "type": "free",
-          "page": "app/cn-1566504157.html",
-          "rating": 3.84474,
-          "normal": "¥78.00",
-          "current": "免费",
-          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -27538,6 +27848,19 @@
           "region": "cn"
         },
         {
+          "id": "892393815",
+          "name": "录音机 - AVR PRO",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/b6/82/5eb682b5-7f85-a130-942c-3de61de222b5/AppIcon_PRO-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "商务",
+          "type": "deal",
+          "page": "app/cn-892393815.html",
+          "rating": 4.7268,
+          "normal": "¥28.00",
+          "current": "¥8.00",
+          "has_iap": null,
+          "region": "cn"
+        },
+        {
           "id": "488674899",
           "name": "实时天气雷达Pro - 降雨预报",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/c0/71/d7c071ab-5436-0659-cec6-f29fc53ac0a2/AppIcon-Full-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
@@ -27639,19 +27962,6 @@
           "normal": "¥3.00",
           "current": "¥1.00",
           "has_iap": false,
-          "region": "cn"
-        },
-        {
-          "id": "1566504157",
-          "name": "天体重力 - 牛顿万有引力定律",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3b/2c/6e/3b2c6e9e-8915-8ef3-7fdc-ab16fb3421fb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-          "genre": "娱乐",
-          "type": "free",
-          "page": "app/cn-1566504157.html",
-          "rating": 3.84474,
-          "normal": "¥78.00",
-          "current": "免费",
-          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -27849,6 +28159,19 @@
           "region": "cn"
         },
         {
+          "id": "892393815",
+          "name": "录音机 - AVR PRO",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/b6/82/5eb682b5-7f85-a130-942c-3de61de222b5/AppIcon_PRO-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "商务",
+          "type": "deal",
+          "page": "app/cn-892393815.html",
+          "rating": 4.7268,
+          "normal": "¥28.00",
+          "current": "¥8.00",
+          "has_iap": null,
+          "region": "cn"
+        },
+        {
           "id": "488674899",
           "name": "实时天气雷达Pro - 降雨预报",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/c0/71/d7c071ab-5436-0659-cec6-f29fc53ac0a2/AppIcon-Full-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
@@ -27950,19 +28273,6 @@
           "normal": "¥3.00",
           "current": "¥1.00",
           "has_iap": false,
-          "region": "cn"
-        },
-        {
-          "id": "1566504157",
-          "name": "天体重力 - 牛顿万有引力定律",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3b/2c/6e/3b2c6e9e-8915-8ef3-7fdc-ab16fb3421fb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-          "genre": "娱乐",
-          "type": "free",
-          "page": "app/cn-1566504157.html",
-          "rating": 3.84474,
-          "normal": "¥78.00",
-          "current": "免费",
-          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -28145,6 +28455,19 @@
           "region": "cn"
         },
         {
+          "id": "892393815",
+          "name": "录音机 - AVR PRO",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/b6/82/5eb682b5-7f85-a130-942c-3de61de222b5/AppIcon_PRO-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "商务",
+          "type": "deal",
+          "page": "app/cn-892393815.html",
+          "rating": 4.7268,
+          "normal": "¥28.00",
+          "current": "¥8.00",
+          "has_iap": null,
+          "region": "cn"
+        },
+        {
           "id": "488674899",
           "name": "实时天气雷达Pro - 降雨预报",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/c0/71/d7c071ab-5436-0659-cec6-f29fc53ac0a2/AppIcon-Full-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
@@ -28246,19 +28569,6 @@
           "normal": "¥3.00",
           "current": "¥1.00",
           "has_iap": false,
-          "region": "cn"
-        },
-        {
-          "id": "1566504157",
-          "name": "天体重力 - 牛顿万有引力定律",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3b/2c/6e/3b2c6e9e-8915-8ef3-7fdc-ab16fb3421fb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-          "genre": "娱乐",
-          "type": "free",
-          "page": "app/cn-1566504157.html",
-          "rating": 3.84474,
-          "normal": "¥78.00",
-          "current": "免费",
-          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -28456,6 +28766,19 @@
           "region": "cn"
         },
         {
+          "id": "892393815",
+          "name": "录音机 - AVR PRO",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/b6/82/5eb682b5-7f85-a130-942c-3de61de222b5/AppIcon_PRO-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "商务",
+          "type": "deal",
+          "page": "app/cn-892393815.html",
+          "rating": 4.7268,
+          "normal": "¥28.00",
+          "current": "¥8.00",
+          "has_iap": null,
+          "region": "cn"
+        },
+        {
           "id": "488674899",
           "name": "实时天气雷达Pro - 降雨预报",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/c0/71/d7c071ab-5436-0659-cec6-f29fc53ac0a2/AppIcon-Full-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
@@ -28557,19 +28880,6 @@
           "normal": "¥3.00",
           "current": "¥1.00",
           "has_iap": false,
-          "region": "cn"
-        },
-        {
-          "id": "1566504157",
-          "name": "天体重力 - 牛顿万有引力定律",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3b/2c/6e/3b2c6e9e-8915-8ef3-7fdc-ab16fb3421fb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-          "genre": "娱乐",
-          "type": "free",
-          "page": "app/cn-1566504157.html",
-          "rating": 3.84474,
-          "normal": "¥78.00",
-          "current": "免费",
-          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -28767,6 +29077,19 @@
           "region": "cn"
         },
         {
+          "id": "892393815",
+          "name": "录音机 - AVR PRO",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/b6/82/5eb682b5-7f85-a130-942c-3de61de222b5/AppIcon_PRO-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "商务",
+          "type": "deal",
+          "page": "app/cn-892393815.html",
+          "rating": 4.7268,
+          "normal": "¥28.00",
+          "current": "¥8.00",
+          "has_iap": null,
+          "region": "cn"
+        },
+        {
           "id": "488674899",
           "name": "实时天气雷达Pro - 降雨预报",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/c0/71/d7c071ab-5436-0659-cec6-f29fc53ac0a2/AppIcon-Full-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
@@ -28868,19 +29191,6 @@
           "normal": "¥3.00",
           "current": "¥1.00",
           "has_iap": false,
-          "region": "cn"
-        },
-        {
-          "id": "1566504157",
-          "name": "天体重力 - 牛顿万有引力定律",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3b/2c/6e/3b2c6e9e-8915-8ef3-7fdc-ab16fb3421fb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-          "genre": "娱乐",
-          "type": "free",
-          "page": "app/cn-1566504157.html",
-          "rating": 3.84474,
-          "normal": "¥78.00",
-          "current": "免费",
-          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -29078,6 +29388,19 @@
           "region": "cn"
         },
         {
+          "id": "892393815",
+          "name": "录音机 - AVR PRO",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/b6/82/5eb682b5-7f85-a130-942c-3de61de222b5/AppIcon_PRO-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "商务",
+          "type": "deal",
+          "page": "app/cn-892393815.html",
+          "rating": 4.7268,
+          "normal": "¥28.00",
+          "current": "¥8.00",
+          "has_iap": null,
+          "region": "cn"
+        },
+        {
           "id": "488674899",
           "name": "实时天气雷达Pro - 降雨预报",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/c0/71/d7c071ab-5436-0659-cec6-f29fc53ac0a2/AppIcon-Full-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
@@ -29179,19 +29502,6 @@
           "normal": "¥3.00",
           "current": "¥1.00",
           "has_iap": false,
-          "region": "cn"
-        },
-        {
-          "id": "1566504157",
-          "name": "天体重力 - 牛顿万有引力定律",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3b/2c/6e/3b2c6e9e-8915-8ef3-7fdc-ab16fb3421fb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-          "genre": "娱乐",
-          "type": "free",
-          "page": "app/cn-1566504157.html",
-          "rating": 3.84474,
-          "normal": "¥78.00",
-          "current": "免费",
-          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -29389,6 +29699,19 @@
           "region": "cn"
         },
         {
+          "id": "892393815",
+          "name": "录音机 - AVR PRO",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/b6/82/5eb682b5-7f85-a130-942c-3de61de222b5/AppIcon_PRO-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "商务",
+          "type": "deal",
+          "page": "app/cn-892393815.html",
+          "rating": 4.7268,
+          "normal": "¥28.00",
+          "current": "¥8.00",
+          "has_iap": null,
+          "region": "cn"
+        },
+        {
           "id": "488674899",
           "name": "实时天气雷达Pro - 降雨预报",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/c0/71/d7c071ab-5436-0659-cec6-f29fc53ac0a2/AppIcon-Full-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
@@ -29490,19 +29813,6 @@
           "normal": "¥3.00",
           "current": "¥1.00",
           "has_iap": false,
-          "region": "cn"
-        },
-        {
-          "id": "1566504157",
-          "name": "天体重力 - 牛顿万有引力定律",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3b/2c/6e/3b2c6e9e-8915-8ef3-7fdc-ab16fb3421fb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-          "genre": "娱乐",
-          "type": "free",
-          "page": "app/cn-1566504157.html",
-          "rating": 3.84474,
-          "normal": "¥78.00",
-          "current": "免费",
-          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -29700,6 +30010,19 @@
           "region": "cn"
         },
         {
+          "id": "892393815",
+          "name": "录音机 - AVR PRO",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/b6/82/5eb682b5-7f85-a130-942c-3de61de222b5/AppIcon_PRO-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "商务",
+          "type": "deal",
+          "page": "app/cn-892393815.html",
+          "rating": 4.7268,
+          "normal": "¥28.00",
+          "current": "¥8.00",
+          "has_iap": null,
+          "region": "cn"
+        },
+        {
           "id": "488674899",
           "name": "实时天气雷达Pro - 降雨预报",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/c0/71/d7c071ab-5436-0659-cec6-f29fc53ac0a2/AppIcon-Full-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
@@ -29801,19 +30124,6 @@
           "normal": "¥3.00",
           "current": "¥1.00",
           "has_iap": false,
-          "region": "cn"
-        },
-        {
-          "id": "1566504157",
-          "name": "天体重力 - 牛顿万有引力定律",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3b/2c/6e/3b2c6e9e-8915-8ef3-7fdc-ab16fb3421fb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-          "genre": "娱乐",
-          "type": "free",
-          "page": "app/cn-1566504157.html",
-          "rating": 3.84474,
-          "normal": "¥78.00",
-          "current": "免费",
-          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -30011,6 +30321,19 @@
           "region": "cn"
         },
         {
+          "id": "892393815",
+          "name": "录音机 - AVR PRO",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/b6/82/5eb682b5-7f85-a130-942c-3de61de222b5/AppIcon_PRO-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "商务",
+          "type": "deal",
+          "page": "app/cn-892393815.html",
+          "rating": 4.7268,
+          "normal": "¥28.00",
+          "current": "¥8.00",
+          "has_iap": null,
+          "region": "cn"
+        },
+        {
           "id": "488674899",
           "name": "实时天气雷达Pro - 降雨预报",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/c0/71/d7c071ab-5436-0659-cec6-f29fc53ac0a2/AppIcon-Full-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
@@ -30112,19 +30435,6 @@
           "normal": "¥3.00",
           "current": "¥1.00",
           "has_iap": false,
-          "region": "cn"
-        },
-        {
-          "id": "1566504157",
-          "name": "天体重力 - 牛顿万有引力定律",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3b/2c/6e/3b2c6e9e-8915-8ef3-7fdc-ab16fb3421fb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-          "genre": "娱乐",
-          "type": "free",
-          "page": "app/cn-1566504157.html",
-          "rating": 3.84474,
-          "normal": "¥78.00",
-          "current": "免费",
-          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -30317,6 +30627,19 @@
           "region": "cn"
         },
         {
+          "id": "892393815",
+          "name": "录音机 - AVR PRO",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/b6/82/5eb682b5-7f85-a130-942c-3de61de222b5/AppIcon_PRO-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+          "genre": "商务",
+          "type": "deal",
+          "page": "app/cn-892393815.html",
+          "rating": 4.7268,
+          "normal": "¥28.00",
+          "current": "¥8.00",
+          "has_iap": null,
+          "region": "cn"
+        },
+        {
           "id": "488674899",
           "name": "实时天气雷达Pro - 降雨预报",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/c0/71/d7c071ab-5436-0659-cec6-f29fc53ac0a2/AppIcon-Full-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
@@ -30418,19 +30741,6 @@
           "normal": "¥3.00",
           "current": "¥1.00",
           "has_iap": false,
-          "region": "cn"
-        },
-        {
-          "id": "1566504157",
-          "name": "天体重力 - 牛顿万有引力定律",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3b/2c/6e/3b2c6e9e-8915-8ef3-7fdc-ab16fb3421fb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-          "genre": "娱乐",
-          "type": "free",
-          "page": "app/cn-1566504157.html",
-          "rating": 3.84474,
-          "normal": "¥78.00",
-          "current": "免费",
-          "has_iap": true,
           "region": "cn"
         }
       ],

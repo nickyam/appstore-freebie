@@ -1,6 +1,24 @@
 {
   "updated": "2026-10-29",
   "region": "us",
-  "count": 0,
-  "events": []
+  "count": 1,
+  "events": [
+    {
+      "app_id": "6741730996",
+      "app_name": "SpeedTest: WIFI Speed Test",
+      "iap": "PRO lifetime",
+      "price": "$0.00",
+      "free_since": "2026-10-29",
+      "days_free": 0,
+      "last_paid_date": "2026-10-29",
+      "last_paid_price": "$0.99",
+      "url": "https://apps.apple.com/us/app/speedtest-wifi-speed-test/id6741730996?uo=4",
+      "rating": 4.16667,
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/db/8e/31/db8e3159-0810-3150-2658-209f493efcb9/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+      "dev": "Wuhan Yuhang Technology Co., Ltd",
+      "genre": "Productivity",
+      "app_price": "Free",
+      "page": "app/us-6741730996.html"
+    }
+  ]
 }
