@@ -55,7 +55,7 @@ python3 scripts/generate.py --country us
 - `index.html` / `robots.txt` / `sitemap.xml` 内已写入该域名，无需再改。
 
 ### 3. 启用每日更新
-- 主跑批 `daily.yml`（每日 02:13/08:13/14:13/20:13 北京 4 班）与全量回查 `daily-full.yml`（每日 04:00 北京）均由阿里云 ECS 在精确北京时刻调用 GitHub `workflow_dispatch` 触发（绕过免费 runner 的排队延迟），不再依赖 GitHub 自带 cron。
+- 主跑批 `daily.yml`（每日 00:00/06:00/12:00/18:00 北京 4 班）与全量回查 `daily-full.yml`（每日 03:30 北京）均由阿里云 ECS 在精确北京时刻调用 GitHub `workflow_dispatch` 触发（绕过免费 runner 的排队延迟），不再依赖 GitHub 自带 cron。
 - 也可在 Actions 页面手动 **Run workflow** 立即跑一次。
 - 每次 Actions 提交 `data/free-today-*.json` 会触发 Pages 重新部署（自动）。
 
@@ -89,7 +89,7 @@ python3 scripts/generate.py --country us
   `GROSS_LIMIT`（每分类畅销榜条数）、`FREE_LIMIT`（免费榜条数）、`APP_PAGE_MAX_AGE_DAYS`（独立页过期清理天数，默认 365）、`HISTORY_MAX_ENTRIES`（价格库软上限，默认 50000）、
   `DEAL_DROP_PCT`（降价判定降幅阈值）、`MAX_DISPLAY`（前端最多展示的限免/特价数）均可调。
   > 注：原 `HISTORY_DAYS` 常量已废弃移除——价格历史改为「每 App 每区独立快照 + 30 天基线」持久化，不再按总天数裁剪。
-- **改调度频率**：生成节奏由 ECS 的 `/etc/cron.d/freebie-dispatch`（daily.yml 每日 4 班 02:13/08:13/14:13/20:13 北京）与 `/etc/cron.d/freebie-dispatch-full`（daily-full.yml 每日 04:00 北京）控制，镜像同步 `/etc/cron.d/freebie-sync` 每 2 小时拉取一次即可；调度都在 ECS 的 `/etc/cron.d/` 下，改频率直接改对应文件，无需动 GitHub cron。
+- **改调度频率**：生成节奏由 ECS 的 `/etc/cron.d/freebie-dispatch`（daily.yml 每日 4 班 00:00/06:00/12:00/18:00 北京）与 `/etc/cron.d/freebie-dispatch-full`（daily-full.yml 每日 03:30 北京）控制，镜像同步 `/etc/cron.d/freebie-sync` 每 2 小时拉取一次即可；调度都在 ECS 的 `/etc/cron.d/` 下，改频率直接改对应文件，无需动 GitHub cron。
 - **出英文版拉海外流量**：复制一套 `index.html` 文案为英文，可抬高 AdSense RPM（中国区流量 RPM 偏低）。
 
 ---

@@ -45,7 +45,7 @@ TITLE_RE = re.compile(r'<title>(.*?)</title>', re.S)
 FREE_WINDOW = 7  # 连续免费 ≤7 天算有效限免事件；超过则过期（与 app 限免同逻辑）
 ITUNES_LOOKUP = "https://itunes.apple.com/lookup?id={ids}&country={region}&limit=200"
 
-# 播种班(UTC 00/01)全量热点扫描上限。必须与 .github/workflows/daily.yml 播种班 LIMIT
+# 播种班(UTC 22/23)全量热点扫描上限。必须与 .github/workflows/daily.yml 播种班 LIMIT
 # 保持一致（AGENTS.md 铁律 7 安全阀）：主池按"最近变价"降序后，LIMIT 名额优先覆盖
 # 近期变价 App；一旦"有 IAP 的 app 数"接近/超过此值，播种班就开始裁掉变价较旧的
 # IAP-app，可能漏检限免。监控池规模变更时要一并调大。

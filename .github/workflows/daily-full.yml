@@ -5,7 +5,7 @@ name: daily-freebie-full
 # 常规班次(daily.yml)每 6 小时只扫「榜单 App + 促销中可能掉榜的库内 App」，速度快；
 # 但纯长尾/已掉榜 App 的缓慢价格变化（如悄悄恢复原价、悄悄下架）不会被常规班次捕捉。
 # 本工作流每日一班对「永久 App 库」做全量回查(--full)，抓长尾 + 累计 miss 触发下架清理。
-# 由 ECS 在北京时间 04:00 精点触发（workflow_dispatch），夹在 02:13 班收工与 08:13 播种班之间，左右缓冲 40min / 2h+。
+# 由 ECS 在北京时间 03:30 精点触发（workflow_dispatch），夹在 00:00 班收工与 06:00 班之间，左右缓冲约 2.5h / 2.5h。
 on:
   workflow_dispatch: {}
 
