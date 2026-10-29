@@ -535,10 +535,14 @@
     }
     var grid = el('div', 'grid');
     data.forEach(function (a, i) {
+      if (INFEED_AD_INTERVAL > 0 && i > 0 && i % INFEED_AD_INTERVAL === 0) {
+        grid.appendChild(infeedAdNode());
+      }
       grid.appendChild(appCard(a, kind));
     });
     box.appendChild(grid);
-    // 列表中部广告位已交由 Auto Ads（页面级自动广告）托管，不再手动插入。
+    pushAdsIn(grid);
+    // 列表中部按固定间隔手动插入信息流原生广告（in-feed），比自动广告更可控、更无缝。
   }
 
   // ===== 内购限免（P2，已上线 main）=====
@@ -725,13 +729,17 @@
       return;
     }
     var grid = el('div', 'grid');
-    feed.forEach(function (it) {
+    feed.forEach(function (it, i) {
+      if (INFEED_AD_INTERVAL > 0 && i > 0 && i % INFEED_AD_INTERVAL === 0) {
+        grid.appendChild(infeedAdNode());
+      }
       grid.appendChild(iapCard(it, getRegion(), it.__isEvent));
     });
     box.appendChild(grid);
+    pushAdsIn(grid);
   }
 
-  // 注：原列表中部手动广告逻辑已移除，中部广告改由 Google 自动广告补充。
+  // 注：列表中部信息流广告改由固定间隔手动插入（in-feed，见 infeedAdNode / INFEED_AD_INTERVAL），比自动广告更可控。
 
   // ===== 筛选 =====
   // 计算条目已处于当前状态（限免/现价）的天数：series 为每日末价序列（旧→新，末位=今天）。
@@ -1152,6 +1160,30 @@
     if (ins) {
       try { (window.adsbygoogle = window.adsbygoogle || []).push({}); }
       catch (e) { /* 广告脚本未就绪时静默跳过，不影响正文 */ }
+    }
+  }
+
+  // 信息流原生广告（in-feed）：手动按固定间隔插入卡片网格，比 Google 自动广告更可控、更无缝。
+  // 配置项：
+  //   INFEED_AD_SLOT     —— AdSense 广告单元 ID。推荐在后台新建「信息流广告(In-feed)」单元并填这里，
+  //                        可获得自动匹配卡片样式的原生广告；暂未建时可复用顶部展示位 7735913921。
+  //   INFEED_AD_INTERVAL —— 每多少张卡片插 1 张广告（0 = 关闭）。
+  // 关闭页面级自动广告（index.html 的 enable_page_level_ads）可避免与本插入重复铺广告。
+  var INFEED_AD_SLOT = '7735913921';
+  var INFEED_AD_INTERVAL = 8;
+
+  function infeedAdNode() {
+    return el('div', 'ad-card',
+      '<ins class="adsbygoogle" style="display:block" ' +
+      'data-ad-client="ca-pub-7114121088728794" data-ad-slot="' + INFEED_AD_SLOT + '" ' +
+      'data-ad-format="auto"></ins>');
+  }
+
+  // 对刚插入 DOM 的容器内所有 ins 触发一次广告请求（动态插入的元素 Google 不会自动扫描）。
+  function pushAdsIn(container) {
+    var ins = container.querySelectorAll('ins.adsbygoogle');
+    for (var i = 0; i < ins.length; i++) {
+      try { (window.adsbygoogle = window.adsbygoogle || []).push({}); } catch (e) {}
     }
   }
 
