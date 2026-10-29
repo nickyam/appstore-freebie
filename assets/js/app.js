@@ -1164,19 +1164,29 @@
   }
 
   // 信息流原生广告（in-feed）：手动按固定间隔插入卡片网格，比 Google 自动广告更可控、更无缝。
-  // 配置项：
-  //   INFEED_AD_SLOT     —— AdSense 广告单元 ID。推荐在后台新建「信息流广告(In-feed)」单元并填这里，
-  //                        可获得自动匹配卡片样式的原生广告；暂未建时可复用顶部展示位 7735913921。
-  //   INFEED_AD_INTERVAL —— 每多少张卡片插 1 张广告（0 = 关闭）。
-  // 关闭页面级自动广告（index.html 的 enable_page_level_ads）可避免与本插入重复铺广告。
-  var INFEED_AD_SLOT = '7735913921';
-  var INFEED_AD_INTERVAL = 8;
+  // 背景：卡片由 JS 动态生成，Google 自动 feed 扫描看不到 DOM 里的 .card，扫描必然失败；
+  //       故放弃「自动扫描」方案，改用 AdSense 后台「Create ad style manually」拿到 layout-key 写死。
+  // 配置项（都在后台「信息流广告 In-feed」单元里）：
+  //   INFEED_AD_SLOT       —— 该 In-feed 单元专属的 slot ID（不要复用顶部展示位 7735913921）。
+  //   INFEED_AD_LAYOUT_KEY —— 后台「创建广告样式 > 手动」生成的布局 key（形如 "1c+3t+9h+5e"）。
+  //                          必须配合 data-ad-format="fluid" 才能渲染出匹配卡片样式的原生信息流广告。
+  //   INFEED_AD_INTERVAL   —— 每多少张卡片插 1 张广告（0 = 关闭）。
+  // 填法：在 AdSense 新建 In-feed 单元 -> 自定义样式（手动）-> 复制 slot 与 layout-key 填到下面对应变量。
+  //       若 LAYOUT_KEY 暂留空，则回退为 data-ad-format="auto"（普通展示广告，仍能展示但非真·原生）。
+  var INFEED_AD_SLOT = '1219552552';   // AdSense In-feed 单元专属 slot（非顶部展示位 7735913921）
+  var INFEED_AD_LAYOUT_KEY = '-fb+5w+4e-db+86';   // AdSense 后台「Create ad style manually」生成的 layout key
+  var INFEED_AD_INTERVAL = 10;
 
   function infeedAdNode() {
-    return el('div', 'ad-card',
-      '<ins class="adsbygoogle" style="display:block" ' +
-      'data-ad-client="ca-pub-7114121088728794" data-ad-slot="' + INFEED_AD_SLOT + '" ' +
-      'data-ad-format="auto"></ins>');
+    var attrs = 'data-ad-client="ca-pub-7114121088728794" data-ad-slot="' + INFEED_AD_SLOT + '" ';
+    if (INFEED_AD_LAYOUT_KEY) {
+      // 真·原生信息流：fluid + 手动样式 key，卡片观感与限免卡片一致，最无缝
+      attrs += 'data-ad-format="fluid" data-ad-layout-key="' + INFEED_AD_LAYOUT_KEY + '"';
+    } else {
+      // 回退：普通自适应展示广告（拿到 layout key 后替换为原生）
+      attrs += 'data-ad-format="auto" data-full-width-responsive="true"';
+    }
+    return el('div', 'ad-card', '<ins class="adsbygoogle" style="display:block" ' + attrs + '></ins>');
   }
 
   // 对刚插入 DOM 的容器内所有 ins 触发一次广告请求（动态插入的元素 Google 不会自动扫描）。
@@ -1185,6 +1195,38 @@
     for (var i = 0; i < ins.length; i++) {
       try { (window.adsbygoogle = window.adsbygoogle || []).push({}); } catch (e) {}
     }
+    watchInFeedAds(container);
+  }
+
+  // 未填充广告的自动兜底（重要）：同一个 In-feed slot 在一页里重复多次时，AdSense 通常只给前几个填充，
+  // 其余会返回 unfilled；此时 <ins> 内部塌陷高度归零，外层 .ad-card 因自带边框/内边距会变成一排空方框。
+  // 这里轮询检测：填充成功时 Google 会给 ins 写 data-ad-status="filled" 并注入 iframe；
+  // 超时仍未填充的，给外层卡片加 .ad-empty 隐藏，保持网格整洁。
+  // 合规前提：广告位必须先以可见状态 push 请求（AdSense 不允许对 display:none 的位置发起请求），
+  // 因此只做「事后隐藏」，不做「预先隐藏」。
+  var INFEED_AD_FILL_TIMEOUT = 6000;   // 判定为未填充的等待上限（毫秒）
+  var INFEED_AD_FILL_TICK = 500;       // 轮询间隔（毫秒）
+
+  function watchInFeedAds(container) {
+    var cards = container.querySelectorAll('.ad-card');
+    for (var i = 0; i < cards.length; i++) markAdCardIfEmpty(cards[i]);
+  }
+
+  function markAdCardIfEmpty(card) {
+    var ins = card.querySelector('ins.adsbygoogle');
+    if (!ins) { card.classList.add('ad-empty'); return; }
+    function filled() {
+      if (ins.getAttribute('data-ad-status') === 'filled') return true;
+      if (ins.querySelector('iframe')) return true;
+      if (ins.innerHTML && ins.innerHTML.trim()) return true;
+      return ins.offsetHeight > 0;
+    }
+    var t0 = Date.now();
+    (function tick() {
+      if (filled()) return;
+      if (Date.now() - t0 >= INFEED_AD_FILL_TIMEOUT) { card.classList.add('ad-empty'); return; }
+      setTimeout(tick, INFEED_AD_FILL_TICK);
+    })();
   }
 
   // 「同时期的其他限免」区块（独立页最底部）。

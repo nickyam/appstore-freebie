@@ -238,13 +238,17 @@ ins.adsbygoogle { background: #ececf0; border-radius: var(--radius); }
    ② 文字默认继承 a 的 accent 蓝色 → 名称等需显式指定颜色，恢复正常文本观感。 */
 .card, .card:hover { text-decoration: none; color: var(--text); }
 .card:hover { transform: translateY(-3px); box-shadow: 0 8px 24px rgba(0, 0, 0, .1); }
-/* 信息流原生广告：作为 grid 子项与普通卡片等高对齐，外观尽量贴近内容卡片，做到无缝穿插 */
+/* 信息流原生广告：作为 grid 子项与普通卡片同尺寸，外观贴合内容卡片，无缝穿插在信息流中；
+   间隔 7 时广告在 3 列网格里依次落在中/左/右列，不会竖排堆叠 */
 .ad-card {
   background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
   padding: 13px 16px; box-shadow: var(--shadow);
   display: flex; align-items: center; justify-content: center; overflow: hidden;
 }
 .ad-card ins.adsbygoogle { width: 100%; border-radius: var(--radius); }
+/* AdSense 未填充（unfilled）的广告：<ins> 内部塌陷为零高度，外层卡会显示成一个空方框。
+   由 app.js 的 watchInFeedAds 在超时后打上 .ad-empty，这里负责隐藏，保持网格整洁 */
+.ad-card.ad-empty { display: none; }
 .card img { width: 80px; height: 80px; border-radius: 18px; border: 1px solid var(--border); background: #fff; flex: none; object-fit: cover; }
 .card .iap-ico { width: 80px; height: 80px; border-radius: 18px; border: 1px solid var(--border); background: var(--surface); display: flex; align-items: center; justify-content: center; font-size: 34px; flex: none; }
 .card .info { min-width: 0; flex: 1; }

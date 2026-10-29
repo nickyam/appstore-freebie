@@ -75,12 +75,19 @@ python3 scripts/generate.py --country us
 
 ### 信息流原生广告（in-feed，手动可控）
 - 卡片网格（本体限免/特价列表、内购限免列表）按固定间隔自动插入广告卡，外观与内容卡片等高对齐，做到无缝穿插。
-- 配置在 `assets/js/app.js` 顶部附近：`INFEED_AD_SLOT`（广告单元 ID，默认复用顶部展示位 `7735913921`）、
-  `INFEED_AD_INTERVAL`（每隔多少张卡片插 1 张，默认 8，设 0 关闭）。
-- **推荐**：在 AdSense 后台新建「信息流广告(In-feed)」单元，把得到的 slot 填到 `INFEED_AD_SLOT`，
-  即可获得自动匹配卡片样式的原生广告（比复用展示位更贴近截图那种无缝效果）。
-- 为避免与 Google 自动广告重复铺量，建议在 `index.html` 把 `enable_page_level_ads: true` 改为 `false`
-  （仅首页 feed 走手动 in-feed；独立页仍保留自动广告补充）。
+- 配置在 `assets/js/app.js` 顶部附近：`INFEED_AD_SLOT`（In-feed 单元专属 slot，不要复用顶部展示位）、
+  `INFEED_AD_LAYOUT_KEY`（后台「创建广告样式 > 手动」生成的 layout key）、`INFEED_AD_INTERVAL`（每隔多少张卡片插 1 张，当前 10，设 0 关闭）。
+- **为什么不用 Google 自动扫描**：卡片由 JS 动态生成，Google 的 feed 自动扫描看不到 DOM 里的 `.card`，扫描必然失败；
+  故采用**手动样式**方案——在 AdSense 后台为 In-feed 单元「创建广告样式（手动）」拿到 layout-key，写死到 `INFEED_AD_LAYOUT_KEY`，
+  前端用 `data-ad-format="fluid" + data-ad-layout-key` 渲染出匹配卡片样式的原生信息流广告（与反斗限免那种无缝效果一致）。
+  layout-key 留空时回退为 `data-ad-format="auto"`（普通展示广告，仍能展示但非真·原生）。
+- `index.html` 已关闭页面级自动广告（`enable_page_level_ads: false`），仅首页 feed 走手动 in-feed；独立页（`app/*.html`）仍保留自动广告补充。
+- **同一个 In-feed 单元在同一页重复使用是合规的**：Google 官方说明允许把同一个 In-feed 代码在 feed 里放多次
+  （2016 年起也取消了每页广告单元数量的硬上限）。真正的副作用是**填充率**——一页请求十几次时 AdSense 往往只给前几个填充，
+  其余返回 unfilled。为此前端加了兜底：`app.js` 的 `watchInFeedAds()` 会检测每个广告位是否被填充
+  （`data-ad-status="filled"` / 注入 iframe / 高度 > 0），超过 `INFEED_AD_FILL_TIMEOUT`（默认 6 秒）仍未填充的，
+  给卡片加 `.ad-empty` 隐藏，不会留下一排空方框。
+  > 合规前提：广告位必须以**可见**状态发起请求（不能 `display:none` 后请求），所以只做「事后隐藏」。
 
 ### ⚠️ 合规要点（关系到账号生死）
 - 本页已带**原创编辑内容**（限免是什么、我们怎么算、免责声明），避免被判「薄内容 / 抓取内容」。
