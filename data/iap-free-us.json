@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-29",
+  "updated": "2026-10-30",
   "region": "us",
   "count": 1,
   "events": [
@@ -9,7 +9,7 @@
       "iap": "PRO lifetime",
       "price": "$0.00",
       "free_since": "2026-10-29",
-      "days_free": 0,
+      "days_free": 1,
       "last_paid_date": "2026-10-29",
       "last_paid_price": "$0.99",
       "url": "https://apps.apple.com/us/app/speedtest-wifi-speed-test/id6741730996?uo=4",
