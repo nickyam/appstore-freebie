@@ -39,6 +39,14 @@
 6. **资源版本号机制**
    HTML 里的 `?v=` 由 generate.py 的 stamp_asset_version() 按 assets/js/app.js 与 assets/css/style.css 的内容哈希自动生成。
    不要手工改 HTML 里的 ?v=。改了 JS/CSS 后要重跑 generate（或手动刷新资源戳），否则缓存不失效、线上发旧版。
+   - **🔴 本地改 JS/CSS 时，严禁本地人工批量 bump 全站 HTML 的版本号（2026-10-29 事故）**：
+     本地若把 530 个 HTML 的 `?v=` 全部改掉并提交，必然与 CI 的 `daily: App Store 限免更新` 提交
+     改在同一行 → **每次 pull 都是 530 个冲突文件**，GitHub Desktop 直接卡死（实测 2026-10-29）。
+   - 正确做法：**本地只提交源码**（scripts/、assets/、README、index.html 等静态源文件），
+     版本号交给 CI 跑批时自动 bump。若急需线上生效，手动 dispatch 一次 daily 即可。
+   - `app/*.html` 是 CI 生成产物，本地无论怎么改都会被 CI 下次跑批覆盖，**永远不要提交它们**。
+   - index.html / about.html / 404.html / privacy.html / terms.html / app-page.html 是静态源文件
+     （stamp 只改写 `?v=` 行，其余内容保留），功能开关要改在这里而不是产物里。
 
 7. **分级调度的 limit 是安全阀，必须随池增长回顾（2026-10-27）**
    - 主池按"最近变价日"降序；播种班(UTC 22/23) limit=4500、其余班 2000。
