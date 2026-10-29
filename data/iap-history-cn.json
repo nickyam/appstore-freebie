@@ -79896,7 +79896,7 @@
       "region": "cn",
       "first_date": "2026-10-23",
       "first_price": "¥38.00",
-      "last_date": "2026-10-29",
+      "last_date": "2026-10-30",
       "last_price": "¥38.00",
       "last_change_date": "2026-10-23",
       "ever_paid": true,
@@ -79913,7 +79913,7 @@
       "region": "cn",
       "first_date": "2026-10-23",
       "first_price": "¥73.00",
-      "last_date": "2026-10-29",
+      "last_date": "2026-10-30",
       "last_price": "¥73.00",
       "last_change_date": "2026-10-23",
       "ever_paid": true,
@@ -79931,7 +79931,7 @@
       "first_date": "2026-10-23",
       "first_price": "¥48.00",
       "last_date": "2026-10-30",
-      "last_price": "¥408.00",
+      "last_price": "¥48.00",
       "last_change_date": "2026-10-30",
       "ever_paid": true,
       "last_paid_date": "2026-10-30",
@@ -79939,7 +79939,7 @@
       "changes": {
         "2026-10-23": "¥48.00",
         "2026-10-29": "¥48.00",
-        "2026-10-30": "¥408.00"
+        "2026-10-30": "¥48.00"
       }
     },
     "1036725690::语音翻译高级版": {
@@ -79950,7 +79950,7 @@
       "first_date": "2026-10-23",
       "first_price": "¥38.00",
       "last_date": "2026-10-30",
-      "last_price": "¥298.00",
+      "last_price": "¥293.00",
       "last_change_date": "2026-10-30",
       "ever_paid": true,
       "last_paid_date": "2026-10-30",
@@ -79962,7 +79962,7 @@
         "2026-10-26": "¥293.00",
         "2026-10-27": "¥293.00",
         "2026-10-28": "¥293.00",
-        "2026-10-30": "¥298.00"
+        "2026-10-30": "¥293.00"
       }
     },
     "1036725690::包年翻译官高级版": {
@@ -159128,7 +159128,7 @@
       "first_date": "2026-10-27",
       "first_price": "¥168.00",
       "last_date": "2026-10-30",
-      "last_price": "¥168.00",
+      "last_price": "¥368.00",
       "last_change_date": "2026-10-30",
       "ever_paid": true,
       "last_paid_date": "2026-10-30",
@@ -159136,7 +159136,7 @@
       "changes": {
         "2026-10-27": "¥368.00",
         "2026-10-28": "¥368.00",
-        "2026-10-30": "¥168.00"
+        "2026-10-30": "¥368.00"
       }
     },
     "6480382728::VIP for year": {
@@ -221642,14 +221642,15 @@
       "first_date": "2026-10-27",
       "first_price": "¥588.00",
       "last_date": "2026-10-30",
-      "last_price": "¥708.00",
-      "last_change_date": "2026-10-28",
+      "last_price": "¥688.00",
+      "last_change_date": "2026-10-30",
       "ever_paid": true,
-      "last_paid_date": "2026-10-28",
+      "last_paid_date": "2026-10-30",
       "free_since": null,
       "changes": {
         "2026-10-27": "¥698.00",
-        "2026-10-28": "¥708.00"
+        "2026-10-28": "¥708.00",
+        "2026-10-30": "¥688.00"
       }
     },
     "1286609883::Speak Premium Plus": {
@@ -221679,14 +221680,15 @@
       "first_date": "2026-10-27",
       "first_price": "¥88.00",
       "last_date": "2026-10-30",
-      "last_price": "¥158.00",
-      "last_change_date": "2026-10-28",
+      "last_price": "¥163.00",
+      "last_change_date": "2026-10-30",
       "ever_paid": true,
-      "last_paid_date": "2026-10-28",
+      "last_paid_date": "2026-10-30",
       "free_since": null,
       "changes": {
         "2026-10-27": "¥158.00",
-        "2026-10-28": "¥158.00"
+        "2026-10-28": "¥158.00",
+        "2026-10-30": "¥163.00"
       }
     },
     "1286609883::年度 Premium Plus 版": {
@@ -251941,15 +251943,16 @@
       "first_date": "2026-10-27",
       "first_price": "¥10.00",
       "last_date": "2026-10-30",
-      "last_price": "¥20.00",
-      "last_change_date": "2026-10-29",
+      "last_price": "¥130.00",
+      "last_change_date": "2026-10-30",
       "ever_paid": true,
-      "last_paid_date": "2026-10-29",
+      "last_paid_date": "2026-10-30",
       "free_since": null,
       "changes": {
         "2026-10-27": "¥15.00",
         "2026-10-28": "¥15.00",
-        "2026-10-29": "¥20.00"
+        "2026-10-29": "¥20.00",
+        "2026-10-30": "¥130.00"
       }
     },
     "6478839597::好书吧VIP会员月卡": {
@@ -263252,7 +263255,7 @@
       "region": "cn",
       "first_date": "2026-10-27",
       "first_price": "¥38.00",
-      "last_date": "2026-10-29",
+      "last_date": "2026-10-30",
       "last_price": "¥38.00",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
@@ -280763,7 +280766,7 @@
       "region": "cn",
       "first_date": "2026-10-27",
       "first_price": "¥53.00",
-      "last_date": "2026-10-29",
+      "last_date": "2026-10-30",
       "last_price": "¥53.00",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
@@ -280780,7 +280783,7 @@
       "region": "cn",
       "first_date": "2026-10-27",
       "first_price": "¥58.00",
-      "last_date": "2026-10-29",
+      "last_date": "2026-10-30",
       "last_price": "¥58.00",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
@@ -280797,7 +280800,7 @@
       "region": "cn",
       "first_date": "2026-10-27",
       "first_price": "¥60.00",
-      "last_date": "2026-10-29",
+      "last_date": "2026-10-30",
       "last_price": "¥60.00",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
@@ -280814,7 +280817,7 @@
       "region": "cn",
       "first_date": "2026-10-27",
       "first_price": "¥68.00",
-      "last_date": "2026-10-29",
+      "last_date": "2026-10-30",
       "last_price": "¥68.00",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
@@ -280831,7 +280834,7 @@
       "region": "cn",
       "first_date": "2026-10-27",
       "first_price": "¥68.00",
-      "last_date": "2026-10-29",
+      "last_date": "2026-10-30",
       "last_price": "¥68.00",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
@@ -280848,7 +280851,7 @@
       "region": "cn",
       "first_date": "2026-10-27",
       "first_price": "¥273.00",
-      "last_date": "2026-10-29",
+      "last_date": "2026-10-30",
       "last_price": "¥438.00",
       "last_change_date": "2026-10-29",
       "ever_paid": true,
@@ -349787,7 +349790,7 @@
       "region": "cn",
       "first_date": "2026-10-27",
       "first_price": "¥38.00",
-      "last_date": "2026-10-29",
+      "last_date": "2026-10-30",
       "last_price": "¥38.00",
       "last_change_date": "2026-10-29",
       "ever_paid": true,
@@ -349806,7 +349809,7 @@
       "region": "cn",
       "first_date": "2026-10-27",
       "first_price": "¥168.00",
-      "last_date": "2026-10-29",
+      "last_date": "2026-10-30",
       "last_price": "¥168.00",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
@@ -349891,7 +349894,7 @@
       "region": "cn",
       "first_date": "2026-10-27",
       "first_price": "¥228.00",
-      "last_date": "2026-10-29",
+      "last_date": "2026-10-30",
       "last_price": "¥228.00",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
@@ -349908,7 +349911,7 @@
       "region": "cn",
       "first_date": "2026-10-27",
       "first_price": "¥22.00",
-      "last_date": "2026-10-29",
+      "last_date": "2026-10-30",
       "last_price": "¥22.00",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
@@ -365021,14 +365024,15 @@
       "first_date": "2026-10-29",
       "first_price": "¥298.00",
       "last_date": "2026-10-30",
-      "last_price": "¥0.00",
-      "last_change_date": "2026-10-29",
+      "last_price": "¥298.00",
+      "last_change_date": "2026-10-30",
       "ever_paid": true,
-      "last_paid_date": "2026-10-28",
-      "free_since": "2026-10-28",
+      "last_paid_date": "2026-10-30",
+      "free_since": null,
       "changes": {
         "2026-10-28": "¥298.00",
-        "2026-10-29": "¥0.00"
+        "2026-10-29": "¥0.00",
+        "2026-10-30": "¥298.00"
       },
       "source": "apprcn"
     },
@@ -368825,6 +368829,108 @@
       "free_since": null,
       "changes": {
         "2026-10-30": "¥79.00"
+      }
+    },
+    "640180896::SAC Annual 2026": {
+      "app_id": "640180896",
+      "app_name": "FineScale Modeler",
+      "name": "SAC Annual 2026",
+      "region": "cn",
+      "first_date": "2026-10-30",
+      "first_price": "¥68.00",
+      "last_date": "2026-10-30",
+      "last_price": "¥68.00",
+      "last_change_date": "2026-10-30",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-30",
+      "free_since": null,
+      "changes": {
+        "2026-10-30": "¥68.00"
+      }
+    },
+    "640180896::January/February 2027": {
+      "app_id": "640180896",
+      "app_name": "FineScale Modeler",
+      "name": "January/February 2027",
+      "region": "cn",
+      "first_date": "2026-10-30",
+      "first_price": "¥68.00",
+      "last_date": "2026-10-30",
+      "last_price": "¥68.00",
+      "last_change_date": "2026-10-30",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-30",
+      "free_since": null,
+      "changes": {
+        "2026-10-30": "¥68.00"
+      }
+    },
+    "640180896::January/February 2026": {
+      "app_id": "640180896",
+      "app_name": "FineScale Modeler",
+      "name": "January/February 2026",
+      "region": "cn",
+      "first_date": "2026-10-30",
+      "first_price": "¥78.00",
+      "last_date": "2026-10-30",
+      "last_price": "¥78.00",
+      "last_change_date": "2026-10-30",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-30",
+      "free_since": null,
+      "changes": {
+        "2026-10-30": "¥78.00"
+      }
+    },
+    "640180896::Contest Cars 2025": {
+      "app_id": "640180896",
+      "app_name": "FineScale Modeler",
+      "name": "Contest Cars 2025",
+      "region": "cn",
+      "first_date": "2026-10-30",
+      "first_price": "¥98.00",
+      "last_date": "2026-10-30",
+      "last_price": "¥98.00",
+      "last_change_date": "2026-10-30",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-30",
+      "free_since": null,
+      "changes": {
+        "2026-10-30": "¥98.00"
+      }
+    },
+    "640180896::November/December 2025": {
+      "app_id": "640180896",
+      "app_name": "FineScale Modeler",
+      "name": "November/December 2025",
+      "region": "cn",
+      "first_date": "2026-10-30",
+      "first_price": "¥58.00",
+      "last_date": "2026-10-30",
+      "last_price": "¥58.00",
+      "last_change_date": "2026-10-30",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-30",
+      "free_since": null,
+      "changes": {
+        "2026-10-30": "¥58.00"
+      }
+    },
+    "1500212730::终生会员(568)": {
+      "app_id": "1500212730",
+      "app_name": "辟谷轻断食-无需运动节食，懒人专属定制食谱，助你实现目标",
+      "name": "终生会员(568)",
+      "region": "cn",
+      "first_date": "2026-10-30",
+      "first_price": "¥568.00",
+      "last_date": "2026-10-30",
+      "last_price": "¥568.00",
+      "last_change_date": "2026-10-30",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-30",
+      "free_since": null,
+      "changes": {
+        "2026-10-30": "¥568.00"
       }
     }
   }

@@ -1,7 +1,7 @@
 {
   "updated": "2026-10-30",
   "region": "cn",
-  "count": 163,
+  "count": 162,
   "items": [
     {
       "app_id": "6741730996",
@@ -1350,15 +1350,6 @@
       "iap": "API Wallet Pro",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-30",
-      "app_price": "免费"
-    },
-    {
-      "app_id": "6747979282",
-      "app_name": "赛博把脉·辨证脉象｜观相查体-智能手表实时把脉 随身诊脉",
-      "iap": "永久会员",
-      "price": "¥0.00",
-      "permanent_free": false,
       "since": "2026-10-30",
       "app_price": "免费"
     },
