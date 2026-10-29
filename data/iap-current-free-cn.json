@@ -1,17 +1,8 @@
 {
   "updated": "2026-10-29",
   "region": "cn",
-  "count": 152,
+  "count": 164,
   "items": [
-    {
-      "app_id": "957061929",
-      "app_name": "PDF扫描仪：日期水印",
-      "iap": "PDF Scanner Pro",
-      "price": "¥0.00",
-      "permanent_free": false,
-      "since": "2026-10-29",
-      "app_price": "¥3.00"
-    },
     {
       "app_id": "6758658840",
       "app_name": "PixPhoto:证件照,高清证件照制作",
@@ -1366,6 +1357,123 @@
       "app_id": "6779525326",
       "app_name": "API Wallet",
       "iap": "API Wallet Pro",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-10-29",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "6747979282",
+      "app_name": "赛博把脉·辨证脉象｜观相查体-智能手表实时把脉 随身诊脉",
+      "iap": "永久会员",
+      "price": "¥0.00",
+      "permanent_free": false,
+      "since": "2026-10-29",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "1517313390",
+      "app_name": "Codon One：生物学习",
+      "iap": "系統化學習生物學基礎 原價 US $2.99《Codon One》終生版限時免費",
+      "price": "免费",
+      "permanent_free": false,
+      "since": "2026-10-29",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "6812623223",
+      "app_name": "Healia：睡眠评分·心率变异·压力·血氧·步数·恢复",
+      "iap": "内购限免",
+      "price": "免费",
+      "permanent_free": false,
+      "since": "2026-10-29",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "1517313390",
+      "app_name": "Codon One：生物学习",
+      "iap": "Module 1: Chemistry of Life",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-10-29",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "1517313390",
+      "app_name": "Codon One：生物学习",
+      "iap": "Module 2: Genetics",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-10-29",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "957061929",
+      "app_name": "PDF扫描仪：日期水印",
+      "iap": "PDF Scanner Pro",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-10-29",
+      "app_price": "¥3.00"
+    },
+    {
+      "app_id": "6775289514",
+      "app_name": "iMuscleMap",
+      "iap": "Life Time Pro",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-10-29",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "6809489632",
+      "app_name": "Stemio: 去除人声、卡拉OK伴奏制作、音乐音轨分离工具",
+      "iap": "Life Time Free",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-10-29",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "1620584291",
+      "app_name": "Bookmarks: Organize & Track",
+      "iap": "Onetime Payment",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-10-29",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "6738010155",
+      "app_name": "MindPass: App Blocker",
+      "iap": "MindPass Pro Lifetime",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-10-29",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "6760479173",
+      "app_name": "LivaFast",
+      "iap": "LivaFast Premium",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-10-29",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "6761496861",
+      "app_name": "Clear Magnifier: 放大镜 OCR",
+      "iap": "Clear Magnifier Pro",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-10-29",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "6814781938",
+      "app_name": "Flipic",
+      "iap": "永久解锁",
       "price": "¥0.00",
       "permanent_free": true,
       "since": "2026-10-29",
