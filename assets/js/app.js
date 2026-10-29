@@ -534,14 +534,14 @@
       return;
     }
     var grid = el('div', 'grid');
+    var cards = [];
     data.forEach(function (a, i) {
-      if (INFEED_AD_INTERVAL > 0 && i > 0 && i % INFEED_AD_INTERVAL === 0) {
-        grid.appendChild(infeedAdNode());
-      }
-      grid.appendChild(appCard(a, kind));
+      var c = appCard(a, kind);
+      grid.appendChild(c);
+      cards.push(c);
     });
     box.appendChild(grid);
-    pushAdsIn(grid);
+    scheduleInFeedAds(grid, cards);
     // 列表中部按固定间隔手动插入信息流原生广告（in-feed），比自动广告更可控、更无缝。
   }
 
@@ -729,17 +729,17 @@
       return;
     }
     var grid = el('div', 'grid');
+    var cards = [];
     feed.forEach(function (it, i) {
-      if (INFEED_AD_INTERVAL > 0 && i > 0 && i % INFEED_AD_INTERVAL === 0) {
-        grid.appendChild(infeedAdNode());
-      }
-      grid.appendChild(iapCard(it, getRegion(), it.__isEvent));
+      var c = iapCard(it, getRegion(), it.__isEvent);
+      grid.appendChild(c);
+      cards.push(c);
     });
     box.appendChild(grid);
-    pushAdsIn(grid);
+    scheduleInFeedAds(grid, cards);
   }
 
-  // 注：列表中部信息流广告改由固定间隔手动插入（in-feed，见 infeedAdNode / INFEED_AD_INTERVAL），比自动广告更可控。
+  // 注：列表中部信息流广告改由固定间隔手动插入（in-feed，见 scheduleInFeedAds / INFEED_AD_INTERVAL），比自动广告更可控。
 
   // ===== 筛选 =====
   // 计算条目已处于当前状态（限免/现价）的天数：series 为每日末价序列（旧→新，末位=今天）。
@@ -1177,40 +1177,78 @@
   var INFEED_AD_LAYOUT_KEY = '-fb+5w+4e-db+86';   // AdSense 后台「Create ad style manually」生成的 layout key
   var INFEED_AD_INTERVAL = 10;
 
-  function infeedAdNode() {
-    var attrs = 'data-ad-client="ca-pub-7114121088728794" data-ad-slot="' + INFEED_AD_SLOT + '" ';
+  // 懒加载（2026-10-29 加，勿回退）：一页若为同一 slot 一次性发起十几个请求，AdSense 往往只给前几个填充，
+  // 其余返回 unfilled（表现为空白方框）。改为**滚动接近才发起**（IntersectionObserver），
+  // 任一时刻基本只有一个请求在飞，填充率明显提高，也更省用户流量。
+  var INFEED_AD_ROOT_MARGIN = '400px';   // 距视口多远开始预取；越大越早加载，过大则退化接近一次性全请求
+
+  function buildAdIns() {
+    var ins = document.createElement('ins');
+    ins.className = 'adsbygoogle';
+    ins.style.display = 'block';
+    ins.setAttribute('data-ad-client', 'ca-pub-7114121088728794');
+    ins.setAttribute('data-ad-slot', INFEED_AD_SLOT);
     if (INFEED_AD_LAYOUT_KEY) {
       // 真·原生信息流：fluid + 手动样式 key，卡片观感与限免卡片一致，最无缝
-      attrs += 'data-ad-format="fluid" data-ad-layout-key="' + INFEED_AD_LAYOUT_KEY + '"';
+      ins.setAttribute('data-ad-format', 'fluid');
+      ins.setAttribute('data-ad-layout-key', INFEED_AD_LAYOUT_KEY);
     } else {
       // 回退：普通自适应展示广告（拿到 layout key 后替换为原生）
-      attrs += 'data-ad-format="auto" data-full-width-responsive="true"';
+      ins.setAttribute('data-ad-format', 'auto');
+      ins.setAttribute('data-full-width-responsive', 'true');
     }
-    return el('div', 'ad-card', '<ins class="adsbygoogle" style="display:block" ' + attrs + '></ins>');
+    return ins;
   }
 
-  // 对刚插入 DOM 的容器内所有 ins 触发一次广告请求（动态插入的元素 Google 不会自动扫描）。
-  function pushAdsIn(container) {
-    var ins = container.querySelectorAll('ins.adsbygoogle');
-    for (var i = 0; i < ins.length; i++) {
-      try { (window.adsbygoogle = window.adsbygoogle || []).push({}); } catch (e) {}
-    }
-    watchInFeedAds(container);
+  function buildAdCard() {
+    return el('div', 'ad-card', '') ;
   }
 
-  // 未填充广告的自动兜底（重要）：同一个 In-feed slot 在一页里重复多次时，AdSense 通常只给前几个填充，
-  // 其余会返回 unfilled；此时 <ins> 内部塌陷高度归零，外层 .ad-card 因自带边框/内边距会变成一排空方框。
-  // 这里轮询检测：填充成功时 Google 会给 ins 写 data-ad-status="filled" 并注入 iframe；
-  // 超时仍未填充的，给外层卡片加 .ad-empty 隐藏，保持网格整洁。
-  // 合规前提：广告位必须先以可见状态 push 请求（AdSense 不允许对 display:none 的位置发起请求），
-  // 因此只做「事后隐藏」，不做「预先隐藏」。
+  // 🔴 为什么不预插占位壳：占位壳要么一渲染就留空格子（正是要消灭的现象），
+  //    要么设 display:none 隐藏——但 **display:none 的元素 IntersectionObserver 永不判定为 intersecting**，
+  //    结果广告一个都不加载（踩过的坑，勿回退）。
+  //    正确做法是**监视真实的内容卡片**：它始终可见、必然有尺寸，滚动接近时才在其前面插入广告。
+  function scheduleInFeedAds(grid, cards) {
+    if (INFEED_AD_INTERVAL <= 0 || !cards.length) return;
+    var anchors = [];
+    for (var i = 0; i < cards.length; i++) {
+      if (i > 0 && i % INFEED_AD_INTERVAL === 0) anchors.push(cards[i]);
+    }
+    if (!anchors.length) return;
+    if (!('IntersectionObserver' in window)) {   // 老浏览器：退化成立即插入，功能不受影响
+      anchors.forEach(function (a) { insertAdBefore(grid, a); });
+      return;
+    }
+    var io = new IntersectionObserver(function (entries, obs) {
+      entries.forEach(function (e) {
+        if (!e.isIntersecting) return;
+        obs.unobserve(e.target);
+        insertAdBefore(grid, e.target);
+      });
+    }, { rootMargin: INFEED_AD_ROOT_MARGIN });
+    anchors.forEach(function (a) { io.observe(a); });
+  }
+
+  // 在锚点卡片之前插入广告卡并请求。此时锚点已滚到视口附近，插入即处于可见区域，
+  // 无需先 server-side 隐藏再显示（AdSense 要求广告位可见才允许请求）。
+  function insertAdBefore(grid, anchor) {
+    if (!anchor || !anchor.parentNode) return;
+    if (anchor.getAttribute('data-ad-anchor-used')) return;   // 防重
+    anchor.setAttribute('data-ad-anchor-used', '1');
+    var ad = buildAdCard();
+    ad.appendChild(buildAdIns());
+    grid.insertBefore(ad, anchor);
+    try { (window.adsbygoogle = window.adsbygoogle || []).push({}); } catch (e) {}
+    markAdCardIfEmpty(ad);
+  }
+
+  // 未填充广告的自动兜底（重要）：即便做了懒加载，AdSense 仍可能对某个位置返回 unfilled；
+  // 此时 <ins> 内部塌陷高度归零，外层 .ad-card 因自带边框/内边距会变成一个空方框。
+  // 对已加载的广告位轮询检测：填充成功时 Google 会给 ins 写 data-ad-status="filled" 并注入 iframe；
+  // 超时仍未填充的，给外层卡片加 .ad-empty 隐藏，把格子让给后面的内容卡。
+  // 合规前提：广告位必须以可见状态发起请求（见 insertAdBefore），因此这里只做「事后隐藏」。
   var INFEED_AD_FILL_TIMEOUT = 6000;   // 判定为未填充的等待上限（毫秒）
   var INFEED_AD_FILL_TICK = 500;       // 轮询间隔（毫秒）
-
-  function watchInFeedAds(container) {
-    var cards = container.querySelectorAll('.ad-card');
-    for (var i = 0; i < cards.length; i++) markAdCardIfEmpty(cards[i]);
-  }
 
   function markAdCardIfEmpty(card) {
     var ins = card.querySelector('ins.adsbygoogle');

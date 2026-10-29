@@ -82,6 +82,12 @@ python3 scripts/generate.py --country us
   前端用 `data-ad-format="fluid" + data-ad-layout-key` 渲染出匹配卡片样式的原生信息流广告（与反斗限免那种无缝效果一致）。
   layout-key 留空时回退为 `data-ad-format="auto"`（普通展示广告，仍能展示但非真·原生）。
 - `index.html` 已关闭页面级自动广告（`enable_page_level_ads: false`），仅首页 feed 走手动 in-feed；独立页（`app/*.html`）仍保留自动广告补充。
+- **懒加载（2026-10-29 加）**：广告位不是渲染时就插入，而是先用 IntersectionObserver 监视「排在广告位置的内容卡」，
+  滚动接近（提前 `INFEED_AD_ROOT_MARGIN`，默认 400px）时才在该卡前面插入广告并请求。
+  同一时刻基本只有一个请求在飞，填充率明显高于「一次性请求十几个」。
+  > 实现坑（勿回退）：不能预先插一个 `display:none` 的占位壳再等它进视口——
+  > **`display:none` 的元素 IntersectionObserver 永不判定为 intersecting**，结果是广告一个都不加载；
+  > 而不隐藏又会当场留下空格子。所以只能拿真实内容卡当锚点。
 - **同一个 In-feed 单元在同一页重复使用是合规的**：Google 官方说明允许把同一个 In-feed 代码在 feed 里放多次
   （2016 年起也取消了每页广告单元数量的硬上限）。真正的副作用是**填充率**——一页请求十几次时 AdSense 往往只给前几个填充，
   其余返回 unfilled。为此前端加了兜底：`app.js` 的 `watchInFeedAds()` 会检测每个广告位是否被填充
