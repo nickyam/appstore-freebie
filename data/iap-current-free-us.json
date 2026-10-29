@@ -1,7 +1,7 @@
 {
   "updated": "2026-10-29",
   "region": "us",
-  "count": 195,
+  "count": 194,
   "items": [
     {
       "app_id": "300048137",
@@ -1501,15 +1501,6 @@
       "app_id": "1071126584",
       "app_name": "Visionist",
       "iap": "Unlock All Styles",
-      "price": "$0.00",
-      "permanent_free": true,
-      "since": "2026-10-29",
-      "app_price": "Free"
-    },
-    {
-      "app_id": "1576118042",
-      "app_name": "Rhymelo",
-      "iap": "Unlock All Rhymes",
       "price": "$0.00",
       "permanent_free": true,
       "since": "2026-10-29",
