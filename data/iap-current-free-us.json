@@ -1,7 +1,7 @@
 {
   "updated": "2026-10-29",
   "region": "us",
-  "count": 185,
+  "count": 195,
   "items": [
     {
       "app_id": "300048137",
@@ -63,7 +63,7 @@
       "iap": "TV Remote for Mobile",
       "price": "$0.00",
       "permanent_free": true,
-      "since": "2026-10-28",
+      "since": "2026-10-29",
       "app_price": "Free"
     },
     {
@@ -212,7 +212,7 @@
     },
     {
       "app_id": "332615624",
-      "app_name": "Bible App - Read & Study Daily",
+      "app_name": "Bible Study App by Olive Tree",
       "iap": "NIV Bible",
       "price": "$0.00",
       "permanent_free": true,
@@ -1660,13 +1660,103 @@
       "app_price": "Free"
     },
     {
-      "app_id": "494472589",
-      "app_name": "eZy Watermark Photos Classic",
-      "iap": "NewYear",
+      "app_id": "6754259973",
+      "app_name": "Focus Journey Around the World",
+      "iap": "Classic Edition (One-Time)",
       "price": "$0.00",
       "permanent_free": true,
-      "since": "2026-10-28",
+      "since": "2026-10-29",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6812623223",
+      "app_name": "Healia: Sleep Score & Recovery",
+      "iap": "Healia Lifetime",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-29",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6790633262",
+      "app_name": "Snubline",
+      "iap": "Lifetime",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-29",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "1517313390",
+      "app_name": "Codon One: Biology Study",
+      "iap": "Module 1: Chemistry of Life",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-29",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "1517313390",
+      "app_name": "Codon One: Biology Study",
+      "iap": "Module 2: Genetics",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-29",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6809489632",
+      "app_name": "Stemio: Music & Vocal Remover",
+      "iap": "Life Time Free",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-29",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "1133575767",
+      "app_name": "EchoEnglish–Audio Replay Tool",
+      "iap": "历年六级考试真题",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-29",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "1133575767",
+      "app_name": "EchoEnglish–Audio Replay Tool",
+      "iap": "历年四级考试真题",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-29",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6761496861",
+      "app_name": "Clear Magnifier: Zoom OCR",
+      "iap": "Clear Magnifier Pro",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-29",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6780591952",
+      "app_name": "FileXip",
+      "iap": "PRO",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-29",
       "app_price": "$5.99"
+    },
+    {
+      "app_id": "6811368513",
+      "app_name": "Squatty Bird: Squat to Fly",
+      "iap": "Level Pack 1",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-29",
+      "app_price": "Free"
     }
   ]
 }
