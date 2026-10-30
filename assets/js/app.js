@@ -1183,7 +1183,7 @@
       tag: '本站推荐'
     }
   ];
-  var PROMO_INTERVAL = 10;   // 与原 INFEED_AD_INTERVAL 一致：每 10 张内容卡插 1 张推荐卡
+  var PROMO_INTERVAL = 18;   // 每 18 张内容卡插 1 张推荐卡（10→18 是为降低自家推荐卡的密度：自家卡比广告块显眼）
 
   function buildPromoCard(item) {
     var card = el('a', 'card promo-card');
