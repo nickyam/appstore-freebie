@@ -1,7 +1,7 @@
 {
   "updated": "2026-10-30",
   "region": "us",
-  "count": 194,
+  "count": 204,
   "items": [
     {
       "app_id": "6741730996",
@@ -204,7 +204,7 @@
     {
       "app_id": "336400266",
       "app_name": "Logos Bible",
-      "iap": "Connect the Testaments",
+      "iap": "Faithlife Study Bible",
       "price": "$0.00",
       "permanent_free": true,
       "since": "2026-10-30",
@@ -213,7 +213,7 @@
     {
       "app_id": "336400266",
       "app_name": "Logos Bible",
-      "iap": "Faithlife Study Bible",
+      "iap": "Connect the Testaments",
       "price": "$0.00",
       "permanent_free": true,
       "since": "2026-10-30",
@@ -555,7 +555,7 @@
     {
       "app_id": "363738376",
       "app_name": "forScore",
-      "iap": "Liszt: The Mutopia Collection",
+      "iap": "Tchaikovsky: The Mutopia Collection",
       "price": "$0.00",
       "permanent_free": true,
       "since": "2026-10-30",
@@ -564,7 +564,7 @@
     {
       "app_id": "363738376",
       "app_name": "forScore",
-      "iap": "Tchaikovsky: The Mutopia Collection",
+      "iap": "Liszt: The Mutopia Collection",
       "price": "$0.00",
       "permanent_free": true,
       "since": "2026-10-30",
@@ -1744,6 +1744,96 @@
       "app_id": "6811368513",
       "app_name": "Squatty Bird: Squat to Fly",
       "iap": "Level Pack 1",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-30",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6747607134",
+      "app_name": "EverTrans - 文本、语音、图片离线翻译助手",
+      "iap": "永久解锁所有高级功能",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-30",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "1620584291",
+      "app_name": "Bookmarks: Organize & Track",
+      "iap": "Onetime Payment",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-30",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "584362474",
+      "app_name": "Launchpad - Music & Beat Maker",
+      "iap": "Dub Trap",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-30",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "584362474",
+      "app_name": "Launchpad - Music & Beat Maker",
+      "iap": "EDM Haze",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-30",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "584362474",
+      "app_name": "Launchpad - Music & Beat Maker",
+      "iap": "FoundSoundJourney:ItalianChill",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-30",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "584362474",
+      "app_name": "Launchpad - Music & Beat Maker",
+      "iap": "Found Sound Journey: Techno",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-30",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "584362474",
+      "app_name": "Launchpad - Music & Beat Maker",
+      "iap": "Found Sound Journey: Hip Hop",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-30",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6670686328",
+      "app_name": "reLux",
+      "iap": "Remove logo",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-30",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6752226670",
+      "app_name": "Calm Loop: White Noise & Sleep",
+      "iap": "Calm Loop Pro",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-30",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6760479173",
+      "app_name": "LivaFast",
+      "iap": "LivaFast Premium",
       "price": "$0.00",
       "permanent_free": true,
       "since": "2026-10-30",

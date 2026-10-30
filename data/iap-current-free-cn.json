@@ -1,7 +1,7 @@
 {
   "updated": "2026-10-30",
   "region": "cn",
-  "count": 162,
+  "count": 178,
   "items": [
     {
       "app_id": "6741730996",
@@ -1356,24 +1356,6 @@
     {
       "app_id": "1517313390",
       "app_name": "Codon One：生物学习",
-      "iap": "系統化學習生物學基礎 原價 US $2.99《Codon One》終生版限時免費",
-      "price": "免费",
-      "permanent_free": false,
-      "since": "2026-10-29",
-      "app_price": "免费"
-    },
-    {
-      "app_id": "6812623223",
-      "app_name": "Healia：睡眠评分·心率变异·压力·血氧·步数·恢复",
-      "iap": "内购限免",
-      "price": "免费",
-      "permanent_free": false,
-      "since": "2026-10-29",
-      "app_price": "免费"
-    },
-    {
-      "app_id": "1517313390",
-      "app_name": "Codon One：生物学习",
       "iap": "Module 1: Chemistry of Life",
       "price": "¥0.00",
       "permanent_free": true,
@@ -1396,14 +1378,14 @@
       "price": "¥0.00",
       "permanent_free": true,
       "since": "2026-10-30",
-      "app_price": "¥3.00"
+      "app_price": "¥48.00"
     },
     {
       "app_id": "6775289514",
       "app_name": "iMuscleMap",
       "iap": "Life Time Pro",
       "price": "¥0.00",
-      "permanent_free": true,
+      "permanent_free": false,
       "since": "2026-10-30",
       "app_price": "免费"
     },
@@ -1412,7 +1394,7 @@
       "app_name": "Stemio: 去除人声、卡拉OK伴奏制作、音乐音轨分离工具",
       "iap": "Life Time Free",
       "price": "¥0.00",
-      "permanent_free": true,
+      "permanent_free": false,
       "since": "2026-10-30",
       "app_price": "免费"
     },
@@ -1456,6 +1438,168 @@
       "app_id": "6814781938",
       "app_name": "Flipic",
       "iap": "永久解锁",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-10-30",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "1517313390",
+      "app_name": "Codon One：生物学习",
+      "iap": "内购限免",
+      "price": "免费",
+      "permanent_free": false,
+      "since": "2026-10-29",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "6812623223",
+      "app_name": "Healia：睡眠评分·心率变异·压力·血氧·步数·恢复",
+      "iap": "内购限免",
+      "price": "免费",
+      "permanent_free": false,
+      "since": "2026-10-29",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "469353635",
+      "app_name": "ELLE Magazine UK",
+      "iap": "Beauty Skincare Supplement",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-10-30",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "469353635",
+      "app_name": "ELLE Magazine UK",
+      "iap": "The Cannes Film Festival Ed",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-10-30",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "469353635",
+      "app_name": "ELLE Magazine UK",
+      "iap": "Oscars Supplement",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-10-30",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "6446266063",
+      "app_name": "精灵壁纸-折叠屏壁纸上线",
+      "iap": "永久会员",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-10-30",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "6444253288",
+      "app_name": "清理大师 - AI清理照片与视频",
+      "iap": "Lifetime Purchase VIP",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-10-30",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "6747607134",
+      "app_name": "EverTrans - 文本、语音、图片离线翻译助手",
+      "iap": "永久解锁所有高级功能",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-10-30",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "584362474",
+      "app_name": "Launchpad - Music & Beat Maker",
+      "iap": "EDM Haze",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-10-30",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "584362474",
+      "app_name": "Launchpad - Music & Beat Maker",
+      "iap": "Found Sound Journey: Techno",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-10-30",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "584362474",
+      "app_name": "Launchpad - Music & Beat Maker",
+      "iap": "FoundSoundJourney:ItalianChill",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-10-30",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "584362474",
+      "app_name": "Launchpad - Music & Beat Maker",
+      "iap": "Dub Trap",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-10-30",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "6477562652",
+      "app_name": "Flight Tracker: Weather Radar",
+      "iap": "Premium Features",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-10-30",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "6670686328",
+      "app_name": "reLux",
+      "iap": "移除徽标",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-10-30",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "6743779432",
+      "app_name": "拍有序-相册整理与分类相机",
+      "iap": "相册整理 Pro 永久包",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-10-30",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "6752226670",
+      "app_name": "Calm Loop: 白噪音 雨声助眠",
+      "iap": "Calm Loop Pro",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-10-30",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "6760329799",
+      "app_name": "iWidget-万能小组件 手机主题商店 灵动岛多彩桌面美化",
+      "iap": "永久会员",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-10-30",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "6776223504",
+      "app_name": "KoKoFlash",
+      "iap": "ここフラッシュ PRO版",
       "price": "¥0.00",
       "permanent_free": true,
       "since": "2026-10-30",
