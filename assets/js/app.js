@@ -541,8 +541,8 @@
       cards.push(c);
     });
     box.appendChild(grid);
-    scheduleInFeedAds(grid, cards);
-    // 列表中部按固定间隔手动插入信息流原生广告（in-feed），比自动广告更可控、更无缝。
+    schedulePromoCards(grid, cards);
+    // 列表中部按固定间隔插入「自家站点推荐卡」，取代原 In-feed 谷歌广告。
   }
 
   // ===== 内购限免（P2，已上线 main）=====
@@ -736,10 +736,10 @@
       cards.push(c);
     });
     box.appendChild(grid);
-    scheduleInFeedAds(grid, cards);
+    schedulePromoCards(grid, cards);
   }
 
-  // 注：列表中部信息流广告改由固定间隔手动插入（in-feed，见 scheduleInFeedAds / INFEED_AD_INTERVAL），比自动广告更可控。
+  // 注：列表中部已改由固定间隔插入「自家站点推荐卡」（见 schedulePromoCards / PROMO_INTERVAL），不再嵌谷歌广告。
 
   // ===== 筛选 =====
   // 计算条目已处于当前状态（限免/现价）的天数：series 为每日末价序列（旧→新，末位=今天）。
@@ -1163,145 +1163,60 @@
     }
   }
 
-  // 信息流原生广告（in-feed）：手动按固定间隔插入卡片网格，比 Google 自动广告更可控、更无缝。
-  // 背景：卡片由 JS 动态生成，Google 自动 feed 扫描看不到 DOM 里的 .card，扫描必然失败；
-  //       故放弃「自动扫描」方案，改用 AdSense 后台「Create ad style manually」拿到 layout-key 写死。
-  // 配置项：
-  //   INFEED_AD_SLOT       —— 该 In-feed 单元专属的 slot ID（不要复用顶部展示位 7735913921）。
-  //   INFEED_AD_INTERVAL   —— 每多少张卡片插 1 张广告（0 = 关闭）。
-  // 广告形式：采用 data-ad-format="auto" 标准自适应块（见 buildAdIns）。早期曾用 fluid + layout-key 原生信息流卡，
-  //   但其在窄列里渲染丑（图太大、右侧文字被裁）且外层 CSS 无法约束内部 iframe，已弃用 LAYOUT_KEY。
-  var INFEED_AD_SLOT = '1219552552';   // AdSense In-feed 单元专属 slot（非顶部展示位 7735913921）
-  var INFEED_AD_LAYOUT_KEY = '-fb+5w+4e-db+86';   // 已弃用：fluid 原生卡渲染丑，已改用 auto 自适应块
-  var INFEED_AD_INTERVAL = 10;
+  // ===== 自家站点推荐卡（取代原 In-feed 信息流广告位）=====
+  // 原 In-feed 谷歌广告位（卡片网格每 10 张插 1 张）改为推荐自家站点，
+  // 既保留原页面节奏，又把流量导回自有资产（ai.limzero.com / www.limzero.com）。
+  // 纯静态卡片，不依赖任何第三方广告脚本；彻底规避跨域 iframe 样式不可控的老问题。
+  var PROMO_ITEMS = [
+    {
+      icon: '🤖',
+      title: '凌零集 · 免费 AI 资源导航',
+      desc: '150+ 官方原生免费 AI 工具与学习资源，一站直达。',
+      url: 'https://ai.limzero.com',
+      tag: '本站推荐'
+    },
+    {
+      icon: '✍️',
+      title: '涯木 · 科技与生活',
+      desc: '建站、服务器、效率工具与数字生活笔记。',
+      url: 'https://www.limzero.com',
+      tag: '本站推荐'
+    }
+  ];
+  var PROMO_INTERVAL = 10;   // 与原 INFEED_AD_INTERVAL 一致：每 10 张内容卡插 1 张推荐卡
 
-  // 懒加载（2026-10-29 加，勿回退）：一页若为同一 slot 一次性发起十几个请求，AdSense 往往只给前几个填充，
-  // 其余返回 unfilled（表现为空白方框）。改为**滚动接近才发起**（IntersectionObserver），
-  // 任一时刻基本只有一个请求在飞，填充率明显提高，也更省用户流量。
-  var INFEED_AD_ROOT_MARGIN = '400px';   // 距视口多远开始预取；越大越早加载，过大则退化接近一次性全请求
-
-  function buildAdIns() {
-    var ins = document.createElement('ins');
-    ins.className = 'adsbygoogle';
-    ins.style.display = 'block';
-    ins.setAttribute('data-ad-client', 'ca-pub-7114121088728794');
-    ins.setAttribute('data-ad-slot', INFEED_AD_SLOT);
-    // 标准自适应展示块（auto + 全宽响应）：尺寸由卡片宽度约束，干净可控，
-    // 不会有原生 fluid 信息流卡「图太大 / 右侧文字被裁」的溢出问题；
-    // 且稳定以 data-ad-status="filled" 上报，便于事后隐藏未填充位。
-    // （INFEED_AD_LAYOUT_KEY 已弃用：原生 fluid 卡在本站窄列里渲染丑、且外层 CSS 无法约束其内部 iframe。）
-    ins.setAttribute('data-ad-format', 'auto');
-    ins.setAttribute('data-full-width-responsive', 'true');
-    return ins;
+  function buildPromoCard(item) {
+    var card = el('a', 'card promo-card');
+    card.href = item.url;
+    card.target = '_blank';
+    card.rel = 'noopener';
+    card.setAttribute('aria-label', item.title);
+    var badge = el('div', 'promo-badge', esc(item.tag || '本站推荐'));
+    var row = el('div', 'promo-row');
+    var icon = el('div', 'promo-ico', item.icon || '🔗');
+    var info = el('div', 'info');
+    info.appendChild(el('div', 'promo-title', esc(item.title)));
+    info.appendChild(el('div', 'promo-desc', esc(item.desc || '')));
+    info.appendChild(el('div', 'promo-url', esc(item.url.replace(/^https?:\/\//, '')) + ' →'));
+    row.appendChild(icon);
+    row.appendChild(info);
+    card.appendChild(badge);
+    card.appendChild(row);
+    return card;
   }
 
-  function buildAdCard() {
-    return el('div', 'ad-card', '') ;
-  }
-
-  // 🔴 为什么不预插占位壳：占位壳要么一渲染就留空格子（正是要消灭的现象），
-  //    要么设 display:none 隐藏——但 **display:none 的元素 IntersectionObserver 永不判定为 intersecting**，
-  //    结果广告一个都不加载（踩过的坑，勿回退）。
-  //    正确做法是**监视真实的内容卡片**：它始终可见、必然有尺寸，滚动接近时才在其前面插入广告。
-  function scheduleInFeedAds(grid, cards) {
-    if (INFEED_AD_INTERVAL <= 0 || !cards.length) return;
-    var anchors = [];
+  // 按固定间隔把推荐卡插入网格：复用原 In-feed 的锚点节奏（每 PROMO_INTERVAL 张内容卡前插 1 张），
+  // 维持「每 10 张一个推荐位」；纯静态卡片，无懒加载开销。
+  function schedulePromoCards(grid, cards) {
+    if (PROMO_INTERVAL <= 0 || !cards.length) return;
+    var k = 0;
     for (var i = 0; i < cards.length; i++) {
-      if (i > 0 && i % INFEED_AD_INTERVAL === 0) anchors.push(cards[i]);
-    }
-    if (!anchors.length) return;
-    if (!('IntersectionObserver' in window)) {   // 老浏览器：退化成立即插入，功能不受影响
-      anchors.forEach(function (a) { insertAdBefore(grid, a); });
-      return;
-    }
-    var io = new IntersectionObserver(function (entries, obs) {
-      entries.forEach(function (e) {
-        if (!e.isIntersecting) return;
-        obs.unobserve(e.target);
-        insertAdBefore(grid, e.target);
-      });
-    }, { rootMargin: INFEED_AD_ROOT_MARGIN });
-    anchors.forEach(function (a) { io.observe(a); });
-  }
-
-  // 在锚点卡片之前插入广告卡并请求。此时锚点已滚到视口附近，插入即处于可见区域，
-  // 无需先 server-side 隐藏再显示（AdSense 要求广告位可见才允许请求）。
-  function insertAdBefore(grid, anchor) {
-    if (!anchor || !anchor.parentNode) return;
-    if (anchor.getAttribute('data-ad-anchor-used')) return;   // 防重
-    anchor.setAttribute('data-ad-anchor-used', '1');
-    var ad = buildAdCard();
-    ad.appendChild(buildAdIns());
-    grid.insertBefore(ad, anchor);
-    try { (window.adsbygoogle = window.adsbygoogle || []).push({}); } catch (e) {}
-    markAdCardIfEmpty(ad);
-  }
-
-  // 未填充广告的自动兜底（重要）：即便做了懒加载，AdSense 仍可能对某个位置返回 unfilled；
-  // 此时 <ins> 内部塌陷高度归零，外层 .ad-card 因自带边框/内边距会变成一个空方框。
-  // 对已加载的广告位轮询检测：填充成功时 Google 会给 ins 写 data-ad-status="filled" 并注入 iframe；
-  // 未填充时写 data-ad-status="unfilled"（或到时仍未出结果），给外层卡片加 .ad-empty 隐藏。
-  // 合规前提：广告位必须以可见状态发起请求（见 insertAdBefore），因此这里只做「事后隐藏」。
-  var INFEED_AD_FILL_TIMEOUT = 6000;   // 判定为未填充的等待上限（毫秒）
-  var INFEED_AD_FILL_TICK = 400;       // 轮询间隔（毫秒）
-
-  function markAdCardIfEmpty(card) {
-    var ins = card.querySelector('ins.adsbygoogle');
-    if (!ins) { card.classList.add('ad-empty'); return; }
-    // 外层 .ad-card 默认即「卡片框」（见 style.css），无需靠 filled 判定加框；
-    // 这里只负责在「未填充 / 超时」时加 .ad-empty 把空格子隐藏，让内容卡顶上。
-    // 判定仍仅以 AdSense 真实信号为准，不依赖尺寸/内容（避免未填充位被误判为已填充而留空框）。
-    function isUnfilled() {
-      if (ins.getAttribute('data-ad-status') === 'unfilled') return true;
-      return false;
-    }
-    var t0 = Date.now();
-    (function tick() {
-      if (isUnfilled() || Date.now() - t0 >= INFEED_AD_FILL_TIMEOUT) {
-        card.classList.add('ad-empty');   // 未填充：隐藏空格子
-        return;
+      if (i > 0 && i % PROMO_INTERVAL === 0) {
+        var item = PROMO_ITEMS[k % PROMO_ITEMS.length];
+        k++;
+        grid.insertBefore(buildPromoCard(item), cards[i]);
       }
-      setTimeout(tick, INFEED_AD_FILL_TICK);
-    })();
-  }
-
-  // 顶部吸附广告条（全站统一，首页与独立页模板均含 #topAdBar）：
-  // - 用户曾关闭（localStorage topAdDismissed=1）→ 直接隐藏，不请求广告。
-  // - 广告填充成功 → 量出条高写入 --adbar-h，吸顶 header 据此下移，避免被遮；
-  // - 未填充 / 超时仍未出 → 隐藏空条，并把 --adbar-h 归零（header 回到顶边）。
-  function initTopAdBar() {
-    var bar = document.getElementById('topAdBar');
-    if (!bar) return;
-    var closeBtn = document.getElementById('topAdClose');
-    var root = document.documentElement;
-    function setOffset() { root.style.setProperty('--adbar-h', bar.offsetHeight + 'px'); }
-    function hideBar() {
-      bar.classList.add('top-ad-hidden');
-      root.style.setProperty('--adbar-h', '0px');
     }
-    try {
-      if (localStorage.getItem('topAdDismissed') === '1') { hideBar(); return; }
-    } catch (e) {}
-    if (closeBtn) {
-      closeBtn.addEventListener('click', function () {
-        hideBar();
-        try { localStorage.setItem('topAdDismissed', '1'); } catch (e) {}
-      });
-    }
-    var ins = bar.querySelector('ins.adsbygoogle');
-    if (!ins) { hideBar(); return; }
-    var done = false;
-    function finish(filled) {
-      if (done) return; done = true;
-      if (filled) { setTimeout(setOffset, 60); }   // 等一帧让 iframe 完成布局再量高
-      else { hideBar(); }
-    }
-    (function poll() {
-      if (ins.getAttribute('data-ad-status') === 'filled' || ins.querySelector('iframe')) { finish(true); return; }
-      if (ins.getAttribute('data-ad-status') === 'unfilled') { finish(false); return; }
-      setTimeout(poll, 400);
-    })();
-    setTimeout(function () { if (!done) finish(false); }, 8000);   // 兜底超时：未填充则隐藏
   }
 
   // 「同时期的其他限免」区块（独立页最底部）。
@@ -1678,7 +1593,7 @@
     bindControls();
     setupDetailEvents();      // 独立页同类推荐跳页事件
     setupBackTop();           // 返回顶部按钮（首页 + 详情页通用）
-    initTopAdBar();           // 顶部吸附广告条：填充后量高写入 --adbar-h，未填充/关闭则隐藏
+    // 顶部吸附广告条已移除：全站广告交由 Google Auto Ads 自动托管
     // 独立详情页模式：页面 URL 形如 app/{region}-{id}.html，数据内联于 window.__APP__
     if (window.__APP__ && document.getElementById('detailBody')) {
       var ap = window.__APP__;

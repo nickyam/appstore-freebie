@@ -31,38 +31,17 @@ a.logo { color: inherit; text-decoration: none; }   /* 独立页 logo 是链接�
 .dt-mt-note { margin-top: 10px; font-size: 12px; color: var(--muted); }
 .container { max-width: 1080px; margin: 0 auto; padding: 0 20px; }
 
-/* Header（吸顶位置让出顶部广告条高度，由 app.js 动态写入 --adbar-h） */
+/* Header（吸顶） */
 .site-header {
-  position: sticky; top: var(--adbar-h, 0); z-index: 20;
+  position: sticky; top: 0; z-index: 20;
   background: rgba(255, 255, 255, .8);
   backdrop-filter: saturate(180%) blur(20px);
   -webkit-backdrop-filter: saturate(180%) blur(20px);
   border-bottom: 1px solid rgba(0, 0, 0, .08);
 }
 
-/* 顶部吸附广告条：放在 <body> 最前、吸顶，站点级统一外观；
-   广告填充后由 app.js 测量高度写入 --adbar-h，header 据此下移避免被遮挡；
-   未填充/用户关闭则 .top-ad-hidden 隐藏，并把 --adbar-h 归零。 */
-.top-ad-bar {
-  position: sticky; top: 0; z-index: 30;
-  display: flex; align-items: center; justify-content: center;
-  position: relative;
-  background: var(--surface); border-bottom: 1px solid var(--border);
-  min-height: 0; overflow: hidden;
-}
-.top-ad-bar.top-ad-hidden { display: none; }
-.top-ad-inner {
-  width: 100%; max-width: 1080px; padding: 6px 44px 6px 20px; box-sizing: border-box;
-}
-.top-ad-bar ins.adsbygoogle { width: 100%; display: block; }
-.top-ad-close {
-  position: absolute; right: 8px; top: 50%; transform: translateY(-50%);
-  width: 22px; height: 22px; line-height: 20px; text-align: center;
-  border: none; border-radius: 50%; background: rgba(0, 0, 0, .06); color: var(--text-muted);
-  cursor: pointer; font-size: 16px; z-index: 2; padding: 0;
-}
-.top-ad-close:hover { background: rgba(0, 0, 0, .12); }
-:root[data-theme="dark"] .top-ad-bar { background: #1c1c1e; }
+/* 顶部吸附广告条已移除：全站广告改由 Google Auto Ads 自动托管 */
+:root { --adbar-h: 0px; }
 
 .header-inner {
   max-width: 1080px; margin: 0 auto; padding: 12px 20px;
@@ -263,17 +242,23 @@ main { padding: 0 0 96px; }
    ② 文字默认继承 a 的 accent 蓝色 → 名称等需显式指定颜色，恢复正常文本观感。 */
 .card, .card:hover { text-decoration: none; color: var(--text); }
 .card:hover { transform: translateY(-3px); box-shadow: 0 8px 24px rgba(0, 0, 0, .1); }
-/* 信息流广告：外层卡片默认即与限免卡同款样式的「框」（surface + 边框 + 圆角 + 阴影），
-   AdSense 填充后内容落进框内；未填充（unfilled）或超时仍未出结果时由 app.js 加 .ad-empty 隐藏，把格子让给内容卡。
-   （间隔 10 时广告在 3 列网格里轮换位置，不竖排；用 auto 自适应块，无原生 fluid 卡「图大/文字被裁」的溢出问题） */
-.ad-card {
-  display: flex; align-items: center; justify-content: center; overflow: hidden;
-  background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
-  padding: 13px 16px; box-shadow: var(--shadow);
+/* 自家站点推荐卡：取代原 In-feed 谷歌广告位（卡片网格每 10 张插 1 张），纯静态导流卡，
+   不依赖第三方广告脚本，彻底规避跨域 iframe 样式不可控的问题。 */
+.promo-card {
+  flex-direction: column; align-items: stretch; gap: 8px;
+  border-left: 3px solid var(--accent);
+  text-decoration: none; color: var(--text);
 }
-.ad-card ins.adsbygoogle { width: 100%; border-radius: var(--radius); }
-/* AdSense 未填充（unfilled）或到时仍未出结果的广告：由 app.js 打上 .ad-empty 隐藏 */
-.ad-card.ad-empty { display: none; }
+.promo-card .promo-row { display: flex; gap: 12px; align-items: center; }
+.promo-badge {
+  align-self: flex-start; font-size: 11px; font-weight: 700; letter-spacing: .04em;
+  color: #fff; background: var(--accent); border-radius: 999px; padding: 2px 10px;
+}
+.promo-ico { font-size: 30px; line-height: 1; flex: none; }
+.promo-title { font-weight: 700; font-size: 15px; }
+.promo-desc { font-size: 12.5px; color: var(--muted); margin-top: 2px; }
+.promo-url { font-size: 12.5px; font-weight: 600; color: var(--accent); margin-top: 4px; }
+.promo-card:hover .promo-url { text-decoration: underline; }
 .card img { width: 80px; height: 80px; border-radius: 18px; border: 1px solid var(--border); background: #fff; flex: none; object-fit: cover; }
 .card .iap-ico { width: 80px; height: 80px; border-radius: 18px; border: 1px solid var(--border); background: var(--surface); display: flex; align-items: center; justify-content: center; font-size: 34px; flex: none; }
 .card .info { min-width: 0; flex: 1; }
