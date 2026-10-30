@@ -7,8 +7,8 @@
     "seed_added": 2,
     "seed_total": 18746,
     "pool_size": 2000,
-    "processed": 1997,
-    "skipped": 3,
+    "processed": 1999,
+    "skipped": 1,
     "seed_last_ok": "2026-10-29T22:00:32Z",
     "seed_last_error": ""
   },
@@ -5065,7 +5065,7 @@
       "first_date": "2026-10-23",
       "first_price": "$9.99",
       "last_date": "2026-10-30",
-      "last_price": "$79.99",
+      "last_price": "$19.99",
       "last_change_date": "2026-10-30",
       "ever_paid": true,
       "last_paid_date": "2026-10-30",
@@ -5077,7 +5077,7 @@
         "2026-10-26": "$19.99",
         "2026-10-27": "$39.99",
         "2026-10-28": "$19.99",
-        "2026-10-30": "$79.99"
+        "2026-10-30": "$19.99"
       }
     },
     "1291962681::Scanner Pro": {
@@ -67114,10 +67114,10 @@
       "first_date": "2026-10-23",
       "first_price": "$3.99",
       "last_date": "2026-10-30",
-      "last_price": "$4.99",
-      "last_change_date": "2026-10-28",
+      "last_price": "$3.99",
+      "last_change_date": "2026-10-30",
       "ever_paid": true,
-      "last_paid_date": "2026-10-28",
+      "last_paid_date": "2026-10-30",
       "free_since": null,
       "changes": {
         "2026-10-23": "$4.99",
@@ -67125,7 +67125,8 @@
         "2026-10-25": "$4.99",
         "2026-10-26": "$4.99",
         "2026-10-27": "$4.99",
-        "2026-10-28": "$4.99"
+        "2026-10-28": "$4.99",
+        "2026-10-30": "$3.99"
       }
     },
     "287734809::Legacy lookups monthly": {
@@ -69802,7 +69803,7 @@
       "first_date": "2026-10-23",
       "first_price": "$6.99",
       "last_date": "2026-10-30",
-      "last_price": "$5.99",
+      "last_price": "$6.99",
       "last_change_date": "2026-10-30",
       "ever_paid": true,
       "last_paid_date": "2026-10-30",
@@ -69815,7 +69816,7 @@
         "2026-10-27": "$5.99",
         "2026-10-28": "$5.99",
         "2026-10-29": "$6.99",
-        "2026-10-30": "$5.99"
+        "2026-10-30": "$6.99"
       }
     },
     "1665672552::Yearly premium subscription": {
@@ -76937,10 +76938,10 @@
       "first_date": "2026-10-23",
       "first_price": "$9.99",
       "last_date": "2026-10-30",
-      "last_price": "$99.99",
-      "last_change_date": "2026-10-28",
+      "last_price": "$124.99",
+      "last_change_date": "2026-10-30",
       "ever_paid": true,
-      "last_paid_date": "2026-10-28",
+      "last_paid_date": "2026-10-30",
       "free_since": null,
       "changes": {
         "2026-10-23": "$99.99",
@@ -76948,7 +76949,8 @@
         "2026-10-25": "$99.99",
         "2026-10-26": "$99.99",
         "2026-10-27": "$99.99",
-        "2026-10-28": "$99.99"
+        "2026-10-28": "$99.99",
+        "2026-10-30": "$124.99"
       }
     },
     "586447913::Microsoft 365 Premium Monthly": {
@@ -175365,15 +175367,16 @@
       "first_date": "2026-10-27",
       "first_price": "$4.99",
       "last_date": "2026-10-30",
-      "last_price": "$39.99",
-      "last_change_date": "2026-10-29",
+      "last_price": "$29.99",
+      "last_change_date": "2026-10-30",
       "ever_paid": true,
-      "last_paid_date": "2026-10-29",
+      "last_paid_date": "2026-10-30",
       "free_since": null,
       "changes": {
         "2026-10-27": "$29.99",
         "2026-10-28": "$29.99",
-        "2026-10-29": "$39.99"
+        "2026-10-29": "$39.99",
+        "2026-10-30": "$29.99"
       }
     },
     "1568511681::Standard - 1 month": {
@@ -196330,7 +196333,7 @@
       "first_date": "2026-10-27",
       "first_price": "$38.99",
       "last_date": "2026-10-30",
-      "last_price": "$48.99",
+      "last_price": "$49.00",
       "last_change_date": "2026-10-30",
       "ever_paid": true,
       "last_paid_date": "2026-10-30",
@@ -196339,7 +196342,7 @@
         "2026-10-27": "$48.99",
         "2026-10-28": "$48.99",
         "2026-10-29": "$49.00",
-        "2026-10-30": "$48.99"
+        "2026-10-30": "$49.00"
       }
     },
     "1564189151::Tracker": {
@@ -209934,14 +209937,15 @@
       "first_date": "2026-10-27",
       "first_price": "$19.99",
       "last_date": "2026-10-30",
-      "last_price": "$29.99",
-      "last_change_date": "2026-10-28",
+      "last_price": "$19.99",
+      "last_change_date": "2026-10-30",
       "ever_paid": true,
-      "last_paid_date": "2026-10-28",
+      "last_paid_date": "2026-10-30",
       "free_since": null,
       "changes": {
         "2026-10-27": "$19.99",
-        "2026-10-28": "$29.99"
+        "2026-10-28": "$29.99",
+        "2026-10-30": "$19.99"
       }
     },
     "6783672289::Weekly VIP Sale": {
@@ -210036,7 +210040,7 @@
       "region": "us",
       "first_date": "2026-10-27",
       "first_price": "$29.99",
-      "last_date": "2026-10-29",
+      "last_date": "2026-10-30",
       "last_price": "$29.99",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
@@ -210053,7 +210057,7 @@
       "region": "us",
       "first_date": "2026-10-27",
       "first_price": "$19.99",
-      "last_date": "2026-10-29",
+      "last_date": "2026-10-30",
       "last_price": "$19.99",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
@@ -210070,7 +210074,7 @@
       "region": "us",
       "first_date": "2026-10-27",
       "first_price": "$9.99",
-      "last_date": "2026-10-28",
+      "last_date": "2026-10-30",
       "last_price": "$9.99",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
@@ -317214,7 +317218,7 @@
       "region": "us",
       "first_date": "2026-10-27",
       "first_price": "$49.99",
-      "last_date": "2026-10-29",
+      "last_date": "2026-10-30",
       "last_price": "$49.99",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
@@ -318610,7 +318614,7 @@
       "region": "us",
       "first_date": "2026-10-28",
       "first_price": "$19.99",
-      "last_date": "2026-10-28",
+      "last_date": "2026-10-30",
       "last_price": "$19.99",
       "last_change_date": "2026-10-28",
       "ever_paid": true,
@@ -332176,6 +332180,261 @@
       "free_since": null,
       "changes": {
         "2026-10-30": "$39.99"
+      }
+    },
+    "332615624::POTC: Joshua": {
+      "app_id": "332615624",
+      "app_name": "Bible Study App by Olive Tree",
+      "name": "POTC: Joshua",
+      "region": "us",
+      "first_date": "2026-10-30",
+      "first_price": "$54.99",
+      "last_date": "2026-10-30",
+      "last_price": "$54.99",
+      "last_change_date": "2026-10-30",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-30",
+      "free_since": null,
+      "changes": {
+        "2026-10-30": "$54.99"
+      }
+    },
+    "332615624::Lectio Continua: Galatians": {
+      "app_id": "332615624",
+      "app_name": "Bible Study App by Olive Tree",
+      "name": "Lectio Continua: Galatians",
+      "region": "us",
+      "first_date": "2026-10-30",
+      "first_price": "$19.99",
+      "last_date": "2026-10-30",
+      "last_price": "$19.99",
+      "last_change_date": "2026-10-30",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-30",
+      "free_since": null,
+      "changes": {
+        "2026-10-30": "$19.99"
+      }
+    },
+    "332615624::Reader&#39;s Greek NT - 4th ed": {
+      "app_id": "332615624",
+      "app_name": "Bible Study App by Olive Tree",
+      "name": "Reader&#39;s Greek NT - 4th ed",
+      "region": "us",
+      "first_date": "2026-10-30",
+      "first_price": "$34.99",
+      "last_date": "2026-10-30",
+      "last_price": "$34.99",
+      "last_change_date": "2026-10-30",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-30",
+      "free_since": null,
+      "changes": {
+        "2026-10-30": "$34.99"
+      }
+    },
+    "332615624::Lectio Continua: Hebrews": {
+      "app_id": "332615624",
+      "app_name": "Bible Study App by Olive Tree",
+      "name": "Lectio Continua: Hebrews",
+      "region": "us",
+      "first_date": "2026-10-30",
+      "first_price": "$29.99",
+      "last_date": "2026-10-30",
+      "last_price": "$29.99",
+      "last_change_date": "2026-10-30",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-30",
+      "free_since": null,
+      "changes": {
+        "2026-10-30": "$29.99"
+      }
+    },
+    "332615624::Greek NT Study Bible": {
+      "app_id": "332615624",
+      "app_name": "Bible Study App by Olive Tree",
+      "name": "Greek NT Study Bible",
+      "region": "us",
+      "first_date": "2026-10-30",
+      "first_price": "$79.99",
+      "last_date": "2026-10-30",
+      "last_price": "$79.99",
+      "last_change_date": "2026-10-30",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-30",
+      "free_since": null,
+      "changes": {
+        "2026-10-30": "$79.99"
+      }
+    },
+    "332615624::Lectio Continua: Titus & Phlmn": {
+      "app_id": "332615624",
+      "app_name": "Bible Study App by Olive Tree",
+      "name": "Lectio Continua: Titus & Phlmn",
+      "region": "us",
+      "first_date": "2026-10-30",
+      "first_price": "$19.99",
+      "last_date": "2026-10-30",
+      "last_price": "$19.99",
+      "last_change_date": "2026-10-30",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-30",
+      "free_since": null,
+      "changes": {
+        "2026-10-30": "$19.99"
+      }
+    },
+    "332615624::CLASB 2nd Edition": {
+      "app_id": "332615624",
+      "app_name": "Bible Study App by Olive Tree",
+      "name": "CLASB 2nd Edition",
+      "region": "us",
+      "first_date": "2026-10-30",
+      "first_price": "$39.99",
+      "last_date": "2026-10-30",
+      "last_price": "$39.99",
+      "last_change_date": "2026-10-30",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-30",
+      "free_since": null,
+      "changes": {
+        "2026-10-30": "$39.99"
+      }
+    },
+    "332615624::Psalms Commentary Vol. 3": {
+      "app_id": "332615624",
+      "app_name": "Bible Study App by Olive Tree",
+      "name": "Psalms Commentary Vol. 3",
+      "region": "us",
+      "first_date": "2026-10-30",
+      "first_price": "$49.99",
+      "last_date": "2026-10-30",
+      "last_price": "$49.99",
+      "last_change_date": "2026-10-30",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-30",
+      "free_since": null,
+      "changes": {
+        "2026-10-30": "$49.99"
+      }
+    },
+    "332615624::Divorce of Israel (2 Vols.)": {
+      "app_id": "332615624",
+      "app_name": "Bible Study App by Olive Tree",
+      "name": "Divorce of Israel (2 Vols.)",
+      "region": "us",
+      "first_date": "2026-10-30",
+      "first_price": "$99.99",
+      "last_date": "2026-10-30",
+      "last_price": "$99.99",
+      "last_change_date": "2026-10-30",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-30",
+      "free_since": null,
+      "changes": {
+        "2026-10-30": "$99.99"
+      }
+    },
+    "332615624::Psalms Commentary Vol. 4": {
+      "app_id": "332615624",
+      "app_name": "Bible Study App by Olive Tree",
+      "name": "Psalms Commentary Vol. 4",
+      "region": "us",
+      "first_date": "2026-10-30",
+      "first_price": "$49.99",
+      "last_date": "2026-10-30",
+      "last_price": "$49.99",
+      "last_change_date": "2026-10-30",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-30",
+      "free_since": null,
+      "changes": {
+        "2026-10-30": "$49.99"
+      }
+    },
+    "6474488838::美投君-美投PRO+选股训练营折扣价-年费": {
+      "app_id": "6474488838",
+      "app_name": "美投App",
+      "name": "美投君-美投PRO+选股训练营折扣价-年费",
+      "region": "us",
+      "first_date": "2026-10-30",
+      "first_price": "$449.99",
+      "last_date": "2026-10-30",
+      "last_price": "$449.99",
+      "last_change_date": "2026-10-30",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-30",
+      "free_since": null,
+      "changes": {
+        "2026-10-30": "$449.99"
+      }
+    },
+    "287734809::Background report": {
+      "app_id": "287734809",
+      "app_name": "Whitepages: People Search",
+      "name": "Background report",
+      "region": "us",
+      "first_date": "2026-10-30",
+      "first_price": "$9.99",
+      "last_date": "2026-10-30",
+      "last_price": "$9.99",
+      "last_change_date": "2026-10-30",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-30",
+      "free_since": null,
+      "changes": {
+        "2026-10-30": "$9.99"
+      }
+    },
+    "287734809::Full story plan": {
+      "app_id": "287734809",
+      "app_name": "Whitepages: People Search",
+      "name": "Full story plan",
+      "region": "us",
+      "first_date": "2026-10-30",
+      "first_price": "$14.99",
+      "last_date": "2026-10-30",
+      "last_price": "$14.99",
+      "last_change_date": "2026-10-30",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-30",
+      "free_since": null,
+      "changes": {
+        "2026-10-30": "$14.99"
+      }
+    },
+    "287734809::Background report bundle (2)": {
+      "app_id": "287734809",
+      "app_name": "Whitepages: People Search",
+      "name": "Background report bundle (2)",
+      "region": "us",
+      "first_date": "2026-10-30",
+      "first_price": "$16.99",
+      "last_date": "2026-10-30",
+      "last_price": "$16.99",
+      "last_change_date": "2026-10-30",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-30",
+      "free_since": null,
+      "changes": {
+        "2026-10-30": "$16.99"
+      }
+    },
+    "287734809::Background report bundle (3)": {
+      "app_id": "287734809",
+      "app_name": "Whitepages: People Search",
+      "name": "Background report bundle (3)",
+      "region": "us",
+      "first_date": "2026-10-30",
+      "first_price": "$20.99",
+      "last_date": "2026-10-30",
+      "last_price": "$20.99",
+      "last_change_date": "2026-10-30",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-30",
+      "free_since": null,
+      "changes": {
+        "2026-10-30": "$20.99"
       }
     }
   }
