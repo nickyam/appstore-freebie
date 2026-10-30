@@ -1265,6 +1265,45 @@
     })();
   }
 
+  // 顶部吸附广告条（全站统一，首页与独立页模板均含 #topAdBar）：
+  // - 用户曾关闭（localStorage topAdDismissed=1）→ 直接隐藏，不请求广告。
+  // - 广告填充成功 → 量出条高写入 --adbar-h，吸顶 header 据此下移，避免被遮；
+  // - 未填充 / 超时仍未出 → 隐藏空条，并把 --adbar-h 归零（header 回到顶边）。
+  function initTopAdBar() {
+    var bar = document.getElementById('topAdBar');
+    if (!bar) return;
+    var closeBtn = document.getElementById('topAdClose');
+    var root = document.documentElement;
+    function setOffset() { root.style.setProperty('--adbar-h', bar.offsetHeight + 'px'); }
+    function hideBar() {
+      bar.classList.add('top-ad-hidden');
+      root.style.setProperty('--adbar-h', '0px');
+    }
+    try {
+      if (localStorage.getItem('topAdDismissed') === '1') { hideBar(); return; }
+    } catch (e) {}
+    if (closeBtn) {
+      closeBtn.addEventListener('click', function () {
+        hideBar();
+        try { localStorage.setItem('topAdDismissed', '1'); } catch (e) {}
+      });
+    }
+    var ins = bar.querySelector('ins.adsbygoogle');
+    if (!ins) { hideBar(); return; }
+    var done = false;
+    function finish(filled) {
+      if (done) return; done = true;
+      if (filled) { setTimeout(setOffset, 60); }   // 等一帧让 iframe 完成布局再量高
+      else { hideBar(); }
+    }
+    (function poll() {
+      if (ins.getAttribute('data-ad-status') === 'filled' || ins.querySelector('iframe')) { finish(true); return; }
+      if (ins.getAttribute('data-ad-status') === 'unfilled') { finish(false); return; }
+      setTimeout(poll, 400);
+    })();
+    setTimeout(function () { if (!done) finish(false); }, 8000);   // 兜底超时：未填充则隐藏
+  }
+
   // 「同时期的其他限免」区块（独立页最底部）。
   // 独立页里数据（free-today JSON）与 iTunes 详情是并发请求的，谁先返回不确定；
   // 若详情先到，currentData 还是空的，这里就会渲染出空区块。
@@ -1639,6 +1678,7 @@
     bindControls();
     setupDetailEvents();      // 独立页同类推荐跳页事件
     setupBackTop();           // 返回顶部按钮（首页 + 详情页通用）
+    initTopAdBar();           // 顶部吸附广告条：填充后量高写入 --adbar-h，未填充/关闭则隐藏
     // 独立详情页模式：页面 URL 形如 app/{region}-{id}.html，数据内联于 window.__APP__
     if (window.__APP__ && document.getElementById('detailBody')) {
       var ap = window.__APP__;

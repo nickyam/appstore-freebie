@@ -31,14 +31,39 @@ a.logo { color: inherit; text-decoration: none; }   /* 独立页 logo 是链接�
 .dt-mt-note { margin-top: 10px; font-size: 12px; color: var(--muted); }
 .container { max-width: 1080px; margin: 0 auto; padding: 0 20px; }
 
-/* Header */
+/* Header（吸顶位置让出顶部广告条高度，由 app.js 动态写入 --adbar-h） */
 .site-header {
-  position: sticky; top: 0; z-index: 20;
+  position: sticky; top: var(--adbar-h, 0); z-index: 20;
   background: rgba(255, 255, 255, .8);
   backdrop-filter: saturate(180%) blur(20px);
   -webkit-backdrop-filter: saturate(180%) blur(20px);
   border-bottom: 1px solid rgba(0, 0, 0, .08);
 }
+
+/* 顶部吸附广告条：放在 <body> 最前、吸顶，站点级统一外观；
+   广告填充后由 app.js 测量高度写入 --adbar-h，header 据此下移避免被遮挡；
+   未填充/用户关闭则 .top-ad-hidden 隐藏，并把 --adbar-h 归零。 */
+.top-ad-bar {
+  position: sticky; top: 0; z-index: 30;
+  display: flex; align-items: center; justify-content: center;
+  position: relative;
+  background: var(--surface); border-bottom: 1px solid var(--border);
+  min-height: 0; overflow: hidden;
+}
+.top-ad-bar.top-ad-hidden { display: none; }
+.top-ad-inner {
+  width: 100%; max-width: 1080px; padding: 6px 44px 6px 20px; box-sizing: border-box;
+}
+.top-ad-bar ins.adsbygoogle { width: 100%; display: block; }
+.top-ad-close {
+  position: absolute; right: 8px; top: 50%; transform: translateY(-50%);
+  width: 22px; height: 22px; line-height: 20px; text-align: center;
+  border: none; border-radius: 50%; background: rgba(0, 0, 0, .06); color: var(--text-muted);
+  cursor: pointer; font-size: 16px; z-index: 2; padding: 0;
+}
+.top-ad-close:hover { background: rgba(0, 0, 0, .12); }
+:root[data-theme="dark"] .top-ad-bar { background: #1c1c1e; }
+
 .header-inner {
   max-width: 1080px; margin: 0 auto; padding: 12px 20px;
   display: flex; align-items: center; justify-content: space-between; gap: 14px;
