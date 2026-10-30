@@ -1,0 +1,112 @@
+name: verify-freebies
+
+# 限免有效性轻量校验（只读）
+# ----------------------------------------
+# 目的：把「促销已结束但条目还挂在网站上」的暴露窗口从最长 ~9 小时
+#       （daily 班次 6h 间隔 + GitHub Actions 排队 1~3h）压到 ~2 小时。
+#
+# 原理：主跑批每 6 小时才回查一次，而 Apple 的限免促销随时可能结束 ——
+#       全站每天约 24 条限免到期（cn ≈8 + us ≈16）。本工作流只做一件事：
+#       拉取「当前在架」的条目（≈263 条）逐个查现价，实测两区仅需 6.6 秒。
+#
+# 🔴 关键设计（勿改）：
+#   1) 本工作流**只读**：不写 data/、不写 app/、不生成任何 HTML。
+#      下架动作一律由 daily.yml 的 generate.py 执行（全站唯一写页人）。
+#   2) **独立并发组 freebie-verify**（不是 freebie-update）：
+#      校验必须能在主跑批排队期间照常跑完，否则就失去了时效意义；
+#      同时校验不推 main、不改数据，故不会与主跑批抢 git 推送。
+#   3) 只在**确有失效条目**时才 dispatch daily.yml 去下架；
+#      校验通过则本工作流什么都不做（无提交、无消耗）。
+#   4) 定时由 ECS 的 /etc/cron.d/freebie-verify 准点触发（workflow_dispatch），
+#      不用 GitHub 自带 cron —— 后者实测延迟 2~5 小时，等于没有。
+#      （ECS 上还有一条更快的本地通道：scripts/verify_and_trigger.sh 直接在
+#        ECS 本地跑校验并 dispatch，不必绕 GitHub Actions。）
+#
+# 仓库为 public → GitHub Actions 对其免费无限，加此工作流不消耗额度。
+on:
+  workflow_dispatch:
+    inputs:
+      dispatch_on_stale:
+        description: '发现失效条目时是否立即触发 daily 跑批下架'
+        type: boolean
+        default: true
+      region:
+        description: '只校验指定地区（留空 = 两区都查）'
+        type: string
+        default: ''
+        required: false
+
+permissions:
+  contents: read
+  actions: write
+
+# 🔴 独立并发组：与 freebie-update（主跑批）完全隔离，互不排队。
+concurrency:
+  group: freebie-verify
+  cancel-in-progress: false
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 1   # 只读校验，不需要完整历史
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.11'
+
+      # 只读校验：stdout 输出人读报告，--report 落一份 JSON 供后续步骤判定。
+      # 退出码：0=无失效 / 1=有失效 / 2=运行异常。
+      # 注意：本 runner 为美国 IP，US 区 lookup 结果可靠（无 301 劫持）。
+      - name: Verify live freebies (read-only)
+        id: verify
+        run: |
+          set -o pipefail
+          REGION="${{ inputs.region }}"
+          ARGS="--report verify-report.json"
+          if [ -n "$REGION" ]; then
+            ARGS="$ARGS --region $REGION"
+          fi
+          # 退出码 1（有失效）不算 job 失败 —— 用 || true 吞掉，靠后续步骤判定
+          python scripts/verify_live_freebies.py $ARGS || echo "verify exited non-zero"
+          echo "---"
+          STALE=0
+          MISSING=0
+          if [ -f verify-report.json ]; then
+            STALE=$(python -c "import json;print(json.load(open('verify-report.json'))['total_stale'])")
+            MISSING=$(python -c "import json;print(json.load(open('verify-report.json'))['total_missing'])")
+          fi
+          echo "stale_count=$STALE" >> "$GITHUB_OUTPUT"
+          echo "missing_count=$MISSING" >> "$GITHUB_OUTPUT"
+
+      # 把报告写进 Actions Summary，方便直接在网页上看。
+      - name: Publish summary
+        if: always()
+        env:
+          STALE_COUNT: ${{ steps.verify.outputs.stale_count }}
+          MISSING_COUNT: ${{ steps.verify.outputs.missing_count }}
+        run: |
+          python scripts/render_verify_summary.py \
+            --report verify-report.json \
+            --out "$GITHUB_STEP_SUMMARY" \
+            --stale "$STALE_COUNT" --missing "$MISSING_COUNT"
+
+      # 🔴 只在确有失效时才触发主跑批去下架 —— 复用 generate.py 既有的
+      #    「促销粘性」下架逻辑，本工作流不自己改数据。
+      - name: Trigger daily batch to remove stale entries
+        if: steps.verify.outputs.stale_count != '0' && inputs.dispatch_on_stale != false
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          echo "检测到 ${{ steps.verify.outputs.stale_count }} 条失效条目，触发 daily 跑批下架…"
+          gh workflow run daily.yml --ref main
+          echo "已 dispatch daily.yml"
+
+      - name: No stale entries
+        if: steps.verify.outputs.stale_count == '0'
+        run: echo "✓ 未发现失效条目，无需下架，本工作流到此结束（无提交、无消耗）。"

@@ -1,6 +1,6 @@
 # AGENTS.md — 苹果限免雷达（appstore-freebie）
 
-> 最后复核：2026-10-27。本文件是**索引与红线清单**，权威细节以各脚本头部 docstring 为准；当铁律 7 的播种班 limit、监控池规模或判定阈值变更时，必须同步回顾本文件。
+> 最后复核：2026-10-30。本文件是**索引与红线清单**，权威细节以各脚本头部 docstring 为准；当铁律 7 的播种班 limit、监控池规模或判定阈值变更时，必须同步回顾本文件。
 
 纯静态站点：抓苹果中国区/美国区官方价格，识别「限时免费」App 与降价特价。
 架构 = Cloudflare Pages（静态托管）+ GitHub Actions（每日比价）+ 阿里云 ECS（准点触发 CI）。
@@ -54,9 +54,36 @@
    - 新候选经 `seed_iap_from_apprcn.py` 的 bootstrap 打 `today` 日期、排最前，已大幅缓解盲区；但 limit 不是越大越好（更大 = 更长单班时长、更易与下一班串行抢推 main）。
    - **约定：监控池规模变更时，一并回顾并把 4500 调大。**
 
+8. **校验脚本只读：发现失效 ≠ 可以自己下架（2026-10-30 新增）**
+   - `scripts/verify_live_freebies.py`（+ `scripts/render_verify_summary.py`）是**纯只读**的：
+     只读 data/ 与 iTunes lookup 接口，把「在架但已恢复收费 / 折扣已结束」的条目列成清单。
+     **绝不写 `data/`、绝不写 `app/`、不生成任何 HTML、不改 git。**
+   - 下架动作**一律**由 `scripts/generate.py` 执行（见铁律 1：全站唯一写页人）。
+     校验 → 发现失效 → 触发 daily 跑批 → generate.py 用既有的「促销粘性」逻辑下架，
+     这条链路上**不允许有第二个写页方**。
+   - `scripts/verify_and_trigger.sh`（部署在 ECS `/root/freebie-deploy/`）只做
+     「读 + dispatch」两件事，同样不碰站点数据文件。
+   - 判定口径必须与 generate.py 对齐（见铁律 4）：限免看现价是否 ≠0；
+     特价看现价是否已回到历史最高价(history 的 `mx`)或降幅跌破 50%。
+     **单方面放宽口径 = 误下架 = 事故。**
+   - 两个必须保留的误报防护（勿删）：
+     ① **整批 lookup 0 命中** → 判为接口异常，该区**跳过**，绝不当成「全部失效」；
+     ② **区域自检**（currency 与 trackViewUrl 区域段须与所查地区一致）→
+        不一致则该区跳过，防地理劫持导致误判。
+   - 校验的**数据源**在 ECS 上是「站点部署目录里的 data/」（用户此刻正在看的那份），
+     不是从 GitHub clone —— 大陆→GitHub 链路不稳会拖垮校验时效，
+     且 main 可能还没同步到站点，验的不是用户看到的东西。
+
 ## 常见坑（踩过的，别再踩）
 
-- **US 地区必须在美国 IP 跑**：US 商品页/itunes 接口在大陆 IP 会被 301 跳 cn 落地页 → 假阳性/geo_blocked。GitHub runner（美国 IP）满足；本地跑 us 区会失败。
+- **US 商品页必须在美国 IP 跑，但 lookup 接口不用**（2026-10-30 实测更正）：
+  旧表述「US 商品页/itunes 接口在大陆 IP 会被 301 跳 cn 落地页」过宽——**301 只发生在商品页**
+  （`apps.apple.com/us/app/...`，iap_collector / probe_iap_presence 抓的就是它，必须走境外 runner）。
+  而 **`itunes.apple.com/lookup` 接口本身实测不受影响**：在大陆 ECS（121.40.250.144）与本地跑 us 区，
+  返回的 `currency` 均为 USD、`trackViewUrl` 均为 `/us/` 路径、价格正确。
+  故 `verify_live_freebies.py` 可以在 ECS（大陆 IP）上校验 us 区；
+  脚本内仍保留「区域自检」（currency + trackViewUrl 区域段）作为兜底，
+  一旦接口行为变化则该区跳过而非误报下架。
 - **itunes lookup 的 features 字段不含内购信息**：探测内购只能抓商品页的 `hasInAppPurchases` 字段，且该字段在页面出现几十次（含"相关推荐"里别的 App），必须归属到它**前面最近**的 id（owner_map 窗口 900/4000 字符），直接取第一个匹配会串味。
 - **苹果图标/截图走官方 CDN，不转存**（商标与 AdSense 合规）。
 - **限速**：lookup 100 id/批 + time.sleep 限速；商品页遇到 429/403 要指数退避重试，失败不写缓存、下轮再试，绝不把"未知"当 false。
@@ -66,10 +93,17 @@
 ## 验证与运行
 
 - 改 iap_collector 后：`python3 scripts/iap_collector.py --selftest`（合成历史验证付费→免费判定）。
-- 改 daily*.yml 后：校验 YAML 语法。
+- 改 daily*.yml / verify-freebies.yml 后：校验 YAML 语法。
 - 改 generate 相关：谨慎跑 `python3 scripts/generate.py --country cn --full`（会写 data 与 app/，确认在可回滚环境或 CI 验证）。
 - 本地预览：`python3 -m http.server 8080`。
 - 手动全量采集：`python3 scripts/iap_collector.py --region cn --limit 0 --delay 0.3`。
+- **查限免是否还有效（只读，随时可跑）**：`python3 scripts/verify_live_freebies.py`
+  （实测两区 6.6 秒；加 `--report /tmp/v.json` 出 JSON，`--data-dir` 指定数据目录）。
+  退出码 0=无失效 / 1=有失效 / 2=异常。**它不会改任何数据**，下架由 generate.py 负责。
+- **校验脚本部署到 ECS**（改了 `verify_live_freebies.py` 后需重新复制，否则 ECS 跑的还是旧版）：
+  `scp -i ~/.ssh/id_aliyun scripts/verify_live_freebies.py root@121.40.250.144:/root/freebie-deploy/`
+  ECS 上 `bash /root/freebie-deploy/verify_and_trigger.sh` 可手动跑一轮（约 10 秒）。
+  cron：`/etc/cron.d/freebie-verify`，每 2 小时的 :10 分（避开跑批 dispatch 点与 :30 同步）。
 
 ## 哪些改动要等 CI、哪些不用（速查表）
 
@@ -89,6 +123,12 @@
 **永远不要手动改/不要提交：**
 - `app/*.html`（CI 生成产物，下次跑批会被覆盖）
 - 任何 HTML 里的 `?v=`（交 `stamp_asset_version` 自动算，手刷 530 个 = 530 冲突事故，见铁律 6）
+
+**校验类脚本（只读，不影响线上）：**
+- `scripts/verify_live_freebies.py`、`scripts/render_verify_summary.py`、`scripts/verify_and_trigger.sh`
+  —— 改动它们**不影响**任何线上页面（不改 data/、不改 app/），push 即生效；
+  但改完 `verify_live_freebies.py` 后**必须重新 scp 到 ECS**（见「验证与运行」一节），
+  否则 ECS cron 跑的仍是旧版。`.github/workflows/verify-freebies.yml` 改的是 CI 行为，需 push 后生效。
 
 **想提前生效**：push 后 SSH 跑 `/root/freebie-deploy/trigger_daily.sh`（或 curl dispatch daily），仍受串行排队延迟约束。
 **验证生效**：`Cmd+Shift+R` 硬刷新，看源码里 `app.js?v=` 是否等于本地算的 `sha256(sha256(app.js)+sha256(style.css))[:10]`。
