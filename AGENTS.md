@@ -71,6 +71,28 @@
 - 本地预览：`python3 -m http.server 8080`。
 - 手动全量采集：`python3 scripts/iap_collector.py --region cn --limit 0 --delay 0.3`。
 
+## 哪些改动要等 CI、哪些不用（速查表）
+
+> 一句话：改"会重新生成站点的源头" → 等 CI；改"纯静态源文件" → 不等 CI。
+> "改完不生效"的三连根因：① 旧 HTML 没重新生成；② `?v=` 戳没变、浏览器用 7 天缓存里的旧 JS/CSS；③ CI 串行排队要 1~2h。这三件都由 Actions 串起来做，所以"改代码=等 CI"。
+
+**必须走 CI 重新生成（改完要 dispatch daily + 硬刷新才生效）：**
+- `scripts/generate.py`、`scripts/iap_collector.py` 等采集/生成逻辑、算法判定阈值
+- 任何 `data/*.json` schema 或判定规则
+- 前端 `assets/js/app.js`、`assets/css/style.css`（→ generate 的 `stamp_asset_version` 自动 bump 戳）
+- `data/*.json` 内容变化、新增/删除 App 卡片、sitemap
+
+**不用等 CI（改完 push、CF Pages 部署即可，几秒~几分钟生效）：**
+- 纯静态源文件：`index.html`、`about.html`、`404.html`、`privacy.html`、`terms.html`、`app-page.html`
+  （stamp 只改写它们里的 `?v=` 行，其余内容原样保留；功能开关、广告代码位都改这里）
+
+**永远不要手动改/不要提交：**
+- `app/*.html`（CI 生成产物，下次跑批会被覆盖）
+- 任何 HTML 里的 `?v=`（交 `stamp_asset_version` 自动算，手刷 530 个 = 530 冲突事故，见铁律 6）
+
+**想提前生效**：push 后 SSH 跑 `/root/freebie-deploy/trigger_daily.sh`（或 curl dispatch daily），仍受串行排队延迟约束。
+**验证生效**：`Cmd+Shift+R` 硬刷新，看源码里 `app.js?v=` 是否等于本地算的 `sha256(sha256(app.js)+sha256(style.css))[:10]`。
+
 ## 修改守则
 
 - 先读被改脚本的头部 docstring（决策依据都在里面）。
