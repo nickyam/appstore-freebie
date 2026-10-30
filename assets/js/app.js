@@ -1165,8 +1165,9 @@
 
   // ===== 自家站点推荐卡（取代原 In-feed 信息流广告位）=====
   // 原 In-feed 谷歌广告位（卡片网格每 10 张插 1 张）改为推荐自家站点，
-  // 既保留原页面节奏，又把流量导回自有资产（ai.limzero.com / www.limzero.com）。
+  // 既保留原页面节奏，又把流量导回自有资产。
   // 纯静态卡片，不依赖任何第三方广告脚本；彻底规避跨域 iframe 样式不可控的老问题。
+  // 顺序即轮播顺序：按 PROMO_INTERVAL 依次取用，加/删条目直接改这个数组即可。
   var PROMO_ITEMS = [
     {
       icon: '🤖',
@@ -1176,9 +1177,23 @@
       tag: '本站推荐'
     },
     {
+      icon: '📺',
+      title: 'LibreTV · 免费在线视频',
+      desc: '多源视频搜索与在线观看，无需注册、无广告。',
+      url: 'https://tv.nickyam.com',
+      tag: '本站推荐'
+    },
+    {
+      icon: '🍎',
+      title: '美区 Apple ID 指南',
+      desc: '想装美区限免 App？先备一个美区 Apple ID。',
+      url: 'https://i.nickyam.com/article/AppleID_us',
+      tag: '实用教程'
+    },
+    {
       icon: '✍️',
-      title: '涯木 · 科技与生活',
-      desc: '建站、服务器、效率工具与数字生活笔记。',
+      title: '极限零点 · 实用软件与技术教程',
+      desc: 'WordPress、开发者工具与日常神器推荐。',
       url: 'https://www.limzero.com',
       tag: '本站推荐'
     }
@@ -1206,7 +1221,7 @@
   }
 
   // 按固定间隔把推荐卡插入网格：复用原 In-feed 的锚点节奏（每 PROMO_INTERVAL 张内容卡前插 1 张），
-  // 维持「每 10 张一个推荐位」；纯静态卡片，无懒加载开销。
+  // 并按 PROMO_ITEMS 顺序轮播；纯静态卡片，无懒加载开销。
   function schedulePromoCards(grid, cards) {
     if (PROMO_INTERVAL <= 0 || !cards.length) return;
     var k = 0;
