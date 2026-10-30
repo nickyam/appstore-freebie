@@ -210,7 +210,7 @@ main { padding: 0 0 96px; }
 .dt-ad { margin: 22px 0; }
 /* 独立页：正文末尾广告位（应用介绍之后、推荐区块之前） */
 .dt-ad-tail { margin: 26px 0; }
-ins.adsbygoogle { background: #ececf0; border-radius: var(--radius); }
+.ad-slot ins.adsbygoogle { background: #ececf0; border-radius: var(--radius); }
 
 /* Sections */
 .section-title { display: flex; align-items: center; gap: 12px; margin: 36px 0 16px; }
@@ -238,16 +238,18 @@ ins.adsbygoogle { background: #ececf0; border-radius: var(--radius); }
    ② 文字默认继承 a 的 accent 蓝色 → 名称等需显式指定颜色，恢复正常文本观感。 */
 .card, .card:hover { text-decoration: none; color: var(--text); }
 .card:hover { transform: translateY(-3px); box-shadow: 0 8px 24px rgba(0, 0, 0, .1); }
-/* 信息流原生广告：作为 grid 子项与普通卡片同尺寸，外观贴合内容卡片，无缝穿插在信息流中；
-   间隔 7 时广告在 3 列网格里依次落在中/左/右列，不会竖排堆叠 */
+/* 信息流原生广告：默认「无边框/无背景」的不可见态，避免未填充时显示成空方框；
+   仅当 AdSense 真实填充后由 app.js 加 .ad-filled 才呈现为与限免卡同款样式的卡片（间隔 10 时广告在 3 列网格里轮换位置，不竖排） */
 .ad-card {
+  display: flex; align-items: center; justify-content: center; overflow: hidden;
+  min-height: 0;
+}
+.ad-card.ad-filled {
   background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
   padding: 13px 16px; box-shadow: var(--shadow);
-  display: flex; align-items: center; justify-content: center; overflow: hidden;
 }
 .ad-card ins.adsbygoogle { width: 100%; border-radius: var(--radius); }
-/* AdSense 未填充（unfilled）的广告：<ins> 内部塌陷为零高度，外层卡会显示成一个空方框。
-   由 app.js 的 watchInFeedAds 在超时后打上 .ad-empty，这里负责隐藏，保持网格整洁 */
+/* AdSense 未填充（unfilled）或到时仍未出结果的广告：由 app.js 打上 .ad-empty 隐藏，把格子让给内容卡 */
 .ad-card.ad-empty { display: none; }
 .card img { width: 80px; height: 80px; border-radius: 18px; border: 1px solid var(--border); background: #fff; flex: none; object-fit: cover; }
 .card .iap-ico { width: 80px; height: 80px; border-radius: 18px; border: 1px solid var(--border); background: var(--surface); display: flex; align-items: center; justify-content: center; font-size: 34px; flex: none; }

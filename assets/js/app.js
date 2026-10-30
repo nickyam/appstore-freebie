@@ -1245,24 +1245,29 @@
   // 未填充广告的自动兜底（重要）：即便做了懒加载，AdSense 仍可能对某个位置返回 unfilled；
   // 此时 <ins> 内部塌陷高度归零，外层 .ad-card 因自带边框/内边距会变成一个空方框。
   // 对已加载的广告位轮询检测：填充成功时 Google 会给 ins 写 data-ad-status="filled" 并注入 iframe；
-  // 超时仍未填充的，给外层卡片加 .ad-empty 隐藏，把格子让给后面的内容卡。
+  // 未填充时写 data-ad-status="unfilled"（或到时仍未出结果），给外层卡片加 .ad-empty 隐藏。
   // 合规前提：广告位必须以可见状态发起请求（见 insertAdBefore），因此这里只做「事后隐藏」。
   var INFEED_AD_FILL_TIMEOUT = 6000;   // 判定为未填充的等待上限（毫秒）
-  var INFEED_AD_FILL_TICK = 500;       // 轮询间隔（毫秒）
+  var INFEED_AD_FILL_TICK = 400;       // 轮询间隔（毫秒）
 
   function markAdCardIfEmpty(card) {
     var ins = card.querySelector('ins.adsbygoogle');
     if (!ins) { card.classList.add('ad-empty'); return; }
+    // 仅以 AdSense 真实填充信号判定成功，绝不依赖尺寸/内容：
+    // 未填充的 <ins> 也会被框架保留占位高度（offsetHeight>0）或注入空容器，
+    // 若据此当「已填充」就会让空方框永远留着不隐藏（此前线上空卡的根因）。
     function filled() {
       if (ins.getAttribute('data-ad-status') === 'filled') return true;
-      if (ins.querySelector('iframe')) return true;
-      if (ins.innerHTML && ins.innerHTML.trim()) return true;
-      return ins.offsetHeight > 0;
+      if (ins.querySelector('iframe')) return true;   // 真实广告 iframe 已注入
+      return false;
+    }
+    function unfilled() {
+      return ins.getAttribute('data-ad-status') === 'unfilled';
     }
     var t0 = Date.now();
     (function tick() {
-      if (filled()) return;
-      if (Date.now() - t0 >= INFEED_AD_FILL_TIMEOUT) { card.classList.add('ad-empty'); return; }
+      if (filled()) { card.classList.add('ad-filled'); card.classList.remove('ad-empty'); return; }
+      if (unfilled() || Date.now() - t0 >= INFEED_AD_FILL_TIMEOUT) { card.classList.add('ad-empty'); return; }
       setTimeout(tick, INFEED_AD_FILL_TICK);
     })();
   }
