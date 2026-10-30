@@ -2739,7 +2739,7 @@
       "first_date": "2026-10-23",
       "first_price": "$8.99",
       "last_date": "2026-10-30",
-      "last_price": "$39.99",
+      "last_price": "$42.99",
       "last_change_date": "2026-10-30",
       "ever_paid": true,
       "last_paid_date": "2026-10-30",
@@ -2751,7 +2751,7 @@
         "2026-10-26": "$39.99",
         "2026-10-27": "$39.99",
         "2026-10-28": "$42.99",
-        "2026-10-30": "$39.99"
+        "2026-10-30": "$42.99"
       }
     },
     "1151406354::Unlimited Faxes (1 week)": {
@@ -67114,7 +67114,7 @@
       "first_date": "2026-10-23",
       "first_price": "$3.99",
       "last_date": "2026-10-30",
-      "last_price": "$3.99",
+      "last_price": "$4.99",
       "last_change_date": "2026-10-30",
       "ever_paid": true,
       "last_paid_date": "2026-10-30",
@@ -67126,7 +67126,7 @@
         "2026-10-26": "$4.99",
         "2026-10-27": "$4.99",
         "2026-10-28": "$4.99",
-        "2026-10-30": "$3.99"
+        "2026-10-30": "$4.99"
       }
     },
     "287734809::Legacy lookups monthly": {
@@ -71802,10 +71802,10 @@
       "first_date": "2026-10-23",
       "first_price": "$1.99",
       "last_date": "2026-10-30",
-      "last_price": "$39.99",
-      "last_change_date": "2026-10-29",
+      "last_price": "$99.99",
+      "last_change_date": "2026-10-30",
       "ever_paid": true,
-      "last_paid_date": "2026-10-29",
+      "last_paid_date": "2026-10-30",
       "free_since": null,
       "changes": {
         "2026-10-23": "$3.99",
@@ -71814,7 +71814,8 @@
         "2026-10-26": "$3.99",
         "2026-10-27": "$3.99",
         "2026-10-28": "$3.99",
-        "2026-10-29": "$39.99"
+        "2026-10-29": "$39.99",
+        "2026-10-30": "$99.99"
       }
     },
     "1255711035::Godward+": {
@@ -76938,7 +76939,7 @@
       "first_date": "2026-10-23",
       "first_price": "$9.99",
       "last_date": "2026-10-30",
-      "last_price": "$124.99",
+      "last_price": "$99.99",
       "last_change_date": "2026-10-30",
       "ever_paid": true,
       "last_paid_date": "2026-10-30",
@@ -76950,7 +76951,7 @@
         "2026-10-26": "$99.99",
         "2026-10-27": "$99.99",
         "2026-10-28": "$99.99",
-        "2026-10-30": "$124.99"
+        "2026-10-30": "$99.99"
       }
     },
     "586447913::Microsoft 365 Premium Monthly": {
@@ -77927,7 +77928,7 @@
       "first_date": "2026-10-23",
       "first_price": "$17.49",
       "last_date": "2026-10-30",
-      "last_price": "$17.49",
+      "last_price": "$22.00",
       "last_change_date": "2026-10-30",
       "ever_paid": true,
       "last_paid_date": "2026-10-30",
@@ -77939,7 +77940,7 @@
         "2026-10-26": "$22.00",
         "2026-10-27": "$22.00",
         "2026-10-28": "$22.00",
-        "2026-10-30": "$17.49"
+        "2026-10-30": "$22.00"
       }
     },
     "1570134612::1 Week Elite": {
@@ -94168,7 +94169,7 @@
       "first_date": "2026-10-23",
       "first_price": "$9.99",
       "last_date": "2026-10-30",
-      "last_price": "$17.99",
+      "last_price": "$29.99",
       "last_change_date": "2026-10-30",
       "ever_paid": true,
       "last_paid_date": "2026-10-30",
@@ -94181,7 +94182,7 @@
         "2026-10-27": "$19.99",
         "2026-10-28": "$19.99",
         "2026-10-29": "$29.99",
-        "2026-10-30": "$17.99"
+        "2026-10-30": "$29.99"
       }
     },
     "1580668065::Ism - Premium Weekly": {
@@ -106208,7 +106209,7 @@
       "region": "us",
       "first_date": "2026-10-23",
       "first_price": "$250.00",
-      "last_date": "2026-10-28",
+      "last_date": "2026-10-30",
       "last_price": "$250.00",
       "last_change_date": "2026-10-23",
       "ever_paid": true,
@@ -127819,7 +127820,7 @@
       "first_date": "2026-10-27",
       "first_price": "$9.99",
       "last_date": "2026-10-30",
-      "last_price": "$9.99",
+      "last_price": "$11.99",
       "last_change_date": "2026-10-30",
       "ever_paid": true,
       "last_paid_date": "2026-10-30",
@@ -127828,7 +127829,7 @@
         "2026-10-27": "$7.99",
         "2026-10-28": "$7.99",
         "2026-10-29": "$11.99",
-        "2026-10-30": "$9.99"
+        "2026-10-30": "$11.99"
       }
     },
     "6529535168::Ai Music: cover song generator": {
@@ -159923,7 +159924,7 @@
       "region": "us",
       "first_date": "2026-10-27",
       "first_price": "$29.99",
-      "last_date": "2026-10-27",
+      "last_date": "2026-10-30",
       "last_price": "$29.99",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
@@ -168295,7 +168296,7 @@
       "region": "us",
       "first_date": "2026-10-27",
       "first_price": "$9.99",
-      "last_date": "2026-10-28",
+      "last_date": "2026-10-30",
       "last_price": "$9.99",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
@@ -175367,7 +175368,7 @@
       "first_date": "2026-10-27",
       "first_price": "$4.99",
       "last_date": "2026-10-30",
-      "last_price": "$29.99",
+      "last_price": "$39.99",
       "last_change_date": "2026-10-30",
       "ever_paid": true,
       "last_paid_date": "2026-10-30",
@@ -175376,7 +175377,7 @@
         "2026-10-27": "$29.99",
         "2026-10-28": "$29.99",
         "2026-10-29": "$39.99",
-        "2026-10-30": "$29.99"
+        "2026-10-30": "$39.99"
       }
     },
     "1568511681::Standard - 1 month": {
@@ -209937,7 +209938,7 @@
       "first_date": "2026-10-27",
       "first_price": "$19.99",
       "last_date": "2026-10-30",
-      "last_price": "$19.99",
+      "last_price": "$29.99",
       "last_change_date": "2026-10-30",
       "ever_paid": true,
       "last_paid_date": "2026-10-30",
@@ -209945,7 +209946,7 @@
       "changes": {
         "2026-10-27": "$19.99",
         "2026-10-28": "$29.99",
-        "2026-10-30": "$19.99"
+        "2026-10-30": "$29.99"
       }
     },
     "6783672289::Weekly VIP Sale": {
@@ -228285,7 +228286,7 @@
       "first_date": "2026-10-27",
       "first_price": "$9.99",
       "last_date": "2026-10-30",
-      "last_price": "$99.99",
+      "last_price": "$9.99",
       "last_change_date": "2026-10-30",
       "ever_paid": true,
       "last_paid_date": "2026-10-30",
@@ -228294,7 +228295,7 @@
         "2026-10-27": "$99.99",
         "2026-10-28": "$9.99",
         "2026-10-29": "$99.99",
-        "2026-10-30": "$99.99"
+        "2026-10-30": "$9.99"
       }
     },
     "284815942::200 GB": {
@@ -228339,7 +228340,7 @@
       "first_date": "2026-10-27",
       "first_price": "$4.99",
       "last_date": "2026-10-30",
-      "last_price": "$4.99",
+      "last_price": "$49.99",
       "last_change_date": "2026-10-30",
       "ever_paid": true,
       "last_paid_date": "2026-10-30",
@@ -228348,7 +228349,7 @@
         "2026-10-27": "$4.99",
         "2026-10-28": "$49.99",
         "2026-10-29": "$4.99",
-        "2026-10-30": "$4.99"
+        "2026-10-30": "$49.99"
       }
     },
     "284815942::30 GB": {
@@ -228376,14 +228377,15 @@
       "first_date": "2026-10-27",
       "first_price": "$1.99",
       "last_date": "2026-10-30",
-      "last_price": "$19.99",
-      "last_change_date": "2026-10-28",
+      "last_price": "$1.99",
+      "last_change_date": "2026-10-30",
       "ever_paid": true,
-      "last_paid_date": "2026-10-28",
+      "last_paid_date": "2026-10-30",
       "free_since": null,
       "changes": {
         "2026-10-27": "$19.99",
-        "2026-10-28": "$19.99"
+        "2026-10-28": "$19.99",
+        "2026-10-30": "$1.99"
       }
     },
     "585027354::200 GB": {
@@ -228427,7 +228429,7 @@
       "region": "us",
       "first_date": "2026-10-27",
       "first_price": "$0.89",
-      "last_date": "2026-10-27",
+      "last_date": "2026-10-30",
       "last_price": "$0.89",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
@@ -228634,14 +228636,15 @@
       "first_date": "2026-10-27",
       "first_price": "$5.79",
       "last_date": "2026-10-30",
-      "last_price": "$163.99",
-      "last_change_date": "2026-10-28",
+      "last_price": "$329.00",
+      "last_change_date": "2026-10-30",
       "ever_paid": true,
-      "last_paid_date": "2026-10-28",
+      "last_paid_date": "2026-10-30",
       "free_since": null,
       "changes": {
         "2026-10-27": "$163.99",
-        "2026-10-28": "$163.99"
+        "2026-10-28": "$163.99",
+        "2026-10-30": "$329.00"
       }
     },
     "535886823::100 GB": {
@@ -231556,7 +231559,7 @@
       "first_date": "2026-10-27",
       "first_price": "$4.99",
       "last_date": "2026-10-30",
-      "last_price": "$39.99",
+      "last_price": "$24.99",
       "last_change_date": "2026-10-30",
       "ever_paid": true,
       "last_paid_date": "2026-10-30",
@@ -231565,7 +231568,7 @@
         "2026-10-27": "$7.99",
         "2026-10-28": "$7.99",
         "2026-10-29": "$24.99",
-        "2026-10-30": "$39.99"
+        "2026-10-30": "$24.99"
       }
     },
     "381698089::ads remover": {
@@ -323601,7 +323604,7 @@
       "region": "us",
       "first_date": "2026-10-29",
       "first_price": "$74.99",
-      "last_date": "2026-10-29",
+      "last_date": "2026-10-30",
       "last_price": "$74.99",
       "last_change_date": "2026-10-29",
       "ever_paid": true,
@@ -323618,7 +323621,7 @@
       "region": "us",
       "first_date": "2026-10-29",
       "first_price": "$14.99",
-      "last_date": "2026-10-29",
+      "last_date": "2026-10-30",
       "last_price": "$14.99",
       "last_change_date": "2026-10-29",
       "ever_paid": true,
@@ -323635,7 +323638,7 @@
       "region": "us",
       "first_date": "2026-10-29",
       "first_price": "$149.99",
-      "last_date": "2026-10-29",
+      "last_date": "2026-10-30",
       "last_price": "$149.99",
       "last_change_date": "2026-10-29",
       "ever_paid": true,
@@ -323652,7 +323655,7 @@
       "region": "us",
       "first_date": "2026-10-29",
       "first_price": "$14.99",
-      "last_date": "2026-10-29",
+      "last_date": "2026-10-30",
       "last_price": "$14.99",
       "last_change_date": "2026-10-29",
       "ever_paid": true,
@@ -323669,7 +323672,7 @@
       "region": "us",
       "first_date": "2026-10-29",
       "first_price": "$149.99",
-      "last_date": "2026-10-29",
+      "last_date": "2026-10-30",
       "last_price": "$149.99",
       "last_change_date": "2026-10-29",
       "ever_paid": true,
@@ -323686,7 +323689,7 @@
       "region": "us",
       "first_date": "2026-10-29",
       "first_price": "$149.99",
-      "last_date": "2026-10-29",
+      "last_date": "2026-10-30",
       "last_price": "$149.99",
       "last_change_date": "2026-10-29",
       "ever_paid": true,
@@ -323703,7 +323706,7 @@
       "region": "us",
       "first_date": "2026-10-29",
       "first_price": "$14.99",
-      "last_date": "2026-10-29",
+      "last_date": "2026-10-30",
       "last_price": "$14.99",
       "last_change_date": "2026-10-29",
       "ever_paid": true,
@@ -323720,7 +323723,7 @@
       "region": "us",
       "first_date": "2026-10-29",
       "first_price": "$9.99",
-      "last_date": "2026-10-29",
+      "last_date": "2026-10-30",
       "last_price": "$9.99",
       "last_change_date": "2026-10-29",
       "ever_paid": true,
@@ -323737,7 +323740,7 @@
       "region": "us",
       "first_date": "2026-10-29",
       "first_price": "$0.99",
-      "last_date": "2026-10-29",
+      "last_date": "2026-10-30",
       "last_price": "$0.99",
       "last_change_date": "2026-10-29",
       "ever_paid": true,
@@ -332435,6 +332438,210 @@
       "free_since": null,
       "changes": {
         "2026-10-30": "$20.99"
+      }
+    },
+    "1512751689::Lunar Age Bundle": {
+      "app_id": "1512751689",
+      "app_name": "The Game of Life 2",
+      "name": "Lunar Age Bundle",
+      "region": "us",
+      "first_date": "2026-10-30",
+      "first_price": "$7.99",
+      "last_date": "2026-10-30",
+      "last_price": "$7.99",
+      "last_change_date": "2026-10-30",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-30",
+      "free_since": null,
+      "changes": {
+        "2026-10-30": "$7.99"
+      }
+    },
+    "1578728899::AMC+ with Shudder Monthly Premium": {
+      "app_id": "1578728899",
+      "app_name": "AMC+ | TV Shows & Movies",
+      "name": "AMC+ with Shudder Monthly Premium",
+      "region": "us",
+      "first_date": "2026-10-30",
+      "first_price": "$12.99",
+      "last_date": "2026-10-30",
+      "last_price": "$12.99",
+      "last_change_date": "2026-10-30",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-30",
+      "free_since": null,
+      "changes": {
+        "2026-10-30": "$12.99"
+      }
+    },
+    "897446215::Canva Credit 3 Pack": {
+      "app_id": "897446215",
+      "app_name": "Canva AI Photo & Video Editor",
+      "name": "Canva Credit 3 Pack",
+      "region": "us",
+      "first_date": "2026-10-30",
+      "first_price": "$3.99",
+      "last_date": "2026-10-30",
+      "last_price": "$3.99",
+      "last_change_date": "2026-10-30",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-30",
+      "free_since": null,
+      "changes": {
+        "2026-10-30": "$3.99"
+      }
+    },
+    "897446215::Canva Credit 5 Pack": {
+      "app_id": "897446215",
+      "app_name": "Canva AI Photo & Video Editor",
+      "name": "Canva Credit 5 Pack",
+      "region": "us",
+      "first_date": "2026-10-30",
+      "first_price": "$5.99",
+      "last_date": "2026-10-30",
+      "last_price": "$5.99",
+      "last_change_date": "2026-10-30",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-30",
+      "free_since": null,
+      "changes": {
+        "2026-10-30": "$5.99"
+      }
+    },
+    "897446215::Canva Credit 10 Pack": {
+      "app_id": "897446215",
+      "app_name": "Canva AI Photo & Video Editor",
+      "name": "Canva Credit 10 Pack",
+      "region": "us",
+      "first_date": "2026-10-30",
+      "first_price": "$10.99",
+      "last_date": "2026-10-30",
+      "last_price": "$10.99",
+      "last_change_date": "2026-10-30",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-30",
+      "free_since": null,
+      "changes": {
+        "2026-10-30": "$10.99"
+      }
+    },
+    "897446215::Canva Credit 20 Pack": {
+      "app_id": "897446215",
+      "app_name": "Canva AI Photo & Video Editor",
+      "name": "Canva Credit 20 Pack",
+      "region": "us",
+      "first_date": "2026-10-30",
+      "first_price": "$21.99",
+      "last_date": "2026-10-30",
+      "last_price": "$21.99",
+      "last_change_date": "2026-10-30",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-30",
+      "free_since": null,
+      "changes": {
+        "2026-10-30": "$21.99"
+      }
+    },
+    "897446215::Canva Credit 50 Pack": {
+      "app_id": "897446215",
+      "app_name": "Canva AI Photo & Video Editor",
+      "name": "Canva Credit 50 Pack",
+      "region": "us",
+      "first_date": "2026-10-30",
+      "first_price": "$54.99",
+      "last_date": "2026-10-30",
+      "last_price": "$54.99",
+      "last_change_date": "2026-10-30",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-30",
+      "free_since": null,
+      "changes": {
+        "2026-10-30": "$54.99"
+      }
+    },
+    "897446215::Canva Credit 100 Pack": {
+      "app_id": "897446215",
+      "app_name": "Canva AI Photo & Video Editor",
+      "name": "Canva Credit 100 Pack",
+      "region": "us",
+      "first_date": "2026-10-30",
+      "first_price": "$99.99",
+      "last_date": "2026-10-30",
+      "last_price": "$99.99",
+      "last_change_date": "2026-10-30",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-30",
+      "free_since": null,
+      "changes": {
+        "2026-10-30": "$99.99"
+      }
+    },
+    "897446215::Wedding Invitation Image Pack": {
+      "app_id": "897446215",
+      "app_name": "Canva AI Photo & Video Editor",
+      "name": "Wedding Invitation Image Pack",
+      "region": "us",
+      "first_date": "2026-10-30",
+      "first_price": "$0.99",
+      "last_date": "2026-10-30",
+      "last_price": "$0.99",
+      "last_change_date": "2026-10-30",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-30",
+      "free_since": null,
+      "changes": {
+        "2026-10-30": "$0.99"
+      }
+    },
+    "897446215::Mother's Day Pack": {
+      "app_id": "897446215",
+      "app_name": "Canva AI Photo & Video Editor",
+      "name": "Mother's Day Pack",
+      "region": "us",
+      "first_date": "2026-10-30",
+      "first_price": "$0.99",
+      "last_date": "2026-10-30",
+      "last_price": "$0.99",
+      "last_change_date": "2026-10-30",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-30",
+      "free_since": null,
+      "changes": {
+        "2026-10-30": "$0.99"
+      }
+    },
+    "6752672568::Ultimate Bundle": {
+      "app_id": "6752672568",
+      "app_name": "Block Out! - Color Sort Puzzle",
+      "name": "Ultimate Bundle",
+      "region": "us",
+      "first_date": "2026-10-30",
+      "first_price": "$99.99",
+      "last_date": "2026-10-30",
+      "last_price": "$99.99",
+      "last_change_date": "2026-10-30",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-30",
+      "free_since": null,
+      "changes": {
+        "2026-10-30": "$99.99"
+      }
+    },
+    "364297166::Comhar": {
+      "app_id": "364297166",
+      "app_name": "ZINIO - Magazine Newsstand",
+      "name": "Comhar",
+      "region": "us",
+      "first_date": "2026-10-30",
+      "first_price": "$49.99",
+      "last_date": "2026-10-30",
+      "last_price": "$49.99",
+      "last_change_date": "2026-10-30",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-30",
+      "free_since": null,
+      "changes": {
+        "2026-10-30": "$49.99"
       }
     }
   }

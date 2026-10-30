@@ -4,8 +4,8 @@
     "version": 1,
     "updated": "2026-10-30",
     "pool_size": 2000,
-    "processed": 1998,
-    "skipped": 2,
+    "processed": 1997,
+    "skipped": 3,
     "seeded_from": "apprcn",
     "seed_added": 5,
     "seed_total": 21455,
@@ -42791,10 +42791,10 @@
       "first_date": "2026-10-23",
       "first_price": "¥19.90",
       "last_date": "2026-10-30",
-      "last_price": "¥88.00",
-      "last_change_date": "2026-10-28",
+      "last_price": "¥19.90",
+      "last_change_date": "2026-10-30",
       "ever_paid": true,
-      "last_paid_date": "2026-10-28",
+      "last_paid_date": "2026-10-30",
       "free_since": null,
       "changes": {
         "2026-10-23": "¥88.00",
@@ -42802,7 +42802,8 @@
         "2026-10-25": "¥88.00",
         "2026-10-26": "¥88.00",
         "2026-10-27": "¥88.00",
-        "2026-10-28": "¥88.00"
+        "2026-10-28": "¥88.00",
+        "2026-10-30": "¥19.90"
       }
     },
     "6514289657::一周畅享景区导览服务": {
@@ -42870,10 +42871,10 @@
       "first_date": "2026-10-23",
       "first_price": "¥248.00",
       "last_date": "2026-10-30",
-      "last_price": "¥248.00",
-      "last_change_date": "2026-10-29",
+      "last_price": "¥99.90",
+      "last_change_date": "2026-10-30",
       "ever_paid": true,
-      "last_paid_date": "2026-10-29",
+      "last_paid_date": "2026-10-30",
       "free_since": null,
       "changes": {
         "2026-10-23": "¥148.00",
@@ -42882,7 +42883,8 @@
         "2026-10-26": "¥148.00",
         "2026-10-27": "¥148.00",
         "2026-10-28": "¥148.00",
-        "2026-10-29": "¥248.00"
+        "2026-10-29": "¥248.00",
+        "2026-10-30": "¥99.90"
       }
     },
     "1054807221::Yearly Subscription": {
@@ -182714,7 +182716,7 @@
       "region": "cn",
       "first_date": "2026-10-27",
       "first_price": "¥68.00",
-      "last_date": "2026-10-28",
+      "last_date": "2026-10-30",
       "last_price": "¥68.00",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
@@ -213732,13 +213734,14 @@
       "first_date": "2026-10-27",
       "first_price": "¥88.00",
       "last_date": "2026-10-30",
-      "last_price": "¥88.00",
-      "last_change_date": "2026-10-27",
+      "last_price": "¥78.00",
+      "last_change_date": "2026-10-30",
       "ever_paid": true,
-      "last_paid_date": "2026-10-27",
+      "last_paid_date": "2026-10-30",
       "free_since": null,
       "changes": {
-        "2026-10-27": "¥88.00"
+        "2026-10-27": "¥88.00",
+        "2026-10-30": "¥78.00"
       }
     },
     "1325419855::小猿口算12个月VIP": {
@@ -213749,13 +213752,14 @@
       "first_date": "2026-10-27",
       "first_price": "¥238.00",
       "last_date": "2026-10-30",
-      "last_price": "¥238.00",
-      "last_change_date": "2026-10-27",
+      "last_price": "¥268.00",
+      "last_change_date": "2026-10-30",
       "ever_paid": true,
-      "last_paid_date": "2026-10-27",
+      "last_paid_date": "2026-10-30",
       "free_since": null,
       "changes": {
-        "2026-10-27": "¥238.00"
+        "2026-10-27": "¥238.00",
+        "2026-10-30": "¥268.00"
       }
     },
     "1325419855::小猿口算VIP连续包年(首年优惠)": {
@@ -223956,7 +223960,7 @@
       "first_date": "2026-10-27",
       "first_price": "¥343.00",
       "last_date": "2026-10-30",
-      "last_price": "¥348.00",
+      "last_price": "¥328.00",
       "last_change_date": "2026-10-30",
       "ever_paid": true,
       "last_paid_date": "2026-10-30",
@@ -223965,7 +223969,7 @@
         "2026-10-27": "¥233.00",
         "2026-10-28": "¥233.00",
         "2026-10-29": "¥348.00",
-        "2026-10-30": "¥348.00"
+        "2026-10-30": "¥328.00"
       }
     },
     "1112797670::混沌¥1198学习权益": {
@@ -372376,6 +372380,482 @@
       "free_since": null,
       "changes": {
         "2026-10-30": "¥50.00"
+      }
+    },
+    "6514289657::景区导览服务套餐B": {
+      "app_id": "6514289657",
+      "app_name": "途咕咕 -全球景点讲解博物馆导览",
+      "name": "景区导览服务套餐B",
+      "region": "cn",
+      "first_date": "2026-10-30",
+      "first_price": "¥5.80",
+      "last_date": "2026-10-30",
+      "last_price": "¥5.80",
+      "last_change_date": "2026-10-30",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-30",
+      "free_since": null,
+      "changes": {
+        "2026-10-30": "¥5.80"
+      }
+    },
+    "6514289657::AI拍照套餐A": {
+      "app_id": "6514289657",
+      "app_name": "途咕咕 -全球景点讲解博物馆导览",
+      "name": "AI拍照套餐A",
+      "region": "cn",
+      "first_date": "2026-10-30",
+      "first_price": "¥15.00",
+      "last_date": "2026-10-30",
+      "last_price": "¥15.00",
+      "last_change_date": "2026-10-30",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-30",
+      "free_since": null,
+      "changes": {
+        "2026-10-30": "¥15.00"
+      }
+    },
+    "6514289657::AI拍照套餐D": {
+      "app_id": "6514289657",
+      "app_name": "途咕咕 -全球景点讲解博物馆导览",
+      "name": "AI拍照套餐D",
+      "region": "cn",
+      "first_date": "2026-10-30",
+      "first_price": "¥1.00",
+      "last_date": "2026-10-30",
+      "last_price": "¥1.00",
+      "last_change_date": "2026-10-30",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-30",
+      "free_since": null,
+      "changes": {
+        "2026-10-30": "¥1.00"
+      }
+    },
+    "6514289657::AI拍照套餐B": {
+      "app_id": "6514289657",
+      "app_name": "途咕咕 -全球景点讲解博物馆导览",
+      "name": "AI拍照套餐B",
+      "region": "cn",
+      "first_date": "2026-10-30",
+      "first_price": "¥4.50",
+      "last_date": "2026-10-30",
+      "last_price": "¥4.50",
+      "last_change_date": "2026-10-30",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-30",
+      "free_since": null,
+      "changes": {
+        "2026-10-30": "¥4.50"
+      }
+    },
+    "6514289657::AI拍照套餐C": {
+      "app_id": "6514289657",
+      "app_name": "途咕咕 -全球景点讲解博物馆导览",
+      "name": "AI拍照套餐C",
+      "region": "cn",
+      "first_date": "2026-10-30",
+      "first_price": "¥7.00",
+      "last_date": "2026-10-30",
+      "last_price": "¥7.00",
+      "last_change_date": "2026-10-30",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-30",
+      "free_since": null,
+      "changes": {
+        "2026-10-30": "¥7.00"
+      }
+    },
+    "6514289657::景区导览服务套餐C": {
+      "app_id": "6514289657",
+      "app_name": "途咕咕 -全球景点讲解博物馆导览",
+      "name": "景区导览服务套餐C",
+      "region": "cn",
+      "first_date": "2026-10-30",
+      "first_price": "¥29.00",
+      "last_date": "2026-10-30",
+      "last_price": "¥29.00",
+      "last_change_date": "2026-10-30",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-30",
+      "free_since": null,
+      "changes": {
+        "2026-10-30": "¥29.00"
+      }
+    },
+    "1556582179::WINWIN(董思成) Ticket": {
+      "app_id": "1556582179",
+      "app_name": "bubble with STARS",
+      "name": "WINWIN(董思成) Ticket",
+      "region": "cn",
+      "first_date": "2026-10-30",
+      "first_price": "¥30.00",
+      "last_date": "2026-10-30",
+      "last_price": "¥30.00",
+      "last_change_date": "2026-10-30",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-30",
+      "free_since": null,
+      "changes": {
+        "2026-10-30": "¥30.00"
+      }
+    },
+    "1207254643::6学币": {
+      "app_id": "1207254643",
+      "app_name": "纸条作文 – 写作素材·AI批改·语文真题",
+      "name": "6学币",
+      "region": "cn",
+      "first_date": "2026-10-30",
+      "first_price": "¥6.00",
+      "last_date": "2026-10-30",
+      "last_price": "¥6.00",
+      "last_change_date": "2026-10-30",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-30",
+      "free_since": null,
+      "changes": {
+        "2026-10-30": "¥6.00"
+      }
+    },
+    "1207254643::40学币": {
+      "app_id": "1207254643",
+      "app_name": "纸条作文 – 写作素材·AI批改·语文真题",
+      "name": "40学币",
+      "region": "cn",
+      "first_date": "2026-10-30",
+      "first_price": "¥40.00",
+      "last_date": "2026-10-30",
+      "last_price": "¥40.00",
+      "last_change_date": "2026-10-30",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-30",
+      "free_since": null,
+      "changes": {
+        "2026-10-30": "¥40.00"
+      }
+    },
+    "1207254643::98学币": {
+      "app_id": "1207254643",
+      "app_name": "纸条作文 – 写作素材·AI批改·语文真题",
+      "name": "98学币",
+      "region": "cn",
+      "first_date": "2026-10-30",
+      "first_price": "¥98.00",
+      "last_date": "2026-10-30",
+      "last_price": "¥98.00",
+      "last_change_date": "2026-10-30",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-30",
+      "free_since": null,
+      "changes": {
+        "2026-10-30": "¥98.00"
+      }
+    },
+    "1207254643::298学币": {
+      "app_id": "1207254643",
+      "app_name": "纸条作文 – 写作素材·AI批改·语文真题",
+      "name": "298学币",
+      "region": "cn",
+      "first_date": "2026-10-30",
+      "first_price": "¥298.00",
+      "last_date": "2026-10-30",
+      "last_price": "¥298.00",
+      "last_change_date": "2026-10-30",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-30",
+      "free_since": null,
+      "changes": {
+        "2026-10-30": "¥298.00"
+      }
+    },
+    "1207254643::698学币": {
+      "app_id": "1207254643",
+      "app_name": "纸条作文 – 写作素材·AI批改·语文真题",
+      "name": "698学币",
+      "region": "cn",
+      "first_date": "2026-10-30",
+      "first_price": "¥698.00",
+      "last_date": "2026-10-30",
+      "last_price": "¥698.00",
+      "last_change_date": "2026-10-30",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-30",
+      "free_since": null,
+      "changes": {
+        "2026-10-30": "¥698.00"
+      }
+    },
+    "1207254643::998学币": {
+      "app_id": "1207254643",
+      "app_name": "纸条作文 – 写作素材·AI批改·语文真题",
+      "name": "998学币",
+      "region": "cn",
+      "first_date": "2026-10-30",
+      "first_price": "¥998.00",
+      "last_date": "2026-10-30",
+      "last_price": "¥998.00",
+      "last_change_date": "2026-10-30",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-30",
+      "free_since": null,
+      "changes": {
+        "2026-10-30": "¥998.00"
+      }
+    },
+    "1207254643::8学币": {
+      "app_id": "1207254643",
+      "app_name": "纸条作文 – 写作素材·AI批改·语文真题",
+      "name": "8学币",
+      "region": "cn",
+      "first_date": "2026-10-30",
+      "first_price": "¥8.00",
+      "last_date": "2026-10-30",
+      "last_price": "¥8.00",
+      "last_change_date": "2026-10-30",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-30",
+      "free_since": null,
+      "changes": {
+        "2026-10-30": "¥8.00"
+      }
+    },
+    "1207254643::12学币": {
+      "app_id": "1207254643",
+      "app_name": "纸条作文 – 写作素材·AI批改·语文真题",
+      "name": "12学币",
+      "region": "cn",
+      "first_date": "2026-10-30",
+      "first_price": "¥12.00",
+      "last_date": "2026-10-30",
+      "last_price": "¥12.00",
+      "last_change_date": "2026-10-30",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-30",
+      "free_since": null,
+      "changes": {
+        "2026-10-30": "¥12.00"
+      }
+    },
+    "1207254643::18学币": {
+      "app_id": "1207254643",
+      "app_name": "纸条作文 – 写作素材·AI批改·语文真题",
+      "name": "18学币",
+      "region": "cn",
+      "first_date": "2026-10-30",
+      "first_price": "¥18.00",
+      "last_date": "2026-10-30",
+      "last_price": "¥18.00",
+      "last_change_date": "2026-10-30",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-30",
+      "free_since": null,
+      "changes": {
+        "2026-10-30": "¥18.00"
+      }
+    },
+    "1207254643::30学币": {
+      "app_id": "1207254643",
+      "app_name": "纸条作文 – 写作素材·AI批改·语文真题",
+      "name": "30学币",
+      "region": "cn",
+      "first_date": "2026-10-30",
+      "first_price": "¥30.00",
+      "last_date": "2026-10-30",
+      "last_price": "¥30.00",
+      "last_change_date": "2026-10-30",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-30",
+      "free_since": null,
+      "changes": {
+        "2026-10-30": "¥30.00"
+      }
+    },
+    "1486061934::ArtPro 分析报告": {
+      "app_id": "1486061934",
+      "app_name": "ArtPro - 艺术市场信息,拍卖价格指数",
+      "name": "ArtPro 分析报告",
+      "region": "cn",
+      "first_date": "2026-10-30",
+      "first_price": "¥38.00",
+      "last_date": "2026-10-30",
+      "last_price": "¥38.00",
+      "last_change_date": "2026-10-30",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-30",
+      "free_since": null,
+      "changes": {
+        "2026-10-30": "¥38.00"
+      }
+    },
+    "1486061934::ArtPro 分析报告（VIP折扣价）": {
+      "app_id": "1486061934",
+      "app_name": "ArtPro - 艺术市场信息,拍卖价格指数",
+      "name": "ArtPro 分析报告（VIP折扣价）",
+      "region": "cn",
+      "first_date": "2026-10-30",
+      "first_price": "¥22.00",
+      "last_date": "2026-10-30",
+      "last_price": "¥22.00",
+      "last_change_date": "2026-10-30",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-30",
+      "free_since": null,
+      "changes": {
+        "2026-10-30": "¥22.00"
+      }
+    },
+    "6762176963::88元充值": {
+      "app_id": "6762176963",
+      "app_name": "开天霸兵",
+      "name": "88元充值",
+      "region": "cn",
+      "first_date": "2026-10-30",
+      "first_price": "¥88.00",
+      "last_date": "2026-10-30",
+      "last_price": "¥88.00",
+      "last_change_date": "2026-10-30",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-30",
+      "free_since": null,
+      "changes": {
+        "2026-10-30": "¥88.00"
+      }
+    },
+    "6762176963::50元充值": {
+      "app_id": "6762176963",
+      "app_name": "开天霸兵",
+      "name": "50元充值",
+      "region": "cn",
+      "first_date": "2026-10-30",
+      "first_price": "¥50.00",
+      "last_date": "2026-10-30",
+      "last_price": "¥50.00",
+      "last_change_date": "2026-10-30",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-30",
+      "free_since": null,
+      "changes": {
+        "2026-10-30": "¥50.00"
+      }
+    },
+    "6762176963::68元充值": {
+      "app_id": "6762176963",
+      "app_name": "开天霸兵",
+      "name": "68元充值",
+      "region": "cn",
+      "first_date": "2026-10-30",
+      "first_price": "¥68.00",
+      "last_date": "2026-10-30",
+      "last_price": "¥68.00",
+      "last_change_date": "2026-10-30",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-30",
+      "free_since": null,
+      "changes": {
+        "2026-10-30": "¥68.00"
+      }
+    },
+    "1325419855::小猿口算1个月VIP": {
+      "app_id": "1325419855",
+      "app_name": "小猿AI - 原「小猿口算」检查作业神器",
+      "name": "小猿口算1个月VIP",
+      "region": "cn",
+      "first_date": "2026-10-30",
+      "first_price": "¥30.00",
+      "last_date": "2026-10-30",
+      "last_price": "¥30.00",
+      "last_change_date": "2026-10-30",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-30",
+      "free_since": null,
+      "changes": {
+        "2026-10-30": "¥30.00"
+      }
+    },
+    "1325419855::6折12个月VIP": {
+      "app_id": "1325419855",
+      "app_name": "小猿AI - 原「小猿口算」检查作业神器",
+      "name": "6折12个月VIP",
+      "region": "cn",
+      "first_date": "2026-10-30",
+      "first_price": "¥178.00",
+      "last_date": "2026-10-30",
+      "last_price": "¥178.00",
+      "last_change_date": "2026-10-30",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-30",
+      "free_since": null,
+      "changes": {
+        "2026-10-30": "¥178.00"
+      }
+    },
+    "1325419855::小猿天天练连续包月": {
+      "app_id": "1325419855",
+      "app_name": "小猿AI - 原「小猿口算」检查作业神器",
+      "name": "小猿天天练连续包月",
+      "region": "cn",
+      "first_date": "2026-10-30",
+      "first_price": "¥48.00",
+      "last_date": "2026-10-30",
+      "last_price": "¥48.00",
+      "last_change_date": "2026-10-30",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-30",
+      "free_since": null,
+      "changes": {
+        "2026-10-30": "¥48.00"
+      }
+    },
+    "1325419855::小猿天天练6个月": {
+      "app_id": "1325419855",
+      "app_name": "小猿AI - 原「小猿口算」检查作业神器",
+      "name": "小猿天天练6个月",
+      "region": "cn",
+      "first_date": "2026-10-30",
+      "first_price": "¥228.00",
+      "last_date": "2026-10-30",
+      "last_price": "¥228.00",
+      "last_change_date": "2026-10-30",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-30",
+      "free_since": null,
+      "changes": {
+        "2026-10-30": "¥228.00"
+      }
+    },
+    "1325419855::小猿口算6个月VIP": {
+      "app_id": "1325419855",
+      "app_name": "小猿AI - 原「小猿口算」检查作业神器",
+      "name": "小猿口算6个月VIP",
+      "region": "cn",
+      "first_date": "2026-10-30",
+      "first_price": "¥158.00",
+      "last_date": "2026-10-30",
+      "last_price": "¥158.00",
+      "last_change_date": "2026-10-30",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-30",
+      "free_since": null,
+      "changes": {
+        "2026-10-30": "¥158.00"
+      }
+    },
+    "1490199909::一美助手发现会员6个月": {
+      "app_id": "1490199909",
+      "app_name": "一美助手",
+      "name": "一美助手发现会员6个月",
+      "region": "cn",
+      "first_date": "2026-10-30",
+      "first_price": "¥1,298.00",
+      "last_date": "2026-10-30",
+      "last_price": "¥1,298.00",
+      "last_change_date": "2026-10-30",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-30",
+      "free_since": null,
+      "changes": {
+        "2026-10-30": "¥1,298.00"
       }
     }
   }
