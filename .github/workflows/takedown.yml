@@ -26,9 +26,12 @@ on:
 permissions:
   contents: write
 
-# 与 daily.yml 共用同一并发组：与 daily 串行，避免互相抢推 main 造成 rebase 冲突。
+# 独立并发组：takedown 不等 daily，发现失效立刻秒级下架（实测 job 20s）。
+# 与 daily 共用并发组会导致 takedown 被 3h 的 daily 排队阻塞，失去「轻量」意义。
+# 与 daily 抢推 main 的冲突由下方 commit & push 的 rebase 重试（5 次）兜底，
+# 且 takedown 只删少量失效条目、rebase 代价极小，分离组安全。
 concurrency:
-  group: freebie-update
+  group: freebie-takedown
   cancel-in-progress: false
 
 jobs:
