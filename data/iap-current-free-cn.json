@@ -1,7 +1,7 @@
 {
   "updated": "2026-10-31",
   "region": "cn",
-  "count": 173,
+  "count": 174,
   "items": [
     {
       "app_id": "6758658840",
@@ -1559,6 +1559,15 @@
       "permanent_free": true,
       "since": "2026-10-31",
       "app_price": "免费"
+    },
+    {
+      "app_id": "363738376",
+      "app_name": "forScore",
+      "iap": "Satie: The Mutopia Collection",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-10-31",
+      "app_price": "¥168.00"
     }
   ]
 }

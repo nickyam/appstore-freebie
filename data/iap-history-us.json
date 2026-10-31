@@ -7,8 +7,8 @@
     "seed_added": 0,
     "seed_total": 19189,
     "pool_size": 2000,
-    "processed": 1999,
-    "skipped": 1,
+    "processed": 2000,
+    "skipped": 0,
     "seed_last_ok": "2026-10-30T22:00:41Z",
     "seed_last_error": ""
   },
@@ -1425,7 +1425,7 @@
       "first_date": "2026-10-23",
       "first_price": "$3.99",
       "last_date": "2026-10-31",
-      "last_price": "$59.99",
+      "last_price": "$19.99",
       "last_change_date": "2026-10-31",
       "ever_paid": true,
       "last_paid_date": "2026-10-31",
@@ -1438,7 +1438,7 @@
         "2026-10-27": "$5.99",
         "2026-10-28": "$5.99",
         "2026-10-29": "$19.99",
-        "2026-10-31": "$59.99"
+        "2026-10-31": "$19.99"
       }
     },
     "584606479::Simple Start": {
@@ -5158,10 +5158,10 @@
       "first_date": "2026-10-23",
       "first_price": "$59.99",
       "last_date": "2026-10-31",
-      "last_price": "$69.99",
-      "last_change_date": "2026-10-28",
+      "last_price": "$59.99",
+      "last_change_date": "2026-10-31",
       "ever_paid": true,
-      "last_paid_date": "2026-10-28",
+      "last_paid_date": "2026-10-31",
       "free_since": null,
       "changes": {
         "2026-10-23": "$69.99",
@@ -5169,7 +5169,8 @@
         "2026-10-25": "$69.99",
         "2026-10-26": "$69.99",
         "2026-10-27": "$69.99",
-        "2026-10-28": "$69.99"
+        "2026-10-28": "$69.99",
+        "2026-10-31": "$59.99"
       }
     },
     "1532638515::1 Month Promo": {
@@ -35485,7 +35486,7 @@
       "first_date": "2026-10-23",
       "first_price": "$19.99",
       "last_date": "2026-10-31",
-      "last_price": "$29.99",
+      "last_price": "$19.99",
       "last_change_date": "2026-10-31",
       "ever_paid": true,
       "last_paid_date": "2026-10-31",
@@ -35498,7 +35499,7 @@
         "2026-10-27": "$13.99",
         "2026-10-28": "$13.99",
         "2026-10-29": "$19.99",
-        "2026-10-31": "$29.99"
+        "2026-10-31": "$19.99"
       }
     },
     "525642917::Annual Verification": {
@@ -35526,14 +35527,14 @@
       "first_date": "2026-10-23",
       "first_price": "$9.99",
       "last_date": "2026-10-31",
-      "last_price": "$14.99",
+      "last_price": "$9.99",
       "last_change_date": "2026-10-31",
       "ever_paid": true,
       "last_paid_date": "2026-10-31",
       "free_since": null,
       "changes": {
         "2026-10-23": "$9.99",
-        "2026-10-31": "$14.99"
+        "2026-10-31": "$9.99"
       }
     },
     "6608970045::Premium Access": {
@@ -88422,7 +88423,7 @@
       "region": "us",
       "first_date": "2026-10-23",
       "first_price": "$37.99",
-      "last_date": "2026-10-27",
+      "last_date": "2026-10-31",
       "last_price": "$37.99",
       "last_change_date": "2026-10-23",
       "ever_paid": true,
@@ -95036,7 +95037,7 @@
       "first_date": "2026-10-23",
       "first_price": "$4.99",
       "last_date": "2026-10-31",
-      "last_price": "$14.99",
+      "last_price": "$8.99",
       "last_change_date": "2026-10-31",
       "ever_paid": true,
       "last_paid_date": "2026-10-31",
@@ -95049,7 +95050,7 @@
         "2026-10-27": "$5.49",
         "2026-10-28": "$5.49",
         "2026-10-29": "$8.99",
-        "2026-10-31": "$14.99"
+        "2026-10-31": "$8.99"
       }
     },
     "1488127870::Celebs+ Weekly": {
@@ -95060,7 +95061,7 @@
       "first_date": "2026-10-23",
       "first_price": "$14.99",
       "last_date": "2026-10-31",
-      "last_price": "$18.99",
+      "last_price": "$14.99",
       "last_change_date": "2026-10-31",
       "ever_paid": true,
       "last_paid_date": "2026-10-31",
@@ -95073,7 +95074,7 @@
         "2026-10-27": "$6.99",
         "2026-10-28": "$6.99",
         "2026-10-29": "$14.99",
-        "2026-10-31": "$18.99"
+        "2026-10-31": "$14.99"
       }
     },
     "1488127870::(New9) Celebs+ Weekly": {
@@ -115227,14 +115228,15 @@
       "first_date": "2026-10-27",
       "first_price": "$9.99",
       "last_date": "2026-10-31",
-      "last_price": "$14.99",
-      "last_change_date": "2026-10-28",
+      "last_price": "$9.99",
+      "last_change_date": "2026-10-31",
       "ever_paid": true,
-      "last_paid_date": "2026-10-28",
+      "last_paid_date": "2026-10-31",
       "free_since": null,
       "changes": {
         "2026-10-27": "$14.99",
-        "2026-10-28": "$14.99"
+        "2026-10-28": "$14.99",
+        "2026-10-31": "$9.99"
       }
     },
     "1529165366::Backcountry Premium Year (AS)": {
@@ -124167,7 +124169,7 @@
       "first_date": "2026-10-27",
       "first_price": "$89.99",
       "last_date": "2026-10-31",
-      "last_price": "$119.99",
+      "last_price": "$89.99",
       "last_change_date": "2026-10-31",
       "ever_paid": true,
       "last_paid_date": "2026-10-31",
@@ -124176,7 +124178,7 @@
         "2026-10-27": "$4.99",
         "2026-10-28": "$4.99",
         "2026-10-29": "$89.99",
-        "2026-10-31": "$119.99"
+        "2026-10-31": "$89.99"
       }
     },
     "1515796612::Moises Premium - Monthly": {
@@ -147424,7 +147426,7 @@
       "first_date": "2026-10-27",
       "first_price": "$4.99",
       "last_date": "2026-10-31",
-      "last_price": "$149.99",
+      "last_price": "$69.99",
       "last_change_date": "2026-10-31",
       "ever_paid": true,
       "last_paid_date": "2026-10-31",
@@ -147433,7 +147435,7 @@
         "2026-10-27": "$14.99",
         "2026-10-28": "$14.99",
         "2026-10-29": "$69.99",
-        "2026-10-31": "$149.99"
+        "2026-10-31": "$69.99"
       }
     },
     "6477549878::Tolan Membership (Old)": {
@@ -147461,7 +147463,7 @@
       "first_date": "2026-10-27",
       "first_price": "$9.99",
       "last_date": "2026-10-31",
-      "last_price": "$74.99",
+      "last_price": "$39.99",
       "last_change_date": "2026-10-31",
       "ever_paid": true,
       "last_paid_date": "2026-10-31",
@@ -147469,7 +147471,7 @@
       "changes": {
         "2026-10-27": "$39.99",
         "2026-10-28": "$39.99",
-        "2026-10-31": "$74.99"
+        "2026-10-31": "$39.99"
       }
     },
     "6477549878::Tolan Lite Membership": {
@@ -147480,14 +147482,14 @@
       "first_date": "2026-10-27",
       "first_price": "$11.99",
       "last_date": "2026-10-31",
-      "last_price": "$94.99",
+      "last_price": "$11.99",
       "last_change_date": "2026-10-31",
       "ever_paid": true,
       "last_paid_date": "2026-10-31",
       "free_since": null,
       "changes": {
         "2026-10-27": "$11.99",
-        "2026-10-31": "$94.99"
+        "2026-10-31": "$11.99"
       }
     },
     "6477549878::Tolan Plus Membership": {
@@ -147498,14 +147500,14 @@
       "first_date": "2026-10-27",
       "first_price": "$24.99",
       "last_date": "2026-10-31",
-      "last_price": "$199.99",
+      "last_price": "$24.99",
       "last_change_date": "2026-10-31",
       "ever_paid": true,
       "last_paid_date": "2026-10-31",
       "free_since": null,
       "changes": {
         "2026-10-27": "$24.99",
-        "2026-10-31": "$199.99"
+        "2026-10-31": "$24.99"
       }
     },
     "1488020055::Alive Premium - Monthly": {
@@ -318405,7 +318407,7 @@
       "region": "us",
       "first_date": "2026-10-28",
       "first_price": "$39.99",
-      "last_date": "2026-10-30",
+      "last_date": "2026-10-31",
       "last_price": "$39.99",
       "last_change_date": "2026-10-28",
       "ever_paid": true,
@@ -318422,7 +318424,7 @@
       "region": "us",
       "first_date": "2026-10-28",
       "first_price": "$12.99",
-      "last_date": "2026-10-30",
+      "last_date": "2026-10-31",
       "last_price": "$12.99",
       "last_change_date": "2026-10-28",
       "ever_paid": true,
@@ -318439,7 +318441,7 @@
       "region": "us",
       "first_date": "2026-10-28",
       "first_price": "$39.00",
-      "last_date": "2026-10-30",
+      "last_date": "2026-10-31",
       "last_price": "$39.00",
       "last_change_date": "2026-10-28",
       "ever_paid": true,
@@ -318456,7 +318458,7 @@
       "region": "us",
       "first_date": "2026-10-28",
       "first_price": "$17.99",
-      "last_date": "2026-10-30",
+      "last_date": "2026-10-31",
       "last_price": "$17.99",
       "last_change_date": "2026-10-28",
       "ever_paid": true,
@@ -318473,7 +318475,7 @@
       "region": "us",
       "first_date": "2026-10-28",
       "first_price": "$22.99",
-      "last_date": "2026-10-30",
+      "last_date": "2026-10-31",
       "last_price": "$22.99",
       "last_change_date": "2026-10-28",
       "ever_paid": true,
@@ -318490,7 +318492,7 @@
       "region": "us",
       "first_date": "2026-10-28",
       "first_price": "$49.99",
-      "last_date": "2026-10-30",
+      "last_date": "2026-10-31",
       "last_price": "$49.99",
       "last_change_date": "2026-10-28",
       "ever_paid": true,
@@ -318507,7 +318509,7 @@
       "region": "us",
       "first_date": "2026-10-28",
       "first_price": "$44.90",
-      "last_date": "2026-10-30",
+      "last_date": "2026-10-31",
       "last_price": "$44.90",
       "last_change_date": "2026-10-28",
       "ever_paid": true,
@@ -318524,7 +318526,7 @@
       "region": "us",
       "first_date": "2026-10-28",
       "first_price": "$44.99",
-      "last_date": "2026-10-30",
+      "last_date": "2026-10-31",
       "last_price": "$44.99",
       "last_change_date": "2026-10-28",
       "ever_paid": true,
@@ -318541,7 +318543,7 @@
       "region": "us",
       "first_date": "2026-10-28",
       "first_price": "$4.99",
-      "last_date": "2026-10-30",
+      "last_date": "2026-10-31",
       "last_price": "$4.99",
       "last_change_date": "2026-10-28",
       "ever_paid": true,
@@ -318847,7 +318849,7 @@
       "region": "us",
       "first_date": "2026-10-28",
       "first_price": "$164.99",
-      "last_date": "2026-10-29",
+      "last_date": "2026-10-31",
       "last_price": "$164.99",
       "last_change_date": "2026-10-28",
       "ever_paid": true,
@@ -319562,7 +319564,7 @@
       "region": "us",
       "first_date": "2026-10-28",
       "first_price": "$5.00",
-      "last_date": "2026-10-30",
+      "last_date": "2026-10-31",
       "last_price": "$5.00",
       "last_change_date": "2026-10-28",
       "ever_paid": true,
@@ -319579,7 +319581,7 @@
       "region": "us",
       "first_date": "2026-10-28",
       "first_price": "$99.00",
-      "last_date": "2026-10-30",
+      "last_date": "2026-10-31",
       "last_price": "$99.00",
       "last_change_date": "2026-10-28",
       "ever_paid": true,
@@ -319596,7 +319598,7 @@
       "region": "us",
       "first_date": "2026-10-28",
       "first_price": "$5.00",
-      "last_date": "2026-10-30",
+      "last_date": "2026-10-31",
       "last_price": "$5.00",
       "last_change_date": "2026-10-28",
       "ever_paid": true,
@@ -319613,7 +319615,7 @@
       "region": "us",
       "first_date": "2026-10-28",
       "first_price": "$10,000.00",
-      "last_date": "2026-10-30",
+      "last_date": "2026-10-31",
       "last_price": "$10,000.00",
       "last_change_date": "2026-10-30",
       "ever_paid": true,
@@ -319631,7 +319633,7 @@
       "region": "us",
       "first_date": "2026-10-28",
       "first_price": "$8.99",
-      "last_date": "2026-10-30",
+      "last_date": "2026-10-31",
       "last_price": "$8.99",
       "last_change_date": "2026-10-28",
       "ever_paid": true,
@@ -319648,7 +319650,7 @@
       "region": "us",
       "first_date": "2026-10-28",
       "first_price": "$4.00",
-      "last_date": "2026-10-30",
+      "last_date": "2026-10-31",
       "last_price": "$4.00",
       "last_change_date": "2026-10-28",
       "ever_paid": true,
@@ -319665,7 +319667,7 @@
       "region": "us",
       "first_date": "2026-10-28",
       "first_price": "$2.00",
-      "last_date": "2026-10-30",
+      "last_date": "2026-10-31",
       "last_price": "$2.00",
       "last_change_date": "2026-10-28",
       "ever_paid": true,
@@ -319682,7 +319684,7 @@
       "region": "us",
       "first_date": "2026-10-28",
       "first_price": "$8.00",
-      "last_date": "2026-10-30",
+      "last_date": "2026-10-31",
       "last_price": "$8.00",
       "last_change_date": "2026-10-28",
       "ever_paid": true,
@@ -319699,7 +319701,7 @@
       "region": "us",
       "first_date": "2026-10-28",
       "first_price": "$1.00",
-      "last_date": "2026-10-30",
+      "last_date": "2026-10-31",
       "last_price": "$1.00",
       "last_change_date": "2026-10-28",
       "ever_paid": true,
@@ -321998,7 +322000,7 @@
       "region": "us",
       "first_date": "2026-10-29",
       "first_price": "$59.99",
-      "last_date": "2026-10-29",
+      "last_date": "2026-10-31",
       "last_price": "$59.99",
       "last_change_date": "2026-10-29",
       "ever_paid": true,
@@ -322015,7 +322017,7 @@
       "region": "us",
       "first_date": "2026-10-29",
       "first_price": "$14.99",
-      "last_date": "2026-10-29",
+      "last_date": "2026-10-31",
       "last_price": "$14.99",
       "last_change_date": "2026-10-29",
       "ever_paid": true,
@@ -322032,7 +322034,7 @@
       "region": "us",
       "first_date": "2026-10-29",
       "first_price": "$99.99",
-      "last_date": "2026-10-29",
+      "last_date": "2026-10-31",
       "last_price": "$99.99",
       "last_change_date": "2026-10-29",
       "ever_paid": true,
@@ -332715,7 +332717,7 @@
       "region": "us",
       "first_date": "2026-10-30",
       "first_price": "$49.99",
-      "last_date": "2026-10-30",
+      "last_date": "2026-10-31",
       "last_price": "$49.99",
       "last_change_date": "2026-10-30",
       "ever_paid": true,
@@ -337636,6 +337638,431 @@
       "free_since": null,
       "changes": {
         "2026-10-31": "$4.99"
+      }
+    },
+    "1247849330::CoinStats Degen - 70% Off - Forever": {
+      "app_id": "1247849330",
+      "app_name": "CoinStats: Crypto Portfolio",
+      "name": "CoinStats Degen - 70% Off - Forever",
+      "region": "us",
+      "first_date": "2026-10-31",
+      "first_price": "$26.90",
+      "last_date": "2026-10-31",
+      "last_price": "$26.90",
+      "last_change_date": "2026-10-31",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-31",
+      "free_since": null,
+      "changes": {
+        "2026-10-31": "$26.90"
+      }
+    },
+    "1247849330::CoinStats Degen - 70% Off Forever": {
+      "app_id": "1247849330",
+      "app_name": "CoinStats: Crypto Portfolio",
+      "name": "CoinStats Degen - 70% Off Forever",
+      "region": "us",
+      "first_date": "2026-10-31",
+      "first_price": "$224.99",
+      "last_date": "2026-10-31",
+      "last_price": "$224.99",
+      "last_change_date": "2026-10-31",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-31",
+      "free_since": null,
+      "changes": {
+        "2026-10-31": "$224.99"
+      }
+    },
+    "1247849330::CoinStats Degen - Monthly - Discout": {
+      "app_id": "1247849330",
+      "app_name": "CoinStats: Crypto Portfolio",
+      "name": "CoinStats Degen - Monthly - Discout",
+      "region": "us",
+      "first_date": "2026-10-31",
+      "first_price": "$89.99",
+      "last_date": "2026-10-31",
+      "last_price": "$89.99",
+      "last_change_date": "2026-10-31",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-31",
+      "free_since": null,
+      "changes": {
+        "2026-10-31": "$89.99"
+      }
+    },
+    "1247849330::Premium Plan Forever Discount": {
+      "app_id": "1247849330",
+      "app_name": "CoinStats: Crypto Portfolio",
+      "name": "Premium Plan Forever Discount",
+      "region": "us",
+      "first_date": "2026-10-31",
+      "first_price": "$115.99",
+      "last_date": "2026-10-31",
+      "last_price": "$115.99",
+      "last_change_date": "2026-10-31",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-31",
+      "free_since": null,
+      "changes": {
+        "2026-10-31": "$115.99"
+      }
+    },
+    "1638796139::kevincreekman Monthly Subscription": {
+      "app_id": "1638796139",
+      "app_name": "favorited",
+      "name": "kevincreekman Monthly Subscription",
+      "region": "us",
+      "first_date": "2026-10-31",
+      "first_price": "$4.99",
+      "last_date": "2026-10-31",
+      "last_price": "$4.99",
+      "last_change_date": "2026-10-31",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-31",
+      "free_since": null,
+      "changes": {
+        "2026-10-31": "$4.99"
+      }
+    },
+    "1532638515::1 Year Plan - 7 Days": {
+      "app_id": "1532638515",
+      "app_name": "PDF Editor ®",
+      "name": "1 Year Plan - 7 Days",
+      "region": "us",
+      "first_date": "2026-10-31",
+      "first_price": "$49.99",
+      "last_date": "2026-10-31",
+      "last_price": "$49.99",
+      "last_change_date": "2026-10-31",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-31",
+      "free_since": null,
+      "changes": {
+        "2026-10-31": "$49.99"
+      }
+    },
+    "1515133401::Go Premium Yearly": {
+      "app_id": "1515133401",
+      "app_name": "PDF Converter - Word to PDF",
+      "name": "Go Premium Yearly",
+      "region": "us",
+      "first_date": "2026-10-31",
+      "first_price": "$69.99",
+      "last_date": "2026-10-31",
+      "last_price": "$69.99",
+      "last_change_date": "2026-10-31",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-31",
+      "free_since": null,
+      "changes": {
+        "2026-10-31": "$69.99"
+      }
+    },
+    "1515133401::PDF Scanner": {
+      "app_id": "1515133401",
+      "app_name": "PDF Converter - Word to PDF",
+      "name": "PDF Scanner",
+      "region": "us",
+      "first_date": "2026-10-31",
+      "first_price": "$39.99",
+      "last_date": "2026-10-31",
+      "last_price": "$39.99",
+      "last_change_date": "2026-10-31",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-31",
+      "free_since": null,
+      "changes": {
+        "2026-10-31": "$39.99"
+      }
+    },
+    "1515133401::Go Unlimited Yearly": {
+      "app_id": "1515133401",
+      "app_name": "PDF Converter - Word to PDF",
+      "name": "Go Unlimited Yearly",
+      "region": "us",
+      "first_date": "2026-10-31",
+      "first_price": "$49.99",
+      "last_date": "2026-10-31",
+      "last_price": "$49.99",
+      "last_change_date": "2026-10-31",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-31",
+      "free_since": null,
+      "changes": {
+        "2026-10-31": "$49.99"
+      }
+    },
+    "1515133401::Go Unlimited Annually": {
+      "app_id": "1515133401",
+      "app_name": "PDF Converter - Word to PDF",
+      "name": "Go Unlimited Annually",
+      "region": "us",
+      "first_date": "2026-10-31",
+      "first_price": "$59.99",
+      "last_date": "2026-10-31",
+      "last_price": "$59.99",
+      "last_change_date": "2026-10-31",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-31",
+      "free_since": null,
+      "changes": {
+        "2026-10-31": "$59.99"
+      }
+    },
+    "6457366208::Esti Pro Monthly": {
+      "app_id": "6457366208",
+      "app_name": "Esti: Aesthetic Photo Editor",
+      "name": "Esti Pro Monthly",
+      "region": "us",
+      "first_date": "2026-10-31",
+      "first_price": "$39.99",
+      "last_date": "2026-10-31",
+      "last_price": "$39.99",
+      "last_change_date": "2026-10-31",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-31",
+      "free_since": null,
+      "changes": {
+        "2026-10-31": "$39.99"
+      }
+    },
+    "6457366208::Esti Pro Weekly": {
+      "app_id": "6457366208",
+      "app_name": "Esti: Aesthetic Photo Editor",
+      "name": "Esti Pro Weekly",
+      "region": "us",
+      "first_date": "2026-10-31",
+      "first_price": "$9.99",
+      "last_date": "2026-10-31",
+      "last_price": "$9.99",
+      "last_change_date": "2026-10-31",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-31",
+      "free_since": null,
+      "changes": {
+        "2026-10-31": "$9.99"
+      }
+    },
+    "6457366208::Esti Premium Guide": {
+      "app_id": "6457366208",
+      "app_name": "Esti: Aesthetic Photo Editor",
+      "name": "Esti Premium Guide",
+      "region": "us",
+      "first_date": "2026-10-31",
+      "first_price": "$4.99",
+      "last_date": "2026-10-31",
+      "last_price": "$4.99",
+      "last_change_date": "2026-10-31",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-31",
+      "free_since": null,
+      "changes": {
+        "2026-10-31": "$4.99"
+      }
+    },
+    "6457366208::Esti AI Pack": {
+      "app_id": "6457366208",
+      "app_name": "Esti: Aesthetic Photo Editor",
+      "name": "Esti AI Pack",
+      "region": "us",
+      "first_date": "2026-10-31",
+      "first_price": "$49.99",
+      "last_date": "2026-10-31",
+      "last_price": "$49.99",
+      "last_change_date": "2026-10-31",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-31",
+      "free_since": null,
+      "changes": {
+        "2026-10-31": "$49.99"
+      }
+    },
+    "1529165366::onX SOS": {
+      "app_id": "1529165366",
+      "app_name": "onX Backcountry: 3D Trail Maps",
+      "name": "onX SOS",
+      "region": "us",
+      "first_date": "2026-10-31",
+      "first_price": "$49.99",
+      "last_date": "2026-10-31",
+      "last_price": "$49.99",
+      "last_change_date": "2026-10-31",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-31",
+      "free_since": null,
+      "changes": {
+        "2026-10-31": "$49.99"
+      }
+    },
+    "6757347283::Portal - Unlimited": {
+      "app_id": "6757347283",
+      "app_name": "Stella - Manifest Anything",
+      "name": "Portal - Unlimited",
+      "region": "us",
+      "first_date": "2026-10-31",
+      "first_price": "$0.99",
+      "last_date": "2026-10-31",
+      "last_price": "$0.99",
+      "last_change_date": "2026-10-31",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-31",
+      "free_since": null,
+      "changes": {
+        "2026-10-31": "$0.99"
+      }
+    },
+    "1508942129::Weekly VIP": {
+      "app_id": "1508942129",
+      "app_name": "My Fiction: Stories & Novels",
+      "name": "Weekly VIP",
+      "region": "us",
+      "first_date": "2026-10-31",
+      "first_price": "$19.99",
+      "last_date": "2026-10-31",
+      "last_price": "$19.99",
+      "last_change_date": "2026-10-31",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-31",
+      "free_since": null,
+      "changes": {
+        "2026-10-31": "$19.99"
+      }
+    },
+    "1508942129::Yearly VIP": {
+      "app_id": "1508942129",
+      "app_name": "My Fiction: Stories & Novels",
+      "name": "Yearly VIP",
+      "region": "us",
+      "first_date": "2026-10-31",
+      "first_price": "$199.99",
+      "last_date": "2026-10-31",
+      "last_price": "$199.99",
+      "last_change_date": "2026-10-31",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-31",
+      "free_since": null,
+      "changes": {
+        "2026-10-31": "$199.99"
+      }
+    },
+    "1508942129::Monthly VIP": {
+      "app_id": "1508942129",
+      "app_name": "My Fiction: Stories & Novels",
+      "name": "Monthly VIP",
+      "region": "us",
+      "first_date": "2026-10-31",
+      "first_price": "$29.99",
+      "last_date": "2026-10-31",
+      "last_price": "$29.99",
+      "last_change_date": "2026-10-31",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-31",
+      "free_since": null,
+      "changes": {
+        "2026-10-31": "$29.99"
+      }
+    },
+    "1508942129::Coin Pack Subscription": {
+      "app_id": "1508942129",
+      "app_name": "My Fiction: Stories & Novels",
+      "name": "Coin Pack Subscription",
+      "region": "us",
+      "first_date": "2026-10-31",
+      "first_price": "$14.99",
+      "last_date": "2026-10-31",
+      "last_price": "$14.99",
+      "last_change_date": "2026-10-31",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-31",
+      "free_since": null,
+      "changes": {
+        "2026-10-31": "$14.99"
+      }
+    },
+    "1508942129::Subscription": {
+      "app_id": "1508942129",
+      "app_name": "My Fiction: Stories & Novels",
+      "name": "Subscription",
+      "region": "us",
+      "first_date": "2026-10-31",
+      "first_price": "$21.99",
+      "last_date": "2026-10-31",
+      "last_price": "$21.99",
+      "last_change_date": "2026-10-31",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-31",
+      "free_since": null,
+      "changes": {
+        "2026-10-31": "$21.99"
+      }
+    },
+    "1078564301::Monthly membership Switzerland": {
+      "app_id": "1078564301",
+      "app_name": "The Local - News in English",
+      "name": "Monthly membership Switzerland",
+      "region": "us",
+      "first_date": "2026-10-31",
+      "first_price": "$6.99",
+      "last_date": "2026-10-31",
+      "last_price": "$6.99",
+      "last_change_date": "2026-10-31",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-31",
+      "free_since": null,
+      "changes": {
+        "2026-10-31": "$6.99"
+      }
+    },
+    "6751111661::Lifetime": {
+      "app_id": "6751111661",
+      "app_name": "Urbex - Abandoned World",
+      "name": "Lifetime",
+      "region": "us",
+      "first_date": "2026-10-31",
+      "first_price": "$59.99",
+      "last_date": "2026-10-31",
+      "last_price": "$59.99",
+      "last_change_date": "2026-10-31",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-31",
+      "free_since": null,
+      "changes": {
+        "2026-10-31": "$59.99"
+      }
+    },
+    "1522443519::PAQUET PIECES 40": {
+      "app_id": "1522443519",
+      "app_name": "Onlit: Read Good Novels & Book",
+      "name": "PAQUET PIECES 40",
+      "region": "us",
+      "first_date": "2026-10-31",
+      "first_price": "$39.99",
+      "last_date": "2026-10-31",
+      "last_price": "$39.99",
+      "last_change_date": "2026-10-31",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-31",
+      "free_since": null,
+      "changes": {
+        "2026-10-31": "$39.99"
+      }
+    },
+    "1243410543::Yearly Sub Pro": {
+      "app_id": "1243410543",
+      "app_name": "Podcast App & Player - Castbox",
+      "name": "Yearly Sub Pro",
+      "region": "us",
+      "first_date": "2026-10-31",
+      "first_price": "$34.99",
+      "last_date": "2026-10-31",
+      "last_price": "$34.99",
+      "last_change_date": "2026-10-31",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-31",
+      "free_since": null,
+      "changes": {
+        "2026-10-31": "$34.99"
       }
     }
   }
