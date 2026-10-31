@@ -1,7 +1,7 @@
 {
   "updated": "2026-10-31",
   "region": "cn",
-  "count": 171,
+  "count": 173,
   "items": [
     {
       "app_id": "6758658840",
@@ -1327,24 +1327,6 @@
       "app_price": "免费"
     },
     {
-      "app_id": "6775289514",
-      "app_name": "iMuscleMap",
-      "iap": "Life Time Pro",
-      "price": "¥0.00",
-      "permanent_free": false,
-      "since": "2026-10-31",
-      "app_price": "免费"
-    },
-    {
-      "app_id": "6809489632",
-      "app_name": "Stemio: 去除人声、卡拉OK伴奏制作、音乐音轨分离工具",
-      "iap": "Life Time Free",
-      "price": "¥0.00",
-      "permanent_free": false,
-      "since": "2026-10-31",
-      "app_price": "免费"
-    },
-    {
       "app_id": "1620584291",
       "app_name": "Bookmarks: Organize & Track",
       "iap": "Onetime Payment",
@@ -1387,24 +1369,6 @@
       "price": "¥0.00",
       "permanent_free": true,
       "since": "2026-10-31",
-      "app_price": "免费"
-    },
-    {
-      "app_id": "1517313390",
-      "app_name": "Codon One：生物学习",
-      "iap": "内购限免",
-      "price": "免费",
-      "permanent_free": false,
-      "since": "2026-10-29",
-      "app_price": "免费"
-    },
-    {
-      "app_id": "6812623223",
-      "app_name": "Healia：睡眠评分·心率变异·压力·血氧·步数·恢复",
-      "iap": "内购限免",
-      "price": "免费",
-      "permanent_free": false,
-      "since": "2026-10-29",
       "app_price": "免费"
     },
     {
@@ -1537,6 +1501,60 @@
       "app_id": "584362474",
       "app_name": "Launchpad - Music & Beat Maker",
       "iap": "90s Rave - Girl Unit",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-10-31",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "6775289514",
+      "app_name": "iMuscleMap",
+      "iap": "内购限免",
+      "price": "免费",
+      "permanent_free": false,
+      "since": "2026-10-30",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "6775289514",
+      "app_name": "iMuscleMap",
+      "iap": "Life Time Pro",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-10-31",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "6809489632",
+      "app_name": "Stemio: 去除人声、卡拉OK伴奏制作、音乐音轨分离工具",
+      "iap": "Life Time Free",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-10-31",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "6800175446",
+      "app_name": "择影-照片清理与相册整理",
+      "iap": "择影永久版",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-10-31",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "1497413070",
+      "app_name": "Shoot Your Shot®: Dating App",
+      "iap": "Lifetime Premium",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-10-31",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "6826148030",
+      "app_name": "Libella -水平器・勾配計",
+      "iap": "7日間無料トライアル",
       "price": "¥0.00",
       "permanent_free": true,
       "since": "2026-10-31",

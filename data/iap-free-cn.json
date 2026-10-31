@@ -1,13 +1,13 @@
 {
   "updated": "2026-10-31",
   "region": "cn",
-  "count": 4,
+  "count": 1,
   "events": [
     {
       "app_id": "6775289514",
       "app_name": "iMuscleMap",
-      "iap": "Life Time Pro",
-      "price": "¥0.00",
+      "iap": "内购限免",
+      "price": "免费",
       "free_since": "2026-10-28",
       "days_free": 3,
       "last_paid_date": "2026-10-28",
@@ -19,57 +19,6 @@
       "genre": "生活",
       "app_price": "免费",
       "page": "app/cn-6775289514.html"
-    },
-    {
-      "app_id": "6809489632",
-      "app_name": "Stemio: 去除人声、卡拉OK伴奏制作、音乐音轨分离工具",
-      "iap": "Life Time Free",
-      "price": "¥0.00",
-      "free_since": "2026-10-28",
-      "days_free": 3,
-      "last_paid_date": "2026-10-28",
-      "last_paid_price": "—",
-      "url": "https://apps.apple.com/cn/app/stemio-%E5%8E%BB%E9%99%A4%E4%BA%BA%E5%A3%B0-%E5%8D%A1%E6%8B%89ok%E4%BC%B4%E5%A5%8F%E5%88%B6%E4%BD%9C-%E9%9F%B3%E4%B9%90%E9%9F%B3%E8%BD%A8%E5%88%86%E7%A6%BB%E5%B7%A5%E5%85%B7/id6809489632?uo=4",
-      "rating": 3.28571,
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f3/3b/b3/f33bb368-2017-cbf3-5b4e-af41d07a9078/AppIcon-0-0-1x_U007epad-0-1-0-85-220.jpeg/512x512bb.jpg",
-      "dev": "Jabed Hasan",
-      "genre": "音乐",
-      "app_price": "免费",
-      "page": "app/cn-6809489632.html"
-    },
-    {
-      "app_id": "1517313390",
-      "app_name": "Codon One：生物学习",
-      "iap": "内购限免",
-      "price": "免费",
-      "free_since": "2026-10-28",
-      "days_free": 3,
-      "last_paid_date": "2026-10-28",
-      "last_paid_price": "—",
-      "url": "https://apps.apple.com/cn/app/codon-one-%E7%94%9F%E7%89%A9%E5%AD%A6%E4%B9%A0/id1517313390?uo=4",
-      "rating": 4.74359,
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/15/57/8a/15578a11-ab56-a56d-b315-e091bfc2ede8/AppIcon-1x_U007emarketing-0-8-0-0-sRGB-85-220-0.png/512x512bb.jpg",
-      "dev": "Daniel Gebert",
-      "genre": "教育",
-      "app_price": "免费",
-      "page": "app/cn-1517313390.html"
-    },
-    {
-      "app_id": "6812623223",
-      "app_name": "Healia：睡眠评分·心率变异·压力·血氧·步数·恢复",
-      "iap": "内购限免",
-      "price": "免费",
-      "free_since": "2026-10-27",
-      "days_free": 4,
-      "last_paid_date": "2026-10-27",
-      "last_paid_price": "¥88.00",
-      "url": "https://apps.apple.com/cn/app/healia-%E7%9D%A1%E7%9C%A0%E8%AF%84%E5%88%86-%E5%BF%83%E7%8E%87%E5%8F%98%E5%BC%82-%E5%8E%8B%E5%8A%9B-%E8%A1%80%E6%B0%A7-%E6%AD%A5%E6%95%B0-%E6%81%A2%E5%A4%8D/id6812623223?uo=4",
-      "rating": 4.85417,
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c7/ba/ec/c7baec32-58b9-6915-bd43-5ec8acd4e3df/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-      "dev": "LAK YU HUI",
-      "genre": "健康健美",
-      "app_price": "免费",
-      "page": "app/cn-6812623223.html"
     }
   ]
 }
