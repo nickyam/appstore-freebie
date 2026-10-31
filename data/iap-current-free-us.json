@@ -1,7 +1,7 @@
 {
   "updated": "2026-10-31",
   "region": "us",
-  "count": 213,
+  "count": 209,
   "items": [
     {
       "app_id": "6759227375",
@@ -400,15 +400,6 @@
       "app_price": "Free"
     },
     {
-      "app_id": "6790040520",
-      "app_name": "DualCamPro",
-      "iap": "Base Edition",
-      "price": "$0.00",
-      "permanent_free": true,
-      "since": "2026-10-31",
-      "app_price": "Free"
-    },
-    {
       "app_id": "1095061668",
       "app_name": "Lenny Keyboard - shrug emoji",
       "iap": "Sticker Picker",
@@ -493,24 +484,6 @@
       "app_id": "6757162931",
       "app_name": "Emotica: Understand Emotions",
       "iap": "Emotica Pro Lifetime",
-      "price": "$0.00",
-      "permanent_free": true,
-      "since": "2026-10-31",
-      "app_price": "Free"
-    },
-    {
-      "app_id": "6790143964",
-      "app_name": "OneFocus: Deep Work",
-      "iap": "OneFocus Pro Lifetime",
-      "price": "$0.00",
-      "permanent_free": true,
-      "since": "2026-10-31",
-      "app_price": "Free"
-    },
-    {
-      "app_id": "6823810305",
-      "app_name": "Three Routes: Run & Walk",
-      "iap": "Three Routes Pro Lifetime",
       "price": "$0.00",
       "permanent_free": true,
       "since": "2026-10-31",
@@ -1651,15 +1624,6 @@
       "app_price": "Free"
     },
     {
-      "app_id": "6812623223",
-      "app_name": "Healia: Sleep Score & Recovery",
-      "iap": "Healia Lifetime",
-      "price": "$0.00",
-      "permanent_free": true,
-      "since": "2026-10-31",
-      "app_price": "Free"
-    },
-    {
       "app_id": "1517313390",
       "app_name": "Codon One: Biology Study",
       "iap": "Module 1: Chemistry of Life",
@@ -1813,15 +1777,6 @@
       "app_price": "Free"
     },
     {
-      "app_id": "6446266063",
-      "app_name": "Pixie wallpaper",
-      "iap": "Lifetime PRO",
-      "price": "$0.00",
-      "permanent_free": true,
-      "since": "2026-10-31",
-      "app_price": "Free"
-    },
-    {
       "app_id": "6444253288",
       "app_name": "Phone Cleaner-AI Clean Storage",
       "iap": "Lifetime Purchase VIP",
@@ -1887,15 +1842,6 @@
     {
       "app_id": "6758056060",
       "app_name": "Where was I ? Places & Visits",
-      "iap": "National Parks Collection - Germany",
-      "price": "$0.00",
-      "permanent_free": true,
-      "since": "2026-10-31",
-      "app_price": "Free"
-    },
-    {
-      "app_id": "6758056060",
-      "app_name": "Where was I ? Places & Visits",
       "iap": "National Parks - Great Britain",
       "price": "$0.00",
       "permanent_free": true,
@@ -1915,6 +1861,24 @@
       "app_id": "6775289514",
       "app_name": "iMuscleMap",
       "iap": "Life Time Pro",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-31",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6758056060",
+      "app_name": "Where was I ? Places & Visits",
+      "iap": "100 Fine Castles of Japan",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-10-31",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "917288465",
+      "app_name": "Mapstr – Save & Follow Places",
+      "iap": "My Secret NY",
       "price": "$0.00",
       "permanent_free": true,
       "since": "2026-10-31",
