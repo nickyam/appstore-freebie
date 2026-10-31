@@ -5158,7 +5158,7 @@
       "first_date": "2026-10-23",
       "first_price": "$59.99",
       "last_date": "2026-10-31",
-      "last_price": "$59.99",
+      "last_price": "$69.99",
       "last_change_date": "2026-10-31",
       "ever_paid": true,
       "last_paid_date": "2026-10-31",
@@ -5170,7 +5170,7 @@
         "2026-10-26": "$69.99",
         "2026-10-27": "$69.99",
         "2026-10-28": "$69.99",
-        "2026-10-31": "$59.99"
+        "2026-10-31": "$69.99"
       }
     },
     "1532638515::1 Month Promo": {
@@ -61767,10 +61767,10 @@
       "first_date": "2026-10-23",
       "first_price": "$149.99",
       "last_date": "2026-10-31",
-      "last_price": "$199.99",
-      "last_change_date": "2026-10-28",
+      "last_price": "$149.99",
+      "last_change_date": "2026-10-31",
       "ever_paid": true,
-      "last_paid_date": "2026-10-28",
+      "last_paid_date": "2026-10-31",
       "free_since": null,
       "changes": {
         "2026-10-23": "$199.99",
@@ -61778,7 +61778,8 @@
         "2026-10-25": "$199.99",
         "2026-10-26": "$199.99",
         "2026-10-27": "$199.99",
-        "2026-10-28": "$199.99"
+        "2026-10-28": "$199.99",
+        "2026-10-31": "$149.99"
       }
     },
     "1449170265::12 Month Membership": {
@@ -61789,10 +61790,10 @@
       "first_date": "2026-10-23",
       "first_price": "$99.99",
       "last_date": "2026-10-31",
-      "last_price": "$99.99",
-      "last_change_date": "2026-10-29",
+      "last_price": "$149.99",
+      "last_change_date": "2026-10-31",
       "ever_paid": true,
-      "last_paid_date": "2026-10-29",
+      "last_paid_date": "2026-10-31",
       "free_since": null,
       "changes": {
         "2026-10-23": "$69.99",
@@ -61801,7 +61802,8 @@
         "2026-10-26": "$69.99",
         "2026-10-27": "$69.99",
         "2026-10-28": "$69.99",
-        "2026-10-29": "$99.99"
+        "2026-10-29": "$99.99",
+        "2026-10-31": "$149.99"
       }
     },
     "1449170265::7 Month Membership": {
@@ -61829,13 +61831,14 @@
       "first_date": "2026-10-23",
       "first_price": "$49.99",
       "last_date": "2026-10-31",
-      "last_price": "$49.99",
-      "last_change_date": "2026-10-23",
+      "last_price": "$99.99",
+      "last_change_date": "2026-10-31",
       "ever_paid": true,
-      "last_paid_date": "2026-10-23",
+      "last_paid_date": "2026-10-31",
       "free_since": null,
       "changes": {
-        "2026-10-23": "$49.99"
+        "2026-10-23": "$49.99",
+        "2026-10-31": "$99.99"
       }
     },
     "1605765153::3550 golds": {
@@ -196778,14 +196781,15 @@
       "first_date": "2026-10-27",
       "first_price": "$9.99",
       "last_date": "2026-10-31",
-      "last_price": "$119.99",
-      "last_change_date": "2026-10-28",
+      "last_price": "$24.99",
+      "last_change_date": "2026-10-31",
       "ever_paid": true,
-      "last_paid_date": "2026-10-28",
+      "last_paid_date": "2026-10-31",
       "free_since": null,
       "changes": {
         "2026-10-27": "$119.99",
-        "2026-10-28": "$119.99"
+        "2026-10-28": "$119.99",
+        "2026-10-31": "$24.99"
       }
     },
     "6670422243::Personal AI Coach": {
@@ -327733,14 +327737,14 @@
       "first_date": "2026-10-30",
       "first_price": "$0.00",
       "last_date": "2026-10-31",
-      "last_price": "$29.99",
+      "last_price": "$0.00",
       "last_change_date": "2026-10-31",
       "ever_paid": true,
       "last_paid_date": "2026-10-31",
-      "free_since": null,
+      "free_since": "2026-10-31",
       "changes": {
         "2026-10-30": "$0.00",
-        "2026-10-31": "$29.99"
+        "2026-10-31": "$0.00"
       }
     },
     "1020967894::Coordinates-Pro": {
@@ -338063,6 +338067,159 @@
       "free_since": null,
       "changes": {
         "2026-10-31": "$34.99"
+      }
+    },
+    "1041465860::Angular Arps": {
+      "app_id": "1041465860",
+      "app_name": "Model 15 Modular Synthesizer",
+      "name": "Angular Arps",
+      "region": "us",
+      "first_date": "2026-10-31",
+      "first_price": "$4.99",
+      "last_date": "2026-10-31",
+      "last_price": "$4.99",
+      "last_change_date": "2026-10-31",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-31",
+      "free_since": null,
+      "changes": {
+        "2026-10-31": "$4.99"
+      }
+    },
+    "6761451136::AntMiner S19 Hydro 215 1 month": {
+      "app_id": "6761451136",
+      "app_name": "Nova Bitcoin Pool",
+      "name": "AntMiner S19 Hydro 215 1 month",
+      "region": "us",
+      "first_date": "2026-10-31",
+      "first_price": "$134.99",
+      "last_date": "2026-10-31",
+      "last_price": "$134.99",
+      "last_change_date": "2026-10-31",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-31",
+      "free_since": null,
+      "changes": {
+        "2026-10-31": "$134.99"
+      }
+    },
+    "6761451136::AntMiner S19 Hydro 215 6 Month": {
+      "app_id": "6761451136",
+      "app_name": "Nova Bitcoin Pool",
+      "name": "AntMiner S19 Hydro 215 6 Month",
+      "region": "us",
+      "first_date": "2026-10-31",
+      "first_price": "$399.99",
+      "last_date": "2026-10-31",
+      "last_price": "$399.99",
+      "last_change_date": "2026-10-31",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-31",
+      "free_since": null,
+      "changes": {
+        "2026-10-31": "$399.99"
+      }
+    },
+    "6761451136::AntMiner S19 Hydro 255 12 Month": {
+      "app_id": "6761451136",
+      "app_name": "Nova Bitcoin Pool",
+      "name": "AntMiner S19 Hydro 255 12 Month",
+      "region": "us",
+      "first_date": "2026-10-31",
+      "first_price": "$799.99",
+      "last_date": "2026-10-31",
+      "last_price": "$799.99",
+      "last_change_date": "2026-10-31",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-31",
+      "free_since": null,
+      "changes": {
+        "2026-10-31": "$799.99"
+      }
+    },
+    "6761451136::AntMiner S19 Hydro 230 6 Month": {
+      "app_id": "6761451136",
+      "app_name": "Nova Bitcoin Pool",
+      "name": "AntMiner S19 Hydro 230 6 Month",
+      "region": "us",
+      "first_date": "2026-10-31",
+      "first_price": "$429.99",
+      "last_date": "2026-10-31",
+      "last_price": "$429.99",
+      "last_change_date": "2026-10-31",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-31",
+      "free_since": null,
+      "changes": {
+        "2026-10-31": "$429.99"
+      }
+    },
+    "6761451136::AntMiner S19 Hydro 215 12 Month": {
+      "app_id": "6761451136",
+      "app_name": "Nova Bitcoin Pool",
+      "name": "AntMiner S19 Hydro 215 12 Month",
+      "region": "us",
+      "first_date": "2026-10-31",
+      "first_price": "$729.99",
+      "last_date": "2026-10-31",
+      "last_price": "$729.99",
+      "last_change_date": "2026-10-31",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-31",
+      "free_since": null,
+      "changes": {
+        "2026-10-31": "$729.99"
+      }
+    },
+    "6761451136::AntMiner S19 Hydro 230 1 Month": {
+      "app_id": "6761451136",
+      "app_name": "Nova Bitcoin Pool",
+      "name": "AntMiner S19 Hydro 230 1 Month",
+      "region": "us",
+      "first_date": "2026-10-31",
+      "first_price": "$144.99",
+      "last_date": "2026-10-31",
+      "last_price": "$144.99",
+      "last_change_date": "2026-10-31",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-31",
+      "free_since": null,
+      "changes": {
+        "2026-10-31": "$144.99"
+      }
+    },
+    "6761451136::AntMiner S19 Hydro 230 12 Month": {
+      "app_id": "6761451136",
+      "app_name": "Nova Bitcoin Pool",
+      "name": "AntMiner S19 Hydro 230 12 Month",
+      "region": "us",
+      "first_date": "2026-10-31",
+      "first_price": "$749.99",
+      "last_date": "2026-10-31",
+      "last_price": "$749.99",
+      "last_change_date": "2026-10-31",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-31",
+      "free_since": null,
+      "changes": {
+        "2026-10-31": "$749.99"
+      }
+    },
+    "6670422243::E-Guides": {
+      "app_id": "6670422243",
+      "app_name": "Finelo: Master Trading",
+      "name": "E-Guides",
+      "region": "us",
+      "first_date": "2026-10-31",
+      "first_price": "$19.99",
+      "last_date": "2026-10-31",
+      "last_price": "$19.99",
+      "last_change_date": "2026-10-31",
+      "ever_paid": true,
+      "last_paid_date": "2026-10-31",
+      "free_since": null,
+      "changes": {
+        "2026-10-31": "$19.99"
       }
     }
   }
