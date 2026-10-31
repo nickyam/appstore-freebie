@@ -59,8 +59,12 @@
      只读 data/ 与 iTunes lookup 接口，把「在架但已恢复收费 / 折扣已结束」的条目列成清单。
      **绝不写 `data/`、绝不写 `app/`、不生成任何 HTML、不改 git。**
    - 下架动作**一律**由 `scripts/generate.py` 执行（见铁律 1：全站唯一写页人）。
-     校验 → 发现失效 → 触发 daily 跑批 → generate.py 用既有的「促销粘性」逻辑下架，
-     这条链路上**不允许有第二个写页方**。
+     校验（verify_and_trigger.sh 每 2h 跑 verify_live_freebies.py）→ 发现失效 →
+     dispatch `takedown.yml` → `generate.py --takedown-report` 走 `takedown_mode`
+     （只移除失效条目 + 删对应 app 页 + 重写 sitemap，**秒级，不重跑全量流水线**）；
+     下一轮 `daily.yml` 全量重算时以当前真实价格为准自然收敛。
+     轻量下架仍由 generate.py 执行，**不引入第二个写页方**（早期「为下架而拉起 3h 全量
+     daily」的浪费已废弃：2026-10-31 起 verify 改 dispatch takedown.yml）。
    - `scripts/verify_and_trigger.sh`（部署在 ECS `/root/freebie-deploy/`）只做
      「读 + dispatch」两件事，同样不碰站点数据文件。
    - 判定口径必须与 generate.py 对齐（见铁律 4）：限免看现价是否 ≠0；

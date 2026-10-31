@@ -102,12 +102,17 @@ if [ "$STALE" -eq 0 ]; then
   exit 0
 fi
 
-# ---- 3. 确有失效 → dispatch daily.yml 去下架 ----
-# 复用 generate.py 既有的「促销粘性」下架逻辑，本脚本不自己改数据。
-log "发现 $STALE 条失效条目，触发 daily 跑批下架…"
+# ---- 3. 确有失效 → dispatch takedown.yml 轻量下架 ----
+# 关键改动（2026-10-31）：原先这里 dispatch 的是 daily.yml（全量跑批，3h+，
+# 每次只为了下架 2~4 个失效 App 却重算 577 个页面，既慢又堆出一串长耗时 run）。
+# 现改为 dispatch takedown.yml —— 只精准移除失效条目 + 删对应独立页 + 重写 sitemap，
+# 由 generate.py 的 takedown_mode 执行（仍是全站唯一写页人），本地秒级完成。
+# takedown.yml 与 daily.yml 共用 freebie-update 并发组，串行互不抢推 main；
+# 下一轮 daily 全量重算时自然收敛。
+log "发现 $STALE 条失效条目，触发轻量下架 (takedown.yml)…"
 
 TOKEN="$(tr -d '[:space:]' < "$TOKEN_FILE")"
-WF="daily.yml"
+WF="takedown.yml"
 URL="https://api.github.com/repos/${REPO}/actions/workflows/${WF}/dispatches"
 for i in 1 2 3; do
   CODE=$(curl -sS -m 20 -o /tmp/dispatch_resp_verify.json -w '%{http_code}' \

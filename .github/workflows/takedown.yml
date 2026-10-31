@@ -1,0 +1,89 @@
+name: freebie-takedown
+
+# 轻量下架工作流（秒级，替代「为下架而跑全量 daily」）
+# ------------------------------------------------
+# 背景：verify_and_trigger.sh 每 2 小时校验线上限免有效性，发现失效条目后需要下架。
+# 原先它 dispatch 的是 daily.yml（全量跑批，3h+，要重算双区榜单 + 生成 577 个详情页），
+# 导致「每 2 小时若有失效就拉起一次 3 小时流水线」，既浪费 Actions 时长，
+# 又在 Actions 列表堆出一串长耗时 run。
+#
+# 本工作流只做「精准下架」三件事（均由 generate.py 的 takedown_mode 执行，仍是全站唯一写页人）：
+#   1) 重新校验仓库当前 free-today-{cn,us}.json 里是否还有已失效条目（复用 verify_live_freebies.py）；
+#   2) generate.py --takedown-report 把失效条目从 free-today-{region}.json 删掉 +
+#      删掉对应 app/{region}-{id}.html + 重写 sitemap；
+#   3) commit + push（带 rebase 重试，与 daily.yml 同一并发组，避免抢推 main）。
+# 整套动作本地秒级完成，无需榜单采集/内购采集/历史更新。
+#
+# 与 daily.yml 的关系：
+#   · 并发组同为 freebie-update（cancel-in-progress: false）→ 与 daily 串行，互不抢推 main；
+#   · takedown 先摘掉失效条目，下一轮 daily 全量重算时以「当前真实价格」为准自然收敛，
+#     已被恢复收费的 App 不会被重新写回限免清单（无重复/冲突）。
+#   · takedown 不 bump 资源戳（下架不改 JS/CSS），与 daily 行为一致。
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+# 与 daily.yml 共用同一并发组：与 daily 串行，避免互相抢推 main 造成 rebase 冲突。
+concurrency:
+  group: freebie-update
+  cancel-in-progress: false
+
+jobs:
+  takedown:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+        with:
+          # 完整历史：git pull --rebase 需要正确的 merge base
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+
+      - name: Re-verify current freebies/deals against live prices
+        # verify 只读；--data-dir 指向仓库 data/（校验「仓库里这份数据」是否仍有失效条目）。
+        # 退出码 1=发现失效（正常预期），用 || true 避免 workflow 因非零退出而中断。
+        run: python scripts/verify_live_freebies.py --data-dir data/ --report /tmp/takedown-report.json || true
+
+      - name: Lightweight takedown of stale entries (generate.py 唯一写页人)
+        run: python scripts/generate.py --takedown-report /tmp/takedown-report.json
+
+      - name: Commit & push (with rebase retry)
+        run: |
+          set -e
+          git config user.email "freebie-bot@users.noreply.github.com"
+          git config user.name "Freebie Bot"
+          PATHS="data/free-today-cn.json data/free-today-us.json app/ sitemap.xml"
+          MSG="takedown: 下架失效限免/特价 ($(date -u +%Y-%m-%dT%H:%M:%SZ))"
+
+          git add $PATHS
+          if git diff --cached --quiet; then
+            echo "无变化，跳过提交"
+            exit 0
+          fi
+          git commit -m "$MSG"
+
+          # 与 daily.yml 同款 rebase 重试：跑批/用户手动推送期间 push 竞争可持续数分钟，
+          # 单次不够，循环最多 5 次。
+          for i in 1 2 3 4 5; do
+            git fetch origin main
+            if git pull --rebase origin main; then
+              if git push origin HEAD:main; then
+                echo "推送成功（第 $i 次尝试）"
+                exit 0
+              fi
+            else
+              echo "::warning::rebase 冲突，放弃本次 rebase 重试"
+              git rebase --abort || true
+            fi
+            echo "::warning::push/rebase 被拒（第 $i 次），10 秒后重试"
+            sleep 10
+          done
+          echo "::error::推送失败（重试 5 次后仍失败）"
+          exit 1

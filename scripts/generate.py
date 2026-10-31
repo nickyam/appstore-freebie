@@ -785,12 +785,80 @@ def derive(entry):
     return ever_charged, max_price, cz, prev, cur
 
 
+def takedown_mode(report_path):
+    """轻量下架模式（替代「为下架而跑全量 daily」）。
+
+    读取 verify_live_freebies.py 的报告，对每个 stale 条目只做三件事：
+      · 从 data/free-today-{region}.json 的 freebies/deals 移除；
+      · 删除 app/{region}-{id}.html 独立页（避免直接访问/SEO 仍显示「免费」）；
+      · 重写 sitemap.xml（不再收录被删页）。
+    不碰 history-*、不跑榜单/内购采集、不重算 577 个页面、不 bump 资源戳
+    （下架不改 JS/CSS）。
+
+    仍由本脚本（全站唯一写页人）执行；与常规模式共用 freebie-update 并发组串行，
+    下一轮常规跑批以当前真实价格为准自然收敛（已恢复收费的 App 不会被重新写回限免）。
+    幂等：对一份数据重复运行，第二次应为无操作。
+    """
+    try:
+        with open(report_path, encoding="utf-8") as f:
+            report = json.load(f)
+    except Exception as e:
+        print("[error] 无法读取报告 %s: %s" % (report_path, e), file=sys.stderr)
+        return 2
+
+    removed = []
+    for r in report.get("regions", []):
+        region = r.get("region")
+        if not region or r.get("skipped"):
+            continue
+        for s in r.get("stale", []):
+            cid = str(s.get("id"))
+            if not cid:
+                continue
+            ft_path = os.path.join(DATA_DIR, "free-today-%s.json" % region)
+            if not os.path.exists(ft_path):
+                continue
+            data = load_json(ft_path)
+            before = len(data.get("freebies", [])) + len(data.get("deals", []))
+            data["freebies"] = [x for x in data.get("freebies", []) if str(x.get("id")) != cid]
+            data["deals"] = [x for x in data.get("deals", []) if str(x.get("id")) != cid]
+            after = len(data.get("freebies", [])) + len(data.get("deals", []))
+            if after < before:
+                save_json(ft_path, data)
+                page = os.path.join(APP_DIR, "%s-%s.html" % (region, cid))
+                if os.path.exists(page):
+                    try:
+                        os.remove(page)
+                    except OSError:
+                        pass
+                removed.append((region, cid, s.get("name"), s.get("kind")))
+                print("[takedown] %s/%s %s (%s) 已下架（站上显示 %s → 现价 %s）"
+                      % (region, cid, s.get("name"), s.get("kind"), s.get("shown"), s.get("now")))
+
+    if not removed:
+        print("[ok] 报告中无可下架条目（或无变化），本轮回滚无操作")
+        return 0
+
+    urls = write_sitemap()
+    print("[ok] 共下架 %d 条；sitemap 现收录 %d 个 URL" % (len(removed), urls))
+    return 0
+
+
 def main():
     parser = argparse.ArgumentParser(description="App Store 限免清单生成器")
-    parser.add_argument("--country", required=True, choices=["cn", "us"], help="地区：cn 中国区 / us 美国区")
+    parser.add_argument("--country", choices=["cn", "us"], help="地区：cn 中国区 / us 美国区（常规/全量模式必填）")
     parser.add_argument("--full", action="store_true",
                         help="全量模式：把永久库中所有 App 一并回查（默认仅扫榜单 + 促销中 App，更快）")
+    parser.add_argument("--takedown-report", default=None,
+                        help="轻量下架模式：读取 verify_live_freebies.py 产出的报告，"
+                             "只移除失效条目+删对应独立页+重写 sitemap，不重跑全量流水线。")
     args = parser.parse_args()
+
+    if args.takedown_report:
+        return takedown_mode(args.takedown_report)
+
+    if not args.country:
+        parser.error("--country 必填（除非使用 --takedown-report 轻量下架模式）")
     country = args.country
     full = args.full
     free_label = "免费" if country == "cn" else "Free"
