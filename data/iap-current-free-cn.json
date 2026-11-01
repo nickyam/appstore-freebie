@@ -1,7 +1,7 @@
 {
   "updated": "2026-11-01",
   "region": "cn",
-  "count": 177,
+  "count": 186,
   "items": [
     {
       "app_id": "6758658840",
@@ -477,7 +477,7 @@
       "iap": "INS G-0",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-31",
+      "since": "2026-11-01",
       "app_price": "免费"
     },
     {
@@ -1017,7 +1017,7 @@
       "iap": "B2轰炸机地毯式轰炸",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-31",
+      "since": "2026-11-01",
       "app_price": "¥22.00"
     },
     {
@@ -1026,7 +1026,7 @@
       "iap": "兰博基尼 Veneno",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-31",
+      "since": "2026-11-01",
       "app_price": "¥22.00"
     },
     {
@@ -1035,7 +1035,7 @@
       "iap": "隐形轰炸机",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-31",
+      "since": "2026-11-01",
       "app_price": "¥22.00"
     },
     {
@@ -1053,7 +1053,7 @@
       "iap": "增强版蝙蝠侠",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-31",
+      "since": "2026-11-01",
       "app_price": "¥22.00"
     },
     {
@@ -1062,7 +1062,7 @@
       "iap": "钢铁侠",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-31",
+      "since": "2026-11-01",
       "app_price": "¥22.00"
     },
     {
@@ -1071,7 +1071,7 @@
       "iap": "Jetpack",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-31",
+      "since": "2026-11-01",
       "app_price": "¥22.00"
     },
     {
@@ -1080,7 +1080,7 @@
       "iap": "蝙蝠侠",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-10-31",
+      "since": "2026-11-01",
       "app_price": "¥22.00"
     },
     {
@@ -1444,15 +1444,6 @@
       "app_price": "免费"
     },
     {
-      "app_id": "6743779432",
-      "app_name": "拍有序-相册整理与分类相机",
-      "iap": "相册整理 Pro 永久包",
-      "price": "¥0.00",
-      "permanent_free": true,
-      "since": "2026-11-01",
-      "app_price": "免费"
-    },
-    {
       "app_id": "6760329799",
       "app_name": "iWidget-万能小组件 手机主题商店 灵动岛多彩桌面美化",
       "iap": "永久会员",
@@ -1482,15 +1473,6 @@
     {
       "app_id": "6775289514",
       "app_name": "iMuscleMap",
-      "iap": "内购限免",
-      "price": "免费",
-      "permanent_free": false,
-      "since": "2026-10-30",
-      "app_price": "免费"
-    },
-    {
-      "app_id": "6775289514",
-      "app_name": "iMuscleMap",
       "iap": "Life Time Pro",
       "price": "¥0.00",
       "permanent_free": true,
@@ -1511,7 +1493,7 @@
       "app_name": "择影-照片清理与相册整理",
       "iap": "择影永久版",
       "price": "¥0.00",
-      "permanent_free": true,
+      "permanent_free": false,
       "since": "2026-11-01",
       "app_price": "免费"
     },
@@ -1595,6 +1577,105 @@
       "permanent_free": true,
       "since": "2026-11-01",
       "app_price": "¥22.00"
+    },
+    {
+      "app_id": "1133575767",
+      "app_name": "听读宝 - 英语听力播放器 变速复读大师 原变速MP3",
+      "iap": "历年六级考试真题",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-01",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "1133575767",
+      "app_name": "听读宝 - 英语听力播放器 变速复读大师 原变速MP3",
+      "iap": "历年四级考试真题",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-01",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "528519530",
+      "app_name": "围棋死活宝典-单机版围棋入门围棋练习经典版",
+      "iap": "围棋死活宝典基本死活集",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-01",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "528519530",
+      "app_name": "围棋死活宝典-单机版围棋入门围棋练习经典版",
+      "iap": "围棋死活宝典扩展死活集",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-01",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "587852826",
+      "app_name": "OverCam",
+      "iap": "Posterize Effect",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-01",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "587852826",
+      "app_name": "OverCam",
+      "iap": "Binary Image",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-01",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "587852826",
+      "app_name": "OverCam",
+      "iap": "Black and White",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-01",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "6448686063",
+      "app_name": "Number Memory 25",
+      "iap": "Unlock All",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-01",
+      "app_price": "¥8.00"
+    },
+    {
+      "app_id": "6480367122",
+      "app_name": "自律锁：不做手机控",
+      "iap": "life_time",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-01",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "6744615017",
+      "app_name": "Frame Builder 2 Photo Framing",
+      "iap": "Extra wood frames library",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-01",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "6744615017",
+      "app_name": "Frame Builder 2 Photo Framing",
+      "iap": "Extra drawings",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-01",
+      "app_price": "免费"
     }
   ]
 }
