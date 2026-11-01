@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-01",
+  "updated": "2026-11-02",
   "region": "us",
   "count": 3,
   "events": [
@@ -9,7 +9,7 @@
       "iap": "Eras of Exile Bundle",
       "price": "$0.00",
       "free_since": "2026-10-30",
-      "days_free": 2,
+      "days_free": 3,
       "last_paid_date": "2026-10-26",
       "last_paid_price": "$6.99",
       "url": "https://apps.apple.com/us/app/ccg-deckbuilder-covenant-cards/id6759227375?uo=4",
@@ -26,7 +26,7 @@
       "iap": "Classified Camera PRO Lifetime",
       "price": "$0.00",
       "free_since": "2026-11-01",
-      "days_free": 0,
+      "days_free": 1,
       "last_paid_date": "2026-10-31",
       "last_paid_price": "$3.99",
       "url": "https://apps.apple.com/us/app/neatalbums-photo-organizer/id6743779432?uo=4",
@@ -43,7 +43,7 @@
       "iap": "Lifetime Purchase VIP",
       "price": "$0.00",
       "free_since": "2026-10-29",
-      "days_free": 3,
+      "days_free": 4,
       "last_paid_date": "2026-10-29",
       "last_paid_price": "$29.99",
       "url": "https://apps.apple.com/us/app/phone-cleaner-ai-clean-storage/id6444253288?uo=4",
