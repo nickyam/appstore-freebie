@@ -30161,13 +30161,14 @@
       "first_date": "2026-10-23",
       "first_price": "$0.99",
       "last_date": "2026-11-01",
-      "last_price": "$0.99",
-      "last_change_date": "2026-10-23",
+      "last_price": "$5.99",
+      "last_change_date": "2026-11-01",
       "ever_paid": true,
-      "last_paid_date": "2026-10-23",
+      "last_paid_date": "2026-11-01",
       "free_since": null,
       "changes": {
-        "2026-10-23": "$0.99"
+        "2026-10-23": "$0.99",
+        "2026-11-01": "$5.99"
       }
     },
     "398129933::Half-Yearly Premium Member": {
@@ -38361,7 +38362,7 @@
       "first_date": "2026-10-23",
       "first_price": "$3.00",
       "last_date": "2026-11-01",
-      "last_price": "$300.00",
+      "last_price": "$179.99",
       "last_change_date": "2026-11-01",
       "ever_paid": true,
       "last_paid_date": "2026-11-01",
@@ -38373,7 +38374,7 @@
         "2026-10-26": "$179.99",
         "2026-10-27": "$179.99",
         "2026-10-28": "$179.99",
-        "2026-11-01": "$300.00"
+        "2026-11-01": "$179.99"
       }
     },
     "918755226::FerryBestFriends": {
@@ -59640,17 +59641,18 @@
       "first_date": "2026-10-23",
       "first_price": "$9.99",
       "last_date": "2026-11-01",
-      "last_price": "$29.99",
-      "last_change_date": "2026-10-31",
+      "last_price": "$9.99",
+      "last_change_date": "2026-11-01",
       "ever_paid": true,
-      "last_paid_date": "2026-10-31",
+      "last_paid_date": "2026-11-01",
       "free_since": null,
       "changes": {
         "2026-10-23": "$9.99",
         "2026-10-24": "$29.99",
         "2026-10-25": "$29.99",
         "2026-10-26": "$9.99",
-        "2026-10-31": "$29.99"
+        "2026-10-31": "$29.99",
+        "2026-11-01": "$9.99"
       }
     },
     "6783769467::GTL: Prison Messaging & Visits": {
@@ -59677,7 +59679,7 @@
       "region": "us",
       "first_date": "2026-10-23",
       "first_price": "$9.99",
-      "last_date": "2026-10-31",
+      "last_date": "2026-11-01",
       "last_price": "$9.99",
       "last_change_date": "2026-10-23",
       "ever_paid": true,
@@ -91840,7 +91842,7 @@
       "first_date": "2026-10-23",
       "first_price": "$6.99",
       "last_date": "2026-11-01",
-      "last_price": "$19.99",
+      "last_price": "$17.49",
       "last_change_date": "2026-11-01",
       "ever_paid": true,
       "last_paid_date": "2026-11-01",
@@ -91853,7 +91855,7 @@
         "2026-10-27": "$9.99",
         "2026-10-28": "$9.99",
         "2026-10-29": "$17.49",
-        "2026-11-01": "$19.99"
+        "2026-11-01": "$17.49"
       }
     },
     "1530776865::Premium Subscription": {
@@ -117117,15 +117119,16 @@
       "first_date": "2026-10-27",
       "first_price": "$14.99",
       "last_date": "2026-11-01",
-      "last_price": "$14.99",
-      "last_change_date": "2026-10-29",
+      "last_price": "$29.49",
+      "last_change_date": "2026-11-01",
       "ever_paid": true,
-      "last_paid_date": "2026-10-29",
+      "last_paid_date": "2026-11-01",
       "free_since": null,
       "changes": {
         "2026-10-27": "$7.99",
         "2026-10-28": "$7.99",
-        "2026-10-29": "$14.99"
+        "2026-10-29": "$14.99",
+        "2026-11-01": "$29.49"
       }
     },
     "886626229::Find My Friends Phone by iMapp": {
@@ -127709,7 +127712,7 @@
       "first_date": "2026-10-27",
       "first_price": "$3.99",
       "last_date": "2026-11-01",
-      "last_price": "$5.99",
+      "last_price": "$3.99",
       "last_change_date": "2026-11-01",
       "ever_paid": true,
       "last_paid_date": "2026-11-01",
@@ -127718,7 +127721,7 @@
         "2026-10-27": "$5.99",
         "2026-10-28": "$5.99",
         "2026-10-31": "$3.99",
-        "2026-11-01": "$5.99"
+        "2026-11-01": "$3.99"
       }
     },
     "6737531446::ClipTone Yearly": {
@@ -135010,7 +135013,7 @@
       "first_date": "2026-10-27",
       "first_price": "$7.99",
       "last_date": "2026-11-01",
-      "last_price": "$9.99",
+      "last_price": "$7.99",
       "last_change_date": "2026-11-01",
       "ever_paid": true,
       "last_paid_date": "2026-11-01",
@@ -135020,7 +135023,7 @@
         "2026-10-28": "$9.99",
         "2026-10-29": "$9.99",
         "2026-10-31": "$7.99",
-        "2026-11-01": "$9.99"
+        "2026-11-01": "$7.99"
       }
     },
     "601174087::Down VIP": {
@@ -176412,7 +176415,7 @@
       "first_date": "2026-10-27",
       "first_price": "$139.99",
       "last_date": "2026-11-01",
-      "last_price": "$239.99",
+      "last_price": "$149.99",
       "last_change_date": "2026-11-01",
       "ever_paid": true,
       "last_paid_date": "2026-11-01",
@@ -176423,7 +176426,7 @@
         "2026-10-29": "$239.99",
         "2026-10-30": "$239.99",
         "2026-10-31": "$239.99",
-        "2026-11-01": "$239.99"
+        "2026-11-01": "$149.99"
       }
     },
     "6748968935::Payout Weekly": {
@@ -196397,7 +196400,7 @@
       "first_date": "2026-10-27",
       "first_price": "$9.99",
       "last_date": "2026-11-01",
-      "last_price": "$39.99",
+      "last_price": "$59.99",
       "last_change_date": "2026-11-01",
       "ever_paid": true,
       "last_paid_date": "2026-11-01",
@@ -196408,7 +196411,7 @@
         "2026-10-29": "$59.99",
         "2026-10-30": "$39.99",
         "2026-10-31": "$59.99",
-        "2026-11-01": "$39.99"
+        "2026-11-01": "$59.99"
       }
     },
     "1508098273::Keiki World - 7 Days Trial": {
@@ -227619,14 +227622,14 @@
       "first_date": "2026-10-27",
       "first_price": "$7.99",
       "last_date": "2026-11-01",
-      "last_price": "$5.99",
+      "last_price": "$7.99",
       "last_change_date": "2026-11-01",
       "ever_paid": true,
       "last_paid_date": "2026-11-01",
       "free_since": null,
       "changes": {
         "2026-10-27": "$7.99",
-        "2026-11-01": "$5.99"
+        "2026-11-01": "$7.99"
       }
     },
     "1078564301::Annual membership Spain": {
@@ -249346,15 +249349,16 @@
       "first_date": "2026-10-27",
       "first_price": "$14.99",
       "last_date": "2026-11-01",
-      "last_price": "$14.99",
-      "last_change_date": "2026-10-29",
+      "last_price": "$9.99",
+      "last_change_date": "2026-11-01",
       "ever_paid": true,
-      "last_paid_date": "2026-10-29",
+      "last_paid_date": "2026-11-01",
       "free_since": null,
       "changes": {
         "2026-10-27": "$9.99",
         "2026-10-28": "$9.99",
-        "2026-10-29": "$14.99"
+        "2026-10-29": "$14.99",
+        "2026-11-01": "$9.99"
       }
     },
     "6746062220::Unlimited (1 Year)": {
@@ -341067,6 +341071,108 @@
       "free_since": null,
       "changes": {
         "2026-11-01": "$39.99"
+      }
+    },
+    "398129933::Premium Membership Monthly": {
+      "app_id": "398129933",
+      "app_name": "Calculator₊",
+      "name": "Premium Membership Monthly",
+      "region": "us",
+      "first_date": "2026-11-01",
+      "first_price": "$3.99",
+      "last_date": "2026-11-01",
+      "last_price": "$3.99",
+      "last_change_date": "2026-11-01",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-01",
+      "free_since": null,
+      "changes": {
+        "2026-11-01": "$3.99"
+      }
+    },
+    "398129933::Premium Membership Half-Yearly": {
+      "app_id": "398129933",
+      "app_name": "Calculator₊",
+      "name": "Premium Membership Half-Yearly",
+      "region": "us",
+      "first_date": "2026-11-01",
+      "first_price": "$5.49",
+      "last_date": "2026-11-01",
+      "last_price": "$5.49",
+      "last_change_date": "2026-11-01",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-01",
+      "free_since": null,
+      "changes": {
+        "2026-11-01": "$5.49"
+      }
+    },
+    "398129933::Premium Membership Yearly": {
+      "app_id": "398129933",
+      "app_name": "Calculator₊",
+      "name": "Premium Membership Yearly",
+      "region": "us",
+      "first_date": "2026-11-01",
+      "first_price": "$8.49",
+      "last_date": "2026-11-01",
+      "last_price": "$8.49",
+      "last_change_date": "2026-11-01",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-01",
+      "free_since": null,
+      "changes": {
+        "2026-11-01": "$8.49"
+      }
+    },
+    "398129933::Premium Membership": {
+      "app_id": "398129933",
+      "app_name": "Calculator₊",
+      "name": "Premium Membership",
+      "region": "us",
+      "first_date": "2026-11-01",
+      "first_price": "$5.99",
+      "last_date": "2026-11-01",
+      "last_price": "$5.99",
+      "last_change_date": "2026-11-01",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-01",
+      "free_since": null,
+      "changes": {
+        "2026-11-01": "$5.99"
+      }
+    },
+    "398129933::Unlimited Math Calculations": {
+      "app_id": "398129933",
+      "app_name": "Calculator₊",
+      "name": "Unlimited Math Calculations",
+      "region": "us",
+      "first_date": "2026-11-01",
+      "first_price": "$3.99",
+      "last_date": "2026-11-01",
+      "last_price": "$3.99",
+      "last_change_date": "2026-11-01",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-01",
+      "free_since": null,
+      "changes": {
+        "2026-11-01": "$3.99"
+      }
+    },
+    "6618142292::Basic Offer": {
+      "app_id": "6618142292",
+      "app_name": "Flambé®: Merge and Cook",
+      "name": "Basic Offer",
+      "region": "us",
+      "first_date": "2026-11-01",
+      "first_price": "$3.99",
+      "last_date": "2026-11-01",
+      "last_price": "$3.99",
+      "last_change_date": "2026-11-01",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-01",
+      "free_since": null,
+      "changes": {
+        "2026-11-01": "$3.99"
       }
     }
   }
