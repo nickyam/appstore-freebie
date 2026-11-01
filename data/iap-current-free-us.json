@@ -1,17 +1,8 @@
 {
   "updated": "2026-11-01",
   "region": "us",
-  "count": 222,
+  "count": 215,
   "items": [
-    {
-      "app_id": "6816660034",
-      "app_name": "Down Round: Startup CEO Sim",
-      "iap": "Down Round — Full Game",
-      "price": "$0.00",
-      "permanent_free": false,
-      "since": "2026-11-01",
-      "app_price": "Free"
-    },
     {
       "app_id": "6759227375",
       "app_name": "CCG Deckbuilder Covenant Cards",
@@ -412,15 +403,6 @@
       "app_id": "588013838",
       "app_name": "VSCO: Photo & Video Editor",
       "iap": "We the Creators",
-      "price": "$0.00",
-      "permanent_free": true,
-      "since": "2026-11-01",
-      "app_price": "Free"
-    },
-    {
-      "app_id": "6779493280",
-      "app_name": "OnePhoto: Photo Cleaner",
-      "iap": "Supporter",
       "price": "$0.00",
       "permanent_free": true,
       "since": "2026-11-01",
@@ -1588,15 +1570,6 @@
       "app_price": "Free"
     },
     {
-      "app_id": "6753014760",
-      "app_name": "Very Good Metronome",
-      "iap": "Custom Time Signatures",
-      "price": "$0.00",
-      "permanent_free": true,
-      "since": "2026-11-01",
-      "app_price": "Free"
-    },
-    {
       "app_id": "6758226158",
       "app_name": "iSmileFace",
       "iap": "LifeTime Pro",
@@ -1696,15 +1669,6 @@
       "app_price": "$5.99"
     },
     {
-      "app_id": "6811368513",
-      "app_name": "Squatty Bird: Squat to Fly",
-      "iap": "Level Pack 1",
-      "price": "$0.00",
-      "permanent_free": true,
-      "since": "2026-11-01",
-      "app_price": "Free"
-    },
-    {
       "app_id": "1620584291",
       "app_name": "Bookmarks: Organize & Track",
       "iap": "Onetime Payment",
@@ -1768,27 +1732,9 @@
       "app_price": "Free"
     },
     {
-      "app_id": "6752226670",
-      "app_name": "Calm Loop: White Noise & Sleep",
-      "iap": "Calm Loop Pro",
-      "price": "$0.00",
-      "permanent_free": true,
-      "since": "2026-11-01",
-      "app_price": "Free"
-    },
-    {
       "app_id": "6760479173",
       "app_name": "LivaFast",
       "iap": "LivaFast Premium",
-      "price": "$0.00",
-      "permanent_free": true,
-      "since": "2026-11-01",
-      "app_price": "Free"
-    },
-    {
-      "app_id": "1497413070",
-      "app_name": "Shoot Your Shot®: Dating App",
-      "iap": "Lifetime Premium",
       "price": "$0.00",
       "permanent_free": true,
       "since": "2026-11-01",
@@ -1928,15 +1874,6 @@
       "permanent_free": true,
       "since": "2026-11-01",
       "app_price": "$9.99"
-    },
-    {
-      "app_id": "6788495535",
-      "app_name": "OneScan: PDF & ID Scanner",
-      "iap": "Pro Lifetime",
-      "price": "$0.00",
-      "permanent_free": true,
-      "since": "2026-11-01",
-      "app_price": "Free"
     },
     {
       "app_id": "934587545",
