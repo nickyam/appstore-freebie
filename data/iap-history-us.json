@@ -6,8 +6,8 @@
     "seeded_from": "apprcn",
     "seed_added": 1,
     "seed_total": 19634,
-    "pool_size": 4500,
-    "processed": 4500,
+    "pool_size": 2000,
+    "processed": 2000,
     "skipped": 0,
     "seed_last_ok": "2026-11-01T22:00:35Z",
     "seed_last_error": ""
@@ -32990,7 +32990,7 @@
       "first_date": "2026-10-23",
       "first_price": "$5.99",
       "last_date": "2026-11-02",
-      "last_price": "$4.99",
+      "last_price": "$16.99",
       "last_change_date": "2026-11-02",
       "ever_paid": true,
       "last_paid_date": "2026-11-02",
@@ -33002,7 +33002,7 @@
         "2026-10-26": "$16.99",
         "2026-10-27": "$16.99",
         "2026-10-28": "$16.99",
-        "2026-11-02": "$4.99"
+        "2026-11-02": "$16.99"
       }
     },
     "1275803975::Annual Plan": {
@@ -38135,14 +38135,15 @@
       "first_date": "2026-10-23",
       "first_price": "$69.99",
       "last_date": "2026-11-02",
-      "last_price": "$29.99",
-      "last_change_date": "2026-10-30",
+      "last_price": "$69.99",
+      "last_change_date": "2026-11-02",
       "ever_paid": true,
-      "last_paid_date": "2026-10-30",
+      "last_paid_date": "2026-11-02",
       "free_since": null,
       "changes": {
         "2026-10-23": "$69.99",
-        "2026-10-30": "$29.99"
+        "2026-10-30": "$29.99",
+        "2026-11-02": "$69.99"
       }
     },
     "6760207116::AeroLOPA Pro Yearly": {
@@ -45115,10 +45116,10 @@
       "first_date": "2026-10-23",
       "first_price": "$49.99",
       "last_date": "2026-11-02",
-      "last_price": "$49.99",
-      "last_change_date": "2026-10-29",
+      "last_price": "$99.99",
+      "last_change_date": "2026-11-02",
       "ever_paid": true,
-      "last_paid_date": "2026-10-29",
+      "last_paid_date": "2026-11-02",
       "free_since": null,
       "changes": {
         "2026-10-23": "$19.99",
@@ -45127,7 +45128,8 @@
         "2026-10-26": "$19.99",
         "2026-10-27": "$19.99",
         "2026-10-28": "$7.99",
-        "2026-10-29": "$49.99"
+        "2026-10-29": "$49.99",
+        "2026-11-02": "$99.99"
       }
     },
     "6448720121::Ai App GPS": {
@@ -61960,7 +61962,7 @@
       "region": "us",
       "first_date": "2026-10-23",
       "first_price": "$4.99",
-      "last_date": "2026-11-01",
+      "last_date": "2026-11-02",
       "last_price": "$4.99",
       "last_change_date": "2026-10-23",
       "ever_paid": true,
@@ -61994,7 +61996,7 @@
       "region": "us",
       "first_date": "2026-10-23",
       "first_price": "$4.99",
-      "last_date": "2026-11-01",
+      "last_date": "2026-11-02",
       "last_price": "$4.99",
       "last_change_date": "2026-10-23",
       "ever_paid": true,
@@ -62011,7 +62013,7 @@
       "region": "us",
       "first_date": "2026-10-23",
       "first_price": "$4.99",
-      "last_date": "2026-11-01",
+      "last_date": "2026-11-02",
       "last_price": "$4.99",
       "last_change_date": "2026-10-23",
       "ever_paid": true,
@@ -62028,7 +62030,7 @@
       "region": "us",
       "first_date": "2026-10-23",
       "first_price": "$19.99",
-      "last_date": "2026-11-01",
+      "last_date": "2026-11-02",
       "last_price": "$19.99",
       "last_change_date": "2026-10-23",
       "ever_paid": true,
@@ -77062,7 +77064,7 @@
       "first_date": "2026-10-23",
       "first_price": "$2.99",
       "last_date": "2026-11-02",
-      "last_price": "$29.99",
+      "last_price": "$2.99",
       "last_change_date": "2026-11-02",
       "ever_paid": true,
       "last_paid_date": "2026-11-02",
@@ -77070,7 +77072,7 @@
       "changes": {
         "2026-10-23": "$2.99",
         "2026-10-30": "$2.99",
-        "2026-11-02": "$29.99"
+        "2026-11-02": "$2.99"
       }
     },
     "507874739::Google AI Plus (2 TB)": {
@@ -77081,7 +77083,7 @@
       "first_date": "2026-10-23",
       "first_price": "$9.99",
       "last_date": "2026-11-02",
-      "last_price": "$99.99",
+      "last_price": "$9.99",
       "last_change_date": "2026-11-02",
       "ever_paid": true,
       "last_paid_date": "2026-11-02",
@@ -77089,7 +77091,7 @@
       "changes": {
         "2026-10-23": "$9.99",
         "2026-10-30": "$9.99",
-        "2026-11-02": "$99.99"
+        "2026-11-02": "$9.99"
       }
     },
     "6670175056::Weekly Subscription": {
@@ -97505,7 +97507,7 @@
       "region": "us",
       "first_date": "2026-10-23",
       "first_price": "$11.00",
-      "last_date": "2026-11-01",
+      "last_date": "2026-11-02",
       "last_price": "$11.00",
       "last_change_date": "2026-10-23",
       "ever_paid": true,
@@ -97522,7 +97524,7 @@
       "region": "us",
       "first_date": "2026-10-23",
       "first_price": "$4.00",
-      "last_date": "2026-11-01",
+      "last_date": "2026-11-02",
       "last_price": "$4.00",
       "last_change_date": "2026-10-23",
       "ever_paid": true,
@@ -97539,7 +97541,7 @@
       "region": "us",
       "first_date": "2026-10-23",
       "first_price": "$50.00",
-      "last_date": "2026-11-01",
+      "last_date": "2026-11-02",
       "last_price": "$50.00",
       "last_change_date": "2026-10-23",
       "ever_paid": true,
@@ -97556,7 +97558,7 @@
       "region": "us",
       "first_date": "2026-10-23",
       "first_price": "$4.00",
-      "last_date": "2026-11-01",
+      "last_date": "2026-11-02",
       "last_price": "$4.00",
       "last_change_date": "2026-10-23",
       "ever_paid": true,
@@ -97573,7 +97575,7 @@
       "region": "us",
       "first_date": "2026-10-23",
       "first_price": "$114.99",
-      "last_date": "2026-11-01",
+      "last_date": "2026-11-02",
       "last_price": "$114.99",
       "last_change_date": "2026-10-23",
       "ever_paid": true,
@@ -97590,7 +97592,7 @@
       "region": "us",
       "first_date": "2026-10-23",
       "first_price": "$25.00",
-      "last_date": "2026-11-01",
+      "last_date": "2026-11-02",
       "last_price": "$25.00",
       "last_change_date": "2026-10-23",
       "ever_paid": true,
@@ -97607,7 +97609,7 @@
       "region": "us",
       "first_date": "2026-10-23",
       "first_price": "$1.00",
-      "last_date": "2026-11-01",
+      "last_date": "2026-11-02",
       "last_price": "$1.00",
       "last_change_date": "2026-10-23",
       "ever_paid": true,
@@ -97624,7 +97626,7 @@
       "region": "us",
       "first_date": "2026-10-23",
       "first_price": "$42.00",
-      "last_date": "2026-11-01",
+      "last_date": "2026-11-02",
       "last_price": "$42.00",
       "last_change_date": "2026-10-23",
       "ever_paid": true,
@@ -97641,7 +97643,7 @@
       "region": "us",
       "first_date": "2026-10-23",
       "first_price": "$50.00",
-      "last_date": "2026-11-01",
+      "last_date": "2026-11-02",
       "last_price": "$50.00",
       "last_change_date": "2026-10-23",
       "ever_paid": true,
@@ -97658,7 +97660,7 @@
       "region": "us",
       "first_date": "2026-10-23",
       "first_price": "$490.00",
-      "last_date": "2026-11-01",
+      "last_date": "2026-11-02",
       "last_price": "$490.00",
       "last_change_date": "2026-10-23",
       "ever_paid": true,
@@ -108636,17 +108638,18 @@
       "first_date": "2026-10-25",
       "first_price": "$2.99",
       "last_date": "2026-11-02",
-      "last_price": "$12.99",
-      "last_change_date": "2026-10-30",
+      "last_price": "$0.00",
+      "last_change_date": "2026-11-02",
       "ever_paid": true,
       "last_paid_date": "2026-10-30",
-      "free_since": null,
+      "free_since": "2026-11-02",
       "changes": {
         "2026-10-25": "$2.99",
         "2026-10-26": "$1.99",
         "2026-10-28": "$0.99",
         "2026-10-29": "$0.00",
-        "2026-10-30": "$12.99"
+        "2026-10-30": "$12.99",
+        "2026-11-02": "$0.00"
       }
     },
     "6741730996::Monthly": {
@@ -116605,7 +116608,7 @@
       "region": "us",
       "first_date": "2026-10-27",
       "first_price": "$9.99",
-      "last_date": "2026-10-31",
+      "last_date": "2026-11-02",
       "last_price": "$9.99",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
@@ -135887,16 +135890,17 @@
       "first_date": "2026-10-27",
       "first_price": "$39.99",
       "last_date": "2026-11-02",
-      "last_price": "$59.99",
-      "last_change_date": "2026-10-31",
+      "last_price": "$49.99",
+      "last_change_date": "2026-11-02",
       "ever_paid": true,
-      "last_paid_date": "2026-10-31",
+      "last_paid_date": "2026-11-02",
       "free_since": null,
       "changes": {
         "2026-10-27": "$59.99",
         "2026-10-28": "$59.99",
         "2026-10-29": "$49.99",
-        "2026-10-31": "$59.99"
+        "2026-10-31": "$59.99",
+        "2026-11-02": "$49.99"
       }
     },
     "1575719736::Weekly Premium": {
@@ -135944,14 +135948,15 @@
       "first_date": "2026-10-27",
       "first_price": "$29.99",
       "last_date": "2026-11-02",
-      "last_price": "$79.99",
-      "last_change_date": "2026-10-28",
+      "last_price": "$29.99",
+      "last_change_date": "2026-11-02",
       "ever_paid": true,
-      "last_paid_date": "2026-10-28",
+      "last_paid_date": "2026-11-02",
       "free_since": null,
       "changes": {
         "2026-10-27": "$79.99",
-        "2026-10-28": "$79.99"
+        "2026-10-28": "$79.99",
+        "2026-11-02": "$29.99"
       }
     },
     "6446203952::Skip The Wait": {
@@ -160247,14 +160252,15 @@
       "first_date": "2026-10-27",
       "first_price": "$0.99",
       "last_date": "2026-11-02",
-      "last_price": "$9.99",
-      "last_change_date": "2026-10-28",
+      "last_price": "$0.99",
+      "last_change_date": "2026-11-02",
       "ever_paid": true,
-      "last_paid_date": "2026-10-28",
+      "last_paid_date": "2026-11-02",
       "free_since": null,
       "changes": {
         "2026-10-27": "$9.99",
-        "2026-10-28": "$9.99"
+        "2026-10-28": "$9.99",
+        "2026-11-02": "$0.99"
       }
     },
     "1195621598::Starter Pack": {
@@ -169401,14 +169407,15 @@
       "first_date": "2026-10-27",
       "first_price": "$4.99",
       "last_date": "2026-11-02",
-      "last_price": "$9.99",
-      "last_change_date": "2026-10-28",
+      "last_price": "$12.99",
+      "last_change_date": "2026-11-02",
       "ever_paid": true,
-      "last_paid_date": "2026-10-28",
+      "last_paid_date": "2026-11-02",
       "free_since": null,
       "changes": {
         "2026-10-27": "$9.99",
-        "2026-10-28": "$9.99"
+        "2026-10-28": "$9.99",
+        "2026-11-02": "$12.99"
       }
     },
     "506627515::Chest of Diamonds": {
@@ -185474,13 +185481,14 @@
       "first_date": "2026-10-27",
       "first_price": "$8.99",
       "last_date": "2026-11-02",
-      "last_price": "$8.99",
-      "last_change_date": "2026-10-27",
+      "last_price": "$9.99",
+      "last_change_date": "2026-11-02",
       "ever_paid": true,
-      "last_paid_date": "2026-10-27",
+      "last_paid_date": "2026-11-02",
       "free_since": null,
       "changes": {
-        "2026-10-27": "$8.99"
+        "2026-10-27": "$8.99",
+        "2026-11-02": "$9.99"
       }
     },
     "6746049430::B1G+ Monthly": {
@@ -185508,13 +185516,14 @@
       "first_date": "2026-10-27",
       "first_price": "$71.00",
       "last_date": "2026-11-02",
-      "last_price": "$71.00",
-      "last_change_date": "2026-10-27",
+      "last_price": "$79.99",
+      "last_change_date": "2026-11-02",
       "ever_paid": true,
-      "last_paid_date": "2026-10-27",
+      "last_paid_date": "2026-11-02",
       "free_since": null,
       "changes": {
-        "2026-10-27": "$71.00"
+        "2026-10-27": "$71.00",
+        "2026-11-02": "$79.99"
       }
     },
     "6746049430::B1G+ Annual": {
@@ -191718,7 +191727,7 @@
       "first_date": "2026-10-27",
       "first_price": "$19.99",
       "last_date": "2026-11-02",
-      "last_price": "$14.99",
+      "last_price": "$19.99",
       "last_change_date": "2026-11-02",
       "ever_paid": true,
       "last_paid_date": "2026-11-02",
@@ -191727,7 +191736,7 @@
         "2026-10-27": "$14.99",
         "2026-10-28": "$14.99",
         "2026-10-29": "$19.99",
-        "2026-11-02": "$14.99"
+        "2026-11-02": "$19.99"
       }
     },
     "6498894314::Pack of Coins": {
@@ -191738,7 +191747,7 @@
       "first_date": "2026-10-27",
       "first_price": "$9.99",
       "last_date": "2026-11-02",
-      "last_price": "$99.99",
+      "last_price": "$19.99",
       "last_change_date": "2026-11-02",
       "ever_paid": true,
       "last_paid_date": "2026-11-02",
@@ -191747,7 +191756,7 @@
         "2026-10-27": "$1.99",
         "2026-10-28": "$1.99",
         "2026-10-29": "$19.99",
-        "2026-11-02": "$99.99"
+        "2026-11-02": "$19.99"
       }
     },
     "6498894314::Monthly VIP": {
@@ -196487,17 +196496,18 @@
       "first_date": "2026-10-27",
       "first_price": "$38.99",
       "last_date": "2026-11-02",
-      "last_price": "$48.99",
-      "last_change_date": "2026-10-31",
+      "last_price": "$49.00",
+      "last_change_date": "2026-11-02",
       "ever_paid": true,
-      "last_paid_date": "2026-10-31",
+      "last_paid_date": "2026-11-02",
       "free_since": null,
       "changes": {
         "2026-10-27": "$48.99",
         "2026-10-28": "$48.99",
         "2026-10-29": "$49.00",
         "2026-10-30": "$49.00",
-        "2026-10-31": "$48.99"
+        "2026-10-31": "$48.99",
+        "2026-11-02": "$49.00"
       }
     },
     "1564189151::Tracker": {
@@ -211340,17 +211350,18 @@
       "first_date": "2026-10-27",
       "first_price": "$6.99",
       "last_date": "2026-11-02",
-      "last_price": "$6.99",
-      "last_change_date": "2026-11-01",
+      "last_price": "$8.29",
+      "last_change_date": "2026-11-02",
       "ever_paid": true,
-      "last_paid_date": "2026-11-01",
+      "last_paid_date": "2026-11-02",
       "free_since": null,
       "changes": {
         "2026-10-27": "$8.29",
         "2026-10-29": "$8.29",
         "2026-10-30": "$6.99",
         "2026-10-31": "$8.29",
-        "2026-11-01": "$6.99"
+        "2026-11-01": "$6.99",
+        "2026-11-02": "$8.29"
       }
     },
     "876336838::118喜点": {
@@ -211395,17 +211406,18 @@
       "first_date": "2026-10-27",
       "first_price": "$29.99",
       "last_date": "2026-11-02",
-      "last_price": "$29.99",
-      "last_change_date": "2026-11-01",
+      "last_price": "$36.49",
+      "last_change_date": "2026-11-02",
       "ever_paid": true,
-      "last_paid_date": "2026-11-01",
+      "last_paid_date": "2026-11-02",
       "free_since": null,
       "changes": {
         "2026-10-27": "$36.49",
         "2026-10-29": "$36.49",
         "2026-10-30": "$29.99",
         "2026-10-31": "$36.49",
-        "2026-11-01": "$29.99"
+        "2026-11-01": "$29.99",
+        "2026-11-02": "$36.49"
       }
     },
     "876336838::18喜点": {
@@ -308500,7 +308512,7 @@
       "region": "us",
       "first_date": "2026-10-27",
       "first_price": "$4.90",
-      "last_date": "2026-11-01",
+      "last_date": "2026-11-02",
       "last_price": "$4.90",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
@@ -308517,7 +308529,7 @@
       "region": "us",
       "first_date": "2026-10-27",
       "first_price": "$4.90",
-      "last_date": "2026-11-01",
+      "last_date": "2026-11-02",
       "last_price": "$4.90",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
@@ -308534,7 +308546,7 @@
       "region": "us",
       "first_date": "2026-10-27",
       "first_price": "$2.99",
-      "last_date": "2026-11-01",
+      "last_date": "2026-11-02",
       "last_price": "$2.99",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
@@ -308551,7 +308563,7 @@
       "region": "us",
       "first_date": "2026-10-27",
       "first_price": "$2.99",
-      "last_date": "2026-11-01",
+      "last_date": "2026-11-02",
       "last_price": "$2.99",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
@@ -308568,7 +308580,7 @@
       "region": "us",
       "first_date": "2026-10-27",
       "first_price": "$2.99",
-      "last_date": "2026-11-01",
+      "last_date": "2026-11-02",
       "last_price": "$2.99",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
@@ -308585,7 +308597,7 @@
       "region": "us",
       "first_date": "2026-10-27",
       "first_price": "$2.99",
-      "last_date": "2026-11-01",
+      "last_date": "2026-11-02",
       "last_price": "$2.99",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
@@ -308602,7 +308614,7 @@
       "region": "us",
       "first_date": "2026-10-27",
       "first_price": "$2.99",
-      "last_date": "2026-11-01",
+      "last_date": "2026-11-02",
       "last_price": "$2.99",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
@@ -316275,14 +316287,15 @@
       "first_date": "2026-10-27",
       "first_price": "$2.99",
       "last_date": "2026-11-02",
-      "last_price": "$1.99",
-      "last_change_date": "2026-11-01",
+      "last_price": "$2.99",
+      "last_change_date": "2026-11-02",
       "ever_paid": true,
-      "last_paid_date": "2026-11-01",
+      "last_paid_date": "2026-11-02",
       "free_since": null,
       "changes": {
         "2026-10-27": "$2.99",
-        "2026-11-01": "$1.99"
+        "2026-11-01": "$1.99",
+        "2026-11-02": "$2.99"
       }
     },
     "1008067212::Lifetime Unlock": {
@@ -326195,7 +326208,7 @@
       "region": "us",
       "first_date": "2026-10-29",
       "first_price": "$49.00",
-      "last_date": "2026-10-31",
+      "last_date": "2026-11-02",
       "last_price": "$49.00",
       "last_change_date": "2026-10-29",
       "ever_paid": true,
@@ -327118,7 +327131,7 @@
       "region": "us",
       "first_date": "2026-10-30",
       "first_price": "$39.99",
-      "last_date": "2026-10-31",
+      "last_date": "2026-11-02",
       "last_price": "$39.99",
       "last_change_date": "2026-10-30",
       "ever_paid": true,
@@ -329076,7 +329089,7 @@
       "region": "us",
       "first_date": "2026-10-30",
       "first_price": "$54.99",
-      "last_date": "2026-11-01",
+      "last_date": "2026-11-02",
       "last_price": "$54.99",
       "last_change_date": "2026-10-30",
       "ever_paid": true,
@@ -329093,7 +329106,7 @@
       "region": "us",
       "first_date": "2026-10-30",
       "first_price": "$19.99",
-      "last_date": "2026-11-01",
+      "last_date": "2026-11-02",
       "last_price": "$19.99",
       "last_change_date": "2026-10-30",
       "ever_paid": true,
@@ -329110,7 +329123,7 @@
       "region": "us",
       "first_date": "2026-10-30",
       "first_price": "$34.99",
-      "last_date": "2026-11-01",
+      "last_date": "2026-11-02",
       "last_price": "$34.99",
       "last_change_date": "2026-10-30",
       "ever_paid": true,
@@ -329127,7 +329140,7 @@
       "region": "us",
       "first_date": "2026-10-30",
       "first_price": "$29.99",
-      "last_date": "2026-11-01",
+      "last_date": "2026-11-02",
       "last_price": "$29.99",
       "last_change_date": "2026-10-30",
       "ever_paid": true,
@@ -329144,7 +329157,7 @@
       "region": "us",
       "first_date": "2026-10-30",
       "first_price": "$79.99",
-      "last_date": "2026-11-01",
+      "last_date": "2026-11-02",
       "last_price": "$79.99",
       "last_change_date": "2026-10-30",
       "ever_paid": true,
@@ -329161,7 +329174,7 @@
       "region": "us",
       "first_date": "2026-10-30",
       "first_price": "$19.99",
-      "last_date": "2026-11-01",
+      "last_date": "2026-11-02",
       "last_price": "$19.99",
       "last_change_date": "2026-10-30",
       "ever_paid": true,
@@ -329178,7 +329191,7 @@
       "region": "us",
       "first_date": "2026-10-30",
       "first_price": "$39.99",
-      "last_date": "2026-11-01",
+      "last_date": "2026-11-02",
       "last_price": "$39.99",
       "last_change_date": "2026-10-30",
       "ever_paid": true,
@@ -329195,7 +329208,7 @@
       "region": "us",
       "first_date": "2026-10-30",
       "first_price": "$49.99",
-      "last_date": "2026-11-01",
+      "last_date": "2026-11-02",
       "last_price": "$49.99",
       "last_change_date": "2026-10-30",
       "ever_paid": true,
@@ -329212,7 +329225,7 @@
       "region": "us",
       "first_date": "2026-10-30",
       "first_price": "$99.99",
-      "last_date": "2026-11-01",
+      "last_date": "2026-11-02",
       "last_price": "$99.99",
       "last_change_date": "2026-10-30",
       "ever_paid": true,
@@ -329229,7 +329242,7 @@
       "region": "us",
       "first_date": "2026-10-30",
       "first_price": "$49.99",
-      "last_date": "2026-11-01",
+      "last_date": "2026-11-02",
       "last_price": "$49.99",
       "last_change_date": "2026-10-30",
       "ever_paid": true,
@@ -332102,7 +332115,7 @@
       "region": "us",
       "first_date": "2026-10-31",
       "first_price": "$7.00",
-      "last_date": "2026-11-01",
+      "last_date": "2026-11-02",
       "last_price": "$7.00",
       "last_change_date": "2026-10-31",
       "ever_paid": true,
@@ -334993,7 +335006,7 @@
       "region": "us",
       "first_date": "2026-10-31",
       "first_price": "$9.99",
-      "last_date": "2026-11-01",
+      "last_date": "2026-11-02",
       "last_price": "$9.99",
       "last_change_date": "2026-10-31",
       "ever_paid": true,
@@ -338870,13 +338883,14 @@
       "first_date": "2026-11-01",
       "first_price": "$0.00",
       "last_date": "2026-11-02",
-      "last_price": "$0.00",
-      "last_change_date": "2026-11-01",
-      "ever_paid": false,
-      "last_paid_date": null,
+      "last_price": "$0.99",
+      "last_change_date": "2026-11-02",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-02",
       "free_since": null,
       "changes": {
-        "2026-11-01": "$0.00"
+        "2026-11-01": "$0.00",
+        "2026-11-02": "$0.99"
       }
     },
     "6787702158::Homeward Pro Lifetime": {
@@ -339040,13 +339054,14 @@
       "first_date": "2026-11-01",
       "first_price": "$0.00",
       "last_date": "2026-11-02",
-      "last_price": "$0.00",
-      "last_change_date": "2026-11-01",
-      "ever_paid": false,
-      "last_paid_date": null,
+      "last_price": "$6.99",
+      "last_change_date": "2026-11-02",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-02",
       "free_since": null,
       "changes": {
-        "2026-11-01": "$0.00"
+        "2026-11-01": "$0.00",
+        "2026-11-02": "$6.99"
       }
     },
     "6780591952::PRO": {
@@ -339193,13 +339208,14 @@
       "first_date": "2026-11-01",
       "first_price": "$0.00",
       "last_date": "2026-11-02",
-      "last_price": "$0.00",
-      "last_change_date": "2026-11-01",
-      "ever_paid": false,
-      "last_paid_date": null,
+      "last_price": "$2.99",
+      "last_change_date": "2026-11-02",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-02",
       "free_since": null,
       "changes": {
-        "2026-11-01": "$0.00"
+        "2026-11-01": "$0.00",
+        "2026-11-02": "$2.99"
       }
     },
     "6752226670::Calm Loop Pro": {
@@ -340587,13 +340603,14 @@
       "first_date": "2026-11-01",
       "first_price": "$0.00",
       "last_date": "2026-11-02",
-      "last_price": "$0.00",
-      "last_change_date": "2026-11-01",
-      "ever_paid": false,
-      "last_paid_date": null,
+      "last_price": "$39.99",
+      "last_change_date": "2026-11-02",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-02",
       "free_since": null,
       "changes": {
-        "2026-11-01": "$0.00"
+        "2026-11-01": "$0.00",
+        "2026-11-02": "$39.99"
       }
     },
     "6763753036::Pro Annual": {
@@ -341062,7 +341079,7 @@
       "region": "us",
       "first_date": "2026-11-01",
       "first_price": "$39.99",
-      "last_date": "2026-11-01",
+      "last_date": "2026-11-02",
       "last_price": "$39.99",
       "last_change_date": "2026-11-01",
       "ever_paid": true,
@@ -341930,14 +341947,15 @@
       "first_date": "2026-11-01",
       "first_price": "$0.99",
       "last_date": "2026-11-02",
-      "last_price": "$0.00",
-      "last_change_date": "2026-11-01",
+      "last_price": "$2.99",
+      "last_change_date": "2026-11-02",
       "ever_paid": true,
-      "last_paid_date": "2026-10-31",
-      "free_since": "2026-10-31",
+      "last_paid_date": "2026-11-02",
+      "free_since": null,
       "changes": {
         "2026-10-31": "$0.99",
-        "2026-11-01": "$0.00"
+        "2026-11-01": "$0.00",
+        "2026-11-02": "$2.99"
       },
       "source": "apprcn"
     },
@@ -343479,13 +343497,13 @@
       "first_date": "2026-11-02",
       "first_price": "$1.99",
       "last_date": "2026-11-02",
-      "last_price": "$1.99",
+      "last_price": "$9.99",
       "last_change_date": "2026-11-02",
       "ever_paid": true,
       "last_paid_date": "2026-11-02",
       "free_since": null,
       "changes": {
-        "2026-11-02": "$1.99"
+        "2026-11-02": "$9.99"
       }
     },
     "6818473571::Pro - Annual": {
@@ -343537,6 +343555,295 @@
       "free_since": null,
       "changes": {
         "2026-11-02": "$0.00"
+      }
+    },
+    "514398862::BUNT Pack": {
+      "app_id": "514398862",
+      "app_name": "Topps® BUNT® MLB Card Trader",
+      "name": "BUNT Pack",
+      "region": "us",
+      "first_date": "2026-11-02",
+      "first_price": "$0.99",
+      "last_date": "2026-11-02",
+      "last_price": "$0.99",
+      "last_change_date": "2026-11-02",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-02",
+      "free_since": null,
+      "changes": {
+        "2026-11-02": "$0.99"
+      }
+    },
+    "514398862::2015 MLB Series 3 Player 1": {
+      "app_id": "514398862",
+      "app_name": "Topps® BUNT® MLB Card Trader",
+      "name": "2015 MLB Series 3 Player 1",
+      "region": "us",
+      "first_date": "2026-11-02",
+      "first_price": "$0.99",
+      "last_date": "2026-11-02",
+      "last_price": "$0.99",
+      "last_change_date": "2026-11-02",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-02",
+      "free_since": null,
+      "changes": {
+        "2026-11-02": "$0.99"
+      }
+    },
+    "514398862::2015 MLB Series 3 Player 2": {
+      "app_id": "514398862",
+      "app_name": "Topps® BUNT® MLB Card Trader",
+      "name": "2015 MLB Series 3 Player 2",
+      "region": "us",
+      "first_date": "2026-11-02",
+      "first_price": "$0.99",
+      "last_date": "2026-11-02",
+      "last_price": "$0.99",
+      "last_change_date": "2026-11-02",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-02",
+      "free_since": null,
+      "changes": {
+        "2026-11-02": "$0.99"
+      }
+    },
+    "514398862::2015 MLB Series 3 Player 3": {
+      "app_id": "514398862",
+      "app_name": "Topps® BUNT® MLB Card Trader",
+      "name": "2015 MLB Series 3 Player 3",
+      "region": "us",
+      "first_date": "2026-11-02",
+      "first_price": "$0.99",
+      "last_date": "2026-11-02",
+      "last_price": "$0.99",
+      "last_change_date": "2026-11-02",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-02",
+      "free_since": null,
+      "changes": {
+        "2026-11-02": "$0.99"
+      }
+    },
+    "514398862::2015 MLB Series 3 Player 4": {
+      "app_id": "514398862",
+      "app_name": "Topps® BUNT® MLB Card Trader",
+      "name": "2015 MLB Series 3 Player 4",
+      "region": "us",
+      "first_date": "2026-11-02",
+      "first_price": "$0.99",
+      "last_date": "2026-11-02",
+      "last_price": "$0.99",
+      "last_change_date": "2026-11-02",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-02",
+      "free_since": null,
+      "changes": {
+        "2026-11-02": "$0.99"
+      }
+    },
+    "514398862::2015 MLB Series 3 Player 5": {
+      "app_id": "514398862",
+      "app_name": "Topps® BUNT® MLB Card Trader",
+      "name": "2015 MLB Series 3 Player 5",
+      "region": "us",
+      "first_date": "2026-11-02",
+      "first_price": "$0.99",
+      "last_date": "2026-11-02",
+      "last_price": "$0.99",
+      "last_change_date": "2026-11-02",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-02",
+      "free_since": null,
+      "changes": {
+        "2026-11-02": "$0.99"
+      }
+    },
+    "514398862::2015 MLB Series 3 Player 6": {
+      "app_id": "514398862",
+      "app_name": "Topps® BUNT® MLB Card Trader",
+      "name": "2015 MLB Series 3 Player 6",
+      "region": "us",
+      "first_date": "2026-11-02",
+      "first_price": "$0.99",
+      "last_date": "2026-11-02",
+      "last_price": "$0.99",
+      "last_change_date": "2026-11-02",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-02",
+      "free_since": null,
+      "changes": {
+        "2026-11-02": "$0.99"
+      }
+    },
+    "514398862::2015 MLB Series 3 Player 7": {
+      "app_id": "514398862",
+      "app_name": "Topps® BUNT® MLB Card Trader",
+      "name": "2015 MLB Series 3 Player 7",
+      "region": "us",
+      "first_date": "2026-11-02",
+      "first_price": "$0.99",
+      "last_date": "2026-11-02",
+      "last_price": "$0.99",
+      "last_change_date": "2026-11-02",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-02",
+      "free_since": null,
+      "changes": {
+        "2026-11-02": "$0.99"
+      }
+    },
+    "514398862::2015 MLB Series 3 Player 8": {
+      "app_id": "514398862",
+      "app_name": "Topps® BUNT® MLB Card Trader",
+      "name": "2015 MLB Series 3 Player 8",
+      "region": "us",
+      "first_date": "2026-11-02",
+      "first_price": "$0.99",
+      "last_date": "2026-11-02",
+      "last_price": "$0.99",
+      "last_change_date": "2026-11-02",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-02",
+      "free_since": null,
+      "changes": {
+        "2026-11-02": "$0.99"
+      }
+    },
+    "514398862::2015 MLB Series 3 Player 9": {
+      "app_id": "514398862",
+      "app_name": "Topps® BUNT® MLB Card Trader",
+      "name": "2015 MLB Series 3 Player 9",
+      "region": "us",
+      "first_date": "2026-11-02",
+      "first_price": "$0.99",
+      "last_date": "2026-11-02",
+      "last_price": "$0.99",
+      "last_change_date": "2026-11-02",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-02",
+      "free_since": null,
+      "changes": {
+        "2026-11-02": "$0.99"
+      }
+    },
+    "650684932::Ford 2015 Enhanced Diagnostics": {
+      "app_id": "650684932",
+      "app_name": "OBD Fusion",
+      "name": "Ford 2015 Enhanced Diagnostics",
+      "region": "us",
+      "first_date": "2026-11-02",
+      "first_price": "$14.99",
+      "last_date": "2026-11-02",
+      "last_price": "$14.99",
+      "last_change_date": "2026-11-02",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-02",
+      "free_since": null,
+      "changes": {
+        "2026-11-02": "$14.99"
+      }
+    },
+    "1094758623::Steinway Grand Piano": {
+      "app_id": "1094758623",
+      "app_name": "Audio Evolution Mobile Studio",
+      "name": "Steinway Grand Piano",
+      "region": "us",
+      "first_date": "2026-11-02",
+      "first_price": "$2.99",
+      "last_date": "2026-11-02",
+      "last_price": "$2.99",
+      "last_change_date": "2026-11-02",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-02",
+      "free_since": null,
+      "changes": {
+        "2026-11-02": "$2.99"
+      }
+    },
+    "1195621598::Purse of Coins": {
+      "app_id": "1195621598",
+      "app_name": "Homescapes",
+      "name": "Purse of Coins",
+      "region": "us",
+      "first_date": "2026-11-02",
+      "first_price": "$4.99",
+      "last_date": "2026-11-02",
+      "last_price": "$4.99",
+      "last_change_date": "2026-11-02",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-02",
+      "free_since": null,
+      "changes": {
+        "2026-11-02": "$4.99"
+      }
+    },
+    "1195621598::Piggy Bank with Coins": {
+      "app_id": "1195621598",
+      "app_name": "Homescapes",
+      "name": "Piggy Bank with Coins",
+      "region": "us",
+      "first_date": "2026-11-02",
+      "first_price": "$9.99",
+      "last_date": "2026-11-02",
+      "last_price": "$9.99",
+      "last_change_date": "2026-11-02",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-02",
+      "free_since": null,
+      "changes": {
+        "2026-11-02": "$9.99"
+      }
+    },
+    "1195621598::Pot of Coins": {
+      "app_id": "1195621598",
+      "app_name": "Homescapes",
+      "name": "Pot of Coins",
+      "region": "us",
+      "first_date": "2026-11-02",
+      "first_price": "$19.99",
+      "last_date": "2026-11-02",
+      "last_price": "$19.99",
+      "last_change_date": "2026-11-02",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-02",
+      "free_since": null,
+      "changes": {
+        "2026-11-02": "$19.99"
+      }
+    },
+    "1195621598::Crate Full of Coins": {
+      "app_id": "1195621598",
+      "app_name": "Homescapes",
+      "name": "Crate Full of Coins",
+      "region": "us",
+      "first_date": "2026-11-02",
+      "first_price": "$39.99",
+      "last_date": "2026-11-02",
+      "last_price": "$39.99",
+      "last_change_date": "2026-11-02",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-02",
+      "free_since": null,
+      "changes": {
+        "2026-11-02": "$39.99"
+      }
+    },
+    "1195621598::Chest Full of Coins": {
+      "app_id": "1195621598",
+      "app_name": "Homescapes",
+      "name": "Chest Full of Coins",
+      "region": "us",
+      "first_date": "2026-11-02",
+      "first_price": "$99.99",
+      "last_date": "2026-11-02",
+      "last_price": "$99.99",
+      "last_change_date": "2026-11-02",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-02",
+      "free_since": null,
+      "changes": {
+        "2026-11-02": "$99.99"
       }
     }
   }

@@ -1,7 +1,7 @@
 {
   "updated": "2026-11-02",
   "region": "cn",
-  "count": 188,
+  "count": 187,
   "items": [
     {
       "app_id": "6758658840",
@@ -1336,15 +1336,6 @@
       "app_price": "免费"
     },
     {
-      "app_id": "6761496861",
-      "app_name": "Clear Magnifier: 放大镜 OCR",
-      "iap": "Clear Magnifier Pro",
-      "price": "¥0.00",
-      "permanent_free": true,
-      "since": "2026-11-02",
-      "app_price": "免费"
-    },
-    {
       "app_id": "6814781938",
       "app_name": "Flipic",
       "iap": "永久解锁",
@@ -1476,6 +1467,15 @@
       "iap": "Life Time Free",
       "price": "¥0.00",
       "permanent_free": true,
+      "since": "2026-11-02",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "6741730996",
+      "app_name": "手机测速·网络测速·测网速speedtest",
+      "iap": "手机测速永久会员",
+      "price": "¥0.00",
+      "permanent_free": false,
       "since": "2026-11-02",
       "app_price": "免费"
     },
@@ -1663,15 +1663,6 @@
       "app_id": "6800175446",
       "app_name": "择影-照片清理与相册整理",
       "iap": "择影永久版",
-      "price": "¥0.00",
-      "permanent_free": true,
-      "since": "2026-11-02",
-      "app_price": "免费"
-    },
-    {
-      "app_id": "6817167359",
-      "app_name": "Termini - SSH Client",
-      "iap": "永久Pro",
       "price": "¥0.00",
       "permanent_free": true,
       "since": "2026-11-02",
