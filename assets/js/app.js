@@ -1187,7 +1187,7 @@
       icon: '🍎',
       title: '美区 Apple ID 指南',
       desc: '想装美区限免 App？先备一个美区 Apple ID。',
-      url: 'https://i.nickyam.com/article/AppleID_us',
+      url: 'https://nickyam.com/blog/apple-us-account-share/',
       tag: '实用教程'
     },
     {
