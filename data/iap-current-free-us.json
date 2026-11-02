@@ -1,8 +1,17 @@
 {
   "updated": "2026-11-02",
   "region": "us",
-  "count": 215,
+  "count": 229,
   "items": [
+    {
+      "app_id": "6788409678",
+      "app_name": "Inky Habits: Daily Tracker",
+      "iap": "Pro Lifetime",
+      "price": "$0.00",
+      "permanent_free": false,
+      "since": "2026-11-02",
+      "app_price": "Free"
+    },
     {
       "app_id": "6759227375",
       "app_name": "CCG Deckbuilder Covenant Cards",
@@ -16,15 +25,6 @@
       "app_id": "6743779432",
       "app_name": "NeatAlbums: Photo Organizer",
       "iap": "Classified Camera PRO Lifetime",
-      "price": "$0.00",
-      "permanent_free": false,
-      "since": "2026-11-02",
-      "app_price": "Free"
-    },
-    {
-      "app_id": "6444253288",
-      "app_name": "Phone Cleaner-AI Clean Storage",
-      "iap": "Lifetime Purchase VIP",
       "price": "$0.00",
       "permanent_free": false,
       "since": "2026-11-02",
@@ -1791,7 +1791,7 @@
       "iap": "100 Fine Castles of Japan",
       "price": "$0.00",
       "permanent_free": true,
-      "since": "2026-11-01",
+      "since": "2026-11-02",
       "app_price": "Free"
     },
     {
@@ -1933,6 +1933,132 @@
       "app_id": "934587545",
       "app_name": "Priime: Photo & Video Editor",
       "iap": "Around",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-02",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6817167359",
+      "app_name": "Termini - SSH Client",
+      "iap": "永久Pro",
+      "price": "$0.00",
+      "permanent_free": false,
+      "since": "2026-11-02",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6444253288",
+      "app_name": "Phone Cleaner-AI Clean Storage",
+      "iap": "Lifetime Purchase VIP",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-02",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6480367122",
+      "app_name": "AppBlocker-Block Apps & Focus",
+      "iap": "life_time",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-02",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6806224486",
+      "app_name": "FavPicks:bookmarks manager",
+      "iap": "lifetime",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-02",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6780318004",
+      "app_name": "OneZen Med",
+      "iap": "OneZen Lifetime Access",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-02",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6796222344",
+      "app_name": "OneMusic: Offline Player",
+      "iap": "OneMusic Pro Lifetime",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-02",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6761368515",
+      "app_name": "NexPaste - Clipboard Manager",
+      "iap": "NexPaste Pro Lifetime",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-02",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6792251542",
+      "app_name": "OneOpen: File Viewer",
+      "iap": "Advanced Access Lifetime",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-02",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6789659103",
+      "app_name": "OneTune: Instrument Tuner",
+      "iap": "OneTune Pro Lifetime",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-02",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6789639056",
+      "app_name": "OneVoice: Offline Recorder",
+      "iap": "OneVoice Pro",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-02",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6782352322",
+      "app_name": "Pendwrit",
+      "iap": "Pro Lifetime",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-02",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6800175446",
+      "app_name": "Pickora: Photo Cleaner",
+      "iap": "择影永久版",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-02",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "528519530",
+      "app_name": "Go Game - Life And Death",
+      "iap": "extend death&life exercises",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-02",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6821332849",
+      "app_name": "Visual MTR: Traceroute",
+      "iap": "VisualMTR Pro Lifetime",
       "price": "$0.00",
       "permanent_free": true,
       "since": "2026-11-02",

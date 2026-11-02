@@ -1,7 +1,7 @@
 {
   "updated": "2026-11-02",
   "region": "cn",
-  "count": 184,
+  "count": 188,
   "items": [
     {
       "app_id": "6758658840",
@@ -648,6 +648,15 @@
       "iap": "All Calendars",
       "price": "¥0.00",
       "permanent_free": true,
+      "since": "2026-11-02",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "6823810305",
+      "app_name": "Three Routes: Run & Walk",
+      "iap": "Three Routes Pro Lifetime",
+      "price": "¥0.00",
+      "permanent_free": false,
       "since": "2026-11-02",
       "app_price": "免费"
     },
@@ -1471,15 +1480,6 @@
       "app_price": "免费"
     },
     {
-      "app_id": "6800175446",
-      "app_name": "择影-照片清理与相册整理",
-      "iap": "择影永久版",
-      "price": "¥0.00",
-      "permanent_free": false,
-      "since": "2026-11-02",
-      "app_price": "免费"
-    },
-    {
       "app_id": "6826148030",
       "app_name": "Libella -水平器・勾配計",
       "iap": "7日間無料トライアル",
@@ -1654,6 +1654,42 @@
       "app_id": "6744615017",
       "app_name": "Frame Builder 2 Photo Framing",
       "iap": "Extra drawings",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-02",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "6800175446",
+      "app_name": "择影-照片清理与相册整理",
+      "iap": "择影永久版",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-02",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "6817167359",
+      "app_name": "Termini - SSH Client",
+      "iap": "永久Pro",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-02",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "6743779432",
+      "app_name": "拍有序-相册整理与分类相机",
+      "iap": "分类相机 PRO 永久包",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-02",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "1254058826",
+      "app_name": "Bed Time | 大时钟",
+      "iap": "Calming Sounds",
       "price": "¥0.00",
       "permanent_free": true,
       "since": "2026-11-02",
