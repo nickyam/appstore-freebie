@@ -1,24 +1,41 @@
 {
-  "updated": "2026-11-01",
+  "updated": "2026-11-02",
   "region": "cn",
-  "count": 1,
+  "count": 2,
   "events": [
     {
-      "app_id": "6800175446",
-      "app_name": "择影-照片清理与相册整理",
-      "iap": "择影永久版",
+      "app_id": "6823810305",
+      "app_name": "Three Routes: Run & Walk",
+      "iap": "Three Routes Pro Lifetime",
       "price": "¥0.00",
-      "free_since": "2026-10-30",
+      "free_since": "2026-10-31",
       "days_free": 2,
-      "last_paid_date": "2026-10-30",
-      "last_paid_price": "¥48.00",
-      "url": "https://apps.apple.com/cn/app/%E6%8B%A9%E5%BD%B1-%E7%85%A7%E7%89%87%E6%B8%85%E7%90%86%E4%B8%8E%E7%9B%B8%E5%86%8C%E6%95%B4%E7%90%86/id6800175446?uo=4",
-      "rating": 5,
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/80/82/ba/8082ba3e-b19e-efcc-e3fe-b9a23dfb72a8/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
-      "dev": "逸凡 陶",
-      "genre": "摄影与录像",
+      "last_paid_date": "2026-10-31",
+      "last_paid_price": "¥198.00",
+      "url": "https://apps.apple.com/cn/app/three-routes-run-walk/id6823810305?uo=4",
+      "rating": 4,
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/19/5f/5a/195f5aeb-a82a-8dfd-bed9-4eba9bc9445b/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+      "dev": "STEVEN JAMES GOOD",
+      "genre": "健康健美",
       "app_price": "免费",
-      "page": "app/cn-6800175446.html"
+      "page": "app/cn-6823810305.html"
+    },
+    {
+      "app_id": "6741730996",
+      "app_name": "手机测速·网络测速·测网速speedtest",
+      "iap": "手机测速永久会员",
+      "price": "¥0.00",
+      "free_since": "2026-11-02",
+      "days_free": 0,
+      "last_paid_date": "2026-10-31",
+      "last_paid_price": "¥88.00",
+      "url": "https://apps.apple.com/cn/app/%E6%89%8B%E6%9C%BA%E6%B5%8B%E9%80%9F-%E7%BD%91%E7%BB%9C%E6%B5%8B%E9%80%9F-%E6%B5%8B%E7%BD%91%E9%80%9Fspeedtest/id6741730996?uo=4",
+      "rating": 4.06977,
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/db/8e/31/db8e3159-0810-3150-2658-209f493efcb9/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+      "dev": "Wuhan Yuhang Technology Co., Ltd",
+      "genre": "效率",
+      "app_price": "免费",
+      "page": "app/cn-6741730996.html"
     }
   ]
 }
