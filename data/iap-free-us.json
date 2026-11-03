@@ -1,25 +1,8 @@
 {
   "updated": "2026-11-03",
   "region": "us",
-  "count": 3,
+  "count": 2,
   "events": [
-    {
-      "app_id": "6759227375",
-      "app_name": "CCG Deckbuilder Covenant Cards",
-      "iap": "Eras of Exile Bundle",
-      "price": "$0.00",
-      "free_since": "2026-10-30",
-      "days_free": 4,
-      "last_paid_date": "2026-10-26",
-      "last_paid_price": "$6.99",
-      "url": "https://apps.apple.com/us/app/ccg-deckbuilder-covenant-cards/id6759227375?uo=4",
-      "rating": 3.8,
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e0/19/f2/e019f2aa-0017-7131-8821-02f21c3f869d/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg",
-      "dev": "Gal Itach",
-      "genre": "Games",
-      "app_price": "Free",
-      "page": "app/us-6759227375.html"
-    },
     {
       "app_id": "1576118042",
       "app_name": "Rhymelo",

@@ -1,7 +1,7 @@
 {
   "updated": "2026-11-03",
   "region": "cn",
-  "count": 186,
+  "count": 187,
   "items": [
     {
       "app_id": "1576118042",
@@ -1251,7 +1251,7 @@
       "iap": "Pretty Princess Classic",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-11-02",
+      "since": "2026-11-03",
       "app_price": "免费"
     },
     {
@@ -1672,6 +1672,15 @@
       "app_id": "6798929348",
       "app_name": "PasteKit: Clipboard Keyboard",
       "iap": "PasteKit Pro Lifetime",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-03",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "585193266",
+      "app_name": "Sygic GPS导航、离线地图",
+      "iap": "Australia & N. Zealand Premium",
       "price": "¥0.00",
       "permanent_free": true,
       "since": "2026-11-03",
