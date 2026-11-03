@@ -1,7 +1,7 @@
 {
   "updated": "2026-11-03",
   "region": "cn",
-  "count": 183,
+  "count": 186,
   "items": [
     {
       "app_id": "1576118042",
@@ -54,7 +54,7 @@
       "iap": "Paris",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-11-02",
+      "since": "2026-11-03",
       "app_price": "免费"
     },
     {
@@ -657,15 +657,6 @@
       "iap": "All Calendars",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-11-03",
-      "app_price": "免费"
-    },
-    {
-      "app_id": "6823810305",
-      "app_name": "Three Routes: Run & Walk",
-      "iap": "Three Routes Pro Lifetime",
-      "price": "¥0.00",
-      "permanent_free": false,
       "since": "2026-11-03",
       "app_price": "免费"
     },
@@ -1597,15 +1588,6 @@
       "app_price": "¥8.00"
     },
     {
-      "app_id": "6480367122",
-      "app_name": "自律锁：不做手机控",
-      "iap": "life_time",
-      "price": "¥0.00",
-      "permanent_free": true,
-      "since": "2026-11-03",
-      "app_price": "免费"
-    },
-    {
       "app_id": "6744615017",
       "app_name": "Frame Builder 2 Photo Framing",
       "iap": "Extra wood frames library",
@@ -1624,20 +1606,11 @@
       "app_price": "免费"
     },
     {
-      "app_id": "6800175446",
-      "app_name": "择影-照片清理与相册整理",
-      "iap": "择影永久版",
-      "price": "¥0.00",
-      "permanent_free": true,
-      "since": "2026-11-03",
-      "app_price": "免费"
-    },
-    {
       "app_id": "6743779432",
       "app_name": "拍有序-相册整理与分类相机",
       "iap": "分类相机 PRO 永久包",
       "price": "¥0.00",
-      "permanent_free": true,
+      "permanent_free": false,
       "since": "2026-11-03",
       "app_price": "免费"
     },
@@ -1648,6 +1621,60 @@
       "price": "¥0.00",
       "permanent_free": true,
       "since": "2026-11-02",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "6806224486",
+      "app_name": "FavPicks: 你的互联网全平台内容整合收藏夹",
+      "iap": "买断",
+      "price": "¥0.00",
+      "permanent_free": false,
+      "since": "2026-11-03",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "6811274043",
+      "app_name": "序日",
+      "iap": "序日 Pro",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-03",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "6823810305",
+      "app_name": "Three Routes: Run & Walk",
+      "iap": "Three Routes Pro Lifetime",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-03",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "6753771856",
+      "app_name": "PDF转换器 Scanner Document",
+      "iap": "只需支付一次：所有功能",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-03",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "6757312358",
+      "app_name": "手机存储空间清理优化管理助手专业版工具包",
+      "iap": "Lifetime",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-03",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "6798929348",
+      "app_name": "PasteKit: Clipboard Keyboard",
+      "iap": "PasteKit Pro Lifetime",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-03",
       "app_price": "免费"
     }
   ]
