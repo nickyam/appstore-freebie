@@ -1,7 +1,7 @@
 {
   "updated": "2026-11-03",
   "region": "us",
-  "count": 222,
+  "count": 221,
   "items": [
     {
       "app_id": "6788409678",
@@ -1870,15 +1870,6 @@
       "app_id": "6480367122",
       "app_name": "AppBlocker-Block Apps & Focus",
       "iap": "life_time",
-      "price": "$0.00",
-      "permanent_free": true,
-      "since": "2026-11-03",
-      "app_price": "Free"
-    },
-    {
-      "app_id": "6806224486",
-      "app_name": "FavPicks:bookmarks manager",
-      "iap": "lifetime",
       "price": "$0.00",
       "permanent_free": true,
       "since": "2026-11-03",
