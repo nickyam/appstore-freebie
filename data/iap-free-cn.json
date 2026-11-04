@@ -1,8 +1,25 @@
 {
   "updated": "2026-11-04",
   "region": "cn",
-  "count": 5,
+  "count": 6,
   "events": [
+    {
+      "app_id": "6741730996",
+      "app_name": "手机测速·网络测速·测网速speedtest",
+      "iap": "手机测速永久会员",
+      "price": "¥0.00",
+      "free_since": "2026-11-04",
+      "days_free": 0,
+      "last_paid_date": "2026-11-04",
+      "last_paid_price": "¥8.00",
+      "url": "https://apps.apple.com/cn/app/%E6%89%8B%E6%9C%BA%E6%B5%8B%E9%80%9F-%E7%BD%91%E7%BB%9C%E6%B5%8B%E9%80%9F-%E6%B5%8B%E7%BD%91%E9%80%9Fspeedtest/id6741730996?uo=4",
+      "rating": 4.06977,
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/20/ad/05/20ad0558-a5cf-e3b2-a22e-663eb4d5a4e9/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+      "dev": "Wuhan Yuhang Technology Co., Ltd",
+      "genre": "效率",
+      "app_price": "免费",
+      "page": "app/cn-6741730996.html"
+    },
     {
       "app_id": "6806224486",
       "app_name": "FavPicks: 你的互联网全平台内容整合收藏夹",
@@ -13,7 +30,7 @@
       "last_paid_date": "2026-11-01",
       "last_paid_price": "¥48.00",
       "url": "https://apps.apple.com/cn/app/favpicks-%E4%BD%A0%E7%9A%84%E4%BA%92%E8%81%94%E7%BD%91%E5%85%A8%E5%B9%B3%E5%8F%B0%E5%86%85%E5%AE%B9%E6%95%B4%E5%90%88%E6%94%B6%E8%97%8F%E5%A4%B9/id6806224486?uo=4",
-      "rating": 5,
+      "rating": 4.5,
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/54/68/b5/5468b561-5f02-074e-75bd-cee4855e6536/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
       "dev": "陆 星宇",
       "genre": "效率",

@@ -1,8 +1,17 @@
 {
   "updated": "2026-11-04",
   "region": "us",
-  "count": 230,
+  "count": 238,
   "items": [
+    {
+      "app_id": "6741730996",
+      "app_name": "SpeedTest: WIFI Speed Test",
+      "iap": "PRO lifetime",
+      "price": "$0.00",
+      "permanent_free": false,
+      "since": "2026-11-04",
+      "app_price": "Free"
+    },
     {
       "app_id": "6756211777",
       "app_name": "iEarthpulse",
@@ -1810,7 +1819,7 @@
       "price": "$0.00",
       "permanent_free": true,
       "since": "2026-11-04",
-      "app_price": "$9.99"
+      "app_price": "Free"
     },
     {
       "app_id": "934587545",
@@ -2072,6 +2081,69 @@
       "permanent_free": true,
       "since": "2026-11-04",
       "app_price": "Free"
+    },
+    {
+      "app_id": "1441905750",
+      "app_name": "Distressed FX : Plus",
+      "iap": "Barely There Tree Pack",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-04",
+      "app_price": "$19.99"
+    },
+    {
+      "app_id": "1441905750",
+      "app_name": "Distressed FX : Plus",
+      "iap": "By the Wire",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-04",
+      "app_price": "$19.99"
+    },
+    {
+      "app_id": "1441905750",
+      "app_name": "Distressed FX : Plus",
+      "iap": "Storybook",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-04",
+      "app_price": "$19.99"
+    },
+    {
+      "app_id": "1441905750",
+      "app_name": "Distressed FX : Plus",
+      "iap": "Uncaged Birds",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-04",
+      "app_price": "$19.99"
+    },
+    {
+      "app_id": "1441905750",
+      "app_name": "Distressed FX : Plus",
+      "iap": "Winged Assistance",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-04",
+      "app_price": "$19.99"
+    },
+    {
+      "app_id": "1441905750",
+      "app_name": "Distressed FX : Plus",
+      "iap": "Lofty Birds",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-04",
+      "app_price": "$19.99"
+    },
+    {
+      "app_id": "1441905750",
+      "app_name": "Distressed FX : Plus",
+      "iap": "Spirit of the Trees",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-04",
+      "app_price": "$19.99"
     }
   ]
 }
