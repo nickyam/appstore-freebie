@@ -1,7 +1,7 @@
 {
   "updated": "2026-11-04",
   "region": "cn",
-  "count": 184,
+  "count": 196,
   "items": [
     {
       "app_id": "6758658840",
@@ -1597,15 +1597,6 @@
       "app_price": "¥15.00"
     },
     {
-      "app_id": "6743779432",
-      "app_name": "拍有序-相册整理与分类相机",
-      "iap": "分类相机 PRO 永久包",
-      "price": "¥0.00",
-      "permanent_free": false,
-      "since": "2026-11-04",
-      "app_price": "免费"
-    },
-    {
       "app_id": "1254058826",
       "app_name": "Bed Time | 大时钟",
       "iap": "Calming Sounds",
@@ -1654,6 +1645,123 @@
       "app_id": "585193266",
       "app_name": "Sygic GPS导航、离线地图",
       "iap": "Australia & N. Zealand Premium",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-04",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "6806224486",
+      "app_name": "FavPicks: 你的互联网全平台内容整合收藏夹",
+      "iap": "内购限免",
+      "price": "免费",
+      "permanent_free": false,
+      "since": "2026-11-03",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "6444253288",
+      "app_name": "清理大师 - AI清理照片与视频",
+      "iap": "内购限免",
+      "price": "免费",
+      "permanent_free": false,
+      "since": "2026-11-03",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "6811274043",
+      "app_name": "序日",
+      "iap": "内购限免",
+      "price": "免费",
+      "permanent_free": false,
+      "since": "2026-11-03",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "6800175446",
+      "app_name": "择影-照片清理与相册整理",
+      "iap": "内购限免",
+      "price": "免费",
+      "permanent_free": false,
+      "since": "2026-11-03",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "6480367122",
+      "app_name": "自律锁：不做手机控",
+      "iap": "内购限免",
+      "price": "免费",
+      "permanent_free": false,
+      "since": "2026-11-03",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "6800175446",
+      "app_name": "择影-照片清理与相册整理",
+      "iap": "择影永久版",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-04",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "6480367122",
+      "app_name": "自律锁：不做手机控",
+      "iap": "life_time",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-04",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "6743779432",
+      "app_name": "拍有序-相册整理与分类相机",
+      "iap": "分类相机 PRO 永久包",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-04",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "6818482504",
+      "app_name": "手表表盘与小组件: Tima",
+      "iap": "Lifetime",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-04",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "1528882564",
+      "app_name": "Frame Builder PRO Framing",
+      "iap": "Extra wood frames library",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-04",
+      "app_price": "¥22.00"
+    },
+    {
+      "app_id": "1528882564",
+      "app_name": "Frame Builder PRO Framing",
+      "iap": "Extra drawings",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-04",
+      "app_price": "¥22.00"
+    },
+    {
+      "app_id": "6739977698",
+      "app_name": "日常运动",
+      "iap": "Lifetime Premium",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-04",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "6757228920",
+      "app_name": "Electro Clash",
+      "iap": "White Icon",
       "price": "¥0.00",
       "permanent_free": true,
       "since": "2026-11-04",

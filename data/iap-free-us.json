@@ -1,7 +1,7 @@
 {
   "updated": "2026-11-04",
   "region": "us",
-  "count": 3,
+  "count": 4,
   "events": [
     {
       "app_id": "659276619",
@@ -53,6 +53,23 @@
       "genre": "Photo & Video",
       "app_price": "Free",
       "page": "app/us-6743779432.html"
+    },
+    {
+      "app_id": "6815070161",
+      "app_name": "Goodnight Kitty: Sleep Routine",
+      "iap": "Pro Lifetime",
+      "price": "$0.00",
+      "free_since": "2026-11-02",
+      "days_free": 2,
+      "last_paid_date": "2026-11-02",
+      "last_paid_price": "—",
+      "url": "https://apps.apple.com/us/app/goodnight-kitty-sleep-routine/id6815070161?uo=4",
+      "rating": 5,
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ae/47/f7/ae47f707-0b09-f4fe-a8a8-cc9211ad7048/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "dev": "Freedom Dimension (shenzhen) Technology Co., Ltd",
+      "genre": "Health & Fitness",
+      "app_price": "Free",
+      "page": "app/us-6815070161.html"
     }
   ]
 }
