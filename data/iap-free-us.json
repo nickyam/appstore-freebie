@@ -1,7 +1,7 @@
 {
   "updated": "2026-11-04",
   "region": "us",
-  "count": 4,
+  "count": 3,
   "events": [
     {
       "app_id": "659276619",
@@ -19,23 +19,6 @@
       "genre": "Photo & Video",
       "app_price": "$6.99",
       "page": "app/us-659276619.html"
-    },
-    {
-      "app_id": "1576118042",
-      "app_name": "Rhymelo",
-      "iap": "Unlock All Rhymes",
-      "price": "$0.00",
-      "free_since": "2026-11-03",
-      "days_free": 1,
-      "last_paid_date": "2026-10-29",
-      "last_paid_price": "$4.99",
-      "url": "https://apps.apple.com/us/app/rhymelo/id1576118042?uo=4",
-      "rating": 4.71429,
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6e/85/d8/6e85d871-f3c8-b5ff-0ca3-ee37c37ccadf/AppIcon-0-0-1x_U007epad-0-1-sRGB-85-220.png/512x512bb.jpg",
-      "dev": "Bijoy Thangaraj",
-      "genre": "Music",
-      "app_price": "Free",
-      "page": "app/us-1576118042.html"
     },
     {
       "app_id": "6743779432",
