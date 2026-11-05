@@ -1,24 +1,6 @@
 {
   "updated": "2026-11-05",
   "region": "cn",
-  "count": 1,
-  "events": [
-    {
-      "app_id": "6818482504",
-      "app_name": "手表表盘与小组件: Tima",
-      "iap": "Lifetime",
-      "price": "¥0.00",
-      "free_since": "2026-11-03",
-      "days_free": 2,
-      "last_paid_date": "2026-11-03",
-      "last_paid_price": "—",
-      "url": "https://apps.apple.com/cn/app/%E6%89%8B%E8%A1%A8%E8%A1%A8%E7%9B%98%E4%B8%8E%E5%B0%8F%E7%BB%84%E4%BB%B6-tima/id6818482504?uo=4",
-      "rating": 4.60914,
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9c/11/39/9c113954-bf9e-4b1b-2dd8-f9ea748232d4/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.jpeg/512x512bb.jpg",
-      "dev": "Appexo Solutions LLP",
-      "genre": "生活",
-      "app_price": "免费",
-      "page": "app/cn-6818482504.html"
-    }
-  ]
+  "count": 0,
+  "events": []
 }

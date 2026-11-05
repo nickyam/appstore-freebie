@@ -1,7 +1,7 @@
 {
   "updated": "2026-11-05",
   "region": "cn",
-  "count": 202,
+  "count": 201,
   "items": [
     {
       "app_id": "6758658840",
@@ -1656,15 +1656,6 @@
       "iap": "life_time",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-11-05",
-      "app_price": "免费"
-    },
-    {
-      "app_id": "6818482504",
-      "app_name": "手表表盘与小组件: Tima",
-      "iap": "Lifetime",
-      "price": "¥0.00",
-      "permanent_free": false,
       "since": "2026-11-05",
       "app_price": "免费"
     },
