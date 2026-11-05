@@ -1,7 +1,7 @@
 {
   "updated": "2026-11-05",
   "region": "cn",
-  "count": 199,
+  "count": 202,
   "items": [
     {
       "app_id": "6758658840",
@@ -1789,6 +1789,33 @@
       "app_id": "934587545",
       "app_name": "Priime：照片与视频编辑器",
       "iap": "Minimal",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-05",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "363738376",
+      "app_name": "forScore",
+      "iap": "Sousa: The Mutopia Collection",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-05",
+      "app_price": "¥168.00"
+    },
+    {
+      "app_id": "6823810305",
+      "app_name": "Three Routes：跑步 步行 骑行",
+      "iap": "Three Routes Pro 终身",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-05",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "934587545",
+      "app_name": "Priime：照片与视频编辑器",
+      "iap": "Modern",
       "price": "¥0.00",
       "permanent_free": true,
       "since": "2026-11-05",

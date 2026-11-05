@@ -1,7 +1,7 @@
 {
   "updated": "2026-11-05",
   "region": "us",
-  "count": 268,
+  "count": 265,
   "items": [
     {
       "app_id": "6756211777",
@@ -1894,15 +1894,6 @@
       "app_price": "Free"
     },
     {
-      "app_id": "6761368515",
-      "app_name": "NexPaste - Clipboard Manager",
-      "iap": "NexPaste Pro Lifetime",
-      "price": "$0.00",
-      "permanent_free": true,
-      "since": "2026-11-05",
-      "app_price": "Free"
-    },
-    {
       "app_id": "6792251542",
       "app_name": "OneOpen: File Viewer",
       "iap": "Advanced Access Lifetime",
@@ -1942,15 +1933,6 @@
       "app_id": "528519530",
       "app_name": "Go Game - Life And Death",
       "iap": "extend death&life exercises",
-      "price": "$0.00",
-      "permanent_free": true,
-      "since": "2026-11-05",
-      "app_price": "Free"
-    },
-    {
-      "app_id": "6764089395",
-      "app_name": "DisabilityLog",
-      "iap": "Pro Lifetime",
       "price": "$0.00",
       "permanent_free": true,
       "since": "2026-11-05",
@@ -2045,15 +2027,6 @@
       "permanent_free": true,
       "since": "2026-11-05",
       "app_price": "$2.99"
-    },
-    {
-      "app_id": "6798929348",
-      "app_name": "PasteKit: Clipboard Keyboard",
-      "iap": "PasteKit Pro Lifetime",
-      "price": "$0.00",
-      "permanent_free": true,
-      "since": "2026-11-05",
-      "app_price": "Free"
     },
     {
       "app_id": "1441905750",
