@@ -1,7 +1,7 @@
 {
   "updated": "2026-11-05",
   "region": "cn",
-  "count": 196,
+  "count": 199,
   "items": [
     {
       "app_id": "6758658840",
@@ -1585,7 +1585,7 @@
       "price": "¥0.00",
       "permanent_free": true,
       "since": "2026-11-05",
-      "app_price": "¥15.00"
+      "app_price": "免费"
     },
     {
       "app_id": "6744615017",
@@ -1594,7 +1594,7 @@
       "price": "¥0.00",
       "permanent_free": true,
       "since": "2026-11-05",
-      "app_price": "¥15.00"
+      "app_price": "免费"
     },
     {
       "app_id": "1254058826",
@@ -1611,15 +1611,6 @@
       "iap": "序日 Pro",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-11-05",
-      "app_price": "免费"
-    },
-    {
-      "app_id": "6823810305",
-      "app_name": "Three Routes: Run & Walk",
-      "iap": "Three Routes Pro Lifetime",
-      "price": "¥0.00",
-      "permanent_free": false,
       "since": "2026-11-05",
       "app_price": "免费"
     },
@@ -1651,51 +1642,6 @@
       "app_price": "免费"
     },
     {
-      "app_id": "6806224486",
-      "app_name": "FavPicks: 你的互联网全平台内容整合收藏夹",
-      "iap": "内购限免",
-      "price": "免费",
-      "permanent_free": false,
-      "since": "2026-11-03",
-      "app_price": "免费"
-    },
-    {
-      "app_id": "6444253288",
-      "app_name": "清理大师 - AI清理照片与视频",
-      "iap": "内购限免",
-      "price": "免费",
-      "permanent_free": false,
-      "since": "2026-11-03",
-      "app_price": "免费"
-    },
-    {
-      "app_id": "6811274043",
-      "app_name": "序日",
-      "iap": "内购限免",
-      "price": "免费",
-      "permanent_free": false,
-      "since": "2026-11-03",
-      "app_price": "免费"
-    },
-    {
-      "app_id": "6800175446",
-      "app_name": "择影-照片清理与相册整理",
-      "iap": "内购限免",
-      "price": "免费",
-      "permanent_free": false,
-      "since": "2026-11-03",
-      "app_price": "免费"
-    },
-    {
-      "app_id": "6480367122",
-      "app_name": "自律锁：不做手机控",
-      "iap": "内购限免",
-      "price": "免费",
-      "permanent_free": false,
-      "since": "2026-11-03",
-      "app_price": "免费"
-    },
-    {
       "app_id": "6800175446",
       "app_name": "择影-照片清理与相册整理",
       "iap": "择影永久版",
@@ -1718,7 +1664,7 @@
       "app_name": "手表表盘与小组件: Tima",
       "iap": "Lifetime",
       "price": "¥0.00",
-      "permanent_free": true,
+      "permanent_free": false,
       "since": "2026-11-05",
       "app_price": "免费"
     },
@@ -1765,6 +1711,87 @@
       "price": "¥0.00",
       "permanent_free": true,
       "since": "2026-11-04",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "6755518413",
+      "app_name": "Qard: vCard QR Code Contact",
+      "iap": "Qard Lifetime",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-05",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "6755604339",
+      "app_name": "拾光日记",
+      "iap": "解锁会员",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-05",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "531595249",
+      "app_name": "TwinViewer",
+      "iap": "Full Version",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-05",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "6773256954",
+      "app_name": "LAM · 胶片相机与电影感录像",
+      "iap": "LAM Pro · 买断版",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-05",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "934587545",
+      "app_name": "Priime：照片与视频编辑器",
+      "iap": "Priime Fall Pack",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-05",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "934587545",
+      "app_name": "Priime：照片与视频编辑器",
+      "iap": "Everlane",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-05",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "934587545",
+      "app_name": "Priime：照片与视频编辑器",
+      "iap": "Further Future",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-05",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "934587545",
+      "app_name": "Priime：照片与视频编辑器",
+      "iap": "Loren Baxter",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-05",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "934587545",
+      "app_name": "Priime：照片与视频编辑器",
+      "iap": "Minimal",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-05",
       "app_price": "免费"
     }
   ]

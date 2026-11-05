@@ -1,7 +1,7 @@
 {
   "updated": "2026-11-05",
   "region": "us",
-  "count": 237,
+  "count": 268,
   "items": [
     {
       "app_id": "6756211777",
@@ -279,7 +279,7 @@
       "iap": "NIV Bible",
       "price": "$0.00",
       "permanent_free": true,
-      "since": "2026-11-04",
+      "since": "2026-11-05",
       "app_price": "Free"
     },
     {
@@ -1804,15 +1804,6 @@
       "app_price": "$0.99"
     },
     {
-      "app_id": "6788331801",
-      "app_name": "MemoMark",
-      "iap": "MemoMark+ 永久解锁",
-      "price": "$0.00",
-      "permanent_free": true,
-      "since": "2026-11-05",
-      "app_price": "Free"
-    },
-    {
       "app_id": "934587545",
       "app_name": "Priime: Photo & Video Editor",
       "iap": "Priime Fall Pack",
@@ -2002,15 +1993,6 @@
       "app_price": "Free"
     },
     {
-      "app_id": "6815070161",
-      "app_name": "Goodnight Kitty: Sleep Routine",
-      "iap": "Pro Lifetime",
-      "price": "$0.00",
-      "permanent_free": false,
-      "since": "2026-11-05",
-      "app_price": "Free"
-    },
-    {
       "app_id": "909222894",
       "app_name": "ACDSee",
       "iap": "Metal",
@@ -2135,6 +2117,303 @@
       "permanent_free": true,
       "since": "2026-11-04",
       "app_price": "$19.99"
+    },
+    {
+      "app_id": "6739061946",
+      "app_name": "PhotoRiver",
+      "iap": "Classic",
+      "price": "$0.00",
+      "permanent_free": false,
+      "since": "2026-11-05",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "1198069267",
+      "app_name": "Tohitapu",
+      "iap": "Niuafo`ou bible",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-05",
+      "app_price": "$4.99"
+    },
+    {
+      "app_id": "6815070161",
+      "app_name": "Goodnight Kitty: Sleep Routine",
+      "iap": "Pro Lifetime",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-05",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6775225793",
+      "app_name": "DutyReady",
+      "iap": "Pro Lifetime",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-05",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6755518413",
+      "app_name": "Qard: vCard QR Code Contact",
+      "iap": "Qard Lifetime",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-05",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6758016252",
+      "app_name": "How Are You Today",
+      "iap": "Unlock Full Access",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-05",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6755604339",
+      "app_name": "拾光日记",
+      "iap": "Unlock Full Access",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-05",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "1441343874",
+      "app_name": "Everycards Flashcards Quizzes",
+      "iap": "Relationship Quiz (example)",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-05",
+      "app_price": "$0.99"
+    },
+    {
+      "app_id": "1441343874",
+      "app_name": "Everycards Flashcards Quizzes",
+      "iap": "GCSE Business Template",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-05",
+      "app_price": "$0.99"
+    },
+    {
+      "app_id": "1441343874",
+      "app_name": "Everycards Flashcards Quizzes",
+      "iap": "GCSE Maths (Foundation) Template",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-05",
+      "app_price": "$0.99"
+    },
+    {
+      "app_id": "1441343874",
+      "app_name": "Everycards Flashcards Quizzes",
+      "iap": "GCSE Chemistry Template",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-05",
+      "app_price": "$0.99"
+    },
+    {
+      "app_id": "1441343874",
+      "app_name": "Everycards Flashcards Quizzes",
+      "iap": "GCSE Physics Template",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-05",
+      "app_price": "$0.99"
+    },
+    {
+      "app_id": "1441343874",
+      "app_name": "Everycards Flashcards Quizzes",
+      "iap": "GCSE Computer Science Template",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-05",
+      "app_price": "$0.99"
+    },
+    {
+      "app_id": "1441343874",
+      "app_name": "Everycards Flashcards Quizzes",
+      "iap": "GCSE Geography Template",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-05",
+      "app_price": "$0.99"
+    },
+    {
+      "app_id": "531595249",
+      "app_name": "TwinViewer",
+      "iap": "Full Version",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-05",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6503619490",
+      "app_name": "South Carolina CDL Test Prep",
+      "iap": "Tank Vehicles",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-05",
+      "app_price": "$12.99"
+    },
+    {
+      "app_id": "6503619490",
+      "app_name": "South Carolina CDL Test Prep",
+      "iap": "Air Brakes",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-05",
+      "app_price": "$12.99"
+    },
+    {
+      "app_id": "6503619490",
+      "app_name": "South Carolina CDL Test Prep",
+      "iap": "Hazardous Materials",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-05",
+      "app_price": "$12.99"
+    },
+    {
+      "app_id": "6503619490",
+      "app_name": "South Carolina CDL Test Prep",
+      "iap": "Combination Vehicles",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-05",
+      "app_price": "$12.99"
+    },
+    {
+      "app_id": "6503619490",
+      "app_name": "South Carolina CDL Test Prep",
+      "iap": "CDL Class B Learners Permit",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-05",
+      "app_price": "$12.99"
+    },
+    {
+      "app_id": "6503619490",
+      "app_name": "South Carolina CDL Test Prep",
+      "iap": "Transporting Passengers",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-05",
+      "app_price": "$12.99"
+    },
+    {
+      "app_id": "6503619490",
+      "app_name": "South Carolina CDL Test Prep",
+      "iap": "School Buses",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-05",
+      "app_price": "$12.99"
+    },
+    {
+      "app_id": "6503619490",
+      "app_name": "South Carolina CDL Test Prep",
+      "iap": "Double/Triple Trailers",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-05",
+      "app_price": "$12.99"
+    },
+    {
+      "app_id": "6503619490",
+      "app_name": "South Carolina CDL Test Prep",
+      "iap": "CDL Class A Learners Permit",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-05",
+      "app_price": "$12.99"
+    },
+    {
+      "app_id": "6670524724",
+      "app_name": "Mech Gladiator3",
+      "iap": "PREMIUM PASS",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-05",
+      "app_price": "$1.99"
+    },
+    {
+      "app_id": "6738010155",
+      "app_name": "MindPass: App Blocker",
+      "iap": "MindPass Pro Lifetime",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-05",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6739977698",
+      "app_name": "Everyday Workout",
+      "iap": "Lifetime Premium",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-05",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6744615017",
+      "app_name": "Frame Builder 2 Photo Framing",
+      "iap": "Extra wood frames library",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-05",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6744615017",
+      "app_name": "Frame Builder 2 Photo Framing",
+      "iap": "Extra drawings",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-05",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6757228920",
+      "app_name": "Electro Clash",
+      "iap": "White Icon",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-05",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6773256954",
+      "app_name": "LAM · Film Camera & Cinema",
+      "iap": "LAM Pro · Lifetime",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-05",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6784304541",
+      "app_name": "Stress HRV: Stress Tracker",
+      "iap": "Lifetime",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-05",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6826148030",
+      "app_name": "Libella -水平器・勾配計",
+      "iap": "7日間無料トライアル",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-05",
+      "app_price": "Free"
     }
   ]
 }
