@@ -1,7 +1,7 @@
 {
   "updated": "2026-11-06",
   "region": "cn",
-  "count": 197,
+  "count": 204,
   "items": [
     {
       "app_id": "6758658840",
@@ -1763,7 +1763,7 @@
       "app_name": "Three Routes：跑步 步行 骑行",
       "iap": "Three Routes Pro 终身",
       "price": "¥0.00",
-      "permanent_free": true,
+      "permanent_free": false,
       "since": "2026-11-06",
       "app_price": "免费"
     },
@@ -1771,6 +1771,69 @@
       "app_id": "934587545",
       "app_name": "Priime：照片与视频编辑器",
       "iap": "Modern",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-06",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "6760284753",
+      "app_name": "XPlayer-本地音乐播放器",
+      "iap": "永久会员",
+      "price": "¥0.00",
+      "permanent_free": false,
+      "since": "2026-11-06",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "6778018148",
+      "app_name": "健康修仙传-随时随地的赛博“修仙”之旅",
+      "iap": "永久会员",
+      "price": "¥0.00",
+      "permanent_free": false,
+      "since": "2026-11-06",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "6759321756",
+      "app_name": "BTWN – Hide Messages in Photos",
+      "iap": "BTWN Pro - Lifetime",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-06",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "6758016252",
+      "app_name": "今天好吗",
+      "iap": "解锁会员",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-06",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "6761092493",
+      "app_name": "Telo: HRV压力监测与睡眠分析、心率健康管理和运动恢复",
+      "iap": "终身会员",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-06",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "6807610444",
+      "app_name": "みまもり｜親の見守り・高齢者の安否確認",
+      "iap": "7日間無料お試し",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-06",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "6814760369",
+      "app_name": "彩辰计时器",
+      "iap": "永久高级版",
       "price": "¥0.00",
       "permanent_free": true,
       "since": "2026-11-06",

@@ -1,7 +1,7 @@
 {
   "updated": "2026-11-06",
   "region": "us",
-  "count": 264,
+  "count": 271,
   "items": [
     {
       "app_id": "6756211777",
@@ -2083,15 +2083,6 @@
       "app_price": "$19.99"
     },
     {
-      "app_id": "6739061946",
-      "app_name": "PhotoRiver",
-      "iap": "Classic",
-      "price": "$0.00",
-      "permanent_free": false,
-      "since": "2026-11-06",
-      "app_price": "Free"
-    },
-    {
       "app_id": "1198069267",
       "app_name": "Tohitapu",
       "iap": "Niuafo`ou bible",
@@ -2123,16 +2114,16 @@
       "app_name": "Qard: vCard QR Code Contact",
       "iap": "Qard Lifetime",
       "price": "$0.00",
-      "permanent_free": true,
+      "permanent_free": false,
       "since": "2026-11-06",
       "app_price": "Free"
     },
     {
       "app_id": "6758016252",
-      "app_name": "How Are You Today",
+      "app_name": "今天好吗",
       "iap": "Unlock Full Access",
       "price": "$0.00",
-      "permanent_free": true,
+      "permanent_free": false,
       "since": "2026-11-06",
       "app_price": "Free"
     },
@@ -2354,10 +2345,10 @@
     },
     {
       "app_id": "6773256954",
-      "app_name": "LAM · Film Camera & Cinema",
+      "app_name": "LAM · 胶片相机与电影感录像",
       "iap": "LAM Pro · Lifetime",
       "price": "$0.00",
-      "permanent_free": true,
+      "permanent_free": false,
       "since": "2026-11-06",
       "app_price": "Free"
     },
@@ -2374,6 +2365,78 @@
       "app_id": "6826148030",
       "app_name": "Libella -水平器・勾配計",
       "iap": "7日間無料トライアル",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-06",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6760284753",
+      "app_name": "XPlayer-本地音乐播放器",
+      "iap": "Life member",
+      "price": "$0.00",
+      "permanent_free": false,
+      "since": "2026-11-06",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6739061946",
+      "app_name": "PhotoRiver",
+      "iap": "Classic",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-06",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6478123924",
+      "app_name": "Mindful Slumber: Dream Yoga",
+      "iap": "Mindful Slumber Lifetime",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-06",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "563027226",
+      "app_name": "NFL Collect by Topps®",
+      "iap": "HUDDLE'S OFFER!",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-06",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6761806680",
+      "app_name": "AlbumX: Photo Cleaner",
+      "iap": "Lifetime",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-06",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6759321756",
+      "app_name": "BTWN – Hide Messages in Photos",
+      "iap": "BTWN Pro - Lifetime",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-06",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6761092493",
+      "app_name": "Telo: AI Health Coach, HRV Log",
+      "iap": "Lifetime",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-06",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6807610444",
+      "app_name": "みまもり｜親の見守り・高齢者の安否確認",
+      "iap": "7日間無料お試し",
       "price": "$0.00",
       "permanent_free": true,
       "since": "2026-11-06",

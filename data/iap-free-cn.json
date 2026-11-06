@@ -1,6 +1,58 @@
 {
   "updated": "2026-11-06",
   "region": "cn",
-  "count": 0,
-  "events": []
+  "count": 3,
+  "events": [
+    {
+      "app_id": "6823810305",
+      "app_name": "Three Routes：跑步 步行 骑行",
+      "iap": "Three Routes Pro 终身",
+      "price": "¥0.00",
+      "free_since": "2026-11-04",
+      "days_free": 2,
+      "last_paid_date": "2026-11-04",
+      "last_paid_price": "¥198.00",
+      "url": "https://apps.apple.com/cn/app/three-routes-%E8%B7%91%E6%AD%A5-%E6%AD%A5%E8%A1%8C-%E9%AA%91%E8%A1%8C/id6823810305?uo=4",
+      "rating": 4,
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ca/44/a7/ca44a704-e5ea-0f54-6abf-3b0ba87a8586/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+      "dev": "STEVEN JAMES GOOD",
+      "genre": "健康健美",
+      "app_price": "免费",
+      "page": "app/cn-6823810305.html"
+    },
+    {
+      "app_id": "6760284753",
+      "app_name": "XPlayer-本地音乐播放器",
+      "iap": "永久会员",
+      "price": "¥0.00",
+      "free_since": "2026-11-04",
+      "days_free": 2,
+      "last_paid_date": "2026-11-04",
+      "last_paid_price": "—",
+      "url": "https://apps.apple.com/cn/app/xplayer-%E6%9C%AC%E5%9C%B0%E9%9F%B3%E4%B9%90%E6%92%AD%E6%94%BE%E5%99%A8/id6760284753?uo=4",
+      "rating": 4.33333,
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f5/d3/dc/f5d3dcc2-a291-f0e7-d8ad-efd600c4352c/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+      "dev": "建 徐",
+      "genre": "音乐",
+      "app_price": "免费",
+      "page": "app/cn-6760284753.html"
+    },
+    {
+      "app_id": "6778018148",
+      "app_name": "健康修仙传-随时随地的赛博“修仙”之旅",
+      "iap": "永久会员",
+      "price": "¥0.00",
+      "free_since": "2026-11-04",
+      "days_free": 2,
+      "last_paid_date": "2026-11-04",
+      "last_paid_price": "¥198.00",
+      "url": "https://apps.apple.com/cn/app/%E5%81%A5%E5%BA%B7%E4%BF%AE%E4%BB%99%E4%BC%A0-%E9%9A%8F%E6%97%B6%E9%9A%8F%E5%9C%B0%E7%9A%84%E8%B5%9B%E5%8D%9A-%E4%BF%AE%E4%BB%99-%E4%B9%8B%E6%97%85/id6778018148?uo=4",
+      "rating": 4.67797,
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b5/e4/f2/b5e4f202-585d-b106-3a8e-0b268eedbe9f/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+      "dev": "Wuhan Starlink Network Technology Co., Ltd.",
+      "genre": "健康健美",
+      "app_price": "免费",
+      "page": "app/cn-6778018148.html"
+    }
+  ]
 }
