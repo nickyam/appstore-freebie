@@ -1,7 +1,7 @@
 {
   "updated": "2026-11-06",
   "region": "us",
-  "count": 271,
+  "count": 267,
   "items": [
     {
       "app_id": "6756211777",
@@ -1912,15 +1912,6 @@
       "app_price": "Free"
     },
     {
-      "app_id": "6800175446",
-      "app_name": "Pickora: Photo Cleaner",
-      "iap": "择影永久版",
-      "price": "$0.00",
-      "permanent_free": true,
-      "since": "2026-11-06",
-      "app_price": "Free"
-    },
-    {
       "app_id": "528519530",
       "app_name": "Go Game - Life And Death",
       "iap": "extend death&life exercises",
@@ -2124,15 +2115,6 @@
       "iap": "Unlock Full Access",
       "price": "$0.00",
       "permanent_free": false,
-      "since": "2026-11-06",
-      "app_price": "Free"
-    },
-    {
-      "app_id": "6755604339",
-      "app_name": "拾光日记",
-      "iap": "Unlock Full Access",
-      "price": "$0.00",
-      "permanent_free": true,
       "since": "2026-11-06",
       "app_price": "Free"
     },
@@ -2344,15 +2326,6 @@
       "app_price": "Free"
     },
     {
-      "app_id": "6773256954",
-      "app_name": "LAM · 胶片相机与电影感录像",
-      "iap": "LAM Pro · Lifetime",
-      "price": "$0.00",
-      "permanent_free": false,
-      "since": "2026-11-06",
-      "app_price": "Free"
-    },
-    {
       "app_id": "6784304541",
       "app_name": "Stress HRV: Stress Tracker",
       "iap": "Lifetime",
@@ -2383,15 +2356,6 @@
       "app_id": "6739061946",
       "app_name": "PhotoRiver",
       "iap": "Classic",
-      "price": "$0.00",
-      "permanent_free": true,
-      "since": "2026-11-06",
-      "app_price": "Free"
-    },
-    {
-      "app_id": "6478123924",
-      "app_name": "Mindful Slumber: Dream Yoga",
-      "iap": "Mindful Slumber Lifetime",
       "price": "$0.00",
       "permanent_free": true,
       "since": "2026-11-06",

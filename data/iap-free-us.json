@@ -1,7 +1,7 @@
 {
   "updated": "2026-11-06",
   "region": "us",
-  "count": 6,
+  "count": 5,
   "events": [
     {
       "app_id": "659276619",
@@ -70,23 +70,6 @@
       "genre": "Utilities",
       "app_price": "Free",
       "page": "app/us-6758016252.html"
-    },
-    {
-      "app_id": "6773256954",
-      "app_name": "LAM · 胶片相机与电影感录像",
-      "iap": "LAM Pro · Lifetime",
-      "price": "$0.00",
-      "free_since": "2026-11-04",
-      "days_free": 2,
-      "last_paid_date": "2026-11-04",
-      "last_paid_price": "—",
-      "url": "https://apps.apple.com/us/app/lam-film-camera-cinema/id6773256954?uo=4",
-      "rating": 1,
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f9/ec/e3/f9ece335-b2f9-9f3d-93fa-b2f6f490f13e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-      "dev": "Nguyen Tuan Viet",
-      "genre": "Photo & Video",
-      "app_price": "Free",
-      "page": "app/us-6773256954.html"
     },
     {
       "app_id": "6760284753",
