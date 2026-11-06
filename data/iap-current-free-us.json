@@ -1,7 +1,7 @@
 {
   "updated": "2026-11-06",
   "region": "us",
-  "count": 267,
+  "count": 268,
   "items": [
     {
       "app_id": "6756211777",
@@ -16,6 +16,15 @@
       "app_id": "6788409678",
       "app_name": "Inky Habits: Daily Tracker",
       "iap": "Pro Lifetime",
+      "price": "$0.00",
+      "permanent_free": false,
+      "since": "2026-11-06",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6708239674",
+      "app_name": "Jump Counter & Rebound",
+      "iap": "AirJump Lifetime Access",
       "price": "$0.00",
       "permanent_free": false,
       "since": "2026-11-06",

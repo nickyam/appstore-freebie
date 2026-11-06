@@ -1,8 +1,17 @@
 {
   "updated": "2026-11-06",
   "region": "cn",
-  "count": 204,
+  "count": 205,
   "items": [
+    {
+      "app_id": "6708239674",
+      "app_name": "Jump Counter & Rebound",
+      "iap": "AirJump Lifetime Access",
+      "price": "¥0.00",
+      "permanent_free": false,
+      "since": "2026-11-06",
+      "app_price": "免费"
+    },
     {
       "app_id": "6758658840",
       "app_name": "PixPhoto:证件照,高清证件照制作",

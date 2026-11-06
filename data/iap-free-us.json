@@ -1,8 +1,25 @@
 {
   "updated": "2026-11-06",
   "region": "us",
-  "count": 5,
+  "count": 6,
   "events": [
+    {
+      "app_id": "6708239674",
+      "app_name": "Jump Counter & Rebound",
+      "iap": "AirJump Lifetime Access",
+      "price": "$0.00",
+      "free_since": "2026-11-06",
+      "days_free": 0,
+      "last_paid_date": "2026-11-06",
+      "last_paid_price": "$19.99",
+      "url": "https://apps.apple.com/us/app/airjump-jump-rope-counter/id6708239674?uo=4",
+      "rating": 4.55999,
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a5/b1/11/a5b11174-27af-e4b3-1afb-094426850959/AppIcon-0-0-1x_U007epad-0-1-85-220.jpeg/512x512bb.jpg",
+      "dev": "Reza Firouzbakht",
+      "genre": "Health & Fitness",
+      "app_price": "Free",
+      "page": "app/us-6708239674.html"
+    },
     {
       "app_id": "659276619",
       "app_name": "Fisheye Plus-Retro Photo Video",
