@@ -1,17 +1,8 @@
 {
   "updated": "2026-11-07",
   "region": "cn",
-  "count": 202,
+  "count": 208,
   "items": [
-    {
-      "app_id": "6708239674",
-      "app_name": "Jump Counter & Rebound",
-      "iap": "AirJump Lifetime Access",
-      "price": "¥0.00",
-      "permanent_free": false,
-      "since": "2026-11-07",
-      "app_price": "免费"
-    },
     {
       "app_id": "6758658840",
       "app_name": "PixPhoto:证件照,高清证件照制作",
@@ -1750,38 +1741,11 @@
       "app_price": "¥168.00"
     },
     {
-      "app_id": "6823810305",
-      "app_name": "Three Routes：跑步 步行 骑行",
-      "iap": "Three Routes Pro 终身",
-      "price": "¥0.00",
-      "permanent_free": false,
-      "since": "2026-11-07",
-      "app_price": "免费"
-    },
-    {
       "app_id": "934587545",
       "app_name": "Priime：照片与视频编辑器",
       "iap": "Modern",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-11-07",
-      "app_price": "免费"
-    },
-    {
-      "app_id": "6760284753",
-      "app_name": "XPlayer-本地音乐播放器",
-      "iap": "永久会员",
-      "price": "¥0.00",
-      "permanent_free": false,
-      "since": "2026-11-07",
-      "app_price": "免费"
-    },
-    {
-      "app_id": "6778018148",
-      "app_name": "健康修仙传-随时随地的赛博“修仙”之旅",
-      "iap": "永久会员",
-      "price": "¥0.00",
-      "permanent_free": false,
       "since": "2026-11-07",
       "app_price": "免费"
     },
@@ -1816,6 +1780,96 @@
       "app_id": "6814760369",
       "app_name": "彩辰计时器",
       "iap": "永久高级版",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-07",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "6755109910",
+      "app_name": "视频压缩 - ShrinkFile",
+      "iap": "Lifetime Unlock",
+      "price": "¥0.00",
+      "permanent_free": false,
+      "since": "2026-11-07",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "6751812975",
+      "app_name": "闹钟 Pro - 排班闹钟与节假日跳过",
+      "iap": "完整版",
+      "price": "¥0.00",
+      "permanent_free": false,
+      "since": "2026-11-07",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "6761806680",
+      "app_name": "AlbumX：照片清理、相册整理与幻灯片",
+      "iap": "永久",
+      "price": "¥0.00",
+      "permanent_free": false,
+      "since": "2026-11-07",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "6824980039",
+      "app_name": "双摄相机-纵横双拍横竖双录一次成片",
+      "iap": "双摄相机永久会员",
+      "price": "¥0.00",
+      "permanent_free": false,
+      "since": "2026-11-07",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "6823810305",
+      "app_name": "Three Routes：跑步 步行 骑行",
+      "iap": "Three Routes Pro 终身",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-07",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "6760284753",
+      "app_name": "XPlayer-本地音乐播放器",
+      "iap": "永久会员",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-07",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "6778018148",
+      "app_name": "健康修仙传-随时随地的赛博“修仙”之旅",
+      "iap": "永久会员",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-07",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "6806193343",
+      "app_name": "Capylist：纪念日倒计时·计划日程·待办任务清单·习惯",
+      "iap": "卡皮清单永久会员",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-07",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "6758226275",
+      "app_name": "iHairstyleIsWell",
+      "iap": "LifeTime Pro",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-07",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "6821620482",
+      "app_name": "PicPost EZ",
+      "iap": "Lifetime Album Access",
       "price": "¥0.00",
       "permanent_free": true,
       "since": "2026-11-07",

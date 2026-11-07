@@ -1,7 +1,7 @@
 {
   "updated": "2026-11-07",
   "region": "us",
-  "count": 268,
+  "count": 277,
   "items": [
     {
       "app_id": "6756211777",
@@ -2110,24 +2110,6 @@
       "app_price": "Free"
     },
     {
-      "app_id": "6755518413",
-      "app_name": "Qard: vCard QR Code Contact",
-      "iap": "Qard Lifetime",
-      "price": "$0.00",
-      "permanent_free": false,
-      "since": "2026-11-07",
-      "app_price": "Free"
-    },
-    {
-      "app_id": "6758016252",
-      "app_name": "今天好吗",
-      "iap": "Unlock Full Access",
-      "price": "$0.00",
-      "permanent_free": false,
-      "since": "2026-11-07",
-      "app_price": "Free"
-    },
-    {
       "app_id": "1441343874",
       "app_name": "Everycards Flashcards Quizzes",
       "iap": "Relationship Quiz (example)",
@@ -2353,15 +2335,6 @@
       "app_price": "Free"
     },
     {
-      "app_id": "6760284753",
-      "app_name": "XPlayer-本地音乐播放器",
-      "iap": "Life member",
-      "price": "$0.00",
-      "permanent_free": false,
-      "since": "2026-11-07",
-      "app_price": "Free"
-    },
-    {
       "app_id": "6739061946",
       "app_name": "PhotoRiver",
       "iap": "Classic",
@@ -2410,6 +2383,114 @@
       "app_id": "6807610444",
       "app_name": "みまもり｜親の見守り・高齢者の安否確認",
       "iap": "7日間無料お試し",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-07",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6755109910",
+      "app_name": "视频压缩 - ShrinkFile",
+      "iap": "Lifetime Unlock",
+      "price": "$0.00",
+      "permanent_free": false,
+      "since": "2026-11-07",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6751812975",
+      "app_name": "闹钟 Pro - 排班闹钟与节假日跳过",
+      "iap": "完整版",
+      "price": "$0.00",
+      "permanent_free": false,
+      "since": "2026-11-07",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6755518413",
+      "app_name": "Qard: vCard QR Code Contact",
+      "iap": "Qard Lifetime",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-07",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6758016252",
+      "app_name": "How Are You Today",
+      "iap": "Unlock Full Access",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-07",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6760284753",
+      "app_name": "XPlayer - Local Music Player",
+      "iap": "Life member",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-07",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6806193343",
+      "app_name": "Capylist: Countdown & Diary",
+      "iap": "卡皮清单永久会员",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-07",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6789835309",
+      "app_name": "iCoffeeMan",
+      "iap": "Pro Unlock",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-07",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6766756070",
+      "app_name": "Cacomi: Find AI Code & Secrets",
+      "iap": "Cacomi Lifetime",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-07",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6774990732",
+      "app_name": "RenoComply",
+      "iap": "Pro Lifetime",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-07",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6748850215",
+      "app_name": "CalmWatch: Stress Monitor",
+      "iap": "永久会员",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-07",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6820154663",
+      "app_name": "Cancel Subscriptions - Subli",
+      "iap": "Permanent",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-07",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6821620482",
+      "app_name": "PicPost EZ",
+      "iap": "Lifetime Album Access",
       "price": "$0.00",
       "permanent_free": true,
       "since": "2026-11-07",
