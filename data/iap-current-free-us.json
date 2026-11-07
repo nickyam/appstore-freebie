@@ -1,7 +1,7 @@
 {
   "updated": "2026-11-07",
   "region": "us",
-  "count": 277,
+  "count": 273,
   "items": [
     {
       "app_id": "6756211777",
@@ -2092,15 +2092,6 @@
       "app_price": "$4.99"
     },
     {
-      "app_id": "6815070161",
-      "app_name": "Goodnight Kitty: Sleep Routine",
-      "iap": "Pro Lifetime",
-      "price": "$0.00",
-      "permanent_free": true,
-      "since": "2026-11-07",
-      "app_price": "Free"
-    },
-    {
       "app_id": "6775225793",
       "app_name": "DutyReady",
       "iap": "Pro Lifetime",
@@ -2281,15 +2272,6 @@
       "app_price": "Free"
     },
     {
-      "app_id": "6739977698",
-      "app_name": "Everyday Workout",
-      "iap": "Lifetime Premium",
-      "price": "$0.00",
-      "permanent_free": true,
-      "since": "2026-11-07",
-      "app_price": "Free"
-    },
-    {
       "app_id": "6744615017",
       "app_name": "Frame Builder 2 Photo Framing",
       "iap": "Extra wood frames library",
@@ -2403,24 +2385,6 @@
       "iap": "完整版",
       "price": "$0.00",
       "permanent_free": false,
-      "since": "2026-11-07",
-      "app_price": "Free"
-    },
-    {
-      "app_id": "6755518413",
-      "app_name": "Qard: vCard QR Code Contact",
-      "iap": "Qard Lifetime",
-      "price": "$0.00",
-      "permanent_free": true,
-      "since": "2026-11-07",
-      "app_price": "Free"
-    },
-    {
-      "app_id": "6758016252",
-      "app_name": "How Are You Today",
-      "iap": "Unlock Full Access",
-      "price": "$0.00",
-      "permanent_free": true,
       "since": "2026-11-07",
       "app_price": "Free"
     },
