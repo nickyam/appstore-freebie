@@ -5801,10 +5801,10 @@
       "first_date": "2026-10-22",
       "first_price": "¥68.00",
       "last_date": "2026-11-07",
-      "last_price": "¥323.00",
-      "last_change_date": "2026-10-29",
+      "last_price": "¥148.00",
+      "last_change_date": "2026-11-07",
       "ever_paid": true,
-      "last_paid_date": "2026-10-29",
+      "last_paid_date": "2026-11-07",
       "free_since": null,
       "changes": {
         "2026-10-22": "¥148.00",
@@ -5814,7 +5814,8 @@
         "2026-10-26": "¥148.00",
         "2026-10-27": "¥148.00",
         "2026-10-28": "¥148.00",
-        "2026-10-29": "¥323.00"
+        "2026-10-29": "¥323.00",
+        "2026-11-07": "¥148.00"
       }
     },
     "1040093707::高级扫描仪和 PDF 编辑器": {
@@ -101158,7 +101159,7 @@
       "region": "cn",
       "first_date": "2026-10-23",
       "first_price": "¥1,148.00",
-      "last_date": "2026-11-06",
+      "last_date": "2026-11-07",
       "last_price": "¥1,148.00",
       "last_change_date": "2026-10-23",
       "ever_paid": true,
@@ -360468,7 +360469,7 @@
       "region": "cn",
       "first_date": "2026-10-28",
       "first_price": "¥10.00",
-      "last_date": "2026-11-06",
+      "last_date": "2026-11-07",
       "last_price": "¥10.00",
       "last_change_date": "2026-10-28",
       "ever_paid": true,
@@ -363521,14 +363522,15 @@
       "region": "cn",
       "first_date": "2026-10-29",
       "first_price": "¥298.00",
-      "last_date": "2026-10-29",
-      "last_price": "¥298.00",
-      "last_change_date": "2026-10-29",
+      "last_date": "2026-11-07",
+      "last_price": "¥68.00",
+      "last_change_date": "2026-11-07",
       "ever_paid": true,
-      "last_paid_date": "2026-10-29",
+      "last_paid_date": "2026-11-07",
       "free_since": null,
       "changes": {
-        "2026-10-29": "¥298.00"
+        "2026-10-29": "¥298.00",
+        "2026-11-07": "¥68.00"
       }
     },
     "1040149161::One-time": {
@@ -392295,7 +392297,7 @@
       "region": "cn",
       "first_date": "2026-11-03",
       "first_price": "¥388.00",
-      "last_date": "2026-11-05",
+      "last_date": "2026-11-07",
       "last_price": "¥388.00",
       "last_change_date": "2026-11-03",
       "ever_paid": true,
@@ -392312,7 +392314,7 @@
       "region": "cn",
       "first_date": "2026-11-03",
       "first_price": "¥478.00",
-      "last_date": "2026-11-05",
+      "last_date": "2026-11-07",
       "last_price": "¥478.00",
       "last_change_date": "2026-11-03",
       "ever_paid": true,
@@ -392329,7 +392331,7 @@
       "region": "cn",
       "first_date": "2026-11-03",
       "first_price": "¥433.00",
-      "last_date": "2026-11-05",
+      "last_date": "2026-11-07",
       "last_price": "¥433.00",
       "last_change_date": "2026-11-03",
       "ever_paid": true,
@@ -392346,7 +392348,7 @@
       "region": "cn",
       "first_date": "2026-11-03",
       "first_price": "¥258.00",
-      "last_date": "2026-11-05",
+      "last_date": "2026-11-07",
       "last_price": "¥258.00",
       "last_change_date": "2026-11-03",
       "ever_paid": true,
@@ -392363,7 +392365,7 @@
       "region": "cn",
       "first_date": "2026-11-03",
       "first_price": "¥343.00",
-      "last_date": "2026-11-05",
+      "last_date": "2026-11-07",
       "last_price": "¥343.00",
       "last_change_date": "2026-11-03",
       "ever_paid": true,
@@ -392380,7 +392382,7 @@
       "region": "cn",
       "first_date": "2026-11-03",
       "first_price": "¥299.00",
-      "last_date": "2026-11-05",
+      "last_date": "2026-11-07",
       "last_price": "¥299.00",
       "last_change_date": "2026-11-03",
       "ever_paid": true,
@@ -392397,7 +392399,7 @@
       "region": "cn",
       "first_date": "2026-11-03",
       "first_price": "¥132.00",
-      "last_date": "2026-11-05",
+      "last_date": "2026-11-07",
       "last_price": "¥132.00",
       "last_change_date": "2026-11-03",
       "ever_paid": true,
@@ -392414,7 +392416,7 @@
       "region": "cn",
       "first_date": "2026-11-03",
       "first_price": "¥219.00",
-      "last_date": "2026-11-05",
+      "last_date": "2026-11-07",
       "last_price": "¥219.00",
       "last_change_date": "2026-11-03",
       "ever_paid": true,
@@ -392431,7 +392433,7 @@
       "region": "cn",
       "first_date": "2026-11-03",
       "first_price": "¥143.00",
-      "last_date": "2026-11-05",
+      "last_date": "2026-11-07",
       "last_price": "¥143.00",
       "last_change_date": "2026-11-03",
       "ever_paid": true,
@@ -400327,7 +400329,7 @@
       "region": "cn",
       "first_date": "2026-11-05",
       "first_price": "¥86.00",
-      "last_date": "2026-11-05",
+      "last_date": "2026-11-07",
       "last_price": "¥86.00",
       "last_change_date": "2026-11-05",
       "ever_paid": true,
@@ -403799,7 +403801,7 @@
       "region": "cn",
       "first_date": "2026-11-05",
       "first_price": "¥89.00",
-      "last_date": "2026-11-05",
+      "last_date": "2026-11-07",
       "last_price": "¥89.00",
       "last_change_date": "2026-11-05",
       "ever_paid": true,
@@ -408015,7 +408017,7 @@
       "region": "cn",
       "first_date": "2026-11-06",
       "first_price": "¥298.00",
-      "last_date": "2026-11-06",
+      "last_date": "2026-11-07",
       "last_price": "¥298.00",
       "last_change_date": "2026-11-06",
       "ever_paid": true,
@@ -408032,7 +408034,7 @@
       "region": "cn",
       "first_date": "2026-11-06",
       "first_price": "¥128.00",
-      "last_date": "2026-11-06",
+      "last_date": "2026-11-07",
       "last_price": "¥128.00",
       "last_change_date": "2026-11-06",
       "ever_paid": true,
@@ -408049,7 +408051,7 @@
       "region": "cn",
       "first_date": "2026-11-06",
       "first_price": "¥98.00",
-      "last_date": "2026-11-06",
+      "last_date": "2026-11-07",
       "last_price": "¥98.00",
       "last_change_date": "2026-11-06",
       "ever_paid": true,
@@ -408900,7 +408902,7 @@
       "region": "cn",
       "first_date": "2026-11-06",
       "first_price": "¥18.00",
-      "last_date": "2026-11-06",
+      "last_date": "2026-11-07",
       "last_price": "¥18.00",
       "last_change_date": "2026-11-06",
       "ever_paid": true,
@@ -413339,6 +413341,295 @@
       "free_since": null,
       "changes": {
         "2026-11-07": "¥2,598.00"
+      }
+    },
+    "1149994032::背景": {
+      "app_id": "1149994032",
+      "app_name": "Facetune：集合专业美颜相机和修视频软件的修图APP",
+      "name": "背景",
+      "region": "cn",
+      "first_date": "2026-11-07",
+      "first_price": "¥15.00",
+      "last_date": "2026-11-07",
+      "last_price": "¥15.00",
+      "last_change_date": "2026-11-07",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-07",
+      "free_since": null,
+      "changes": {
+        "2026-11-07": "¥15.00"
+      }
+    },
+    "1149994032::散焦": {
+      "app_id": "1149994032",
+      "app_name": "Facetune：集合专业美颜相机和修视频软件的修图APP",
+      "name": "散焦",
+      "region": "cn",
+      "first_date": "2026-11-07",
+      "first_price": "¥15.00",
+      "last_date": "2026-11-07",
+      "last_price": "¥15.00",
+      "last_change_date": "2026-11-07",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-07",
+      "free_since": null,
+      "changes": {
+        "2026-11-07": "¥15.00"
+      }
+    },
+    "1149994032::面部": {
+      "app_id": "1149994032",
+      "app_name": "Facetune：集合专业美颜相机和修视频软件的修图APP",
+      "name": "面部",
+      "region": "cn",
+      "first_date": "2026-11-07",
+      "first_price": "¥22.00",
+      "last_date": "2026-11-07",
+      "last_price": "¥22.00",
+      "last_change_date": "2026-11-07",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-07",
+      "free_since": null,
+      "changes": {
+        "2026-11-07": "¥22.00"
+      }
+    },
+    "1149994032::Berlin": {
+      "app_id": "1149994032",
+      "app_name": "Facetune：集合专业美颜相机和修视频软件的修图APP",
+      "name": "Berlin",
+      "region": "cn",
+      "first_date": "2026-11-07",
+      "first_price": "¥8.00",
+      "last_date": "2026-11-07",
+      "last_price": "¥8.00",
+      "last_change_date": "2026-11-07",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-07",
+      "free_since": null,
+      "changes": {
+        "2026-11-07": "¥8.00"
+      }
+    },
+    "1149994032::Dawson": {
+      "app_id": "1149994032",
+      "app_name": "Facetune：集合专业美颜相机和修视频软件的修图APP",
+      "name": "Dawson",
+      "region": "cn",
+      "first_date": "2026-11-07",
+      "first_price": "¥8.00",
+      "last_date": "2026-11-07",
+      "last_price": "¥8.00",
+      "last_change_date": "2026-11-07",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-07",
+      "free_since": null,
+      "changes": {
+        "2026-11-07": "¥8.00"
+      }
+    },
+    "1149994032::Delilah": {
+      "app_id": "1149994032",
+      "app_name": "Facetune：集合专业美颜相机和修视频软件的修图APP",
+      "name": "Delilah",
+      "region": "cn",
+      "first_date": "2026-11-07",
+      "first_price": "¥8.00",
+      "last_date": "2026-11-07",
+      "last_price": "¥8.00",
+      "last_change_date": "2026-11-07",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-07",
+      "free_since": null,
+      "changes": {
+        "2026-11-07": "¥8.00"
+      }
+    },
+    "1149994032::Faze": {
+      "app_id": "1149994032",
+      "app_name": "Facetune：集合专业美颜相机和修视频软件的修图APP",
+      "name": "Faze",
+      "region": "cn",
+      "first_date": "2026-11-07",
+      "first_price": "¥8.00",
+      "last_date": "2026-11-07",
+      "last_price": "¥8.00",
+      "last_change_date": "2026-11-07",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-07",
+      "free_since": null,
+      "changes": {
+        "2026-11-07": "¥8.00"
+      }
+    },
+    "1149994032::Gossip": {
+      "app_id": "1149994032",
+      "app_name": "Facetune：集合专业美颜相机和修视频软件的修图APP",
+      "name": "Gossip",
+      "region": "cn",
+      "first_date": "2026-11-07",
+      "first_price": "¥8.00",
+      "last_date": "2026-11-07",
+      "last_price": "¥8.00",
+      "last_change_date": "2026-11-07",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-07",
+      "free_since": null,
+      "changes": {
+        "2026-11-07": "¥8.00"
+      }
+    },
+    "1149994032::Grace": {
+      "app_id": "1149994032",
+      "app_name": "Facetune：集合专业美颜相机和修视频软件的修图APP",
+      "name": "Grace",
+      "region": "cn",
+      "first_date": "2026-11-07",
+      "first_price": "¥8.00",
+      "last_date": "2026-11-07",
+      "last_price": "¥8.00",
+      "last_change_date": "2026-11-07",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-07",
+      "free_since": null,
+      "changes": {
+        "2026-11-07": "¥8.00"
+      }
+    },
+    "1149994032::Hero": {
+      "app_id": "1149994032",
+      "app_name": "Facetune：集合专业美颜相机和修视频软件的修图APP",
+      "name": "Hero",
+      "region": "cn",
+      "first_date": "2026-11-07",
+      "first_price": "¥8.00",
+      "last_date": "2026-11-07",
+      "last_price": "¥8.00",
+      "last_change_date": "2026-11-07",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-07",
+      "free_since": null,
+      "changes": {
+        "2026-11-07": "¥8.00"
+      }
+    },
+    "698570469::充值3": {
+      "app_id": "698570469",
+      "app_name": "不背单词-四六级考研等英语单词学习",
+      "name": "充值3",
+      "region": "cn",
+      "first_date": "2026-11-07",
+      "first_price": "¥3.00",
+      "last_date": "2026-11-07",
+      "last_price": "¥3.00",
+      "last_change_date": "2026-11-07",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-07",
+      "free_since": null,
+      "changes": {
+        "2026-11-07": "¥3.00"
+      }
+    },
+    "1040093707::特价-75％OFF": {
+      "app_id": "1040093707",
+      "app_name": "爱扫描: PDF扫描仪&光学字符识别",
+      "name": "特价-75％OFF",
+      "region": "cn",
+      "first_date": "2026-11-07",
+      "first_price": "¥133.00",
+      "last_date": "2026-11-07",
+      "last_price": "¥133.00",
+      "last_change_date": "2026-11-07",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-07",
+      "free_since": null,
+      "changes": {
+        "2026-11-07": "¥133.00"
+      }
+    },
+    "532464577::商业周刊中文版（专题片）": {
+      "app_id": "532464577",
+      "app_name": "iBloomberg i商周",
+      "name": "商业周刊中文版（专题片）",
+      "region": "cn",
+      "first_date": "2026-11-07",
+      "first_price": "¥168.00",
+      "last_date": "2026-11-07",
+      "last_price": "¥168.00",
+      "last_change_date": "2026-11-07",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-07",
+      "free_since": null,
+      "changes": {
+        "2026-11-07": "¥168.00"
+      }
+    },
+    "532464577::商周币68": {
+      "app_id": "532464577",
+      "app_name": "iBloomberg i商周",
+      "name": "商周币68",
+      "region": "cn",
+      "first_date": "2026-11-07",
+      "first_price": "¥68.00",
+      "last_date": "2026-11-07",
+      "last_price": "¥68.00",
+      "last_change_date": "2026-11-07",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-07",
+      "free_since": null,
+      "changes": {
+        "2026-11-07": "¥68.00"
+      }
+    },
+    "532464577::商周币108": {
+      "app_id": "532464577",
+      "app_name": "iBloomberg i商周",
+      "name": "商周币108",
+      "region": "cn",
+      "first_date": "2026-11-07",
+      "first_price": "¥98.00",
+      "last_date": "2026-11-07",
+      "last_price": "¥98.00",
+      "last_change_date": "2026-11-07",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-07",
+      "free_since": null,
+      "changes": {
+        "2026-11-07": "¥98.00"
+      }
+    },
+    "532464577::商周币198": {
+      "app_id": "532464577",
+      "app_name": "iBloomberg i商周",
+      "name": "商周币198",
+      "region": "cn",
+      "first_date": "2026-11-07",
+      "first_price": "¥198.00",
+      "last_date": "2026-11-07",
+      "last_price": "¥198.00",
+      "last_change_date": "2026-11-07",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-07",
+      "free_since": null,
+      "changes": {
+        "2026-11-07": "¥198.00"
+      }
+    },
+    "284882215::29 Stars": {
+      "app_id": "284882215",
+      "app_name": "Facebook",
+      "name": "29 Stars",
+      "region": "cn",
+      "first_date": "2026-11-07",
+      "first_price": "¥3.00",
+      "last_date": "2026-11-07",
+      "last_price": "¥3.00",
+      "last_change_date": "2026-11-07",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-07",
+      "free_since": null,
+      "changes": {
+        "2026-11-07": "¥3.00"
       }
     }
   }

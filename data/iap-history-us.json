@@ -7,8 +7,8 @@
     "seed_added": 3,
     "seed_total": 20690,
     "pool_size": 2000,
-    "processed": 1998,
-    "skipped": 2,
+    "processed": 1999,
+    "skipped": 1,
     "seed_last_ok": "2026-11-06T22:00:38Z",
     "seed_last_error": ""
   },
@@ -49115,7 +49115,7 @@
       "first_date": "2026-10-23",
       "first_price": "$9.99",
       "last_date": "2026-11-07",
-      "last_price": "$9.99",
+      "last_price": "$12.99",
       "last_change_date": "2026-11-07",
       "ever_paid": true,
       "last_paid_date": "2026-11-07",
@@ -49127,7 +49127,7 @@
         "2026-10-26": "$12.99",
         "2026-10-27": "$12.99",
         "2026-10-28": "$12.99",
-        "2026-11-07": "$9.99"
+        "2026-11-07": "$12.99"
       }
     },
     "6475712704::GolfCam Pro Annual": {
@@ -49138,7 +49138,7 @@
       "first_date": "2026-10-23",
       "first_price": "$69.99",
       "last_date": "2026-11-07",
-      "last_price": "$69.99",
+      "last_price": "$107.99",
       "last_change_date": "2026-11-07",
       "ever_paid": true,
       "last_paid_date": "2026-11-07",
@@ -49151,7 +49151,7 @@
         "2026-10-27": "$79.99",
         "2026-10-28": "$79.99",
         "2026-10-29": "$107.99",
-        "2026-11-07": "$69.99"
+        "2026-11-07": "$107.99"
       }
     },
     "6475712704::GolfCam Pro Weekly": {
@@ -49179,14 +49179,14 @@
       "first_date": "2026-10-23",
       "first_price": "$149.99",
       "last_date": "2026-11-07",
-      "last_price": "$229.99",
+      "last_price": "$149.99",
       "last_change_date": "2026-11-07",
       "ever_paid": true,
       "last_paid_date": "2026-11-07",
       "free_since": null,
       "changes": {
         "2026-10-23": "$149.99",
-        "2026-11-07": "$229.99"
+        "2026-11-07": "$149.99"
       }
     },
     "1554633611::60 Diamonds": {
@@ -56493,7 +56493,7 @@
       "region": "us",
       "first_date": "2026-10-23",
       "first_price": "$3.99",
-      "last_date": "2026-10-27",
+      "last_date": "2026-11-07",
       "last_price": "$3.99",
       "last_change_date": "2026-10-23",
       "ever_paid": true,
@@ -137006,7 +137006,7 @@
       "first_date": "2026-10-27",
       "first_price": "$6.99",
       "last_date": "2026-11-07",
-      "last_price": "$49.99",
+      "last_price": "$19.99",
       "last_change_date": "2026-11-07",
       "ever_paid": true,
       "last_paid_date": "2026-11-07",
@@ -137015,7 +137015,7 @@
         "2026-10-27": "$9.99",
         "2026-10-28": "$9.99",
         "2026-10-29": "$19.99",
-        "2026-11-07": "$49.99"
+        "2026-11-07": "$19.99"
       }
     },
     "1510917465::purchase diamonds": {
@@ -146934,7 +146934,7 @@
       "first_date": "2026-10-27",
       "first_price": "$5.99",
       "last_date": "2026-11-07",
-      "last_price": "$5.99",
+      "last_price": "$7.99",
       "last_change_date": "2026-11-07",
       "ever_paid": true,
       "last_paid_date": "2026-11-07",
@@ -146945,7 +146945,7 @@
         "2026-11-04": "$7.99",
         "2026-11-05": "$5.99",
         "2026-11-06": "$5.99",
-        "2026-11-07": "$5.99"
+        "2026-11-07": "$7.99"
       }
     },
     "1454213029::Yearly Premium": {
@@ -149382,7 +149382,7 @@
       "first_date": "2026-10-27",
       "first_price": "$6.99",
       "last_date": "2026-11-07",
-      "last_price": "$12.99",
+      "last_price": "$29.99",
       "last_change_date": "2026-11-07",
       "ever_paid": true,
       "last_paid_date": "2026-11-07",
@@ -149392,7 +149392,7 @@
         "2026-10-28": "$12.99",
         "2026-10-29": "$29.99",
         "2026-11-04": "$29.99",
-        "2026-11-07": "$12.99"
+        "2026-11-07": "$29.99"
       }
     },
     "6757347283::Stella Unlimited": {
@@ -149403,7 +149403,7 @@
       "first_date": "2026-10-27",
       "first_price": "$7.99",
       "last_date": "2026-11-07",
-      "last_price": "$89.99",
+      "last_price": "$8.99",
       "last_change_date": "2026-11-07",
       "ever_paid": true,
       "last_paid_date": "2026-11-07",
@@ -149413,7 +149413,7 @@
         "2026-10-28": "$6.99",
         "2026-10-29": "$8.99",
         "2026-11-04": "$8.99",
-        "2026-11-07": "$89.99"
+        "2026-11-07": "$8.99"
       }
     },
     "6499510249::Monthly": {
@@ -188272,7 +188272,7 @@
       "region": "us",
       "first_date": "2026-10-27",
       "first_price": "$49.99",
-      "last_date": "2026-11-06",
+      "last_date": "2026-11-07",
       "last_price": "$49.99",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
@@ -195489,15 +195489,16 @@
       "first_date": "2026-10-27",
       "first_price": "$14.99",
       "last_date": "2026-11-07",
-      "last_price": "$14.99",
-      "last_change_date": "2026-10-29",
+      "last_price": "$19.99",
+      "last_change_date": "2026-11-07",
       "ever_paid": true,
-      "last_paid_date": "2026-10-29",
+      "last_paid_date": "2026-11-07",
       "free_since": null,
       "changes": {
         "2026-10-27": "$9.99",
         "2026-10-28": "$9.99",
-        "2026-10-29": "$14.99"
+        "2026-10-29": "$14.99",
+        "2026-11-07": "$19.99"
       }
     },
     "6744358897::Llearn Plus - yearly": {
@@ -195508,14 +195509,15 @@
       "first_date": "2026-10-27",
       "first_price": "$39.99",
       "last_date": "2026-11-07",
-      "last_price": "$59.99",
-      "last_change_date": "2026-10-28",
+      "last_price": "$200.00",
+      "last_change_date": "2026-11-07",
       "ever_paid": true,
-      "last_paid_date": "2026-10-28",
+      "last_paid_date": "2026-11-07",
       "free_since": null,
       "changes": {
         "2026-10-27": "$59.99",
-        "2026-10-28": "$59.99"
+        "2026-10-28": "$59.99",
+        "2026-11-07": "$200.00"
       }
     },
     "1542571008::Quarterly - 3-Day Free Trial": {
@@ -196757,7 +196759,7 @@
       "first_date": "2026-10-27",
       "first_price": "$9.99",
       "last_date": "2026-11-07",
-      "last_price": "$39.99",
+      "last_price": "$59.99",
       "last_change_date": "2026-11-07",
       "ever_paid": true,
       "last_paid_date": "2026-11-07",
@@ -196770,7 +196772,7 @@
         "2026-10-31": "$59.99",
         "2026-11-01": "$59.99",
         "2026-11-06": "$59.99",
-        "2026-11-07": "$39.99"
+        "2026-11-07": "$59.99"
       }
     },
     "1508098273::Keiki World - 7 Days Trial": {
@@ -219254,7 +219256,7 @@
       "first_date": "2026-10-27",
       "first_price": "$22.49",
       "last_date": "2026-11-07",
-      "last_price": "$199.99",
+      "last_price": "$149.99",
       "last_change_date": "2026-11-07",
       "ever_paid": true,
       "last_paid_date": "2026-11-07",
@@ -219266,7 +219268,7 @@
         "2026-11-01": "$199.99",
         "2026-11-02": "$199.99",
         "2026-11-04": "$149.99",
-        "2026-11-07": "$199.99"
+        "2026-11-07": "$149.99"
       }
     },
     "348177521::Complete+DermExpert (1 Month)": {
@@ -244798,7 +244800,7 @@
       "first_date": "2026-10-27",
       "first_price": "$5.99",
       "last_date": "2026-11-07",
-      "last_price": "$59.99",
+      "last_price": "$21.99",
       "last_change_date": "2026-11-07",
       "ever_paid": true,
       "last_paid_date": "2026-11-07",
@@ -244807,7 +244809,7 @@
         "2026-10-27": "$6.99",
         "2026-10-28": "$6.99",
         "2026-10-29": "$21.99",
-        "2026-11-07": "$59.99"
+        "2026-11-07": "$21.99"
       }
     },
     "1480383173::Premium membership (1 year)": {
@@ -277856,14 +277858,14 @@
       "first_date": "2026-10-27",
       "first_price": "$69.99",
       "last_date": "2026-11-07",
-      "last_price": "$89.99",
+      "last_price": "$69.99",
       "last_change_date": "2026-11-07",
       "ever_paid": true,
       "last_paid_date": "2026-11-07",
       "free_since": null,
       "changes": {
         "2026-10-27": "$69.99",
-        "2026-11-07": "$89.99"
+        "2026-11-07": "$69.99"
       }
     },
     "1023474334::ProJo digital access": {
@@ -327589,7 +327591,7 @@
       "region": "us",
       "first_date": "2026-10-30",
       "first_price": "$99.99",
-      "last_date": "2026-10-31",
+      "last_date": "2026-11-07",
       "last_price": "$99.99",
       "last_change_date": "2026-10-30",
       "ever_paid": true,
@@ -335127,7 +335129,7 @@
       "region": "us",
       "first_date": "2026-10-31",
       "first_price": "$39.99",
-      "last_date": "2026-11-03",
+      "last_date": "2026-11-07",
       "last_price": "$39.99",
       "last_change_date": "2026-10-31",
       "ever_paid": true,
@@ -340847,7 +340849,7 @@
       "region": "us",
       "first_date": "2026-11-01",
       "first_price": "$14.49",
-      "last_date": "2026-11-01",
+      "last_date": "2026-11-07",
       "last_price": "$14.49",
       "last_change_date": "2026-11-01",
       "ever_paid": true,
@@ -341224,14 +341226,15 @@
       "first_date": "2026-11-01",
       "first_price": "$19.99",
       "last_date": "2026-11-07",
-      "last_price": "$17.99",
-      "last_change_date": "2026-11-05",
+      "last_price": "$9.99",
+      "last_change_date": "2026-11-07",
       "ever_paid": true,
-      "last_paid_date": "2026-11-05",
+      "last_paid_date": "2026-11-07",
       "free_since": null,
       "changes": {
         "2026-11-01": "$19.99",
-        "2026-11-05": "$17.99"
+        "2026-11-05": "$17.99",
+        "2026-11-07": "$9.99"
       }
     },
     "6825826419::SceneTalk Pro Yearly": {
@@ -341904,7 +341907,7 @@
       "region": "us",
       "first_date": "2026-11-02",
       "first_price": "$0.49",
-      "last_date": "2026-11-05",
+      "last_date": "2026-11-07",
       "last_price": "$0.49",
       "last_change_date": "2026-11-02",
       "ever_paid": true,
@@ -349154,7 +349157,7 @@
       "region": "us",
       "first_date": "2026-11-04",
       "first_price": "$19.99",
-      "last_date": "2026-11-05",
+      "last_date": "2026-11-07",
       "last_price": "$19.99",
       "last_change_date": "2026-11-04",
       "ever_paid": true,
@@ -352781,13 +352784,14 @@
       "first_date": "2026-11-05",
       "first_price": "$0.00",
       "last_date": "2026-11-07",
-      "last_price": "$0.00",
-      "last_change_date": "2026-11-05",
-      "ever_paid": false,
-      "last_paid_date": null,
+      "last_price": "$9.99",
+      "last_change_date": "2026-11-07",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-07",
       "free_since": null,
       "changes": {
-        "2026-11-05": "$0.00"
+        "2026-11-05": "$0.00",
+        "2026-11-07": "$9.99"
       }
     },
     "6775225793::Pro Annual": {
@@ -365324,6 +365328,278 @@
       "free_since": null,
       "changes": {
         "2026-11-07": "$34.99"
+      }
+    },
+    "1307203072::NC State CE Requirements": {
+      "app_id": "1307203072",
+      "app_name": "Nurse.com",
+      "name": "NC State CE Requirements",
+      "region": "us",
+      "first_date": "2026-11-07",
+      "first_price": "$49.99",
+      "last_date": "2026-11-07",
+      "last_price": "$49.99",
+      "last_change_date": "2026-11-07",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-07",
+      "free_since": null,
+      "changes": {
+        "2026-11-07": "$49.99"
+      }
+    },
+    "650684932::Toyota 2018 Enhanced": {
+      "app_id": "650684932",
+      "app_name": "OBD Fusion",
+      "name": "Toyota 2018 Enhanced",
+      "region": "us",
+      "first_date": "2026-11-07",
+      "first_price": "$14.99",
+      "last_date": "2026-11-07",
+      "last_price": "$14.99",
+      "last_change_date": "2026-11-07",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-07",
+      "free_since": null,
+      "changes": {
+        "2026-11-07": "$14.99"
+      }
+    },
+    "6599842047::Lifetime": {
+      "app_id": "6599842047",
+      "app_name": "Music Recognition- Song Finder",
+      "name": "Lifetime",
+      "region": "us",
+      "first_date": "2026-11-07",
+      "first_price": "$99.99",
+      "last_date": "2026-11-07",
+      "last_price": "$99.99",
+      "last_change_date": "2026-11-07",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-07",
+      "free_since": null,
+      "changes": {
+        "2026-11-07": "$99.99"
+      }
+    },
+    "6744358897::Llearn Plus - RMyearly": {
+      "app_id": "6744358897",
+      "app_name": "LangLearn: AI English Tutor",
+      "name": "Llearn Plus - RMyearly",
+      "region": "us",
+      "first_date": "2026-11-07",
+      "first_price": "$69.99",
+      "last_date": "2026-11-07",
+      "last_price": "$69.99",
+      "last_change_date": "2026-11-07",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-07",
+      "free_since": null,
+      "changes": {
+        "2026-11-07": "$69.99"
+      }
+    },
+    "6744358897::Llearn Plus - RM2yearly": {
+      "app_id": "6744358897",
+      "app_name": "LangLearn: AI English Tutor",
+      "name": "Llearn Plus - RM2yearly",
+      "region": "us",
+      "first_date": "2026-11-07",
+      "first_price": "$49.99",
+      "last_date": "2026-11-07",
+      "last_price": "$49.99",
+      "last_change_date": "2026-11-07",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-07",
+      "free_since": null,
+      "changes": {
+        "2026-11-07": "$49.99"
+      }
+    },
+    "6744358897::Llearn Plus - Lifetime": {
+      "app_id": "6744358897",
+      "app_name": "LangLearn: AI English Tutor",
+      "name": "Llearn Plus - Lifetime",
+      "region": "us",
+      "first_date": "2026-11-07",
+      "first_price": "$299.99",
+      "last_date": "2026-11-07",
+      "last_price": "$299.99",
+      "last_change_date": "2026-11-07",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-07",
+      "free_since": null,
+      "changes": {
+        "2026-11-07": "$299.99"
+      }
+    },
+    "429886769::Issue 111 (pp:1154356)": {
+      "app_id": "429886769",
+      "app_name": "Woodworking Crafts Magazine",
+      "name": "Issue 111 (pp:1154356)",
+      "region": "us",
+      "first_date": "2026-11-07",
+      "first_price": "$5.99",
+      "last_date": "2026-11-07",
+      "last_price": "$5.99",
+      "last_change_date": "2026-11-07",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-07",
+      "free_since": null,
+      "changes": {
+        "2026-11-07": "$5.99"
+      }
+    },
+    "429886769::Issue 105 (pp:1154368)": {
+      "app_id": "429886769",
+      "app_name": "Woodworking Crafts Magazine",
+      "name": "Issue 105 (pp:1154368)",
+      "region": "us",
+      "first_date": "2026-11-07",
+      "first_price": "$5.99",
+      "last_date": "2026-11-07",
+      "last_price": "$5.99",
+      "last_change_date": "2026-11-07",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-07",
+      "free_since": null,
+      "changes": {
+        "2026-11-07": "$5.99"
+      }
+    },
+    "429886769::Issue 109 (pp:1154360)": {
+      "app_id": "429886769",
+      "app_name": "Woodworking Crafts Magazine",
+      "name": "Issue 109 (pp:1154360)",
+      "region": "us",
+      "first_date": "2026-11-07",
+      "first_price": "$5.99",
+      "last_date": "2026-11-07",
+      "last_price": "$5.99",
+      "last_change_date": "2026-11-07",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-07",
+      "free_since": null,
+      "changes": {
+        "2026-11-07": "$5.99"
+      }
+    },
+    "429886769::Issue 110 (pp:1154358)": {
+      "app_id": "429886769",
+      "app_name": "Woodworking Crafts Magazine",
+      "name": "Issue 110 (pp:1154358)",
+      "region": "us",
+      "first_date": "2026-11-07",
+      "first_price": "$5.99",
+      "last_date": "2026-11-07",
+      "last_price": "$5.99",
+      "last_change_date": "2026-11-07",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-07",
+      "free_since": null,
+      "changes": {
+        "2026-11-07": "$5.99"
+      }
+    },
+    "429886769::Issue 107 (pp:1154364)": {
+      "app_id": "429886769",
+      "app_name": "Woodworking Crafts Magazine",
+      "name": "Issue 107 (pp:1154364)",
+      "region": "us",
+      "first_date": "2026-11-07",
+      "first_price": "$5.99",
+      "last_date": "2026-11-07",
+      "last_price": "$5.99",
+      "last_change_date": "2026-11-07",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-07",
+      "free_since": null,
+      "changes": {
+        "2026-11-07": "$5.99"
+      }
+    },
+    "429886769::Issue 108 (pp:1154362)": {
+      "app_id": "429886769",
+      "app_name": "Woodworking Crafts Magazine",
+      "name": "Issue 108 (pp:1154362)",
+      "region": "us",
+      "first_date": "2026-11-07",
+      "first_price": "$5.99",
+      "last_date": "2026-11-07",
+      "last_price": "$5.99",
+      "last_change_date": "2026-11-07",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-07",
+      "free_since": null,
+      "changes": {
+        "2026-11-07": "$5.99"
+      }
+    },
+    "429886769::Issue 106 (pp:1154366)": {
+      "app_id": "429886769",
+      "app_name": "Woodworking Crafts Magazine",
+      "name": "Issue 106 (pp:1154366)",
+      "region": "us",
+      "first_date": "2026-11-07",
+      "first_price": "$5.99",
+      "last_date": "2026-11-07",
+      "last_price": "$5.99",
+      "last_change_date": "2026-11-07",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-07",
+      "free_since": null,
+      "changes": {
+        "2026-11-07": "$5.99"
+      }
+    },
+    "429886769::Issue 102 (pp:1130765)": {
+      "app_id": "429886769",
+      "app_name": "Woodworking Crafts Magazine",
+      "name": "Issue 102 (pp:1130765)",
+      "region": "us",
+      "first_date": "2026-11-07",
+      "first_price": "$5.99",
+      "last_date": "2026-11-07",
+      "last_price": "$5.99",
+      "last_change_date": "2026-11-07",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-07",
+      "free_since": null,
+      "changes": {
+        "2026-11-07": "$5.99"
+      }
+    },
+    "429886769::Issue 104 (pp:1130761)": {
+      "app_id": "429886769",
+      "app_name": "Woodworking Crafts Magazine",
+      "name": "Issue 104 (pp:1130761)",
+      "region": "us",
+      "first_date": "2026-11-07",
+      "first_price": "$5.99",
+      "last_date": "2026-11-07",
+      "last_price": "$5.99",
+      "last_change_date": "2026-11-07",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-07",
+      "free_since": null,
+      "changes": {
+        "2026-11-07": "$5.99"
+      }
+    },
+    "429886769::Issue 101 (pp:1130767)": {
+      "app_id": "429886769",
+      "app_name": "Woodworking Crafts Magazine",
+      "name": "Issue 101 (pp:1130767)",
+      "region": "us",
+      "first_date": "2026-11-07",
+      "first_price": "$5.99",
+      "last_date": "2026-11-07",
+      "last_price": "$5.99",
+      "last_change_date": "2026-11-07",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-07",
+      "free_since": null,
+      "changes": {
+        "2026-11-07": "$5.99"
       }
     }
   }
