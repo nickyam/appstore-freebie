@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-07",
+  "updated": "2026-11-08",
   "region": "cn",
-  "count": 3,
+  "count": 4,
   "events": [
     {
       "app_id": "6755109910",
@@ -9,7 +9,7 @@
       "iap": "Lifetime Unlock",
       "price": "¥0.00",
       "free_since": "2026-11-05",
-      "days_free": 2,
+      "days_free": 3,
       "last_paid_date": "2026-11-05",
       "last_paid_price": "—",
       "url": "https://apps.apple.com/cn/app/%E8%A7%86%E9%A2%91%E5%8E%8B%E7%BC%A9-shrinkfile/id6755109910?uo=4",
@@ -26,7 +26,7 @@
       "iap": "完整版",
       "price": "¥0.00",
       "free_since": "2026-11-05",
-      "days_free": 2,
+      "days_free": 3,
       "last_paid_date": "2026-11-05",
       "last_paid_price": "—",
       "url": "https://apps.apple.com/cn/app/%E9%97%B9%E9%92%9F-pro-%E6%8E%92%E7%8F%AD%E9%97%B9%E9%92%9F%E4%B8%8E%E8%8A%82%E5%81%87%E6%97%A5%E8%B7%B3%E8%BF%87/id6751812975?uo=4",
@@ -38,12 +38,29 @@
       "page": "app/cn-6751812975.html"
     },
     {
+      "app_id": "6761806680",
+      "app_name": "AlbumX：照片清理、相册整理与幻灯片",
+      "iap": "永久",
+      "price": "¥0.00",
+      "free_since": "2026-11-08",
+      "days_free": 0,
+      "last_paid_date": "2026-11-07",
+      "last_paid_price": "¥8.00",
+      "url": "https://apps.apple.com/cn/app/albumx-%E7%85%A7%E7%89%87%E6%B8%85%E7%90%86-%E7%9B%B8%E5%86%8C%E6%95%B4%E7%90%86%E4%B8%8E%E5%B9%BB%E7%81%AF%E7%89%87/id6761806680?uo=4",
+      "rating": 5,
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/44/ea/1c/44ea1c24-24af-c408-efe7-582008a7fd85/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/512x512bb.jpg",
+      "dev": "Luowater Technology Co. LTD",
+      "genre": "摄影与录像",
+      "app_price": "免费",
+      "page": "app/cn-6761806680.html"
+    },
+    {
       "app_id": "6824980039",
       "app_name": "双摄相机-纵横双拍横竖双录一次成片",
       "iap": "双摄相机永久会员",
       "price": "¥0.00",
       "free_since": "2026-11-05",
-      "days_free": 2,
+      "days_free": 3,
       "last_paid_date": "2026-11-05",
       "last_paid_price": "¥1.00",
       "url": "https://apps.apple.com/cn/app/%E5%8F%8C%E6%91%84%E7%9B%B8%E6%9C%BA-%E7%BA%B5%E6%A8%AA%E5%8F%8C%E6%8B%8D%E6%A8%AA%E7%AB%96%E5%8F%8C%E5%BD%95%E4%B8%80%E6%AC%A1%E6%88%90%E7%89%87/id6824980039?uo=4",
