@@ -4,8 +4,8 @@
     "version": 1,
     "updated": "2026-11-08",
     "pool_size": 2000,
-    "processed": 1995,
-    "skipped": 5,
+    "processed": 1999,
+    "skipped": 1,
     "seeded_from": "apprcn",
     "seed_added": 5,
     "seed_total": 24111,
@@ -119513,7 +119513,7 @@
       "region": "cn",
       "first_date": "2026-10-24",
       "first_price": "¥46.80",
-      "last_date": "2026-11-04",
+      "last_date": "2026-11-08",
       "last_price": "¥46.80",
       "last_change_date": "2026-10-24",
       "ever_paid": true,
@@ -181720,15 +181720,16 @@
       "first_date": "2026-10-27",
       "first_price": "¥3.00",
       "last_date": "2026-11-08",
-      "last_price": "¥18.00",
-      "last_change_date": "2026-10-29",
+      "last_price": "¥3.00",
+      "last_change_date": "2026-11-08",
       "ever_paid": true,
-      "last_paid_date": "2026-10-29",
+      "last_paid_date": "2026-11-08",
       "free_since": null,
       "changes": {
         "2026-10-27": "¥6.00",
         "2026-10-28": "¥6.00",
-        "2026-10-29": "¥18.00"
+        "2026-10-29": "¥18.00",
+        "2026-11-08": "¥3.00"
       }
     },
     "6472696051::小型礼包": {
@@ -209004,7 +209005,7 @@
       "region": "cn",
       "first_date": "2026-10-27",
       "first_price": "¥22.00",
-      "last_date": "2026-10-29",
+      "last_date": "2026-11-08",
       "last_price": "¥22.00",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
@@ -218602,14 +218603,15 @@
       "first_date": "2026-10-27",
       "first_price": "¥298.00",
       "last_date": "2026-11-08",
-      "last_price": "¥339.00",
-      "last_change_date": "2026-10-28",
+      "last_price": "¥298.00",
+      "last_change_date": "2026-11-08",
       "ever_paid": true,
-      "last_paid_date": "2026-10-28",
+      "last_paid_date": "2026-11-08",
       "free_since": null,
       "changes": {
         "2026-10-27": "¥339.00",
-        "2026-10-28": "¥339.00"
+        "2026-10-28": "¥339.00",
+        "2026-11-08": "¥298.00"
       }
     },
     "862280922::6个月VIP会员": {
@@ -240950,13 +240952,14 @@
       "first_date": "2026-10-27",
       "first_price": "¥158.00",
       "last_date": "2026-11-08",
-      "last_price": "¥158.00",
-      "last_change_date": "2026-10-27",
+      "last_price": "¥138.00",
+      "last_change_date": "2026-11-08",
       "ever_paid": true,
-      "last_paid_date": "2026-10-27",
+      "last_paid_date": "2026-11-08",
       "free_since": null,
       "changes": {
-        "2026-10-27": "¥158.00"
+        "2026-10-27": "¥158.00",
+        "2026-11-08": "¥138.00"
       }
     },
     "547159154::指南vip连续包年服务": {
@@ -240984,13 +240987,14 @@
       "first_date": "2026-10-27",
       "first_price": "¥88.00",
       "last_date": "2026-11-08",
-      "last_price": "¥88.00",
-      "last_change_date": "2026-10-27",
+      "last_price": "¥68.00",
+      "last_change_date": "2026-11-08",
       "ever_paid": true,
-      "last_paid_date": "2026-10-27",
+      "last_paid_date": "2026-11-08",
       "free_since": null,
       "changes": {
-        "2026-10-27": "¥88.00"
+        "2026-10-27": "¥88.00",
+        "2026-11-08": "¥68.00"
       }
     },
     "547159154::诊疗知识库月度VIP": {
@@ -308773,13 +308777,14 @@
       "first_date": "2026-10-27",
       "first_price": "¥22.00",
       "last_date": "2026-11-08",
-      "last_price": "¥22.00",
-      "last_change_date": "2026-10-27",
+      "last_price": "¥38.00",
+      "last_change_date": "2026-11-08",
       "ever_paid": true,
-      "last_paid_date": "2026-10-27",
+      "last_paid_date": "2026-11-08",
       "free_since": null,
       "changes": {
-        "2026-10-27": "¥22.00"
+        "2026-10-27": "¥22.00",
+        "2026-11-08": "¥38.00"
       }
     },
     "421254504::Small Smoola Pack": {
@@ -308790,13 +308795,14 @@
       "first_date": "2026-10-27",
       "first_price": "¥38.00",
       "last_date": "2026-11-08",
-      "last_price": "¥38.00",
-      "last_change_date": "2026-10-27",
+      "last_price": "¥68.00",
+      "last_change_date": "2026-11-08",
       "ever_paid": true,
-      "last_paid_date": "2026-10-27",
+      "last_paid_date": "2026-11-08",
       "free_since": null,
       "changes": {
-        "2026-10-27": "¥38.00"
+        "2026-10-27": "¥38.00",
+        "2026-11-08": "¥68.00"
       }
     },
     "421254504::Mini Smoola Pack": {
@@ -324768,7 +324774,7 @@
       "first_date": "2026-10-27",
       "first_price": "¥19.00",
       "last_date": "2026-11-08",
-      "last_price": "¥168.00",
+      "last_price": "¥19.00",
       "last_change_date": "2026-11-08",
       "ever_paid": true,
       "last_paid_date": "2026-11-08",
@@ -324777,7 +324783,7 @@
         "2026-10-27": "¥168.00",
         "2026-10-28": "¥168.00",
         "2026-11-03": "¥19.00",
-        "2026-11-08": "¥168.00"
+        "2026-11-08": "¥19.00"
       }
     },
     "6742864540::测试1元": {
@@ -366807,7 +366813,7 @@
       "region": "cn",
       "first_date": "2026-10-29",
       "first_price": "¥198.00",
-      "last_date": "2026-10-29",
+      "last_date": "2026-11-08",
       "last_price": "¥198.00",
       "last_change_date": "2026-10-29",
       "ever_paid": true,
@@ -366824,7 +366830,7 @@
       "region": "cn",
       "first_date": "2026-10-29",
       "first_price": "¥198.00",
-      "last_date": "2026-10-29",
+      "last_date": "2026-11-08",
       "last_price": "¥198.00",
       "last_change_date": "2026-10-29",
       "ever_paid": true,
@@ -368815,7 +368821,7 @@
       "region": "cn",
       "first_date": "2026-10-29",
       "first_price": "¥98.00",
-      "last_date": "2026-11-07",
+      "last_date": "2026-11-08",
       "last_price": "¥98.00",
       "last_change_date": "2026-10-29",
       "ever_paid": true,
@@ -379332,7 +379338,7 @@
       "region": "cn",
       "first_date": "2026-10-31",
       "first_price": "¥4.00",
-      "last_date": "2026-11-07",
+      "last_date": "2026-11-08",
       "last_price": "¥4.00",
       "last_change_date": "2026-10-31",
       "ever_paid": true,
@@ -384524,7 +384530,7 @@
       "region": "cn",
       "first_date": "2026-10-31",
       "first_price": "¥37.80",
-      "last_date": "2026-10-31",
+      "last_date": "2026-11-08",
       "last_price": "¥37.80",
       "last_change_date": "2026-10-31",
       "ever_paid": true,
@@ -389116,7 +389122,7 @@
       "region": "cn",
       "first_date": "2026-11-02",
       "first_price": "¥6.00",
-      "last_date": "2026-11-05",
+      "last_date": "2026-11-08",
       "last_price": "¥6.00",
       "last_change_date": "2026-11-02",
       "ever_paid": true,
@@ -389133,7 +389139,7 @@
       "region": "cn",
       "first_date": "2026-11-02",
       "first_price": "¥168.00",
-      "last_date": "2026-11-05",
+      "last_date": "2026-11-08",
       "last_price": "¥168.00",
       "last_change_date": "2026-11-02",
       "ever_paid": true,
@@ -414885,13 +414891,13 @@
       "first_date": "2026-11-08",
       "first_price": "¥68.00",
       "last_date": "2026-11-08",
-      "last_price": "¥18.00",
+      "last_price": "¥68.00",
       "last_change_date": "2026-11-08",
       "ever_paid": true,
       "last_paid_date": "2026-11-08",
       "free_since": null,
       "changes": {
-        "2026-11-08": "¥18.00"
+        "2026-11-08": "¥68.00"
       }
     },
     "6754871072::所有图谱 Pro - 年付": {
@@ -415623,6 +415629,125 @@
       "free_since": null,
       "changes": {
         "2026-11-08": "¥698.00"
+      }
+    },
+    "6472696051::特别优惠1-4": {
+      "app_id": "6472696051",
+      "app_name": "浪漫餐厅™-Gossip Harbor",
+      "name": "特别优惠1-4",
+      "region": "cn",
+      "first_date": "2026-11-08",
+      "first_price": "¥18.00",
+      "last_date": "2026-11-08",
+      "last_price": "¥18.00",
+      "last_change_date": "2026-11-08",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-08",
+      "free_since": null,
+      "changes": {
+        "2026-11-08": "¥18.00"
+      }
+    },
+    "421254504::Giant amount of coins": {
+      "app_id": "421254504",
+      "app_name": "Magic Piano (魔术钢琴)",
+      "name": "Giant amount of coins",
+      "region": "cn",
+      "first_date": "2026-11-08",
+      "first_price": "¥298.00",
+      "last_date": "2026-11-08",
+      "last_price": "¥298.00",
+      "last_change_date": "2026-11-08",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-08",
+      "free_since": null,
+      "changes": {
+        "2026-11-08": "¥298.00"
+      }
+    },
+    "421254504::Huge Amount Of Coins": {
+      "app_id": "421254504",
+      "app_name": "Magic Piano (魔术钢琴)",
+      "name": "Huge Amount Of Coins",
+      "region": "cn",
+      "first_date": "2026-11-08",
+      "first_price": "¥15.00",
+      "last_date": "2026-11-08",
+      "last_price": "¥15.00",
+      "last_change_date": "2026-11-08",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-08",
+      "free_since": null,
+      "changes": {
+        "2026-11-08": "¥15.00"
+      }
+    },
+    "421254504::Small Amount Of Coins": {
+      "app_id": "421254504",
+      "app_name": "Magic Piano (魔术钢琴)",
+      "name": "Small Amount Of Coins",
+      "region": "cn",
+      "first_date": "2026-11-08",
+      "first_price": "¥15.00",
+      "last_date": "2026-11-08",
+      "last_price": "¥15.00",
+      "last_change_date": "2026-11-08",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-08",
+      "free_since": null,
+      "changes": {
+        "2026-11-08": "¥15.00"
+      }
+    },
+    "421254504::Tiny Amount Of Coins": {
+      "app_id": "421254504",
+      "app_name": "Magic Piano (魔术钢琴)",
+      "name": "Tiny Amount Of Coins",
+      "region": "cn",
+      "first_date": "2026-11-08",
+      "first_price": "¥8.00",
+      "last_date": "2026-11-08",
+      "last_price": "¥8.00",
+      "last_change_date": "2026-11-08",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-08",
+      "free_since": null,
+      "changes": {
+        "2026-11-08": "¥8.00"
+      }
+    },
+    "1561105019::12元礼包": {
+      "app_id": "1561105019",
+      "app_name": "捕鱼大咖-畅爽3D街机捕鱼游戏",
+      "name": "12元礼包",
+      "region": "cn",
+      "first_date": "2026-11-08",
+      "first_price": "¥12.00",
+      "last_date": "2026-11-08",
+      "last_price": "¥12.00",
+      "last_change_date": "2026-11-08",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-08",
+      "free_since": null,
+      "changes": {
+        "2026-11-08": "¥12.00"
+      }
+    },
+    "547159154::12个月指南vip": {
+      "app_id": "547159154",
+      "app_name": "临床指南-集成MedSeeker AI，循证决策即问即答",
+      "name": "12个月指南vip",
+      "region": "cn",
+      "first_date": "2026-11-08",
+      "first_price": "¥98.00",
+      "last_date": "2026-11-08",
+      "last_price": "¥98.00",
+      "last_change_date": "2026-11-08",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-08",
+      "free_since": null,
+      "changes": {
+        "2026-11-08": "¥98.00"
       }
     }
   }
