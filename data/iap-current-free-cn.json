@@ -1,7 +1,7 @@
 {
   "updated": "2026-11-08",
   "region": "cn",
-  "count": 207,
+  "count": 213,
   "items": [
     {
       "app_id": "6758658840",
@@ -1777,42 +1777,6 @@
       "app_price": "免费"
     },
     {
-      "app_id": "6755109910",
-      "app_name": "视频压缩 - ShrinkFile",
-      "iap": "Lifetime Unlock",
-      "price": "¥0.00",
-      "permanent_free": false,
-      "since": "2026-11-08",
-      "app_price": "免费"
-    },
-    {
-      "app_id": "6751812975",
-      "app_name": "闹钟 Pro - 排班闹钟与节假日跳过",
-      "iap": "完整版",
-      "price": "¥0.00",
-      "permanent_free": false,
-      "since": "2026-11-08",
-      "app_price": "免费"
-    },
-    {
-      "app_id": "6761806680",
-      "app_name": "AlbumX：照片清理、相册整理与幻灯片",
-      "iap": "永久",
-      "price": "¥0.00",
-      "permanent_free": false,
-      "since": "2026-11-08",
-      "app_price": "免费"
-    },
-    {
-      "app_id": "6824980039",
-      "app_name": "双摄相机-纵横双拍横竖双录一次成片",
-      "iap": "双摄相机永久会员",
-      "price": "¥0.00",
-      "permanent_free": false,
-      "since": "2026-11-08",
-      "app_price": "免费"
-    },
-    {
       "app_id": "6823810305",
       "app_name": "Three Routes：跑步 步行 骑行",
       "iap": "Three Routes Pro 终身",
@@ -1861,6 +1825,96 @@
       "app_id": "6821620482",
       "app_name": "PicPost EZ",
       "iap": "Lifetime Album Access",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-08",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "6748850215",
+      "app_name": "CalmWatch-HRV压力监测",
+      "iap": "永久会员",
+      "price": "¥0.00",
+      "permanent_free": false,
+      "since": "2026-11-08",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "6751812975",
+      "app_name": "闹钟 Pro - 排班闹钟与节假日跳过",
+      "iap": "完整版",
+      "price": "¥0.00",
+      "permanent_free": false,
+      "since": "2026-11-08",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "6755109910",
+      "app_name": "视频压缩 - ShrinkFile",
+      "iap": "Lifetime Unlock",
+      "price": "¥0.00",
+      "permanent_free": false,
+      "since": "2026-11-08",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "6761806680",
+      "app_name": "AlbumX：照片清理、相册整理与幻灯片",
+      "iap": "永久",
+      "price": "¥0.00",
+      "permanent_free": false,
+      "since": "2026-11-08",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "6789835309",
+      "app_name": "iCoffeeMan",
+      "iap": "Pro Unlock",
+      "price": "¥0.00",
+      "permanent_free": false,
+      "since": "2026-11-08",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "6824980039",
+      "app_name": "双摄相机-纵横双拍横竖双录一次成片",
+      "iap": "双摄相机永久会员",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-08",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "6802314068",
+      "app_name": "AudioM - 有声书播放器",
+      "iap": "AudioM Pro 永久版",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-08",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "6823791660",
+      "app_name": "I'm Bored - Fun Activity Ideas",
+      "iap": "Lifetime Premium",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-08",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "6824190450",
+      "app_name": "旅手帐 Tabitecho - 日本退税",
+      "iap": "解锁退税功能",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-08",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "6825582033",
+      "app_name": "Shredly - 照片碎纸机",
+      "iap": "终身会员",
       "price": "¥0.00",
       "permanent_free": true,
       "since": "2026-11-08",

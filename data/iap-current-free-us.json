@@ -1,7 +1,7 @@
 {
   "updated": "2026-11-08",
   "region": "us",
-  "count": 271,
+  "count": 274,
   "items": [
     {
       "app_id": "6756211777",
@@ -20,24 +20,6 @@
       "permanent_free": false,
       "since": "2026-11-08",
       "app_price": "Free"
-    },
-    {
-      "app_id": "6708239674",
-      "app_name": "Jump Counter & Rebound",
-      "iap": "AirJump Lifetime Access",
-      "price": "$0.00",
-      "permanent_free": false,
-      "since": "2026-11-08",
-      "app_price": "Free"
-    },
-    {
-      "app_id": "659276619",
-      "app_name": "Fisheye Plus-Retro Photo Video",
-      "iap": "All Packs",
-      "price": "$0.00",
-      "permanent_free": false,
-      "since": "2026-11-08",
-      "app_price": "$6.99"
     },
     {
       "app_id": "6823810305",
@@ -2290,15 +2272,6 @@
       "app_price": "Free"
     },
     {
-      "app_id": "6784304541",
-      "app_name": "Stress HRV: Stress Tracker",
-      "iap": "Lifetime",
-      "price": "$0.00",
-      "permanent_free": true,
-      "since": "2026-11-08",
-      "app_price": "Free"
-    },
-    {
       "app_id": "6826148030",
       "app_name": "Libella -水平器・勾配計",
       "iap": "7日間無料トライアル",
@@ -2327,10 +2300,10 @@
     },
     {
       "app_id": "6761806680",
-      "app_name": "AlbumX: Photo Cleaner",
+      "app_name": "AlbumX：照片清理、相册整理与幻灯片",
       "iap": "Lifetime",
       "price": "$0.00",
-      "permanent_free": true,
+      "permanent_free": false,
       "since": "2026-11-08",
       "app_price": "Free"
     },
@@ -2358,24 +2331,6 @@
       "iap": "7日間無料お試し",
       "price": "$0.00",
       "permanent_free": true,
-      "since": "2026-11-08",
-      "app_price": "Free"
-    },
-    {
-      "app_id": "6755109910",
-      "app_name": "视频压缩 - ShrinkFile",
-      "iap": "Lifetime Unlock",
-      "price": "$0.00",
-      "permanent_free": false,
-      "since": "2026-11-08",
-      "app_price": "Free"
-    },
-    {
-      "app_id": "6751812975",
-      "app_name": "闹钟 Pro - 排班闹钟与节假日跳过",
-      "iap": "完整版",
-      "price": "$0.00",
-      "permanent_free": false,
       "since": "2026-11-08",
       "app_price": "Free"
     },
@@ -2437,6 +2392,78 @@
       "app_id": "6821620482",
       "app_name": "PicPost EZ",
       "iap": "Lifetime Album Access",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-08",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6758226275",
+      "app_name": "iHairstyleIsWell",
+      "iap": "LifeTime Pro",
+      "price": "$0.00",
+      "permanent_free": false,
+      "since": "2026-11-08",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6751812975",
+      "app_name": "闹钟 Pro - 排班闹钟与节假日跳过",
+      "iap": "完整版",
+      "price": "$0.00",
+      "permanent_free": false,
+      "since": "2026-11-08",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6755109910",
+      "app_name": "视频压缩 - ShrinkFile",
+      "iap": "Lifetime Unlock",
+      "price": "$0.00",
+      "permanent_free": false,
+      "since": "2026-11-08",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6793760650",
+      "app_name": "OneRound: Nearby Games",
+      "iap": "OneRound Pro Lifetime",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-08",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6802314068",
+      "app_name": "AudioM: Audiobook Player",
+      "iap": "AudioM Pro Lifetime",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-08",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6823791660",
+      "app_name": "I'm Bored - Fun Activity Ideas",
+      "iap": "Lifetime Premium",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-08",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6824190450",
+      "app_name": "Tabitecho: Receipt to Refund",
+      "iap": "Tax-free, unlocked",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-08",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6825582033",
+      "app_name": "Shredly: Photo Cleaner",
+      "iap": "Shredly Pro Lifetime",
       "price": "$0.00",
       "permanent_free": true,
       "since": "2026-11-08",

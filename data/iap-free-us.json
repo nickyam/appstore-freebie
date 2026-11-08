@@ -4,40 +4,6 @@
   "count": 5,
   "events": [
     {
-      "app_id": "6708239674",
-      "app_name": "Jump Counter & Rebound",
-      "iap": "AirJump Lifetime Access",
-      "price": "$0.00",
-      "free_since": "2026-11-06",
-      "days_free": 2,
-      "last_paid_date": "2026-11-06",
-      "last_paid_price": "$19.99",
-      "url": "https://apps.apple.com/us/app/airjump-jump-rope-counter/id6708239674?uo=4",
-      "rating": 4.55999,
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a5/b1/11/a5b11174-27af-e4b3-1afb-094426850959/AppIcon-0-0-1x_U007epad-0-1-85-220.jpeg/512x512bb.jpg",
-      "dev": "Reza Firouzbakht",
-      "genre": "Health & Fitness",
-      "app_price": "Free",
-      "page": "app/us-6708239674.html"
-    },
-    {
-      "app_id": "659276619",
-      "app_name": "Fisheye Plus-Retro Photo Video",
-      "iap": "All Packs",
-      "price": "$0.00",
-      "free_since": "2026-11-04",
-      "days_free": 4,
-      "last_paid_date": "2026-10-31",
-      "last_paid_price": "$0.99",
-      "url": "https://apps.apple.com/us/app/fisheye-plus-retro-photo-video/id659276619?uo=4",
-      "rating": 4.34719,
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5b/05/2b/5b052b92-e8db-d3b3-2900-d09c7b853f4a/AppIcon_1-0-0-1x_U007emarketing-0-5-0-85-220.png/512x512bb.jpg",
-      "dev": "华芳 张",
-      "genre": "Photo & Video",
-      "app_price": "$6.99",
-      "page": "app/us-659276619.html"
-    },
-    {
       "app_id": "6823810305",
       "app_name": "Three Routes: Run & Walk",
       "iap": "Three Routes Pro Lifetime",
@@ -55,21 +21,38 @@
       "page": "app/us-6823810305.html"
     },
     {
-      "app_id": "6755109910",
-      "app_name": "视频压缩 - ShrinkFile",
-      "iap": "Lifetime Unlock",
+      "app_id": "6761806680",
+      "app_name": "AlbumX：照片清理、相册整理与幻灯片",
+      "iap": "Lifetime",
       "price": "$0.00",
       "free_since": "2026-11-05",
       "days_free": 3,
       "last_paid_date": "2026-11-05",
       "last_paid_price": "—",
-      "url": "https://apps.apple.com/us/app/video-compressor-shrinkfile/id6755109910?uo=4",
-      "rating": 4.55556,
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/52/67/ef/5267ef1d-e9e2-8d8a-2c28-f94c91809378/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-      "dev": "金标 李",
+      "url": "https://apps.apple.com/us/app/albumx-photo-cleaner/id6761806680?uo=4",
+      "rating": 5,
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/44/ea/1c/44ea1c24-24af-c408-efe7-582008a7fd85/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/512x512bb.jpg",
+      "dev": "Luowater Technology Co. LTD",
       "genre": "Photo & Video",
       "app_price": "Free",
-      "page": "app/us-6755109910.html"
+      "page": "app/us-6761806680.html"
+    },
+    {
+      "app_id": "6758226275",
+      "app_name": "iHairstyleIsWell",
+      "iap": "LifeTime Pro",
+      "price": "$0.00",
+      "free_since": "2026-11-06",
+      "days_free": 2,
+      "last_paid_date": "2026-11-06",
+      "last_paid_price": "—",
+      "url": "https://apps.apple.com/us/app/ihairstyleiswell/id6758226275?uo=4",
+      "rating": 5,
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d6/6f/96/d66f96ce-444c-b739-a476-7832f32a9b99/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+      "dev": "Naihe Hu",
+      "genre": "Lifestyle",
+      "app_price": "Free",
+      "page": "app/us-6758226275.html"
     },
     {
       "app_id": "6751812975",
@@ -87,6 +70,23 @@
       "genre": "Utilities",
       "app_price": "Free",
       "page": "app/us-6751812975.html"
+    },
+    {
+      "app_id": "6755109910",
+      "app_name": "视频压缩 - ShrinkFile",
+      "iap": "Lifetime Unlock",
+      "price": "$0.00",
+      "free_since": "2026-11-05",
+      "days_free": 3,
+      "last_paid_date": "2026-11-05",
+      "last_paid_price": "—",
+      "url": "https://apps.apple.com/us/app/video-compressor-shrinkfile/id6755109910?uo=4",
+      "rating": 4.55556,
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/52/67/ef/5267ef1d-e9e2-8d8a-2c28-f94c91809378/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "dev": "金标 李",
+      "genre": "Photo & Video",
+      "app_price": "Free",
+      "page": "app/us-6755109910.html"
     }
   ]
 }
