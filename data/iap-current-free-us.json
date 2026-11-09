@@ -1,7 +1,7 @@
 {
   "updated": "2026-11-09",
   "region": "us",
-  "count": 265,
+  "count": 268,
   "items": [
     {
       "app_id": "6756211777",
@@ -2245,15 +2245,6 @@
       "app_price": "Free"
     },
     {
-      "app_id": "6761806680",
-      "app_name": "AlbumX：照片清理、相册整理与幻灯片",
-      "iap": "Lifetime",
-      "price": "$0.00",
-      "permanent_free": false,
-      "since": "2026-11-09",
-      "app_price": "Free"
-    },
-    {
       "app_id": "6761092493",
       "app_name": "Telo: AI Health Coach, HRV Log",
       "iap": "Lifetime",
@@ -2326,24 +2317,6 @@
       "app_price": "Free"
     },
     {
-      "app_id": "6758226275",
-      "app_name": "iHairstyleIsWell",
-      "iap": "LifeTime Pro",
-      "price": "$0.00",
-      "permanent_free": false,
-      "since": "2026-11-09",
-      "app_price": "Free"
-    },
-    {
-      "app_id": "6751812975",
-      "app_name": "闹钟 Pro - 排班闹钟与节假日跳过",
-      "iap": "完整版",
-      "price": "$0.00",
-      "permanent_free": false,
-      "since": "2026-11-09",
-      "app_price": "Free"
-    },
-    {
       "app_id": "6793760650",
       "app_name": "OneRound: Nearby Games",
       "iap": "OneRound Pro Lifetime",
@@ -2354,10 +2327,10 @@
     },
     {
       "app_id": "6802314068",
-      "app_name": "AudioM: Audiobook Player",
+      "app_name": "AudioM - 有声书播放器",
       "iap": "AudioM Pro Lifetime",
       "price": "$0.00",
-      "permanent_free": true,
+      "permanent_free": false,
       "since": "2026-11-09",
       "app_price": "Free"
     },
@@ -2366,7 +2339,7 @@
       "app_name": "I'm Bored - Fun Activity Ideas",
       "iap": "Lifetime Premium",
       "price": "$0.00",
-      "permanent_free": true,
+      "permanent_free": false,
       "since": "2026-11-09",
       "app_price": "Free"
     },
@@ -2383,6 +2356,60 @@
       "app_id": "6825582033",
       "app_name": "Shredly: Photo Cleaner",
       "iap": "Shredly Pro Lifetime",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-09",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6758226275",
+      "app_name": "iHairstyleIsWell",
+      "iap": "LifeTime Pro",
+      "price": "$0.00",
+      "permanent_free": false,
+      "since": "2026-11-09",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6761806680",
+      "app_name": "AlbumX: Photo Cleaner",
+      "iap": "Lifetime",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-09",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6751812975",
+      "app_name": "Alarm Pro: Shift Alarm Clock",
+      "iap": "完整版",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-09",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6756509302",
+      "app_name": "Stillwell · RAW Camera",
+      "iap": "Stillwell Pro Lifetime",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-09",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6760697432",
+      "app_name": "Redneck Mayhem",
+      "iap": "Remove ads",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-09",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6761393385",
+      "app_name": "Bookmark Read Later - Linkjoy",
+      "iap": "Lifetime",
       "price": "$0.00",
       "permanent_free": true,
       "since": "2026-11-09",

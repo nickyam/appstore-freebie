@@ -1,7 +1,7 @@
 {
   "updated": "2026-11-09",
   "region": "cn",
-  "count": 207,
+  "count": 209,
   "items": [
     {
       "app_id": "6758658840",
@@ -1804,6 +1804,51 @@
       "app_price": "免费"
     },
     {
+      "app_id": "6802314068",
+      "app_name": "AudioM - 有声书播放器",
+      "iap": "AudioM Pro 永久版",
+      "price": "¥0.00",
+      "permanent_free": false,
+      "since": "2026-11-09",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "6823791660",
+      "app_name": "I'm Bored - Fun Activity Ideas",
+      "iap": "Lifetime Premium",
+      "price": "¥0.00",
+      "permanent_free": false,
+      "since": "2026-11-09",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "6824190450",
+      "app_name": "旅手帐 Tabitecho - 日本退税",
+      "iap": "解锁退税功能",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-09",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "6825582033",
+      "app_name": "Shredly - 照片碎纸机",
+      "iap": "终身会员",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-09",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "6789835309",
+      "app_name": "iCoffeeMan",
+      "iap": "Pro Unlock",
+      "price": "¥0.00",
+      "permanent_free": false,
+      "since": "2026-11-09",
+      "app_price": "免费"
+    },
+    {
       "app_id": "6748850215",
       "app_name": "CalmWatch-HRV压力监测",
       "iap": "永久会员",
@@ -1822,45 +1867,18 @@
       "app_price": "免费"
     },
     {
-      "app_id": "6789835309",
-      "app_name": "iCoffeeMan",
-      "iap": "Pro Unlock",
-      "price": "¥0.00",
-      "permanent_free": false,
-      "since": "2026-11-09",
-      "app_price": "免费"
-    },
-    {
-      "app_id": "6802314068",
-      "app_name": "AudioM - 有声书播放器",
-      "iap": "AudioM Pro 永久版",
+      "app_id": "6761393385",
+      "app_name": "Bookmark Read Later - Linkjoy",
+      "iap": "Lifetime",
       "price": "¥0.00",
       "permanent_free": true,
       "since": "2026-11-09",
       "app_price": "免费"
     },
     {
-      "app_id": "6823791660",
-      "app_name": "I'm Bored - Fun Activity Ideas",
-      "iap": "Lifetime Premium",
-      "price": "¥0.00",
-      "permanent_free": true,
-      "since": "2026-11-09",
-      "app_price": "免费"
-    },
-    {
-      "app_id": "6824190450",
-      "app_name": "旅手帐 Tabitecho - 日本退税",
-      "iap": "解锁退税功能",
-      "price": "¥0.00",
-      "permanent_free": true,
-      "since": "2026-11-09",
-      "app_price": "免费"
-    },
-    {
-      "app_id": "6825582033",
-      "app_name": "Shredly - 照片碎纸机",
-      "iap": "终身会员",
+      "app_id": "6762743807",
+      "app_name": "维刻：体重记录、体脂、围度记录·身材管理·瘦身减肥打卡记录",
+      "iap": "维刻 Pro 终身版（早鸟价）",
       "price": "¥0.00",
       "permanent_free": true,
       "since": "2026-11-09",

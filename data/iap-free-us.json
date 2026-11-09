@@ -38,21 +38,38 @@
       "page": "app/us-6823810305.html"
     },
     {
-      "app_id": "6761806680",
-      "app_name": "AlbumX：照片清理、相册整理与幻灯片",
-      "iap": "Lifetime",
+      "app_id": "6802314068",
+      "app_name": "AudioM - 有声书播放器",
+      "iap": "AudioM Pro Lifetime",
       "price": "$0.00",
-      "free_since": "2026-11-05",
-      "days_free": 4,
-      "last_paid_date": "2026-11-05",
+      "free_since": "2026-11-07",
+      "days_free": 2,
+      "last_paid_date": "2026-11-07",
       "last_paid_price": "—",
-      "url": "https://apps.apple.com/us/app/albumx-photo-cleaner/id6761806680?uo=4",
-      "rating": 5,
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7d/82/05/7d820552-1bdf-7960-08a0-383b31616ff2/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/512x512bb.jpg",
-      "dev": "Luowater Technology Co. LTD",
-      "genre": "Photo & Video",
+      "url": "https://apps.apple.com/us/app/audiom-audiobook-player/id6802314068?uo=4",
+      "rating": 4.5,
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/76/86/6e/76866e93-e6e2-b9ed-2b71-c62edab75e31/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "dev": "鹏飞 梁",
+      "genre": "Music",
       "app_price": "Free",
-      "page": "app/us-6761806680.html"
+      "page": "app/us-6802314068.html"
+    },
+    {
+      "app_id": "6823791660",
+      "app_name": "I'm Bored - Fun Activity Ideas",
+      "iap": "Lifetime Premium",
+      "price": "$0.00",
+      "free_since": "2026-11-07",
+      "days_free": 2,
+      "last_paid_date": "2026-11-07",
+      "last_paid_price": "—",
+      "url": "https://apps.apple.com/us/app/im-bored-fun-activity-ideas/id6823791660?uo=4",
+      "rating": 5,
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9f/cd/a9/9fcda99a-d267-01e4-2230-ca642cd1787e/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+      "dev": "Jared Muralt",
+      "genre": "Entertainment",
+      "app_price": "Free",
+      "page": "app/us-6823791660.html"
     },
     {
       "app_id": "6758226275",
@@ -70,23 +87,6 @@
       "genre": "Lifestyle",
       "app_price": "Free",
       "page": "app/us-6758226275.html"
-    },
-    {
-      "app_id": "6751812975",
-      "app_name": "闹钟 Pro - 排班闹钟与节假日跳过",
-      "iap": "完整版",
-      "price": "$0.00",
-      "free_since": "2026-11-05",
-      "days_free": 4,
-      "last_paid_date": "2026-11-05",
-      "last_paid_price": "—",
-      "url": "https://apps.apple.com/us/app/alarm-pro-shift-alarm-clock/id6751812975?uo=4",
-      "rating": 4.4375,
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/00/74/e8/0074e89d-43cd-eead-6dbf-471c34670a93/HolidayAlarmIcon-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
-      "dev": "文亮 张",
-      "genre": "Utilities",
-      "app_price": "Free",
-      "page": "app/us-6751812975.html"
     }
   ]
 }
