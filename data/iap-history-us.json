@@ -7,8 +7,8 @@
     "seed_added": 2,
     "seed_total": 21297,
     "pool_size": 2000,
-    "processed": 2000,
-    "skipped": 0,
+    "processed": 1999,
+    "skipped": 1,
     "seed_last_ok": "2026-11-09T22:00:45Z",
     "seed_last_error": ""
   },
@@ -38953,14 +38953,14 @@
       "first_date": "2026-10-23",
       "first_price": "$15.99",
       "last_date": "2026-11-10",
-      "last_price": "$26.99",
+      "last_price": "$15.99",
       "last_change_date": "2026-11-10",
       "ever_paid": true,
       "last_paid_date": "2026-11-10",
       "free_since": null,
       "changes": {
         "2026-10-23": "$15.99",
-        "2026-11-10": "$26.99"
+        "2026-11-10": "$15.99"
       }
     },
     "1382868950::Business (yearly)": {
@@ -46438,7 +46438,7 @@
       "first_date": "2026-10-23",
       "first_price": "$19.99",
       "last_date": "2026-11-10",
-      "last_price": "$49.99",
+      "last_price": "$29.99",
       "last_change_date": "2026-11-10",
       "ever_paid": true,
       "last_paid_date": "2026-11-10",
@@ -46452,7 +46452,7 @@
         "2026-10-28": "$1.49",
         "2026-10-29": "$29.99",
         "2026-11-07": "$29.99",
-        "2026-11-10": "$49.99"
+        "2026-11-10": "$29.99"
       }
     },
     "1610517133::Monthly": {
@@ -101592,15 +101592,16 @@
       "first_date": "2026-10-23",
       "first_price": "$5.99",
       "last_date": "2026-11-10",
-      "last_price": "$5.99",
-      "last_change_date": "2026-11-05",
+      "last_price": "$59.99",
+      "last_change_date": "2026-11-10",
       "ever_paid": true,
-      "last_paid_date": "2026-11-05",
+      "last_paid_date": "2026-11-10",
       "free_since": null,
       "changes": {
         "2026-10-23": "$5.99",
         "2026-11-04": "$59.99",
-        "2026-11-05": "$5.99"
+        "2026-11-05": "$5.99",
+        "2026-11-10": "$59.99"
       }
     },
     "388947468::Telegraph for Apple News": {
@@ -110558,16 +110559,17 @@
       "first_date": "2026-10-26",
       "first_price": "$12.99",
       "last_date": "2026-11-10",
-      "last_price": "$14.99",
-      "last_change_date": "2026-11-08",
+      "last_price": "$24.99",
+      "last_change_date": "2026-11-10",
       "ever_paid": true,
-      "last_paid_date": "2026-11-08",
+      "last_paid_date": "2026-11-10",
       "free_since": null,
       "changes": {
         "2026-10-26": "$19.99",
         "2026-10-27": "$19.99",
         "2026-11-06": "$0.00",
-        "2026-11-08": "$14.99"
+        "2026-11-08": "$14.99",
+        "2026-11-10": "$24.99"
       }
     },
     "6708239674::Premium Access": {
@@ -145418,7 +145420,7 @@
       "first_date": "2026-10-27",
       "first_price": "$4.99",
       "last_date": "2026-11-10",
-      "last_price": "$4.99",
+      "last_price": "$9.99",
       "last_change_date": "2026-11-10",
       "ever_paid": true,
       "last_paid_date": "2026-11-10",
@@ -145426,7 +145428,7 @@
       "changes": {
         "2026-10-27": "$9.99",
         "2026-10-28": "$9.99",
-        "2026-11-10": "$4.99"
+        "2026-11-10": "$9.99"
       }
     },
     "1158048301::Yearly": {
@@ -145437,7 +145439,7 @@
       "first_date": "2026-10-27",
       "first_price": "$49.99",
       "last_date": "2026-11-10",
-      "last_price": "$49.99",
+      "last_price": "$59.99",
       "last_change_date": "2026-11-10",
       "ever_paid": true,
       "last_paid_date": "2026-11-10",
@@ -145445,7 +145447,7 @@
       "changes": {
         "2026-10-27": "$59.99",
         "2026-10-28": "$59.99",
-        "2026-11-10": "$49.99"
+        "2026-11-10": "$59.99"
       }
     },
     "1158048301::Monthly Access": {
@@ -147771,7 +147773,7 @@
       "first_date": "2026-10-27",
       "first_price": "$39.99",
       "last_date": "2026-11-10",
-      "last_price": "$39.99",
+      "last_price": "$59.99",
       "last_change_date": "2026-11-10",
       "ever_paid": true,
       "last_paid_date": "2026-11-10",
@@ -147779,7 +147781,7 @@
       "changes": {
         "2026-10-27": "$59.99",
         "2026-10-28": "$59.99",
-        "2026-11-10": "$39.99"
+        "2026-11-10": "$59.99"
       }
     },
     "1513988468::Annual Membership (50% Off)": {
@@ -149535,7 +149537,7 @@
       "first_date": "2026-10-27",
       "first_price": "$9.99",
       "last_date": "2026-11-10",
-      "last_price": "$19.99",
+      "last_price": "$14.99",
       "last_change_date": "2026-11-10",
       "ever_paid": true,
       "last_paid_date": "2026-11-10",
@@ -149544,7 +149546,7 @@
         "2026-10-27": "$14.99",
         "2026-10-28": "$14.99",
         "2026-11-05": "$14.99",
-        "2026-11-10": "$19.99"
+        "2026-11-10": "$14.99"
       }
     },
     "6499510249::Yearly": {
@@ -351116,7 +351118,7 @@
       "region": "us",
       "first_date": "2026-11-04",
       "first_price": "$10.00",
-      "last_date": "2026-11-04",
+      "last_date": "2026-11-10",
       "last_price": "$10.00",
       "last_change_date": "2026-11-04",
       "ever_paid": true,
@@ -351133,7 +351135,7 @@
       "region": "us",
       "first_date": "2026-11-04",
       "first_price": "$100.00",
-      "last_date": "2026-11-04",
+      "last_date": "2026-11-10",
       "last_price": "$100.00",
       "last_change_date": "2026-11-04",
       "ever_paid": true,
@@ -374437,6 +374439,227 @@
       "free_since": null,
       "changes": {
         "2026-11-10": "$49.99"
+      }
+    },
+    "1624701477::Customer service - Complaint": {
+      "app_id": "1624701477",
+      "app_name": "Praktika – AI Language Tutor",
+      "name": "Customer service - Complaint",
+      "region": "us",
+      "first_date": "2026-11-10",
+      "first_price": "$1.99",
+      "last_date": "2026-11-10",
+      "last_price": "$1.99",
+      "last_change_date": "2026-11-10",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-10",
+      "free_since": null,
+      "changes": {
+        "2026-11-10": "$1.99"
+      }
+    },
+    "1624701477::Customer service - Delivery": {
+      "app_id": "1624701477",
+      "app_name": "Praktika – AI Language Tutor",
+      "name": "Customer service - Delivery",
+      "region": "us",
+      "first_date": "2026-11-10",
+      "first_price": "$1.99",
+      "last_date": "2026-11-10",
+      "last_price": "$1.99",
+      "last_change_date": "2026-11-10",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-10",
+      "free_since": null,
+      "changes": {
+        "2026-11-10": "$1.99"
+      }
+    },
+    "1624701477::In the hospital - Doctor talk": {
+      "app_id": "1624701477",
+      "app_name": "Praktika – AI Language Tutor",
+      "name": "In the hospital - Doctor talk",
+      "region": "us",
+      "first_date": "2026-11-10",
+      "first_price": "$1.99",
+      "last_date": "2026-11-10",
+      "last_price": "$1.99",
+      "last_change_date": "2026-11-10",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-10",
+      "free_since": null,
+      "changes": {
+        "2026-11-10": "$1.99"
+      }
+    },
+    "1624701477::In the hospital - Check-up": {
+      "app_id": "1624701477",
+      "app_name": "Praktika – AI Language Tutor",
+      "name": "In the hospital - Check-up",
+      "region": "us",
+      "first_date": "2026-11-10",
+      "first_price": "$1.99",
+      "last_date": "2026-11-10",
+      "last_price": "$1.99",
+      "last_change_date": "2026-11-10",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-10",
+      "free_since": null,
+      "changes": {
+        "2026-11-10": "$1.99"
+      }
+    },
+    "1624701477::Renting a car - Seal the deal": {
+      "app_id": "1624701477",
+      "app_name": "Praktika – AI Language Tutor",
+      "name": "Renting a car - Seal the deal",
+      "region": "us",
+      "first_date": "2026-11-10",
+      "first_price": "$1.99",
+      "last_date": "2026-11-10",
+      "last_price": "$1.99",
+      "last_change_date": "2026-11-10",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-10",
+      "free_since": null,
+      "changes": {
+        "2026-11-10": "$1.99"
+      }
+    },
+    "1624701477::Renting a car - Car selection": {
+      "app_id": "1624701477",
+      "app_name": "Praktika – AI Language Tutor",
+      "name": "Renting a car - Car selection",
+      "region": "us",
+      "first_date": "2026-11-10",
+      "first_price": "$1.99",
+      "last_date": "2026-11-10",
+      "last_price": "$1.99",
+      "last_change_date": "2026-11-10",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-10",
+      "free_since": null,
+      "changes": {
+        "2026-11-10": "$1.99"
+      }
+    },
+    "1624701477::Job Interview - About company": {
+      "app_id": "1624701477",
+      "app_name": "Praktika – AI Language Tutor",
+      "name": "Job Interview - About company",
+      "region": "us",
+      "first_date": "2026-11-10",
+      "first_price": "$1.99",
+      "last_date": "2026-11-10",
+      "last_price": "$1.99",
+      "last_change_date": "2026-11-10",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-10",
+      "free_since": null,
+      "changes": {
+        "2026-11-10": "$1.99"
+      }
+    },
+    "1624701477::Getting promotion - Decision": {
+      "app_id": "1624701477",
+      "app_name": "Praktika – AI Language Tutor",
+      "name": "Getting promotion - Decision",
+      "region": "us",
+      "first_date": "2026-11-10",
+      "first_price": "$1.99",
+      "last_date": "2026-11-10",
+      "last_price": "$1.99",
+      "last_change_date": "2026-11-10",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-10",
+      "free_since": null,
+      "changes": {
+        "2026-11-10": "$1.99"
+      }
+    },
+    "1624701477::Order a taxi - To the airport": {
+      "app_id": "1624701477",
+      "app_name": "Praktika – AI Language Tutor",
+      "name": "Order a taxi - To the airport",
+      "region": "us",
+      "first_date": "2026-11-10",
+      "first_price": "$1.99",
+      "last_date": "2026-11-10",
+      "last_price": "$1.99",
+      "last_change_date": "2026-11-10",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-10",
+      "free_since": null,
+      "changes": {
+        "2026-11-10": "$1.99"
+      }
+    },
+    "1442118788::Blueprint AI - 50 Credits": {
+      "app_id": "1442118788",
+      "app_name": "UnitedMasters: Release Music",
+      "name": "Blueprint AI - 50 Credits",
+      "region": "us",
+      "first_date": "2026-11-10",
+      "first_price": "$2.99",
+      "last_date": "2026-11-10",
+      "last_price": "$2.99",
+      "last_change_date": "2026-11-10",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-10",
+      "free_since": null,
+      "changes": {
+        "2026-11-10": "$2.99"
+      }
+    },
+    "1442118788::Blueprint AI - 100 Credits": {
+      "app_id": "1442118788",
+      "app_name": "UnitedMasters: Release Music",
+      "name": "Blueprint AI - 100 Credits",
+      "region": "us",
+      "first_date": "2026-11-10",
+      "first_price": "$4.99",
+      "last_date": "2026-11-10",
+      "last_price": "$4.99",
+      "last_change_date": "2026-11-10",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-10",
+      "free_since": null,
+      "changes": {
+        "2026-11-10": "$4.99"
+      }
+    },
+    "6450364080::3000 Minutes Package": {
+      "app_id": "6450364080",
+      "app_name": "Plaud: AI Work Companion",
+      "name": "3000 Minutes Package",
+      "region": "us",
+      "first_date": "2026-11-10",
+      "first_price": "$59.99",
+      "last_date": "2026-11-10",
+      "last_price": "$59.99",
+      "last_change_date": "2026-11-10",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-10",
+      "free_since": null,
+      "changes": {
+        "2026-11-10": "$59.99"
+      }
+    },
+    "6450364080::6000 Minutes Package": {
+      "app_id": "6450364080",
+      "app_name": "Plaud: AI Work Companion",
+      "name": "6000 Minutes Package",
+      "region": "us",
+      "first_date": "2026-11-10",
+      "first_price": "$99.99",
+      "last_date": "2026-11-10",
+      "last_price": "$99.99",
+      "last_change_date": "2026-11-10",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-10",
+      "free_since": null,
+      "changes": {
+        "2026-11-10": "$99.99"
       }
     }
   }
