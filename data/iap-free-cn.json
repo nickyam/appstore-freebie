@@ -1,24 +1,6 @@
 {
-  "updated": "2026-11-10",
+  "updated": "2026-11-11",
   "region": "cn",
-  "count": 1,
-  "events": [
-    {
-      "app_id": "6503609135",
-      "app_name": "短信喵 - 智能拦截垃圾短信",
-      "iap": "永久会员",
-      "price": "¥0.00",
-      "free_since": "2026-11-10",
-      "days_free": 0,
-      "last_paid_date": "2026-11-05",
-      "last_paid_price": "¥68.00",
-      "url": "https://apps.apple.com/cn/app/%E7%9F%AD%E4%BF%A1%E5%96%B5-%E6%99%BA%E8%83%BD%E6%8B%A6%E6%88%AA%E5%9E%83%E5%9C%BE%E7%9F%AD%E4%BF%A1/id6503609135?uo=4",
-      "rating": 4.17241,
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b8/23/a2/b823a28e-1794-8f59-5dd5-cc6f5675d51f/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
-      "dev": "瑞青 邓",
-      "genre": "工具",
-      "app_price": "免费",
-      "page": "app/cn-6503609135.html"
-    }
-  ]
+  "count": 0,
+  "events": []
 }
