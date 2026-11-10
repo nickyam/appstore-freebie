@@ -1,7 +1,7 @@
 {
   "updated": "2026-11-10",
   "region": "cn",
-  "count": 210,
+  "count": 211,
   "items": [
     {
       "app_id": "6758658840",
@@ -351,7 +351,7 @@
       "iap": "The Aesthetic Series",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-11-09",
+      "since": "2026-11-10",
       "app_price": "免费"
     },
     {
@@ -360,7 +360,7 @@
       "iap": "Hypebeast / HB",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-11-09",
+      "since": "2026-11-10",
       "app_price": "免费"
     },
     {
@@ -369,7 +369,7 @@
       "iap": "Krochet Kids intl.",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-11-09",
+      "since": "2026-11-10",
       "app_price": "免费"
     },
     {
@@ -378,7 +378,7 @@
       "iap": "NikeLab ACG",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-11-09",
+      "since": "2026-11-10",
       "app_price": "免费"
     },
     {
@@ -387,7 +387,7 @@
       "iap": "Nike Sportswear / Tech Pack",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-11-09",
+      "since": "2026-11-10",
       "app_price": "免费"
     },
     {
@@ -396,7 +396,7 @@
       "iap": "Distortia Pack",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-11-09",
+      "since": "2026-11-10",
       "app_price": "免费"
     },
     {
@@ -405,7 +405,7 @@
       "iap": "Ta-ku x VSCO",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-11-09",
+      "since": "2026-11-10",
       "app_price": "免费"
     },
     {
@@ -414,7 +414,7 @@
       "iap": "Neocha",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-11-09",
+      "since": "2026-11-10",
       "app_price": "免费"
     },
     {
@@ -423,7 +423,7 @@
       "iap": "We the Creators",
       "price": "¥0.00",
       "permanent_free": true,
-      "since": "2026-11-09",
+      "since": "2026-11-10",
       "app_price": "免费"
     },
     {
@@ -1282,15 +1282,6 @@
       "app_price": "免费"
     },
     {
-      "app_id": "957061929",
-      "app_name": "PDF扫描仪：日期水印",
-      "iap": "PDF Scanner Pro",
-      "price": "¥0.00",
-      "permanent_free": false,
-      "since": "2026-11-10",
-      "app_price": "¥22.00"
-    },
-    {
       "app_id": "1620584291",
       "app_name": "Bookmarks: Organize & Track",
       "iap": "Onetime Payment",
@@ -1351,15 +1342,6 @@
       "price": "¥0.00",
       "permanent_free": true,
       "since": "2026-10-31",
-      "app_price": "免费"
-    },
-    {
-      "app_id": "6444253288",
-      "app_name": "清理大师 - AI清理照片与视频",
-      "iap": "Lifetime Purchase VIP",
-      "price": "¥0.00",
-      "permanent_free": false,
-      "since": "2026-11-10",
       "app_price": "免费"
     },
     {
@@ -1831,24 +1813,6 @@
       "app_price": "免费"
     },
     {
-      "app_id": "6802314068",
-      "app_name": "AudioM - 有声书播放器",
-      "iap": "AudioM Pro 永久版",
-      "price": "¥0.00",
-      "permanent_free": false,
-      "since": "2026-11-10",
-      "app_price": "免费"
-    },
-    {
-      "app_id": "6823791660",
-      "app_name": "I'm Bored - Fun Activity Ideas",
-      "iap": "Lifetime Premium",
-      "price": "¥0.00",
-      "permanent_free": false,
-      "since": "2026-11-10",
-      "app_price": "免费"
-    },
-    {
       "app_id": "6824190450",
       "app_name": "旅手帐 Tabitecho - 日本退税",
       "iap": "解锁退税功能",
@@ -1867,15 +1831,6 @@
       "app_price": "免费"
     },
     {
-      "app_id": "6748850215",
-      "app_name": "CalmWatch-HRV压力监测",
-      "iap": "永久会员",
-      "price": "¥0.00",
-      "permanent_free": false,
-      "since": "2026-11-10",
-      "app_price": "免费"
-    },
-    {
       "app_id": "6761393385",
       "app_name": "Bookmark Read Later - Linkjoy",
       "iap": "Lifetime",
@@ -1885,9 +1840,63 @@
       "app_price": "免费"
     },
     {
-      "app_id": "6762743807",
-      "app_name": "维刻：体重记录、体脂、围度记录·身材管理·瘦身减肥打卡记录",
-      "iap": "维刻 Pro 终身版（早鸟价）",
+      "app_id": "6802314068",
+      "app_name": "AudioM - 有声书播放器",
+      "iap": "AudioM Pro 永久版",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-10",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "6823791660",
+      "app_name": "I'm Bored - Fun Activity Ideas",
+      "iap": "Lifetime Premium",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-10",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "6748850215",
+      "app_name": "CalmWatch-HRV压力监测",
+      "iap": "永久会员",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-10",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "1448577120",
+      "app_name": "ABC KIDS: 儿童画画与涂色",
+      "iap": "ABC Kids Lifetime",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-10",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "6745362631",
+      "app_name": "Milk Diary®: Baby Feeding",
+      "iap": "Milk Diary Pro - Lifetime",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-10",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "6761775005",
+      "app_name": "OneGLP：GLP-1 体重记录与用药提醒",
+      "iap": "Premium Lifetime",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-10",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "6826705085",
+      "app_name": "The eBaglama",
+      "iap": "7-Tage-Test",
       "price": "¥0.00",
       "permanent_free": true,
       "since": "2026-11-10",
