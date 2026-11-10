@@ -1,21 +1,39 @@
 {
   "updated": "2026-11-10",
   "region": "us",
-  "count": 272,
+  "count": 268,
   "items": [
     {
-      "app_id": "6756211777",
-      "app_name": "iEarthpulse",
-      "iap": "Plus Lifetime",
+      "app_id": "6808996054",
+      "app_name": "Tasting Tours",
+      "iap": "Free St. Augustine",
+      "price": "$0.00",
+      "permanent_free": false,
+      "since": "2026-11-10",
+      "app_price": "$0.99"
+    },
+    {
+      "app_id": "6808996054",
+      "app_name": "Tasting Tours",
+      "iap": "Christmas Nights of Lights",
+      "price": "$0.00",
+      "permanent_free": false,
+      "since": "2026-11-10",
+      "app_price": "$0.99"
+    },
+    {
+      "app_id": "6823810305",
+      "app_name": "Three Routes: Run & Walk",
+      "iap": "Three Routes Pro Lifetime",
       "price": "$0.00",
       "permanent_free": false,
       "since": "2026-11-10",
       "app_price": "Free"
     },
     {
-      "app_id": "6823810305",
-      "app_name": "Three Routes: Run & Walk",
-      "iap": "Three Routes Pro Lifetime",
+      "app_id": "6503609135",
+      "app_name": "SMSCat",
+      "iap": "Lifetime Member",
       "price": "$0.00",
       "permanent_free": false,
       "since": "2026-11-10",
@@ -1867,15 +1885,6 @@
       "app_price": "Free"
     },
     {
-      "app_id": "6821592190",
-      "app_name": "Selo – Interval Timer",
-      "iap": "Selo Pro",
-      "price": "$0.00",
-      "permanent_free": true,
-      "since": "2026-11-10",
-      "app_price": "Free"
-    },
-    {
       "app_id": "6811274043",
       "app_name": "序日",
       "iap": "序日 Pro · One-time Purchase",
@@ -2218,15 +2227,6 @@
       "app_price": "Free"
     },
     {
-      "app_id": "6739061946",
-      "app_name": "PhotoRiver",
-      "iap": "Classic",
-      "price": "$0.00",
-      "permanent_free": true,
-      "since": "2026-11-10",
-      "app_price": "Free"
-    },
-    {
       "app_id": "563027226",
       "app_name": "NFL Collect by Topps®",
       "iap": "HUDDLE'S OFFER!",
@@ -2257,15 +2257,6 @@
       "app_id": "6806193343",
       "app_name": "Capylist: Countdown & Diary",
       "iap": "卡皮清单永久会员",
-      "price": "$0.00",
-      "permanent_free": true,
-      "since": "2026-11-10",
-      "app_price": "Free"
-    },
-    {
-      "app_id": "6789835309",
-      "app_name": "iCoffeeMan",
-      "iap": "Pro Unlock",
       "price": "$0.00",
       "permanent_free": true,
       "since": "2026-11-10",
@@ -2362,24 +2353,6 @@
       "app_price": "Free"
     },
     {
-      "app_id": "6823791660",
-      "app_name": "I'm Bored - Fun Activity Ideas",
-      "iap": "Lifetime Premium",
-      "price": "$0.00",
-      "permanent_free": true,
-      "since": "2026-11-10",
-      "app_price": "Free"
-    },
-    {
-      "app_id": "6758226275",
-      "app_name": "iHairstyleIsWell",
-      "iap": "LifeTime Pro",
-      "price": "$0.00",
-      "permanent_free": true,
-      "since": "2026-11-10",
-      "app_price": "Free"
-    },
-    {
       "app_id": "1448577120",
       "app_name": "ABC KIDS: Drawing & Tracing",
       "iap": "ABC Kids Lifetime",
@@ -2423,15 +2396,6 @@
       "permanent_free": true,
       "since": "2026-11-10",
       "app_price": "$4.99"
-    },
-    {
-      "app_id": "6825657895",
-      "app_name": "Joker: Card game",
-      "iap": "Remove Ads",
-      "price": "$0.00",
-      "permanent_free": true,
-      "since": "2026-11-10",
-      "app_price": "$0.99"
     },
     {
       "app_id": "6761775005",
