@@ -1,26 +1,8 @@
 {
   "updated": "2026-11-11",
   "region": "us",
-  "count": 294,
+  "count": 292,
   "items": [
-    {
-      "app_id": "6808996054",
-      "app_name": "Tasting Tours",
-      "iap": "Free St. Augustine",
-      "price": "$0.00",
-      "permanent_free": false,
-      "since": "2026-11-11",
-      "app_price": "$0.99"
-    },
-    {
-      "app_id": "6808996054",
-      "app_name": "Tasting Tours",
-      "iap": "Christmas Nights of Lights",
-      "price": "$0.00",
-      "permanent_free": false,
-      "since": "2026-11-11",
-      "app_price": "$0.99"
-    },
     {
       "app_id": "6823810305",
       "app_name": "Three Routes: Run & Walk",
@@ -1876,6 +1858,15 @@
       "app_price": "Free"
     },
     {
+      "app_id": "6817167359",
+      "app_name": "Termini - SSH Client",
+      "iap": "永久Pro",
+      "price": "$0.00",
+      "permanent_free": false,
+      "since": "2026-11-11",
+      "app_price": "Free"
+    },
+    {
       "app_id": "6811274043",
       "app_name": "序日",
       "iap": "序日 Pro · One-time Purchase",
@@ -2412,15 +2403,6 @@
       "iap": "永久会员",
       "price": "$0.00",
       "permanent_free": false,
-      "since": "2026-11-11",
-      "app_price": "Free"
-    },
-    {
-      "app_id": "6745362631",
-      "app_name": "Milk Diary®: Baby Feeding",
-      "iap": "Milk Diary Pro - Lifetime",
-      "price": "$0.00",
-      "permanent_free": true,
       "since": "2026-11-11",
       "app_price": "Free"
     },

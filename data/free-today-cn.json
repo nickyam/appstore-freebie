@@ -1,7 +1,7 @@
 {
   "date": "2026-11-11",
   "country": "cn",
-  "generated_at": "2026-11-11T00:50:45Z",
+  "generated_at": "2026-11-11T05:20:37Z",
   "freebies": [
     {
       "id": "1270382069",
@@ -107,19 +107,6 @@
           "region": "cn"
         },
         {
-          "id": "6809207083",
-          "name": "Glassiu 浏览器: 视频嗅探&油猴脚本&广告拦截",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/b8/68/09b868af-b8a7-de7d-cbf1-9ea0a17033fc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6809207083.html",
-          "rating": 4.3125,
-          "normal": "¥8.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
           "id": "6761336662",
           "name": "Video Transcriber - Captions",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/06/bc/6306bcef-371c-4bf8-5de5-79bc3186d32e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
@@ -299,6 +286,19 @@
           "normal": "¥15.00",
           "current": "免费",
           "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6503905670",
+          "name": "NextNote - AI笔记与写作",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/33/c5/f5/33c5f542-3dd7-7ae3-4ed2-027c6a5feda0/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "效率",
+          "type": "free",
+          "page": "app/cn-6503905670.html",
+          "rating": 5,
+          "normal": "¥39.90",
+          "current": "免费",
+          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -388,19 +388,6 @@
           "region": "cn"
         },
         {
-          "id": "6809207083",
-          "name": "Glassiu 浏览器: 视频嗅探&油猴脚本&广告拦截",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/b8/68/09b868af-b8a7-de7d-cbf1-9ea0a17033fc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6809207083.html",
-          "rating": 4.3125,
-          "normal": "¥8.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
           "id": "6761336662",
           "name": "Video Transcriber - Captions",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/06/bc/6306bcef-371c-4bf8-5de5-79bc3186d32e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
@@ -580,6 +567,19 @@
           "normal": "¥15.00",
           "current": "免费",
           "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6503905670",
+          "name": "NextNote - AI笔记与写作",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/33/c5/f5/33c5f542-3dd7-7ae3-4ed2-027c6a5feda0/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "效率",
+          "type": "free",
+          "page": "app/cn-6503905670.html",
+          "rating": 5,
+          "normal": "¥39.90",
+          "current": "免费",
+          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -772,19 +772,6 @@
           "region": "cn"
         },
         {
-          "id": "6809207083",
-          "name": "Glassiu 浏览器: 视频嗅探&油猴脚本&广告拦截",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/b8/68/09b868af-b8a7-de7d-cbf1-9ea0a17033fc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6809207083.html",
-          "rating": 4.3125,
-          "normal": "¥8.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
           "id": "6761336662",
           "name": "Video Transcriber - Captions",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/06/bc/6306bcef-371c-4bf8-5de5-79bc3186d32e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
@@ -951,6 +938,19 @@
           "normal": "¥15.00",
           "current": "免费",
           "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6503905670",
+          "name": "NextNote - AI笔记与写作",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/33/c5/f5/33c5f542-3dd7-7ae3-4ed2-027c6a5feda0/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "效率",
+          "type": "free",
+          "page": "app/cn-6503905670.html",
+          "rating": 5,
+          "normal": "¥39.90",
+          "current": "免费",
+          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -1123,19 +1123,6 @@
           "region": "cn"
         },
         {
-          "id": "6809207083",
-          "name": "Glassiu 浏览器: 视频嗅探&油猴脚本&广告拦截",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/b8/68/09b868af-b8a7-de7d-cbf1-9ea0a17033fc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6809207083.html",
-          "rating": 4.3125,
-          "normal": "¥8.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
           "id": "6761336662",
           "name": "Video Transcriber - Captions",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/06/bc/6306bcef-371c-4bf8-5de5-79bc3186d32e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
@@ -1302,6 +1289,19 @@
           "normal": "¥15.00",
           "current": "免费",
           "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6503905670",
+          "name": "NextNote - AI笔记与写作",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/33/c5/f5/33c5f542-3dd7-7ae3-4ed2-027c6a5feda0/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "效率",
+          "type": "free",
+          "page": "app/cn-6503905670.html",
+          "rating": 5,
+          "normal": "¥39.90",
+          "current": "免费",
+          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -1409,19 +1409,6 @@
           "region": "cn"
         },
         {
-          "id": "6809207083",
-          "name": "Glassiu 浏览器: 视频嗅探&油猴脚本&广告拦截",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/b8/68/09b868af-b8a7-de7d-cbf1-9ea0a17033fc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6809207083.html",
-          "rating": 4.3125,
-          "normal": "¥8.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
           "id": "6761336662",
           "name": "Video Transcriber - Captions",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/06/bc/6306bcef-371c-4bf8-5de5-79bc3186d32e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
@@ -1588,6 +1575,19 @@
           "normal": "¥15.00",
           "current": "免费",
           "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6503905670",
+          "name": "NextNote - AI笔记与写作",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/33/c5/f5/33c5f542-3dd7-7ae3-4ed2-027c6a5feda0/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "效率",
+          "type": "free",
+          "page": "app/cn-6503905670.html",
+          "rating": 5,
+          "normal": "¥39.90",
+          "current": "免费",
+          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -1695,19 +1695,6 @@
           "region": "cn"
         },
         {
-          "id": "6809207083",
-          "name": "Glassiu 浏览器: 视频嗅探&油猴脚本&广告拦截",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/b8/68/09b868af-b8a7-de7d-cbf1-9ea0a17033fc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6809207083.html",
-          "rating": 4.3125,
-          "normal": "¥8.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
           "id": "6761336662",
           "name": "Video Transcriber - Captions",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/06/bc/6306bcef-371c-4bf8-5de5-79bc3186d32e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
@@ -1874,6 +1861,19 @@
           "normal": "¥15.00",
           "current": "免费",
           "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6503905670",
+          "name": "NextNote - AI笔记与写作",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/33/c5/f5/33c5f542-3dd7-7ae3-4ed2-027c6a5feda0/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "效率",
+          "type": "free",
+          "page": "app/cn-6503905670.html",
+          "rating": 5,
+          "normal": "¥39.90",
+          "current": "免费",
+          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -1966,19 +1966,6 @@
           "region": "cn"
         },
         {
-          "id": "6809207083",
-          "name": "Glassiu 浏览器: 视频嗅探&油猴脚本&广告拦截",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/b8/68/09b868af-b8a7-de7d-cbf1-9ea0a17033fc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6809207083.html",
-          "rating": 4.3125,
-          "normal": "¥8.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
           "id": "6761336662",
           "name": "Video Transcriber - Captions",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/06/bc/6306bcef-371c-4bf8-5de5-79bc3186d32e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
@@ -2146,6 +2133,19 @@
           "current": "免费",
           "has_iap": false,
           "region": "cn"
+        },
+        {
+          "id": "6503905670",
+          "name": "NextNote - AI笔记与写作",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/33/c5/f5/33c5f542-3dd7-7ae3-4ed2-027c6a5feda0/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "效率",
+          "type": "free",
+          "page": "app/cn-6503905670.html",
+          "rating": 5,
+          "normal": "¥39.90",
+          "current": "免费",
+          "has_iap": true,
+          "region": "cn"
         }
       ],
       "page": "app/cn-405245734.html"
@@ -2232,19 +2232,6 @@
           "page": "app/cn-1512214163.html",
           "rating": 4.76271,
           "normal": "¥98.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
-          "id": "6809207083",
-          "name": "Glassiu 浏览器: 视频嗅探&油猴脚本&广告拦截",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/b8/68/09b868af-b8a7-de7d-cbf1-9ea0a17033fc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6809207083.html",
-          "rating": 4.3125,
-          "normal": "¥8.00",
           "current": "免费",
           "has_iap": false,
           "region": "cn"
@@ -2416,6 +2403,19 @@
           "normal": "¥15.00",
           "current": "免费",
           "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6503905670",
+          "name": "NextNote - AI笔记与写作",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/33/c5/f5/33c5f542-3dd7-7ae3-4ed2-027c6a5feda0/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "效率",
+          "type": "free",
+          "page": "app/cn-6503905670.html",
+          "rating": 5,
+          "normal": "¥39.90",
+          "current": "免费",
+          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -2518,19 +2518,6 @@
           "region": "cn"
         },
         {
-          "id": "6809207083",
-          "name": "Glassiu 浏览器: 视频嗅探&油猴脚本&广告拦截",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/b8/68/09b868af-b8a7-de7d-cbf1-9ea0a17033fc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6809207083.html",
-          "rating": 4.3125,
-          "normal": "¥8.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
           "id": "6761336662",
           "name": "Video Transcriber - Captions",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/06/bc/6306bcef-371c-4bf8-5de5-79bc3186d32e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
@@ -2698,6 +2685,19 @@
           "current": "免费",
           "has_iap": false,
           "region": "cn"
+        },
+        {
+          "id": "6503905670",
+          "name": "NextNote - AI笔记与写作",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/33/c5/f5/33c5f542-3dd7-7ae3-4ed2-027c6a5feda0/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "效率",
+          "type": "free",
+          "page": "app/cn-6503905670.html",
+          "rating": 5,
+          "normal": "¥39.90",
+          "current": "免费",
+          "has_iap": true,
+          "region": "cn"
         }
       ],
       "page": "app/cn-6448124078.html"
@@ -2784,19 +2784,6 @@
           "page": "app/cn-1512214163.html",
           "rating": 4.76271,
           "normal": "¥98.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
-          "id": "6809207083",
-          "name": "Glassiu 浏览器: 视频嗅探&油猴脚本&广告拦截",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/b8/68/09b868af-b8a7-de7d-cbf1-9ea0a17033fc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6809207083.html",
-          "rating": 4.3125,
-          "normal": "¥8.00",
           "current": "免费",
           "has_iap": false,
           "region": "cn"
@@ -2968,6 +2955,19 @@
           "normal": "¥15.00",
           "current": "免费",
           "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6503905670",
+          "name": "NextNote - AI笔记与写作",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/33/c5/f5/33c5f542-3dd7-7ae3-4ed2-027c6a5feda0/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "效率",
+          "type": "free",
+          "page": "app/cn-6503905670.html",
+          "rating": 5,
+          "normal": "¥39.90",
+          "current": "免费",
+          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -3070,19 +3070,6 @@
           "region": "cn"
         },
         {
-          "id": "6809207083",
-          "name": "Glassiu 浏览器: 视频嗅探&油猴脚本&广告拦截",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/b8/68/09b868af-b8a7-de7d-cbf1-9ea0a17033fc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6809207083.html",
-          "rating": 4.3125,
-          "normal": "¥8.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
           "id": "6761336662",
           "name": "Video Transcriber - Captions",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/06/bc/6306bcef-371c-4bf8-5de5-79bc3186d32e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
@@ -3250,6 +3237,19 @@
           "current": "免费",
           "has_iap": false,
           "region": "cn"
+        },
+        {
+          "id": "6503905670",
+          "name": "NextNote - AI笔记与写作",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/33/c5/f5/33c5f542-3dd7-7ae3-4ed2-027c6a5feda0/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "效率",
+          "type": "free",
+          "page": "app/cn-6503905670.html",
+          "rating": 5,
+          "normal": "¥39.90",
+          "current": "免费",
+          "has_iap": true,
+          "region": "cn"
         }
       ],
       "page": "app/cn-1011979611.html"
@@ -3346,19 +3346,6 @@
           "page": "app/cn-1512214163.html",
           "rating": 4.76271,
           "normal": "¥98.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
-          "id": "6809207083",
-          "name": "Glassiu 浏览器: 视频嗅探&油猴脚本&广告拦截",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/b8/68/09b868af-b8a7-de7d-cbf1-9ea0a17033fc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6809207083.html",
-          "rating": 4.3125,
-          "normal": "¥8.00",
           "current": "免费",
           "has_iap": false,
           "region": "cn"
@@ -3530,6 +3517,19 @@
           "normal": "¥15.00",
           "current": "免费",
           "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6503905670",
+          "name": "NextNote - AI笔记与写作",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/33/c5/f5/33c5f542-3dd7-7ae3-4ed2-027c6a5feda0/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "效率",
+          "type": "free",
+          "page": "app/cn-6503905670.html",
+          "rating": 5,
+          "normal": "¥39.90",
+          "current": "免费",
+          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -3637,19 +3637,6 @@
           "region": "cn"
         },
         {
-          "id": "6809207083",
-          "name": "Glassiu 浏览器: 视频嗅探&油猴脚本&广告拦截",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/b8/68/09b868af-b8a7-de7d-cbf1-9ea0a17033fc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6809207083.html",
-          "rating": 4.3125,
-          "normal": "¥8.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
           "id": "6761336662",
           "name": "Video Transcriber - Captions",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/06/bc/6306bcef-371c-4bf8-5de5-79bc3186d32e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
@@ -3817,6 +3804,19 @@
           "current": "免费",
           "has_iap": false,
           "region": "cn"
+        },
+        {
+          "id": "6503905670",
+          "name": "NextNote - AI笔记与写作",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/33/c5/f5/33c5f542-3dd7-7ae3-4ed2-027c6a5feda0/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "效率",
+          "type": "free",
+          "page": "app/cn-6503905670.html",
+          "rating": 5,
+          "normal": "¥39.90",
+          "current": "免费",
+          "has_iap": true,
+          "region": "cn"
         }
       ],
       "page": "app/cn-1592571318.html"
@@ -3923,19 +3923,6 @@
           "region": "cn"
         },
         {
-          "id": "6809207083",
-          "name": "Glassiu 浏览器: 视频嗅探&油猴脚本&广告拦截",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/b8/68/09b868af-b8a7-de7d-cbf1-9ea0a17033fc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6809207083.html",
-          "rating": 4.3125,
-          "normal": "¥8.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
           "id": "6761336662",
           "name": "Video Transcriber - Captions",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/06/bc/6306bcef-371c-4bf8-5de5-79bc3186d32e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
@@ -4103,6 +4090,19 @@
           "current": "免费",
           "has_iap": true,
           "region": "cn"
+        },
+        {
+          "id": "6503905670",
+          "name": "NextNote - AI笔记与写作",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/33/c5/f5/33c5f542-3dd7-7ae3-4ed2-027c6a5feda0/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "效率",
+          "type": "free",
+          "page": "app/cn-6503905670.html",
+          "rating": 5,
+          "normal": "¥39.90",
+          "current": "免费",
+          "has_iap": true,
+          "region": "cn"
         }
       ],
       "page": "app/cn-6443696943.html"
@@ -4114,7 +4114,7 @@
       "genre": "效率",
       "normal": "¥39.90",
       "current": "免费",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d2/76/81/d276810f-1047-1af0-af38-2dc534c2db2e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/33/c5/f5/33c5f542-3dd7-7ae3-4ed2-027c6a5feda0/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
       "rating": 5,
       "url": "https://apps.apple.com/cn/app/nextnote-ai%E7%AC%94%E8%AE%B0%E4%B8%8E%E5%86%99%E4%BD%9C/id6503905670?uo=4",
       "region": "cn",
@@ -4194,19 +4194,6 @@
           "region": "cn"
         },
         {
-          "id": "6809207083",
-          "name": "Glassiu 浏览器: 视频嗅探&油猴脚本&广告拦截",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/b8/68/09b868af-b8a7-de7d-cbf1-9ea0a17033fc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6809207083.html",
-          "rating": 4.3125,
-          "normal": "¥8.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
           "id": "6761336662",
           "name": "Video Transcriber - Captions",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/06/bc/6306bcef-371c-4bf8-5de5-79bc3186d32e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
@@ -4373,6 +4360,19 @@
           "normal": "¥15.00",
           "current": "免费",
           "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "6443696943",
+          "name": "Mockup Screenshot",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/13/f7/28/13f728ab-3f57-99c7-6611-234b63cce2c7/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+          "genre": "软件开发工具",
+          "type": "free",
+          "page": "app/cn-6443696943.html",
+          "rating": 5,
+          "normal": "¥15.00",
+          "current": "免费",
+          "has_iap": false,
           "region": "cn"
         }
       ],
@@ -4490,19 +4490,6 @@
           "region": "cn"
         },
         {
-          "id": "6809207083",
-          "name": "Glassiu 浏览器: 视频嗅探&油猴脚本&广告拦截",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/b8/68/09b868af-b8a7-de7d-cbf1-9ea0a17033fc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6809207083.html",
-          "rating": 4.3125,
-          "normal": "¥8.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
           "id": "6761336662",
           "name": "Video Transcriber - Captions",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/06/bc/6306bcef-371c-4bf8-5de5-79bc3186d32e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
@@ -4669,6 +4656,19 @@
           "normal": "¥15.00",
           "current": "免费",
           "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "6443696943",
+          "name": "Mockup Screenshot",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/13/f7/28/13f728ab-3f57-99c7-6611-234b63cce2c7/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+          "genre": "软件开发工具",
+          "type": "free",
+          "page": "app/cn-6443696943.html",
+          "rating": 5,
+          "normal": "¥15.00",
+          "current": "免费",
+          "has_iap": false,
           "region": "cn"
         }
       ],
@@ -4786,19 +4786,6 @@
           "region": "cn"
         },
         {
-          "id": "6809207083",
-          "name": "Glassiu 浏览器: 视频嗅探&油猴脚本&广告拦截",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/b8/68/09b868af-b8a7-de7d-cbf1-9ea0a17033fc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6809207083.html",
-          "rating": 4.3125,
-          "normal": "¥8.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
           "id": "6761336662",
           "name": "Video Transcriber - Captions",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/06/bc/6306bcef-371c-4bf8-5de5-79bc3186d32e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
@@ -4965,6 +4952,19 @@
           "normal": "¥15.00",
           "current": "免费",
           "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "6443696943",
+          "name": "Mockup Screenshot",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/13/f7/28/13f728ab-3f57-99c7-6611-234b63cce2c7/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+          "genre": "软件开发工具",
+          "type": "free",
+          "page": "app/cn-6443696943.html",
+          "rating": 5,
+          "normal": "¥15.00",
+          "current": "免费",
+          "has_iap": false,
           "region": "cn"
         }
       ],
@@ -5152,19 +5152,6 @@
           "region": "cn"
         },
         {
-          "id": "6809207083",
-          "name": "Glassiu 浏览器: 视频嗅探&油猴脚本&广告拦截",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/b8/68/09b868af-b8a7-de7d-cbf1-9ea0a17033fc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6809207083.html",
-          "rating": 4.3125,
-          "normal": "¥8.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
           "id": "6761336662",
           "name": "Video Transcriber - Captions",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/06/bc/6306bcef-371c-4bf8-5de5-79bc3186d32e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
@@ -5331,6 +5318,19 @@
           "normal": "¥15.00",
           "current": "免费",
           "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "6443696943",
+          "name": "Mockup Screenshot",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/13/f7/28/13f728ab-3f57-99c7-6611-234b63cce2c7/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+          "genre": "软件开发工具",
+          "type": "free",
+          "page": "app/cn-6443696943.html",
+          "rating": 5,
+          "normal": "¥15.00",
+          "current": "免费",
+          "has_iap": false,
           "region": "cn"
         }
       ],
@@ -5423,19 +5423,6 @@
           "region": "cn"
         },
         {
-          "id": "6809207083",
-          "name": "Glassiu 浏览器: 视频嗅探&油猴脚本&广告拦截",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/b8/68/09b868af-b8a7-de7d-cbf1-9ea0a17033fc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6809207083.html",
-          "rating": 4.3125,
-          "normal": "¥8.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
           "id": "6761336662",
           "name": "Video Transcriber - Captions",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/06/bc/6306bcef-371c-4bf8-5de5-79bc3186d32e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
@@ -5602,6 +5589,19 @@
           "normal": "¥15.00",
           "current": "免费",
           "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "6443696943",
+          "name": "Mockup Screenshot",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/13/f7/28/13f728ab-3f57-99c7-6611-234b63cce2c7/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+          "genre": "软件开发工具",
+          "type": "free",
+          "page": "app/cn-6443696943.html",
+          "rating": 5,
+          "normal": "¥15.00",
+          "current": "免费",
+          "has_iap": false,
           "region": "cn"
         }
       ],
@@ -5714,19 +5714,6 @@
           "region": "cn"
         },
         {
-          "id": "6809207083",
-          "name": "Glassiu 浏览器: 视频嗅探&油猴脚本&广告拦截",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/b8/68/09b868af-b8a7-de7d-cbf1-9ea0a17033fc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6809207083.html",
-          "rating": 4.3125,
-          "normal": "¥8.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
           "id": "6761336662",
           "name": "Video Transcriber - Captions",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/06/bc/6306bcef-371c-4bf8-5de5-79bc3186d32e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
@@ -5893,6 +5880,19 @@
           "normal": "¥15.00",
           "current": "免费",
           "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "6443696943",
+          "name": "Mockup Screenshot",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/13/f7/28/13f728ab-3f57-99c7-6611-234b63cce2c7/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+          "genre": "软件开发工具",
+          "type": "free",
+          "page": "app/cn-6443696943.html",
+          "rating": 5,
+          "normal": "¥15.00",
+          "current": "免费",
+          "has_iap": false,
           "region": "cn"
         }
       ],
@@ -6045,19 +6045,6 @@
           "region": "cn"
         },
         {
-          "id": "6809207083",
-          "name": "Glassiu 浏览器: 视频嗅探&油猴脚本&广告拦截",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/b8/68/09b868af-b8a7-de7d-cbf1-9ea0a17033fc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6809207083.html",
-          "rating": 4.3125,
-          "normal": "¥8.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
           "id": "6761336662",
           "name": "Video Transcriber - Captions",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/06/bc/6306bcef-371c-4bf8-5de5-79bc3186d32e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
@@ -6224,6 +6211,19 @@
           "normal": "¥15.00",
           "current": "免费",
           "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "6443696943",
+          "name": "Mockup Screenshot",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/13/f7/28/13f728ab-3f57-99c7-6611-234b63cce2c7/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+          "genre": "软件开发工具",
+          "type": "free",
+          "page": "app/cn-6443696943.html",
+          "rating": 5,
+          "normal": "¥15.00",
+          "current": "免费",
+          "has_iap": false,
           "region": "cn"
         }
       ],
@@ -6316,19 +6316,6 @@
           "region": "cn"
         },
         {
-          "id": "6809207083",
-          "name": "Glassiu 浏览器: 视频嗅探&油猴脚本&广告拦截",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/b8/68/09b868af-b8a7-de7d-cbf1-9ea0a17033fc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6809207083.html",
-          "rating": 4.3125,
-          "normal": "¥8.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
           "id": "6761336662",
           "name": "Video Transcriber - Captions",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/06/bc/6306bcef-371c-4bf8-5de5-79bc3186d32e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
@@ -6495,6 +6482,19 @@
           "normal": "¥15.00",
           "current": "免费",
           "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "6443696943",
+          "name": "Mockup Screenshot",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/13/f7/28/13f728ab-3f57-99c7-6611-234b63cce2c7/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+          "genre": "软件开发工具",
+          "type": "free",
+          "page": "app/cn-6443696943.html",
+          "rating": 5,
+          "normal": "¥15.00",
+          "current": "免费",
+          "has_iap": false,
           "region": "cn"
         }
       ],
@@ -6617,19 +6617,6 @@
           "region": "cn"
         },
         {
-          "id": "6809207083",
-          "name": "Glassiu 浏览器: 视频嗅探&油猴脚本&广告拦截",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/b8/68/09b868af-b8a7-de7d-cbf1-9ea0a17033fc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6809207083.html",
-          "rating": 4.3125,
-          "normal": "¥8.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
           "id": "6761336662",
           "name": "Video Transcriber - Captions",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/06/bc/6306bcef-371c-4bf8-5de5-79bc3186d32e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
@@ -6796,6 +6783,19 @@
           "normal": "¥15.00",
           "current": "免费",
           "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "6443696943",
+          "name": "Mockup Screenshot",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/13/f7/28/13f728ab-3f57-99c7-6611-234b63cce2c7/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+          "genre": "软件开发工具",
+          "type": "free",
+          "page": "app/cn-6443696943.html",
+          "rating": 5,
+          "normal": "¥15.00",
+          "current": "免费",
+          "has_iap": false,
           "region": "cn"
         }
       ],
@@ -6888,19 +6888,6 @@
           "region": "cn"
         },
         {
-          "id": "6809207083",
-          "name": "Glassiu 浏览器: 视频嗅探&油猴脚本&广告拦截",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/b8/68/09b868af-b8a7-de7d-cbf1-9ea0a17033fc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6809207083.html",
-          "rating": 4.3125,
-          "normal": "¥8.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
           "id": "6761336662",
           "name": "Video Transcriber - Captions",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/06/bc/6306bcef-371c-4bf8-5de5-79bc3186d32e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
@@ -7067,6 +7054,19 @@
           "normal": "¥15.00",
           "current": "免费",
           "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "6443696943",
+          "name": "Mockup Screenshot",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/13/f7/28/13f728ab-3f57-99c7-6611-234b63cce2c7/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+          "genre": "软件开发工具",
+          "type": "free",
+          "page": "app/cn-6443696943.html",
+          "rating": 5,
+          "normal": "¥15.00",
+          "current": "免费",
+          "has_iap": false,
           "region": "cn"
         }
       ],
@@ -7179,19 +7179,6 @@
           "region": "cn"
         },
         {
-          "id": "6809207083",
-          "name": "Glassiu 浏览器: 视频嗅探&油猴脚本&广告拦截",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/b8/68/09b868af-b8a7-de7d-cbf1-9ea0a17033fc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6809207083.html",
-          "rating": 4.3125,
-          "normal": "¥8.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
           "id": "6761336662",
           "name": "Video Transcriber - Captions",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/06/bc/6306bcef-371c-4bf8-5de5-79bc3186d32e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
@@ -7358,6 +7345,19 @@
           "normal": "¥15.00",
           "current": "免费",
           "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "6443696943",
+          "name": "Mockup Screenshot",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/13/f7/28/13f728ab-3f57-99c7-6611-234b63cce2c7/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+          "genre": "软件开发工具",
+          "type": "free",
+          "page": "app/cn-6443696943.html",
+          "rating": 5,
+          "normal": "¥15.00",
+          "current": "免费",
+          "has_iap": false,
           "region": "cn"
         }
       ],
@@ -7540,19 +7540,6 @@
           "region": "cn"
         },
         {
-          "id": "6809207083",
-          "name": "Glassiu 浏览器: 视频嗅探&油猴脚本&广告拦截",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/b8/68/09b868af-b8a7-de7d-cbf1-9ea0a17033fc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6809207083.html",
-          "rating": 4.3125,
-          "normal": "¥8.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
           "id": "6761336662",
           "name": "Video Transcriber - Captions",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/06/bc/6306bcef-371c-4bf8-5de5-79bc3186d32e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
@@ -7719,6 +7706,19 @@
           "normal": "¥15.00",
           "current": "免费",
           "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "6443696943",
+          "name": "Mockup Screenshot",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/13/f7/28/13f728ab-3f57-99c7-6611-234b63cce2c7/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+          "genre": "软件开发工具",
+          "type": "free",
+          "page": "app/cn-6443696943.html",
+          "rating": 5,
+          "normal": "¥15.00",
+          "current": "免费",
+          "has_iap": false,
           "region": "cn"
         }
       ],
@@ -7826,19 +7826,6 @@
           "region": "cn"
         },
         {
-          "id": "6809207083",
-          "name": "Glassiu 浏览器: 视频嗅探&油猴脚本&广告拦截",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/b8/68/09b868af-b8a7-de7d-cbf1-9ea0a17033fc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6809207083.html",
-          "rating": 4.3125,
-          "normal": "¥8.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
           "id": "6761336662",
           "name": "Video Transcriber - Captions",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/06/bc/6306bcef-371c-4bf8-5de5-79bc3186d32e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
@@ -8005,6 +7992,19 @@
           "normal": "¥15.00",
           "current": "免费",
           "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "6443696943",
+          "name": "Mockup Screenshot",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/13/f7/28/13f728ab-3f57-99c7-6611-234b63cce2c7/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+          "genre": "软件开发工具",
+          "type": "free",
+          "page": "app/cn-6443696943.html",
+          "rating": 5,
+          "normal": "¥15.00",
+          "current": "免费",
+          "has_iap": false,
           "region": "cn"
         }
       ],
@@ -8112,19 +8112,6 @@
           "region": "cn"
         },
         {
-          "id": "6809207083",
-          "name": "Glassiu 浏览器: 视频嗅探&油猴脚本&广告拦截",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/b8/68/09b868af-b8a7-de7d-cbf1-9ea0a17033fc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6809207083.html",
-          "rating": 4.3125,
-          "normal": "¥8.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
           "id": "6761336662",
           "name": "Video Transcriber - Captions",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/06/bc/6306bcef-371c-4bf8-5de5-79bc3186d32e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
@@ -8291,6 +8278,19 @@
           "normal": "¥15.00",
           "current": "免费",
           "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "6443696943",
+          "name": "Mockup Screenshot",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/13/f7/28/13f728ab-3f57-99c7-6611-234b63cce2c7/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+          "genre": "软件开发工具",
+          "type": "free",
+          "page": "app/cn-6443696943.html",
+          "rating": 5,
+          "normal": "¥15.00",
+          "current": "免费",
+          "has_iap": false,
           "region": "cn"
         }
       ],
@@ -8408,19 +8408,6 @@
           "region": "cn"
         },
         {
-          "id": "6809207083",
-          "name": "Glassiu 浏览器: 视频嗅探&油猴脚本&广告拦截",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/b8/68/09b868af-b8a7-de7d-cbf1-9ea0a17033fc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6809207083.html",
-          "rating": 4.3125,
-          "normal": "¥8.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
           "id": "6761336662",
           "name": "Video Transcriber - Captions",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/06/bc/6306bcef-371c-4bf8-5de5-79bc3186d32e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
@@ -8587,6 +8574,19 @@
           "normal": "¥15.00",
           "current": "免费",
           "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "6443696943",
+          "name": "Mockup Screenshot",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/13/f7/28/13f728ab-3f57-99c7-6611-234b63cce2c7/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+          "genre": "软件开发工具",
+          "type": "free",
+          "page": "app/cn-6443696943.html",
+          "rating": 5,
+          "normal": "¥15.00",
+          "current": "免费",
+          "has_iap": false,
           "region": "cn"
         }
       ],
@@ -8704,19 +8704,6 @@
           "region": "cn"
         },
         {
-          "id": "6809207083",
-          "name": "Glassiu 浏览器: 视频嗅探&油猴脚本&广告拦截",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/b8/68/09b868af-b8a7-de7d-cbf1-9ea0a17033fc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6809207083.html",
-          "rating": 4.3125,
-          "normal": "¥8.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
           "id": "6761336662",
           "name": "Video Transcriber - Captions",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/06/bc/6306bcef-371c-4bf8-5de5-79bc3186d32e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
@@ -8883,6 +8870,19 @@
           "normal": "¥15.00",
           "current": "免费",
           "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "6443696943",
+          "name": "Mockup Screenshot",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/13/f7/28/13f728ab-3f57-99c7-6611-234b63cce2c7/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+          "genre": "软件开发工具",
+          "type": "free",
+          "page": "app/cn-6443696943.html",
+          "rating": 5,
+          "normal": "¥15.00",
+          "current": "免费",
+          "has_iap": false,
           "region": "cn"
         }
       ],
@@ -9050,19 +9050,6 @@
           "region": "cn"
         },
         {
-          "id": "6809207083",
-          "name": "Glassiu 浏览器: 视频嗅探&油猴脚本&广告拦截",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/b8/68/09b868af-b8a7-de7d-cbf1-9ea0a17033fc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6809207083.html",
-          "rating": 4.3125,
-          "normal": "¥8.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
           "id": "6761336662",
           "name": "Video Transcriber - Captions",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/06/bc/6306bcef-371c-4bf8-5de5-79bc3186d32e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
@@ -9229,371 +9216,23 @@
           "normal": "¥15.00",
           "current": "免费",
           "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "6443696943",
+          "name": "Mockup Screenshot",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/13/f7/28/13f728ab-3f57-99c7-6611-234b63cce2c7/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+          "genre": "软件开发工具",
+          "type": "free",
+          "page": "app/cn-6443696943.html",
+          "rating": 5,
+          "normal": "¥15.00",
+          "current": "免费",
+          "has_iap": false,
           "region": "cn"
         }
       ],
       "page": "app/cn-6761185144.html"
-    },
-    {
-      "id": "6799431765",
-      "name": "文绉绉 甪端",
-      "dev": "新宇 刘",
-      "genre": "教育",
-      "normal": "¥12.00",
-      "current": "免费",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/89/3a/06/893a0696-fda1-375b-1ecd-0cff996234f5/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-      "rating": 5,
-      "url": "https://apps.apple.com/cn/app/%E6%96%87%E7%BB%89%E7%BB%89-%E7%94%AA%E7%AB%AF/id6799431765?uo=4",
-      "region": "cn",
-      "type": "free",
-      "is_new": false,
-      "series": [
-        3.0,
-        3.0,
-        3.0,
-        3.0,
-        6.0,
-        12.0,
-        6.0,
-        6.0,
-        6.0,
-        6.0,
-        3.0,
-        3.0,
-        3.0,
-        3.0,
-        3.0,
-        3.0,
-        3.0,
-        3.0,
-        3.0,
-        0,
-        0
-      ],
-      "phistory": [
-        {
-          "d": "2026-10-22",
-          "p": 3.0
-        },
-        {
-          "d": "2026-10-23",
-          "p": 3.0
-        },
-        {
-          "d": "2026-10-24",
-          "p": 3.0
-        },
-        {
-          "d": "2026-10-25",
-          "p": 3.0
-        },
-        {
-          "d": "2026-10-26",
-          "p": 6.0
-        },
-        {
-          "d": "2026-10-27",
-          "p": 12.0
-        },
-        {
-          "d": "2026-10-28",
-          "p": 6.0
-        },
-        {
-          "d": "2026-10-29",
-          "p": 6.0
-        },
-        {
-          "d": "2026-10-30",
-          "p": 6.0
-        },
-        {
-          "d": "2026-10-31",
-          "p": 6.0
-        },
-        {
-          "d": "2026-11-01",
-          "p": 3.0
-        },
-        {
-          "d": "2026-11-02",
-          "p": 3.0
-        },
-        {
-          "d": "2026-11-03",
-          "p": 3.0
-        },
-        {
-          "d": "2026-11-04",
-          "p": 3.0
-        },
-        {
-          "d": "2026-11-05",
-          "p": 3.0
-        },
-        {
-          "d": "2026-11-06",
-          "p": 3.0
-        },
-        {
-          "d": "2026-11-07",
-          "p": 3.0
-        },
-        {
-          "d": "2026-11-08",
-          "p": 3.0
-        },
-        {
-          "d": "2026-11-09",
-          "p": 3.0
-        },
-        {
-          "d": "2026-11-10",
-          "p": 0
-        },
-        {
-          "d": "2026-11-11",
-          "p": 0
-        }
-      ],
-      "has_iap": false,
-      "rel": [
-        {
-          "id": "6802062130",
-          "name": "投刻 - 空气投篮",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5f/df/ec/5fdfec7f-e020-5fe9-e149-255c14c6c6a2/AppIcon-1x_U007epad-0-1-0-85-220-0.png/512x512bb.jpg",
-          "genre": "体育",
-          "type": "deal",
-          "page": "app/cn-6802062130.html",
-          "rating": 5,
-          "normal": "¥9.90",
-          "current": "¥4.80",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
-          "id": "6752586685",
-          "name": "环游旅记 - 空间场景日记",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8f/ea/a9/8feaa9e3-6d1f-3b40-b3fb-ea9b132de47e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "旅游",
-          "type": "deal",
-          "page": "app/cn-6752586685.html",
-          "rating": 5,
-          "normal": "¥58.00",
-          "current": "¥28.00",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
-          "id": "1270382069",
-          "name": "Brightly - 修复过暗的照片",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/96/fd/ab/96fdab3f-7188-6d74-4b23-04cd322fbad6/AppIcon-0-1x_U007epad-0-1-0-85-220-0.png/512x512bb.jpg",
-          "genre": "摄影与录像",
-          "type": "free",
-          "page": "app/cn-1270382069.html",
-          "rating": 4.81538,
-          "normal": "¥38.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
-          "id": "1512214163",
-          "name": "WEATHERCAST 24  当地天气预报",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/c4/b9/a9/c4b9a9b3-c681-1d32-264b-20d42e721046/AppIcon-0-1x_U007emarketing-0-7-0-85-220-0.png/512x512bb.jpg",
-          "genre": "天气",
-          "type": "free",
-          "page": "app/cn-1512214163.html",
-          "rating": 4.76271,
-          "normal": "¥98.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
-          "id": "6809207083",
-          "name": "Glassiu 浏览器: 视频嗅探&油猴脚本&广告拦截",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/b8/68/09b868af-b8a7-de7d-cbf1-9ea0a17033fc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6809207083.html",
-          "rating": 4.3125,
-          "normal": "¥8.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
-          "id": "6761336662",
-          "name": "Video Transcriber - Captions",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/06/bc/6306bcef-371c-4bf8-5de5-79bc3186d32e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "效率",
-          "type": "deal",
-          "page": "app/cn-6761336662.html",
-          "rating": 4,
-          "normal": "¥48.00",
-          "current": "¥3.00",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
-          "id": "6785533800",
-          "name": "腕温经期 - 根据手腕温度预测经期",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9f/9f/19/9f9f1996-d024-01be-7247-e092f0aa203e/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
-          "genre": "健康健美",
-          "type": "free",
-          "page": "app/cn-6785533800.html",
-          "rating": 4,
-          "normal": "¥8.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
-          "id": "1619885469",
-          "name": "点击星球 - Click Planet Spacecraft",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/08/eb/2a/08eb2a69-b23d-6176-a475-6dc6959508f2/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-1619885469.html",
-          "rating": 3.4918,
-          "normal": "¥98.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
-          "id": "6563141268",
-          "name": "ADHD Tool - Do This",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/51/b7/e6/51b7e666-d423-5138-f32f-58b500207b05/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
-          "genre": "效率",
-          "type": "free",
-          "page": "app/cn-6563141268.html",
-          "rating": 5,
-          "normal": "¥28.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
-          "id": "1353909824",
-          "name": "Augmented Reality UFO Stickers",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/a7/40/bf/a740bf45-5b69-8267-4c4d-04f2d23f648d/AppIcon-1x_U007emarketing-0-10-0-85-220.png/512x512bb.jpg",
-          "genre": "摄影与录像",
-          "type": "free",
-          "page": "app/cn-1353909824.html",
-          "rating": 5,
-          "normal": "¥0.99",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
-          "id": "405245734",
-          "name": "Colorfader",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/71/e2/e8/71e2e86d-423c-772c-bdb0-1ad04c9a4b56/AppIcon-1x_U007emarketing-0-8-0-85-220-0.jpeg/512x512bb.jpg",
-          "genre": "摄影与录像",
-          "type": "free",
-          "page": "app/cn-405245734.html",
-          "rating": 5,
-          "normal": "¥8.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
-          "id": "6760843522",
-          "name": "Evil Otto",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a5/8d/d9/a58dd919-a3ee-d0fe-a106-012b99c70d5f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-          "genre": "音乐",
-          "type": "free",
-          "page": "app/cn-6760843522.html",
-          "rating": 5,
-          "normal": "¥38.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
-          "id": "6448124078",
-          "name": "Hip Hop Drummer: Boom Bap",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/45/a6/0e/45a60e45-f034-6245-4a7c-4a7da5f2636c/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-          "genre": "音乐",
-          "type": "free",
-          "page": "app/cn-6448124078.html",
-          "rating": 5,
-          "normal": "¥128.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
-          "id": "6782778566",
-          "name": "KinetBrief 会议纪要",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/62/6a/43/626a43ac-8951-6d79-ca0a-862f7d333ff0/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6782778566.html",
-          "rating": 5,
-          "normal": "¥6.99",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
-          "id": "1011979611",
-          "name": "Kompressor - Compress images",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/04/c1/e4/04c1e420-9586-be48-9524-0edcdef32a8f/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "摄影与录像",
-          "type": "free",
-          "page": "app/cn-1011979611.html",
-          "rating": 5,
-          "normal": "¥22.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
-          "id": "6787306687",
-          "name": "Lulla: Baby Sleep Sounds",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/76/ca/43/76ca4301-f5de-f8ca-429a-e20718edc87e/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
-          "genre": "健康健美",
-          "type": "deal",
-          "page": "app/cn-6787306687.html",
-          "rating": 5,
-          "normal": "¥48.00",
-          "current": "¥22.00",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
-          "id": "1437931490",
-          "name": "Magic Fish AR",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/17/0b/28/170b28d5-72e7-a1bb-04f5-ae11439c2062/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/512x512bb.jpg",
-          "genre": "游戏",
-          "type": "free",
-          "page": "app/cn-1437931490.html",
-          "rating": 5,
-          "normal": "¥0.99",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
-          "id": "1592571318",
-          "name": "MetaWeather: Weather Forecasts",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/45/03/ed/4503ed06-67bd-dc3c-b296-dcaee792490e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "天气",
-          "type": "free",
-          "page": "app/cn-1592571318.html",
-          "rating": 5,
-          "normal": "¥15.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        }
-      ],
-      "page": "app/cn-6799431765.html"
     },
     {
       "id": "6446350660",
@@ -9692,19 +9331,6 @@
           "region": "cn"
         },
         {
-          "id": "6809207083",
-          "name": "Glassiu 浏览器: 视频嗅探&油猴脚本&广告拦截",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/b8/68/09b868af-b8a7-de7d-cbf1-9ea0a17033fc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6809207083.html",
-          "rating": 4.3125,
-          "normal": "¥8.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
           "id": "6761336662",
           "name": "Video Transcriber - Captions",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/06/bc/6306bcef-371c-4bf8-5de5-79bc3186d32e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
@@ -9871,6 +9497,19 @@
           "normal": "¥15.00",
           "current": "免费",
           "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "6443696943",
+          "name": "Mockup Screenshot",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/13/f7/28/13f728ab-3f57-99c7-6611-234b63cce2c7/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+          "genre": "软件开发工具",
+          "type": "free",
+          "page": "app/cn-6443696943.html",
+          "rating": 5,
+          "normal": "¥15.00",
+          "current": "免费",
+          "has_iap": false,
           "region": "cn"
         }
       ],
@@ -10008,19 +9647,6 @@
           "region": "cn"
         },
         {
-          "id": "6809207083",
-          "name": "Glassiu 浏览器: 视频嗅探&油猴脚本&广告拦截",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/b8/68/09b868af-b8a7-de7d-cbf1-9ea0a17033fc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6809207083.html",
-          "rating": 4.3125,
-          "normal": "¥8.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
           "id": "6761336662",
           "name": "Video Transcriber - Captions",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/06/bc/6306bcef-371c-4bf8-5de5-79bc3186d32e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
@@ -10187,6 +9813,19 @@
           "normal": "¥15.00",
           "current": "免费",
           "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "6443696943",
+          "name": "Mockup Screenshot",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/13/f7/28/13f728ab-3f57-99c7-6611-234b63cce2c7/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+          "genre": "软件开发工具",
+          "type": "free",
+          "page": "app/cn-6443696943.html",
+          "rating": 5,
+          "normal": "¥15.00",
+          "current": "免费",
+          "has_iap": false,
           "region": "cn"
         }
       ],
@@ -10294,19 +9933,6 @@
           "region": "cn"
         },
         {
-          "id": "6809207083",
-          "name": "Glassiu 浏览器: 视频嗅探&油猴脚本&广告拦截",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/b8/68/09b868af-b8a7-de7d-cbf1-9ea0a17033fc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6809207083.html",
-          "rating": 4.3125,
-          "normal": "¥8.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
           "id": "6761336662",
           "name": "Video Transcriber - Captions",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/06/bc/6306bcef-371c-4bf8-5de5-79bc3186d32e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
@@ -10473,6 +10099,19 @@
           "normal": "¥15.00",
           "current": "免费",
           "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "6443696943",
+          "name": "Mockup Screenshot",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/13/f7/28/13f728ab-3f57-99c7-6611-234b63cce2c7/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+          "genre": "软件开发工具",
+          "type": "free",
+          "page": "app/cn-6443696943.html",
+          "rating": 5,
+          "normal": "¥15.00",
+          "current": "免费",
+          "has_iap": false,
           "region": "cn"
         }
       ],
@@ -10655,19 +10294,6 @@
           "region": "cn"
         },
         {
-          "id": "6809207083",
-          "name": "Glassiu 浏览器: 视频嗅探&油猴脚本&广告拦截",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/b8/68/09b868af-b8a7-de7d-cbf1-9ea0a17033fc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6809207083.html",
-          "rating": 4.3125,
-          "normal": "¥8.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
           "id": "6761336662",
           "name": "Video Transcriber - Captions",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/06/bc/6306bcef-371c-4bf8-5de5-79bc3186d32e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
@@ -10834,6 +10460,19 @@
           "normal": "¥15.00",
           "current": "免费",
           "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "6443696943",
+          "name": "Mockup Screenshot",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/13/f7/28/13f728ab-3f57-99c7-6611-234b63cce2c7/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+          "genre": "软件开发工具",
+          "type": "free",
+          "page": "app/cn-6443696943.html",
+          "rating": 5,
+          "normal": "¥15.00",
+          "current": "免费",
+          "has_iap": false,
           "region": "cn"
         }
       ],
@@ -11011,19 +10650,6 @@
           "region": "cn"
         },
         {
-          "id": "6809207083",
-          "name": "Glassiu 浏览器: 视频嗅探&油猴脚本&广告拦截",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/b8/68/09b868af-b8a7-de7d-cbf1-9ea0a17033fc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6809207083.html",
-          "rating": 4.3125,
-          "normal": "¥8.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
           "id": "6761336662",
           "name": "Video Transcriber - Captions",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/06/bc/6306bcef-371c-4bf8-5de5-79bc3186d32e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
@@ -11190,6 +10816,19 @@
           "normal": "¥15.00",
           "current": "免费",
           "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "6443696943",
+          "name": "Mockup Screenshot",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/13/f7/28/13f728ab-3f57-99c7-6611-234b63cce2c7/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+          "genre": "软件开发工具",
+          "type": "free",
+          "page": "app/cn-6443696943.html",
+          "rating": 5,
+          "normal": "¥15.00",
+          "current": "免费",
+          "has_iap": false,
           "region": "cn"
         }
       ],
@@ -11302,19 +10941,6 @@
           "region": "cn"
         },
         {
-          "id": "6809207083",
-          "name": "Glassiu 浏览器: 视频嗅探&油猴脚本&广告拦截",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/b8/68/09b868af-b8a7-de7d-cbf1-9ea0a17033fc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6809207083.html",
-          "rating": 4.3125,
-          "normal": "¥8.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
           "id": "6761336662",
           "name": "Video Transcriber - Captions",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/06/bc/6306bcef-371c-4bf8-5de5-79bc3186d32e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
@@ -11481,6 +11107,19 @@
           "normal": "¥15.00",
           "current": "免费",
           "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "6443696943",
+          "name": "Mockup Screenshot",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/13/f7/28/13f728ab-3f57-99c7-6611-234b63cce2c7/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+          "genre": "软件开发工具",
+          "type": "free",
+          "page": "app/cn-6443696943.html",
+          "rating": 5,
+          "normal": "¥15.00",
+          "current": "免费",
+          "has_iap": false,
           "region": "cn"
         }
       ],
@@ -11598,19 +11237,6 @@
           "region": "cn"
         },
         {
-          "id": "6809207083",
-          "name": "Glassiu 浏览器: 视频嗅探&油猴脚本&广告拦截",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/b8/68/09b868af-b8a7-de7d-cbf1-9ea0a17033fc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6809207083.html",
-          "rating": 4.3125,
-          "normal": "¥8.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
           "id": "6761336662",
           "name": "Video Transcriber - Captions",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/06/bc/6306bcef-371c-4bf8-5de5-79bc3186d32e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
@@ -11777,6 +11403,19 @@
           "normal": "¥15.00",
           "current": "免费",
           "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "6443696943",
+          "name": "Mockup Screenshot",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/13/f7/28/13f728ab-3f57-99c7-6611-234b63cce2c7/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+          "genre": "软件开发工具",
+          "type": "free",
+          "page": "app/cn-6443696943.html",
+          "rating": 5,
+          "normal": "¥15.00",
+          "current": "免费",
+          "has_iap": false,
           "region": "cn"
         }
       ],
@@ -11879,19 +11518,6 @@
           "region": "cn"
         },
         {
-          "id": "6809207083",
-          "name": "Glassiu 浏览器: 视频嗅探&油猴脚本&广告拦截",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/b8/68/09b868af-b8a7-de7d-cbf1-9ea0a17033fc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6809207083.html",
-          "rating": 4.3125,
-          "normal": "¥8.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
           "id": "6761336662",
           "name": "Video Transcriber - Captions",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/06/bc/6306bcef-371c-4bf8-5de5-79bc3186d32e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
@@ -12058,6 +11684,19 @@
           "normal": "¥15.00",
           "current": "免费",
           "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "6443696943",
+          "name": "Mockup Screenshot",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/13/f7/28/13f728ab-3f57-99c7-6611-234b63cce2c7/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+          "genre": "软件开发工具",
+          "type": "free",
+          "page": "app/cn-6443696943.html",
+          "rating": 5,
+          "normal": "¥15.00",
+          "current": "免费",
+          "has_iap": false,
           "region": "cn"
         }
       ],
@@ -12180,19 +11819,6 @@
           "region": "cn"
         },
         {
-          "id": "6809207083",
-          "name": "Glassiu 浏览器: 视频嗅探&油猴脚本&广告拦截",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/b8/68/09b868af-b8a7-de7d-cbf1-9ea0a17033fc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6809207083.html",
-          "rating": 4.3125,
-          "normal": "¥8.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
           "id": "6761336662",
           "name": "Video Transcriber - Captions",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/06/bc/6306bcef-371c-4bf8-5de5-79bc3186d32e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
@@ -12359,6 +11985,19 @@
           "normal": "¥15.00",
           "current": "免费",
           "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "6443696943",
+          "name": "Mockup Screenshot",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/13/f7/28/13f728ab-3f57-99c7-6611-234b63cce2c7/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+          "genre": "软件开发工具",
+          "type": "free",
+          "page": "app/cn-6443696943.html",
+          "rating": 5,
+          "normal": "¥15.00",
+          "current": "免费",
+          "has_iap": false,
           "region": "cn"
         }
       ],
@@ -12531,19 +12170,6 @@
           "region": "cn"
         },
         {
-          "id": "6809207083",
-          "name": "Glassiu 浏览器: 视频嗅探&油猴脚本&广告拦截",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/b8/68/09b868af-b8a7-de7d-cbf1-9ea0a17033fc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6809207083.html",
-          "rating": 4.3125,
-          "normal": "¥8.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
           "id": "6761336662",
           "name": "Video Transcriber - Captions",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/06/bc/6306bcef-371c-4bf8-5de5-79bc3186d32e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
@@ -12710,6 +12336,19 @@
           "normal": "¥15.00",
           "current": "免费",
           "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "6443696943",
+          "name": "Mockup Screenshot",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/13/f7/28/13f728ab-3f57-99c7-6611-234b63cce2c7/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+          "genre": "软件开发工具",
+          "type": "free",
+          "page": "app/cn-6443696943.html",
+          "rating": 5,
+          "normal": "¥15.00",
+          "current": "免费",
+          "has_iap": false,
           "region": "cn"
         }
       ],
@@ -12897,19 +12536,6 @@
           "region": "cn"
         },
         {
-          "id": "6809207083",
-          "name": "Glassiu 浏览器: 视频嗅探&油猴脚本&广告拦截",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/b8/68/09b868af-b8a7-de7d-cbf1-9ea0a17033fc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6809207083.html",
-          "rating": 4.3125,
-          "normal": "¥8.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
           "id": "6761336662",
           "name": "Video Transcriber - Captions",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/06/bc/6306bcef-371c-4bf8-5de5-79bc3186d32e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
@@ -13076,6 +12702,19 @@
           "normal": "¥15.00",
           "current": "免费",
           "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "6443696943",
+          "name": "Mockup Screenshot",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/13/f7/28/13f728ab-3f57-99c7-6611-234b63cce2c7/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+          "genre": "软件开发工具",
+          "type": "free",
+          "page": "app/cn-6443696943.html",
+          "rating": 5,
+          "normal": "¥15.00",
+          "current": "免费",
+          "has_iap": false,
           "region": "cn"
         }
       ],
@@ -13273,19 +12912,6 @@
           "region": "cn"
         },
         {
-          "id": "6809207083",
-          "name": "Glassiu 浏览器: 视频嗅探&油猴脚本&广告拦截",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/b8/68/09b868af-b8a7-de7d-cbf1-9ea0a17033fc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6809207083.html",
-          "rating": 4.3125,
-          "normal": "¥8.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
           "id": "6761336662",
           "name": "Video Transcriber - Captions",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/06/bc/6306bcef-371c-4bf8-5de5-79bc3186d32e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
@@ -13452,6 +13078,19 @@
           "normal": "¥15.00",
           "current": "免费",
           "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "6443696943",
+          "name": "Mockup Screenshot",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/13/f7/28/13f728ab-3f57-99c7-6611-234b63cce2c7/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+          "genre": "软件开发工具",
+          "type": "free",
+          "page": "app/cn-6443696943.html",
+          "rating": 5,
+          "normal": "¥15.00",
+          "current": "免费",
+          "has_iap": false,
           "region": "cn"
         }
       ],
@@ -13579,19 +13218,6 @@
           "region": "cn"
         },
         {
-          "id": "6809207083",
-          "name": "Glassiu 浏览器: 视频嗅探&油猴脚本&广告拦截",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/b8/68/09b868af-b8a7-de7d-cbf1-9ea0a17033fc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6809207083.html",
-          "rating": 4.3125,
-          "normal": "¥8.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
           "id": "6761336662",
           "name": "Video Transcriber - Captions",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/06/bc/6306bcef-371c-4bf8-5de5-79bc3186d32e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
@@ -13758,6 +13384,19 @@
           "normal": "¥15.00",
           "current": "免费",
           "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "6443696943",
+          "name": "Mockup Screenshot",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/13/f7/28/13f728ab-3f57-99c7-6611-234b63cce2c7/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+          "genre": "软件开发工具",
+          "type": "free",
+          "page": "app/cn-6443696943.html",
+          "rating": 5,
+          "normal": "¥15.00",
+          "current": "免费",
+          "has_iap": false,
           "region": "cn"
         }
       ],
@@ -13875,19 +13514,6 @@
           "region": "cn"
         },
         {
-          "id": "6809207083",
-          "name": "Glassiu 浏览器: 视频嗅探&油猴脚本&广告拦截",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/b8/68/09b868af-b8a7-de7d-cbf1-9ea0a17033fc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6809207083.html",
-          "rating": 4.3125,
-          "normal": "¥8.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
           "id": "6761336662",
           "name": "Video Transcriber - Captions",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/06/bc/6306bcef-371c-4bf8-5de5-79bc3186d32e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
@@ -14054,6 +13680,19 @@
           "normal": "¥15.00",
           "current": "免费",
           "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "6443696943",
+          "name": "Mockup Screenshot",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/13/f7/28/13f728ab-3f57-99c7-6611-234b63cce2c7/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+          "genre": "软件开发工具",
+          "type": "free",
+          "page": "app/cn-6443696943.html",
+          "rating": 5,
+          "normal": "¥15.00",
+          "current": "免费",
+          "has_iap": false,
           "region": "cn"
         }
       ],
@@ -14251,19 +13890,6 @@
           "region": "cn"
         },
         {
-          "id": "6809207083",
-          "name": "Glassiu 浏览器: 视频嗅探&油猴脚本&广告拦截",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/b8/68/09b868af-b8a7-de7d-cbf1-9ea0a17033fc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6809207083.html",
-          "rating": 4.3125,
-          "normal": "¥8.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
           "id": "6761336662",
           "name": "Video Transcriber - Captions",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/06/bc/6306bcef-371c-4bf8-5de5-79bc3186d32e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
@@ -14430,6 +14056,19 @@
           "normal": "¥15.00",
           "current": "免费",
           "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "6443696943",
+          "name": "Mockup Screenshot",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/13/f7/28/13f728ab-3f57-99c7-6611-234b63cce2c7/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+          "genre": "软件开发工具",
+          "type": "free",
+          "page": "app/cn-6443696943.html",
+          "rating": 5,
+          "normal": "¥15.00",
+          "current": "免费",
+          "has_iap": false,
           "region": "cn"
         }
       ],
@@ -14547,19 +14186,6 @@
           "region": "cn"
         },
         {
-          "id": "6809207083",
-          "name": "Glassiu 浏览器: 视频嗅探&油猴脚本&广告拦截",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/b8/68/09b868af-b8a7-de7d-cbf1-9ea0a17033fc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6809207083.html",
-          "rating": 4.3125,
-          "normal": "¥8.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
           "id": "6761336662",
           "name": "Video Transcriber - Captions",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/06/bc/6306bcef-371c-4bf8-5de5-79bc3186d32e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
@@ -14726,6 +14352,19 @@
           "normal": "¥15.00",
           "current": "免费",
           "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "6443696943",
+          "name": "Mockup Screenshot",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/13/f7/28/13f728ab-3f57-99c7-6611-234b63cce2c7/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+          "genre": "软件开发工具",
+          "type": "free",
+          "page": "app/cn-6443696943.html",
+          "rating": 5,
+          "normal": "¥15.00",
+          "current": "免费",
+          "has_iap": false,
           "region": "cn"
         }
       ],
@@ -14853,19 +14492,6 @@
           "region": "cn"
         },
         {
-          "id": "6809207083",
-          "name": "Glassiu 浏览器: 视频嗅探&油猴脚本&广告拦截",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/b8/68/09b868af-b8a7-de7d-cbf1-9ea0a17033fc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6809207083.html",
-          "rating": 4.3125,
-          "normal": "¥8.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
           "id": "6761336662",
           "name": "Video Transcriber - Captions",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/06/bc/6306bcef-371c-4bf8-5de5-79bc3186d32e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
@@ -15032,6 +14658,19 @@
           "normal": "¥15.00",
           "current": "免费",
           "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "6443696943",
+          "name": "Mockup Screenshot",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/13/f7/28/13f728ab-3f57-99c7-6611-234b63cce2c7/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+          "genre": "软件开发工具",
+          "type": "free",
+          "page": "app/cn-6443696943.html",
+          "rating": 5,
+          "normal": "¥15.00",
+          "current": "免费",
+          "has_iap": false,
           "region": "cn"
         }
       ],
@@ -15129,19 +14768,6 @@
           "region": "cn"
         },
         {
-          "id": "6809207083",
-          "name": "Glassiu 浏览器: 视频嗅探&油猴脚本&广告拦截",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/b8/68/09b868af-b8a7-de7d-cbf1-9ea0a17033fc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6809207083.html",
-          "rating": 4.3125,
-          "normal": "¥8.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
           "id": "6761336662",
           "name": "Video Transcriber - Captions",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/06/bc/6306bcef-371c-4bf8-5de5-79bc3186d32e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
@@ -15308,6 +14934,19 @@
           "normal": "¥15.00",
           "current": "免费",
           "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "6443696943",
+          "name": "Mockup Screenshot",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/13/f7/28/13f728ab-3f57-99c7-6611-234b63cce2c7/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+          "genre": "软件开发工具",
+          "type": "free",
+          "page": "app/cn-6443696943.html",
+          "rating": 5,
+          "normal": "¥15.00",
+          "current": "免费",
+          "has_iap": false,
           "region": "cn"
         }
       ],
@@ -15505,19 +15144,6 @@
           "region": "cn"
         },
         {
-          "id": "6809207083",
-          "name": "Glassiu 浏览器: 视频嗅探&油猴脚本&广告拦截",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/b8/68/09b868af-b8a7-de7d-cbf1-9ea0a17033fc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6809207083.html",
-          "rating": 4.3125,
-          "normal": "¥8.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
           "id": "6761336662",
           "name": "Video Transcriber - Captions",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/06/bc/6306bcef-371c-4bf8-5de5-79bc3186d32e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
@@ -15684,6 +15310,19 @@
           "normal": "¥15.00",
           "current": "免费",
           "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "6443696943",
+          "name": "Mockup Screenshot",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/13/f7/28/13f728ab-3f57-99c7-6611-234b63cce2c7/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+          "genre": "软件开发工具",
+          "type": "free",
+          "page": "app/cn-6443696943.html",
+          "rating": 5,
+          "normal": "¥15.00",
+          "current": "免费",
+          "has_iap": false,
           "region": "cn"
         }
       ],
@@ -15866,19 +15505,6 @@
           "region": "cn"
         },
         {
-          "id": "6809207083",
-          "name": "Glassiu 浏览器: 视频嗅探&油猴脚本&广告拦截",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/b8/68/09b868af-b8a7-de7d-cbf1-9ea0a17033fc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6809207083.html",
-          "rating": 4.3125,
-          "normal": "¥8.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
           "id": "6761336662",
           "name": "Video Transcriber - Captions",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/06/bc/6306bcef-371c-4bf8-5de5-79bc3186d32e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
@@ -16045,6 +15671,19 @@
           "normal": "¥15.00",
           "current": "免费",
           "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "6443696943",
+          "name": "Mockup Screenshot",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/13/f7/28/13f728ab-3f57-99c7-6611-234b63cce2c7/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+          "genre": "软件开发工具",
+          "type": "free",
+          "page": "app/cn-6443696943.html",
+          "rating": 5,
+          "normal": "¥15.00",
+          "current": "免费",
+          "has_iap": false,
           "region": "cn"
         }
       ],
@@ -16162,19 +15801,6 @@
           "region": "cn"
         },
         {
-          "id": "6809207083",
-          "name": "Glassiu 浏览器: 视频嗅探&油猴脚本&广告拦截",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/b8/68/09b868af-b8a7-de7d-cbf1-9ea0a17033fc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6809207083.html",
-          "rating": 4.3125,
-          "normal": "¥8.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
           "id": "6761336662",
           "name": "Video Transcriber - Captions",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/06/bc/6306bcef-371c-4bf8-5de5-79bc3186d32e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
@@ -16341,6 +15967,19 @@
           "normal": "¥15.00",
           "current": "免费",
           "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "6443696943",
+          "name": "Mockup Screenshot",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/13/f7/28/13f728ab-3f57-99c7-6611-234b63cce2c7/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+          "genre": "软件开发工具",
+          "type": "free",
+          "page": "app/cn-6443696943.html",
+          "rating": 5,
+          "normal": "¥15.00",
+          "current": "免费",
+          "has_iap": false,
           "region": "cn"
         }
       ],
@@ -16433,19 +16072,6 @@
           "region": "cn"
         },
         {
-          "id": "6809207083",
-          "name": "Glassiu 浏览器: 视频嗅探&油猴脚本&广告拦截",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/b8/68/09b868af-b8a7-de7d-cbf1-9ea0a17033fc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6809207083.html",
-          "rating": 4.3125,
-          "normal": "¥8.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
           "id": "6761336662",
           "name": "Video Transcriber - Captions",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/06/bc/6306bcef-371c-4bf8-5de5-79bc3186d32e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
@@ -16612,6 +16238,19 @@
           "normal": "¥15.00",
           "current": "免费",
           "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "6443696943",
+          "name": "Mockup Screenshot",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/13/f7/28/13f728ab-3f57-99c7-6611-234b63cce2c7/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+          "genre": "软件开发工具",
+          "type": "free",
+          "page": "app/cn-6443696943.html",
+          "rating": 5,
+          "normal": "¥15.00",
+          "current": "免费",
+          "has_iap": false,
           "region": "cn"
         }
       ],
@@ -16704,19 +16343,6 @@
           "region": "cn"
         },
         {
-          "id": "6809207083",
-          "name": "Glassiu 浏览器: 视频嗅探&油猴脚本&广告拦截",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/b8/68/09b868af-b8a7-de7d-cbf1-9ea0a17033fc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6809207083.html",
-          "rating": 4.3125,
-          "normal": "¥8.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
           "id": "6761336662",
           "name": "Video Transcriber - Captions",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/06/bc/6306bcef-371c-4bf8-5de5-79bc3186d32e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
@@ -16883,6 +16509,19 @@
           "normal": "¥15.00",
           "current": "免费",
           "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "6443696943",
+          "name": "Mockup Screenshot",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/13/f7/28/13f728ab-3f57-99c7-6611-234b63cce2c7/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+          "genre": "软件开发工具",
+          "type": "free",
+          "page": "app/cn-6443696943.html",
+          "rating": 5,
+          "normal": "¥15.00",
+          "current": "免费",
+          "has_iap": false,
           "region": "cn"
         }
       ],
@@ -17000,19 +16639,6 @@
           "region": "cn"
         },
         {
-          "id": "6809207083",
-          "name": "Glassiu 浏览器: 视频嗅探&油猴脚本&广告拦截",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/b8/68/09b868af-b8a7-de7d-cbf1-9ea0a17033fc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6809207083.html",
-          "rating": 4.3125,
-          "normal": "¥8.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
           "id": "6761336662",
           "name": "Video Transcriber - Captions",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/06/bc/6306bcef-371c-4bf8-5de5-79bc3186d32e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
@@ -17179,6 +16805,19 @@
           "normal": "¥15.00",
           "current": "免费",
           "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "6443696943",
+          "name": "Mockup Screenshot",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/13/f7/28/13f728ab-3f57-99c7-6611-234b63cce2c7/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+          "genre": "软件开发工具",
+          "type": "free",
+          "page": "app/cn-6443696943.html",
+          "rating": 5,
+          "normal": "¥15.00",
+          "current": "免费",
+          "has_iap": false,
           "region": "cn"
         }
       ],
@@ -17296,19 +16935,6 @@
           "region": "cn"
         },
         {
-          "id": "6809207083",
-          "name": "Glassiu 浏览器: 视频嗅探&油猴脚本&广告拦截",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/b8/68/09b868af-b8a7-de7d-cbf1-9ea0a17033fc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6809207083.html",
-          "rating": 4.3125,
-          "normal": "¥8.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
           "id": "6761336662",
           "name": "Video Transcriber - Captions",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/06/bc/6306bcef-371c-4bf8-5de5-79bc3186d32e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
@@ -17475,6 +17101,19 @@
           "normal": "¥15.00",
           "current": "免费",
           "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "6443696943",
+          "name": "Mockup Screenshot",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/13/f7/28/13f728ab-3f57-99c7-6611-234b63cce2c7/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+          "genre": "软件开发工具",
+          "type": "free",
+          "page": "app/cn-6443696943.html",
+          "rating": 5,
+          "normal": "¥15.00",
+          "current": "免费",
+          "has_iap": false,
           "region": "cn"
         }
       ],
@@ -17627,19 +17266,6 @@
           "region": "cn"
         },
         {
-          "id": "6809207083",
-          "name": "Glassiu 浏览器: 视频嗅探&油猴脚本&广告拦截",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/b8/68/09b868af-b8a7-de7d-cbf1-9ea0a17033fc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6809207083.html",
-          "rating": 4.3125,
-          "normal": "¥8.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
           "id": "6761336662",
           "name": "Video Transcriber - Captions",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/06/bc/6306bcef-371c-4bf8-5de5-79bc3186d32e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
@@ -17806,6 +17432,19 @@
           "normal": "¥15.00",
           "current": "免费",
           "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "6443696943",
+          "name": "Mockup Screenshot",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/13/f7/28/13f728ab-3f57-99c7-6611-234b63cce2c7/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+          "genre": "软件开发工具",
+          "type": "free",
+          "page": "app/cn-6443696943.html",
+          "rating": 5,
+          "normal": "¥15.00",
+          "current": "免费",
+          "has_iap": false,
           "region": "cn"
         }
       ],
@@ -17903,19 +17542,6 @@
           "region": "cn"
         },
         {
-          "id": "6809207083",
-          "name": "Glassiu 浏览器: 视频嗅探&油猴脚本&广告拦截",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/b8/68/09b868af-b8a7-de7d-cbf1-9ea0a17033fc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6809207083.html",
-          "rating": 4.3125,
-          "normal": "¥8.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
           "id": "6761336662",
           "name": "Video Transcriber - Captions",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/06/bc/6306bcef-371c-4bf8-5de5-79bc3186d32e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
@@ -18083,6 +17709,19 @@
           "current": "免费",
           "has_iap": true,
           "region": "cn"
+        },
+        {
+          "id": "6443696943",
+          "name": "Mockup Screenshot",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/13/f7/28/13f728ab-3f57-99c7-6611-234b63cce2c7/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+          "genre": "软件开发工具",
+          "type": "free",
+          "page": "app/cn-6443696943.html",
+          "rating": 5,
+          "normal": "¥15.00",
+          "current": "免费",
+          "has_iap": false,
+          "region": "cn"
         }
       ],
       "page": "app/cn-946280701.html"
@@ -18094,7 +17733,7 @@
       "genre": "摄影与录像",
       "normal": "¥22.00",
       "current": "免费",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fd/1b/8e/fd1b8eeb-238d-923e-bef2-9c6b522d425b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/bf/44/79/bf4479ac-9597-e3c5-55f7-d0ea8e308425/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
       "rating": 4.2287,
       "url": "https://apps.apple.com/cn/app/filca-vintage-film-camera/id1436429074?uo=4",
       "region": "cn",
@@ -18204,19 +17843,6 @@
           "region": "cn"
         },
         {
-          "id": "6809207083",
-          "name": "Glassiu 浏览器: 视频嗅探&油猴脚本&广告拦截",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/b8/68/09b868af-b8a7-de7d-cbf1-9ea0a17033fc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6809207083.html",
-          "rating": 4.3125,
-          "normal": "¥8.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
           "id": "6761336662",
           "name": "Video Transcriber - Captions",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/06/bc/6306bcef-371c-4bf8-5de5-79bc3186d32e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
@@ -18383,6 +18009,19 @@
           "normal": "¥15.00",
           "current": "免费",
           "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "6443696943",
+          "name": "Mockup Screenshot",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/13/f7/28/13f728ab-3f57-99c7-6611-234b63cce2c7/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+          "genre": "软件开发工具",
+          "type": "free",
+          "page": "app/cn-6443696943.html",
+          "rating": 5,
+          "normal": "¥15.00",
+          "current": "免费",
+          "has_iap": false,
           "region": "cn"
         }
       ],
@@ -18480,19 +18119,6 @@
           "region": "cn"
         },
         {
-          "id": "6809207083",
-          "name": "Glassiu 浏览器: 视频嗅探&油猴脚本&广告拦截",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/b8/68/09b868af-b8a7-de7d-cbf1-9ea0a17033fc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6809207083.html",
-          "rating": 4.3125,
-          "normal": "¥8.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
           "id": "6761336662",
           "name": "Video Transcriber - Captions",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/06/bc/6306bcef-371c-4bf8-5de5-79bc3186d32e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
@@ -18659,6 +18285,19 @@
           "normal": "¥15.00",
           "current": "免费",
           "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "6443696943",
+          "name": "Mockup Screenshot",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/13/f7/28/13f728ab-3f57-99c7-6611-234b63cce2c7/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+          "genre": "软件开发工具",
+          "type": "free",
+          "page": "app/cn-6443696943.html",
+          "rating": 5,
+          "normal": "¥15.00",
+          "current": "免费",
+          "has_iap": false,
           "region": "cn"
         }
       ],
@@ -18766,19 +18405,6 @@
           "region": "cn"
         },
         {
-          "id": "6809207083",
-          "name": "Glassiu 浏览器: 视频嗅探&油猴脚本&广告拦截",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/b8/68/09b868af-b8a7-de7d-cbf1-9ea0a17033fc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6809207083.html",
-          "rating": 4.3125,
-          "normal": "¥8.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
           "id": "6761336662",
           "name": "Video Transcriber - Captions",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/06/bc/6306bcef-371c-4bf8-5de5-79bc3186d32e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
@@ -18945,6 +18571,19 @@
           "normal": "¥15.00",
           "current": "免费",
           "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "6443696943",
+          "name": "Mockup Screenshot",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/13/f7/28/13f728ab-3f57-99c7-6611-234b63cce2c7/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+          "genre": "软件开发工具",
+          "type": "free",
+          "page": "app/cn-6443696943.html",
+          "rating": 5,
+          "normal": "¥15.00",
+          "current": "免费",
+          "has_iap": false,
           "region": "cn"
         }
       ],
@@ -19082,19 +18721,6 @@
           "region": "cn"
         },
         {
-          "id": "6809207083",
-          "name": "Glassiu 浏览器: 视频嗅探&油猴脚本&广告拦截",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/b8/68/09b868af-b8a7-de7d-cbf1-9ea0a17033fc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6809207083.html",
-          "rating": 4.3125,
-          "normal": "¥8.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
           "id": "6761336662",
           "name": "Video Transcriber - Captions",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/06/bc/6306bcef-371c-4bf8-5de5-79bc3186d32e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
@@ -19261,6 +18887,19 @@
           "normal": "¥15.00",
           "current": "免费",
           "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "6443696943",
+          "name": "Mockup Screenshot",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/13/f7/28/13f728ab-3f57-99c7-6611-234b63cce2c7/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+          "genre": "软件开发工具",
+          "type": "free",
+          "page": "app/cn-6443696943.html",
+          "rating": 5,
+          "normal": "¥15.00",
+          "current": "免费",
+          "has_iap": false,
           "region": "cn"
         }
       ],
@@ -19428,19 +19067,6 @@
           "region": "cn"
         },
         {
-          "id": "6809207083",
-          "name": "Glassiu 浏览器: 视频嗅探&油猴脚本&广告拦截",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/b8/68/09b868af-b8a7-de7d-cbf1-9ea0a17033fc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6809207083.html",
-          "rating": 4.3125,
-          "normal": "¥8.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
           "id": "6761336662",
           "name": "Video Transcriber - Captions",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/06/bc/6306bcef-371c-4bf8-5de5-79bc3186d32e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
@@ -19607,6 +19233,19 @@
           "normal": "¥15.00",
           "current": "免费",
           "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "6443696943",
+          "name": "Mockup Screenshot",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/13/f7/28/13f728ab-3f57-99c7-6611-234b63cce2c7/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+          "genre": "软件开发工具",
+          "type": "free",
+          "page": "app/cn-6443696943.html",
+          "rating": 5,
+          "normal": "¥15.00",
+          "current": "免费",
+          "has_iap": false,
           "region": "cn"
         }
       ],
@@ -19699,19 +19338,6 @@
           "region": "cn"
         },
         {
-          "id": "6809207083",
-          "name": "Glassiu 浏览器: 视频嗅探&油猴脚本&广告拦截",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/b8/68/09b868af-b8a7-de7d-cbf1-9ea0a17033fc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6809207083.html",
-          "rating": 4.3125,
-          "normal": "¥8.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
           "id": "6761336662",
           "name": "Video Transcriber - Captions",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/06/bc/6306bcef-371c-4bf8-5de5-79bc3186d32e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
@@ -19878,6 +19504,19 @@
           "normal": "¥15.00",
           "current": "免费",
           "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "6443696943",
+          "name": "Mockup Screenshot",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/13/f7/28/13f728ab-3f57-99c7-6611-234b63cce2c7/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+          "genre": "软件开发工具",
+          "type": "free",
+          "page": "app/cn-6443696943.html",
+          "rating": 5,
+          "normal": "¥15.00",
+          "current": "免费",
+          "has_iap": false,
           "region": "cn"
         }
       ],
@@ -19970,19 +19609,6 @@
           "region": "cn"
         },
         {
-          "id": "6809207083",
-          "name": "Glassiu 浏览器: 视频嗅探&油猴脚本&广告拦截",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/b8/68/09b868af-b8a7-de7d-cbf1-9ea0a17033fc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6809207083.html",
-          "rating": 4.3125,
-          "normal": "¥8.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
           "id": "6761336662",
           "name": "Video Transcriber - Captions",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/06/bc/6306bcef-371c-4bf8-5de5-79bc3186d32e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
@@ -20149,6 +19775,19 @@
           "normal": "¥15.00",
           "current": "免费",
           "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "6443696943",
+          "name": "Mockup Screenshot",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/13/f7/28/13f728ab-3f57-99c7-6611-234b63cce2c7/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+          "genre": "软件开发工具",
+          "type": "free",
+          "page": "app/cn-6443696943.html",
+          "rating": 5,
+          "normal": "¥15.00",
+          "current": "免费",
+          "has_iap": false,
           "region": "cn"
         }
       ],
@@ -20246,19 +19885,6 @@
           "region": "cn"
         },
         {
-          "id": "6809207083",
-          "name": "Glassiu 浏览器: 视频嗅探&油猴脚本&广告拦截",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/b8/68/09b868af-b8a7-de7d-cbf1-9ea0a17033fc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6809207083.html",
-          "rating": 4.3125,
-          "normal": "¥8.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
           "id": "6761336662",
           "name": "Video Transcriber - Captions",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/06/bc/6306bcef-371c-4bf8-5de5-79bc3186d32e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
@@ -20425,6 +20051,19 @@
           "normal": "¥15.00",
           "current": "免费",
           "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "6443696943",
+          "name": "Mockup Screenshot",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/13/f7/28/13f728ab-3f57-99c7-6611-234b63cce2c7/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+          "genre": "软件开发工具",
+          "type": "free",
+          "page": "app/cn-6443696943.html",
+          "rating": 5,
+          "normal": "¥15.00",
+          "current": "免费",
+          "has_iap": false,
           "region": "cn"
         }
       ],
@@ -20532,19 +20171,6 @@
           "region": "cn"
         },
         {
-          "id": "6809207083",
-          "name": "Glassiu 浏览器: 视频嗅探&油猴脚本&广告拦截",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/b8/68/09b868af-b8a7-de7d-cbf1-9ea0a17033fc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6809207083.html",
-          "rating": 4.3125,
-          "normal": "¥8.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
           "id": "6761336662",
           "name": "Video Transcriber - Captions",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/06/bc/6306bcef-371c-4bf8-5de5-79bc3186d32e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
@@ -20711,6 +20337,19 @@
           "normal": "¥15.00",
           "current": "免费",
           "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "6443696943",
+          "name": "Mockup Screenshot",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/13/f7/28/13f728ab-3f57-99c7-6611-234b63cce2c7/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+          "genre": "软件开发工具",
+          "type": "free",
+          "page": "app/cn-6443696943.html",
+          "rating": 5,
+          "normal": "¥15.00",
+          "current": "免费",
+          "has_iap": false,
           "region": "cn"
         }
       ],
@@ -20803,19 +20442,6 @@
           "region": "cn"
         },
         {
-          "id": "6809207083",
-          "name": "Glassiu 浏览器: 视频嗅探&油猴脚本&广告拦截",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/b8/68/09b868af-b8a7-de7d-cbf1-9ea0a17033fc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6809207083.html",
-          "rating": 4.3125,
-          "normal": "¥8.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
           "id": "6761336662",
           "name": "Video Transcriber - Captions",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/06/bc/6306bcef-371c-4bf8-5de5-79bc3186d32e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
@@ -20982,6 +20608,19 @@
           "normal": "¥15.00",
           "current": "免费",
           "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "6443696943",
+          "name": "Mockup Screenshot",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/13/f7/28/13f728ab-3f57-99c7-6611-234b63cce2c7/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+          "genre": "软件开发工具",
+          "type": "free",
+          "page": "app/cn-6443696943.html",
+          "rating": 5,
+          "normal": "¥15.00",
+          "current": "免费",
+          "has_iap": false,
           "region": "cn"
         }
       ],
@@ -21074,19 +20713,6 @@
           "region": "cn"
         },
         {
-          "id": "6809207083",
-          "name": "Glassiu 浏览器: 视频嗅探&油猴脚本&广告拦截",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/b8/68/09b868af-b8a7-de7d-cbf1-9ea0a17033fc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6809207083.html",
-          "rating": 4.3125,
-          "normal": "¥8.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
           "id": "6761336662",
           "name": "Video Transcriber - Captions",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/06/bc/6306bcef-371c-4bf8-5de5-79bc3186d32e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
@@ -21253,6 +20879,19 @@
           "normal": "¥15.00",
           "current": "免费",
           "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "6443696943",
+          "name": "Mockup Screenshot",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/13/f7/28/13f728ab-3f57-99c7-6611-234b63cce2c7/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+          "genre": "软件开发工具",
+          "type": "free",
+          "page": "app/cn-6443696943.html",
+          "rating": 5,
+          "normal": "¥15.00",
+          "current": "免费",
+          "has_iap": false,
           "region": "cn"
         }
       ],
@@ -21360,19 +20999,6 @@
           "region": "cn"
         },
         {
-          "id": "6809207083",
-          "name": "Glassiu 浏览器: 视频嗅探&油猴脚本&广告拦截",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/b8/68/09b868af-b8a7-de7d-cbf1-9ea0a17033fc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6809207083.html",
-          "rating": 4.3125,
-          "normal": "¥8.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
           "id": "6761336662",
           "name": "Video Transcriber - Captions",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/06/bc/6306bcef-371c-4bf8-5de5-79bc3186d32e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
@@ -21539,6 +21165,19 @@
           "normal": "¥15.00",
           "current": "免费",
           "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "6443696943",
+          "name": "Mockup Screenshot",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/13/f7/28/13f728ab-3f57-99c7-6611-234b63cce2c7/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+          "genre": "软件开发工具",
+          "type": "free",
+          "page": "app/cn-6443696943.html",
+          "rating": 5,
+          "normal": "¥15.00",
+          "current": "免费",
+          "has_iap": false,
           "region": "cn"
         }
       ],
@@ -21631,19 +21270,6 @@
           "region": "cn"
         },
         {
-          "id": "6809207083",
-          "name": "Glassiu 浏览器: 视频嗅探&油猴脚本&广告拦截",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/b8/68/09b868af-b8a7-de7d-cbf1-9ea0a17033fc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6809207083.html",
-          "rating": 4.3125,
-          "normal": "¥8.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
           "id": "6761336662",
           "name": "Video Transcriber - Captions",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/06/bc/6306bcef-371c-4bf8-5de5-79bc3186d32e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
@@ -21810,6 +21436,19 @@
           "normal": "¥15.00",
           "current": "免费",
           "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "6443696943",
+          "name": "Mockup Screenshot",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/13/f7/28/13f728ab-3f57-99c7-6611-234b63cce2c7/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+          "genre": "软件开发工具",
+          "type": "free",
+          "page": "app/cn-6443696943.html",
+          "rating": 5,
+          "normal": "¥15.00",
+          "current": "免费",
+          "has_iap": false,
           "region": "cn"
         }
       ],
@@ -21917,19 +21556,6 @@
           "region": "cn"
         },
         {
-          "id": "6809207083",
-          "name": "Glassiu 浏览器: 视频嗅探&油猴脚本&广告拦截",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/b8/68/09b868af-b8a7-de7d-cbf1-9ea0a17033fc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6809207083.html",
-          "rating": 4.3125,
-          "normal": "¥8.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
           "id": "6761336662",
           "name": "Video Transcriber - Captions",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/06/bc/6306bcef-371c-4bf8-5de5-79bc3186d32e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
@@ -22096,6 +21722,19 @@
           "normal": "¥15.00",
           "current": "免费",
           "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "6443696943",
+          "name": "Mockup Screenshot",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/13/f7/28/13f728ab-3f57-99c7-6611-234b63cce2c7/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+          "genre": "软件开发工具",
+          "type": "free",
+          "page": "app/cn-6443696943.html",
+          "rating": 5,
+          "normal": "¥15.00",
+          "current": "免费",
+          "has_iap": false,
           "region": "cn"
         }
       ],
@@ -22213,19 +21852,6 @@
           "region": "cn"
         },
         {
-          "id": "6809207083",
-          "name": "Glassiu 浏览器: 视频嗅探&油猴脚本&广告拦截",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/b8/68/09b868af-b8a7-de7d-cbf1-9ea0a17033fc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6809207083.html",
-          "rating": 4.3125,
-          "normal": "¥8.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
           "id": "6761336662",
           "name": "Video Transcriber - Captions",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/06/bc/6306bcef-371c-4bf8-5de5-79bc3186d32e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
@@ -22392,6 +22018,19 @@
           "normal": "¥15.00",
           "current": "免费",
           "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "6443696943",
+          "name": "Mockup Screenshot",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/13/f7/28/13f728ab-3f57-99c7-6611-234b63cce2c7/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+          "genre": "软件开发工具",
+          "type": "free",
+          "page": "app/cn-6443696943.html",
+          "rating": 5,
+          "normal": "¥15.00",
+          "current": "免费",
+          "has_iap": false,
           "region": "cn"
         }
       ],
@@ -22589,19 +22228,6 @@
           "region": "cn"
         },
         {
-          "id": "6809207083",
-          "name": "Glassiu 浏览器: 视频嗅探&油猴脚本&广告拦截",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/b8/68/09b868af-b8a7-de7d-cbf1-9ea0a17033fc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6809207083.html",
-          "rating": 4.3125,
-          "normal": "¥8.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
           "id": "6761336662",
           "name": "Video Transcriber - Captions",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/06/bc/6306bcef-371c-4bf8-5de5-79bc3186d32e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
@@ -22768,6 +22394,19 @@
           "normal": "¥15.00",
           "current": "免费",
           "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "6443696943",
+          "name": "Mockup Screenshot",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/13/f7/28/13f728ab-3f57-99c7-6611-234b63cce2c7/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+          "genre": "软件开发工具",
+          "type": "free",
+          "page": "app/cn-6443696943.html",
+          "rating": 5,
+          "normal": "¥15.00",
+          "current": "免费",
+          "has_iap": false,
           "region": "cn"
         }
       ],
@@ -22880,19 +22519,6 @@
           "region": "cn"
         },
         {
-          "id": "6809207083",
-          "name": "Glassiu 浏览器: 视频嗅探&油猴脚本&广告拦截",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/b8/68/09b868af-b8a7-de7d-cbf1-9ea0a17033fc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6809207083.html",
-          "rating": 4.3125,
-          "normal": "¥8.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
           "id": "6761336662",
           "name": "Video Transcriber - Captions",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/06/bc/6306bcef-371c-4bf8-5de5-79bc3186d32e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
@@ -23059,6 +22685,19 @@
           "normal": "¥15.00",
           "current": "免费",
           "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "6443696943",
+          "name": "Mockup Screenshot",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/13/f7/28/13f728ab-3f57-99c7-6611-234b63cce2c7/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+          "genre": "软件开发工具",
+          "type": "free",
+          "page": "app/cn-6443696943.html",
+          "rating": 5,
+          "normal": "¥15.00",
+          "current": "免费",
+          "has_iap": false,
           "region": "cn"
         }
       ],
@@ -23161,19 +22800,6 @@
           "region": "cn"
         },
         {
-          "id": "6809207083",
-          "name": "Glassiu 浏览器: 视频嗅探&油猴脚本&广告拦截",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/b8/68/09b868af-b8a7-de7d-cbf1-9ea0a17033fc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6809207083.html",
-          "rating": 4.3125,
-          "normal": "¥8.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
           "id": "6761336662",
           "name": "Video Transcriber - Captions",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/06/bc/6306bcef-371c-4bf8-5de5-79bc3186d32e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
@@ -23340,6 +22966,19 @@
           "normal": "¥15.00",
           "current": "免费",
           "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "6443696943",
+          "name": "Mockup Screenshot",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/13/f7/28/13f728ab-3f57-99c7-6611-234b63cce2c7/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+          "genre": "软件开发工具",
+          "type": "free",
+          "page": "app/cn-6443696943.html",
+          "rating": 5,
+          "normal": "¥15.00",
+          "current": "免费",
+          "has_iap": false,
           "region": "cn"
         }
       ],
@@ -23457,19 +23096,6 @@
           "region": "cn"
         },
         {
-          "id": "6809207083",
-          "name": "Glassiu 浏览器: 视频嗅探&油猴脚本&广告拦截",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/b8/68/09b868af-b8a7-de7d-cbf1-9ea0a17033fc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6809207083.html",
-          "rating": 4.3125,
-          "normal": "¥8.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
           "id": "6761336662",
           "name": "Video Transcriber - Captions",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/06/bc/6306bcef-371c-4bf8-5de5-79bc3186d32e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
@@ -23636,6 +23262,19 @@
           "normal": "¥15.00",
           "current": "免费",
           "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "6443696943",
+          "name": "Mockup Screenshot",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/13/f7/28/13f728ab-3f57-99c7-6611-234b63cce2c7/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+          "genre": "软件开发工具",
+          "type": "free",
+          "page": "app/cn-6443696943.html",
+          "rating": 5,
+          "normal": "¥15.00",
+          "current": "免费",
+          "has_iap": false,
           "region": "cn"
         }
       ],
@@ -23738,19 +23377,6 @@
           "region": "cn"
         },
         {
-          "id": "6809207083",
-          "name": "Glassiu 浏览器: 视频嗅探&油猴脚本&广告拦截",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/b8/68/09b868af-b8a7-de7d-cbf1-9ea0a17033fc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6809207083.html",
-          "rating": 4.3125,
-          "normal": "¥8.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
           "id": "6761336662",
           "name": "Video Transcriber - Captions",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/06/bc/6306bcef-371c-4bf8-5de5-79bc3186d32e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
@@ -23917,6 +23543,19 @@
           "normal": "¥15.00",
           "current": "免费",
           "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "6443696943",
+          "name": "Mockup Screenshot",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/13/f7/28/13f728ab-3f57-99c7-6611-234b63cce2c7/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+          "genre": "软件开发工具",
+          "type": "free",
+          "page": "app/cn-6443696943.html",
+          "rating": 5,
+          "normal": "¥15.00",
+          "current": "免费",
+          "has_iap": false,
           "region": "cn"
         }
       ],
@@ -24018,19 +23657,6 @@
           "region": "cn"
         },
         {
-          "id": "6809207083",
-          "name": "Glassiu 浏览器: 视频嗅探&油猴脚本&广告拦截",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/b8/68/09b868af-b8a7-de7d-cbf1-9ea0a17033fc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6809207083.html",
-          "rating": 4.3125,
-          "normal": "¥8.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
           "id": "6761336662",
           "name": "Video Transcriber - Captions",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/06/bc/6306bcef-371c-4bf8-5de5-79bc3186d32e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
@@ -24210,6 +23836,19 @@
           "normal": "¥15.00",
           "current": "免费",
           "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6503905670",
+          "name": "NextNote - AI笔记与写作",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/33/c5/f5/33c5f542-3dd7-7ae3-4ed2-027c6a5feda0/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "效率",
+          "type": "free",
+          "page": "app/cn-6503905670.html",
+          "rating": 5,
+          "normal": "¥39.90",
+          "current": "免费",
+          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -24309,19 +23948,6 @@
           "region": "cn"
         },
         {
-          "id": "6809207083",
-          "name": "Glassiu 浏览器: 视频嗅探&油猴脚本&广告拦截",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/b8/68/09b868af-b8a7-de7d-cbf1-9ea0a17033fc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6809207083.html",
-          "rating": 4.3125,
-          "normal": "¥8.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
           "id": "6761336662",
           "name": "Video Transcriber - Captions",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/06/bc/6306bcef-371c-4bf8-5de5-79bc3186d32e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
@@ -24501,6 +24127,19 @@
           "normal": "¥15.00",
           "current": "免费",
           "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6503905670",
+          "name": "NextNote - AI笔记与写作",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/33/c5/f5/33c5f542-3dd7-7ae3-4ed2-027c6a5feda0/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "效率",
+          "type": "free",
+          "page": "app/cn-6503905670.html",
+          "rating": 5,
+          "normal": "¥39.90",
+          "current": "免费",
+          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -24643,19 +24282,6 @@
           "region": "cn"
         },
         {
-          "id": "6809207083",
-          "name": "Glassiu 浏览器: 视频嗅探&油猴脚本&广告拦截",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/b8/68/09b868af-b8a7-de7d-cbf1-9ea0a17033fc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6809207083.html",
-          "rating": 4.3125,
-          "normal": "¥8.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
           "id": "6785533800",
           "name": "腕温经期 - 根据手腕温度预测经期",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9f/9f/19/9f9f1996-d024-01be-7247-e092f0aa203e/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
@@ -24822,6 +24448,19 @@
           "normal": "¥15.00",
           "current": "免费",
           "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6503905670",
+          "name": "NextNote - AI笔记与写作",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/33/c5/f5/33c5f542-3dd7-7ae3-4ed2-027c6a5feda0/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "效率",
+          "type": "free",
+          "page": "app/cn-6503905670.html",
+          "rating": 5,
+          "normal": "¥39.90",
+          "current": "免费",
+          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -24984,19 +24623,6 @@
           "region": "cn"
         },
         {
-          "id": "6809207083",
-          "name": "Glassiu 浏览器: 视频嗅探&油猴脚本&广告拦截",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/b8/68/09b868af-b8a7-de7d-cbf1-9ea0a17033fc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6809207083.html",
-          "rating": 4.3125,
-          "normal": "¥8.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
           "id": "6761336662",
           "name": "Video Transcriber - Captions",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/06/bc/6306bcef-371c-4bf8-5de5-79bc3186d32e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
@@ -25163,6 +24789,19 @@
           "normal": "¥15.00",
           "current": "免费",
           "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6503905670",
+          "name": "NextNote - AI笔记与写作",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/33/c5/f5/33c5f542-3dd7-7ae3-4ed2-027c6a5feda0/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "效率",
+          "type": "free",
+          "page": "app/cn-6503905670.html",
+          "rating": 5,
+          "normal": "¥39.90",
+          "current": "免费",
+          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -25360,14 +24999,362 @@
           "region": "cn"
         },
         {
-          "id": "6809207083",
-          "name": "Glassiu 浏览器: 视频嗅探&油猴脚本&广告拦截",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/b8/68/09b868af-b8a7-de7d-cbf1-9ea0a17033fc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "id": "6761336662",
+          "name": "Video Transcriber - Captions",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/06/bc/6306bcef-371c-4bf8-5de5-79bc3186d32e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "效率",
+          "type": "deal",
+          "page": "app/cn-6761336662.html",
+          "rating": 4,
+          "normal": "¥48.00",
+          "current": "¥3.00",
+          "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6785533800",
+          "name": "腕温经期 - 根据手腕温度预测经期",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9f/9f/19/9f9f1996-d024-01be-7247-e092f0aa203e/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+          "genre": "健康健美",
+          "type": "free",
+          "page": "app/cn-6785533800.html",
+          "rating": 4,
+          "normal": "¥8.00",
+          "current": "免费",
+          "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "1619885469",
+          "name": "点击星球 - Click Planet Spacecraft",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/08/eb/2a/08eb2a69-b23d-6176-a475-6dc6959508f2/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
           "genre": "工具",
           "type": "free",
-          "page": "app/cn-6809207083.html",
-          "rating": 4.3125,
+          "page": "app/cn-1619885469.html",
+          "rating": 3.4918,
+          "normal": "¥98.00",
+          "current": "免费",
+          "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "6563141268",
+          "name": "ADHD Tool - Do This",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/51/b7/e6/51b7e666-d423-5138-f32f-58b500207b05/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+          "genre": "效率",
+          "type": "free",
+          "page": "app/cn-6563141268.html",
+          "rating": 5,
+          "normal": "¥28.00",
+          "current": "免费",
+          "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "1353909824",
+          "name": "Augmented Reality UFO Stickers",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/a7/40/bf/a740bf45-5b69-8267-4c4d-04f2d23f648d/AppIcon-1x_U007emarketing-0-10-0-85-220.png/512x512bb.jpg",
+          "genre": "摄影与录像",
+          "type": "free",
+          "page": "app/cn-1353909824.html",
+          "rating": 5,
+          "normal": "¥0.99",
+          "current": "免费",
+          "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "405245734",
+          "name": "Colorfader",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/71/e2/e8/71e2e86d-423c-772c-bdb0-1ad04c9a4b56/AppIcon-1x_U007emarketing-0-8-0-85-220-0.jpeg/512x512bb.jpg",
+          "genre": "摄影与录像",
+          "type": "free",
+          "page": "app/cn-405245734.html",
+          "rating": 5,
           "normal": "¥8.00",
+          "current": "免费",
+          "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "6760843522",
+          "name": "Evil Otto",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a5/8d/d9/a58dd919-a3ee-d0fe-a106-012b99c70d5f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "音乐",
+          "type": "free",
+          "page": "app/cn-6760843522.html",
+          "rating": 5,
+          "normal": "¥38.00",
+          "current": "免费",
+          "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6448124078",
+          "name": "Hip Hop Drummer: Boom Bap",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/45/a6/0e/45a60e45-f034-6245-4a7c-4a7da5f2636c/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "音乐",
+          "type": "free",
+          "page": "app/cn-6448124078.html",
+          "rating": 5,
+          "normal": "¥128.00",
+          "current": "免费",
+          "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "6782778566",
+          "name": "KinetBrief 会议纪要",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/62/6a/43/626a43ac-8951-6d79-ca0a-862f7d333ff0/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "工具",
+          "type": "free",
+          "page": "app/cn-6782778566.html",
+          "rating": 5,
+          "normal": "¥6.99",
+          "current": "免费",
+          "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "1011979611",
+          "name": "Kompressor - Compress images",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/04/c1/e4/04c1e420-9586-be48-9524-0edcdef32a8f/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "摄影与录像",
+          "type": "free",
+          "page": "app/cn-1011979611.html",
+          "rating": 5,
+          "normal": "¥22.00",
+          "current": "免费",
+          "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6787306687",
+          "name": "Lulla: Baby Sleep Sounds",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/76/ca/43/76ca4301-f5de-f8ca-429a-e20718edc87e/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+          "genre": "健康健美",
+          "type": "deal",
+          "page": "app/cn-6787306687.html",
+          "rating": 5,
+          "normal": "¥48.00",
+          "current": "¥22.00",
+          "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "1437931490",
+          "name": "Magic Fish AR",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/17/0b/28/170b28d5-72e7-a1bb-04f5-ae11439c2062/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/512x512bb.jpg",
+          "genre": "游戏",
+          "type": "free",
+          "page": "app/cn-1437931490.html",
+          "rating": 5,
+          "normal": "¥0.99",
+          "current": "免费",
+          "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "1592571318",
+          "name": "MetaWeather: Weather Forecasts",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/45/03/ed/4503ed06-67bd-dc3c-b296-dcaee792490e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "天气",
+          "type": "free",
+          "page": "app/cn-1592571318.html",
+          "rating": 5,
+          "normal": "¥15.00",
+          "current": "免费",
+          "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "6443696943",
+          "name": "Mockup Screenshot",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/13/f7/28/13f728ab-3f57-99c7-6611-234b63cce2c7/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+          "genre": "软件开发工具",
+          "type": "free",
+          "page": "app/cn-6443696943.html",
+          "rating": 5,
+          "normal": "¥15.00",
+          "current": "免费",
+          "has_iap": false,
+          "region": "cn"
+        }
+      ],
+      "page": "app/cn-6795576354.html"
+    },
+    {
+      "id": "6799431765",
+      "name": "文绉绉 甪端",
+      "dev": "新宇 刘",
+      "genre": "教育",
+      "normal": "¥12.00",
+      "current": "¥1.00",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/89/3a/06/893a0696-fda1-375b-1ecd-0cff996234f5/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "rating": 5,
+      "url": "https://apps.apple.com/cn/app/%E6%96%87%E7%BB%89%E7%BB%89-%E7%94%AA%E7%AB%AF/id6799431765?uo=4",
+      "region": "cn",
+      "type": "deal",
+      "is_new": false,
+      "series": [
+        3.0,
+        3.0,
+        3.0,
+        3.0,
+        6.0,
+        12.0,
+        6.0,
+        6.0,
+        6.0,
+        6.0,
+        3.0,
+        3.0,
+        3.0,
+        3.0,
+        3.0,
+        3.0,
+        3.0,
+        3.0,
+        3.0,
+        0,
+        1.0
+      ],
+      "phistory": [
+        {
+          "d": "2026-10-22",
+          "p": 3.0
+        },
+        {
+          "d": "2026-10-23",
+          "p": 3.0
+        },
+        {
+          "d": "2026-10-24",
+          "p": 3.0
+        },
+        {
+          "d": "2026-10-25",
+          "p": 3.0
+        },
+        {
+          "d": "2026-10-26",
+          "p": 6.0
+        },
+        {
+          "d": "2026-10-27",
+          "p": 12.0
+        },
+        {
+          "d": "2026-10-28",
+          "p": 6.0
+        },
+        {
+          "d": "2026-10-29",
+          "p": 6.0
+        },
+        {
+          "d": "2026-10-30",
+          "p": 6.0
+        },
+        {
+          "d": "2026-10-31",
+          "p": 6.0
+        },
+        {
+          "d": "2026-11-01",
+          "p": 3.0
+        },
+        {
+          "d": "2026-11-02",
+          "p": 3.0
+        },
+        {
+          "d": "2026-11-03",
+          "p": 3.0
+        },
+        {
+          "d": "2026-11-04",
+          "p": 3.0
+        },
+        {
+          "d": "2026-11-05",
+          "p": 3.0
+        },
+        {
+          "d": "2026-11-06",
+          "p": 3.0
+        },
+        {
+          "d": "2026-11-07",
+          "p": 3.0
+        },
+        {
+          "d": "2026-11-08",
+          "p": 3.0
+        },
+        {
+          "d": "2026-11-09",
+          "p": 3.0
+        },
+        {
+          "d": "2026-11-10",
+          "p": 0
+        },
+        {
+          "d": "2026-11-11",
+          "p": 1.0
+        }
+      ],
+      "has_iap": false,
+      "rel": [
+        {
+          "id": "6802062130",
+          "name": "投刻 - 空气投篮",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5f/df/ec/5fdfec7f-e020-5fe9-e149-255c14c6c6a2/AppIcon-1x_U007epad-0-1-0-85-220-0.png/512x512bb.jpg",
+          "genre": "体育",
+          "type": "deal",
+          "page": "app/cn-6802062130.html",
+          "rating": 5,
+          "normal": "¥9.90",
+          "current": "¥4.80",
+          "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6752586685",
+          "name": "环游旅记 - 空间场景日记",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8f/ea/a9/8feaa9e3-6d1f-3b40-b3fb-ea9b132de47e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "genre": "旅游",
+          "type": "deal",
+          "page": "app/cn-6752586685.html",
+          "rating": 5,
+          "normal": "¥58.00",
+          "current": "¥28.00",
+          "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "1270382069",
+          "name": "Brightly - 修复过暗的照片",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/96/fd/ab/96fdab3f-7188-6d74-4b23-04cd322fbad6/AppIcon-0-1x_U007epad-0-1-0-85-220-0.png/512x512bb.jpg",
+          "genre": "摄影与录像",
+          "type": "free",
+          "page": "app/cn-1270382069.html",
+          "rating": 4.81538,
+          "normal": "¥38.00",
+          "current": "免费",
+          "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "1512214163",
+          "name": "WEATHERCAST 24  当地天气预报",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/c4/b9/a9/c4b9a9b3-c681-1d32-264b-20d42e721046/AppIcon-0-1x_U007emarketing-0-7-0-85-220-0.png/512x512bb.jpg",
+          "genre": "天气",
+          "type": "free",
+          "page": "app/cn-1512214163.html",
+          "rating": 4.76271,
+          "normal": "¥98.00",
           "current": "免费",
           "has_iap": false,
           "region": "cn"
@@ -25540,9 +25527,22 @@
           "current": "免费",
           "has_iap": true,
           "region": "cn"
+        },
+        {
+          "id": "6443696943",
+          "name": "Mockup Screenshot",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/13/f7/28/13f728ab-3f57-99c7-6611-234b63cce2c7/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+          "genre": "软件开发工具",
+          "type": "free",
+          "page": "app/cn-6443696943.html",
+          "rating": 5,
+          "normal": "¥15.00",
+          "current": "免费",
+          "has_iap": false,
+          "region": "cn"
         }
       ],
-      "page": "app/cn-6795576354.html"
+      "page": "app/cn-6799431765.html"
     },
     {
       "id": "6816931747",
@@ -25736,19 +25736,6 @@
           "region": "cn"
         },
         {
-          "id": "6809207083",
-          "name": "Glassiu 浏览器: 视频嗅探&油猴脚本&广告拦截",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/b8/68/09b868af-b8a7-de7d-cbf1-9ea0a17033fc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6809207083.html",
-          "rating": 4.3125,
-          "normal": "¥8.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
           "id": "6761336662",
           "name": "Video Transcriber - Captions",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/06/bc/6306bcef-371c-4bf8-5de5-79bc3186d32e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
@@ -25915,6 +25902,19 @@
           "normal": "¥15.00",
           "current": "免费",
           "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "6443696943",
+          "name": "Mockup Screenshot",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/13/f7/28/13f728ab-3f57-99c7-6611-234b63cce2c7/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+          "genre": "软件开发工具",
+          "type": "free",
+          "page": "app/cn-6443696943.html",
+          "rating": 5,
+          "normal": "¥15.00",
+          "current": "免费",
+          "has_iap": false,
           "region": "cn"
         }
       ],
@@ -26037,19 +26037,6 @@
           "region": "cn"
         },
         {
-          "id": "6809207083",
-          "name": "Glassiu 浏览器: 视频嗅探&油猴脚本&广告拦截",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/b8/68/09b868af-b8a7-de7d-cbf1-9ea0a17033fc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6809207083.html",
-          "rating": 4.3125,
-          "normal": "¥8.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
           "id": "6761336662",
           "name": "Video Transcriber - Captions",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/06/bc/6306bcef-371c-4bf8-5de5-79bc3186d32e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
@@ -26216,6 +26203,19 @@
           "normal": "¥15.00",
           "current": "免费",
           "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "6443696943",
+          "name": "Mockup Screenshot",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/13/f7/28/13f728ab-3f57-99c7-6611-234b63cce2c7/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+          "genre": "软件开发工具",
+          "type": "free",
+          "page": "app/cn-6443696943.html",
+          "rating": 5,
+          "normal": "¥15.00",
+          "current": "免费",
+          "has_iap": false,
           "region": "cn"
         }
       ],
@@ -26413,19 +26413,6 @@
           "region": "cn"
         },
         {
-          "id": "6809207083",
-          "name": "Glassiu 浏览器: 视频嗅探&油猴脚本&广告拦截",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/b8/68/09b868af-b8a7-de7d-cbf1-9ea0a17033fc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6809207083.html",
-          "rating": 4.3125,
-          "normal": "¥8.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
           "id": "6761336662",
           "name": "Video Transcriber - Captions",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/06/bc/6306bcef-371c-4bf8-5de5-79bc3186d32e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
@@ -26592,6 +26579,19 @@
           "normal": "¥15.00",
           "current": "免费",
           "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "6443696943",
+          "name": "Mockup Screenshot",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/13/f7/28/13f728ab-3f57-99c7-6611-234b63cce2c7/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+          "genre": "软件开发工具",
+          "type": "free",
+          "page": "app/cn-6443696943.html",
+          "rating": 5,
+          "normal": "¥15.00",
+          "current": "免费",
+          "has_iap": false,
           "region": "cn"
         }
       ],
@@ -26789,19 +26789,6 @@
           "region": "cn"
         },
         {
-          "id": "6809207083",
-          "name": "Glassiu 浏览器: 视频嗅探&油猴脚本&广告拦截",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/b8/68/09b868af-b8a7-de7d-cbf1-9ea0a17033fc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6809207083.html",
-          "rating": 4.3125,
-          "normal": "¥8.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
           "id": "6761336662",
           "name": "Video Transcriber - Captions",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/06/bc/6306bcef-371c-4bf8-5de5-79bc3186d32e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
@@ -26968,6 +26955,19 @@
           "normal": "¥15.00",
           "current": "免费",
           "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "6443696943",
+          "name": "Mockup Screenshot",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/13/f7/28/13f728ab-3f57-99c7-6611-234b63cce2c7/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+          "genre": "软件开发工具",
+          "type": "free",
+          "page": "app/cn-6443696943.html",
+          "rating": 5,
+          "normal": "¥15.00",
+          "current": "免费",
+          "has_iap": false,
           "region": "cn"
         }
       ],
@@ -27140,19 +27140,6 @@
           "region": "cn"
         },
         {
-          "id": "6809207083",
-          "name": "Glassiu 浏览器: 视频嗅探&油猴脚本&广告拦截",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/b8/68/09b868af-b8a7-de7d-cbf1-9ea0a17033fc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6809207083.html",
-          "rating": 4.3125,
-          "normal": "¥8.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
           "id": "6761336662",
           "name": "Video Transcriber - Captions",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/06/bc/6306bcef-371c-4bf8-5de5-79bc3186d32e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
@@ -27319,6 +27306,19 @@
           "normal": "¥15.00",
           "current": "免费",
           "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "6443696943",
+          "name": "Mockup Screenshot",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/13/f7/28/13f728ab-3f57-99c7-6611-234b63cce2c7/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+          "genre": "软件开发工具",
+          "type": "free",
+          "page": "app/cn-6443696943.html",
+          "rating": 5,
+          "normal": "¥15.00",
+          "current": "免费",
+          "has_iap": false,
           "region": "cn"
         }
       ],
@@ -27501,19 +27501,6 @@
           "region": "cn"
         },
         {
-          "id": "6809207083",
-          "name": "Glassiu 浏览器: 视频嗅探&油猴脚本&广告拦截",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/b8/68/09b868af-b8a7-de7d-cbf1-9ea0a17033fc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6809207083.html",
-          "rating": 4.3125,
-          "normal": "¥8.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
           "id": "6761336662",
           "name": "Video Transcriber - Captions",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/06/bc/6306bcef-371c-4bf8-5de5-79bc3186d32e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
@@ -27680,6 +27667,19 @@
           "normal": "¥15.00",
           "current": "免费",
           "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "6443696943",
+          "name": "Mockup Screenshot",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/13/f7/28/13f728ab-3f57-99c7-6611-234b63cce2c7/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+          "genre": "软件开发工具",
+          "type": "free",
+          "page": "app/cn-6443696943.html",
+          "rating": 5,
+          "normal": "¥15.00",
+          "current": "免费",
+          "has_iap": false,
           "region": "cn"
         }
       ],
@@ -27877,19 +27877,6 @@
           "region": "cn"
         },
         {
-          "id": "6809207083",
-          "name": "Glassiu 浏览器: 视频嗅探&油猴脚本&广告拦截",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/b8/68/09b868af-b8a7-de7d-cbf1-9ea0a17033fc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6809207083.html",
-          "rating": 4.3125,
-          "normal": "¥8.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
           "id": "6761336662",
           "name": "Video Transcriber - Captions",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/06/bc/6306bcef-371c-4bf8-5de5-79bc3186d32e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
@@ -28056,6 +28043,19 @@
           "normal": "¥15.00",
           "current": "免费",
           "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "6443696943",
+          "name": "Mockup Screenshot",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/13/f7/28/13f728ab-3f57-99c7-6611-234b63cce2c7/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+          "genre": "软件开发工具",
+          "type": "free",
+          "page": "app/cn-6443696943.html",
+          "rating": 5,
+          "normal": "¥15.00",
+          "current": "免费",
+          "has_iap": false,
           "region": "cn"
         }
       ],
@@ -28243,19 +28243,6 @@
           "region": "cn"
         },
         {
-          "id": "6809207083",
-          "name": "Glassiu 浏览器: 视频嗅探&油猴脚本&广告拦截",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/b8/68/09b868af-b8a7-de7d-cbf1-9ea0a17033fc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6809207083.html",
-          "rating": 4.3125,
-          "normal": "¥8.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
           "id": "6761336662",
           "name": "Video Transcriber - Captions",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/06/bc/6306bcef-371c-4bf8-5de5-79bc3186d32e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
@@ -28422,6 +28409,19 @@
           "normal": "¥15.00",
           "current": "免费",
           "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "6443696943",
+          "name": "Mockup Screenshot",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/13/f7/28/13f728ab-3f57-99c7-6611-234b63cce2c7/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+          "genre": "软件开发工具",
+          "type": "free",
+          "page": "app/cn-6443696943.html",
+          "rating": 5,
+          "normal": "¥15.00",
+          "current": "免费",
+          "has_iap": false,
           "region": "cn"
         }
       ],
@@ -28619,19 +28619,6 @@
           "region": "cn"
         },
         {
-          "id": "6809207083",
-          "name": "Glassiu 浏览器: 视频嗅探&油猴脚本&广告拦截",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/b8/68/09b868af-b8a7-de7d-cbf1-9ea0a17033fc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6809207083.html",
-          "rating": 4.3125,
-          "normal": "¥8.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
           "id": "6761336662",
           "name": "Video Transcriber - Captions",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/06/bc/6306bcef-371c-4bf8-5de5-79bc3186d32e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
@@ -28798,6 +28785,19 @@
           "normal": "¥15.00",
           "current": "免费",
           "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "6443696943",
+          "name": "Mockup Screenshot",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/13/f7/28/13f728ab-3f57-99c7-6611-234b63cce2c7/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+          "genre": "软件开发工具",
+          "type": "free",
+          "page": "app/cn-6443696943.html",
+          "rating": 5,
+          "normal": "¥15.00",
+          "current": "免费",
+          "has_iap": false,
           "region": "cn"
         }
       ],
@@ -28955,19 +28955,6 @@
           "region": "cn"
         },
         {
-          "id": "6809207083",
-          "name": "Glassiu 浏览器: 视频嗅探&油猴脚本&广告拦截",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/b8/68/09b868af-b8a7-de7d-cbf1-9ea0a17033fc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6809207083.html",
-          "rating": 4.3125,
-          "normal": "¥8.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
           "id": "6761336662",
           "name": "Video Transcriber - Captions",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/06/bc/6306bcef-371c-4bf8-5de5-79bc3186d32e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
@@ -29134,6 +29121,19 @@
           "normal": "¥15.00",
           "current": "免费",
           "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "6443696943",
+          "name": "Mockup Screenshot",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/13/f7/28/13f728ab-3f57-99c7-6611-234b63cce2c7/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+          "genre": "软件开发工具",
+          "type": "free",
+          "page": "app/cn-6443696943.html",
+          "rating": 5,
+          "normal": "¥15.00",
+          "current": "免费",
+          "has_iap": false,
           "region": "cn"
         }
       ],
@@ -29331,19 +29331,6 @@
           "region": "cn"
         },
         {
-          "id": "6809207083",
-          "name": "Glassiu 浏览器: 视频嗅探&油猴脚本&广告拦截",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/b8/68/09b868af-b8a7-de7d-cbf1-9ea0a17033fc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6809207083.html",
-          "rating": 4.3125,
-          "normal": "¥8.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
           "id": "6761336662",
           "name": "Video Transcriber - Captions",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/06/bc/6306bcef-371c-4bf8-5de5-79bc3186d32e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
@@ -29510,6 +29497,19 @@
           "normal": "¥15.00",
           "current": "免费",
           "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "6443696943",
+          "name": "Mockup Screenshot",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/13/f7/28/13f728ab-3f57-99c7-6611-234b63cce2c7/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+          "genre": "软件开发工具",
+          "type": "free",
+          "page": "app/cn-6443696943.html",
+          "rating": 5,
+          "normal": "¥15.00",
+          "current": "免费",
+          "has_iap": false,
           "region": "cn"
         }
       ],
@@ -29662,19 +29662,6 @@
           "region": "cn"
         },
         {
-          "id": "6809207083",
-          "name": "Glassiu 浏览器: 视频嗅探&油猴脚本&广告拦截",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/b8/68/09b868af-b8a7-de7d-cbf1-9ea0a17033fc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6809207083.html",
-          "rating": 4.3125,
-          "normal": "¥8.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
           "id": "6761336662",
           "name": "Video Transcriber - Captions",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/06/bc/6306bcef-371c-4bf8-5de5-79bc3186d32e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
@@ -29841,6 +29828,19 @@
           "normal": "¥15.00",
           "current": "免费",
           "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "6443696943",
+          "name": "Mockup Screenshot",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/13/f7/28/13f728ab-3f57-99c7-6611-234b63cce2c7/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+          "genre": "软件开发工具",
+          "type": "free",
+          "page": "app/cn-6443696943.html",
+          "rating": 5,
+          "normal": "¥15.00",
+          "current": "免费",
+          "has_iap": false,
           "region": "cn"
         }
       ],
@@ -30033,19 +30033,6 @@
           "region": "cn"
         },
         {
-          "id": "6809207083",
-          "name": "Glassiu 浏览器: 视频嗅探&油猴脚本&广告拦截",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/b8/68/09b868af-b8a7-de7d-cbf1-9ea0a17033fc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6809207083.html",
-          "rating": 4.3125,
-          "normal": "¥8.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
           "id": "6761336662",
           "name": "Video Transcriber - Captions",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/06/bc/6306bcef-371c-4bf8-5de5-79bc3186d32e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
@@ -30212,6 +30199,19 @@
           "normal": "¥15.00",
           "current": "免费",
           "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "6443696943",
+          "name": "Mockup Screenshot",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/13/f7/28/13f728ab-3f57-99c7-6611-234b63cce2c7/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+          "genre": "软件开发工具",
+          "type": "free",
+          "page": "app/cn-6443696943.html",
+          "rating": 5,
+          "normal": "¥15.00",
+          "current": "免费",
+          "has_iap": false,
           "region": "cn"
         }
       ],
@@ -30409,19 +30409,6 @@
           "region": "cn"
         },
         {
-          "id": "6809207083",
-          "name": "Glassiu 浏览器: 视频嗅探&油猴脚本&广告拦截",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/b8/68/09b868af-b8a7-de7d-cbf1-9ea0a17033fc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6809207083.html",
-          "rating": 4.3125,
-          "normal": "¥8.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
           "id": "6761336662",
           "name": "Video Transcriber - Captions",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/06/bc/6306bcef-371c-4bf8-5de5-79bc3186d32e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
@@ -30588,6 +30575,19 @@
           "normal": "¥15.00",
           "current": "免费",
           "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "6443696943",
+          "name": "Mockup Screenshot",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/13/f7/28/13f728ab-3f57-99c7-6611-234b63cce2c7/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+          "genre": "软件开发工具",
+          "type": "free",
+          "page": "app/cn-6443696943.html",
+          "rating": 5,
+          "normal": "¥15.00",
+          "current": "免费",
+          "has_iap": false,
           "region": "cn"
         }
       ],
@@ -30785,19 +30785,6 @@
           "region": "cn"
         },
         {
-          "id": "6809207083",
-          "name": "Glassiu 浏览器: 视频嗅探&油猴脚本&广告拦截",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/b8/68/09b868af-b8a7-de7d-cbf1-9ea0a17033fc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6809207083.html",
-          "rating": 4.3125,
-          "normal": "¥8.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
           "id": "6761336662",
           "name": "Video Transcriber - Captions",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/06/bc/6306bcef-371c-4bf8-5de5-79bc3186d32e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
@@ -30964,6 +30951,19 @@
           "normal": "¥15.00",
           "current": "免费",
           "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "6443696943",
+          "name": "Mockup Screenshot",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/13/f7/28/13f728ab-3f57-99c7-6611-234b63cce2c7/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+          "genre": "软件开发工具",
+          "type": "free",
+          "page": "app/cn-6443696943.html",
+          "rating": 5,
+          "normal": "¥15.00",
+          "current": "免费",
+          "has_iap": false,
           "region": "cn"
         }
       ],
@@ -31161,19 +31161,6 @@
           "region": "cn"
         },
         {
-          "id": "6809207083",
-          "name": "Glassiu 浏览器: 视频嗅探&油猴脚本&广告拦截",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/b8/68/09b868af-b8a7-de7d-cbf1-9ea0a17033fc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6809207083.html",
-          "rating": 4.3125,
-          "normal": "¥8.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
           "id": "6761336662",
           "name": "Video Transcriber - Captions",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/06/bc/6306bcef-371c-4bf8-5de5-79bc3186d32e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
@@ -31340,6 +31327,19 @@
           "normal": "¥15.00",
           "current": "免费",
           "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "6443696943",
+          "name": "Mockup Screenshot",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/13/f7/28/13f728ab-3f57-99c7-6611-234b63cce2c7/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+          "genre": "软件开发工具",
+          "type": "free",
+          "page": "app/cn-6443696943.html",
+          "rating": 5,
+          "normal": "¥15.00",
+          "current": "免费",
+          "has_iap": false,
           "region": "cn"
         }
       ],
@@ -31512,19 +31512,6 @@
           "region": "cn"
         },
         {
-          "id": "6809207083",
-          "name": "Glassiu 浏览器: 视频嗅探&油猴脚本&广告拦截",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/b8/68/09b868af-b8a7-de7d-cbf1-9ea0a17033fc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6809207083.html",
-          "rating": 4.3125,
-          "normal": "¥8.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
           "id": "6761336662",
           "name": "Video Transcriber - Captions",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/06/bc/6306bcef-371c-4bf8-5de5-79bc3186d32e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
@@ -31691,6 +31678,19 @@
           "normal": "¥15.00",
           "current": "免费",
           "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "6443696943",
+          "name": "Mockup Screenshot",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/13/f7/28/13f728ab-3f57-99c7-6611-234b63cce2c7/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+          "genre": "软件开发工具",
+          "type": "free",
+          "page": "app/cn-6443696943.html",
+          "rating": 5,
+          "normal": "¥15.00",
+          "current": "免费",
+          "has_iap": false,
           "region": "cn"
         }
       ],
@@ -31873,19 +31873,6 @@
           "region": "cn"
         },
         {
-          "id": "6809207083",
-          "name": "Glassiu 浏览器: 视频嗅探&油猴脚本&广告拦截",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/b8/68/09b868af-b8a7-de7d-cbf1-9ea0a17033fc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6809207083.html",
-          "rating": 4.3125,
-          "normal": "¥8.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
           "id": "6761336662",
           "name": "Video Transcriber - Captions",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/06/bc/6306bcef-371c-4bf8-5de5-79bc3186d32e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
@@ -32052,6 +32039,19 @@
           "normal": "¥15.00",
           "current": "免费",
           "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "6443696943",
+          "name": "Mockup Screenshot",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/13/f7/28/13f728ab-3f57-99c7-6611-234b63cce2c7/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+          "genre": "软件开发工具",
+          "type": "free",
+          "page": "app/cn-6443696943.html",
+          "rating": 5,
+          "normal": "¥15.00",
+          "current": "免费",
+          "has_iap": false,
           "region": "cn"
         }
       ],
@@ -32249,19 +32249,6 @@
           "region": "cn"
         },
         {
-          "id": "6809207083",
-          "name": "Glassiu 浏览器: 视频嗅探&油猴脚本&广告拦截",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/b8/68/09b868af-b8a7-de7d-cbf1-9ea0a17033fc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6809207083.html",
-          "rating": 4.3125,
-          "normal": "¥8.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
           "id": "6761336662",
           "name": "Video Transcriber - Captions",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/06/bc/6306bcef-371c-4bf8-5de5-79bc3186d32e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
@@ -32428,6 +32415,19 @@
           "normal": "¥15.00",
           "current": "免费",
           "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "6443696943",
+          "name": "Mockup Screenshot",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/13/f7/28/13f728ab-3f57-99c7-6611-234b63cce2c7/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+          "genre": "软件开发工具",
+          "type": "free",
+          "page": "app/cn-6443696943.html",
+          "rating": 5,
+          "normal": "¥15.00",
+          "current": "免费",
+          "has_iap": false,
           "region": "cn"
         }
       ],
@@ -32625,19 +32625,6 @@
           "region": "cn"
         },
         {
-          "id": "6809207083",
-          "name": "Glassiu 浏览器: 视频嗅探&油猴脚本&广告拦截",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/b8/68/09b868af-b8a7-de7d-cbf1-9ea0a17033fc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6809207083.html",
-          "rating": 4.3125,
-          "normal": "¥8.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
           "id": "6761336662",
           "name": "Video Transcriber - Captions",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/06/bc/6306bcef-371c-4bf8-5de5-79bc3186d32e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
@@ -32804,6 +32791,19 @@
           "normal": "¥15.00",
           "current": "免费",
           "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "6443696943",
+          "name": "Mockup Screenshot",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/13/f7/28/13f728ab-3f57-99c7-6611-234b63cce2c7/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+          "genre": "软件开发工具",
+          "type": "free",
+          "page": "app/cn-6443696943.html",
+          "rating": 5,
+          "normal": "¥15.00",
+          "current": "免费",
+          "has_iap": false,
           "region": "cn"
         }
       ],
@@ -33001,19 +33001,6 @@
           "region": "cn"
         },
         {
-          "id": "6809207083",
-          "name": "Glassiu 浏览器: 视频嗅探&油猴脚本&广告拦截",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/b8/68/09b868af-b8a7-de7d-cbf1-9ea0a17033fc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6809207083.html",
-          "rating": 4.3125,
-          "normal": "¥8.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
           "id": "6761336662",
           "name": "Video Transcriber - Captions",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/06/bc/6306bcef-371c-4bf8-5de5-79bc3186d32e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
@@ -33180,6 +33167,19 @@
           "normal": "¥15.00",
           "current": "免费",
           "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "6443696943",
+          "name": "Mockup Screenshot",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/13/f7/28/13f728ab-3f57-99c7-6611-234b63cce2c7/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+          "genre": "软件开发工具",
+          "type": "free",
+          "page": "app/cn-6443696943.html",
+          "rating": 5,
+          "normal": "¥15.00",
+          "current": "免费",
+          "has_iap": false,
           "region": "cn"
         }
       ],
@@ -33377,19 +33377,6 @@
           "region": "cn"
         },
         {
-          "id": "6809207083",
-          "name": "Glassiu 浏览器: 视频嗅探&油猴脚本&广告拦截",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/b8/68/09b868af-b8a7-de7d-cbf1-9ea0a17033fc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6809207083.html",
-          "rating": 4.3125,
-          "normal": "¥8.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
           "id": "6761336662",
           "name": "Video Transcriber - Captions",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/06/bc/6306bcef-371c-4bf8-5de5-79bc3186d32e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
@@ -33556,6 +33543,19 @@
           "normal": "¥15.00",
           "current": "免费",
           "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "6443696943",
+          "name": "Mockup Screenshot",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/13/f7/28/13f728ab-3f57-99c7-6611-234b63cce2c7/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+          "genre": "软件开发工具",
+          "type": "free",
+          "page": "app/cn-6443696943.html",
+          "rating": 5,
+          "normal": "¥15.00",
+          "current": "免费",
+          "has_iap": false,
           "region": "cn"
         }
       ],
@@ -33748,19 +33748,6 @@
           "region": "cn"
         },
         {
-          "id": "6809207083",
-          "name": "Glassiu 浏览器: 视频嗅探&油猴脚本&广告拦截",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/b8/68/09b868af-b8a7-de7d-cbf1-9ea0a17033fc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6809207083.html",
-          "rating": 4.3125,
-          "normal": "¥8.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
           "id": "6761336662",
           "name": "Video Transcriber - Captions",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/06/bc/6306bcef-371c-4bf8-5de5-79bc3186d32e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
@@ -33927,6 +33914,19 @@
           "normal": "¥15.00",
           "current": "免费",
           "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "6443696943",
+          "name": "Mockup Screenshot",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/13/f7/28/13f728ab-3f57-99c7-6611-234b63cce2c7/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+          "genre": "软件开发工具",
+          "type": "free",
+          "page": "app/cn-6443696943.html",
+          "rating": 5,
+          "normal": "¥15.00",
+          "current": "免费",
+          "has_iap": false,
           "region": "cn"
         }
       ],
@@ -34124,19 +34124,6 @@
           "region": "cn"
         },
         {
-          "id": "6809207083",
-          "name": "Glassiu 浏览器: 视频嗅探&油猴脚本&广告拦截",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/b8/68/09b868af-b8a7-de7d-cbf1-9ea0a17033fc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6809207083.html",
-          "rating": 4.3125,
-          "normal": "¥8.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
           "id": "6761336662",
           "name": "Video Transcriber - Captions",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/06/bc/6306bcef-371c-4bf8-5de5-79bc3186d32e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
@@ -34303,6 +34290,19 @@
           "normal": "¥15.00",
           "current": "免费",
           "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "6443696943",
+          "name": "Mockup Screenshot",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/13/f7/28/13f728ab-3f57-99c7-6611-234b63cce2c7/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+          "genre": "软件开发工具",
+          "type": "free",
+          "page": "app/cn-6443696943.html",
+          "rating": 5,
+          "normal": "¥15.00",
+          "current": "免费",
+          "has_iap": false,
           "region": "cn"
         }
       ],
@@ -34500,19 +34500,6 @@
           "region": "cn"
         },
         {
-          "id": "6809207083",
-          "name": "Glassiu 浏览器: 视频嗅探&油猴脚本&广告拦截",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/b8/68/09b868af-b8a7-de7d-cbf1-9ea0a17033fc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6809207083.html",
-          "rating": 4.3125,
-          "normal": "¥8.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
           "id": "6761336662",
           "name": "Video Transcriber - Captions",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/06/bc/6306bcef-371c-4bf8-5de5-79bc3186d32e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
@@ -34679,6 +34666,19 @@
           "normal": "¥15.00",
           "current": "免费",
           "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "6443696943",
+          "name": "Mockup Screenshot",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/13/f7/28/13f728ab-3f57-99c7-6611-234b63cce2c7/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+          "genre": "软件开发工具",
+          "type": "free",
+          "page": "app/cn-6443696943.html",
+          "rating": 5,
+          "normal": "¥15.00",
+          "current": "免费",
+          "has_iap": false,
           "region": "cn"
         }
       ],
@@ -34876,19 +34876,6 @@
           "region": "cn"
         },
         {
-          "id": "6809207083",
-          "name": "Glassiu 浏览器: 视频嗅探&油猴脚本&广告拦截",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/b8/68/09b868af-b8a7-de7d-cbf1-9ea0a17033fc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6809207083.html",
-          "rating": 4.3125,
-          "normal": "¥8.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
           "id": "6761336662",
           "name": "Video Transcriber - Captions",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/06/bc/6306bcef-371c-4bf8-5de5-79bc3186d32e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
@@ -35055,6 +35042,19 @@
           "normal": "¥15.00",
           "current": "免费",
           "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "6443696943",
+          "name": "Mockup Screenshot",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/13/f7/28/13f728ab-3f57-99c7-6611-234b63cce2c7/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+          "genre": "软件开发工具",
+          "type": "free",
+          "page": "app/cn-6443696943.html",
+          "rating": 5,
+          "normal": "¥15.00",
+          "current": "免费",
+          "has_iap": false,
           "region": "cn"
         }
       ],
@@ -35252,19 +35252,6 @@
           "region": "cn"
         },
         {
-          "id": "6809207083",
-          "name": "Glassiu 浏览器: 视频嗅探&油猴脚本&广告拦截",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/b8/68/09b868af-b8a7-de7d-cbf1-9ea0a17033fc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-          "genre": "工具",
-          "type": "free",
-          "page": "app/cn-6809207083.html",
-          "rating": 4.3125,
-          "normal": "¥8.00",
-          "current": "免费",
-          "has_iap": false,
-          "region": "cn"
-        },
-        {
           "id": "6761336662",
           "name": "Video Transcriber - Captions",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/06/bc/6306bcef-371c-4bf8-5de5-79bc3186d32e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
@@ -35431,6 +35418,19 @@
           "normal": "¥15.00",
           "current": "免费",
           "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "6443696943",
+          "name": "Mockup Screenshot",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/13/f7/28/13f728ab-3f57-99c7-6611-234b63cce2c7/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+          "genre": "软件开发工具",
+          "type": "free",
+          "page": "app/cn-6443696943.html",
+          "rating": 5,
+          "normal": "¥15.00",
+          "current": "免费",
+          "has_iap": false,
           "region": "cn"
         }
       ],
