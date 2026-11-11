@@ -55,23 +55,6 @@
       "page": "app/us-6823810305.html"
     },
     {
-      "app_id": "6503609135",
-      "app_name": "SMSCat",
-      "iap": "Lifetime Member",
-      "price": "$0.00",
-      "free_since": "2026-11-10",
-      "days_free": 1,
-      "last_paid_date": "2026-10-30",
-      "last_paid_price": "$9.99",
-      "url": "https://apps.apple.com/us/app/smscat/id6503609135?uo=4",
-      "rating": 4.38235,
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b8/23/a2/b823a28e-1794-8f59-5dd5-cc6f5675d51f/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
-      "dev": "瑞青 邓",
-      "genre": "Utilities",
-      "app_price": "Free",
-      "page": "app/us-6503609135.html"
-    },
-    {
       "app_id": "6444253288",
       "app_name": "Phone Cleaner-AI Clean Storage",
       "iap": "Lifetime Purchase VIP",
@@ -87,6 +70,23 @@
       "genre": "Productivity",
       "app_price": "Free",
       "page": "app/us-6444253288.html"
+    },
+    {
+      "app_id": "6778018148",
+      "app_name": "健康修仙传-随时随地的赛博“修仙”之旅",
+      "iap": "永久会员",
+      "price": "$0.00",
+      "free_since": "2026-11-09",
+      "days_free": 2,
+      "last_paid_date": "2026-11-09",
+      "last_paid_price": "$29.99",
+      "url": "https://apps.apple.com/us/app/%E5%81%A5%E5%BA%B7%E4%BF%AE%E4%BB%99%E4%BC%A0-%E9%9A%8F%E6%97%B6%E9%9A%8F%E5%9C%B0%E7%9A%84%E8%B5%9B%E5%8D%9A-%E4%BF%AE%E4%BB%99-%E4%B9%8B%E6%97%85/id6778018148?uo=4",
+      "rating": 4.625,
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b5/e4/f2/b5e4f202-585d-b106-3a8e-0b268eedbe9f/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+      "dev": "Wuhan Starlink Network Technology Co., Ltd.",
+      "genre": "Health & Fitness",
+      "app_price": "Free",
+      "page": "app/us-6778018148.html"
     }
   ]
 }

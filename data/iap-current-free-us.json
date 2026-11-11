@@ -1,7 +1,7 @@
 {
   "updated": "2026-11-11",
   "region": "us",
-  "count": 268,
+  "count": 294,
   "items": [
     {
       "app_id": "6808996054",
@@ -25,15 +25,6 @@
       "app_id": "6823810305",
       "app_name": "Three Routes: Run & Walk",
       "iap": "Three Routes Pro Lifetime",
-      "price": "$0.00",
-      "permanent_free": false,
-      "since": "2026-11-11",
-      "app_price": "Free"
-    },
-    {
-      "app_id": "6503609135",
-      "app_name": "SMSCat",
-      "iap": "Lifetime Member",
       "price": "$0.00",
       "permanent_free": false,
       "since": "2026-11-11",
@@ -1647,7 +1638,7 @@
       "iap": "Dub Trap",
       "price": "$0.00",
       "permanent_free": true,
-      "since": "2026-11-10",
+      "since": "2026-11-11",
       "app_price": "Free"
     },
     {
@@ -1656,7 +1647,7 @@
       "iap": "EDM Haze",
       "price": "$0.00",
       "permanent_free": true,
-      "since": "2026-11-10",
+      "since": "2026-11-11",
       "app_price": "Free"
     },
     {
@@ -1665,7 +1656,7 @@
       "iap": "FoundSoundJourney:ItalianChill",
       "price": "$0.00",
       "permanent_free": true,
-      "since": "2026-11-10",
+      "since": "2026-11-11",
       "app_price": "Free"
     },
     {
@@ -1674,7 +1665,7 @@
       "iap": "Found Sound Journey: Techno",
       "price": "$0.00",
       "permanent_free": true,
-      "since": "2026-11-10",
+      "since": "2026-11-11",
       "app_price": "Free"
     },
     {
@@ -1683,7 +1674,7 @@
       "iap": "Found Sound Journey: Hip Hop",
       "price": "$0.00",
       "permanent_free": true,
-      "since": "2026-11-10",
+      "since": "2026-11-11",
       "app_price": "Free"
     },
     {
@@ -2414,6 +2405,249 @@
       "permanent_free": true,
       "since": "2026-11-11",
       "app_price": "Free"
+    },
+    {
+      "app_id": "6778018148",
+      "app_name": "健康修仙传-随时随地的赛博“修仙”之旅",
+      "iap": "永久会员",
+      "price": "$0.00",
+      "permanent_free": false,
+      "since": "2026-11-11",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6745362631",
+      "app_name": "Milk Diary®: Baby Feeding",
+      "iap": "Milk Diary Pro - Lifetime",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-11",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6774211530",
+      "app_name": "TrustSteward",
+      "iap": "Lifetime",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-11",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6757375760",
+      "app_name": "JawlinePro: Face Yoga & AI",
+      "iap": "LifeTime Pro",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-11",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "1067575393",
+      "app_name": "Image Eraser - Inpaint & heal",
+      "iap": "Remove ads",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-11",
+      "app_price": "$0.99"
+    },
+    {
+      "app_id": "1095903651",
+      "app_name": "甜蛙 - 甜甜约会！！！",
+      "iap": "特效7",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-11",
+      "app_price": "$29.00"
+    },
+    {
+      "app_id": "1095903651",
+      "app_name": "甜蛙 - 甜甜约会！！！",
+      "iap": "特效6",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-11",
+      "app_price": "$29.00"
+    },
+    {
+      "app_id": "1095903651",
+      "app_name": "甜蛙 - 甜甜约会！！！",
+      "iap": "特效5",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-11",
+      "app_price": "$29.00"
+    },
+    {
+      "app_id": "1095903651",
+      "app_name": "甜蛙 - 甜甜约会！！！",
+      "iap": "特效4",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-11",
+      "app_price": "$29.00"
+    },
+    {
+      "app_id": "1095903651",
+      "app_name": "甜蛙 - 甜甜约会！！！",
+      "iap": "特效3",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-11",
+      "app_price": "$29.00"
+    },
+    {
+      "app_id": "1095903651",
+      "app_name": "甜蛙 - 甜甜约会！！！",
+      "iap": "特效2",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-11",
+      "app_price": "$29.00"
+    },
+    {
+      "app_id": "1095903651",
+      "app_name": "甜蛙 - 甜甜约会！！！",
+      "iap": "特效1",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-11",
+      "app_price": "$29.00"
+    },
+    {
+      "app_id": "1182856129",
+      "app_name": "Blink - Quick Notes & Widget",
+      "iap": "Pages",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-11",
+      "app_price": "$2.99"
+    },
+    {
+      "app_id": "1439723850",
+      "app_name": "Countdown! Reminders and Timer",
+      "iap": "Transparent Widget",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-11",
+      "app_price": "$0.99"
+    },
+    {
+      "app_id": "628021549",
+      "app_name": "Tasks And Measures",
+      "iap": "Health Event Detail Chart",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-11",
+      "app_price": "$4.99"
+    },
+    {
+      "app_id": "6769252146",
+      "app_name": "Tally Counter 123: Pitch Count",
+      "iap": "Create more than 3 counters",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-11",
+      "app_price": "$0.99"
+    },
+    {
+      "app_id": "6772677802",
+      "app_name": "Vermietoo",
+      "iap": "7-Tage-Testphase",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-11",
+      "app_price": "$0.99"
+    },
+    {
+      "app_id": "6808933682",
+      "app_name": "TrackCut: Ai Video Editor",
+      "iap": "Lifetime Premium",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-11",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "766214869",
+      "app_name": "The Great Photo App",
+      "iap": "Light basics",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-11",
+      "app_price": "$2.99"
+    },
+    {
+      "app_id": "766214869",
+      "app_name": "The Great Photo App",
+      "iap": "White Balance",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-11",
+      "app_price": "$2.99"
+    },
+    {
+      "app_id": "766214869",
+      "app_name": "The Great Photo App",
+      "iap": "Exposition",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-11",
+      "app_price": "$2.99"
+    },
+    {
+      "app_id": "766214869",
+      "app_name": "The Great Photo App",
+      "iap": "Exposure",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-11",
+      "app_price": "$2.99"
+    },
+    {
+      "app_id": "766214869",
+      "app_name": "The Great Photo App",
+      "iap": "Composition basics",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-11",
+      "app_price": "$2.99"
+    },
+    {
+      "app_id": "766214869",
+      "app_name": "The Great Photo App",
+      "iap": "Shutter Speed",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-11",
+      "app_price": "$2.99"
+    },
+    {
+      "app_id": "766214869",
+      "app_name": "The Great Photo App",
+      "iap": "Depth of field",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-11",
+      "app_price": "$2.99"
+    },
+    {
+      "app_id": "766214869",
+      "app_name": "The Great Photo App",
+      "iap": "Light modifiers",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-11",
+      "app_price": "$2.99"
+    },
+    {
+      "app_id": "935528099",
+      "app_name": "MUSYNX",
+      "iap": "Music collection sp01",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-11",
+      "app_price": "$0.99"
     }
   ]
 }

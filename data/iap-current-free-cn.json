@@ -1,7 +1,7 @@
 {
   "updated": "2026-11-11",
   "region": "cn",
-  "count": 207,
+  "count": 220,
   "items": [
     {
       "app_id": "6758658840",
@@ -1865,6 +1865,123 @@
       "permanent_free": true,
       "since": "2026-11-11",
       "app_price": "免费"
+    },
+    {
+      "app_id": "957061929",
+      "app_name": "PDF扫描仪：日期水印",
+      "iap": "PDF Scanner Pro",
+      "price": "¥0.00",
+      "permanent_free": false,
+      "since": "2026-11-11",
+      "app_price": "¥3.00"
+    },
+    {
+      "app_id": "6762743807",
+      "app_name": "维刻：体重记录、体脂、围度记录·身材管理·瘦身减肥打卡记录",
+      "iap": "维刻 Pro 终身版（早鸟价）",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-11",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "6444253288",
+      "app_name": "清理大师 - AI清理照片与视频",
+      "iap": "Lifetime Purchase VIP",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-11",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "6795471961",
+      "app_name": "POK PS2 3DS 模拟器：支持 Delta 皮肤",
+      "iap": "Pok PRO Lifetime Offer",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-11",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "6795471961",
+      "app_name": "POK PS2 3DS 模拟器：支持 Delta 皮肤",
+      "iap": "Pok PRO Lifetime",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-11",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "6826523359",
+      "app_name": "GridMe：人生格子日历，一句话日记",
+      "iap": "GridMe Pro Lifetime",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-11",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "361124046",
+      "app_name": "Piping DataBase - XTREME",
+      "iap": "Flanges B16.47",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-11",
+      "app_price": "¥68.00"
+    },
+    {
+      "app_id": "361124046",
+      "app_name": "Piping DataBase - XTREME",
+      "iap": "Pipe Spacing",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-11",
+      "app_price": "¥68.00"
+    },
+    {
+      "app_id": "361124046",
+      "app_name": "Piping DataBase - XTREME",
+      "iap": "Orifice Flanges B16.36",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-11",
+      "app_price": "¥68.00"
+    },
+    {
+      "app_id": "361124046",
+      "app_name": "Piping DataBase - XTREME",
+      "iap": "Malleable Iron Fittings",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-11",
+      "app_price": "¥68.00"
+    },
+    {
+      "app_id": "361124046",
+      "app_name": "Piping DataBase - XTREME",
+      "iap": "Flange Joint Bolt Tightening Sequence",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-11",
+      "app_price": "¥68.00"
+    },
+    {
+      "app_id": "6769252146",
+      "app_name": "计数器123：计分、编织与投球",
+      "iap": "Create more than 3 counters",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-11",
+      "app_price": "¥8.00"
+    },
+    {
+      "app_id": "6772677802",
+      "app_name": "Vermietoo",
+      "iap": "7-Tage-Testphase",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-11",
+      "app_price": "¥8.00"
     }
   ]
 }

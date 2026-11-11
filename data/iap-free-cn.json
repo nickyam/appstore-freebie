@@ -1,6 +1,24 @@
 {
   "updated": "2026-11-11",
   "region": "cn",
-  "count": 0,
-  "events": []
+  "count": 1,
+  "events": [
+    {
+      "app_id": "957061929",
+      "app_name": "PDF扫描仪：日期水印",
+      "iap": "PDF Scanner Pro",
+      "price": "¥0.00",
+      "free_since": "2026-11-09",
+      "days_free": 2,
+      "last_paid_date": "2026-11-09",
+      "last_paid_price": "¥22.00",
+      "url": "https://apps.apple.com/cn/app/pdf%E6%89%AB%E6%8F%8F%E4%BB%AA-%E6%97%A5%E6%9C%9F%E6%B0%B4%E5%8D%B0/id957061929?uo=4",
+      "rating": 4.59999,
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/93/de/1b/93de1b57-35c9-25e5-bdda-b0f9fff360e6/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "dev": "华芳 张",
+      "genre": "商务",
+      "app_price": "¥3.00",
+      "page": "app/cn-957061929.html"
+    }
+  ]
 }
