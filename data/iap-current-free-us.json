@@ -1,7 +1,7 @@
 {
   "updated": "2026-11-12",
   "region": "us",
-  "count": 314,
+  "count": 310,
   "items": [
     {
       "app_id": "6823810305",
@@ -252,7 +252,7 @@
       "iap": "NIV Bible",
       "price": "$0.00",
       "permanent_free": true,
-      "since": "2026-11-11",
+      "since": "2026-11-12",
       "app_price": "Free"
     },
     {
@@ -430,15 +430,6 @@
       "app_id": "1460687131",
       "app_name": "PLAY NO TREINO",
       "iap": "Treino FIT HOME",
-      "price": "$0.00",
-      "permanent_free": true,
-      "since": "2026-11-12",
-      "app_price": "Free"
-    },
-    {
-      "app_id": "1558114024",
-      "app_name": "Einkaufszettel zum abhaken",
-      "iap": "Werbung entfernen",
       "price": "$0.00",
       "permanent_free": true,
       "since": "2026-11-12",
@@ -1503,7 +1494,7 @@
       "iap": "Pocket Monk",
       "price": "$0.00",
       "permanent_free": true,
-      "since": "2026-11-09",
+      "since": "2026-11-12",
       "app_price": "Free"
     },
     {
@@ -1663,15 +1654,6 @@
       "app_id": "6760479173",
       "app_name": "LivaFast",
       "iap": "LivaFast Premium",
-      "price": "$0.00",
-      "permanent_free": true,
-      "since": "2026-11-12",
-      "app_price": "Free"
-    },
-    {
-      "app_id": "1632735560",
-      "app_name": "YourRecipesBook",
-      "iap": "Remove ads",
       "price": "$0.00",
       "permanent_free": true,
       "since": "2026-11-12",
@@ -2308,15 +2290,6 @@
       "app_price": "Free"
     },
     {
-      "app_id": "6802314068",
-      "app_name": "AudioM: Audiobook Player",
-      "iap": "AudioM Pro Lifetime",
-      "price": "$0.00",
-      "permanent_free": true,
-      "since": "2026-11-12",
-      "app_price": "Free"
-    },
-    {
       "app_id": "1448577120",
       "app_name": "ABC KIDS: Drawing & Tracing",
       "iap": "ABC Kids Lifetime",
@@ -2605,15 +2578,6 @@
       "app_price": "$0.99"
     },
     {
-      "app_id": "6778018148",
-      "app_name": "健康修仙传-随时随地的赛博“修仙”之旅",
-      "iap": "永久会员",
-      "price": "$0.00",
-      "permanent_free": true,
-      "since": "2026-11-12",
-      "app_price": "Free"
-    },
-    {
       "app_id": "6544783659",
       "app_name": "Fileso: zip rar 7zip Extractor",
       "iap": "Lifetime Version",
@@ -2644,24 +2608,6 @@
       "app_id": "6798158014",
       "app_name": "TextSwapEditor-AI Text Remover",
       "iap": "Life Time",
-      "price": "$0.00",
-      "permanent_free": true,
-      "since": "2026-11-12",
-      "app_price": "Free"
-    },
-    {
-      "app_id": "6816865617",
-      "app_name": "FaceVeil-Blur in Photo & Video",
-      "iap": "Life Time",
-      "price": "$0.00",
-      "permanent_free": true,
-      "since": "2026-11-12",
-      "app_price": "Free"
-    },
-    {
-      "app_id": "6810233571",
-      "app_name": "SoundFlow - Your Music In Flow",
-      "iap": "SoundFlow Pro Lifetime",
       "price": "$0.00",
       "permanent_free": true,
       "since": "2026-11-12",
@@ -2794,15 +2740,6 @@
       "app_price": "Free"
     },
     {
-      "app_id": "6754443107",
-      "app_name": "Deep Conversations: Date Night",
-      "iap": "Lifetime Premium",
-      "price": "$0.00",
-      "permanent_free": true,
-      "since": "2026-11-12",
-      "app_price": "Free"
-    },
-    {
       "app_id": "6828362431",
       "app_name": "Sepia",
       "iap": "Sepia Vision Pro永久激活",
@@ -2828,6 +2765,33 @@
       "permanent_free": true,
       "since": "2026-11-12",
       "app_price": "$8.99"
+    },
+    {
+      "app_id": "336400266",
+      "app_name": "Logos Bible",
+      "iap": "Русский Синодал",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-12",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "336400266",
+      "app_name": "Logos Bible",
+      "iap": "NeÜ bibel.heute (Neue evangel",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-12",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "917288465",
+      "app_name": "Mapstr – Save & Follow Places",
+      "iap": "World’s Best Bars",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-12",
+      "app_price": "Free"
     }
   ]
 }
