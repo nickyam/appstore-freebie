@@ -1,8 +1,89 @@
 {
   "updated": "2026-11-12",
   "region": "us",
-  "count": 310,
+  "count": 319,
   "items": [
+    {
+      "app_id": "6808996054",
+      "app_name": "Tasting Tours",
+      "iap": "Must-See St. Augustine",
+      "price": "$0.00",
+      "permanent_free": false,
+      "since": "2026-11-12",
+      "app_price": "$0.99"
+    },
+    {
+      "app_id": "6808996054",
+      "app_name": "Tasting Tours",
+      "iap": "Free St. Augustine",
+      "price": "$0.00",
+      "permanent_free": false,
+      "since": "2026-11-12",
+      "app_price": "$0.99"
+    },
+    {
+      "app_id": "6808996054",
+      "app_name": "Tasting Tours",
+      "iap": "Christmas Nights of Lights",
+      "price": "$0.00",
+      "permanent_free": false,
+      "since": "2026-11-12",
+      "app_price": "$0.99"
+    },
+    {
+      "app_id": "6808996054",
+      "app_name": "Tasting Tours",
+      "iap": "Lincolnville Freedom's First Neighb",
+      "price": "$0.00",
+      "permanent_free": false,
+      "since": "2026-11-12",
+      "app_price": "$0.99"
+    },
+    {
+      "app_id": "6808996054",
+      "app_name": "Tasting Tours",
+      "iap": "Pirate and Privateer Hunt",
+      "price": "$0.00",
+      "permanent_free": false,
+      "since": "2026-11-12",
+      "app_price": "$0.99"
+    },
+    {
+      "app_id": "6808996054",
+      "app_name": "Tasting Tours",
+      "iap": "Romantic St. Augustine",
+      "price": "$0.00",
+      "permanent_free": false,
+      "since": "2026-11-12",
+      "app_price": "$0.99"
+    },
+    {
+      "app_id": "6808996054",
+      "app_name": "Tasting Tours",
+      "iap": "Secrets of St. George Street",
+      "price": "$0.00",
+      "permanent_free": false,
+      "since": "2026-11-12",
+      "app_price": "$0.99"
+    },
+    {
+      "app_id": "6808996054",
+      "app_name": "Tasting Tours",
+      "iap": "Styles of the Ancient City",
+      "price": "$0.00",
+      "permanent_free": false,
+      "since": "2026-11-12",
+      "app_price": "$0.99"
+    },
+    {
+      "app_id": "6808996054",
+      "app_name": "Tasting Tours",
+      "iap": "The Lost Lantern",
+      "price": "$0.00",
+      "permanent_free": false,
+      "since": "2026-11-12",
+      "app_price": "$0.99"
+    },
     {
       "app_id": "6823810305",
       "app_name": "Three Routes: Run & Walk",
