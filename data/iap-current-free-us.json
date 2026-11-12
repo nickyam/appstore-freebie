@@ -1,21 +1,12 @@
 {
   "updated": "2026-11-12",
   "region": "us",
-  "count": 293,
+  "count": 314,
   "items": [
     {
       "app_id": "6823810305",
       "app_name": "Three Routes: Run & Walk",
       "iap": "Three Routes Pro Lifetime",
-      "price": "$0.00",
-      "permanent_free": false,
-      "since": "2026-11-12",
-      "app_price": "Free"
-    },
-    {
-      "app_id": "6743779432",
-      "app_name": "NeatAlbums: Photo Organizer",
-      "iap": "Classified Camera PRO Lifetime",
       "price": "$0.00",
       "permanent_free": false,
       "since": "2026-11-12",
@@ -1705,15 +1696,6 @@
       "app_price": "Free"
     },
     {
-      "app_id": "6743779432",
-      "app_name": "NeatAlbums: Photo Organizer",
-      "iap": "Photo Organizer Pro Lifetime",
-      "price": "$0.00",
-      "permanent_free": false,
-      "since": "2026-11-12",
-      "app_price": "Free"
-    },
-    {
       "app_id": "6757496953",
       "app_name": "Lekh AI - Local AI Studio",
       "iap": "Lifetime",
@@ -1863,15 +1845,6 @@
       "iap": "extend death&life exercises",
       "price": "$0.00",
       "permanent_free": true,
-      "since": "2026-11-12",
-      "app_price": "Free"
-    },
-    {
-      "app_id": "6817167359",
-      "app_name": "Termini - SSH Client",
-      "iap": "永久Pro",
-      "price": "$0.00",
-      "permanent_free": false,
       "since": "2026-11-12",
       "app_price": "Free"
     },
@@ -2407,15 +2380,6 @@
       "app_price": "Free"
     },
     {
-      "app_id": "6778018148",
-      "app_name": "健康修仙传-随时随地的赛博“修仙”之旅",
-      "iap": "永久会员",
-      "price": "$0.00",
-      "permanent_free": false,
-      "since": "2026-11-12",
-      "app_price": "Free"
-    },
-    {
       "app_id": "6774211530",
       "app_name": "TrustSteward",
       "iap": "Lifetime",
@@ -2639,6 +2603,231 @@
       "permanent_free": true,
       "since": "2026-11-12",
       "app_price": "$0.99"
+    },
+    {
+      "app_id": "6778018148",
+      "app_name": "健康修仙传-随时随地的赛博“修仙”之旅",
+      "iap": "永久会员",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-12",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6544783659",
+      "app_name": "Fileso: zip rar 7zip Extractor",
+      "iap": "Lifetime Version",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-12",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6795471961",
+      "app_name": "POK PS2 Emulator: Delta Skins",
+      "iap": "Pok PRO Lifetime Offer",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-12",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6795471961",
+      "app_name": "POK PS2 Emulator: Delta Skins",
+      "iap": "Pok PRO Lifetime",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-12",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6798158014",
+      "app_name": "TextSwapEditor-AI Text Remover",
+      "iap": "Life Time",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-12",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6816865617",
+      "app_name": "FaceVeil-Blur in Photo & Video",
+      "iap": "Life Time",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-12",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6810233571",
+      "app_name": "SoundFlow - Your Music In Flow",
+      "iap": "SoundFlow Pro Lifetime",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-12",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "1016291290",
+      "app_name": "Auria Pro - Music Production",
+      "iap": "C7 Grand Piano",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-12",
+      "app_price": "$24.99"
+    },
+    {
+      "app_id": "1016291290",
+      "app_name": "Auria Pro - Music Production",
+      "iap": "Rock Drum Kit",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-12",
+      "app_price": "$24.99"
+    },
+    {
+      "app_id": "1016291290",
+      "app_name": "Auria Pro - Music Production",
+      "iap": "Elektromorph Drum Kit",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-12",
+      "app_price": "$24.99"
+    },
+    {
+      "app_id": "1016291290",
+      "app_name": "Auria Pro - Music Production",
+      "iap": "Jazz Drum Kit",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-12",
+      "app_price": "$24.99"
+    },
+    {
+      "app_id": "1016291290",
+      "app_name": "Auria Pro - Music Production",
+      "iap": "DX Piano",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-12",
+      "app_price": "$24.99"
+    },
+    {
+      "app_id": "1016291290",
+      "app_name": "Auria Pro - Music Production",
+      "iap": "Salamander Grand Piano",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-12",
+      "app_price": "$24.99"
+    },
+    {
+      "app_id": "1016291290",
+      "app_name": "Auria Pro - Music Production",
+      "iap": "Clean Guitar",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-12",
+      "app_price": "$24.99"
+    },
+    {
+      "app_id": "1016291290",
+      "app_name": "Auria Pro - Music Production",
+      "iap": "Metal Drum Kit",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-12",
+      "app_price": "$24.99"
+    },
+    {
+      "app_id": "1016291290",
+      "app_name": "Auria Pro - Music Production",
+      "iap": "Classic Grand Piano",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-12",
+      "app_price": "$24.99"
+    },
+    {
+      "app_id": "1016291290",
+      "app_name": "Auria Pro - Music Production",
+      "iap": "Dreamwave Piano",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-12",
+      "app_price": "$24.99"
+    },
+    {
+      "app_id": "524122834",
+      "app_name": "Auria - Music Production",
+      "iap": "C7 Grand Piano",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-12",
+      "app_price": "$12.49"
+    },
+    {
+      "app_id": "524122834",
+      "app_name": "Auria - Music Production",
+      "iap": "Rock Drum Kit",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-12",
+      "app_price": "$12.49"
+    },
+    {
+      "app_id": "524122834",
+      "app_name": "Auria - Music Production",
+      "iap": "Jazz Drum Kit",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-12",
+      "app_price": "$12.49"
+    },
+    {
+      "app_id": "6747201811",
+      "app_name": "徕财",
+      "iap": "徕财Pro永久会员",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-12",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6754443107",
+      "app_name": "Deep Conversations: Date Night",
+      "iap": "Lifetime Premium",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-12",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6828362431",
+      "app_name": "Sepia",
+      "iap": "Sepia Vision Pro永久激活",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-12",
+      "app_price": "$3.89"
+    },
+    {
+      "app_id": "6828362431",
+      "app_name": "Sepia",
+      "iap": "永久激活Sepia",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-12",
+      "app_price": "$3.89"
+    },
+    {
+      "app_id": "966457795",
+      "app_name": "Super PhotoCut",
+      "iap": "Output High Resolution Image",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-12",
+      "app_price": "$8.99"
     }
   ]
 }
