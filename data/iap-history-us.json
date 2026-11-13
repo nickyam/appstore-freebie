@@ -7,8 +7,8 @@
     "seed_added": 3,
     "seed_total": 22037,
     "pool_size": 2000,
-    "processed": 1999,
-    "skipped": 1,
+    "processed": 2000,
+    "skipped": 0,
     "seed_last_ok": "2026-11-12T22:00:54Z",
     "seed_last_error": ""
   },
@@ -2257,7 +2257,7 @@
       "first_date": "2026-10-23",
       "first_price": "$9.99",
       "last_date": "2026-11-13",
-      "last_price": "$29.99",
+      "last_price": "$49.99",
       "last_change_date": "2026-11-13",
       "ever_paid": true,
       "last_paid_date": "2026-11-13",
@@ -2269,7 +2269,7 @@
         "2026-10-26": "$49.99",
         "2026-10-27": "$49.99",
         "2026-10-28": "$49.99",
-        "2026-11-13": "$29.99"
+        "2026-11-13": "$49.99"
       }
     },
     "1597439129::Weekly Full Access Free Trial": {
@@ -4153,10 +4153,10 @@
       "first_date": "2026-10-23",
       "first_price": "$7.99",
       "last_date": "2026-11-13",
-      "last_price": "$7.99",
-      "last_change_date": "2026-10-29",
+      "last_price": "$19.99",
+      "last_change_date": "2026-11-13",
       "ever_paid": true,
-      "last_paid_date": "2026-10-29",
+      "last_paid_date": "2026-11-13",
       "free_since": null,
       "changes": {
         "2026-10-23": "$5.99",
@@ -4165,7 +4165,8 @@
         "2026-10-26": "$5.99",
         "2026-10-27": "$5.99",
         "2026-10-28": "$5.99",
-        "2026-10-29": "$7.99"
+        "2026-10-29": "$7.99",
+        "2026-11-13": "$19.99"
       }
     },
     "1503665233::Premium Access, 1 week": {
@@ -4176,13 +4177,14 @@
       "first_date": "2026-10-23",
       "first_price": "$12.99",
       "last_date": "2026-11-13",
-      "last_price": "$12.99",
-      "last_change_date": "2026-10-23",
+      "last_price": "$19.99",
+      "last_change_date": "2026-11-13",
       "ever_paid": true,
-      "last_paid_date": "2026-10-23",
+      "last_paid_date": "2026-11-13",
       "free_since": null,
       "changes": {
-        "2026-10-23": "$12.99"
+        "2026-10-23": "$12.99",
+        "2026-11-13": "$19.99"
       }
     },
     "1503665233::Weekly Access to All Features": {
@@ -4244,13 +4246,14 @@
       "first_date": "2026-10-23",
       "first_price": "$29.99",
       "last_date": "2026-11-13",
-      "last_price": "$29.99",
-      "last_change_date": "2026-10-23",
+      "last_price": "$19.99",
+      "last_change_date": "2026-11-13",
       "ever_paid": true,
-      "last_paid_date": "2026-10-23",
+      "last_paid_date": "2026-11-13",
       "free_since": null,
       "changes": {
-        "2026-10-23": "$29.99"
+        "2026-10-23": "$29.99",
+        "2026-11-13": "$19.99"
       }
     },
     "1503665233::3-month Premium Access": {
@@ -55777,7 +55780,7 @@
       "first_date": "2026-10-23",
       "first_price": "$99.99",
       "last_date": "2026-11-13",
-      "last_price": "$349.99",
+      "last_price": "$449.99",
       "last_change_date": "2026-11-13",
       "ever_paid": true,
       "last_paid_date": "2026-11-13",
@@ -55790,7 +55793,7 @@
         "2026-10-27": "$449.99",
         "2026-10-28": "$314.99",
         "2026-10-29": "$449.99",
-        "2026-11-13": "$349.99"
+        "2026-11-13": "$449.99"
       }
     },
     "873518909::Luxy Coins": {
@@ -181305,16 +181308,17 @@
       "first_date": "2026-10-27",
       "first_price": "$29.99",
       "last_date": "2026-11-13",
-      "last_price": "$29.99",
-      "last_change_date": "2026-11-02",
+      "last_price": "$39.99",
+      "last_change_date": "2026-11-13",
       "ever_paid": true,
-      "last_paid_date": "2026-11-02",
+      "last_paid_date": "2026-11-13",
       "free_since": null,
       "changes": {
         "2026-10-27": "$29.99",
         "2026-10-28": "$39.99",
         "2026-10-30": "$29.99",
-        "2026-11-02": "$29.99"
+        "2026-11-02": "$29.99",
+        "2026-11-13": "$39.99"
       }
     },
     "6479920412::Lifetime Premium": {
@@ -197061,7 +197065,7 @@
       "first_date": "2026-10-27",
       "first_price": "$9.99",
       "last_date": "2026-11-13",
-      "last_price": "$79.99",
+      "last_price": "$59.99",
       "last_change_date": "2026-11-13",
       "ever_paid": true,
       "last_paid_date": "2026-11-13",
@@ -197076,7 +197080,7 @@
         "2026-11-06": "$59.99",
         "2026-11-07": "$59.99",
         "2026-11-12": "$59.99",
-        "2026-11-13": "$79.99"
+        "2026-11-13": "$59.99"
       }
     },
     "1508098273::Keiki World - 7 Days Trial": {
@@ -204925,14 +204929,15 @@
       "first_date": "2026-10-27",
       "first_price": "$5.99",
       "last_date": "2026-11-13",
-      "last_price": "$6.99",
-      "last_change_date": "2026-11-11",
+      "last_price": "$5.99",
+      "last_change_date": "2026-11-13",
       "ever_paid": true,
-      "last_paid_date": "2026-11-11",
+      "last_paid_date": "2026-11-13",
       "free_since": null,
       "changes": {
         "2026-10-27": "$5.99",
-        "2026-11-11": "$6.99"
+        "2026-11-11": "$6.99",
+        "2026-11-13": "$5.99"
       }
     },
     "306310789::Monthly Wattpad Premium+": {
@@ -386341,6 +386346,312 @@
       "free_since": null,
       "changes": {
         "2026-11-13": "$39.99"
+      }
+    },
+    "332615624::Psalms Commentary": {
+      "app_id": "332615624",
+      "app_name": "Bible Study App by Olive Tree",
+      "name": "Psalms Commentary",
+      "region": "us",
+      "first_date": "2026-11-13",
+      "first_price": "$149.99",
+      "last_date": "2026-11-13",
+      "last_price": "$149.99",
+      "last_change_date": "2026-11-13",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-13",
+      "free_since": null,
+      "changes": {
+        "2026-11-13": "$149.99"
+      }
+    },
+    "332615624::Luther Commentaries": {
+      "app_id": "332615624",
+      "app_name": "Bible Study App by Olive Tree",
+      "name": "Luther Commentaries",
+      "region": "us",
+      "first_date": "2026-11-13",
+      "first_price": "$49.99",
+      "last_date": "2026-11-13",
+      "last_price": "$49.99",
+      "last_change_date": "2026-11-13",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-13",
+      "free_since": null,
+      "changes": {
+        "2026-11-13": "$49.99"
+      }
+    },
+    "332615624::Lectio Continua Commentary": {
+      "app_id": "332615624",
+      "app_name": "Bible Study App by Olive Tree",
+      "name": "Lectio Continua Commentary",
+      "region": "us",
+      "first_date": "2026-11-13",
+      "first_price": "$179.99",
+      "last_date": "2026-11-13",
+      "last_price": "$179.99",
+      "last_change_date": "2026-11-13",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-13",
+      "free_since": null,
+      "changes": {
+        "2026-11-13": "$179.99"
+      }
+    },
+    "332615624::ESV Expository Comm NT": {
+      "app_id": "332615624",
+      "app_name": "Bible Study App by Olive Tree",
+      "name": "ESV Expository Comm NT",
+      "region": "us",
+      "first_date": "2026-11-13",
+      "first_price": "$189.99",
+      "last_date": "2026-11-13",
+      "last_price": "$189.99",
+      "last_change_date": "2026-11-13",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-13",
+      "free_since": null,
+      "changes": {
+        "2026-11-13": "$189.99"
+      }
+    },
+    "332615624::ESV Expository Commentary OT": {
+      "app_id": "332615624",
+      "app_name": "Bible Study App by Olive Tree",
+      "name": "ESV Expository Commentary OT",
+      "region": "us",
+      "first_date": "2026-11-13",
+      "first_price": "$349.99",
+      "last_date": "2026-11-13",
+      "last_price": "$349.99",
+      "last_change_date": "2026-11-13",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-13",
+      "free_since": null,
+      "changes": {
+        "2026-11-13": "$349.99"
+      }
+    },
+    "332615624::Concise Bible Commentary": {
+      "app_id": "332615624",
+      "app_name": "Bible Study App by Olive Tree",
+      "name": "Concise Bible Commentary",
+      "region": "us",
+      "first_date": "2026-11-13",
+      "first_price": "$39.99",
+      "last_date": "2026-11-13",
+      "last_price": "$39.99",
+      "last_change_date": "2026-11-13",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-13",
+      "free_since": null,
+      "changes": {
+        "2026-11-13": "$39.99"
+      }
+    },
+    "332615624::Moody Bible Atlas": {
+      "app_id": "332615624",
+      "app_name": "Bible Study App by Olive Tree",
+      "name": "Moody Bible Atlas",
+      "region": "us",
+      "first_date": "2026-11-13",
+      "first_price": "$49.99",
+      "last_date": "2026-11-13",
+      "last_price": "$49.99",
+      "last_change_date": "2026-11-13",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-13",
+      "free_since": null,
+      "changes": {
+        "2026-11-13": "$49.99"
+      }
+    },
+    "1434242889::Dipsea Unlimited (Lifetime)": {
+      "app_id": "1434242889",
+      "app_name": "Dipsea: Audio Stories",
+      "name": "Dipsea Unlimited (Lifetime)",
+      "region": "us",
+      "first_date": "2026-11-13",
+      "first_price": "$399.99",
+      "last_date": "2026-11-13",
+      "last_price": "$399.99",
+      "last_change_date": "2026-11-13",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-13",
+      "free_since": null,
+      "changes": {
+        "2026-11-13": "$399.99"
+      }
+    },
+    "306310789::Semi-Annual Wattpad Premium": {
+      "app_id": "306310789",
+      "app_name": "Wattpad - Read & Write Stories",
+      "name": "Semi-Annual Wattpad Premium",
+      "region": "us",
+      "first_date": "2026-11-13",
+      "first_price": "$34.99",
+      "last_date": "2026-11-13",
+      "last_price": "$34.99",
+      "last_change_date": "2026-11-13",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-13",
+      "free_since": null,
+      "changes": {
+        "2026-11-13": "$34.99"
+      }
+    },
+    "306310789::120 Coins": {
+      "app_id": "306310789",
+      "app_name": "Wattpad - Read & Write Stories",
+      "name": "120 Coins",
+      "region": "us",
+      "first_date": "2026-11-13",
+      "first_price": "$4.99",
+      "last_date": "2026-11-13",
+      "last_price": "$4.99",
+      "last_change_date": "2026-11-13",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-13",
+      "free_since": null,
+      "changes": {
+        "2026-11-13": "$4.99"
+      }
+    },
+    "306310789::230 Coins": {
+      "app_id": "306310789",
+      "app_name": "Wattpad - Read & Write Stories",
+      "name": "230 Coins",
+      "region": "us",
+      "first_date": "2026-11-13",
+      "first_price": "$7.99",
+      "last_date": "2026-11-13",
+      "last_price": "$7.99",
+      "last_change_date": "2026-11-13",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-13",
+      "free_since": null,
+      "changes": {
+        "2026-11-13": "$7.99"
+      }
+    },
+    "306310789::93 Coins": {
+      "app_id": "306310789",
+      "app_name": "Wattpad - Read & Write Stories",
+      "name": "93 Coins",
+      "region": "us",
+      "first_date": "2026-11-13",
+      "first_price": "$1.99",
+      "last_date": "2026-11-13",
+      "last_price": "$1.99",
+      "last_change_date": "2026-11-13",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-13",
+      "free_since": null,
+      "changes": {
+        "2026-11-13": "$1.99"
+      }
+    },
+    "6479920412::Lifetime Offer Premium": {
+      "app_id": "6479920412",
+      "app_name": "Cancel Subscriptions & Refund",
+      "name": "Lifetime Offer Premium",
+      "region": "us",
+      "first_date": "2026-11-13",
+      "first_price": "$39.99",
+      "last_date": "2026-11-13",
+      "last_price": "$39.99",
+      "last_change_date": "2026-11-13",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-13",
+      "free_since": null,
+      "changes": {
+        "2026-11-13": "$39.99"
+      }
+    },
+    "1503665233::Annual intro for 1 year 39.99": {
+      "app_id": "1503665233",
+      "app_name": "Call Recorder for iPhone.",
+      "name": "Annual intro for 1 year 39.99",
+      "region": "us",
+      "first_date": "2026-11-13",
+      "first_price": "$79.99",
+      "last_date": "2026-11-13",
+      "last_price": "$79.99",
+      "last_change_date": "2026-11-13",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-13",
+      "free_since": null,
+      "changes": {
+        "2026-11-13": "$79.99"
+      }
+    },
+    "1503665233::Yearly 12M commitment 6.99": {
+      "app_id": "1503665233",
+      "app_name": "Call Recorder for iPhone.",
+      "name": "Yearly 12M commitment 6.99",
+      "region": "us",
+      "first_date": "2026-11-13",
+      "first_price": "$83.00",
+      "last_date": "2026-11-13",
+      "last_price": "$83.00",
+      "last_change_date": "2026-11-13",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-13",
+      "free_since": null,
+      "changes": {
+        "2026-11-13": "$83.00"
+      }
+    },
+    "1503665233::Weekly intro 0.99": {
+      "app_id": "1503665233",
+      "app_name": "Call Recorder for iPhone.",
+      "name": "Weekly intro 0.99",
+      "region": "us",
+      "first_date": "2026-11-13",
+      "first_price": "$12.99",
+      "last_date": "2026-11-13",
+      "last_price": "$12.99",
+      "last_change_date": "2026-11-13",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-13",
+      "free_since": null,
+      "changes": {
+        "2026-11-13": "$12.99"
+      }
+    },
+    "1503665233::Weekly": {
+      "app_id": "1503665233",
+      "app_name": "Call Recorder for iPhone.",
+      "name": "Weekly",
+      "region": "us",
+      "first_date": "2026-11-13",
+      "first_price": "$12.99",
+      "last_date": "2026-11-13",
+      "last_price": "$12.99",
+      "last_change_date": "2026-11-13",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-13",
+      "free_since": null,
+      "changes": {
+        "2026-11-13": "$12.99"
+      }
+    },
+    "919087726::Photomath Plus (1 month)": {
+      "app_id": "919087726",
+      "app_name": "Photomath",
+      "name": "Photomath Plus (1 month)",
+      "region": "us",
+      "first_date": "2026-11-13",
+      "first_price": "$9.99",
+      "last_date": "2026-11-13",
+      "last_price": "$9.99",
+      "last_change_date": "2026-11-13",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-13",
+      "free_since": null,
+      "changes": {
+        "2026-11-13": "$9.99"
       }
     }
   }
