@@ -1,7 +1,7 @@
 {
   "updated": "2026-11-13",
   "region": "us",
-  "count": 319,
+  "count": 332,
   "items": [
     {
       "app_id": "6808996054",
@@ -333,7 +333,7 @@
       "iap": "NIV Bible",
       "price": "$0.00",
       "permanent_free": true,
-      "since": "2026-11-12",
+      "since": "2026-11-13",
       "app_price": "Free"
     },
     {
@@ -2869,6 +2869,123 @@
       "app_id": "917288465",
       "app_name": "Mapstr – Save & Follow Places",
       "iap": "World’s Best Bars",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-13",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6816620528",
+      "app_name": "问页",
+      "iap": "The Whole Book",
+      "price": "$0.00",
+      "permanent_free": false,
+      "since": "2026-11-13",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6743779432",
+      "app_name": "拍有序-相册整理与分类相机",
+      "iap": "Classified Camera PRO Lifetime",
+      "price": "$0.00",
+      "permanent_free": false,
+      "since": "2026-11-13",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6743779432",
+      "app_name": "拍有序-相册整理与分类相机",
+      "iap": "Photo Organizer Pro Lifetime",
+      "price": "$0.00",
+      "permanent_free": false,
+      "since": "2026-11-13",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6470999031",
+      "app_name": "TokCut-Save&Edit  TT Video",
+      "iap": "lifetime",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-13",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6737493244",
+      "app_name": "Calorie AI - Protein Tracker",
+      "iap": "Lifetime Subscription",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-13",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6746353372",
+      "app_name": "ChequeSuite - Exchange & Cards",
+      "iap": "Lifetime VIP",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-13",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6760956212",
+      "app_name": "AnalogTV",
+      "iap": "NDI® Network Output & Input",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-13",
+      "app_price": "$9.99"
+    },
+    {
+      "app_id": "6762633939",
+      "app_name": "BudgetGoal: Budget Planner",
+      "iap": "BudgetGoal Pro",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-13",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6774849003",
+      "app_name": "BoatLedger",
+      "iap": "Pro Lifetime",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-13",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6774956996",
+      "app_name": "Habit Tracker: Planner Routine",
+      "iap": "Habit Tracker Premium",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-13",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6780504033",
+      "app_name": "MemeKit - Meme Manager",
+      "iap": "永久会员",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-13",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6826378208",
+      "app_name": "Chordlet: Beat & Chord Maker",
+      "iap": "Chordlet Pro",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-13",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6832723759",
+      "app_name": "AaronSynth",
+      "iap": "Pro Mode",
       "price": "$0.00",
       "permanent_free": true,
       "since": "2026-11-13",

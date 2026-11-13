@@ -1,7 +1,7 @@
 {
   "updated": "2026-11-13",
   "region": "us",
-  "count": 9,
+  "count": 12,
   "events": [
     {
       "app_id": "6808996054",
@@ -155,6 +155,57 @@
       "genre": "Travel",
       "app_price": "$0.99",
       "page": "app/us-6808996054.html"
+    },
+    {
+      "app_id": "6816620528",
+      "app_name": "问页",
+      "iap": "The Whole Book",
+      "price": "$0.00",
+      "free_since": "2026-11-11",
+      "days_free": 2,
+      "last_paid_date": "2026-11-11",
+      "last_paid_price": "$1.99",
+      "url": "https://apps.apple.com/us/app/ask-a-page/id6816620528?uo=4",
+      "rating": 5,
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/44/b0/73/44b07388-59eb-19cc-7866-02aaa8fb7812/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+      "dev": "飞 吕",
+      "genre": "Lifestyle",
+      "app_price": "Free",
+      "page": "app/us-6816620528.html"
+    },
+    {
+      "app_id": "6743779432",
+      "app_name": "拍有序-相册整理与分类相机",
+      "iap": "Classified Camera PRO Lifetime",
+      "price": "$0.00",
+      "free_since": "2026-11-11",
+      "days_free": 2,
+      "last_paid_date": "2026-11-11",
+      "last_paid_price": "$5.99",
+      "url": "https://apps.apple.com/us/app/neatalbums-photo-organizer/id6743779432?uo=4",
+      "rating": 3.11111,
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/33/8f/de/338fdef9-5ce2-a258-0865-d08fd7d8ca19/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "dev": "Wuhan East Lake New Technology Development Zone Fugee Digital Studio (Individual ly Owned Busines)",
+      "genre": "Photo & Video",
+      "app_price": "Free",
+      "page": "app/us-6743779432.html"
+    },
+    {
+      "app_id": "6743779432",
+      "app_name": "拍有序-相册整理与分类相机",
+      "iap": "Photo Organizer Pro Lifetime",
+      "price": "$0.00",
+      "free_since": "2026-11-11",
+      "days_free": 2,
+      "last_paid_date": "2026-11-11",
+      "last_paid_price": "$5.99",
+      "url": "https://apps.apple.com/us/app/neatalbums-photo-organizer/id6743779432?uo=4",
+      "rating": 3.11111,
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/33/8f/de/338fdef9-5ce2-a258-0865-d08fd7d8ca19/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "dev": "Wuhan East Lake New Technology Development Zone Fugee Digital Studio (Individual ly Owned Busines)",
+      "genre": "Photo & Video",
+      "app_price": "Free",
+      "page": "app/us-6743779432.html"
     }
   ]
 }
