@@ -85,6 +85,15 @@
       "app_price": "$0.99"
     },
     {
+      "app_id": "6781580778",
+      "app_name": "Nota AI:Meeting Recorder Agent",
+      "iap": "LifeTime",
+      "price": "$0.00",
+      "permanent_free": false,
+      "since": "2026-11-13",
+      "app_price": "Free"
+    },
+    {
       "app_id": "6823810305",
       "app_name": "Three Routes: Run & Walk",
       "iap": "Three Routes Pro Lifetime",
@@ -1575,7 +1584,7 @@
       "iap": "Pocket Monk",
       "price": "$0.00",
       "permanent_free": true,
-      "since": "2026-11-12",
+      "since": "2026-11-13",
       "app_price": "Free"
     },
     {
@@ -1910,6 +1919,15 @@
       "permanent_free": true,
       "since": "2026-11-13",
       "app_price": "Free"
+    },
+    {
+      "app_id": "6821592190",
+      "app_name": "Selo – Interval Timer",
+      "iap": "Selo Pro",
+      "price": "$0.00",
+      "permanent_free": false,
+      "since": "2026-11-13",
+      "app_price": "$4.99"
     },
     {
       "app_id": "6811274043",
@@ -2362,15 +2380,6 @@
       "app_price": "Free"
     },
     {
-      "app_id": "6761393385",
-      "app_name": "Bookmark Read Later - Linkjoy",
-      "iap": "Lifetime",
-      "price": "$0.00",
-      "permanent_free": true,
-      "since": "2026-11-13",
-      "app_price": "Free"
-    },
-    {
       "app_id": "1448577120",
       "app_name": "ABC KIDS: Drawing & Tracing",
       "iap": "ABC Kids Lifetime",
@@ -2428,15 +2437,6 @@
       "app_id": "6826705085",
       "app_name": "The eBaglama",
       "iap": "7-Tage-Test",
-      "price": "$0.00",
-      "permanent_free": true,
-      "since": "2026-11-13",
-      "app_price": "Free"
-    },
-    {
-      "app_id": "6774211530",
-      "app_name": "TrustSteward",
-      "iap": "Lifetime",
       "price": "$0.00",
       "permanent_free": true,
       "since": "2026-11-13",
