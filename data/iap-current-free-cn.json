@@ -1,7 +1,7 @@
 {
   "updated": "2026-11-14",
   "region": "cn",
-  "count": 252,
+  "count": 267,
   "items": [
     {
       "app_id": "6758658840",
@@ -2209,24 +2209,6 @@
       "app_price": "¥15.00"
     },
     {
-      "app_id": "6743779432",
-      "app_name": "拍有序-相册整理与分类相机",
-      "iap": "分类相机 PRO 永久包",
-      "price": "¥0.00",
-      "permanent_free": false,
-      "since": "2026-11-14",
-      "app_price": "免费"
-    },
-    {
-      "app_id": "6743779432",
-      "app_name": "拍有序-相册整理与分类相机",
-      "iap": "相册整理 Pro 永久包",
-      "price": "¥0.00",
-      "permanent_free": false,
-      "since": "2026-11-14",
-      "app_price": "免费"
-    },
-    {
       "app_id": "6737493244",
       "app_name": "热量相机AI｜卡路里记录",
       "iap": "Lifetime Subscription",
@@ -2270,6 +2252,159 @@
       "permanent_free": true,
       "since": "2026-11-14",
       "app_price": "免费"
+    },
+    {
+      "app_id": "6743779432",
+      "app_name": "拍有序-相册整理与分类相机",
+      "iap": "分类相机 PRO 永久包",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-14",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "6743779432",
+      "app_name": "拍有序-相册整理与分类相机",
+      "iap": "相册整理 Pro 永久包",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-14",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "6781997361",
+      "app_name": "LUT工坊：相机风格",
+      "iap": "LUT Smith Pro Lifetime",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-14",
+      "app_price": "¥8.00"
+    },
+    {
+      "app_id": "6831909264",
+      "app_name": "知衣-服装制版尺算",
+      "iap": "永久会员",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-14",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "6773156144",
+      "app_name": "DynamicCam",
+      "iap": "LifeTime Pro",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-14",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "6801375372",
+      "app_name": "Really Good Water: Tracker",
+      "iap": "Lifetime Access",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-14",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "6826105122",
+      "app_name": "腕听 - 手表全天录音转文字",
+      "iap": "解锁腕听",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-14",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "6444528802",
+      "app_name": "食音-超解压的美食白噪音软件",
+      "iap": "解锁全部",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-14",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "6758237610",
+      "app_name": "Clinch - AI销售跟单助手",
+      "iap": "Clinch终身会员",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-14",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "6787752392",
+      "app_name": "FloraPlot",
+      "iap": "FloraPlot Premium",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-14",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "6795428645",
+      "app_name": "越径 RacePath：越野跑",
+      "iap": "RacePath Pro 永久版",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-14",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "6797624736",
+      "app_name": "Mass Intentions",
+      "iap": "Upgrade App",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-14",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "6811309097",
+      "app_name": "DocVault",
+      "iap": "DocVault",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-14",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "6812271514",
+      "app_name": "Couple Private Space - Propior",
+      "iap": "Propior Pro",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-14",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "6813822841",
+      "app_name": "字造天地-幼儿识字早教",
+      "iap": "解锁全部字",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-14",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "6815986392",
+      "app_name": "PepTimer – Interval Timer",
+      "iap": "PepTimer Plus",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-14",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "6819971203",
+      "app_name": "指迹：录屏剪辑·教程视频制作·显示手指点击·画面局部放大",
+      "iap": "Pro 永久版",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-14",
+      "app_price": "¥12.00"
     }
   ]
 }

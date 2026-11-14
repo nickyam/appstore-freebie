@@ -1,41 +1,6 @@
 {
   "updated": "2026-11-14",
   "region": "cn",
-  "count": 2,
-  "events": [
-    {
-      "app_id": "6743779432",
-      "app_name": "拍有序-相册整理与分类相机",
-      "iap": "分类相机 PRO 永久包",
-      "price": "¥0.00",
-      "free_since": "2026-11-11",
-      "days_free": 3,
-      "last_paid_date": "2026-11-11",
-      "last_paid_price": "¥38.00",
-      "url": "https://apps.apple.com/cn/app/%E6%8B%8D%E6%9C%89%E5%BA%8F-%E7%9B%B8%E5%86%8C%E6%95%B4%E7%90%86%E4%B8%8E%E5%88%86%E7%B1%BB%E7%9B%B8%E6%9C%BA/id6743779432?uo=4",
-      "rating": 3.94444,
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/33/8f/de/338fdef9-5ce2-a258-0865-d08fd7d8ca19/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-      "dev": "Wuhan East Lake New Technology Development Zone Fugee Digital Studio (Individual ly Owned Busines)",
-      "genre": "摄影与录像",
-      "app_price": "免费",
-      "page": "app/cn-6743779432.html"
-    },
-    {
-      "app_id": "6743779432",
-      "app_name": "拍有序-相册整理与分类相机",
-      "iap": "相册整理 Pro 永久包",
-      "price": "¥0.00",
-      "free_since": "2026-11-11",
-      "days_free": 3,
-      "last_paid_date": "2026-11-11",
-      "last_paid_price": "¥38.00",
-      "url": "https://apps.apple.com/cn/app/%E6%8B%8D%E6%9C%89%E5%BA%8F-%E7%9B%B8%E5%86%8C%E6%95%B4%E7%90%86%E4%B8%8E%E5%88%86%E7%B1%BB%E7%9B%B8%E6%9C%BA/id6743779432?uo=4",
-      "rating": 3.94444,
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/33/8f/de/338fdef9-5ce2-a258-0865-d08fd7d8ca19/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-      "dev": "Wuhan East Lake New Technology Development Zone Fugee Digital Studio (Individual ly Owned Busines)",
-      "genre": "摄影与录像",
-      "app_price": "免费",
-      "page": "app/cn-6743779432.html"
-    }
-  ]
+  "count": 0,
+  "events": []
 }
