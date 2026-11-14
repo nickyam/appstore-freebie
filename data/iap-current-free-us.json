@@ -1,7 +1,7 @@
 {
   "updated": "2026-11-14",
   "region": "us",
-  "count": 339,
+  "count": 335,
   "items": [
     {
       "app_id": "6823810305",
@@ -1561,15 +1561,6 @@
       "app_price": "Free"
     },
     {
-      "app_id": "6787702158",
-      "app_name": "返航",
-      "iap": "Homeward Pro Lifetime",
-      "price": "$0.00",
-      "permanent_free": true,
-      "since": "2026-11-14",
-      "app_price": "Free"
-    },
-    {
       "app_id": "1517313390",
       "app_name": "Codon One: Biology Study",
       "iap": "Module 1: Chemistry of Life",
@@ -1681,15 +1672,6 @@
       "app_id": "6757496953",
       "app_name": "Lekh AI - Local AI Studio",
       "iap": "Lifetime",
-      "price": "$0.00",
-      "permanent_free": true,
-      "since": "2026-11-14",
-      "app_price": "Free"
-    },
-    {
-      "app_id": "6758056060",
-      "app_name": "Where was I ? Places & Visits",
-      "iap": "National Parks - Great Britain",
       "price": "$0.00",
       "permanent_free": true,
       "since": "2026-11-14",
@@ -2227,36 +2209,9 @@
       "app_price": "Free"
     },
     {
-      "app_id": "6821620482",
-      "app_name": "PicPost EZ",
-      "iap": "Lifetime Album Access",
-      "price": "$0.00",
-      "permanent_free": true,
-      "since": "2026-11-14",
-      "app_price": "Free"
-    },
-    {
-      "app_id": "6793760650",
-      "app_name": "OneRound: Nearby Games",
-      "iap": "OneRound Pro Lifetime",
-      "price": "$0.00",
-      "permanent_free": true,
-      "since": "2026-11-14",
-      "app_price": "Free"
-    },
-    {
       "app_id": "6824190450",
       "app_name": "Tabitecho: Receipt to Refund",
       "iap": "Tax-free, unlocked",
-      "price": "$0.00",
-      "permanent_free": true,
-      "since": "2026-11-14",
-      "app_price": "Free"
-    },
-    {
-      "app_id": "6825582033",
-      "app_name": "Shredly: Photo Cleaner",
-      "iap": "Shredly Pro Lifetime",
       "price": "$0.00",
       "permanent_free": true,
       "since": "2026-11-14",
@@ -2551,15 +2506,6 @@
       "app_price": "$0.99"
     },
     {
-      "app_id": "6544783659",
-      "app_name": "Fileso: zip rar 7zip Extractor",
-      "iap": "Lifetime Version",
-      "price": "$0.00",
-      "permanent_free": true,
-      "since": "2026-11-14",
-      "app_price": "Free"
-    },
-    {
       "app_id": "6795471961",
       "app_name": "POK PS2 Emulator: Delta Skins",
       "iap": "Pok PRO Lifetime Offer",
@@ -2812,24 +2758,6 @@
       "app_price": "Free"
     },
     {
-      "app_id": "6774849003",
-      "app_name": "BoatLedger",
-      "iap": "Pro Lifetime",
-      "price": "$0.00",
-      "permanent_free": true,
-      "since": "2026-11-14",
-      "app_price": "Free"
-    },
-    {
-      "app_id": "6774956996",
-      "app_name": "Habit Tracker: Planner Routine",
-      "iap": "Habit Tracker Premium",
-      "price": "$0.00",
-      "permanent_free": true,
-      "since": "2026-11-14",
-      "app_price": "Free"
-    },
-    {
       "app_id": "6780504033",
       "app_name": "MemeKit - Meme Manager",
       "iap": "永久会员",
@@ -2839,27 +2767,9 @@
       "app_price": "Free"
     },
     {
-      "app_id": "6826378208",
-      "app_name": "Chordlet: Beat & Chord Maker",
-      "iap": "Chordlet Pro",
-      "price": "$0.00",
-      "permanent_free": true,
-      "since": "2026-11-14",
-      "app_price": "Free"
-    },
-    {
       "app_id": "6832723759",
       "app_name": "AaronSynth",
       "iap": "Pro Mode",
-      "price": "$0.00",
-      "permanent_free": true,
-      "since": "2026-11-14",
-      "app_price": "Free"
-    },
-    {
-      "app_id": "6816620528",
-      "app_name": "Ask a Page",
-      "iap": "The Whole Book",
       "price": "$0.00",
       "permanent_free": true,
       "since": "2026-11-14",
@@ -2932,15 +2842,6 @@
       "app_id": "6826105122",
       "app_name": "Wristen All-Day Watch Recorder",
       "iap": "Unlock Wristen",
-      "price": "$0.00",
-      "permanent_free": true,
-      "since": "2026-11-14",
-      "app_price": "Free"
-    },
-    {
-      "app_id": "6753924420",
-      "app_name": "Articulate: AI Pronunciation",
-      "iap": "Premium Version",
       "price": "$0.00",
       "permanent_free": true,
       "since": "2026-11-14",
@@ -3053,6 +2954,69 @@
       "permanent_free": true,
       "since": "2026-11-14",
       "app_price": "Free"
+    },
+    {
+      "app_id": "6808996054",
+      "app_name": "Tasting Tours",
+      "iap": "Founding St. Augustine 1565",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-14",
+      "app_price": "$0.99"
+    },
+    {
+      "app_id": "6808996054",
+      "app_name": "Tasting Tours",
+      "iap": "Doors Through Time",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-14",
+      "app_price": "$0.99"
+    },
+    {
+      "app_id": "6808996054",
+      "app_name": "Tasting Tours",
+      "iap": "St. Augustine Food History",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-14",
+      "app_price": "$0.99"
+    },
+    {
+      "app_id": "6808996054",
+      "app_name": "Tasting Tours",
+      "iap": "Doors, Windows, and Balconies",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-14",
+      "app_price": "$0.99"
+    },
+    {
+      "app_id": "6808996054",
+      "app_name": "Tasting Tours",
+      "iap": "Faith and the Ancient City",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-14",
+      "app_price": "$0.99"
+    },
+    {
+      "app_id": "6808996054",
+      "app_name": "Tasting Tours",
+      "iap": "Fortifications and Defenders",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-14",
+      "app_price": "$0.99"
+    },
+    {
+      "app_id": "6808996054",
+      "app_name": "Tasting Tours",
+      "iap": "Guardians of the Ancient City",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-14",
+      "app_price": "$0.99"
     }
   ]
 }
