@@ -1,7 +1,7 @@
 {
   "updated": "2026-11-14",
   "region": "us",
-  "count": 335,
+  "count": 336,
   "items": [
     {
       "app_id": "6823810305",
@@ -1809,6 +1809,15 @@
       "iap": "extend death&life exercises",
       "price": "$0.00",
       "permanent_free": true,
+      "since": "2026-11-14",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6818473571",
+      "app_name": "Slow Jogging Mate",
+      "iap": "Pro - Lifetime",
+      "price": "$0.00",
+      "permanent_free": false,
       "since": "2026-11-14",
       "app_price": "Free"
     },

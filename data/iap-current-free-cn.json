@@ -1,7 +1,7 @@
 {
   "updated": "2026-11-14",
   "region": "cn",
-  "count": 265,
+  "count": 266,
   "items": [
     {
       "app_id": "6758658840",
@@ -1594,6 +1594,15 @@
       "price": "¥0.00",
       "permanent_free": true,
       "since": "2026-11-02",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "6818473571",
+      "app_name": "超慢跑伙伴",
+      "iap": "Pro - Lifetime",
+      "price": "¥0.00",
+      "permanent_free": false,
+      "since": "2026-11-14",
       "app_price": "免费"
     },
     {

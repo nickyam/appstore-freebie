@@ -1,6 +1,24 @@
 {
   "updated": "2026-11-14",
   "region": "cn",
-  "count": 0,
-  "events": []
+  "count": 1,
+  "events": [
+    {
+      "app_id": "6818473571",
+      "app_name": "超慢跑伙伴",
+      "iap": "Pro - Lifetime",
+      "price": "¥0.00",
+      "free_since": "2026-11-14",
+      "days_free": 0,
+      "last_paid_date": "2026-11-09",
+      "last_paid_price": "¥168.00",
+      "url": "https://apps.apple.com/cn/app/%E8%B6%85%E6%85%A2%E8%B7%91%E4%BC%99%E4%BC%B4/id6818473571?uo=4",
+      "rating": 5,
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/36/42/1e/36421e23-529a-ea86-0163-930744048607/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+      "dev": "Kai Chi Tsao",
+      "genre": "体育",
+      "app_price": "免费",
+      "page": "app/cn-6818473571.html"
+    }
+  ]
 }

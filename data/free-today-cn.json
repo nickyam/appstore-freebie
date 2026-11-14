@@ -1,7 +1,7 @@
 {
   "date": "2026-11-14",
   "country": "cn",
-  "generated_at": "2026-11-14T08:02:17Z",
+  "generated_at": "2026-11-14T11:17:25Z",
   "freebies": [
     {
       "id": "301270080",
@@ -249,19 +249,6 @@
           "region": "cn"
         },
         {
-          "id": "1102234300",
-          "name": "Alison Baby Monitor",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ec/8c/63/ec8c63f3-d37c-a430-7701-f999d9bf47b8/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-          "genre": "医疗",
-          "type": "free",
-          "page": "app/cn-1102234300.html",
-          "rating": 5,
-          "normal": "¥2998.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
           "id": "6740767372",
           "name": "Book Tracker: TBR Reading List",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/32/0c/f3320c01-6c18-1023-596e-cc258a9cc535/AppIconAlt1-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
@@ -389,6 +376,19 @@
           "normal": "¥1.00",
           "current": "免费",
           "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "6787306687",
+          "name": "Lulla: Baby Sleep Sounds",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/76/ca/43/76ca4301-f5de-f8ca-429a-e20718edc87e/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+          "genre": "健康健美",
+          "type": "free",
+          "page": "app/cn-6787306687.html",
+          "rating": 5,
+          "normal": "¥48.00",
+          "current": "免费",
+          "has_iap": false,
           "region": "cn"
         }
       ],
@@ -620,19 +620,6 @@
           "region": "cn"
         },
         {
-          "id": "1102234300",
-          "name": "Alison Baby Monitor",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ec/8c/63/ec8c63f3-d37c-a430-7701-f999d9bf47b8/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-          "genre": "医疗",
-          "type": "free",
-          "page": "app/cn-1102234300.html",
-          "rating": 5,
-          "normal": "¥2998.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
           "id": "6740767372",
           "name": "Book Tracker: TBR Reading List",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/32/0c/f3320c01-6c18-1023-596e-cc258a9cc535/AppIconAlt1-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
@@ -760,6 +747,19 @@
           "normal": "¥1.00",
           "current": "免费",
           "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "6787306687",
+          "name": "Lulla: Baby Sleep Sounds",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/76/ca/43/76ca4301-f5de-f8ca-429a-e20718edc87e/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+          "genre": "健康健美",
+          "type": "free",
+          "page": "app/cn-6787306687.html",
+          "rating": 5,
+          "normal": "¥48.00",
+          "current": "免费",
+          "has_iap": false,
           "region": "cn"
         }
       ],
@@ -1001,19 +1001,6 @@
           "region": "cn"
         },
         {
-          "id": "1102234300",
-          "name": "Alison Baby Monitor",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ec/8c/63/ec8c63f3-d37c-a430-7701-f999d9bf47b8/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-          "genre": "医疗",
-          "type": "free",
-          "page": "app/cn-1102234300.html",
-          "rating": 5,
-          "normal": "¥2998.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
           "id": "6740767372",
           "name": "Book Tracker: TBR Reading List",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/32/0c/f3320c01-6c18-1023-596e-cc258a9cc535/AppIconAlt1-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
@@ -1141,6 +1128,19 @@
           "normal": "¥1.00",
           "current": "免费",
           "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "6787306687",
+          "name": "Lulla: Baby Sleep Sounds",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/76/ca/43/76ca4301-f5de-f8ca-429a-e20718edc87e/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+          "genre": "健康健美",
+          "type": "free",
+          "page": "app/cn-6787306687.html",
+          "rating": 5,
+          "normal": "¥48.00",
+          "current": "免费",
+          "has_iap": false,
           "region": "cn"
         }
       ],
@@ -1372,19 +1372,6 @@
           "region": "cn"
         },
         {
-          "id": "1102234300",
-          "name": "Alison Baby Monitor",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ec/8c/63/ec8c63f3-d37c-a430-7701-f999d9bf47b8/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-          "genre": "医疗",
-          "type": "free",
-          "page": "app/cn-1102234300.html",
-          "rating": 5,
-          "normal": "¥2998.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
           "id": "6740767372",
           "name": "Book Tracker: TBR Reading List",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/32/0c/f3320c01-6c18-1023-596e-cc258a9cc535/AppIconAlt1-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
@@ -1512,6 +1499,19 @@
           "normal": "¥1.00",
           "current": "免费",
           "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "6787306687",
+          "name": "Lulla: Baby Sleep Sounds",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/76/ca/43/76ca4301-f5de-f8ca-429a-e20718edc87e/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+          "genre": "健康健美",
+          "type": "free",
+          "page": "app/cn-6787306687.html",
+          "rating": 5,
+          "normal": "¥48.00",
+          "current": "免费",
+          "has_iap": false,
           "region": "cn"
         }
       ],
@@ -1668,19 +1668,6 @@
           "region": "cn"
         },
         {
-          "id": "1102234300",
-          "name": "Alison Baby Monitor",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ec/8c/63/ec8c63f3-d37c-a430-7701-f999d9bf47b8/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-          "genre": "医疗",
-          "type": "free",
-          "page": "app/cn-1102234300.html",
-          "rating": 5,
-          "normal": "¥2998.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
           "id": "6740767372",
           "name": "Book Tracker: TBR Reading List",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/32/0c/f3320c01-6c18-1023-596e-cc258a9cc535/AppIconAlt1-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
@@ -1808,6 +1795,19 @@
           "normal": "¥1.00",
           "current": "免费",
           "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "6787306687",
+          "name": "Lulla: Baby Sleep Sounds",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/76/ca/43/76ca4301-f5de-f8ca-429a-e20718edc87e/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+          "genre": "健康健美",
+          "type": "free",
+          "page": "app/cn-6787306687.html",
+          "rating": 5,
+          "normal": "¥48.00",
+          "current": "免费",
+          "has_iap": false,
           "region": "cn"
         }
       ],
@@ -2024,19 +2024,6 @@
           "region": "cn"
         },
         {
-          "id": "1102234300",
-          "name": "Alison Baby Monitor",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ec/8c/63/ec8c63f3-d37c-a430-7701-f999d9bf47b8/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-          "genre": "医疗",
-          "type": "free",
-          "page": "app/cn-1102234300.html",
-          "rating": 5,
-          "normal": "¥2998.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
           "id": "6740767372",
           "name": "Book Tracker: TBR Reading List",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/32/0c/f3320c01-6c18-1023-596e-cc258a9cc535/AppIconAlt1-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
@@ -2164,6 +2151,19 @@
           "normal": "¥1.00",
           "current": "免费",
           "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "6787306687",
+          "name": "Lulla: Baby Sleep Sounds",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/76/ca/43/76ca4301-f5de-f8ca-429a-e20718edc87e/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+          "genre": "健康健美",
+          "type": "free",
+          "page": "app/cn-6787306687.html",
+          "rating": 5,
+          "normal": "¥48.00",
+          "current": "免费",
+          "has_iap": false,
           "region": "cn"
         }
       ],
@@ -2305,19 +2305,6 @@
           "region": "cn"
         },
         {
-          "id": "1102234300",
-          "name": "Alison Baby Monitor",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ec/8c/63/ec8c63f3-d37c-a430-7701-f999d9bf47b8/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-          "genre": "医疗",
-          "type": "free",
-          "page": "app/cn-1102234300.html",
-          "rating": 5,
-          "normal": "¥2998.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
           "id": "6740767372",
           "name": "Book Tracker: TBR Reading List",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/32/0c/f3320c01-6c18-1023-596e-cc258a9cc535/AppIconAlt1-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
@@ -2445,6 +2432,19 @@
           "normal": "¥1.00",
           "current": "免费",
           "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "6787306687",
+          "name": "Lulla: Baby Sleep Sounds",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/76/ca/43/76ca4301-f5de-f8ca-429a-e20718edc87e/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+          "genre": "健康健美",
+          "type": "free",
+          "page": "app/cn-6787306687.html",
+          "rating": 5,
+          "normal": "¥48.00",
+          "current": "免费",
+          "has_iap": false,
           "region": "cn"
         }
       ],
@@ -2696,19 +2696,6 @@
           "region": "cn"
         },
         {
-          "id": "1102234300",
-          "name": "Alison Baby Monitor",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ec/8c/63/ec8c63f3-d37c-a430-7701-f999d9bf47b8/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-          "genre": "医疗",
-          "type": "free",
-          "page": "app/cn-1102234300.html",
-          "rating": 5,
-          "normal": "¥2998.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
           "id": "6740767372",
           "name": "Book Tracker: TBR Reading List",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/32/0c/f3320c01-6c18-1023-596e-cc258a9cc535/AppIconAlt1-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
@@ -2836,6 +2823,19 @@
           "normal": "¥1.00",
           "current": "免费",
           "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "6787306687",
+          "name": "Lulla: Baby Sleep Sounds",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/76/ca/43/76ca4301-f5de-f8ca-429a-e20718edc87e/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+          "genre": "健康健美",
+          "type": "free",
+          "page": "app/cn-6787306687.html",
+          "rating": 5,
+          "normal": "¥48.00",
+          "current": "免费",
+          "has_iap": false,
           "region": "cn"
         }
       ],
@@ -2990,19 +2990,6 @@
           "region": "cn"
         },
         {
-          "id": "1102234300",
-          "name": "Alison Baby Monitor",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ec/8c/63/ec8c63f3-d37c-a430-7701-f999d9bf47b8/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-          "genre": "医疗",
-          "type": "free",
-          "page": "app/cn-1102234300.html",
-          "rating": 5,
-          "normal": "¥2998.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
           "id": "405245734",
           "name": "Colorfader",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/71/e2/e8/71e2e86d-423c-772c-bdb0-1ad04c9a4b56/AppIcon-1x_U007emarketing-0-8-0-85-220-0.jpeg/512x512bb.jpg",
@@ -3117,6 +3104,19 @@
           "normal": "¥1.00",
           "current": "免费",
           "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "6787306687",
+          "name": "Lulla: Baby Sleep Sounds",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/76/ca/43/76ca4301-f5de-f8ca-429a-e20718edc87e/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+          "genre": "健康健美",
+          "type": "free",
+          "page": "app/cn-6787306687.html",
+          "rating": 5,
+          "normal": "¥48.00",
+          "current": "免费",
+          "has_iap": false,
           "region": "cn"
         }
       ],
@@ -3276,19 +3276,6 @@
           "region": "cn"
         },
         {
-          "id": "1102234300",
-          "name": "Alison Baby Monitor",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ec/8c/63/ec8c63f3-d37c-a430-7701-f999d9bf47b8/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-          "genre": "医疗",
-          "type": "free",
-          "page": "app/cn-1102234300.html",
-          "rating": 5,
-          "normal": "¥2998.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
           "id": "6740767372",
           "name": "Book Tracker: TBR Reading List",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/32/0c/f3320c01-6c18-1023-596e-cc258a9cc535/AppIconAlt1-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
@@ -3403,6 +3390,19 @@
           "normal": "¥1.00",
           "current": "免费",
           "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "6787306687",
+          "name": "Lulla: Baby Sleep Sounds",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/76/ca/43/76ca4301-f5de-f8ca-429a-e20718edc87e/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+          "genre": "健康健美",
+          "type": "free",
+          "page": "app/cn-6787306687.html",
+          "rating": 5,
+          "normal": "¥48.00",
+          "current": "免费",
+          "has_iap": false,
           "region": "cn"
         }
       ],
@@ -3547,19 +3547,6 @@
           "region": "cn"
         },
         {
-          "id": "1102234300",
-          "name": "Alison Baby Monitor",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ec/8c/63/ec8c63f3-d37c-a430-7701-f999d9bf47b8/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-          "genre": "医疗",
-          "type": "free",
-          "page": "app/cn-1102234300.html",
-          "rating": 5,
-          "normal": "¥2998.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
           "id": "6740767372",
           "name": "Book Tracker: TBR Reading List",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/32/0c/f3320c01-6c18-1023-596e-cc258a9cc535/AppIconAlt1-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
@@ -3674,6 +3661,19 @@
           "normal": "¥1.00",
           "current": "免费",
           "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "6787306687",
+          "name": "Lulla: Baby Sleep Sounds",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/76/ca/43/76ca4301-f5de-f8ca-429a-e20718edc87e/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+          "genre": "健康健美",
+          "type": "free",
+          "page": "app/cn-6787306687.html",
+          "rating": 5,
+          "normal": "¥48.00",
+          "current": "免费",
+          "has_iap": false,
           "region": "cn"
         }
       ],
@@ -3833,19 +3833,6 @@
           "region": "cn"
         },
         {
-          "id": "1102234300",
-          "name": "Alison Baby Monitor",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ec/8c/63/ec8c63f3-d37c-a430-7701-f999d9bf47b8/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-          "genre": "医疗",
-          "type": "free",
-          "page": "app/cn-1102234300.html",
-          "rating": 5,
-          "normal": "¥2998.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
           "id": "6740767372",
           "name": "Book Tracker: TBR Reading List",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/32/0c/f3320c01-6c18-1023-596e-cc258a9cc535/AppIconAlt1-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
@@ -3960,6 +3947,19 @@
           "normal": "¥1.00",
           "current": "免费",
           "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "6787306687",
+          "name": "Lulla: Baby Sleep Sounds",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/76/ca/43/76ca4301-f5de-f8ca-429a-e20718edc87e/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+          "genre": "健康健美",
+          "type": "free",
+          "page": "app/cn-6787306687.html",
+          "rating": 5,
+          "normal": "¥48.00",
+          "current": "免费",
+          "has_iap": false,
           "region": "cn"
         }
       ],
@@ -4109,19 +4109,6 @@
           "region": "cn"
         },
         {
-          "id": "1102234300",
-          "name": "Alison Baby Monitor",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ec/8c/63/ec8c63f3-d37c-a430-7701-f999d9bf47b8/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-          "genre": "医疗",
-          "type": "free",
-          "page": "app/cn-1102234300.html",
-          "rating": 5,
-          "normal": "¥2998.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
           "id": "6740767372",
           "name": "Book Tracker: TBR Reading List",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/32/0c/f3320c01-6c18-1023-596e-cc258a9cc535/AppIconAlt1-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
@@ -4236,6 +4223,19 @@
           "normal": "¥1.00",
           "current": "免费",
           "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "6787306687",
+          "name": "Lulla: Baby Sleep Sounds",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/76/ca/43/76ca4301-f5de-f8ca-429a-e20718edc87e/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+          "genre": "健康健美",
+          "type": "free",
+          "page": "app/cn-6787306687.html",
+          "rating": 5,
+          "normal": "¥48.00",
+          "current": "免费",
+          "has_iap": false,
           "region": "cn"
         }
       ],
@@ -4385,19 +4385,6 @@
           "region": "cn"
         },
         {
-          "id": "1102234300",
-          "name": "Alison Baby Monitor",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ec/8c/63/ec8c63f3-d37c-a430-7701-f999d9bf47b8/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-          "genre": "医疗",
-          "type": "free",
-          "page": "app/cn-1102234300.html",
-          "rating": 5,
-          "normal": "¥2998.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
           "id": "6740767372",
           "name": "Book Tracker: TBR Reading List",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/32/0c/f3320c01-6c18-1023-596e-cc258a9cc535/AppIconAlt1-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
@@ -4512,6 +4499,19 @@
           "normal": "¥1.00",
           "current": "免费",
           "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "6787306687",
+          "name": "Lulla: Baby Sleep Sounds",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/76/ca/43/76ca4301-f5de-f8ca-429a-e20718edc87e/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+          "genre": "健康健美",
+          "type": "free",
+          "page": "app/cn-6787306687.html",
+          "rating": 5,
+          "normal": "¥48.00",
+          "current": "免费",
+          "has_iap": false,
           "region": "cn"
         }
       ],
@@ -4681,19 +4681,6 @@
           "region": "cn"
         },
         {
-          "id": "1102234300",
-          "name": "Alison Baby Monitor",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ec/8c/63/ec8c63f3-d37c-a430-7701-f999d9bf47b8/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-          "genre": "医疗",
-          "type": "free",
-          "page": "app/cn-1102234300.html",
-          "rating": 5,
-          "normal": "¥2998.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
           "id": "6740767372",
           "name": "Book Tracker: TBR Reading List",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/32/0c/f3320c01-6c18-1023-596e-cc258a9cc535/AppIconAlt1-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
@@ -4808,6 +4795,19 @@
           "normal": "¥1.00",
           "current": "免费",
           "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "6787306687",
+          "name": "Lulla: Baby Sleep Sounds",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/76/ca/43/76ca4301-f5de-f8ca-429a-e20718edc87e/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+          "genre": "健康健美",
+          "type": "free",
+          "page": "app/cn-6787306687.html",
+          "rating": 5,
+          "normal": "¥48.00",
+          "current": "免费",
+          "has_iap": false,
           "region": "cn"
         }
       ],
@@ -5022,19 +5022,6 @@
           "region": "cn"
         },
         {
-          "id": "1102234300",
-          "name": "Alison Baby Monitor",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ec/8c/63/ec8c63f3-d37c-a430-7701-f999d9bf47b8/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-          "genre": "医疗",
-          "type": "free",
-          "page": "app/cn-1102234300.html",
-          "rating": 5,
-          "normal": "¥2998.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
           "id": "6740767372",
           "name": "Book Tracker: TBR Reading List",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/32/0c/f3320c01-6c18-1023-596e-cc258a9cc535/AppIconAlt1-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
@@ -5149,6 +5136,19 @@
           "normal": "¥1.00",
           "current": "免费",
           "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "6787306687",
+          "name": "Lulla: Baby Sleep Sounds",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/76/ca/43/76ca4301-f5de-f8ca-429a-e20718edc87e/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+          "genre": "健康健美",
+          "type": "free",
+          "page": "app/cn-6787306687.html",
+          "rating": 5,
+          "normal": "¥48.00",
+          "current": "免费",
+          "has_iap": false,
           "region": "cn"
         }
       ],
@@ -5318,19 +5318,6 @@
           "region": "cn"
         },
         {
-          "id": "1102234300",
-          "name": "Alison Baby Monitor",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ec/8c/63/ec8c63f3-d37c-a430-7701-f999d9bf47b8/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-          "genre": "医疗",
-          "type": "free",
-          "page": "app/cn-1102234300.html",
-          "rating": 5,
-          "normal": "¥2998.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
           "id": "6740767372",
           "name": "Book Tracker: TBR Reading List",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/32/0c/f3320c01-6c18-1023-596e-cc258a9cc535/AppIconAlt1-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
@@ -5445,6 +5432,19 @@
           "normal": "¥1.00",
           "current": "免费",
           "has_iap": true,
+          "region": "cn"
+        },
+        {
+          "id": "6787306687",
+          "name": "Lulla: Baby Sleep Sounds",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/76/ca/43/76ca4301-f5de-f8ca-429a-e20718edc87e/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+          "genre": "健康健美",
+          "type": "free",
+          "page": "app/cn-6787306687.html",
+          "rating": 5,
+          "normal": "¥48.00",
+          "current": "免费",
+          "has_iap": false,
           "region": "cn"
         }
       ],
@@ -5604,19 +5604,6 @@
           "region": "cn"
         },
         {
-          "id": "1102234300",
-          "name": "Alison Baby Monitor",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ec/8c/63/ec8c63f3-d37c-a430-7701-f999d9bf47b8/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-          "genre": "医疗",
-          "type": "free",
-          "page": "app/cn-1102234300.html",
-          "rating": 5,
-          "normal": "¥2998.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
           "id": "6740767372",
           "name": "Book Tracker: TBR Reading List",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/32/0c/f3320c01-6c18-1023-596e-cc258a9cc535/AppIconAlt1-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
@@ -5729,6 +5716,19 @@
           "page": "app/cn-1011979611.html",
           "rating": 5,
           "normal": "¥22.00",
+          "current": "免费",
+          "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6787306687",
+          "name": "Lulla: Baby Sleep Sounds",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/76/ca/43/76ca4301-f5de-f8ca-429a-e20718edc87e/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+          "genre": "健康健美",
+          "type": "free",
+          "page": "app/cn-6787306687.html",
+          "rating": 5,
+          "normal": "¥48.00",
           "current": "免费",
           "has_iap": false,
           "region": "cn"
@@ -5960,19 +5960,6 @@
           "region": "cn"
         },
         {
-          "id": "1102234300",
-          "name": "Alison Baby Monitor",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ec/8c/63/ec8c63f3-d37c-a430-7701-f999d9bf47b8/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-          "genre": "医疗",
-          "type": "free",
-          "page": "app/cn-1102234300.html",
-          "rating": 5,
-          "normal": "¥2998.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
           "id": "6740767372",
           "name": "Book Tracker: TBR Reading List",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/32/0c/f3320c01-6c18-1023-596e-cc258a9cc535/AppIconAlt1-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
@@ -6087,6 +6074,19 @@
           "normal": "¥22.00",
           "current": "免费",
           "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6751025023",
+          "name": "LingoCap 点图学单词",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/88/59/0d885905-af7d-52d1-a4f1-bdd06ace9337/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "教育",
+          "type": "free",
+          "page": "app/cn-6751025023.html",
+          "rating": 5,
+          "normal": "¥1.00",
+          "current": "免费",
+          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -6256,19 +6256,6 @@
           "region": "cn"
         },
         {
-          "id": "1102234300",
-          "name": "Alison Baby Monitor",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ec/8c/63/ec8c63f3-d37c-a430-7701-f999d9bf47b8/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-          "genre": "医疗",
-          "type": "free",
-          "page": "app/cn-1102234300.html",
-          "rating": 5,
-          "normal": "¥2998.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
           "id": "6740767372",
           "name": "Book Tracker: TBR Reading List",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/32/0c/f3320c01-6c18-1023-596e-cc258a9cc535/AppIconAlt1-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
@@ -6383,6 +6370,19 @@
           "normal": "¥22.00",
           "current": "免费",
           "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6751025023",
+          "name": "LingoCap 点图学单词",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/88/59/0d885905-af7d-52d1-a4f1-bdd06ace9337/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "教育",
+          "type": "free",
+          "page": "app/cn-6751025023.html",
+          "rating": 5,
+          "normal": "¥1.00",
+          "current": "免费",
+          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -6537,19 +6537,6 @@
           "region": "cn"
         },
         {
-          "id": "1102234300",
-          "name": "Alison Baby Monitor",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ec/8c/63/ec8c63f3-d37c-a430-7701-f999d9bf47b8/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-          "genre": "医疗",
-          "type": "free",
-          "page": "app/cn-1102234300.html",
-          "rating": 5,
-          "normal": "¥2998.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
           "id": "6740767372",
           "name": "Book Tracker: TBR Reading List",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/32/0c/f3320c01-6c18-1023-596e-cc258a9cc535/AppIconAlt1-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
@@ -6664,6 +6651,19 @@
           "normal": "¥22.00",
           "current": "免费",
           "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6751025023",
+          "name": "LingoCap 点图学单词",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/88/59/0d885905-af7d-52d1-a4f1-bdd06ace9337/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "教育",
+          "type": "free",
+          "page": "app/cn-6751025023.html",
+          "rating": 5,
+          "normal": "¥1.00",
+          "current": "免费",
+          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -6893,19 +6893,6 @@
           "region": "cn"
         },
         {
-          "id": "1102234300",
-          "name": "Alison Baby Monitor",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ec/8c/63/ec8c63f3-d37c-a430-7701-f999d9bf47b8/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-          "genre": "医疗",
-          "type": "free",
-          "page": "app/cn-1102234300.html",
-          "rating": 5,
-          "normal": "¥2998.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
           "id": "6740767372",
           "name": "Book Tracker: TBR Reading List",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/32/0c/f3320c01-6c18-1023-596e-cc258a9cc535/AppIconAlt1-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
@@ -7020,6 +7007,19 @@
           "normal": "¥22.00",
           "current": "免费",
           "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6751025023",
+          "name": "LingoCap 点图学单词",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/88/59/0d885905-af7d-52d1-a4f1-bdd06ace9337/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "教育",
+          "type": "free",
+          "page": "app/cn-6751025023.html",
+          "rating": 5,
+          "normal": "¥1.00",
+          "current": "免费",
+          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -7179,19 +7179,6 @@
           "region": "cn"
         },
         {
-          "id": "1102234300",
-          "name": "Alison Baby Monitor",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ec/8c/63/ec8c63f3-d37c-a430-7701-f999d9bf47b8/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-          "genre": "医疗",
-          "type": "free",
-          "page": "app/cn-1102234300.html",
-          "rating": 5,
-          "normal": "¥2998.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
           "id": "6740767372",
           "name": "Book Tracker: TBR Reading List",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/32/0c/f3320c01-6c18-1023-596e-cc258a9cc535/AppIconAlt1-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
@@ -7306,6 +7293,19 @@
           "normal": "¥22.00",
           "current": "免费",
           "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6751025023",
+          "name": "LingoCap 点图学单词",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/88/59/0d885905-af7d-52d1-a4f1-bdd06ace9337/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "教育",
+          "type": "free",
+          "page": "app/cn-6751025023.html",
+          "rating": 5,
+          "normal": "¥1.00",
+          "current": "免费",
+          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -7465,19 +7465,6 @@
           "region": "cn"
         },
         {
-          "id": "1102234300",
-          "name": "Alison Baby Monitor",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ec/8c/63/ec8c63f3-d37c-a430-7701-f999d9bf47b8/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-          "genre": "医疗",
-          "type": "free",
-          "page": "app/cn-1102234300.html",
-          "rating": 5,
-          "normal": "¥2998.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
           "id": "6740767372",
           "name": "Book Tracker: TBR Reading List",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/32/0c/f3320c01-6c18-1023-596e-cc258a9cc535/AppIconAlt1-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
@@ -7592,6 +7579,19 @@
           "normal": "¥22.00",
           "current": "免费",
           "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6751025023",
+          "name": "LingoCap 点图学单词",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/88/59/0d885905-af7d-52d1-a4f1-bdd06ace9337/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "教育",
+          "type": "free",
+          "page": "app/cn-6751025023.html",
+          "rating": 5,
+          "normal": "¥1.00",
+          "current": "免费",
+          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -7741,19 +7741,6 @@
           "region": "cn"
         },
         {
-          "id": "1102234300",
-          "name": "Alison Baby Monitor",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ec/8c/63/ec8c63f3-d37c-a430-7701-f999d9bf47b8/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-          "genre": "医疗",
-          "type": "free",
-          "page": "app/cn-1102234300.html",
-          "rating": 5,
-          "normal": "¥2998.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
           "id": "6740767372",
           "name": "Book Tracker: TBR Reading List",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/32/0c/f3320c01-6c18-1023-596e-cc258a9cc535/AppIconAlt1-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
@@ -7868,6 +7855,19 @@
           "normal": "¥22.00",
           "current": "免费",
           "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6751025023",
+          "name": "LingoCap 点图学单词",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/88/59/0d885905-af7d-52d1-a4f1-bdd06ace9337/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "教育",
+          "type": "free",
+          "page": "app/cn-6751025023.html",
+          "rating": 5,
+          "normal": "¥1.00",
+          "current": "免费",
+          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -8027,19 +8027,6 @@
           "region": "cn"
         },
         {
-          "id": "1102234300",
-          "name": "Alison Baby Monitor",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ec/8c/63/ec8c63f3-d37c-a430-7701-f999d9bf47b8/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-          "genre": "医疗",
-          "type": "free",
-          "page": "app/cn-1102234300.html",
-          "rating": 5,
-          "normal": "¥2998.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
           "id": "6740767372",
           "name": "Book Tracker: TBR Reading List",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/32/0c/f3320c01-6c18-1023-596e-cc258a9cc535/AppIconAlt1-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
@@ -8154,6 +8141,19 @@
           "normal": "¥22.00",
           "current": "免费",
           "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6751025023",
+          "name": "LingoCap 点图学单词",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/88/59/0d885905-af7d-52d1-a4f1-bdd06ace9337/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "教育",
+          "type": "free",
+          "page": "app/cn-6751025023.html",
+          "rating": 5,
+          "normal": "¥1.00",
+          "current": "免费",
+          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -8308,19 +8308,6 @@
           "region": "cn"
         },
         {
-          "id": "1102234300",
-          "name": "Alison Baby Monitor",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ec/8c/63/ec8c63f3-d37c-a430-7701-f999d9bf47b8/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-          "genre": "医疗",
-          "type": "free",
-          "page": "app/cn-1102234300.html",
-          "rating": 5,
-          "normal": "¥2998.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
           "id": "6740767372",
           "name": "Book Tracker: TBR Reading List",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/32/0c/f3320c01-6c18-1023-596e-cc258a9cc535/AppIconAlt1-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
@@ -8435,6 +8422,19 @@
           "normal": "¥22.00",
           "current": "免费",
           "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6751025023",
+          "name": "LingoCap 点图学单词",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/88/59/0d885905-af7d-52d1-a4f1-bdd06ace9337/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "教育",
+          "type": "free",
+          "page": "app/cn-6751025023.html",
+          "rating": 5,
+          "normal": "¥1.00",
+          "current": "免费",
+          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -8594,19 +8594,6 @@
           "region": "cn"
         },
         {
-          "id": "1102234300",
-          "name": "Alison Baby Monitor",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ec/8c/63/ec8c63f3-d37c-a430-7701-f999d9bf47b8/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-          "genre": "医疗",
-          "type": "free",
-          "page": "app/cn-1102234300.html",
-          "rating": 5,
-          "normal": "¥2998.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
           "id": "6740767372",
           "name": "Book Tracker: TBR Reading List",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/32/0c/f3320c01-6c18-1023-596e-cc258a9cc535/AppIconAlt1-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
@@ -8721,6 +8708,19 @@
           "normal": "¥22.00",
           "current": "免费",
           "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6751025023",
+          "name": "LingoCap 点图学单词",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/88/59/0d885905-af7d-52d1-a4f1-bdd06ace9337/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "教育",
+          "type": "free",
+          "page": "app/cn-6751025023.html",
+          "rating": 5,
+          "normal": "¥1.00",
+          "current": "免费",
+          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -8975,19 +8975,6 @@
           "region": "cn"
         },
         {
-          "id": "1102234300",
-          "name": "Alison Baby Monitor",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ec/8c/63/ec8c63f3-d37c-a430-7701-f999d9bf47b8/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-          "genre": "医疗",
-          "type": "free",
-          "page": "app/cn-1102234300.html",
-          "rating": 5,
-          "normal": "¥2998.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
           "id": "6740767372",
           "name": "Book Tracker: TBR Reading List",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/32/0c/f3320c01-6c18-1023-596e-cc258a9cc535/AppIconAlt1-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
@@ -9102,6 +9089,19 @@
           "normal": "¥22.00",
           "current": "免费",
           "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6751025023",
+          "name": "LingoCap 点图学单词",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/88/59/0d885905-af7d-52d1-a4f1-bdd06ace9337/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "教育",
+          "type": "free",
+          "page": "app/cn-6751025023.html",
+          "rating": 5,
+          "normal": "¥1.00",
+          "current": "免费",
+          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -9351,19 +9351,6 @@
           "region": "cn"
         },
         {
-          "id": "1102234300",
-          "name": "Alison Baby Monitor",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ec/8c/63/ec8c63f3-d37c-a430-7701-f999d9bf47b8/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-          "genre": "医疗",
-          "type": "free",
-          "page": "app/cn-1102234300.html",
-          "rating": 5,
-          "normal": "¥2998.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
           "id": "6740767372",
           "name": "Book Tracker: TBR Reading List",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/32/0c/f3320c01-6c18-1023-596e-cc258a9cc535/AppIconAlt1-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
@@ -9478,6 +9465,19 @@
           "normal": "¥22.00",
           "current": "免费",
           "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6751025023",
+          "name": "LingoCap 点图学单词",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/88/59/0d885905-af7d-52d1-a4f1-bdd06ace9337/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "教育",
+          "type": "free",
+          "page": "app/cn-6751025023.html",
+          "rating": 5,
+          "normal": "¥1.00",
+          "current": "免费",
+          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -9632,19 +9632,6 @@
           "region": "cn"
         },
         {
-          "id": "1102234300",
-          "name": "Alison Baby Monitor",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ec/8c/63/ec8c63f3-d37c-a430-7701-f999d9bf47b8/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-          "genre": "医疗",
-          "type": "free",
-          "page": "app/cn-1102234300.html",
-          "rating": 5,
-          "normal": "¥2998.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
           "id": "6740767372",
           "name": "Book Tracker: TBR Reading List",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/32/0c/f3320c01-6c18-1023-596e-cc258a9cc535/AppIconAlt1-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
@@ -9759,6 +9746,19 @@
           "normal": "¥22.00",
           "current": "免费",
           "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6751025023",
+          "name": "LingoCap 点图学单词",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/88/59/0d885905-af7d-52d1-a4f1-bdd06ace9337/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "教育",
+          "type": "free",
+          "page": "app/cn-6751025023.html",
+          "rating": 5,
+          "normal": "¥1.00",
+          "current": "免费",
+          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -9993,19 +9993,6 @@
           "region": "cn"
         },
         {
-          "id": "1102234300",
-          "name": "Alison Baby Monitor",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ec/8c/63/ec8c63f3-d37c-a430-7701-f999d9bf47b8/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-          "genre": "医疗",
-          "type": "free",
-          "page": "app/cn-1102234300.html",
-          "rating": 5,
-          "normal": "¥2998.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
           "id": "6740767372",
           "name": "Book Tracker: TBR Reading List",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/32/0c/f3320c01-6c18-1023-596e-cc258a9cc535/AppIconAlt1-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
@@ -10120,6 +10107,19 @@
           "normal": "¥22.00",
           "current": "免费",
           "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6751025023",
+          "name": "LingoCap 点图学单词",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/88/59/0d885905-af7d-52d1-a4f1-bdd06ace9337/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "教育",
+          "type": "free",
+          "page": "app/cn-6751025023.html",
+          "rating": 5,
+          "normal": "¥1.00",
+          "current": "免费",
+          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -10289,19 +10289,6 @@
           "region": "cn"
         },
         {
-          "id": "1102234300",
-          "name": "Alison Baby Monitor",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ec/8c/63/ec8c63f3-d37c-a430-7701-f999d9bf47b8/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-          "genre": "医疗",
-          "type": "free",
-          "page": "app/cn-1102234300.html",
-          "rating": 5,
-          "normal": "¥2998.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
           "id": "6740767372",
           "name": "Book Tracker: TBR Reading List",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/32/0c/f3320c01-6c18-1023-596e-cc258a9cc535/AppIconAlt1-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
@@ -10416,6 +10403,19 @@
           "normal": "¥22.00",
           "current": "免费",
           "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6751025023",
+          "name": "LingoCap 点图学单词",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/88/59/0d885905-af7d-52d1-a4f1-bdd06ace9337/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "教育",
+          "type": "free",
+          "page": "app/cn-6751025023.html",
+          "rating": 5,
+          "normal": "¥1.00",
+          "current": "免费",
+          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -10670,19 +10670,6 @@
           "region": "cn"
         },
         {
-          "id": "1102234300",
-          "name": "Alison Baby Monitor",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ec/8c/63/ec8c63f3-d37c-a430-7701-f999d9bf47b8/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-          "genre": "医疗",
-          "type": "free",
-          "page": "app/cn-1102234300.html",
-          "rating": 5,
-          "normal": "¥2998.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
           "id": "6740767372",
           "name": "Book Tracker: TBR Reading List",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/32/0c/f3320c01-6c18-1023-596e-cc258a9cc535/AppIconAlt1-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
@@ -10797,6 +10784,19 @@
           "normal": "¥22.00",
           "current": "免费",
           "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6751025023",
+          "name": "LingoCap 点图学单词",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/88/59/0d885905-af7d-52d1-a4f1-bdd06ace9337/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "教育",
+          "type": "free",
+          "page": "app/cn-6751025023.html",
+          "rating": 5,
+          "normal": "¥1.00",
+          "current": "免费",
+          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -10946,19 +10946,6 @@
           "region": "cn"
         },
         {
-          "id": "1102234300",
-          "name": "Alison Baby Monitor",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ec/8c/63/ec8c63f3-d37c-a430-7701-f999d9bf47b8/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-          "genre": "医疗",
-          "type": "free",
-          "page": "app/cn-1102234300.html",
-          "rating": 5,
-          "normal": "¥2998.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
           "id": "6740767372",
           "name": "Book Tracker: TBR Reading List",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/32/0c/f3320c01-6c18-1023-596e-cc258a9cc535/AppIconAlt1-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
@@ -11073,6 +11060,19 @@
           "normal": "¥22.00",
           "current": "免费",
           "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6751025023",
+          "name": "LingoCap 点图学单词",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/88/59/0d885905-af7d-52d1-a4f1-bdd06ace9337/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "教育",
+          "type": "free",
+          "page": "app/cn-6751025023.html",
+          "rating": 5,
+          "normal": "¥1.00",
+          "current": "免费",
+          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -11322,19 +11322,6 @@
           "region": "cn"
         },
         {
-          "id": "1102234300",
-          "name": "Alison Baby Monitor",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ec/8c/63/ec8c63f3-d37c-a430-7701-f999d9bf47b8/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-          "genre": "医疗",
-          "type": "free",
-          "page": "app/cn-1102234300.html",
-          "rating": 5,
-          "normal": "¥2998.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
           "id": "6740767372",
           "name": "Book Tracker: TBR Reading List",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/32/0c/f3320c01-6c18-1023-596e-cc258a9cc535/AppIconAlt1-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
@@ -11449,6 +11436,19 @@
           "normal": "¥22.00",
           "current": "免费",
           "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6751025023",
+          "name": "LingoCap 点图学单词",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/88/59/0d885905-af7d-52d1-a4f1-bdd06ace9337/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "教育",
+          "type": "free",
+          "page": "app/cn-6751025023.html",
+          "rating": 5,
+          "normal": "¥1.00",
+          "current": "免费",
+          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -11693,19 +11693,6 @@
           "region": "cn"
         },
         {
-          "id": "1102234300",
-          "name": "Alison Baby Monitor",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ec/8c/63/ec8c63f3-d37c-a430-7701-f999d9bf47b8/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-          "genre": "医疗",
-          "type": "free",
-          "page": "app/cn-1102234300.html",
-          "rating": 5,
-          "normal": "¥2998.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
           "id": "6740767372",
           "name": "Book Tracker: TBR Reading List",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/32/0c/f3320c01-6c18-1023-596e-cc258a9cc535/AppIconAlt1-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
@@ -11820,6 +11807,19 @@
           "normal": "¥22.00",
           "current": "免费",
           "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6751025023",
+          "name": "LingoCap 点图学单词",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/88/59/0d885905-af7d-52d1-a4f1-bdd06ace9337/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "教育",
+          "type": "free",
+          "page": "app/cn-6751025023.html",
+          "rating": 5,
+          "normal": "¥1.00",
+          "current": "免费",
+          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -11964,19 +11964,6 @@
           "region": "cn"
         },
         {
-          "id": "1102234300",
-          "name": "Alison Baby Monitor",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ec/8c/63/ec8c63f3-d37c-a430-7701-f999d9bf47b8/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-          "genre": "医疗",
-          "type": "free",
-          "page": "app/cn-1102234300.html",
-          "rating": 5,
-          "normal": "¥2998.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
           "id": "6740767372",
           "name": "Book Tracker: TBR Reading List",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/32/0c/f3320c01-6c18-1023-596e-cc258a9cc535/AppIconAlt1-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
@@ -12091,6 +12078,19 @@
           "normal": "¥22.00",
           "current": "免费",
           "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6751025023",
+          "name": "LingoCap 点图学单词",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/88/59/0d885905-af7d-52d1-a4f1-bdd06ace9337/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "教育",
+          "type": "free",
+          "page": "app/cn-6751025023.html",
+          "rating": 5,
+          "normal": "¥1.00",
+          "current": "免费",
+          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -12240,19 +12240,6 @@
           "region": "cn"
         },
         {
-          "id": "1102234300",
-          "name": "Alison Baby Monitor",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ec/8c/63/ec8c63f3-d37c-a430-7701-f999d9bf47b8/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-          "genre": "医疗",
-          "type": "free",
-          "page": "app/cn-1102234300.html",
-          "rating": 5,
-          "normal": "¥2998.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
           "id": "6740767372",
           "name": "Book Tracker: TBR Reading List",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/32/0c/f3320c01-6c18-1023-596e-cc258a9cc535/AppIconAlt1-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
@@ -12367,6 +12354,19 @@
           "normal": "¥22.00",
           "current": "免费",
           "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6751025023",
+          "name": "LingoCap 点图学单词",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/88/59/0d885905-af7d-52d1-a4f1-bdd06ace9337/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "教育",
+          "type": "free",
+          "page": "app/cn-6751025023.html",
+          "rating": 5,
+          "normal": "¥1.00",
+          "current": "免费",
+          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -12556,19 +12556,6 @@
           "region": "cn"
         },
         {
-          "id": "1102234300",
-          "name": "Alison Baby Monitor",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ec/8c/63/ec8c63f3-d37c-a430-7701-f999d9bf47b8/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-          "genre": "医疗",
-          "type": "free",
-          "page": "app/cn-1102234300.html",
-          "rating": 5,
-          "normal": "¥2998.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
           "id": "6740767372",
           "name": "Book Tracker: TBR Reading List",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/32/0c/f3320c01-6c18-1023-596e-cc258a9cc535/AppIconAlt1-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
@@ -12683,6 +12670,19 @@
           "normal": "¥22.00",
           "current": "免费",
           "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6751025023",
+          "name": "LingoCap 点图学单词",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/88/59/0d885905-af7d-52d1-a4f1-bdd06ace9337/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "教育",
+          "type": "free",
+          "page": "app/cn-6751025023.html",
+          "rating": 5,
+          "normal": "¥1.00",
+          "current": "免费",
+          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -12872,19 +12872,6 @@
           "region": "cn"
         },
         {
-          "id": "1102234300",
-          "name": "Alison Baby Monitor",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ec/8c/63/ec8c63f3-d37c-a430-7701-f999d9bf47b8/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-          "genre": "医疗",
-          "type": "free",
-          "page": "app/cn-1102234300.html",
-          "rating": 5,
-          "normal": "¥2998.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
           "id": "6740767372",
           "name": "Book Tracker: TBR Reading List",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/32/0c/f3320c01-6c18-1023-596e-cc258a9cc535/AppIconAlt1-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
@@ -12999,6 +12986,19 @@
           "normal": "¥22.00",
           "current": "免费",
           "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6751025023",
+          "name": "LingoCap 点图学单词",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/88/59/0d885905-af7d-52d1-a4f1-bdd06ace9337/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "教育",
+          "type": "free",
+          "page": "app/cn-6751025023.html",
+          "rating": 5,
+          "normal": "¥1.00",
+          "current": "免费",
+          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -13148,19 +13148,6 @@
           "region": "cn"
         },
         {
-          "id": "1102234300",
-          "name": "Alison Baby Monitor",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ec/8c/63/ec8c63f3-d37c-a430-7701-f999d9bf47b8/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-          "genre": "医疗",
-          "type": "free",
-          "page": "app/cn-1102234300.html",
-          "rating": 5,
-          "normal": "¥2998.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
           "id": "6740767372",
           "name": "Book Tracker: TBR Reading List",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/32/0c/f3320c01-6c18-1023-596e-cc258a9cc535/AppIconAlt1-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
@@ -13275,6 +13262,19 @@
           "normal": "¥22.00",
           "current": "免费",
           "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6751025023",
+          "name": "LingoCap 点图学单词",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/88/59/0d885905-af7d-52d1-a4f1-bdd06ace9337/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "教育",
+          "type": "free",
+          "page": "app/cn-6751025023.html",
+          "rating": 5,
+          "normal": "¥1.00",
+          "current": "免费",
+          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -13424,19 +13424,6 @@
           "region": "cn"
         },
         {
-          "id": "1102234300",
-          "name": "Alison Baby Monitor",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ec/8c/63/ec8c63f3-d37c-a430-7701-f999d9bf47b8/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-          "genre": "医疗",
-          "type": "free",
-          "page": "app/cn-1102234300.html",
-          "rating": 5,
-          "normal": "¥2998.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
           "id": "6740767372",
           "name": "Book Tracker: TBR Reading List",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/32/0c/f3320c01-6c18-1023-596e-cc258a9cc535/AppIconAlt1-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
@@ -13551,6 +13538,19 @@
           "normal": "¥22.00",
           "current": "免费",
           "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6751025023",
+          "name": "LingoCap 点图学单词",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/88/59/0d885905-af7d-52d1-a4f1-bdd06ace9337/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "教育",
+          "type": "free",
+          "page": "app/cn-6751025023.html",
+          "rating": 5,
+          "normal": "¥1.00",
+          "current": "免费",
+          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -13805,19 +13805,6 @@
           "region": "cn"
         },
         {
-          "id": "1102234300",
-          "name": "Alison Baby Monitor",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ec/8c/63/ec8c63f3-d37c-a430-7701-f999d9bf47b8/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-          "genre": "医疗",
-          "type": "free",
-          "page": "app/cn-1102234300.html",
-          "rating": 5,
-          "normal": "¥2998.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
           "id": "6740767372",
           "name": "Book Tracker: TBR Reading List",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/32/0c/f3320c01-6c18-1023-596e-cc258a9cc535/AppIconAlt1-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
@@ -13932,6 +13919,19 @@
           "normal": "¥22.00",
           "current": "免费",
           "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6751025023",
+          "name": "LingoCap 点图学单词",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/88/59/0d885905-af7d-52d1-a4f1-bdd06ace9337/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "教育",
+          "type": "free",
+          "page": "app/cn-6751025023.html",
+          "rating": 5,
+          "normal": "¥1.00",
+          "current": "免费",
+          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -14116,19 +14116,6 @@
           "region": "cn"
         },
         {
-          "id": "1102234300",
-          "name": "Alison Baby Monitor",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ec/8c/63/ec8c63f3-d37c-a430-7701-f999d9bf47b8/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-          "genre": "医疗",
-          "type": "free",
-          "page": "app/cn-1102234300.html",
-          "rating": 5,
-          "normal": "¥2998.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
           "id": "6740767372",
           "name": "Book Tracker: TBR Reading List",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/32/0c/f3320c01-6c18-1023-596e-cc258a9cc535/AppIconAlt1-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
@@ -14243,6 +14230,19 @@
           "normal": "¥22.00",
           "current": "免费",
           "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6751025023",
+          "name": "LingoCap 点图学单词",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/88/59/0d885905-af7d-52d1-a4f1-bdd06ace9337/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "教育",
+          "type": "free",
+          "page": "app/cn-6751025023.html",
+          "rating": 5,
+          "normal": "¥1.00",
+          "current": "免费",
+          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -14437,19 +14437,6 @@
           "region": "cn"
         },
         {
-          "id": "1102234300",
-          "name": "Alison Baby Monitor",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ec/8c/63/ec8c63f3-d37c-a430-7701-f999d9bf47b8/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-          "genre": "医疗",
-          "type": "free",
-          "page": "app/cn-1102234300.html",
-          "rating": 5,
-          "normal": "¥2998.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
           "id": "6740767372",
           "name": "Book Tracker: TBR Reading List",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/32/0c/f3320c01-6c18-1023-596e-cc258a9cc535/AppIconAlt1-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
@@ -14564,6 +14551,19 @@
           "normal": "¥22.00",
           "current": "免费",
           "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6751025023",
+          "name": "LingoCap 点图学单词",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/88/59/0d885905-af7d-52d1-a4f1-bdd06ace9337/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "教育",
+          "type": "free",
+          "page": "app/cn-6751025023.html",
+          "rating": 5,
+          "normal": "¥1.00",
+          "current": "免费",
+          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -14828,19 +14828,6 @@
           "region": "cn"
         },
         {
-          "id": "1102234300",
-          "name": "Alison Baby Monitor",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ec/8c/63/ec8c63f3-d37c-a430-7701-f999d9bf47b8/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-          "genre": "医疗",
-          "type": "free",
-          "page": "app/cn-1102234300.html",
-          "rating": 5,
-          "normal": "¥2998.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
           "id": "6740767372",
           "name": "Book Tracker: TBR Reading List",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/32/0c/f3320c01-6c18-1023-596e-cc258a9cc535/AppIconAlt1-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
@@ -14955,6 +14942,19 @@
           "normal": "¥22.00",
           "current": "免费",
           "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6751025023",
+          "name": "LingoCap 点图学单词",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/88/59/0d885905-af7d-52d1-a4f1-bdd06ace9337/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "教育",
+          "type": "free",
+          "page": "app/cn-6751025023.html",
+          "rating": 5,
+          "normal": "¥1.00",
+          "current": "免费",
+          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -15149,19 +15149,6 @@
           "region": "cn"
         },
         {
-          "id": "1102234300",
-          "name": "Alison Baby Monitor",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ec/8c/63/ec8c63f3-d37c-a430-7701-f999d9bf47b8/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-          "genre": "医疗",
-          "type": "free",
-          "page": "app/cn-1102234300.html",
-          "rating": 5,
-          "normal": "¥2998.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
           "id": "6740767372",
           "name": "Book Tracker: TBR Reading List",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/32/0c/f3320c01-6c18-1023-596e-cc258a9cc535/AppIconAlt1-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
@@ -15276,6 +15263,19 @@
           "normal": "¥22.00",
           "current": "免费",
           "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6751025023",
+          "name": "LingoCap 点图学单词",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/88/59/0d885905-af7d-52d1-a4f1-bdd06ace9337/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "教育",
+          "type": "free",
+          "page": "app/cn-6751025023.html",
+          "rating": 5,
+          "normal": "¥1.00",
+          "current": "免费",
+          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -15440,19 +15440,6 @@
           "region": "cn"
         },
         {
-          "id": "1102234300",
-          "name": "Alison Baby Monitor",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ec/8c/63/ec8c63f3-d37c-a430-7701-f999d9bf47b8/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-          "genre": "医疗",
-          "type": "free",
-          "page": "app/cn-1102234300.html",
-          "rating": 5,
-          "normal": "¥2998.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
           "id": "6740767372",
           "name": "Book Tracker: TBR Reading List",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/32/0c/f3320c01-6c18-1023-596e-cc258a9cc535/AppIconAlt1-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
@@ -15567,6 +15554,19 @@
           "normal": "¥22.00",
           "current": "免费",
           "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6751025023",
+          "name": "LingoCap 点图学单词",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/88/59/0d885905-af7d-52d1-a4f1-bdd06ace9337/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "教育",
+          "type": "free",
+          "page": "app/cn-6751025023.html",
+          "rating": 5,
+          "normal": "¥1.00",
+          "current": "免费",
+          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -15831,19 +15831,6 @@
           "region": "cn"
         },
         {
-          "id": "1102234300",
-          "name": "Alison Baby Monitor",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ec/8c/63/ec8c63f3-d37c-a430-7701-f999d9bf47b8/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-          "genre": "医疗",
-          "type": "free",
-          "page": "app/cn-1102234300.html",
-          "rating": 5,
-          "normal": "¥2998.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
           "id": "6740767372",
           "name": "Book Tracker: TBR Reading List",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/32/0c/f3320c01-6c18-1023-596e-cc258a9cc535/AppIconAlt1-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
@@ -15958,6 +15945,19 @@
           "normal": "¥22.00",
           "current": "免费",
           "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6751025023",
+          "name": "LingoCap 点图学单词",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/88/59/0d885905-af7d-52d1-a4f1-bdd06ace9337/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "教育",
+          "type": "free",
+          "page": "app/cn-6751025023.html",
+          "rating": 5,
+          "normal": "¥1.00",
+          "current": "免费",
+          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -16117,19 +16117,6 @@
           "region": "cn"
         },
         {
-          "id": "1102234300",
-          "name": "Alison Baby Monitor",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ec/8c/63/ec8c63f3-d37c-a430-7701-f999d9bf47b8/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-          "genre": "医疗",
-          "type": "free",
-          "page": "app/cn-1102234300.html",
-          "rating": 5,
-          "normal": "¥2998.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
           "id": "6740767372",
           "name": "Book Tracker: TBR Reading List",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/32/0c/f3320c01-6c18-1023-596e-cc258a9cc535/AppIconAlt1-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
@@ -16244,6 +16231,19 @@
           "normal": "¥22.00",
           "current": "免费",
           "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6751025023",
+          "name": "LingoCap 点图学单词",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/88/59/0d885905-af7d-52d1-a4f1-bdd06ace9337/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "教育",
+          "type": "free",
+          "page": "app/cn-6751025023.html",
+          "rating": 5,
+          "normal": "¥1.00",
+          "current": "免费",
+          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -16483,19 +16483,6 @@
           "region": "cn"
         },
         {
-          "id": "1102234300",
-          "name": "Alison Baby Monitor",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ec/8c/63/ec8c63f3-d37c-a430-7701-f999d9bf47b8/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-          "genre": "医疗",
-          "type": "free",
-          "page": "app/cn-1102234300.html",
-          "rating": 5,
-          "normal": "¥2998.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
           "id": "6740767372",
           "name": "Book Tracker: TBR Reading List",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/32/0c/f3320c01-6c18-1023-596e-cc258a9cc535/AppIconAlt1-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
@@ -16610,6 +16597,19 @@
           "normal": "¥22.00",
           "current": "免费",
           "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6751025023",
+          "name": "LingoCap 点图学单词",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/88/59/0d885905-af7d-52d1-a4f1-bdd06ace9337/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "教育",
+          "type": "free",
+          "page": "app/cn-6751025023.html",
+          "rating": 5,
+          "normal": "¥1.00",
+          "current": "免费",
+          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -16829,19 +16829,6 @@
           "region": "cn"
         },
         {
-          "id": "1102234300",
-          "name": "Alison Baby Monitor",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ec/8c/63/ec8c63f3-d37c-a430-7701-f999d9bf47b8/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-          "genre": "医疗",
-          "type": "free",
-          "page": "app/cn-1102234300.html",
-          "rating": 5,
-          "normal": "¥2998.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
           "id": "6740767372",
           "name": "Book Tracker: TBR Reading List",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/32/0c/f3320c01-6c18-1023-596e-cc258a9cc535/AppIconAlt1-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
@@ -16956,6 +16943,19 @@
           "normal": "¥22.00",
           "current": "免费",
           "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6751025023",
+          "name": "LingoCap 点图学单词",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/88/59/0d885905-af7d-52d1-a4f1-bdd06ace9337/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "教育",
+          "type": "free",
+          "page": "app/cn-6751025023.html",
+          "rating": 5,
+          "normal": "¥1.00",
+          "current": "免费",
+          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -17120,19 +17120,6 @@
           "region": "cn"
         },
         {
-          "id": "1102234300",
-          "name": "Alison Baby Monitor",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ec/8c/63/ec8c63f3-d37c-a430-7701-f999d9bf47b8/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-          "genre": "医疗",
-          "type": "free",
-          "page": "app/cn-1102234300.html",
-          "rating": 5,
-          "normal": "¥2998.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
           "id": "6740767372",
           "name": "Book Tracker: TBR Reading List",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/32/0c/f3320c01-6c18-1023-596e-cc258a9cc535/AppIconAlt1-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
@@ -17247,6 +17234,19 @@
           "normal": "¥22.00",
           "current": "免费",
           "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6751025023",
+          "name": "LingoCap 点图学单词",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/88/59/0d885905-af7d-52d1-a4f1-bdd06ace9337/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "教育",
+          "type": "free",
+          "page": "app/cn-6751025023.html",
+          "rating": 5,
+          "normal": "¥1.00",
+          "current": "免费",
+          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -17406,19 +17406,6 @@
           "region": "cn"
         },
         {
-          "id": "1102234300",
-          "name": "Alison Baby Monitor",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ec/8c/63/ec8c63f3-d37c-a430-7701-f999d9bf47b8/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-          "genre": "医疗",
-          "type": "free",
-          "page": "app/cn-1102234300.html",
-          "rating": 5,
-          "normal": "¥2998.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
           "id": "6740767372",
           "name": "Book Tracker: TBR Reading List",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/32/0c/f3320c01-6c18-1023-596e-cc258a9cc535/AppIconAlt1-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
@@ -17533,6 +17520,19 @@
           "normal": "¥22.00",
           "current": "免费",
           "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6751025023",
+          "name": "LingoCap 点图学单词",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/88/59/0d885905-af7d-52d1-a4f1-bdd06ace9337/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "教育",
+          "type": "free",
+          "page": "app/cn-6751025023.html",
+          "rating": 5,
+          "normal": "¥1.00",
+          "current": "免费",
+          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -17682,19 +17682,6 @@
           "region": "cn"
         },
         {
-          "id": "1102234300",
-          "name": "Alison Baby Monitor",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ec/8c/63/ec8c63f3-d37c-a430-7701-f999d9bf47b8/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-          "genre": "医疗",
-          "type": "free",
-          "page": "app/cn-1102234300.html",
-          "rating": 5,
-          "normal": "¥2998.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
           "id": "6740767372",
           "name": "Book Tracker: TBR Reading List",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/32/0c/f3320c01-6c18-1023-596e-cc258a9cc535/AppIconAlt1-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
@@ -17809,6 +17796,19 @@
           "normal": "¥22.00",
           "current": "免费",
           "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6751025023",
+          "name": "LingoCap 点图学单词",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/88/59/0d885905-af7d-52d1-a4f1-bdd06ace9337/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "教育",
+          "type": "free",
+          "page": "app/cn-6751025023.html",
+          "rating": 5,
+          "normal": "¥1.00",
+          "current": "免费",
+          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -17973,19 +17973,6 @@
           "region": "cn"
         },
         {
-          "id": "1102234300",
-          "name": "Alison Baby Monitor",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ec/8c/63/ec8c63f3-d37c-a430-7701-f999d9bf47b8/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-          "genre": "医疗",
-          "type": "free",
-          "page": "app/cn-1102234300.html",
-          "rating": 5,
-          "normal": "¥2998.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
           "id": "6740767372",
           "name": "Book Tracker: TBR Reading List",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/32/0c/f3320c01-6c18-1023-596e-cc258a9cc535/AppIconAlt1-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
@@ -18100,6 +18087,19 @@
           "normal": "¥22.00",
           "current": "免费",
           "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6751025023",
+          "name": "LingoCap 点图学单词",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/88/59/0d885905-af7d-52d1-a4f1-bdd06ace9337/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "教育",
+          "type": "free",
+          "page": "app/cn-6751025023.html",
+          "rating": 5,
+          "normal": "¥1.00",
+          "current": "免费",
+          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -18254,19 +18254,6 @@
           "region": "cn"
         },
         {
-          "id": "1102234300",
-          "name": "Alison Baby Monitor",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ec/8c/63/ec8c63f3-d37c-a430-7701-f999d9bf47b8/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-          "genre": "医疗",
-          "type": "free",
-          "page": "app/cn-1102234300.html",
-          "rating": 5,
-          "normal": "¥2998.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
           "id": "6740767372",
           "name": "Book Tracker: TBR Reading List",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/32/0c/f3320c01-6c18-1023-596e-cc258a9cc535/AppIconAlt1-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
@@ -18381,6 +18368,19 @@
           "normal": "¥22.00",
           "current": "免费",
           "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6751025023",
+          "name": "LingoCap 点图学单词",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/88/59/0d885905-af7d-52d1-a4f1-bdd06ace9337/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "教育",
+          "type": "free",
+          "page": "app/cn-6751025023.html",
+          "rating": 5,
+          "normal": "¥1.00",
+          "current": "免费",
+          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -18610,19 +18610,6 @@
           "region": "cn"
         },
         {
-          "id": "1102234300",
-          "name": "Alison Baby Monitor",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ec/8c/63/ec8c63f3-d37c-a430-7701-f999d9bf47b8/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-          "genre": "医疗",
-          "type": "free",
-          "page": "app/cn-1102234300.html",
-          "rating": 5,
-          "normal": "¥2998.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
           "id": "6740767372",
           "name": "Book Tracker: TBR Reading List",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/32/0c/f3320c01-6c18-1023-596e-cc258a9cc535/AppIconAlt1-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
@@ -18737,6 +18724,19 @@
           "normal": "¥22.00",
           "current": "免费",
           "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6751025023",
+          "name": "LingoCap 点图学单词",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/88/59/0d885905-af7d-52d1-a4f1-bdd06ace9337/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "教育",
+          "type": "free",
+          "page": "app/cn-6751025023.html",
+          "rating": 5,
+          "normal": "¥1.00",
+          "current": "免费",
+          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -18886,19 +18886,6 @@
           "region": "cn"
         },
         {
-          "id": "1102234300",
-          "name": "Alison Baby Monitor",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ec/8c/63/ec8c63f3-d37c-a430-7701-f999d9bf47b8/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-          "genre": "医疗",
-          "type": "free",
-          "page": "app/cn-1102234300.html",
-          "rating": 5,
-          "normal": "¥2998.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
           "id": "6740767372",
           "name": "Book Tracker: TBR Reading List",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/32/0c/f3320c01-6c18-1023-596e-cc258a9cc535/AppIconAlt1-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
@@ -19013,6 +19000,19 @@
           "normal": "¥22.00",
           "current": "免费",
           "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6751025023",
+          "name": "LingoCap 点图学单词",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/88/59/0d885905-af7d-52d1-a4f1-bdd06ace9337/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "教育",
+          "type": "free",
+          "page": "app/cn-6751025023.html",
+          "rating": 5,
+          "normal": "¥1.00",
+          "current": "免费",
+          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -19167,19 +19167,6 @@
           "region": "cn"
         },
         {
-          "id": "1102234300",
-          "name": "Alison Baby Monitor",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ec/8c/63/ec8c63f3-d37c-a430-7701-f999d9bf47b8/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-          "genre": "医疗",
-          "type": "free",
-          "page": "app/cn-1102234300.html",
-          "rating": 5,
-          "normal": "¥2998.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
           "id": "6740767372",
           "name": "Book Tracker: TBR Reading List",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/32/0c/f3320c01-6c18-1023-596e-cc258a9cc535/AppIconAlt1-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
@@ -19294,6 +19281,19 @@
           "normal": "¥22.00",
           "current": "免费",
           "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6751025023",
+          "name": "LingoCap 点图学单词",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/88/59/0d885905-af7d-52d1-a4f1-bdd06ace9337/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "教育",
+          "type": "free",
+          "page": "app/cn-6751025023.html",
+          "rating": 5,
+          "normal": "¥1.00",
+          "current": "免费",
+          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -19553,19 +19553,6 @@
           "region": "cn"
         },
         {
-          "id": "1102234300",
-          "name": "Alison Baby Monitor",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ec/8c/63/ec8c63f3-d37c-a430-7701-f999d9bf47b8/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-          "genre": "医疗",
-          "type": "free",
-          "page": "app/cn-1102234300.html",
-          "rating": 5,
-          "normal": "¥2998.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
           "id": "6740767372",
           "name": "Book Tracker: TBR Reading List",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/32/0c/f3320c01-6c18-1023-596e-cc258a9cc535/AppIconAlt1-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
@@ -19680,6 +19667,19 @@
           "normal": "¥22.00",
           "current": "免费",
           "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6751025023",
+          "name": "LingoCap 点图学单词",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/88/59/0d885905-af7d-52d1-a4f1-bdd06ace9337/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "教育",
+          "type": "free",
+          "page": "app/cn-6751025023.html",
+          "rating": 5,
+          "normal": "¥1.00",
+          "current": "免费",
+          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -19824,19 +19824,6 @@
           "region": "cn"
         },
         {
-          "id": "1102234300",
-          "name": "Alison Baby Monitor",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ec/8c/63/ec8c63f3-d37c-a430-7701-f999d9bf47b8/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-          "genre": "医疗",
-          "type": "free",
-          "page": "app/cn-1102234300.html",
-          "rating": 5,
-          "normal": "¥2998.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
           "id": "6740767372",
           "name": "Book Tracker: TBR Reading List",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/32/0c/f3320c01-6c18-1023-596e-cc258a9cc535/AppIconAlt1-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
@@ -19951,6 +19938,19 @@
           "normal": "¥22.00",
           "current": "免费",
           "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6751025023",
+          "name": "LingoCap 点图学单词",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/88/59/0d885905-af7d-52d1-a4f1-bdd06ace9337/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "教育",
+          "type": "free",
+          "page": "app/cn-6751025023.html",
+          "rating": 5,
+          "normal": "¥1.00",
+          "current": "免费",
+          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -20170,19 +20170,6 @@
           "region": "cn"
         },
         {
-          "id": "1102234300",
-          "name": "Alison Baby Monitor",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ec/8c/63/ec8c63f3-d37c-a430-7701-f999d9bf47b8/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-          "genre": "医疗",
-          "type": "free",
-          "page": "app/cn-1102234300.html",
-          "rating": 5,
-          "normal": "¥2998.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
           "id": "6740767372",
           "name": "Book Tracker: TBR Reading List",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/32/0c/f3320c01-6c18-1023-596e-cc258a9cc535/AppIconAlt1-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
@@ -20297,6 +20284,19 @@
           "normal": "¥22.00",
           "current": "免费",
           "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6751025023",
+          "name": "LingoCap 点图学单词",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/88/59/0d885905-af7d-52d1-a4f1-bdd06ace9337/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "教育",
+          "type": "free",
+          "page": "app/cn-6751025023.html",
+          "rating": 5,
+          "normal": "¥1.00",
+          "current": "免费",
+          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -20446,19 +20446,6 @@
           "region": "cn"
         },
         {
-          "id": "1102234300",
-          "name": "Alison Baby Monitor",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ec/8c/63/ec8c63f3-d37c-a430-7701-f999d9bf47b8/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-          "genre": "医疗",
-          "type": "free",
-          "page": "app/cn-1102234300.html",
-          "rating": 5,
-          "normal": "¥2998.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
           "id": "6740767372",
           "name": "Book Tracker: TBR Reading List",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/32/0c/f3320c01-6c18-1023-596e-cc258a9cc535/AppIconAlt1-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
@@ -20573,6 +20560,19 @@
           "normal": "¥22.00",
           "current": "免费",
           "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6751025023",
+          "name": "LingoCap 点图学单词",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/88/59/0d885905-af7d-52d1-a4f1-bdd06ace9337/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "教育",
+          "type": "free",
+          "page": "app/cn-6751025023.html",
+          "rating": 5,
+          "normal": "¥1.00",
+          "current": "免费",
+          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -20782,19 +20782,6 @@
           "region": "cn"
         },
         {
-          "id": "1102234300",
-          "name": "Alison Baby Monitor",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ec/8c/63/ec8c63f3-d37c-a430-7701-f999d9bf47b8/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-          "genre": "医疗",
-          "type": "free",
-          "page": "app/cn-1102234300.html",
-          "rating": 5,
-          "normal": "¥2998.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
           "id": "6740767372",
           "name": "Book Tracker: TBR Reading List",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/32/0c/f3320c01-6c18-1023-596e-cc258a9cc535/AppIconAlt1-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
@@ -20909,6 +20896,19 @@
           "normal": "¥22.00",
           "current": "免费",
           "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6751025023",
+          "name": "LingoCap 点图学单词",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/88/59/0d885905-af7d-52d1-a4f1-bdd06ace9337/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "教育",
+          "type": "free",
+          "page": "app/cn-6751025023.html",
+          "rating": 5,
+          "normal": "¥1.00",
+          "current": "免费",
+          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -21068,19 +21068,6 @@
           "region": "cn"
         },
         {
-          "id": "1102234300",
-          "name": "Alison Baby Monitor",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ec/8c/63/ec8c63f3-d37c-a430-7701-f999d9bf47b8/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-          "genre": "医疗",
-          "type": "free",
-          "page": "app/cn-1102234300.html",
-          "rating": 5,
-          "normal": "¥2998.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
           "id": "6740767372",
           "name": "Book Tracker: TBR Reading List",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/32/0c/f3320c01-6c18-1023-596e-cc258a9cc535/AppIconAlt1-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
@@ -21195,6 +21182,19 @@
           "normal": "¥22.00",
           "current": "免费",
           "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6751025023",
+          "name": "LingoCap 点图学单词",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/88/59/0d885905-af7d-52d1-a4f1-bdd06ace9337/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "教育",
+          "type": "free",
+          "page": "app/cn-6751025023.html",
+          "rating": 5,
+          "normal": "¥1.00",
+          "current": "免费",
+          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -21434,19 +21434,6 @@
           "region": "cn"
         },
         {
-          "id": "1102234300",
-          "name": "Alison Baby Monitor",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ec/8c/63/ec8c63f3-d37c-a430-7701-f999d9bf47b8/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-          "genre": "医疗",
-          "type": "free",
-          "page": "app/cn-1102234300.html",
-          "rating": 5,
-          "normal": "¥2998.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
           "id": "6740767372",
           "name": "Book Tracker: TBR Reading List",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/32/0c/f3320c01-6c18-1023-596e-cc258a9cc535/AppIconAlt1-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
@@ -21561,6 +21548,19 @@
           "normal": "¥22.00",
           "current": "免费",
           "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6751025023",
+          "name": "LingoCap 点图学单词",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/88/59/0d885905-af7d-52d1-a4f1-bdd06ace9337/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "教育",
+          "type": "free",
+          "page": "app/cn-6751025023.html",
+          "rating": 5,
+          "normal": "¥1.00",
+          "current": "免费",
+          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -21720,19 +21720,6 @@
           "region": "cn"
         },
         {
-          "id": "1102234300",
-          "name": "Alison Baby Monitor",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ec/8c/63/ec8c63f3-d37c-a430-7701-f999d9bf47b8/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-          "genre": "医疗",
-          "type": "free",
-          "page": "app/cn-1102234300.html",
-          "rating": 5,
-          "normal": "¥2998.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
           "id": "6740767372",
           "name": "Book Tracker: TBR Reading List",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/32/0c/f3320c01-6c18-1023-596e-cc258a9cc535/AppIconAlt1-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
@@ -21847,6 +21834,19 @@
           "normal": "¥22.00",
           "current": "免费",
           "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6751025023",
+          "name": "LingoCap 点图学单词",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/88/59/0d885905-af7d-52d1-a4f1-bdd06ace9337/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "教育",
+          "type": "free",
+          "page": "app/cn-6751025023.html",
+          "rating": 5,
+          "normal": "¥1.00",
+          "current": "免费",
+          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -21996,19 +21996,6 @@
           "region": "cn"
         },
         {
-          "id": "1102234300",
-          "name": "Alison Baby Monitor",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ec/8c/63/ec8c63f3-d37c-a430-7701-f999d9bf47b8/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-          "genre": "医疗",
-          "type": "free",
-          "page": "app/cn-1102234300.html",
-          "rating": 5,
-          "normal": "¥2998.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
           "id": "6740767372",
           "name": "Book Tracker: TBR Reading List",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/32/0c/f3320c01-6c18-1023-596e-cc258a9cc535/AppIconAlt1-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
@@ -22123,6 +22110,19 @@
           "normal": "¥22.00",
           "current": "免费",
           "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6751025023",
+          "name": "LingoCap 点图学单词",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/88/59/0d885905-af7d-52d1-a4f1-bdd06ace9337/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "教育",
+          "type": "free",
+          "page": "app/cn-6751025023.html",
+          "rating": 5,
+          "normal": "¥1.00",
+          "current": "免费",
+          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -22282,19 +22282,6 @@
           "region": "cn"
         },
         {
-          "id": "1102234300",
-          "name": "Alison Baby Monitor",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ec/8c/63/ec8c63f3-d37c-a430-7701-f999d9bf47b8/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-          "genre": "医疗",
-          "type": "free",
-          "page": "app/cn-1102234300.html",
-          "rating": 5,
-          "normal": "¥2998.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
           "id": "6740767372",
           "name": "Book Tracker: TBR Reading List",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/32/0c/f3320c01-6c18-1023-596e-cc258a9cc535/AppIconAlt1-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
@@ -22409,6 +22396,19 @@
           "normal": "¥22.00",
           "current": "免费",
           "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6751025023",
+          "name": "LingoCap 点图学单词",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/88/59/0d885905-af7d-52d1-a4f1-bdd06ace9337/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "教育",
+          "type": "free",
+          "page": "app/cn-6751025023.html",
+          "rating": 5,
+          "normal": "¥1.00",
+          "current": "免费",
+          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -22653,19 +22653,6 @@
           "region": "cn"
         },
         {
-          "id": "1102234300",
-          "name": "Alison Baby Monitor",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ec/8c/63/ec8c63f3-d37c-a430-7701-f999d9bf47b8/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-          "genre": "医疗",
-          "type": "free",
-          "page": "app/cn-1102234300.html",
-          "rating": 5,
-          "normal": "¥2998.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
           "id": "6740767372",
           "name": "Book Tracker: TBR Reading List",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/32/0c/f3320c01-6c18-1023-596e-cc258a9cc535/AppIconAlt1-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
@@ -22780,6 +22767,19 @@
           "normal": "¥22.00",
           "current": "免费",
           "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6751025023",
+          "name": "LingoCap 点图学单词",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/88/59/0d885905-af7d-52d1-a4f1-bdd06ace9337/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "教育",
+          "type": "free",
+          "page": "app/cn-6751025023.html",
+          "rating": 5,
+          "normal": "¥1.00",
+          "current": "免费",
+          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -22934,19 +22934,6 @@
           "region": "cn"
         },
         {
-          "id": "1102234300",
-          "name": "Alison Baby Monitor",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ec/8c/63/ec8c63f3-d37c-a430-7701-f999d9bf47b8/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-          "genre": "医疗",
-          "type": "free",
-          "page": "app/cn-1102234300.html",
-          "rating": 5,
-          "normal": "¥2998.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
           "id": "6740767372",
           "name": "Book Tracker: TBR Reading List",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/32/0c/f3320c01-6c18-1023-596e-cc258a9cc535/AppIconAlt1-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
@@ -23061,6 +23048,19 @@
           "normal": "¥22.00",
           "current": "免费",
           "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6751025023",
+          "name": "LingoCap 点图学单词",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/88/59/0d885905-af7d-52d1-a4f1-bdd06ace9337/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "教育",
+          "type": "free",
+          "page": "app/cn-6751025023.html",
+          "rating": 5,
+          "normal": "¥1.00",
+          "current": "免费",
+          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -23210,19 +23210,6 @@
           "region": "cn"
         },
         {
-          "id": "1102234300",
-          "name": "Alison Baby Monitor",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ec/8c/63/ec8c63f3-d37c-a430-7701-f999d9bf47b8/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-          "genre": "医疗",
-          "type": "free",
-          "page": "app/cn-1102234300.html",
-          "rating": 5,
-          "normal": "¥2998.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
           "id": "6740767372",
           "name": "Book Tracker: TBR Reading List",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/32/0c/f3320c01-6c18-1023-596e-cc258a9cc535/AppIconAlt1-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
@@ -23337,6 +23324,19 @@
           "normal": "¥22.00",
           "current": "免费",
           "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6751025023",
+          "name": "LingoCap 点图学单词",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/88/59/0d885905-af7d-52d1-a4f1-bdd06ace9337/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "教育",
+          "type": "free",
+          "page": "app/cn-6751025023.html",
+          "rating": 5,
+          "normal": "¥1.00",
+          "current": "免费",
+          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -23601,19 +23601,6 @@
           "region": "cn"
         },
         {
-          "id": "1102234300",
-          "name": "Alison Baby Monitor",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ec/8c/63/ec8c63f3-d37c-a430-7701-f999d9bf47b8/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-          "genre": "医疗",
-          "type": "free",
-          "page": "app/cn-1102234300.html",
-          "rating": 5,
-          "normal": "¥2998.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
           "id": "6740767372",
           "name": "Book Tracker: TBR Reading List",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/32/0c/f3320c01-6c18-1023-596e-cc258a9cc535/AppIconAlt1-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
@@ -23728,6 +23715,19 @@
           "normal": "¥22.00",
           "current": "免费",
           "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6751025023",
+          "name": "LingoCap 点图学单词",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/88/59/0d885905-af7d-52d1-a4f1-bdd06ace9337/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "教育",
+          "type": "free",
+          "page": "app/cn-6751025023.html",
+          "rating": 5,
+          "normal": "¥1.00",
+          "current": "免费",
+          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -23897,19 +23897,6 @@
           "region": "cn"
         },
         {
-          "id": "1102234300",
-          "name": "Alison Baby Monitor",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ec/8c/63/ec8c63f3-d37c-a430-7701-f999d9bf47b8/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-          "genre": "医疗",
-          "type": "free",
-          "page": "app/cn-1102234300.html",
-          "rating": 5,
-          "normal": "¥2998.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
           "id": "6740767372",
           "name": "Book Tracker: TBR Reading List",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/32/0c/f3320c01-6c18-1023-596e-cc258a9cc535/AppIconAlt1-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
@@ -24024,6 +24011,19 @@
           "normal": "¥22.00",
           "current": "免费",
           "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6751025023",
+          "name": "LingoCap 点图学单词",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/88/59/0d885905-af7d-52d1-a4f1-bdd06ace9337/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "教育",
+          "type": "free",
+          "page": "app/cn-6751025023.html",
+          "rating": 5,
+          "normal": "¥1.00",
+          "current": "免费",
+          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -24168,19 +24168,6 @@
           "region": "cn"
         },
         {
-          "id": "1102234300",
-          "name": "Alison Baby Monitor",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ec/8c/63/ec8c63f3-d37c-a430-7701-f999d9bf47b8/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-          "genre": "医疗",
-          "type": "free",
-          "page": "app/cn-1102234300.html",
-          "rating": 5,
-          "normal": "¥2998.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
           "id": "6740767372",
           "name": "Book Tracker: TBR Reading List",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/32/0c/f3320c01-6c18-1023-596e-cc258a9cc535/AppIconAlt1-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
@@ -24295,6 +24282,19 @@
           "normal": "¥22.00",
           "current": "免费",
           "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6751025023",
+          "name": "LingoCap 点图学单词",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/88/59/0d885905-af7d-52d1-a4f1-bdd06ace9337/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "教育",
+          "type": "free",
+          "page": "app/cn-6751025023.html",
+          "rating": 5,
+          "normal": "¥1.00",
+          "current": "免费",
+          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -24464,19 +24464,6 @@
           "region": "cn"
         },
         {
-          "id": "1102234300",
-          "name": "Alison Baby Monitor",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ec/8c/63/ec8c63f3-d37c-a430-7701-f999d9bf47b8/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-          "genre": "医疗",
-          "type": "free",
-          "page": "app/cn-1102234300.html",
-          "rating": 5,
-          "normal": "¥2998.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
           "id": "6740767372",
           "name": "Book Tracker: TBR Reading List",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/32/0c/f3320c01-6c18-1023-596e-cc258a9cc535/AppIconAlt1-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
@@ -24591,6 +24578,19 @@
           "normal": "¥22.00",
           "current": "免费",
           "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6751025023",
+          "name": "LingoCap 点图学单词",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/88/59/0d885905-af7d-52d1-a4f1-bdd06ace9337/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "教育",
+          "type": "free",
+          "page": "app/cn-6751025023.html",
+          "rating": 5,
+          "normal": "¥1.00",
+          "current": "免费",
+          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -24857,19 +24857,6 @@
           "region": "cn"
         },
         {
-          "id": "1102234300",
-          "name": "Alison Baby Monitor",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ec/8c/63/ec8c63f3-d37c-a430-7701-f999d9bf47b8/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-          "genre": "医疗",
-          "type": "free",
-          "page": "app/cn-1102234300.html",
-          "rating": 5,
-          "normal": "¥2998.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
           "id": "6740767372",
           "name": "Book Tracker: TBR Reading List",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/32/0c/f3320c01-6c18-1023-596e-cc258a9cc535/AppIconAlt1-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
@@ -24984,6 +24971,19 @@
           "normal": "¥22.00",
           "current": "免费",
           "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6751025023",
+          "name": "LingoCap 点图学单词",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/88/59/0d885905-af7d-52d1-a4f1-bdd06ace9337/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "教育",
+          "type": "free",
+          "page": "app/cn-6751025023.html",
+          "rating": 5,
+          "normal": "¥1.00",
+          "current": "免费",
+          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -25163,19 +25163,6 @@
           "region": "cn"
         },
         {
-          "id": "1102234300",
-          "name": "Alison Baby Monitor",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ec/8c/63/ec8c63f3-d37c-a430-7701-f999d9bf47b8/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-          "genre": "医疗",
-          "type": "free",
-          "page": "app/cn-1102234300.html",
-          "rating": 5,
-          "normal": "¥2998.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
           "id": "6740767372",
           "name": "Book Tracker: TBR Reading List",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/32/0c/f3320c01-6c18-1023-596e-cc258a9cc535/AppIconAlt1-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
@@ -25290,6 +25277,19 @@
           "normal": "¥22.00",
           "current": "免费",
           "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6751025023",
+          "name": "LingoCap 点图学单词",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/88/59/0d885905-af7d-52d1-a4f1-bdd06ace9337/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "教育",
+          "type": "free",
+          "page": "app/cn-6751025023.html",
+          "rating": 5,
+          "normal": "¥1.00",
+          "current": "免费",
+          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -25539,19 +25539,6 @@
           "region": "cn"
         },
         {
-          "id": "1102234300",
-          "name": "Alison Baby Monitor",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ec/8c/63/ec8c63f3-d37c-a430-7701-f999d9bf47b8/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-          "genre": "医疗",
-          "type": "free",
-          "page": "app/cn-1102234300.html",
-          "rating": 5,
-          "normal": "¥2998.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
           "id": "6740767372",
           "name": "Book Tracker: TBR Reading List",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/32/0c/f3320c01-6c18-1023-596e-cc258a9cc535/AppIconAlt1-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
@@ -25666,6 +25653,19 @@
           "normal": "¥22.00",
           "current": "免费",
           "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6751025023",
+          "name": "LingoCap 点图学单词",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/88/59/0d885905-af7d-52d1-a4f1-bdd06ace9337/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "教育",
+          "type": "free",
+          "page": "app/cn-6751025023.html",
+          "rating": 5,
+          "normal": "¥1.00",
+          "current": "免费",
+          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -25845,19 +25845,6 @@
           "region": "cn"
         },
         {
-          "id": "1102234300",
-          "name": "Alison Baby Monitor",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ec/8c/63/ec8c63f3-d37c-a430-7701-f999d9bf47b8/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-          "genre": "医疗",
-          "type": "free",
-          "page": "app/cn-1102234300.html",
-          "rating": 5,
-          "normal": "¥2998.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
           "id": "6740767372",
           "name": "Book Tracker: TBR Reading List",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/32/0c/f3320c01-6c18-1023-596e-cc258a9cc535/AppIconAlt1-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
@@ -25972,6 +25959,19 @@
           "normal": "¥22.00",
           "current": "免费",
           "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6751025023",
+          "name": "LingoCap 点图学单词",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/88/59/0d885905-af7d-52d1-a4f1-bdd06ace9337/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "教育",
+          "type": "free",
+          "page": "app/cn-6751025023.html",
+          "rating": 5,
+          "normal": "¥1.00",
+          "current": "免费",
+          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -26236,19 +26236,6 @@
           "region": "cn"
         },
         {
-          "id": "1102234300",
-          "name": "Alison Baby Monitor",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ec/8c/63/ec8c63f3-d37c-a430-7701-f999d9bf47b8/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-          "genre": "医疗",
-          "type": "free",
-          "page": "app/cn-1102234300.html",
-          "rating": 5,
-          "normal": "¥2998.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
           "id": "6740767372",
           "name": "Book Tracker: TBR Reading List",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/32/0c/f3320c01-6c18-1023-596e-cc258a9cc535/AppIconAlt1-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
@@ -26363,6 +26350,19 @@
           "normal": "¥22.00",
           "current": "免费",
           "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6751025023",
+          "name": "LingoCap 点图学单词",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/88/59/0d885905-af7d-52d1-a4f1-bdd06ace9337/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "教育",
+          "type": "free",
+          "page": "app/cn-6751025023.html",
+          "rating": 5,
+          "normal": "¥1.00",
+          "current": "免费",
+          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -26552,19 +26552,6 @@
           "region": "cn"
         },
         {
-          "id": "1102234300",
-          "name": "Alison Baby Monitor",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ec/8c/63/ec8c63f3-d37c-a430-7701-f999d9bf47b8/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-          "genre": "医疗",
-          "type": "free",
-          "page": "app/cn-1102234300.html",
-          "rating": 5,
-          "normal": "¥2998.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
           "id": "6740767372",
           "name": "Book Tracker: TBR Reading List",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/32/0c/f3320c01-6c18-1023-596e-cc258a9cc535/AppIconAlt1-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
@@ -26679,6 +26666,19 @@
           "normal": "¥22.00",
           "current": "免费",
           "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6751025023",
+          "name": "LingoCap 点图学单词",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/88/59/0d885905-af7d-52d1-a4f1-bdd06ace9337/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "教育",
+          "type": "free",
+          "page": "app/cn-6751025023.html",
+          "rating": 5,
+          "normal": "¥1.00",
+          "current": "免费",
+          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -26943,19 +26943,6 @@
           "region": "cn"
         },
         {
-          "id": "1102234300",
-          "name": "Alison Baby Monitor",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ec/8c/63/ec8c63f3-d37c-a430-7701-f999d9bf47b8/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-          "genre": "医疗",
-          "type": "free",
-          "page": "app/cn-1102234300.html",
-          "rating": 5,
-          "normal": "¥2998.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
           "id": "6740767372",
           "name": "Book Tracker: TBR Reading List",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/32/0c/f3320c01-6c18-1023-596e-cc258a9cc535/AppIconAlt1-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
@@ -27070,6 +27057,19 @@
           "normal": "¥22.00",
           "current": "免费",
           "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6751025023",
+          "name": "LingoCap 点图学单词",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/88/59/0d885905-af7d-52d1-a4f1-bdd06ace9337/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "教育",
+          "type": "free",
+          "page": "app/cn-6751025023.html",
+          "rating": 5,
+          "normal": "¥1.00",
+          "current": "免费",
+          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -27334,19 +27334,6 @@
           "region": "cn"
         },
         {
-          "id": "1102234300",
-          "name": "Alison Baby Monitor",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ec/8c/63/ec8c63f3-d37c-a430-7701-f999d9bf47b8/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-          "genre": "医疗",
-          "type": "free",
-          "page": "app/cn-1102234300.html",
-          "rating": 5,
-          "normal": "¥2998.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
           "id": "6740767372",
           "name": "Book Tracker: TBR Reading List",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/32/0c/f3320c01-6c18-1023-596e-cc258a9cc535/AppIconAlt1-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
@@ -27461,6 +27448,19 @@
           "normal": "¥22.00",
           "current": "免费",
           "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6751025023",
+          "name": "LingoCap 点图学单词",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/88/59/0d885905-af7d-52d1-a4f1-bdd06ace9337/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "教育",
+          "type": "free",
+          "page": "app/cn-6751025023.html",
+          "rating": 5,
+          "normal": "¥1.00",
+          "current": "免费",
+          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -27625,19 +27625,6 @@
           "region": "cn"
         },
         {
-          "id": "1102234300",
-          "name": "Alison Baby Monitor",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ec/8c/63/ec8c63f3-d37c-a430-7701-f999d9bf47b8/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-          "genre": "医疗",
-          "type": "free",
-          "page": "app/cn-1102234300.html",
-          "rating": 5,
-          "normal": "¥2998.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
           "id": "6740767372",
           "name": "Book Tracker: TBR Reading List",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/32/0c/f3320c01-6c18-1023-596e-cc258a9cc535/AppIconAlt1-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
@@ -27752,6 +27739,19 @@
           "normal": "¥22.00",
           "current": "免费",
           "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6751025023",
+          "name": "LingoCap 点图学单词",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/88/59/0d885905-af7d-52d1-a4f1-bdd06ace9337/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "教育",
+          "type": "free",
+          "page": "app/cn-6751025023.html",
+          "rating": 5,
+          "normal": "¥1.00",
+          "current": "免费",
+          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -28016,19 +28016,6 @@
           "region": "cn"
         },
         {
-          "id": "1102234300",
-          "name": "Alison Baby Monitor",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ec/8c/63/ec8c63f3-d37c-a430-7701-f999d9bf47b8/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-          "genre": "医疗",
-          "type": "free",
-          "page": "app/cn-1102234300.html",
-          "rating": 5,
-          "normal": "¥2998.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
           "id": "6740767372",
           "name": "Book Tracker: TBR Reading List",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/32/0c/f3320c01-6c18-1023-596e-cc258a9cc535/AppIconAlt1-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
@@ -28143,6 +28130,19 @@
           "normal": "¥22.00",
           "current": "免费",
           "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6751025023",
+          "name": "LingoCap 点图学单词",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/88/59/0d885905-af7d-52d1-a4f1-bdd06ace9337/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "教育",
+          "type": "free",
+          "page": "app/cn-6751025023.html",
+          "rating": 5,
+          "normal": "¥1.00",
+          "current": "免费",
+          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -28382,19 +28382,6 @@
           "region": "cn"
         },
         {
-          "id": "1102234300",
-          "name": "Alison Baby Monitor",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ec/8c/63/ec8c63f3-d37c-a430-7701-f999d9bf47b8/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-          "genre": "医疗",
-          "type": "free",
-          "page": "app/cn-1102234300.html",
-          "rating": 5,
-          "normal": "¥2998.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
           "id": "6740767372",
           "name": "Book Tracker: TBR Reading List",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/32/0c/f3320c01-6c18-1023-596e-cc258a9cc535/AppIconAlt1-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
@@ -28509,6 +28496,19 @@
           "normal": "¥22.00",
           "current": "免费",
           "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6751025023",
+          "name": "LingoCap 点图学单词",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/88/59/0d885905-af7d-52d1-a4f1-bdd06ace9337/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "教育",
+          "type": "free",
+          "page": "app/cn-6751025023.html",
+          "rating": 5,
+          "normal": "¥1.00",
+          "current": "免费",
+          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -28758,19 +28758,6 @@
           "region": "cn"
         },
         {
-          "id": "1102234300",
-          "name": "Alison Baby Monitor",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ec/8c/63/ec8c63f3-d37c-a430-7701-f999d9bf47b8/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-          "genre": "医疗",
-          "type": "free",
-          "page": "app/cn-1102234300.html",
-          "rating": 5,
-          "normal": "¥2998.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
           "id": "6740767372",
           "name": "Book Tracker: TBR Reading List",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/32/0c/f3320c01-6c18-1023-596e-cc258a9cc535/AppIconAlt1-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
@@ -28885,6 +28872,19 @@
           "normal": "¥22.00",
           "current": "免费",
           "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6751025023",
+          "name": "LingoCap 点图学单词",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/88/59/0d885905-af7d-52d1-a4f1-bdd06ace9337/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "教育",
+          "type": "free",
+          "page": "app/cn-6751025023.html",
+          "rating": 5,
+          "normal": "¥1.00",
+          "current": "免费",
+          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -29149,19 +29149,6 @@
           "region": "cn"
         },
         {
-          "id": "1102234300",
-          "name": "Alison Baby Monitor",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ec/8c/63/ec8c63f3-d37c-a430-7701-f999d9bf47b8/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-          "genre": "医疗",
-          "type": "free",
-          "page": "app/cn-1102234300.html",
-          "rating": 5,
-          "normal": "¥2998.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
           "id": "6740767372",
           "name": "Book Tracker: TBR Reading List",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/32/0c/f3320c01-6c18-1023-596e-cc258a9cc535/AppIconAlt1-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
@@ -29276,6 +29263,19 @@
           "normal": "¥22.00",
           "current": "免费",
           "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6751025023",
+          "name": "LingoCap 点图学单词",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/88/59/0d885905-af7d-52d1-a4f1-bdd06ace9337/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "教育",
+          "type": "free",
+          "page": "app/cn-6751025023.html",
+          "rating": 5,
+          "normal": "¥1.00",
+          "current": "免费",
+          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -29530,19 +29530,6 @@
           "region": "cn"
         },
         {
-          "id": "1102234300",
-          "name": "Alison Baby Monitor",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ec/8c/63/ec8c63f3-d37c-a430-7701-f999d9bf47b8/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-          "genre": "医疗",
-          "type": "free",
-          "page": "app/cn-1102234300.html",
-          "rating": 5,
-          "normal": "¥2998.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
           "id": "6740767372",
           "name": "Book Tracker: TBR Reading List",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/32/0c/f3320c01-6c18-1023-596e-cc258a9cc535/AppIconAlt1-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
@@ -29657,6 +29644,19 @@
           "normal": "¥22.00",
           "current": "免费",
           "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6751025023",
+          "name": "LingoCap 点图学单词",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/88/59/0d885905-af7d-52d1-a4f1-bdd06ace9337/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "教育",
+          "type": "free",
+          "page": "app/cn-6751025023.html",
+          "rating": 5,
+          "normal": "¥1.00",
+          "current": "免费",
+          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -29921,19 +29921,6 @@
           "region": "cn"
         },
         {
-          "id": "1102234300",
-          "name": "Alison Baby Monitor",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ec/8c/63/ec8c63f3-d37c-a430-7701-f999d9bf47b8/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-          "genre": "医疗",
-          "type": "free",
-          "page": "app/cn-1102234300.html",
-          "rating": 5,
-          "normal": "¥2998.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
           "id": "6740767372",
           "name": "Book Tracker: TBR Reading List",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/32/0c/f3320c01-6c18-1023-596e-cc258a9cc535/AppIconAlt1-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
@@ -30048,6 +30035,19 @@
           "normal": "¥22.00",
           "current": "免费",
           "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6751025023",
+          "name": "LingoCap 点图学单词",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/88/59/0d885905-af7d-52d1-a4f1-bdd06ace9337/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "教育",
+          "type": "free",
+          "page": "app/cn-6751025023.html",
+          "rating": 5,
+          "normal": "¥1.00",
+          "current": "免费",
+          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -30297,19 +30297,6 @@
           "region": "cn"
         },
         {
-          "id": "1102234300",
-          "name": "Alison Baby Monitor",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ec/8c/63/ec8c63f3-d37c-a430-7701-f999d9bf47b8/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-          "genre": "医疗",
-          "type": "free",
-          "page": "app/cn-1102234300.html",
-          "rating": 5,
-          "normal": "¥2998.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
           "id": "6740767372",
           "name": "Book Tracker: TBR Reading List",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/32/0c/f3320c01-6c18-1023-596e-cc258a9cc535/AppIconAlt1-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
@@ -30424,6 +30411,19 @@
           "normal": "¥22.00",
           "current": "免费",
           "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6751025023",
+          "name": "LingoCap 点图学单词",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/88/59/0d885905-af7d-52d1-a4f1-bdd06ace9337/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "教育",
+          "type": "free",
+          "page": "app/cn-6751025023.html",
+          "rating": 5,
+          "normal": "¥1.00",
+          "current": "免费",
+          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -30633,19 +30633,6 @@
           "region": "cn"
         },
         {
-          "id": "1102234300",
-          "name": "Alison Baby Monitor",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ec/8c/63/ec8c63f3-d37c-a430-7701-f999d9bf47b8/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-          "genre": "医疗",
-          "type": "free",
-          "page": "app/cn-1102234300.html",
-          "rating": 5,
-          "normal": "¥2998.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
           "id": "6740767372",
           "name": "Book Tracker: TBR Reading List",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/32/0c/f3320c01-6c18-1023-596e-cc258a9cc535/AppIconAlt1-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
@@ -30760,6 +30747,19 @@
           "normal": "¥22.00",
           "current": "免费",
           "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6751025023",
+          "name": "LingoCap 点图学单词",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/88/59/0d885905-af7d-52d1-a4f1-bdd06ace9337/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "教育",
+          "type": "free",
+          "page": "app/cn-6751025023.html",
+          "rating": 5,
+          "normal": "¥1.00",
+          "current": "免费",
+          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -31024,19 +31024,6 @@
           "region": "cn"
         },
         {
-          "id": "1102234300",
-          "name": "Alison Baby Monitor",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ec/8c/63/ec8c63f3-d37c-a430-7701-f999d9bf47b8/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-          "genre": "医疗",
-          "type": "free",
-          "page": "app/cn-1102234300.html",
-          "rating": 5,
-          "normal": "¥2998.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
           "id": "6740767372",
           "name": "Book Tracker: TBR Reading List",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/32/0c/f3320c01-6c18-1023-596e-cc258a9cc535/AppIconAlt1-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
@@ -31151,6 +31138,19 @@
           "normal": "¥22.00",
           "current": "免费",
           "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6751025023",
+          "name": "LingoCap 点图学单词",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/88/59/0d885905-af7d-52d1-a4f1-bdd06ace9337/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "教育",
+          "type": "free",
+          "page": "app/cn-6751025023.html",
+          "rating": 5,
+          "normal": "¥1.00",
+          "current": "免费",
+          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -31370,19 +31370,6 @@
           "region": "cn"
         },
         {
-          "id": "1102234300",
-          "name": "Alison Baby Monitor",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ec/8c/63/ec8c63f3-d37c-a430-7701-f999d9bf47b8/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-          "genre": "医疗",
-          "type": "free",
-          "page": "app/cn-1102234300.html",
-          "rating": 5,
-          "normal": "¥2998.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
           "id": "6740767372",
           "name": "Book Tracker: TBR Reading List",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/32/0c/f3320c01-6c18-1023-596e-cc258a9cc535/AppIconAlt1-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
@@ -31497,6 +31484,19 @@
           "normal": "¥22.00",
           "current": "免费",
           "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6751025023",
+          "name": "LingoCap 点图学单词",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/88/59/0d885905-af7d-52d1-a4f1-bdd06ace9337/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "教育",
+          "type": "free",
+          "page": "app/cn-6751025023.html",
+          "rating": 5,
+          "normal": "¥1.00",
+          "current": "免费",
+          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -31756,19 +31756,6 @@
           "region": "cn"
         },
         {
-          "id": "1102234300",
-          "name": "Alison Baby Monitor",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ec/8c/63/ec8c63f3-d37c-a430-7701-f999d9bf47b8/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-          "genre": "医疗",
-          "type": "free",
-          "page": "app/cn-1102234300.html",
-          "rating": 5,
-          "normal": "¥2998.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
           "id": "6740767372",
           "name": "Book Tracker: TBR Reading List",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/32/0c/f3320c01-6c18-1023-596e-cc258a9cc535/AppIconAlt1-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
@@ -31883,6 +31870,19 @@
           "normal": "¥22.00",
           "current": "免费",
           "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6751025023",
+          "name": "LingoCap 点图学单词",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/88/59/0d885905-af7d-52d1-a4f1-bdd06ace9337/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "教育",
+          "type": "free",
+          "page": "app/cn-6751025023.html",
+          "rating": 5,
+          "normal": "¥1.00",
+          "current": "免费",
+          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -32147,19 +32147,6 @@
           "region": "cn"
         },
         {
-          "id": "1102234300",
-          "name": "Alison Baby Monitor",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ec/8c/63/ec8c63f3-d37c-a430-7701-f999d9bf47b8/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-          "genre": "医疗",
-          "type": "free",
-          "page": "app/cn-1102234300.html",
-          "rating": 5,
-          "normal": "¥2998.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
           "id": "6740767372",
           "name": "Book Tracker: TBR Reading List",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/32/0c/f3320c01-6c18-1023-596e-cc258a9cc535/AppIconAlt1-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
@@ -32274,6 +32261,19 @@
           "normal": "¥22.00",
           "current": "免费",
           "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6751025023",
+          "name": "LingoCap 点图学单词",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/88/59/0d885905-af7d-52d1-a4f1-bdd06ace9337/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "教育",
+          "type": "free",
+          "page": "app/cn-6751025023.html",
+          "rating": 5,
+          "normal": "¥1.00",
+          "current": "免费",
+          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -32538,19 +32538,6 @@
           "region": "cn"
         },
         {
-          "id": "1102234300",
-          "name": "Alison Baby Monitor",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ec/8c/63/ec8c63f3-d37c-a430-7701-f999d9bf47b8/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-          "genre": "医疗",
-          "type": "free",
-          "page": "app/cn-1102234300.html",
-          "rating": 5,
-          "normal": "¥2998.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
           "id": "6740767372",
           "name": "Book Tracker: TBR Reading List",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/32/0c/f3320c01-6c18-1023-596e-cc258a9cc535/AppIconAlt1-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
@@ -32665,6 +32652,19 @@
           "normal": "¥22.00",
           "current": "免费",
           "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6751025023",
+          "name": "LingoCap 点图学单词",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/88/59/0d885905-af7d-52d1-a4f1-bdd06ace9337/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "教育",
+          "type": "free",
+          "page": "app/cn-6751025023.html",
+          "rating": 5,
+          "normal": "¥1.00",
+          "current": "免费",
+          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -32829,19 +32829,6 @@
           "region": "cn"
         },
         {
-          "id": "1102234300",
-          "name": "Alison Baby Monitor",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ec/8c/63/ec8c63f3-d37c-a430-7701-f999d9bf47b8/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-          "genre": "医疗",
-          "type": "free",
-          "page": "app/cn-1102234300.html",
-          "rating": 5,
-          "normal": "¥2998.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
           "id": "6740767372",
           "name": "Book Tracker: TBR Reading List",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/32/0c/f3320c01-6c18-1023-596e-cc258a9cc535/AppIconAlt1-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
@@ -32956,6 +32943,19 @@
           "normal": "¥22.00",
           "current": "免费",
           "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6751025023",
+          "name": "LingoCap 点图学单词",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/88/59/0d885905-af7d-52d1-a4f1-bdd06ace9337/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "教育",
+          "type": "free",
+          "page": "app/cn-6751025023.html",
+          "rating": 5,
+          "normal": "¥1.00",
+          "current": "免费",
+          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -33220,19 +33220,6 @@
           "region": "cn"
         },
         {
-          "id": "1102234300",
-          "name": "Alison Baby Monitor",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ec/8c/63/ec8c63f3-d37c-a430-7701-f999d9bf47b8/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-          "genre": "医疗",
-          "type": "free",
-          "page": "app/cn-1102234300.html",
-          "rating": 5,
-          "normal": "¥2998.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
           "id": "6740767372",
           "name": "Book Tracker: TBR Reading List",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/32/0c/f3320c01-6c18-1023-596e-cc258a9cc535/AppIconAlt1-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
@@ -33347,6 +33334,19 @@
           "normal": "¥22.00",
           "current": "免费",
           "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6751025023",
+          "name": "LingoCap 点图学单词",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/88/59/0d885905-af7d-52d1-a4f1-bdd06ace9337/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "教育",
+          "type": "free",
+          "page": "app/cn-6751025023.html",
+          "rating": 5,
+          "normal": "¥1.00",
+          "current": "免费",
+          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -33611,19 +33611,6 @@
           "region": "cn"
         },
         {
-          "id": "1102234300",
-          "name": "Alison Baby Monitor",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ec/8c/63/ec8c63f3-d37c-a430-7701-f999d9bf47b8/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-          "genre": "医疗",
-          "type": "free",
-          "page": "app/cn-1102234300.html",
-          "rating": 5,
-          "normal": "¥2998.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
           "id": "6740767372",
           "name": "Book Tracker: TBR Reading List",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/32/0c/f3320c01-6c18-1023-596e-cc258a9cc535/AppIconAlt1-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
@@ -33738,6 +33725,19 @@
           "normal": "¥22.00",
           "current": "免费",
           "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6751025023",
+          "name": "LingoCap 点图学单词",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/88/59/0d885905-af7d-52d1-a4f1-bdd06ace9337/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "教育",
+          "type": "free",
+          "page": "app/cn-6751025023.html",
+          "rating": 5,
+          "normal": "¥1.00",
+          "current": "免费",
+          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -33987,19 +33987,6 @@
           "region": "cn"
         },
         {
-          "id": "1102234300",
-          "name": "Alison Baby Monitor",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ec/8c/63/ec8c63f3-d37c-a430-7701-f999d9bf47b8/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-          "genre": "医疗",
-          "type": "free",
-          "page": "app/cn-1102234300.html",
-          "rating": 5,
-          "normal": "¥2998.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
           "id": "6740767372",
           "name": "Book Tracker: TBR Reading List",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/32/0c/f3320c01-6c18-1023-596e-cc258a9cc535/AppIconAlt1-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
@@ -34114,6 +34101,19 @@
           "normal": "¥22.00",
           "current": "免费",
           "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6751025023",
+          "name": "LingoCap 点图学单词",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/88/59/0d885905-af7d-52d1-a4f1-bdd06ace9337/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "教育",
+          "type": "free",
+          "page": "app/cn-6751025023.html",
+          "rating": 5,
+          "normal": "¥1.00",
+          "current": "免费",
+          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -34378,19 +34378,6 @@
           "region": "cn"
         },
         {
-          "id": "1102234300",
-          "name": "Alison Baby Monitor",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ec/8c/63/ec8c63f3-d37c-a430-7701-f999d9bf47b8/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-          "genre": "医疗",
-          "type": "free",
-          "page": "app/cn-1102234300.html",
-          "rating": 5,
-          "normal": "¥2998.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
           "id": "6740767372",
           "name": "Book Tracker: TBR Reading List",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/32/0c/f3320c01-6c18-1023-596e-cc258a9cc535/AppIconAlt1-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
@@ -34505,6 +34492,19 @@
           "normal": "¥22.00",
           "current": "免费",
           "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6751025023",
+          "name": "LingoCap 点图学单词",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/88/59/0d885905-af7d-52d1-a4f1-bdd06ace9337/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "教育",
+          "type": "free",
+          "page": "app/cn-6751025023.html",
+          "rating": 5,
+          "normal": "¥1.00",
+          "current": "免费",
+          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -34739,19 +34739,6 @@
           "region": "cn"
         },
         {
-          "id": "1102234300",
-          "name": "Alison Baby Monitor",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ec/8c/63/ec8c63f3-d37c-a430-7701-f999d9bf47b8/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-          "genre": "医疗",
-          "type": "free",
-          "page": "app/cn-1102234300.html",
-          "rating": 5,
-          "normal": "¥2998.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
           "id": "6740767372",
           "name": "Book Tracker: TBR Reading List",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/32/0c/f3320c01-6c18-1023-596e-cc258a9cc535/AppIconAlt1-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
@@ -34866,6 +34853,19 @@
           "normal": "¥22.00",
           "current": "免费",
           "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6751025023",
+          "name": "LingoCap 点图学单词",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/88/59/0d885905-af7d-52d1-a4f1-bdd06ace9337/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "教育",
+          "type": "free",
+          "page": "app/cn-6751025023.html",
+          "rating": 5,
+          "normal": "¥1.00",
+          "current": "免费",
+          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -35130,19 +35130,6 @@
           "region": "cn"
         },
         {
-          "id": "1102234300",
-          "name": "Alison Baby Monitor",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ec/8c/63/ec8c63f3-d37c-a430-7701-f999d9bf47b8/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-          "genre": "医疗",
-          "type": "free",
-          "page": "app/cn-1102234300.html",
-          "rating": 5,
-          "normal": "¥2998.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
           "id": "6740767372",
           "name": "Book Tracker: TBR Reading List",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/32/0c/f3320c01-6c18-1023-596e-cc258a9cc535/AppIconAlt1-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
@@ -35257,6 +35244,19 @@
           "normal": "¥22.00",
           "current": "免费",
           "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6751025023",
+          "name": "LingoCap 点图学单词",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/88/59/0d885905-af7d-52d1-a4f1-bdd06ace9337/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "教育",
+          "type": "free",
+          "page": "app/cn-6751025023.html",
+          "rating": 5,
+          "normal": "¥1.00",
+          "current": "免费",
+          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -35521,19 +35521,6 @@
           "region": "cn"
         },
         {
-          "id": "1102234300",
-          "name": "Alison Baby Monitor",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ec/8c/63/ec8c63f3-d37c-a430-7701-f999d9bf47b8/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-          "genre": "医疗",
-          "type": "free",
-          "page": "app/cn-1102234300.html",
-          "rating": 5,
-          "normal": "¥2998.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
           "id": "6740767372",
           "name": "Book Tracker: TBR Reading List",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/32/0c/f3320c01-6c18-1023-596e-cc258a9cc535/AppIconAlt1-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
@@ -35648,6 +35635,19 @@
           "normal": "¥22.00",
           "current": "免费",
           "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6751025023",
+          "name": "LingoCap 点图学单词",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/88/59/0d885905-af7d-52d1-a4f1-bdd06ace9337/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "教育",
+          "type": "free",
+          "page": "app/cn-6751025023.html",
+          "rating": 5,
+          "normal": "¥1.00",
+          "current": "免费",
+          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -35912,19 +35912,6 @@
           "region": "cn"
         },
         {
-          "id": "1102234300",
-          "name": "Alison Baby Monitor",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ec/8c/63/ec8c63f3-d37c-a430-7701-f999d9bf47b8/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-          "genre": "医疗",
-          "type": "free",
-          "page": "app/cn-1102234300.html",
-          "rating": 5,
-          "normal": "¥2998.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
           "id": "6740767372",
           "name": "Book Tracker: TBR Reading List",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/32/0c/f3320c01-6c18-1023-596e-cc258a9cc535/AppIconAlt1-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
@@ -36039,6 +36026,19 @@
           "normal": "¥22.00",
           "current": "免费",
           "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6751025023",
+          "name": "LingoCap 点图学单词",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/88/59/0d885905-af7d-52d1-a4f1-bdd06ace9337/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "教育",
+          "type": "free",
+          "page": "app/cn-6751025023.html",
+          "rating": 5,
+          "normal": "¥1.00",
+          "current": "免费",
+          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -36288,19 +36288,6 @@
           "region": "cn"
         },
         {
-          "id": "1102234300",
-          "name": "Alison Baby Monitor",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ec/8c/63/ec8c63f3-d37c-a430-7701-f999d9bf47b8/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-          "genre": "医疗",
-          "type": "free",
-          "page": "app/cn-1102234300.html",
-          "rating": 5,
-          "normal": "¥2998.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
           "id": "6740767372",
           "name": "Book Tracker: TBR Reading List",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/32/0c/f3320c01-6c18-1023-596e-cc258a9cc535/AppIconAlt1-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
@@ -36415,6 +36402,19 @@
           "normal": "¥22.00",
           "current": "免费",
           "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6751025023",
+          "name": "LingoCap 点图学单词",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/88/59/0d885905-af7d-52d1-a4f1-bdd06ace9337/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "教育",
+          "type": "free",
+          "page": "app/cn-6751025023.html",
+          "rating": 5,
+          "normal": "¥1.00",
+          "current": "免费",
+          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -36674,19 +36674,6 @@
           "region": "cn"
         },
         {
-          "id": "1102234300",
-          "name": "Alison Baby Monitor",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ec/8c/63/ec8c63f3-d37c-a430-7701-f999d9bf47b8/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-          "genre": "医疗",
-          "type": "free",
-          "page": "app/cn-1102234300.html",
-          "rating": 5,
-          "normal": "¥2998.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
           "id": "6740767372",
           "name": "Book Tracker: TBR Reading List",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/32/0c/f3320c01-6c18-1023-596e-cc258a9cc535/AppIconAlt1-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
@@ -36801,6 +36788,19 @@
           "normal": "¥22.00",
           "current": "免费",
           "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6751025023",
+          "name": "LingoCap 点图学单词",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/88/59/0d885905-af7d-52d1-a4f1-bdd06ace9337/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "教育",
+          "type": "free",
+          "page": "app/cn-6751025023.html",
+          "rating": 5,
+          "normal": "¥1.00",
+          "current": "免费",
+          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -37065,19 +37065,6 @@
           "region": "cn"
         },
         {
-          "id": "1102234300",
-          "name": "Alison Baby Monitor",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ec/8c/63/ec8c63f3-d37c-a430-7701-f999d9bf47b8/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-          "genre": "医疗",
-          "type": "free",
-          "page": "app/cn-1102234300.html",
-          "rating": 5,
-          "normal": "¥2998.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
           "id": "6740767372",
           "name": "Book Tracker: TBR Reading List",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/32/0c/f3320c01-6c18-1023-596e-cc258a9cc535/AppIconAlt1-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
@@ -37192,6 +37179,19 @@
           "normal": "¥22.00",
           "current": "免费",
           "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6751025023",
+          "name": "LingoCap 点图学单词",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/88/59/0d885905-af7d-52d1-a4f1-bdd06ace9337/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "教育",
+          "type": "free",
+          "page": "app/cn-6751025023.html",
+          "rating": 5,
+          "normal": "¥1.00",
+          "current": "免费",
+          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -37456,19 +37456,6 @@
           "region": "cn"
         },
         {
-          "id": "1102234300",
-          "name": "Alison Baby Monitor",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ec/8c/63/ec8c63f3-d37c-a430-7701-f999d9bf47b8/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-          "genre": "医疗",
-          "type": "free",
-          "page": "app/cn-1102234300.html",
-          "rating": 5,
-          "normal": "¥2998.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
           "id": "6740767372",
           "name": "Book Tracker: TBR Reading List",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/32/0c/f3320c01-6c18-1023-596e-cc258a9cc535/AppIconAlt1-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
@@ -37583,6 +37570,19 @@
           "normal": "¥22.00",
           "current": "免费",
           "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6751025023",
+          "name": "LingoCap 点图学单词",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/88/59/0d885905-af7d-52d1-a4f1-bdd06ace9337/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "教育",
+          "type": "free",
+          "page": "app/cn-6751025023.html",
+          "rating": 5,
+          "normal": "¥1.00",
+          "current": "免费",
+          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -37847,19 +37847,6 @@
           "region": "cn"
         },
         {
-          "id": "1102234300",
-          "name": "Alison Baby Monitor",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ec/8c/63/ec8c63f3-d37c-a430-7701-f999d9bf47b8/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-          "genre": "医疗",
-          "type": "free",
-          "page": "app/cn-1102234300.html",
-          "rating": 5,
-          "normal": "¥2998.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
           "id": "6740767372",
           "name": "Book Tracker: TBR Reading List",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/32/0c/f3320c01-6c18-1023-596e-cc258a9cc535/AppIconAlt1-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
@@ -37974,6 +37961,19 @@
           "normal": "¥22.00",
           "current": "免费",
           "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6751025023",
+          "name": "LingoCap 点图学单词",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/88/59/0d885905-af7d-52d1-a4f1-bdd06ace9337/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "教育",
+          "type": "free",
+          "page": "app/cn-6751025023.html",
+          "rating": 5,
+          "normal": "¥1.00",
+          "current": "免费",
+          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -38238,19 +38238,6 @@
           "region": "cn"
         },
         {
-          "id": "1102234300",
-          "name": "Alison Baby Monitor",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ec/8c/63/ec8c63f3-d37c-a430-7701-f999d9bf47b8/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-          "genre": "医疗",
-          "type": "free",
-          "page": "app/cn-1102234300.html",
-          "rating": 5,
-          "normal": "¥2998.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
           "id": "6740767372",
           "name": "Book Tracker: TBR Reading List",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/32/0c/f3320c01-6c18-1023-596e-cc258a9cc535/AppIconAlt1-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
@@ -38365,6 +38352,19 @@
           "normal": "¥22.00",
           "current": "免费",
           "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6751025023",
+          "name": "LingoCap 点图学单词",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/88/59/0d885905-af7d-52d1-a4f1-bdd06ace9337/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "教育",
+          "type": "free",
+          "page": "app/cn-6751025023.html",
+          "rating": 5,
+          "normal": "¥1.00",
+          "current": "免费",
+          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -38624,19 +38624,6 @@
           "region": "cn"
         },
         {
-          "id": "1102234300",
-          "name": "Alison Baby Monitor",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ec/8c/63/ec8c63f3-d37c-a430-7701-f999d9bf47b8/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-          "genre": "医疗",
-          "type": "free",
-          "page": "app/cn-1102234300.html",
-          "rating": 5,
-          "normal": "¥2998.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
           "id": "6740767372",
           "name": "Book Tracker: TBR Reading List",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/32/0c/f3320c01-6c18-1023-596e-cc258a9cc535/AppIconAlt1-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
@@ -38751,6 +38738,19 @@
           "normal": "¥22.00",
           "current": "免费",
           "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6751025023",
+          "name": "LingoCap 点图学单词",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/88/59/0d885905-af7d-52d1-a4f1-bdd06ace9337/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "教育",
+          "type": "free",
+          "page": "app/cn-6751025023.html",
+          "rating": 5,
+          "normal": "¥1.00",
+          "current": "免费",
+          "has_iap": true,
           "region": "cn"
         }
       ],
@@ -39015,19 +39015,6 @@
           "region": "cn"
         },
         {
-          "id": "1102234300",
-          "name": "Alison Baby Monitor",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ec/8c/63/ec8c63f3-d37c-a430-7701-f999d9bf47b8/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-          "genre": "医疗",
-          "type": "free",
-          "page": "app/cn-1102234300.html",
-          "rating": 5,
-          "normal": "¥2998.00",
-          "current": "免费",
-          "has_iap": true,
-          "region": "cn"
-        },
-        {
           "id": "6740767372",
           "name": "Book Tracker: TBR Reading List",
           "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/32/0c/f3320c01-6c18-1023-596e-cc258a9cc535/AppIconAlt1-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
@@ -39142,6 +39129,19 @@
           "normal": "¥22.00",
           "current": "免费",
           "has_iap": false,
+          "region": "cn"
+        },
+        {
+          "id": "6751025023",
+          "name": "LingoCap 点图学单词",
+          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/88/59/0d885905-af7d-52d1-a4f1-bdd06ace9337/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+          "genre": "教育",
+          "type": "free",
+          "page": "app/cn-6751025023.html",
+          "rating": 5,
+          "normal": "¥1.00",
+          "current": "免费",
+          "has_iap": true,
           "region": "cn"
         }
       ],

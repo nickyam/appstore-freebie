@@ -4,8 +4,8 @@
     "version": 1,
     "updated": "2026-11-14",
     "pool_size": 2000,
-    "processed": 2000,
-    "skipped": 0,
+    "processed": 1999,
+    "skipped": 1,
     "seeded_from": "apprcn",
     "seed_added": 0,
     "seed_total": 25300,
@@ -3622,14 +3622,14 @@
       "first_date": "2026-10-22",
       "first_price": "¥68.00",
       "last_date": "2026-11-14",
-      "last_price": "¥138.00",
+      "last_price": "¥68.00",
       "last_change_date": "2026-11-14",
       "ever_paid": true,
       "last_paid_date": "2026-11-14",
       "free_since": null,
       "changes": {
         "2026-10-22": "¥68.00",
-        "2026-11-14": "¥138.00"
+        "2026-11-14": "¥68.00"
       }
     },
     "1601412419::Annual subscription": {
@@ -33918,7 +33918,7 @@
       "region": "cn",
       "first_date": "2026-10-23",
       "first_price": "¥55.00",
-      "last_date": "2026-11-10",
+      "last_date": "2026-11-14",
       "last_price": "¥55.00",
       "last_change_date": "2026-10-23",
       "ever_paid": true,
@@ -50851,14 +50851,14 @@
       "first_date": "2026-10-23",
       "first_price": "¥328.00",
       "last_date": "2026-11-14",
-      "last_price": "¥598.00",
+      "last_price": "¥328.00",
       "last_change_date": "2026-11-14",
       "ever_paid": true,
       "last_paid_date": "2026-11-14",
       "free_since": null,
       "changes": {
         "2026-10-23": "¥328.00",
-        "2026-11-14": "¥598.00"
+        "2026-11-14": "¥328.00"
       }
     },
     "1187259191::徒步、滑雪一年": {
@@ -77039,7 +77039,7 @@
       "first_date": "2026-10-23",
       "first_price": "¥48.00",
       "last_date": "2026-11-14",
-      "last_price": "¥328.00",
+      "last_price": "¥98.00",
       "last_change_date": "2026-11-14",
       "ever_paid": true,
       "last_paid_date": "2026-11-14",
@@ -77054,7 +77054,7 @@
         "2026-10-30": "¥98.00",
         "2026-10-31": "¥68.00",
         "2026-11-11": "¥98.00",
-        "2026-11-14": "¥328.00"
+        "2026-11-14": "¥98.00"
       }
     },
     "6471645501::月会员": {
@@ -77115,7 +77115,7 @@
       "region": "cn",
       "first_date": "2026-10-23",
       "first_price": "¥228.00",
-      "last_date": "2026-11-11",
+      "last_date": "2026-11-14",
       "last_price": "¥228.00",
       "last_change_date": "2026-10-23",
       "ever_paid": true,
@@ -89211,7 +89211,7 @@
       "first_date": "2026-10-23",
       "first_price": "¥29.00",
       "last_date": "2026-11-14",
-      "last_price": "¥69.00",
+      "last_price": "¥29.00",
       "last_change_date": "2026-11-14",
       "ever_paid": true,
       "last_paid_date": "2026-11-14",
@@ -89230,7 +89230,7 @@
         "2026-11-05": "¥69.00",
         "2026-11-06": "¥69.00",
         "2026-11-13": "¥69.00",
-        "2026-11-14": "¥69.00"
+        "2026-11-14": "¥29.00"
       }
     },
     "6670379647::转写10个小时购买": {
@@ -171212,7 +171212,7 @@
       "region": "cn",
       "first_date": "2026-10-27",
       "first_price": "¥25.00",
-      "last_date": "2026-11-13",
+      "last_date": "2026-11-14",
       "last_price": "¥25.00",
       "last_change_date": "2026-10-27",
       "ever_paid": true,
@@ -325457,7 +325457,7 @@
       "first_date": "2026-10-27",
       "first_price": "¥28.00",
       "last_date": "2026-11-14",
-      "last_price": "¥58.00",
+      "last_price": "¥28.00",
       "last_change_date": "2026-11-14",
       "ever_paid": true,
       "last_paid_date": "2026-11-14",
@@ -325475,7 +325475,7 @@
         "2026-11-10": "¥28.00",
         "2026-11-12": "¥58.00",
         "2026-11-13": "¥58.00",
-        "2026-11-14": "¥58.00"
+        "2026-11-14": "¥28.00"
       }
     },
     "908698556::完整版本! 绘画儿童游戏孩子通婴儿早教": {
@@ -389631,14 +389631,15 @@
       "first_date": "2026-11-02",
       "first_price": "¥168.00",
       "last_date": "2026-11-14",
-      "last_price": "¥168.00",
-      "last_change_date": "2026-11-09",
+      "last_price": "¥0.00",
+      "last_change_date": "2026-11-14",
       "ever_paid": true,
       "last_paid_date": "2026-11-09",
-      "free_since": null,
+      "free_since": "2026-11-14",
       "changes": {
         "2026-11-02": "¥68.00",
-        "2026-11-09": "¥168.00"
+        "2026-11-09": "¥168.00",
+        "2026-11-14": "¥0.00"
       }
     },
     "6818473571::Pro - Annual": {
@@ -390413,7 +390414,7 @@
       "region": "cn",
       "first_date": "2026-11-02",
       "first_price": "¥68.00",
-      "last_date": "2026-11-03",
+      "last_date": "2026-11-14",
       "last_price": "¥68.00",
       "last_change_date": "2026-11-02",
       "ever_paid": true,
@@ -418918,7 +418919,7 @@
       "region": "cn",
       "first_date": "2026-11-09",
       "first_price": "¥88.00",
-      "last_date": "2026-11-09",
+      "last_date": "2026-11-14",
       "last_price": "¥88.00",
       "last_change_date": "2026-11-09",
       "ever_paid": true,
@@ -418935,7 +418936,7 @@
       "region": "cn",
       "first_date": "2026-11-09",
       "first_price": "¥18.00",
-      "last_date": "2026-11-09",
+      "last_date": "2026-11-14",
       "last_price": "¥18.00",
       "last_change_date": "2026-11-09",
       "ever_paid": true,
@@ -437086,6 +437087,533 @@
       "free_since": null,
       "changes": {
         "2026-11-14": "¥698.00"
+      }
+    },
+    "6547852025::话袋100小时转写时长": {
+      "app_id": "6547852025",
+      "app_name": "话袋AI笔记-卡片笔记、录音总结、AI知识库",
+      "name": "话袋100小时转写时长",
+      "region": "cn",
+      "first_date": "2026-11-14",
+      "first_price": "¥129.00",
+      "last_date": "2026-11-14",
+      "last_price": "¥129.00",
+      "last_change_date": "2026-11-14",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-14",
+      "free_since": null,
+      "changes": {
+        "2026-11-14": "¥129.00"
+      }
+    },
+    "1579028465::260钻石": {
+      "app_id": "1579028465",
+      "app_name": "肥鹅健身房",
+      "name": "260钻石",
+      "region": "cn",
+      "first_date": "2026-11-14",
+      "first_price": "¥30.00",
+      "last_date": "2026-11-14",
+      "last_price": "¥30.00",
+      "last_change_date": "2026-11-14",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-14",
+      "free_since": null,
+      "changes": {
+        "2026-11-14": "¥30.00"
+      }
+    },
+    "1579028465::580钻石": {
+      "app_id": "1579028465",
+      "app_name": "肥鹅健身房",
+      "name": "580钻石",
+      "region": "cn",
+      "first_date": "2026-11-14",
+      "first_price": "¥68.00",
+      "last_date": "2026-11-14",
+      "last_price": "¥68.00",
+      "last_change_date": "2026-11-14",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-14",
+      "free_since": null,
+      "changes": {
+        "2026-11-14": "¥68.00"
+      }
+    },
+    "1579028465::1250钻石": {
+      "app_id": "1579028465",
+      "app_name": "肥鹅健身房",
+      "name": "1250钻石",
+      "region": "cn",
+      "first_date": "2026-11-14",
+      "first_price": "¥128.00",
+      "last_date": "2026-11-14",
+      "last_price": "¥128.00",
+      "last_change_date": "2026-11-14",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-14",
+      "free_since": null,
+      "changes": {
+        "2026-11-14": "¥128.00"
+      }
+    },
+    "1579028465::3400钻石": {
+      "app_id": "1579028465",
+      "app_name": "肥鹅健身房",
+      "name": "3400钻石",
+      "region": "cn",
+      "first_date": "2026-11-14",
+      "first_price": "¥328.00",
+      "last_date": "2026-11-14",
+      "last_price": "¥328.00",
+      "last_change_date": "2026-11-14",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-14",
+      "free_since": null,
+      "changes": {
+        "2026-11-14": "¥328.00"
+      }
+    },
+    "1579028465::7500钻石": {
+      "app_id": "1579028465",
+      "app_name": "肥鹅健身房",
+      "name": "7500钻石",
+      "region": "cn",
+      "first_date": "2026-11-14",
+      "first_price": "¥648.00",
+      "last_date": "2026-11-14",
+      "last_price": "¥648.00",
+      "last_change_date": "2026-11-14",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-14",
+      "free_since": null,
+      "changes": {
+        "2026-11-14": "¥648.00"
+      }
+    },
+    "1579028465::1250金币": {
+      "app_id": "1579028465",
+      "app_name": "肥鹅健身房",
+      "name": "1250金币",
+      "region": "cn",
+      "first_date": "2026-11-14",
+      "first_price": "¥6.00",
+      "last_date": "2026-11-14",
+      "last_price": "¥6.00",
+      "last_change_date": "2026-11-14",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-14",
+      "free_since": null,
+      "changes": {
+        "2026-11-14": "¥6.00"
+      }
+    },
+    "1579028465::6500金币": {
+      "app_id": "1579028465",
+      "app_name": "肥鹅健身房",
+      "name": "6500金币",
+      "region": "cn",
+      "first_date": "2026-11-14",
+      "first_price": "¥30.00",
+      "last_date": "2026-11-14",
+      "last_price": "¥30.00",
+      "last_change_date": "2026-11-14",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-14",
+      "free_since": null,
+      "changes": {
+        "2026-11-14": "¥30.00"
+      }
+    },
+    "1579028465::14250金币": {
+      "app_id": "1579028465",
+      "app_name": "肥鹅健身房",
+      "name": "14250金币",
+      "region": "cn",
+      "first_date": "2026-11-14",
+      "first_price": "¥68.00",
+      "last_date": "2026-11-14",
+      "last_price": "¥68.00",
+      "last_change_date": "2026-11-14",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-14",
+      "free_since": null,
+      "changes": {
+        "2026-11-14": "¥68.00"
+      }
+    },
+    "1579028465::31250金币": {
+      "app_id": "1579028465",
+      "app_name": "肥鹅健身房",
+      "name": "31250金币",
+      "region": "cn",
+      "first_date": "2026-11-14",
+      "first_price": "¥128.00",
+      "last_date": "2026-11-14",
+      "last_price": "¥128.00",
+      "last_change_date": "2026-11-14",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-14",
+      "free_since": null,
+      "changes": {
+        "2026-11-14": "¥128.00"
+      }
+    },
+    "6742528141::联系卡×1": {
+      "app_id": "6742528141",
+      "app_name": "信商圈",
+      "name": "联系卡×1",
+      "region": "cn",
+      "first_date": "2026-11-14",
+      "first_price": "¥3.00",
+      "last_date": "2026-11-14",
+      "last_price": "¥3.00",
+      "last_change_date": "2026-11-14",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-14",
+      "free_since": null,
+      "changes": {
+        "2026-11-14": "¥3.00"
+      }
+    },
+    "6742528141::联系卡×5": {
+      "app_id": "6742528141",
+      "app_name": "信商圈",
+      "name": "联系卡×5",
+      "region": "cn",
+      "first_date": "2026-11-14",
+      "first_price": "¥13.80",
+      "last_date": "2026-11-14",
+      "last_price": "¥13.80",
+      "last_change_date": "2026-11-14",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-14",
+      "free_since": null,
+      "changes": {
+        "2026-11-14": "¥13.80"
+      }
+    },
+    "6742528141::联系卡×10": {
+      "app_id": "6742528141",
+      "app_name": "信商圈",
+      "name": "联系卡×10",
+      "region": "cn",
+      "first_date": "2026-11-14",
+      "first_price": "¥24.00",
+      "last_date": "2026-11-14",
+      "last_price": "¥24.00",
+      "last_change_date": "2026-11-14",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-14",
+      "free_since": null,
+      "changes": {
+        "2026-11-14": "¥24.00"
+      }
+    },
+    "6742528141::联系卡×50": {
+      "app_id": "6742528141",
+      "app_name": "信商圈",
+      "name": "联系卡×50",
+      "region": "cn",
+      "first_date": "2026-11-14",
+      "first_price": "¥105.00",
+      "last_date": "2026-11-14",
+      "last_price": "¥105.00",
+      "last_change_date": "2026-11-14",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-14",
+      "free_since": null,
+      "changes": {
+        "2026-11-14": "¥105.00"
+      }
+    },
+    "6742528141::联系卡×100": {
+      "app_id": "6742528141",
+      "app_name": "信商圈",
+      "name": "联系卡×100",
+      "region": "cn",
+      "first_date": "2026-11-14",
+      "first_price": "¥150.00",
+      "last_date": "2026-11-14",
+      "last_price": "¥150.00",
+      "last_change_date": "2026-11-14",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-14",
+      "free_since": null,
+      "changes": {
+        "2026-11-14": "¥150.00"
+      }
+    },
+    "6752632961::60钻石": {
+      "app_id": "6752632961",
+      "app_name": "时尚百货城",
+      "name": "60钻石",
+      "region": "cn",
+      "first_date": "2026-11-14",
+      "first_price": "¥6.00",
+      "last_date": "2026-11-14",
+      "last_price": "¥6.00",
+      "last_change_date": "2026-11-14",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-14",
+      "free_since": null,
+      "changes": {
+        "2026-11-14": "¥6.00"
+      }
+    },
+    "6752632961::300钻石": {
+      "app_id": "6752632961",
+      "app_name": "时尚百货城",
+      "name": "300钻石",
+      "region": "cn",
+      "first_date": "2026-11-14",
+      "first_price": "¥30.00",
+      "last_date": "2026-11-14",
+      "last_price": "¥30.00",
+      "last_change_date": "2026-11-14",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-14",
+      "free_since": null,
+      "changes": {
+        "2026-11-14": "¥30.00"
+      }
+    },
+    "6752632961::680钻石": {
+      "app_id": "6752632961",
+      "app_name": "时尚百货城",
+      "name": "680钻石",
+      "region": "cn",
+      "first_date": "2026-11-14",
+      "first_price": "¥68.00",
+      "last_date": "2026-11-14",
+      "last_price": "¥68.00",
+      "last_change_date": "2026-11-14",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-14",
+      "free_since": null,
+      "changes": {
+        "2026-11-14": "¥68.00"
+      }
+    },
+    "6752632961::1980钻石": {
+      "app_id": "6752632961",
+      "app_name": "时尚百货城",
+      "name": "1980钻石",
+      "region": "cn",
+      "first_date": "2026-11-14",
+      "first_price": "¥198.00",
+      "last_date": "2026-11-14",
+      "last_price": "¥198.00",
+      "last_change_date": "2026-11-14",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-14",
+      "free_since": null,
+      "changes": {
+        "2026-11-14": "¥198.00"
+      }
+    },
+    "6752632961::6乐淘币": {
+      "app_id": "6752632961",
+      "app_name": "时尚百货城",
+      "name": "6乐淘币",
+      "region": "cn",
+      "first_date": "2026-11-14",
+      "first_price": "¥6.00",
+      "last_date": "2026-11-14",
+      "last_price": "¥6.00",
+      "last_change_date": "2026-11-14",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-14",
+      "free_since": null,
+      "changes": {
+        "2026-11-14": "¥6.00"
+      }
+    },
+    "6752632961::6480钻石": {
+      "app_id": "6752632961",
+      "app_name": "时尚百货城",
+      "name": "6480钻石",
+      "region": "cn",
+      "first_date": "2026-11-14",
+      "first_price": "¥648.00",
+      "last_date": "2026-11-14",
+      "last_price": "¥648.00",
+      "last_change_date": "2026-11-14",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-14",
+      "free_since": null,
+      "changes": {
+        "2026-11-14": "¥648.00"
+      }
+    },
+    "6752632961::30乐淘币": {
+      "app_id": "6752632961",
+      "app_name": "时尚百货城",
+      "name": "30乐淘币",
+      "region": "cn",
+      "first_date": "2026-11-14",
+      "first_price": "¥30.00",
+      "last_date": "2026-11-14",
+      "last_price": "¥30.00",
+      "last_change_date": "2026-11-14",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-14",
+      "free_since": null,
+      "changes": {
+        "2026-11-14": "¥30.00"
+      }
+    },
+    "6752632961::3280钻石": {
+      "app_id": "6752632961",
+      "app_name": "时尚百货城",
+      "name": "3280钻石",
+      "region": "cn",
+      "first_date": "2026-11-14",
+      "first_price": "¥328.00",
+      "last_date": "2026-11-14",
+      "last_price": "¥328.00",
+      "last_change_date": "2026-11-14",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-14",
+      "free_since": null,
+      "changes": {
+        "2026-11-14": "¥328.00"
+      }
+    },
+    "6752632961::328乐淘币": {
+      "app_id": "6752632961",
+      "app_name": "时尚百货城",
+      "name": "328乐淘币",
+      "region": "cn",
+      "first_date": "2026-11-14",
+      "first_price": "¥328.00",
+      "last_date": "2026-11-14",
+      "last_price": "¥328.00",
+      "last_change_date": "2026-11-14",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-14",
+      "free_since": null,
+      "changes": {
+        "2026-11-14": "¥328.00"
+      }
+    },
+    "930368978::6 元知识付费及培训课程": {
+      "app_id": "930368978",
+      "app_name": "钉钉",
+      "name": "6 元知识付费及培训课程",
+      "region": "cn",
+      "first_date": "2026-11-14",
+      "first_price": "¥8.00",
+      "last_date": "2026-11-14",
+      "last_price": "¥8.00",
+      "last_change_date": "2026-11-14",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-14",
+      "free_since": null,
+      "changes": {
+        "2026-11-14": "¥8.00"
+      }
+    },
+    "930368978::128 元知识付费及培训课程": {
+      "app_id": "930368978",
+      "app_name": "钉钉",
+      "name": "128 元知识付费及培训课程",
+      "region": "cn",
+      "first_date": "2026-11-14",
+      "first_price": "¥148.00",
+      "last_date": "2026-11-14",
+      "last_price": "¥148.00",
+      "last_change_date": "2026-11-14",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-14",
+      "free_since": null,
+      "changes": {
+        "2026-11-14": "¥148.00"
+      }
+    },
+    "930368978::1年个人专业版": {
+      "app_id": "930368978",
+      "app_name": "钉钉",
+      "name": "1年个人专业版",
+      "region": "cn",
+      "first_date": "2026-11-14",
+      "first_price": "¥168.00",
+      "last_date": "2026-11-14",
+      "last_price": "¥168.00",
+      "last_change_date": "2026-11-14",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-14",
+      "free_since": null,
+      "changes": {
+        "2026-11-14": "¥168.00"
+      }
+    },
+    "930368978::1年团队专业版": {
+      "app_id": "930368978",
+      "app_name": "钉钉",
+      "name": "1年团队专业版",
+      "region": "cn",
+      "first_date": "2026-11-14",
+      "first_price": "¥398.00",
+      "last_date": "2026-11-14",
+      "last_price": "¥398.00",
+      "last_change_date": "2026-11-14",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-14",
+      "free_since": null,
+      "changes": {
+        "2026-11-14": "¥398.00"
+      }
+    },
+    "930368978::官方专用测试商品-个人购买1（按月订阅）": {
+      "app_id": "930368978",
+      "app_name": "钉钉",
+      "name": "官方专用测试商品-个人购买1（按月订阅）",
+      "region": "cn",
+      "first_date": "2026-11-14",
+      "first_price": "¥28.00",
+      "last_date": "2026-11-14",
+      "last_price": "¥28.00",
+      "last_change_date": "2026-11-14",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-14",
+      "free_since": null,
+      "changes": {
+        "2026-11-14": "¥28.00"
+      }
+    },
+    "930368978::365会员礼品卡（1年）": {
+      "app_id": "930368978",
+      "app_name": "钉钉",
+      "name": "365会员礼品卡（1年）",
+      "region": "cn",
+      "first_date": "2026-11-14",
+      "first_price": "¥169.00",
+      "last_date": "2026-11-14",
+      "last_price": "¥169.00",
+      "last_change_date": "2026-11-14",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-14",
+      "free_since": null,
+      "changes": {
+        "2026-11-14": "¥169.00"
+      }
+    },
+    "6736674345::288吧币": {
+      "app_id": "6736674345",
+      "app_name": "准球",
+      "name": "288吧币",
+      "region": "cn",
+      "first_date": "2026-11-14",
+      "first_price": "¥288.00",
+      "last_date": "2026-11-14",
+      "last_price": "¥288.00",
+      "last_change_date": "2026-11-14",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-14",
+      "free_since": null,
+      "changes": {
+        "2026-11-14": "¥288.00"
       }
     }
   }
