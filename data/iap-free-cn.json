@@ -1,24 +1,6 @@
 {
-  "updated": "2026-11-15",
+  "updated": "2026-11-16",
   "region": "cn",
-  "count": 1,
-  "events": [
-    {
-      "app_id": "6761245025",
-      "app_name": "视频转实况 - 高清实况照片制作工具",
-      "iap": "视频转实况永久版",
-      "price": "¥0.00",
-      "free_since": "2026-11-15",
-      "days_free": 0,
-      "last_paid_date": "2026-11-14",
-      "last_paid_price": "¥1.00",
-      "url": "https://apps.apple.com/cn/app/%E8%A7%86%E9%A2%91%E8%BD%AC%E5%AE%9E%E5%86%B5-%E9%AB%98%E6%B8%85%E5%AE%9E%E5%86%B5%E7%85%A7%E7%89%87%E5%88%B6%E4%BD%9C%E5%B7%A5%E5%85%B7/id6761245025?uo=4",
-      "rating": 5,
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/23/4e/c5/234ec5e8-d485-d445-7625-2175747cb56e/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
-      "dev": "情 豆",
-      "genre": "工具",
-      "app_price": "免费",
-      "page": "app/cn-6761245025.html"
-    }
-  ]
+  "count": 0,
+  "events": []
 }
