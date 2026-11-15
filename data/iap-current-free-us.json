@@ -1,7 +1,7 @@
 {
   "updated": "2026-11-15",
   "region": "us",
-  "count": 335,
+  "count": 361,
   "items": [
     {
       "app_id": "6823810305",
@@ -1813,15 +1813,6 @@
       "app_price": "Free"
     },
     {
-      "app_id": "6818473571",
-      "app_name": "Slow Jogging Mate",
-      "iap": "Pro - Lifetime",
-      "price": "$0.00",
-      "permanent_free": false,
-      "since": "2026-11-15",
-      "app_price": "Free"
-    },
-    {
       "app_id": "6811274043",
       "app_name": "序日",
       "iap": "序日 Pro · One-time Purchase",
@@ -2776,29 +2767,11 @@
       "app_price": "Free"
     },
     {
-      "app_id": "6832723759",
-      "app_name": "AaronSynth",
-      "iap": "Pro Mode",
-      "price": "$0.00",
-      "permanent_free": true,
-      "since": "2026-11-15",
-      "app_price": "Free"
-    },
-    {
       "app_id": "6825328060",
       "app_name": "JavaHome",
       "iap": "JavaHome Pro",
       "price": "$0.00",
       "permanent_free": true,
-      "since": "2026-11-15",
-      "app_price": "Free"
-    },
-    {
-      "app_id": "6761245025",
-      "app_name": "视频转实况 - 高清实况照片制作工具",
-      "iap": "视频转实况永久版",
-      "price": "$0.00",
-      "permanent_free": false,
       "since": "2026-11-15",
       "app_price": "Free"
     },
@@ -3017,6 +2990,267 @@
       "permanent_free": true,
       "since": "2026-11-14",
       "app_price": "$0.99"
+    },
+    {
+      "app_id": "6808996054",
+      "app_name": "Tasting Tours",
+      "iap": "Must-See St. Augustine",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-15",
+      "app_price": "$0.99"
+    },
+    {
+      "app_id": "6808996054",
+      "app_name": "Tasting Tours",
+      "iap": "Free St. Augustine",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-15",
+      "app_price": "$0.99"
+    },
+    {
+      "app_id": "6808996054",
+      "app_name": "Tasting Tours",
+      "iap": "Christmas Nights of Lights",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-15",
+      "app_price": "$0.99"
+    },
+    {
+      "app_id": "6808996054",
+      "app_name": "Tasting Tours",
+      "iap": "Lincolnville Freedom's First Neighb",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-15",
+      "app_price": "$0.99"
+    },
+    {
+      "app_id": "6808996054",
+      "app_name": "Tasting Tours",
+      "iap": "Pirate and Privateer Hunt",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-15",
+      "app_price": "$0.99"
+    },
+    {
+      "app_id": "6808996054",
+      "app_name": "Tasting Tours",
+      "iap": "Romantic St. Augustine",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-15",
+      "app_price": "$0.99"
+    },
+    {
+      "app_id": "6808996054",
+      "app_name": "Tasting Tours",
+      "iap": "Secrets of St. George Street",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-15",
+      "app_price": "$0.99"
+    },
+    {
+      "app_id": "6808996054",
+      "app_name": "Tasting Tours",
+      "iap": "Styles of the Ancient City",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-15",
+      "app_price": "$0.99"
+    },
+    {
+      "app_id": "6808996054",
+      "app_name": "Tasting Tours",
+      "iap": "The Lost Lantern",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-15",
+      "app_price": "$0.99"
+    },
+    {
+      "app_id": "6781580778",
+      "app_name": "Nota AI:Meeting Recorder Agent",
+      "iap": "LifeTime",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-15",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6778906089",
+      "app_name": "Video compress-compress videos",
+      "iap": "Video compress Forever Pro",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-15",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6825444856",
+      "app_name": "大学青椒晋升之路",
+      "iap": "解锁存档",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-15",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6760304084",
+      "app_name": "Relax Coloring: Calm Art",
+      "iap": "Holidays Pack",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-15",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6760304084",
+      "app_name": "Relax Coloring: Calm Art",
+      "iap": "Sea Life Pack",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-15",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6760304084",
+      "app_name": "Relax Coloring: Calm Art",
+      "iap": "Space Pack",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-15",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "1494959592",
+      "app_name": "AI Calorie Tracker One",
+      "iap": "Facetone Lifetime",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-15",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "1574644243",
+      "app_name": "ZeroClock零时钟",
+      "iap": "Premium",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-15",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "415598742",
+      "app_name": "FaithBuilders Daily Devotional",
+      "iap": "30 Day Free Version",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-15",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "634353885",
+      "app_name": "Любимые сказки",
+      "iap": "Горшочек каши",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-15",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "634353885",
+      "app_name": "Любимые сказки",
+      "iap": "Госпожа Метелица",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-15",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "634353885",
+      "app_name": "Любимые сказки",
+      "iap": "Гадкий утенок",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-15",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6450141503",
+      "app_name": "WoodenFish - Electronic",
+      "iap": "一次性解锁",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-15",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6769966541",
+      "app_name": "大明万年历-老黄历八字运势养生",
+      "iap": "终身 VIP",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-15",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6775247259",
+      "app_name": "StackShot: Photo Video Cleaner",
+      "iap": "Stackshot Lifetime Pro",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-15",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6775885099",
+      "app_name": "Improvory",
+      "iap": "Pro Lifetime",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-15",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6815909446",
+      "app_name": "Jigsaw Drift -Card Drop Puzzle",
+      "iap": "Remove Ads",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-15",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6825074743",
+      "app_name": "Halotone: Light Up a Tune",
+      "iap": "Halotone Plus",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-15",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6830004166",
+      "app_name": "WikiClash: Knowledge Duels",
+      "iap": "Plus Lifetime",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-15",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6834068677",
+      "app_name": "Icon Hoover",
+      "iap": "Icon Hoover Plus",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-15",
+      "app_price": "Free"
     }
   ]
 }

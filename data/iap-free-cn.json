@@ -1,41 +1,6 @@
 {
   "updated": "2026-11-15",
   "region": "cn",
-  "count": 2,
-  "events": [
-    {
-      "app_id": "6818473571",
-      "app_name": "超慢跑伙伴",
-      "iap": "Pro - Lifetime",
-      "price": "¥0.00",
-      "free_since": "2026-11-14",
-      "days_free": 1,
-      "last_paid_date": "2026-11-09",
-      "last_paid_price": "¥168.00",
-      "url": "https://apps.apple.com/cn/app/%E8%B6%85%E6%85%A2%E8%B7%91%E4%BC%99%E4%BC%B4/id6818473571?uo=4",
-      "rating": 5,
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/36/42/1e/36421e23-529a-ea86-0163-930744048607/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
-      "dev": "Kai Chi Tsao",
-      "genre": "体育",
-      "app_price": "免费",
-      "page": "app/cn-6818473571.html"
-    },
-    {
-      "app_id": "6778906089",
-      "app_name": "视频压缩 - 批量音频视频压缩大师",
-      "iap": "视频压缩永久版",
-      "price": "¥0.00",
-      "free_since": "2026-11-15",
-      "days_free": 0,
-      "last_paid_date": "2026-11-14",
-      "last_paid_price": "¥1.00",
-      "url": "https://apps.apple.com/cn/app/%E8%A7%86%E9%A2%91%E5%8E%8B%E7%BC%A9-%E6%89%B9%E9%87%8F%E9%9F%B3%E9%A2%91%E8%A7%86%E9%A2%91%E5%8E%8B%E7%BC%A9%E5%A4%A7%E5%B8%88/id6778906089?uo=4",
-      "rating": 4.4,
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/17/48/8e/17488ed9-d02c-aa9a-0b0c-ba6ba4a4253e/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/512x512bb.jpg",
-      "dev": "情 豆",
-      "genre": "工具",
-      "app_price": "免费",
-      "page": "app/cn-6778906089.html"
-    }
-  ]
+  "count": 0,
+  "events": []
 }

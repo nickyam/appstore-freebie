@@ -1,8 +1,17 @@
 {
   "updated": "2026-11-15",
   "region": "cn",
-  "count": 265,
+  "count": 251,
   "items": [
+    {
+      "app_id": "6761245025",
+      "app_name": "视频转实况 - 高清实况照片制作工具",
+      "iap": "视频转实况永久版",
+      "price": "¥0.00",
+      "permanent_free": false,
+      "since": "2026-11-15",
+      "app_price": "免费"
+    },
     {
       "app_id": "6758658840",
       "app_name": "PixPhoto:证件照,高清证件照制作",
@@ -60,7 +69,7 @@
     {
       "app_id": "1095903651",
       "app_name": "【到了吗】-线下约会·甜蛙·约K歌、看电影、密室逃脱...",
-      "iap": "特效2",
+      "iap": "特效3",
       "price": "¥0.00",
       "permanent_free": true,
       "since": "2026-11-15",
@@ -69,7 +78,7 @@
     {
       "app_id": "1095903651",
       "app_name": "【到了吗】-线下约会·甜蛙·约K歌、看电影、密室逃脱...",
-      "iap": "特效3",
+      "iap": "特效2",
       "price": "¥0.00",
       "permanent_free": true,
       "since": "2026-11-15",
@@ -110,14 +119,6 @@
       "permanent_free": true,
       "since": "2026-11-15",
       "app_price": "¥1.00"
-    },
-    {
-      "app_id": "316133247",
-      "app_name": "朗文当代高级词典（第6版）",
-      "iap": "Example sentence search activation",
-      "price": "¥0.00",
-      "permanent_free": true,
-      "since": "2026-11-14"
     },
     {
       "app_id": "925289270",
@@ -554,15 +555,6 @@
     {
       "app_id": "363738376",
       "app_name": "forScore",
-      "iap": "Gottschalk: The Mutopia Collection",
-      "price": "¥0.00",
-      "permanent_free": true,
-      "since": "2026-10-31",
-      "app_price": "¥168.00"
-    },
-    {
-      "app_id": "363738376",
-      "app_name": "forScore",
       "iap": "Verdi: The Mutopia Collection",
       "price": "¥0.00",
       "permanent_free": true,
@@ -573,6 +565,15 @@
       "app_id": "363738376",
       "app_name": "forScore",
       "iap": "Rameau: The Mutopia Collection",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-15",
+      "app_price": "¥168.00"
+    },
+    {
+      "app_id": "363738376",
+      "app_name": "forScore",
+      "iap": "Satie: The Mutopia Collection",
       "price": "¥0.00",
       "permanent_free": true,
       "since": "2026-11-15",
@@ -643,7 +644,7 @@
     },
     {
       "app_id": "1623275786",
-      "app_name": "Earth Clock Calendar",
+      "app_name": "Earth Clock 地球时钟",
       "iap": "All Calendars",
       "price": "¥0.00",
       "permanent_free": true,
@@ -787,7 +788,7 @@
     },
     {
       "app_id": "6737119574",
-      "app_name": "漫画胶囊阅读器 - Nas&本地漫画库 韩漫日漫丝滑阅读",
+      "app_name": "漫画胶囊阅读器 - comic&NAS本地漫画库韩漫日漫",
       "iap": "终身会员·内测专享",
       "price": "¥0.00",
       "permanent_free": true,
@@ -1255,7 +1256,7 @@
     },
     {
       "app_id": "6758056060",
-      "app_name": "我去哪了? 足迹与到访记录、停留时间和国家公园收藏",
+      "app_name": "我去哪了？自动到访记录、停留时间与国家公园收藏",
       "iap": "100 Fine Castles of Japan",
       "price": "¥0.00",
       "permanent_free": true,
@@ -1308,45 +1309,9 @@
       "app_price": "免费"
     },
     {
-      "app_id": "469353635",
-      "app_name": "ELLE Magazine UK",
-      "iap": "Beauty Skincare Supplement",
-      "price": "¥0.00",
-      "permanent_free": true,
-      "since": "2026-10-31",
-      "app_price": "免费"
-    },
-    {
-      "app_id": "469353635",
-      "app_name": "ELLE Magazine UK",
-      "iap": "The Cannes Film Festival Ed",
-      "price": "¥0.00",
-      "permanent_free": true,
-      "since": "2026-10-31",
-      "app_price": "免费"
-    },
-    {
-      "app_id": "469353635",
-      "app_name": "ELLE Magazine UK",
-      "iap": "Oscars Supplement",
-      "price": "¥0.00",
-      "permanent_free": true,
-      "since": "2026-10-31",
-      "app_price": "免费"
-    },
-    {
       "app_id": "584362474",
       "app_name": "Launchpad - Music & Beat Maker",
       "iap": "EDM Haze",
-      "price": "¥0.00",
-      "permanent_free": true,
-      "since": "2026-11-15",
-      "app_price": "免费"
-    },
-    {
-      "app_id": "584362474",
-      "app_name": "Launchpad - Music & Beat Maker",
-      "iap": "Found Sound Journey: Techno",
       "price": "¥0.00",
       "permanent_free": true,
       "since": "2026-11-15",
@@ -1364,7 +1329,25 @@
     {
       "app_id": "584362474",
       "app_name": "Launchpad - Music & Beat Maker",
+      "iap": "Found Sound Journey: Techno",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-15",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "584362474",
+      "app_name": "Launchpad - Music & Beat Maker",
       "iap": "Dub Trap",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-15",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "584362474",
+      "app_name": "Launchpad - Music & Beat Maker",
+      "iap": "90s Rave - Girl Unit",
       "price": "¥0.00",
       "permanent_free": true,
       "since": "2026-11-15",
@@ -1398,15 +1381,6 @@
       "app_price": "免费"
     },
     {
-      "app_id": "584362474",
-      "app_name": "Launchpad - Music & Beat Maker",
-      "iap": "90s Rave - Girl Unit",
-      "price": "¥0.00",
-      "permanent_free": true,
-      "since": "2026-11-15",
-      "app_price": "免费"
-    },
-    {
       "app_id": "6809489632",
       "app_name": "Stemio: 去除人声、卡拉OK伴奏制作、音乐音轨分离工具",
       "iap": "Life Time Free",
@@ -1425,93 +1399,12 @@
       "app_price": "免费"
     },
     {
-      "app_id": "363738376",
-      "app_name": "forScore",
-      "iap": "Satie: The Mutopia Collection",
-      "price": "¥0.00",
-      "permanent_free": true,
-      "since": "2026-11-15",
-      "app_price": "¥168.00"
-    },
-    {
-      "app_id": "1078569202",
-      "app_name": "侠盗猎车手5 - DLC 外挂 模组(GTA5,GTA 5)",
-      "iap": "如何安装在GTA V游戏模组（广东话）",
-      "price": "¥0.00",
-      "permanent_free": true,
-      "since": "2026-11-01",
-      "app_price": "¥22.00"
-    },
-    {
-      "app_id": "1078569202",
-      "app_name": "侠盗猎车手5 - DLC 外挂 模组(GTA5,GTA 5)",
-      "iap": "How to install mods in GTA V",
-      "price": "¥0.00",
-      "permanent_free": true,
-      "since": "2026-11-01",
-      "app_price": "¥22.00"
-    },
-    {
-      "app_id": "1078569202",
-      "app_name": "侠盗猎车手5 - DLC 外挂 模组(GTA5,GTA 5)",
-      "iap": "星球大战 - Tie 截击机",
-      "price": "¥0.00",
-      "permanent_free": true,
-      "since": "2026-11-01",
-      "app_price": "¥22.00"
-    },
-    {
-      "app_id": "1078569202",
-      "app_name": "侠盗猎车手5 - DLC 外挂 模组(GTA5,GTA 5)",
-      "iap": "星球大战",
-      "price": "¥0.00",
-      "permanent_free": true,
-      "since": "2026-11-01",
-      "app_price": "¥22.00"
-    },
-    {
-      "app_id": "1078569202",
-      "app_name": "侠盗猎车手5 - DLC 外挂 模组(GTA5,GTA 5)",
-      "iap": "飞碟",
-      "price": "¥0.00",
-      "permanent_free": true,
-      "since": "2026-11-01",
-      "app_price": "¥22.00"
-    },
-    {
-      "app_id": "1078569202",
-      "app_name": "侠盗猎车手5 - DLC 外挂 模组(GTA5,GTA 5)",
-      "iap": "糟糕的一天",
-      "price": "¥0.00",
-      "permanent_free": true,
-      "since": "2026-11-01",
-      "app_price": "¥22.00"
-    },
-    {
-      "app_id": "1078569202",
-      "app_name": "侠盗猎车手5 - DLC 外挂 模组(GTA5,GTA 5)",
-      "iap": "陨石雨",
-      "price": "¥0.00",
-      "permanent_free": true,
-      "since": "2026-11-01",
-      "app_price": "¥22.00"
-    },
-    {
       "app_id": "1133575767",
       "app_name": "听读宝 - 英语听力播放器 变速复读大师 原变速MP3",
       "iap": "历年六级考试真题",
       "price": "¥0.00",
       "permanent_free": true,
       "since": "2026-11-15",
-      "app_price": "免费"
-    },
-    {
-      "app_id": "1133575767",
-      "app_name": "听读宝 - 英语听力播放器 变速复读大师 原变速MP3",
-      "iap": "历年四级考试真题",
-      "price": "¥0.00",
-      "permanent_free": true,
-      "since": "2026-11-10",
       "app_price": "免费"
     },
     {
@@ -1587,39 +1480,12 @@
       "app_price": "免费"
     },
     {
-      "app_id": "1254058826",
-      "app_name": "Bed Time | 大时钟",
-      "iap": "Calming Sounds",
-      "price": "¥0.00",
-      "permanent_free": true,
-      "since": "2026-11-02",
-      "app_price": "免费"
-    },
-    {
-      "app_id": "6818473571",
-      "app_name": "超慢跑伙伴",
-      "iap": "Pro - Lifetime",
-      "price": "¥0.00",
-      "permanent_free": false,
-      "since": "2026-11-15",
-      "app_price": "免费"
-    },
-    {
       "app_id": "6811274043",
       "app_name": "序日",
       "iap": "序日 Pro",
       "price": "¥0.00",
       "permanent_free": true,
       "since": "2026-11-15",
-      "app_price": "免费"
-    },
-    {
-      "app_id": "585193266",
-      "app_name": "Sygic GPS导航、离线地图",
-      "iap": "Australia & N. Zealand Premium",
-      "price": "¥0.00",
-      "permanent_free": true,
-      "since": "2026-11-04",
       "app_price": "免费"
     },
     {
@@ -1647,15 +1513,6 @@
       "price": "¥0.00",
       "permanent_free": true,
       "since": "2026-11-15",
-      "app_price": "免费"
-    },
-    {
-      "app_id": "6447748874",
-      "app_name": "TalkAI练口语-职场雅思英语学习，让英语流利说出来",
-      "iap": "零基础英语口语入门课",
-      "price": "¥0.00",
-      "permanent_free": true,
-      "since": "2026-11-04",
       "app_price": "免费"
     },
     {
@@ -1713,15 +1570,6 @@
       "app_price": "免费"
     },
     {
-      "app_id": "363738376",
-      "app_name": "forScore",
-      "iap": "Sousa: The Mutopia Collection",
-      "price": "¥0.00",
-      "permanent_free": true,
-      "since": "2026-11-06",
-      "app_price": "¥168.00"
-    },
-    {
       "app_id": "934587545",
       "app_name": "Priime：照片与视频编辑器",
       "iap": "Modern",
@@ -1750,7 +1598,7 @@
     },
     {
       "app_id": "6806193343",
-      "app_name": "Capylist：纪念日倒计时·计划日程·待办任务清单·习惯",
+      "app_name": "卡皮清单 Capylist：纪念日·计划日程·待办任务清单·",
       "iap": "卡皮清单永久会员",
       "price": "¥0.00",
       "permanent_free": true,
@@ -1786,7 +1634,7 @@
     },
     {
       "app_id": "6761775005",
-      "app_name": "OneGLP：GLP-1 体重记录与用药提醒",
+      "app_name": "OneGLP：GLP-1 记录 穆峰达",
       "iap": "Premium Lifetime",
       "price": "¥0.00",
       "permanent_free": true,
@@ -2217,51 +2065,6 @@
       "app_price": "免费"
     },
     {
-      "app_id": "6832723759",
-      "app_name": "AaronSynth",
-      "iap": "Pro Mode",
-      "price": "¥0.00",
-      "permanent_free": true,
-      "since": "2026-11-15",
-      "app_price": "免费"
-    },
-    {
-      "app_id": "6743779432",
-      "app_name": "拍有序-相册整理与分类相机",
-      "iap": "分类相机 PRO 永久包",
-      "price": "¥0.00",
-      "permanent_free": true,
-      "since": "2026-11-15",
-      "app_price": "¥28.00"
-    },
-    {
-      "app_id": "6743779432",
-      "app_name": "拍有序-相册整理与分类相机",
-      "iap": "相册整理 Pro 永久包",
-      "price": "¥0.00",
-      "permanent_free": true,
-      "since": "2026-11-15",
-      "app_price": "¥28.00"
-    },
-    {
-      "app_id": "6761245025",
-      "app_name": "视频转实况 - 高清实况照片制作工具",
-      "iap": "视频转实况永久版",
-      "price": "¥0.00",
-      "permanent_free": false,
-      "since": "2026-11-15",
-      "app_price": "免费"
-    },
-    {
-      "app_id": "6778906089",
-      "app_name": "视频压缩 - 批量音频视频压缩大师",
-      "iap": "视频压缩永久版",
-      "price": "¥0.00",
-      "permanent_free": false,
-      "since": "2026-11-15",
-      "app_price": "免费"
-    },
-    {
       "app_id": "6831909264",
       "app_name": "知衣-服装制版尺算",
       "iap": "永久会员",
@@ -2386,6 +2189,78 @@
       "permanent_free": true,
       "since": "2026-11-15",
       "app_price": "¥12.00"
+    },
+    {
+      "app_id": "6825074743",
+      "app_name": "Halotone: Light Up a Tune",
+      "iap": "Halotone Plus",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-15",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "634353885",
+      "app_name": "Любимые сказки",
+      "iap": "Гадкий утенок",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-15",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "634353885",
+      "app_name": "Любимые сказки",
+      "iap": "Госпожа Метелица",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-15",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "634353885",
+      "app_name": "Любимые сказки",
+      "iap": "Горшочек каши",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-15",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "634353885",
+      "app_name": "Любимые сказки",
+      "iap": "Язык зверей",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-15",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "6450141503",
+      "app_name": "新木鱼-电子木鱼静心解压治愈抚人心",
+      "iap": "一次性解锁",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-15",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "6769966541",
+      "app_name": "大明万年历-老黄历八字运势养生",
+      "iap": "终身 VIP",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-15",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "6834068677",
+      "app_name": "Icon Hoover",
+      "iap": "Icon Hoover Plus",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-15",
+      "app_price": "免费"
     }
   ]
 }
