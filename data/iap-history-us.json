@@ -10376,14 +10376,14 @@
       "first_date": "2026-10-23",
       "first_price": "$4.99",
       "last_date": "2026-11-15",
-      "last_price": "$19.99",
+      "last_price": "$4.99",
       "last_change_date": "2026-11-15",
       "ever_paid": true,
       "last_paid_date": "2026-11-15",
       "free_since": null,
       "changes": {
         "2026-10-23": "$4.99",
-        "2026-11-15": "$19.99"
+        "2026-11-15": "$4.99"
       }
     },
     "1561802302::Scanner Pro": {
@@ -126078,7 +126078,7 @@
       "first_date": "2026-10-27",
       "first_price": "$9.99",
       "last_date": "2026-11-15",
-      "last_price": "$19.99",
+      "last_price": "$9.99",
       "last_change_date": "2026-11-15",
       "ever_paid": true,
       "last_paid_date": "2026-11-15",
@@ -126088,7 +126088,7 @@
         "2026-10-28": "$7.99",
         "2026-10-29": "$9.99",
         "2026-11-05": "$9.99",
-        "2026-11-15": "$19.99"
+        "2026-11-15": "$9.99"
       }
     },
     "493226494::Annual subscription": {
@@ -138322,15 +138322,16 @@
       "first_date": "2026-10-27",
       "first_price": "$39.99",
       "last_date": "2026-11-15",
-      "last_price": "$39.99",
-      "last_change_date": "2026-10-29",
+      "last_price": "$29.99",
+      "last_change_date": "2026-11-15",
       "ever_paid": true,
-      "last_paid_date": "2026-10-29",
+      "last_paid_date": "2026-11-15",
       "free_since": null,
       "changes": {
         "2026-10-27": "$29.99",
         "2026-10-28": "$29.99",
-        "2026-10-29": "$39.99"
+        "2026-10-29": "$39.99",
+        "2026-11-15": "$29.99"
       }
     },
     "6738537088::Knitpal Premium": {
@@ -191306,7 +191307,7 @@
       "first_date": "2026-10-27",
       "first_price": "$4.99",
       "last_date": "2026-11-15",
-      "last_price": "$99.99",
+      "last_price": "$19.99",
       "last_change_date": "2026-11-15",
       "ever_paid": true,
       "last_paid_date": "2026-11-15",
@@ -191316,7 +191317,7 @@
         "2026-10-28": "$8.99",
         "2026-10-29": "$19.99",
         "2026-11-08": "$19.99",
-        "2026-11-15": "$99.99"
+        "2026-11-15": "$19.99"
       }
     },
     "6478104173::wave-sub-week-coins": {
@@ -331674,7 +331675,7 @@
       "region": "us",
       "first_date": "2026-10-31",
       "first_price": "$9.99",
-      "last_date": "2026-11-13",
+      "last_date": "2026-11-15",
       "last_price": "$9.99",
       "last_change_date": "2026-10-31",
       "ever_paid": true,
@@ -381765,13 +381766,14 @@
       "first_date": "2026-11-12",
       "first_price": "$0.00",
       "last_date": "2026-11-15",
-      "last_price": "$0.00",
-      "last_change_date": "2026-11-12",
-      "ever_paid": false,
-      "last_paid_date": null,
+      "last_price": "$9.99",
+      "last_change_date": "2026-11-15",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-15",
       "free_since": null,
       "changes": {
-        "2026-11-12": "$0.00"
+        "2026-11-12": "$0.00",
+        "2026-11-15": "$9.99"
       }
     },
     "6828362431::永久激活Sepia": {
@@ -381782,13 +381784,14 @@
       "first_date": "2026-11-12",
       "first_price": "$0.00",
       "last_date": "2026-11-15",
-      "last_price": "$0.00",
-      "last_change_date": "2026-11-12",
-      "ever_paid": false,
-      "last_paid_date": null,
+      "last_price": "$6.89",
+      "last_change_date": "2026-11-15",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-15",
       "free_since": null,
       "changes": {
-        "2026-11-12": "$0.00"
+        "2026-11-12": "$0.00",
+        "2026-11-15": "$6.89"
       }
     },
     "966457795::Output High Resolution Image": {
@@ -390854,13 +390857,13 @@
       "first_date": "2026-11-15",
       "first_price": "$0.00",
       "last_date": "2026-11-15",
-      "last_price": "$0.00",
+      "last_price": "$0.99",
       "last_change_date": "2026-11-15",
-      "ever_paid": false,
-      "last_paid_date": null,
+      "ever_paid": true,
+      "last_paid_date": "2026-11-15",
       "free_since": null,
       "changes": {
-        "2026-11-15": "$0.00"
+        "2026-11-15": "$0.99"
       }
     },
     "6778906089::Video compress Weekly Pro": {
@@ -391398,13 +391401,13 @@
       "first_date": "2026-11-15",
       "first_price": "$0.00",
       "last_date": "2026-11-15",
-      "last_price": "$0.00",
+      "last_price": "$2.99",
       "last_change_date": "2026-11-15",
-      "ever_paid": false,
-      "last_paid_date": null,
+      "ever_paid": true,
+      "last_paid_date": "2026-11-15",
       "free_since": null,
       "changes": {
-        "2026-11-15": "$0.00"
+        "2026-11-15": "$2.99"
       }
     },
     "6775247259::Stackshot Lifetime Pro": {
@@ -392102,6 +392105,176 @@
       "free_since": null,
       "changes": {
         "2026-11-15": "$29.99"
+      }
+    },
+    "288429040::Personal Plus subscription": {
+      "app_id": "288429040",
+      "app_name": "LinkedIn: Community & Network",
+      "name": "Personal Plus subscription",
+      "region": "us",
+      "first_date": "2026-11-15",
+      "first_price": "$9.99",
+      "last_date": "2026-11-15",
+      "last_price": "$9.99",
+      "last_change_date": "2026-11-15",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-15",
+      "free_since": null,
+      "changes": {
+        "2026-11-15": "$9.99"
+      }
+    },
+    "288429040::Personal Plus subscription (Annual)": {
+      "app_id": "288429040",
+      "app_name": "LinkedIn: Community & Network",
+      "name": "Personal Plus subscription (Annual)",
+      "region": "us",
+      "first_date": "2026-11-15",
+      "first_price": "$94.99",
+      "last_date": "2026-11-15",
+      "last_price": "$94.99",
+      "last_change_date": "2026-11-15",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-15",
+      "free_since": null,
+      "changes": {
+        "2026-11-15": "$94.99"
+      }
+    },
+    "288429040::Business subscription": {
+      "app_id": "288429040",
+      "app_name": "LinkedIn: Community & Network",
+      "name": "Business subscription",
+      "region": "us",
+      "first_date": "2026-11-15",
+      "first_price": "$24.99",
+      "last_date": "2026-11-15",
+      "last_price": "$24.99",
+      "last_change_date": "2026-11-15",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-15",
+      "free_since": null,
+      "changes": {
+        "2026-11-15": "$24.99"
+      }
+    },
+    "288429040::Business subscription (Annual)": {
+      "app_id": "288429040",
+      "app_name": "LinkedIn: Community & Network",
+      "name": "Business subscription (Annual)",
+      "region": "us",
+      "first_date": "2026-11-15",
+      "first_price": "$239.99",
+      "last_date": "2026-11-15",
+      "last_price": "$239.99",
+      "last_change_date": "2026-11-15",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-15",
+      "free_since": null,
+      "changes": {
+        "2026-11-15": "$239.99"
+      }
+    },
+    "288429040::Business Plus subscription": {
+      "app_id": "288429040",
+      "app_name": "LinkedIn: Community & Network",
+      "name": "Business Plus subscription",
+      "region": "us",
+      "first_date": "2026-11-15",
+      "first_price": "$49.99",
+      "last_date": "2026-11-15",
+      "last_price": "$49.99",
+      "last_change_date": "2026-11-15",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-15",
+      "free_since": null,
+      "changes": {
+        "2026-11-15": "$49.99"
+      }
+    },
+    "288429040::Business Plus subscription (Annual)": {
+      "app_id": "288429040",
+      "app_name": "LinkedIn: Community & Network",
+      "name": "Business Plus subscription (Annual)",
+      "region": "us",
+      "first_date": "2026-11-15",
+      "first_price": "$499.99",
+      "last_date": "2026-11-15",
+      "last_price": "$499.99",
+      "last_change_date": "2026-11-15",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-15",
+      "free_since": null,
+      "changes": {
+        "2026-11-15": "$499.99"
+      }
+    },
+    "288429040::Executive subscription": {
+      "app_id": "288429040",
+      "app_name": "LinkedIn: Community & Network",
+      "name": "Executive subscription",
+      "region": "us",
+      "first_date": "2026-11-15",
+      "first_price": "$99.99",
+      "last_date": "2026-11-15",
+      "last_price": "$99.99",
+      "last_change_date": "2026-11-15",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-15",
+      "free_since": null,
+      "changes": {
+        "2026-11-15": "$99.99"
+      }
+    },
+    "288429040::Executive subscription (Annual)": {
+      "app_id": "288429040",
+      "app_name": "LinkedIn: Community & Network",
+      "name": "Executive subscription (Annual)",
+      "region": "us",
+      "first_date": "2026-11-15",
+      "first_price": "$899.99",
+      "last_date": "2026-11-15",
+      "last_price": "$899.99",
+      "last_change_date": "2026-11-15",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-15",
+      "free_since": null,
+      "changes": {
+        "2026-11-15": "$899.99"
+      }
+    },
+    "288429040::Job Seeker Basic subscription": {
+      "app_id": "288429040",
+      "app_name": "LinkedIn: Community & Network",
+      "name": "Job Seeker Basic subscription",
+      "region": "us",
+      "first_date": "2026-11-15",
+      "first_price": "$19.99",
+      "last_date": "2026-11-15",
+      "last_price": "$19.99",
+      "last_change_date": "2026-11-15",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-15",
+      "free_since": null,
+      "changes": {
+        "2026-11-15": "$19.99"
+      }
+    },
+    "288429040::Job Seeker Basic subscription (Annual)": {
+      "app_id": "288429040",
+      "app_name": "LinkedIn: Community & Network",
+      "name": "Job Seeker Basic subscription (Annual)",
+      "region": "us",
+      "first_date": "2026-11-15",
+      "first_price": "$189.99",
+      "last_date": "2026-11-15",
+      "last_price": "$189.99",
+      "last_change_date": "2026-11-15",
+      "ever_paid": true,
+      "last_paid_date": "2026-11-15",
+      "free_since": null,
+      "changes": {
+        "2026-11-15": "$189.99"
       }
     }
   }

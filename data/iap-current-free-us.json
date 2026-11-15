@@ -1,7 +1,7 @@
 {
   "updated": "2026-11-15",
   "region": "us",
-  "count": 350,
+  "count": 346,
   "items": [
     {
       "app_id": "6809827203",
@@ -1873,7 +1873,7 @@
       "price": "$0.00",
       "permanent_free": true,
       "since": "2026-11-15",
-      "app_price": "$7.99"
+      "app_price": "$2.99"
     },
     {
       "app_id": "1528882564",
@@ -1882,7 +1882,7 @@
       "price": "$0.00",
       "permanent_free": true,
       "since": "2026-11-15",
-      "app_price": "$7.99"
+      "app_price": "$2.99"
     },
     {
       "app_id": "1441905750",
@@ -2659,24 +2659,6 @@
       "app_price": "Free"
     },
     {
-      "app_id": "6828362431",
-      "app_name": "Sepia",
-      "iap": "Sepia Vision Pro永久激活",
-      "price": "$0.00",
-      "permanent_free": true,
-      "since": "2026-11-15",
-      "app_price": "Free"
-    },
-    {
-      "app_id": "6828362431",
-      "app_name": "Sepia",
-      "iap": "永久激活Sepia",
-      "price": "$0.00",
-      "permanent_free": true,
-      "since": "2026-11-15",
-      "app_price": "Free"
-    },
-    {
       "app_id": "966457795",
       "app_name": "Super PhotoCut",
       "iap": "Output High Resolution Image",
@@ -2992,15 +2974,6 @@
       "app_price": "Free"
     },
     {
-      "app_id": "6778906089",
-      "app_name": "Video compress-compress videos",
-      "iap": "Video compress Forever Pro",
-      "price": "$0.00",
-      "permanent_free": true,
-      "since": "2026-11-15",
-      "app_price": "Free"
-    },
-    {
       "app_id": "6825444856",
       "app_name": "大学青椒晋升之路",
       "iap": "解锁存档",
@@ -3094,15 +3067,6 @@
       "app_id": "6450141503",
       "app_name": "WoodenFish - Electronic",
       "iap": "一次性解锁",
-      "price": "$0.00",
-      "permanent_free": true,
-      "since": "2026-11-15",
-      "app_price": "Free"
-    },
-    {
-      "app_id": "6769966541",
-      "app_name": "大明万年历-老黄历八字运势养生",
-      "iap": "终身 VIP",
       "price": "$0.00",
       "permanent_free": true,
       "since": "2026-11-15",
