@@ -1,7 +1,7 @@
 {
   "updated": "2026-11-16",
   "region": "us",
-  "count": 357,
+  "count": 340,
   "items": [
     {
       "app_id": "6809827203",
@@ -1822,15 +1822,6 @@
       "app_price": "Free"
     },
     {
-      "app_id": "6811274043",
-      "app_name": "序日",
-      "iap": "序日 Pro · One-time Purchase",
-      "price": "$0.00",
-      "permanent_free": true,
-      "since": "2026-11-16",
-      "app_price": "Free"
-    },
-    {
       "app_id": "909222894",
       "app_name": "ACDSee",
       "iap": "Metal",
@@ -1873,7 +1864,7 @@
       "price": "$0.00",
       "permanent_free": true,
       "since": "2026-11-16",
-      "app_price": "$7.99"
+      "app_price": "$3.99"
     },
     {
       "app_id": "1528882564",
@@ -1882,7 +1873,7 @@
       "price": "$0.00",
       "permanent_free": true,
       "since": "2026-11-16",
-      "app_price": "$7.99"
+      "app_price": "$3.99"
     },
     {
       "app_id": "1441905750",
@@ -2270,15 +2261,6 @@
       "permanent_free": true,
       "since": "2026-11-10",
       "app_price": "$4.99"
-    },
-    {
-      "app_id": "6761775005",
-      "app_name": "OneGLP: Zepbound GLP 1 Tracker",
-      "iap": "Premium Lifetime",
-      "price": "$0.00",
-      "permanent_free": true,
-      "since": "2026-11-16",
-      "app_price": "Free"
     },
     {
       "app_id": "6826705085",
@@ -2695,27 +2677,9 @@
       "app_price": "Free"
     },
     {
-      "app_id": "6470999031",
-      "app_name": "TokCut-Save&Edit  TT Video",
-      "iap": "lifetime",
-      "price": "$0.00",
-      "permanent_free": true,
-      "since": "2026-11-16",
-      "app_price": "Free"
-    },
-    {
       "app_id": "6737493244",
       "app_name": "Calorie AI - Protein Tracker",
       "iap": "Lifetime Subscription",
-      "price": "$0.00",
-      "permanent_free": true,
-      "since": "2026-11-16",
-      "app_price": "Free"
-    },
-    {
-      "app_id": "6746353372",
-      "app_name": "ChequeSuite - Exchange & Cards",
-      "iap": "Lifetime VIP",
       "price": "$0.00",
       "permanent_free": true,
       "since": "2026-11-16",
@@ -2743,15 +2707,6 @@
       "app_id": "6780504033",
       "app_name": "MemeKit - Meme Manager",
       "iap": "永久会员",
-      "price": "$0.00",
-      "permanent_free": true,
-      "since": "2026-11-16",
-      "app_price": "Free"
-    },
-    {
-      "app_id": "6825328060",
-      "app_name": "JavaHome",
-      "iap": "JavaHome Pro",
       "price": "$0.00",
       "permanent_free": true,
       "since": "2026-11-16",
@@ -2797,24 +2752,6 @@
       "app_id": "6826105122",
       "app_name": "Wristen All-Day Watch Recorder",
       "iap": "Unlock Wristen",
-      "price": "$0.00",
-      "permanent_free": true,
-      "since": "2026-11-16",
-      "app_price": "Free"
-    },
-    {
-      "app_id": "6758237610",
-      "app_name": "Clinch: AI Sales Assistant",
-      "iap": "Clinch Lifetime",
-      "price": "$0.00",
-      "permanent_free": true,
-      "since": "2026-11-16",
-      "app_price": "Free"
-    },
-    {
-      "app_id": "6787752392",
-      "app_name": "FloraPlot",
-      "iap": "FloraPlot Premium",
       "price": "$0.00",
       "permanent_free": true,
       "since": "2026-11-16",
@@ -2965,15 +2902,6 @@
       "app_price": "$0.99"
     },
     {
-      "app_id": "6781580778",
-      "app_name": "Nota AI:Meeting Recorder Agent",
-      "iap": "LifeTime",
-      "price": "$0.00",
-      "permanent_free": true,
-      "since": "2026-11-16",
-      "app_price": "Free"
-    },
-    {
       "app_id": "6825444856",
       "app_name": "大学青椒晋升之路",
       "iap": "解锁存档",
@@ -3004,15 +2932,6 @@
       "app_id": "6760304084",
       "app_name": "Relax Coloring: Calm Art",
       "iap": "Space Pack",
-      "price": "$0.00",
-      "permanent_free": true,
-      "since": "2026-11-16",
-      "app_price": "Free"
-    },
-    {
-      "app_id": "1494959592",
-      "app_name": "AI Calorie Tracker One",
-      "iap": "Facetone Lifetime",
       "price": "$0.00",
       "permanent_free": true,
       "since": "2026-11-16",
@@ -3064,33 +2983,6 @@
       "app_price": "Free"
     },
     {
-      "app_id": "6450141503",
-      "app_name": "WoodenFish - Electronic",
-      "iap": "一次性解锁",
-      "price": "$0.00",
-      "permanent_free": true,
-      "since": "2026-11-16",
-      "app_price": "Free"
-    },
-    {
-      "app_id": "6775885099",
-      "app_name": "Improvory",
-      "iap": "Pro Lifetime",
-      "price": "$0.00",
-      "permanent_free": true,
-      "since": "2026-11-16",
-      "app_price": "Free"
-    },
-    {
-      "app_id": "6815909446",
-      "app_name": "Jigsaw Drift -Card Drop Puzzle",
-      "iap": "Remove Ads",
-      "price": "$0.00",
-      "permanent_free": true,
-      "since": "2026-11-16",
-      "app_price": "Free"
-    },
-    {
       "app_id": "6825074743",
       "app_name": "Halotone: Light Up a Tune",
       "iap": "Halotone Plus",
@@ -3109,56 +3001,11 @@
       "app_price": "Free"
     },
     {
-      "app_id": "6834068677",
-      "app_name": "Icon Hoover",
-      "iap": "Icon Hoover Plus",
-      "price": "$0.00",
-      "permanent_free": true,
-      "since": "2026-11-16",
-      "app_price": "Free"
-    },
-    {
       "app_id": "6815899323",
       "app_name": "Kokoro Ryo: Journal & Planner",
       "iap": "Kokoro Pro Lifetime",
       "price": "$0.00",
       "permanent_free": false,
-      "since": "2026-11-16",
-      "app_price": "Free"
-    },
-    {
-      "app_id": "6818473571",
-      "app_name": "Slow Jogging Mate",
-      "iap": "Pro - Lifetime",
-      "price": "$0.00",
-      "permanent_free": true,
-      "since": "2026-11-16",
-      "app_price": "Free"
-    },
-    {
-      "app_id": "6755030188",
-      "app_name": "Compass AR - Sun & Moon",
-      "iap": "CompassPlus Pro",
-      "price": "$0.00",
-      "permanent_free": true,
-      "since": "2026-11-16",
-      "app_price": "Free"
-    },
-    {
-      "app_id": "6816583248",
-      "app_name": "Vane: Video to Live Photo",
-      "iap": "Vane Pro",
-      "price": "$0.00",
-      "permanent_free": true,
-      "since": "2026-11-16",
-      "app_price": "Free"
-    },
-    {
-      "app_id": "6832601421",
-      "app_name": "Who Stole My Takeout?",
-      "iap": "Extra Life",
-      "price": "$0.00",
-      "permanent_free": true,
       "since": "2026-11-16",
       "app_price": "Free"
     },
