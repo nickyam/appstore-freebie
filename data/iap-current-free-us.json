@@ -1,7 +1,7 @@
 {
   "updated": "2026-11-16",
   "region": "us",
-  "count": 346,
+  "count": 357,
   "items": [
     {
       "app_id": "6809827203",
@@ -3112,6 +3112,105 @@
       "app_id": "6834068677",
       "app_name": "Icon Hoover",
       "iap": "Icon Hoover Plus",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-16",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6815899323",
+      "app_name": "Kokoro Ryo: Journal & Planner",
+      "iap": "Kokoro Pro Lifetime",
+      "price": "$0.00",
+      "permanent_free": false,
+      "since": "2026-11-16",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6818473571",
+      "app_name": "Slow Jogging Mate",
+      "iap": "Pro - Lifetime",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-16",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6755030188",
+      "app_name": "Compass AR - Sun & Moon",
+      "iap": "CompassPlus Pro",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-16",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6816583248",
+      "app_name": "Vane: Video to Live Photo",
+      "iap": "Vane Pro",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-16",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6832601421",
+      "app_name": "Who Stole My Takeout?",
+      "iap": "Extra Life",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-16",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6781197239",
+      "app_name": "Acrewood",
+      "iap": "Pro Lifetime",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-16",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "1077991979",
+      "app_name": "Hypocam",
+      "iap": "ML Collections",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-16",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "1370362850",
+      "app_name": "LAYÒUT",
+      "iap": "Bokeh Film Pack",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-16",
+      "app_price": "$0.99"
+    },
+    {
+      "app_id": "1370362850",
+      "app_name": "LAYÒUT",
+      "iap": "Wisdom Font Pack",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-16",
+      "app_price": "$0.99"
+    },
+    {
+      "app_id": "1370362850",
+      "app_name": "LAYÒUT",
+      "iap": "Paper Film Pack",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-16",
+      "app_price": "$0.99"
+    },
+    {
+      "app_id": "6833468245",
+      "app_name": "Proctor Simulator",
+      "iap": "Permanent Unlock",
       "price": "$0.00",
       "permanent_free": true,
       "since": "2026-11-16",

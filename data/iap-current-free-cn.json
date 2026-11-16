@@ -1,7 +1,7 @@
 {
   "updated": "2026-11-16",
   "region": "cn",
-  "count": 243,
+  "count": 249,
   "items": [
     {
       "app_id": "6758658840",
@@ -2185,6 +2185,60 @@
       "app_id": "634353885",
       "app_name": "Любимые сказки",
       "iap": "Язык зверей",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-16",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "1077991979",
+      "app_name": "Hypocam",
+      "iap": "ML Collections",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-16",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "1370362850",
+      "app_name": "LAYOUT 拍立得相机 - 极简时尚自拍，复古海报美图设计",
+      "iap": "Future Font Pack",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-16",
+      "app_price": "¥8.00"
+    },
+    {
+      "app_id": "1370362850",
+      "app_name": "LAYOUT 拍立得相机 - 极简时尚自拍，复古海报美图设计",
+      "iap": "Bokeh Film Pack",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-16",
+      "app_price": "¥8.00"
+    },
+    {
+      "app_id": "1370362850",
+      "app_name": "LAYOUT 拍立得相机 - 极简时尚自拍，复古海报美图设计",
+      "iap": "Paper Film Pack",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-16",
+      "app_price": "¥8.00"
+    },
+    {
+      "app_id": "1574644243",
+      "app_name": "ZeroClock",
+      "iap": "永久会员",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-16",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "6814693609",
+      "app_name": "SunPetal：花园日照时长",
+      "iap": "无限次扫描",
       "price": "¥0.00",
       "permanent_free": true,
       "since": "2026-11-16",
