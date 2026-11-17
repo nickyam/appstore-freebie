@@ -152,8 +152,10 @@ def load_history(region):
 
 
 def save_json(name, obj):
+    # 紧凑写：iap-history-* 也是只给脚本读的内部状态，缩进纯属浪费体积
+    # （2026-11-17 起因 history-us.json 超 CF Pages 25 MiB 单文件上限而统一改造）
     with open(os.path.join(REPO, "data", name), "w", encoding="utf-8") as f:
-        json.dump(obj, f, ensure_ascii=False, indent=2)
+        json.dump(obj, f, ensure_ascii=False, separators=(",", ":"))
 
 
 def fetch_with_retry(url, region, tries=3):

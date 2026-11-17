@@ -392,7 +392,7 @@ def backfill_iap_page_fields(country):
             changed = True
     if changed:
         with open(p, "w", encoding="utf-8") as f:
-            json.dump(d, f, ensure_ascii=False, indent=2, sort_keys=False)
+            json.dump(d, f, ensure_ascii=False, sort_keys=False, separators=(",", ":"))
         print("[ok] backfill IAP page 字段: iap-free-%s.json (%d 事件)" % (country, len(events)))
 
 
@@ -607,9 +607,16 @@ def load_json(path):
 
 
 def save_json(path, obj):
+    """紧凑写出（不带缩进）。
+
+    2026-11-17：history-us.json 用 indent=2 已涨到 26.7 MiB，超过 Cloudflare
+    Pages 单文件 25 MiB 硬上限，导致 CF 部署连续失败、线上数据停在 11-15。
+    这些文件只被脚本读写、前端不 fetch，压成紧凑格式可直接省掉约 54% 体积
+    （us 26.7 → 12.3 MiB），也顺带减小每次提交的 git diff。
+    """
     os.makedirs(os.path.dirname(path), exist_ok=True)
     with open(path, "w", encoding="utf-8") as f:
-        json.dump(obj, f, ensure_ascii=False, indent=2)
+        json.dump(obj, f, ensure_ascii=False, separators=(",", ":"))
 
 
 def fetch_chart(country, kind, limit, genre=None):

@@ -217,7 +217,8 @@ def main():
             added[reg] += 1
         if not args.dry_run:
             os.makedirs(DATA_DIR, exist_ok=True)
-            json.dump(hist, open(hist_path, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
+            json.dump(hist, open(hist_path, "w", encoding="utf-8"),
+                      ensure_ascii=False, separators=(",", ":"))
         print("[%s] 新增本体限免 App: %d（库总量 %d）" % (reg, added[reg], len(hist)))
 
     if args.dry_run:

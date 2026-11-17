@@ -196,7 +196,8 @@ def load_manifest():
 
 def save_manifest(m):
     os.makedirs(DATA_DIR, exist_ok=True)
-    json.dump(m, open(MANIFEST_PATH, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
+    json.dump(m, open(MANIFEST_PATH, "w", encoding="utf-8"), ensure_ascii=False,
+              separators=(",", ":"))
 
 
 def _utc_now_iso():
@@ -444,7 +445,7 @@ def main():
         if not args.dry_run:
             os.makedirs(DATA_DIR, exist_ok=True)
             json.dump(pooled, open(hist_path, "w", encoding="utf-8"),
-                      ensure_ascii=False, indent=2)
+                      ensure_ascii=False, separators=(",", ":"))
         print(f"[history-{region}] 监控池新增 App: became_free {padd_became} + "
               f"内购活跃 {padd_active}（池总量 {len(pooled)}）")
 

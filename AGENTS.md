@@ -93,6 +93,22 @@
 - **限速**：lookup 100 id/批 + time.sleep 限速；商品页遇到 429/403 要指数退避重试，失败不写缓存、下轮再试，绝不把"未知"当 false。
 - **保底池**（iap_collector load_pool）：iap-history 仍免费 ∪ iap-current-free 在挂 的 App 排最前、不被 limit 裁掉——这是"恢复付费"检测的关键，保证僵尸条目不超过 7 天。
 - **分级调度**（详见铁律 7）：主池按"最近变价日"降序；播种班(UTC 22/23) limit=4500、其余班 2000；有 IAP 的 App 数接近/超过 4500 时同步调大。
+- **Cloudflare Pages 单文件 25 MiB 硬上限（2026-11-17 线上静默停更事故）**：
+  `data/history-us.json` 用 `indent=2` 写到 26.7 MiB 后，CF 部署在**校验阶段**就失败
+  （`Error: Pages only supports files up to 25 MiB in size`），线上一直停在最后一次成功的版本。
+  这类故障最阴险的地方是**全链路看起来都正常**：Actions 全绿、ECS 镜像照常同步、站点还返回 200，
+  只有 CF 主站数据冻住 —— 排查时先比 `data/free-today-cn.json` 里的 `generated_at`，
+  再比两站 `sitemap.xml` 的 `<loc>` 条数，能立刻看出 CF 落后多少。
+  已把所有 `data/*.json` 写入统一改成紧凑格式（`separators=(",", ":")`）：
+  us 26.7→12.3 MiB、全量 71.8→40.3 MiB（省 44%）。**但紧凑只是延缓**，app 池仍在涨、
+  `HISTORY_CAP=120` 天的窗口还没走满。
+  根治（在 CF 后台改，不在仓库里）：Pages 项目 → Settings → Build configuration →
+  Build command 填 `rm -f data/history-*.json data/iap-history-*.json`，输出目录留空。
+  依据：前端（`assets/js/app.js`）只 fetch `free-today-*` / `iap-free-*` / `iap-current-free-*`
+  / `iap-presence-*`，**从不读 `history-*`**，那 4 个 history 文件纯属 Actions 内部状态，
+  排除后对站点零影响。另注：Pages 的 Git 集成**不认 `.assetsignore`**（那是 Workers Static
+  Assets 的机制），别试图用文件排除。
+  历史文件被 CF 排除后 ECS 不受影响：`deploy/sync.sh` 是从 GitHub 拉源码再 rsync，不读 CF。
 
 ## 验证与运行
 
