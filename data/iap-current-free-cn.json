@@ -1,12 +1,12 @@
 {
   "updated": "2026-11-17",
   "region": "cn",
-  "count": 248,
+  "count": 260,
   "items": [
     {
-      "app_id": "6747979282",
-      "app_name": "赛博把脉·辨证脉象｜观相查体-智能手表实时把脉 随身诊脉",
-      "iap": "永久会员",
+      "app_id": "6739955345",
+      "app_name": "手电筒 Pro!",
+      "iap": "PRO",
       "price": "¥0.00",
       "permanent_free": false,
       "since": "2026-11-17",
@@ -87,7 +87,7 @@
     {
       "app_id": "1095903651",
       "app_name": "【到了吗】-线下约会·甜蛙·约K歌、看电影、密室逃脱...",
-      "iap": "特效6",
+      "iap": "特效5",
       "price": "¥0.00",
       "permanent_free": true,
       "since": "2026-11-17",
@@ -96,7 +96,7 @@
     {
       "app_id": "1095903651",
       "app_name": "【到了吗】-线下约会·甜蛙·约K歌、看电影、密室逃脱...",
-      "iap": "特效5",
+      "iap": "特效6",
       "price": "¥0.00",
       "permanent_free": true,
       "since": "2026-11-17",
@@ -1320,7 +1320,7 @@
     {
       "app_id": "584362474",
       "app_name": "Launchpad - Music & Beat Maker",
-      "iap": "FoundSoundJourney:ItalianChill",
+      "iap": "Found Sound Journey: Techno",
       "price": "¥0.00",
       "permanent_free": true,
       "since": "2026-11-17",
@@ -1329,7 +1329,7 @@
     {
       "app_id": "584362474",
       "app_name": "Launchpad - Music & Beat Maker",
-      "iap": "Found Sound Journey: Techno",
+      "iap": "FoundSoundJourney:ItalianChill",
       "price": "¥0.00",
       "permanent_free": true,
       "since": "2026-11-17",
@@ -1342,15 +1342,6 @@
       "price": "¥0.00",
       "permanent_free": true,
       "since": "2026-11-17",
-      "app_price": "免费"
-    },
-    {
-      "app_id": "584362474",
-      "app_name": "Launchpad - Music & Beat Maker",
-      "iap": "90s Rave - Girl Unit",
-      "price": "¥0.00",
-      "permanent_free": true,
-      "since": "2026-11-15",
       "app_price": "免费"
     },
     {
@@ -1399,15 +1390,6 @@
       "app_price": "免费"
     },
     {
-      "app_id": "1133575767",
-      "app_name": "听读宝 - 英语听力播放器 变速复读大师 原变速MP3",
-      "iap": "历年六级考试真题",
-      "price": "¥0.00",
-      "permanent_free": true,
-      "since": "2026-11-17",
-      "app_price": "免费"
-    },
-    {
       "app_id": "528519530",
       "app_name": "围棋死活宝典-单机版围棋入门围棋练习经典版",
       "iap": "围棋死活宝典基本死活集",
@@ -1437,7 +1419,7 @@
     {
       "app_id": "587852826",
       "app_name": "OverCam",
-      "iap": "Binary Image",
+      "iap": "Black and White",
       "price": "¥0.00",
       "permanent_free": true,
       "since": "2026-11-17",
@@ -1446,7 +1428,7 @@
     {
       "app_id": "587852826",
       "app_name": "OverCam",
-      "iap": "Black and White",
+      "iap": "Binary Image",
       "price": "¥0.00",
       "permanent_free": true,
       "since": "2026-11-17",
@@ -2148,6 +2130,15 @@
     {
       "app_id": "634353885",
       "app_name": "Любимые сказки",
+      "iap": "Горшочек каши",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-17",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "634353885",
+      "app_name": "Любимые сказки",
       "iap": "Гадкий утенок",
       "price": "¥0.00",
       "permanent_free": true,
@@ -2158,15 +2149,6 @@
       "app_id": "634353885",
       "app_name": "Любимые сказки",
       "iap": "Госпожа Метелица",
-      "price": "¥0.00",
-      "permanent_free": true,
-      "since": "2026-11-17",
-      "app_price": "免费"
-    },
-    {
-      "app_id": "634353885",
-      "app_name": "Любимые сказки",
-      "iap": "Горшочек каши",
       "price": "¥0.00",
       "permanent_free": true,
       "since": "2026-11-17",
@@ -2230,6 +2212,132 @@
       "app_id": "6814693609",
       "app_name": "SunPetal：花园日照时长",
       "iap": "无限次扫描",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-17",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "316133247",
+      "app_name": "朗文当代高级词典（第6版）",
+      "iap": "Example sentence search activation",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-17",
+      "app_price": "¥168.00"
+    },
+    {
+      "app_id": "6830170969",
+      "app_name": "选一下",
+      "iap": "选一下 Pro 永久解锁",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-17",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "6745721627",
+      "app_name": "Search Panel - Search Console",
+      "iap": "终身",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-17",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "6762476764",
+      "app_name": "MediaUtilityPro",
+      "iap": "MediaUtility Filmmakers Pro",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-17",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "6827030851",
+      "app_name": "SnipMark：截图标注与压缩",
+      "iap": "SnipMark Pro",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-17",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "1270890718",
+      "app_name": "AutoPad — Ambient Pad Loops",
+      "iap": "Bonus Sounds",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-17",
+      "app_price": "¥38.00"
+    },
+    {
+      "app_id": "1526043062",
+      "app_name": "Exporter for Contacts 2",
+      "iap": "Free Upgrade",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-17",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "415598742",
+      "app_name": "FaithBuilders Daily Devotional",
+      "iap": "30 Day Free Version",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-17",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "6447009272",
+      "app_name": "Soundbox - Instrument Platform",
+      "iap": "Soundbox Demo",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-17",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "6471479898",
+      "app_name": "猫历 - 可爱清新日历和日程表提醒事项",
+      "iap": "Blue Cat",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-17",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "6758364468",
+      "app_name": "iScript: intelligent Script",
+      "iap": "iScript Pro",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-17",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "6761639037",
+      "app_name": "Voice Notes: 语音转文字",
+      "iap": "Voice Notes Pro",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-17",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "6817391838",
+      "app_name": "Trombonophone",
+      "iap": "Trombonophone",
+      "price": "¥0.00",
+      "permanent_free": true,
+      "since": "2026-11-17",
+      "app_price": "免费"
+    },
+    {
+      "app_id": "6825102190",
+      "app_name": "KA Clinic Pro",
+      "iap": "Teste grátis de 7 dias",
       "price": "¥0.00",
       "permanent_free": true,
       "since": "2026-11-17",

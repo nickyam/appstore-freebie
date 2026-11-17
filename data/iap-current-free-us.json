@@ -1,7 +1,7 @@
 {
   "updated": "2026-11-17",
   "region": "us",
-  "count": 340,
+  "count": 363,
   "items": [
     {
       "app_id": "6809827203",
@@ -684,7 +684,7 @@
       "iap": "Free Starter Pack",
       "price": "$0.00",
       "permanent_free": true,
-      "since": "2026-11-16",
+      "since": "2026-11-17",
       "app_price": "Free"
     },
     {
@@ -693,7 +693,7 @@
       "iap": "Introducing the Midi",
       "price": "$0.00",
       "permanent_free": true,
-      "since": "2026-11-16",
+      "since": "2026-11-17",
       "app_price": "Free"
     },
     {
@@ -2902,6 +2902,15 @@
       "app_price": "$0.99"
     },
     {
+      "app_id": "6808996054",
+      "app_name": "Tasting Tours",
+      "iap": "Secrets of St. George Street",
+      "price": "$0.00",
+      "permanent_free": false,
+      "since": "2026-11-17",
+      "app_price": "$0.99"
+    },
+    {
       "app_id": "6825444856",
       "app_name": "大学青椒晋升之路",
       "iap": "解锁存档",
@@ -2983,6 +2992,15 @@
       "app_price": "Free"
     },
     {
+      "app_id": "6739955345",
+      "app_name": "Smart Torch MultiTool",
+      "iap": "PRO",
+      "price": "$0.00",
+      "permanent_free": false,
+      "since": "2026-11-17",
+      "app_price": "Free"
+    },
+    {
       "app_id": "6825074743",
       "app_name": "Halotone: Light Up a Tune",
       "iap": "Halotone Plus",
@@ -2997,15 +3015,6 @@
       "iap": "Plus Lifetime",
       "price": "$0.00",
       "permanent_free": true,
-      "since": "2026-11-17",
-      "app_price": "Free"
-    },
-    {
-      "app_id": "6815899323",
-      "app_name": "Kokoro Ryo: Journal & Planner",
-      "iap": "Kokoro Pro Lifetime",
-      "price": "$0.00",
-      "permanent_free": false,
       "since": "2026-11-17",
       "app_price": "Free"
     },
@@ -3058,6 +3067,204 @@
       "app_id": "6833468245",
       "app_name": "Proctor Simulator",
       "iap": "Permanent Unlock",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-17",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6815899323",
+      "app_name": "Kokoro Ryo: Journal & Planner",
+      "iap": "Kokoro Pro Lifetime",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-17",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6832240115",
+      "app_name": "Brumi : Photo&Storage Cleaner",
+      "iap": "Lifetime Pro",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-17",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6830170969",
+      "app_name": "Decilo",
+      "iap": "选一下 Pro 永久解锁",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-17",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6762476764",
+      "app_name": "MediaUtilityPro",
+      "iap": "MediaUtility Filmmakers Pro",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-17",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6824175108",
+      "app_name": "Games We Played",
+      "iap": "Lifetime Unlock",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-17",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6825425468",
+      "app_name": "Intergalactic Desk Toys",
+      "iap": "All Desk Toys",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-17",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6824127297",
+      "app_name": "Utly: Everyday Tools",
+      "iap": "Utly Pro Lifetime",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-17",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6808622622",
+      "app_name": "Calendar in Motion: DaySpin",
+      "iap": "DaySpin. Your new calendar.",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-17",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "1526043062",
+      "app_name": "Exporter for Contacts 2",
+      "iap": "Free Upgrade",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-17",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "1639349518",
+      "app_name": "MONIAC: Track expense & income",
+      "iap": "Lifetime Premium",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-17",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "354870264",
+      "app_name": "Emoticons",
+      "iap": "Super Slot Package",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-17",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6447009272",
+      "app_name": "Soundbox - Instrument Platform",
+      "iap": "Soundbox Demo",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-17",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6471479898",
+      "app_name": "Cat Calendar：Schedule Planner",
+      "iap": "Blue Cat",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-17",
+      "app_price": "$0.49"
+    },
+    {
+      "app_id": "6748335312",
+      "app_name": "Relive Photo Stories - Phomus",
+      "iap": "Lifetime",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-17",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6758364468",
+      "app_name": "iScript: intelligent Script",
+      "iap": "iScript Pro",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-17",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6761639037",
+      "app_name": "Voice Notes : Voice to Text",
+      "iap": "Voice Notes Pro",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-17",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6775887951",
+      "app_name": "WellKept: Your Well On Record",
+      "iap": "Pro Lifetime",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-17",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6776298439",
+      "app_name": "CureCellar",
+      "iap": "Lifetime",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-17",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6817391838",
+      "app_name": "Trombonophone",
+      "iap": "Trombonophone",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-17",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6825102190",
+      "app_name": "KA Clinic Pro",
+      "iap": "Teste grátis de 7 dias",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-17",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6825411577",
+      "app_name": "ShotPin",
+      "iap": "Unlock Everything",
+      "price": "$0.00",
+      "permanent_free": true,
+      "since": "2026-11-17",
+      "app_price": "Free"
+    },
+    {
+      "app_id": "6827030851",
+      "app_name": "SnipMark: Screenshot Markup",
+      "iap": "SnipMark Pro",
       "price": "$0.00",
       "permanent_free": true,
       "since": "2026-11-17",
