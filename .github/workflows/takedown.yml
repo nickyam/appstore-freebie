@@ -26,12 +26,15 @@ on:
 permissions:
   contents: write
 
-# 独立并发组：takedown 不等 daily，发现失效立刻秒级下架（实测 job 20s）。
-# 与 daily 共用并发组会导致 takedown 被 3h 的 daily 排队阻塞，失去「轻量」意义。
-# 与 daily 抢推 main 的冲突由下方 commit & push 的 rebase 重试（5 次）兜底，
-# 且 takedown 只删少量失效条目、rebase 代价极小，分离组安全。
+# 与 daily / daily-full 共用 freebie-update 组（cancel-in-progress: false），三者串行。
+# 2026-11-21 由独立组改回共组：takedown 每 2h 直推 main，而 daily 播种班要跑 2~3.5h，
+# 几乎必然撞车 → daily push 被拒 → 进 regenerate_and_push() 重跑一遍采集/生成（1~2h），
+# 且有丢种子心跳的风险（2026-11-19 事故）。串行后彻底消除该竞争。
+# 代价：takedown 最坏被 3h 的 daily 阻塞一班，下架延迟 ≤3.5h——限免雷达无需实时下架，
+# 可接受；同组只保留 1 个 pending，被取消的班次下一轮仍会重扫（幂等）。
+# 下方 rebase 重试保留作兜底（用户在 GitHub Desktop 手推时仍可能竞争）。
 concurrency:
-  group: freebie-takedown
+  group: freebie-update
   cancel-in-progress: false
 
 jobs:
