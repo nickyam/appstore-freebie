@@ -14,10 +14,11 @@
 
 判定（满足任一即 exit 1）：
   · 从未成功播种（无 seed_last_ok）
-  · 最近一次成功播种距今 > SEED_MAX_AGE_H（默认 30h，容上班次延迟 2~3h）
+  · 最近一次成功播种距今 > SEED_MAX_AGE_H（默认 33h：正常间隔 24h + 跑批 2~3h
+    + GitHub 排队/重试余量；30h 在跑批慢的班次会贴边误报）
   · 最近一次失败比最近一次成功更新（seed_last_fail > seed_last_ok）
 
-用法：python3 check_seed_health.py [--max-age-hours 30]
+用法：python3 check_seed_health.py [--max-age-hours 33]
 """
 import argparse
 import datetime
@@ -41,8 +42,8 @@ def parse_ts(ts):
 
 def main():
     ap = argparse.ArgumentParser(description="反斗播种健康检查（防静默失败）")
-    ap.add_argument("--max-age-hours", type=float, default=30.0,
-                    help="成功心跳最大允许陈旧时长（小时），默认 30")
+    ap.add_argument("--max-age-hours", type=float, default=33.0,
+                    help="成功心跳最大允许陈旧时长（小时），默认 33")
     args = ap.parse_args()
 
     now = datetime.datetime.now(datetime.timezone.utc)

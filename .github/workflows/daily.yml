@@ -54,6 +54,14 @@ jobs:
           # 浅克隆(depth=1)下 rebase 到已前进的远端容易直接失败。
           fetch-depth: 0
 
+      # 固化本班「触发时」的 UTC 小时，供后续 seed / limit 判断使用，而不是各步骤
+      # 各自取实时 date -u。原因：Commit & push 被拒会进 regenerate_and_push()，
+      # 里面 git reset --hard origin/main 后重跑 prepare()——此时距触发已数小时，
+      # 实时时钟可能早跨过 22/23 播种窗口，导致「播种被跳过 + 采集降级 2000」，
+      # 且 reset 已丢弃首次写好的种子心跳（2026-11-19 播种班即因此连续红 X）。
+      - name: Record run start hour (UTC)
+        run: echo "RUN_HOUR=$(date -u +%H)" >> "$GITHUB_ENV"
+
       - name: Set up Python
         uses: actions/setup-python@v6
         with:
@@ -70,7 +78,7 @@ jobs:
       - name: Seed from apprcn (仅 06:00 北京班)
         continue-on-error: true
         run: |
-          HR=$(date -u +%H)
+          HR="$RUN_HOUR"
           # ECS 每天固定 00:00/06:00/12:00/18:00 北京触发；只有 06:00（UTC 22）这班播种。
           # 兼容 dispatch 可能略晚跨到 UTC 23，故 22/23 都放行；其余时段跳过，避免每天播种 4 次。
           if [ "$HR" != "22" ] && [ "$HR" != "23" ]; then
@@ -82,7 +90,7 @@ jobs:
       - name: Seed IAP from apprcn (仅 06:00 北京班)
         continue-on-error: true
         run: |
-          HR=$(date -u +%H)
+          HR="$RUN_HOUR"
           if [ "$HR" != "22" ] && [ "$HR" != "23" ]; then
             echo "非播种时段（仅 06:00 北京 / UTC 22 时播种），跳过"
             exit 0
@@ -94,7 +102,7 @@ jobs:
         run: |
           # 播种班（北京 06:00 = UTC 22/23 时）扫 4500：主池已按"最近变价"降序，
           # 4500 覆盖全部有 IAP 的 app + 余量；其余 3 班扫 2000 刷新热点。
-          HR=$(date -u +%H)
+          HR="$RUN_HOUR"
           if [ "$HR" = "22" ] || [ "$HR" = "23" ]; then LIMIT=4500; else LIMIT=2000; fi
           echo "cn 内购采集：limit=$LIMIT（播种班=4500 覆盖全量热点 / 其余班=2000 刷新热点）"
           python scripts/iap_collector.py --region cn --limit $LIMIT --delay 0.3
@@ -102,7 +110,7 @@ jobs:
       - name: Collect IAP prices (us)
         continue-on-error: true
         run: |
-          HR=$(date -u +%H)
+          HR="$RUN_HOUR"
           if [ "$HR" = "22" ] || [ "$HR" = "23" ]; then LIMIT=4500; else LIMIT=2000; fi
           echo "us 内购采集：limit=$LIMIT（播种班=4500 覆盖全量热点 / 其余班=2000 刷新热点）"
           python scripts/iap_collector.py --region us --limit $LIMIT --delay 0.3
@@ -155,7 +163,7 @@ jobs:
           # 供「push 被拒重试」路径复用：reset --hard 会清空工作树，重试必须重新采集/生成，
           # 否则刚采的内购数据会丢失（至多陈旧 6 小时，可接受但应避免）。
           prepare() {
-            HR=$(date -u +%H)
+            HR="$RUN_HOUR"
             if [ "$HR" = "22" ] || [ "$HR" = "23" ]; then
               python scripts/seed_from_apprcn.py || echo "::warning::apprcn 播种失败（非致命，沿用已有 history）"
               python scripts/seed_iap_from_apprcn.py || echo "::warning::iap apprcn 播种失败（非致命，沿用已有 history）"
