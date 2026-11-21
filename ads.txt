@@ -1,0 +1,5 @@
+# ads.txt — 授权哪些广告系统可以售卖本站库存
+# 发布商 ID 与 index.html 的 ca-pub-7114121088728794 一致；
+# f08c47fec0942fa0 是 Google 的 TAG 认证机构 ID（写成其它值会被判无效行）。
+# 两个域名（appstore.nickyam.com / appstore.limzero.com）都从仓库根目录取这一份。
+google.com, pub-7114121088728794, DIRECT, f08c47fec0942fa0

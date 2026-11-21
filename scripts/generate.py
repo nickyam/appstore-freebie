@@ -75,6 +75,36 @@ def esc_html(s):
                       .replace(">", "&gt;").replace('"', "&quot;")
 
 
+def write_if_changed(path, html):
+    """只在内容真的变化时才落盘。返回 True=已写入 / False=内容与磁盘一致、跳过。
+
+    动机（2026-11-21 用户要求「只写变化页」）：write_app_pages / write_iap_pages
+    原先无条件重写当期全部页（cn+us 合计约 1,270 个）。而实际驱动内容变化的只有
+    两处：① 页面内嵌的 phistory 每**北京日**追加一个价点；② JS/CSS 改动导致
+    ?v= 变化。一天有 4 班，同一北京日内的后 3 班产物与上班**逐字节相同**，
+    无条件重写纯属白刷磁盘、抬高 mtime，且日志看不出"本班到底更新了几页"。
+
+    改成写前比对后：
+      · 日志能直接读到「共 N 页 / 本次变化 M 页」，等于自带内容变更监控；
+      · app/ 涨到几千页时不会被无谓写盘拖长跑批（也少掉一堆无意义的 git stat）。
+
+    边界：这是"少写"不是"少算" —— HTML 仍在内存里构建（实测 1,270 页约 1.5s），
+    比对省的是写盘（约 2.5s）。真正的大头在 IAP 网络采集，不在此处。
+    读取失败（权限/编码异常）时退回无条件写：宁可多写，不可漏写。
+    """
+    try:
+        with open(path, encoding="utf-8") as f:
+            if f.read() == html:
+                return False
+    except FileNotFoundError:
+        pass
+    except Exception:
+        pass
+    with open(path, "w", encoding="utf-8") as f:
+        f.write(html)
+    return True
+
+
 def write_app_pages(items, country, today):
     """为当期限免/特价 App 生成独立详情页（SEO + 可分享 URL）。
 
@@ -131,9 +161,10 @@ def write_app_pages(items, country, today):
         if og_img:
             og_img = re.sub(r'/(\d+)x(\d+)bb(\.\w+)$', r'/512x512bb\3', og_img)
         html = html.replace("__OG_IMAGE__", esc_html(og_img))
-        with open(os.path.join(BASE_DIR, page_rel), "w", encoding="utf-8") as f:
-            f.write(html)
-        count += 1
+        if write_if_changed(os.path.join(BASE_DIR, page_rel), html):
+            count += 1
+    print("[info] 本体详情页 %s：共 %d 页，本次写入 %d 页（%d 页内容未变，跳过）"
+          % (country, len(items), count, len(items) - count))
     return count
 
 
@@ -319,10 +350,11 @@ def write_iap_pages(country, today, rel_pool=None):
         if og_img:
             og_img = re.sub(r'/(\d+)x(\d+)bb(\.\w+)$', r'/512x512bb\3', og_img)
         html = html.replace("__OG_IMAGE__", esc_html(og_img))
-        with open(os.path.join(BASE_DIR, page_rel), "w", encoding="utf-8") as f:
-            f.write(html)
+        if write_if_changed(os.path.join(BASE_DIR, page_rel), html):
+            count += 1
         keep.add(page_rel)
-        count += 1
+    print("[info] 内购详情页 %s：共 %d 页，本次写入 %d 页（%d 页内容未变，跳过）"
+          % (country, len(keep), count, len(keep) - count))
     return count, keep
 
 
@@ -558,7 +590,12 @@ def prune_app_pages(max_age_days):
       · 无用户评分（rating==0）的页；
       · 有评分但页面生成日期早于 max_age_days 天（该 App 长期未再进入限免/特价，
         对 SEO 与抓取预算价值递减）。
-    当期清单里的 App 每次运行都会被重写（data-page-date 为当天），因此不会被误删。
+
+    判据读的是页面**内容**里的 data-page-date，与文件 mtime 无关——所以
+    write_if_changed（2026-11-21）改成"内容不变不落盘"后，不会因为 mtime
+    停止刷新而误删当期页面：当期 App 每次运行都会重算 HTML，同一北京日内
+    内容相同 → 不写，但页内 data-page-date 依然是当天；跨日内容变化 → 写，
+    日期随之前进。掉出清单的页不再重算，日期自然停在最后一次进榜那天。
     """
     if not os.path.isdir(APP_DIR):
         return 0
@@ -1072,7 +1109,7 @@ def main():
     print(f"[ok] country={country} full={full} date={today} monitored={len(union)} "
           f"library={len(history)} freebies={len(freebies)} deals={len(deals)} "
           f"(全量输出，无展示上限)")
-    print(f"[ok] app pages written={pages_written} iap pages={iap_written} "
+    print(f"[ok] app pages changed={pages_written} iap pages changed={iap_written} "
           f"sitemap_urls={sm_urls} pruned={pruned} iap_pruned={iap_pruned}")
     sync_includes()
     sync_base_tag()
