@@ -27,6 +27,17 @@ jobs:
           # 完整历史：git pull --rebase 需要正确的 merge base
           fetch-depth: 0
 
+      - name: Sync to latest main (启动前对齐，避免与 daily 的提交 rebase 冲突)
+        # 与 takedown.yml 同一处理（2026-11-21）：本 job 与 daily 同属 freebie-update 组，
+        # 必然排在某个 daily 之后启动，而 checkout 取的是**触发时**的 sha。
+        # 不先对齐 → 跑完 1~2h 后 push 必被拒 → 走 regenerate_and_push 再全量重跑一遍。
+        # 前置 reset 省掉这次白跑（此刻无本地修改，reset 安全）。
+        run: |
+          set -e
+          git fetch origin main
+          git reset --hard origin/main
+          echo "已同步到最新 main：$(git log --oneline -1)"
+
       - name: Set up Python
         uses: actions/setup-python@v6
         with:

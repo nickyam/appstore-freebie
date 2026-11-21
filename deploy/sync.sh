@@ -3,7 +3,7 @@
 # sync.sh —— 阿里云 ECS 上同步 appstore-freebie 静态站
 # 用法：
 #   首次： bash /path/to/sync.sh
-#   日常： setup.sh 已注册系统 cron，每 6 小时（每班 :30）自动跑
+#   日常： setup.sh 已注册系统 cron（/etc/cron.d/freebie-sync，30 */2 → 每 2 小时 :30）自动跑
 #
 # 【重要】同步方式说明：
 #   早期版本用 git clone 直接到站点根目录，导致 .git / scripts / deploy /
@@ -61,17 +61,46 @@ fi
 mkdir -p "$DEPLOY_DIR" "$REPO_TMP"
 
 # ---- 2. 拉取 / 更新内容源 ----
-if [ ! -d "$REPO_TMP/.git" ]; then
-  echo "[sync] 首次克隆内容源（${AUTH}）…"
-  rm -rf "$REPO_TMP"
-  git clone --depth 1 --branch "$BRANCH" "$REPO_URL" "$REPO_TMP"
-else
-  echo "[sync] 拉取最新内容源（${AUTH}）…"
-  cd "$REPO_TMP"
-  git remote set-url origin "$REPO_URL" 2>/dev/null || true
-  git fetch --depth 1 origin "$BRANCH"
-  git reset --hard "origin/$BRANCH" > /dev/null
-  git clean -fd data/ > /dev/null 2>&1 || true
+# 大陆 ECS → github.com:443 偶发不可达（2026-10-26 22:30 之后连续两班握手超时、
+# HTTP2 framing error），单次失败会让镜像站掉队整整一个班（2 小时），用户在
+# appstore.limzero.com 上看到的还是旧页面/旧资源戳。
+# 故改成「重试 + 协议降级」：前两次走默认 HTTP/2（快），之后降级 HTTP/1.1
+# （跨境链路上 curl 16 / GnuTLS framing 错误的常见解法），并加低速超时保护；
+# 全部失败则保留上一版内容退出 —— 宁可旧，也不能半新半旧（资源戳与 assets 不一致）。
+pull_repo() {
+  local attempt httpopt backoff
+  for attempt in 1 2 3 4; do
+    if [ "$attempt" -le 2 ]; then httpopt=""; else httpopt="-c http.version=HTTP/1.1"; fi
+    if [ ! -d "$REPO_TMP/.git" ]; then
+      echo "[sync] 首次克隆内容源（${AUTH}）… 第 ${attempt} 次"
+      rm -rf "$REPO_TMP"
+      if git $httpopt -c http.lowSpeedLimit=1000 -c http.lowSpeedTime=60 \
+           clone --depth 1 --branch "$BRANCH" "$REPO_URL" "$REPO_TMP"; then
+        return 0
+      fi
+    else
+      echo "[sync] 拉取最新内容源（${AUTH}）… 第 ${attempt} 次"
+      if (
+        cd "$REPO_TMP" || exit 1
+        git remote set-url origin "$REPO_URL" 2>/dev/null || true
+        git $httpopt -c http.lowSpeedLimit=1000 -c http.lowSpeedTime=60 \
+          fetch --depth 1 origin "$BRANCH" &&
+        git reset --hard "origin/$BRANCH" > /dev/null &&
+        git clean -fd data/ > /dev/null 2>&1
+      ); then
+        return 0
+      fi
+    fi
+    case "$attempt" in 1) backoff=15;; 2) backoff=30;; *) backoff=60;; esac
+    echo "[sync] GitHub 不可达，${backoff}s 后重试…"
+    sleep "$backoff"
+  done
+  return 1
+}
+
+if ! pull_repo; then
+  echo "[sync] ⚠️ GitHub 连续 4 次不可达，本班放弃；站点保留上一版完整内容: $(date '+%Y-%m-%d %H:%M:%S')"
+  exit 1
 fi
 
 # ---- 3. rsync 只同步「网站真正需要的文件」到站点根目录 ----
@@ -92,7 +121,7 @@ echo "[sync] 同步网站文件到站点根目录…"
 #   data/iap-history-*.json（cn 10MB + us 8.6MB）纯属内部台账（含播种心跳、
 #   错误串、逐 IAP 变价史），前端从不 fetch（app.js 只取 free-today /
 #   iap-free / iap-current-free），verify_live_freebies.py 也不读它。
-#   排除后：ECS 磁盘少 18MB、git 拉取后 rsync 少搬 18MB、也避免
+#   排除后：ECS 磁盘少 18MB、rsync 少搬 18MB、也避免
 #   /data/iap-history-us.json 被公网直接下载。
 #   CF Pages 侧对应的是「构建命令 rm -f data/history-* data/iap-history-*」，
 #   CF 上两份都可删；但 ECS **只能删 iap-history**，原因见下。
@@ -103,6 +132,11 @@ echo "[sync] 同步网站文件到站点根目录…"
 #   结果是特价失效检测被静默关闭（每轮 verify 都变瞎子，还看不出来）。
 #   将来若要一并排除，必须先把 verify 的 history 源改指向内容源缓存
 #   /root/.freebie-repo-cache/data（那里有完整 history），再动 rsync。
+#
+# ⚠️ 本文件的权威版在仓库，ECS 上跑的是 /root/freebie-deploy/sync.sh（手工副本）。
+#   改完必须手动同步过去，否则只在仓库里"看起来改了"（2026-11-21 踩过：
+#   仓库版曾丢失 pull_repo 重试逻辑，与 ECS 版分叉；ECS 版又多出 preview.html 排除）。
+#   合并时以两边并集为准，勿单方向覆盖。
 rsync -a --delete --delete-excluded \
   --exclude '.git' \
   --exclude '.gitignore' \
@@ -110,6 +144,7 @@ rsync -a --delete --delete-excluded \
   --exclude 'scripts' \
   --exclude 'deploy' \
   --exclude 'README.md' \
+  --exclude 'preview.html' \
   --exclude 'AGENTS.md' \
   --exclude 'data/iap-history-cn.json' \
   --exclude 'data/iap-history-us.json' \

@@ -33,6 +33,10 @@ permissions:
 # 代价：takedown 最坏被 3h 的 daily 阻塞一班，下架延迟 ≤3.5h——限免雷达无需实时下架，
 # 可接受；同组只保留 1 个 pending，被取消的班次下一轮仍会重扫（幂等）。
 # 下方 rebase 重试保留作兜底（用户在 GitHub Desktop 手推时仍可能竞争）。
+# 🔴 但「串行」带来一个新问题：本 job 必然紧跟 daily 之后跑，而 checkout 取的是触发时
+#    的旧 sha，daily 刚推的提交又恰好改了本流程要改的同几个文件 → rebase 必冲突
+#    （2026-11-21 04:10Z 班次因此失败）。故在 checkout 后加一步 reset --hard origin/main，
+#    先对齐到最新再校验/下架，push 时便无需 rebase。**删掉那一步会立刻复发。**
 concurrency:
   group: freebie-update
   cancel-in-progress: false
@@ -46,6 +50,20 @@ jobs:
         with:
           # 完整历史：git pull --rebase 需要正确的 merge base
           fetch-depth: 0
+
+      - name: Sync to latest main (避免与刚跑完的 daily rebase 冲突)
+        # 🔴 2026-11-21 04:10Z 班次失败根因（勿删本步）：
+        #   并发组串行后，本 job 必然排在 daily 之后启动，但 actions/checkout 取的是
+        #   **触发时**的 sha（旧提交），而 daily 刚推的新提交恰好改了本流程要改的同几个
+        #   文件（data/free-today-*.json / sitemap.xml / app/）→ 基于旧 sha 提交后
+        #   `git pull --rebase` 必冲突 → 重试 5 次全 abort → exit 1。
+        #   排在 daily 之后不是偶然而是常态，所以冲突概率接近 100%。
+        # 此刻尚未做任何修改，reset --hard 无损失；且校验/下架改用 daily 最新价格更准确。
+        run: |
+          set -e
+          git fetch origin main
+          git reset --hard origin/main
+          echo "已同步到最新 main：$(git log --oneline -1)"
 
       - name: Set up Python
         uses: actions/setup-python@v6
