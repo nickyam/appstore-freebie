@@ -133,6 +133,9 @@ echo "[sync] 同步网站文件到站点根目录…"
 #   将来若要一并排除，必须先把 verify 的 history 源改指向内容源缓存
 #   /root/.freebie-repo-cache/data（那里有完整 history），再动 rsync。
 #
+#   data/.* —— data 下的点文件（如 .seed_iap_apprcn_manifest.json）全是 Actions
+#   内部台账，前端不读；一条通配覆盖，免得以后每加一个点文件就要补一条 exclude。
+#
 # ⚠️ 本文件的权威版在仓库，ECS 上跑的是 /root/freebie-deploy/sync.sh（手工副本）。
 #   改完必须手动同步过去，否则只在仓库里"看起来改了"（2026-11-21 踩过：
 #   仓库版曾丢失 pull_repo 重试逻辑，与 ECS 版分叉；ECS 版又多出 preview.html 排除）。
@@ -148,6 +151,7 @@ rsync -a --delete --delete-excluded \
   --exclude 'AGENTS.md' \
   --exclude 'data/iap-history-cn.json' \
   --exclude 'data/iap-history-us.json' \
+  --exclude 'data/.*' \
   "$REPO_TMP/" "$DEPLOY_DIR/"
 
 # ---- 4. 修正权限（1Panel / 容器内以 www 读取）----
