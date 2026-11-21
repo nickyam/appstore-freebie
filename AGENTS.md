@@ -12,6 +12,11 @@
    - app/*.html 独立页、sitemap.xml、资源戳 ?v=、安全头注入（sync_includes）、IAP 页清理，全部收口在 `scripts/generate.py`。
    - 其它脚本（seed_*、iap_collector、probe_iap_presence）**不得**写 HTML、改 sitemap、改根级静态页。
    - 反斗限免种子器已退化为纯 history 播种，第三方 API 脱离页面生产关键路径。
+   - **只写变化页（2026-11-21）**：`write_app_pages` / `write_iap_pages` 一律经 `write_if_changed()`
+     写前比对，内容相同即跳过，日志打印「共 N 页 / 本次写入 M 页」。同日内后 3 班产物逐字节相同
+     （价格序列 `h` 按北京日去重），所以这是常态零写入。**加新的写页路径也必须走它**，否则又会
+     退回无条件全量刷 mtime。注意 `prune_app_pages` 读页面内容里的 `data-page-date` 而非 mtime，
+     不依赖"每班重写续命"，两者可以并存。
 
 2. **data JSON 的 schema 是三方契约，改前必须同步**
    以下文件的结构被 generate.py 和前端 assets/js/app.js 读取，改动前必须三方同步：
