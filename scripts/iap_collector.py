@@ -22,13 +22,23 @@ IAP 价格历史采集器（P1）—— 内购限免的正式数据源
         从第 2 次采集起可捕获「付费→0」跳变；观察数日稳定性后，
         永久免费项（ever_paid=False）自动归入「常驻免费」，不再污染限免 feed。
 
-CI 注意：本采集器产出的 4 个 data/iap-*.json 由独立的 iap.yml 负责 git add，
-         不要塞进 daily*.yml/seed.yml 的 PATHS（避免改坏已加固的 CI 铁律）。
+CI 注意：本采集器产出的 data/iap-*.json 由 daily.yml 的「Commit & push」统一
+         git add（PATHS 已列全），不再有独立的 iap.yml。改产出文件名时必须
+         同步改 daily.yml 与 daily-full.yml 两处 PATHS，否则「已改未暂存」
+         会让 git pull --rebase 拒绝、整班红。
+
+产出闸门（2026-11-21 新增，防静默失败）：
+  各工作流里本脚本都带 continue-on-error，整池被限流/页面改版导致解析全失败时，
+  脚本会带着 ok=0 照常写盘——meta.updated 刷新、iap-free 被冲成空、
+  CI 依然全绿。run() 结尾按「处理率」判定：低于 --min-ok-ratio（默认 0.5）
+  则**不写盘**并 exit 2，保留旧数据；check_seed_health.py 再据 collected_at
+  陈旧度兜底报红。
 
 用法：
   python3 iap_collector.py --region cn [--limit 2000] [--delay 0.3]
   python3 iap_collector.py --region us [--limit 2000]
   python3 iap_collector.py --region cn --limit 0   # 0 = 不截断，扫全池
+  python3 iap_collector.py --region cn --min-ok-ratio 0.3   # 临时放宽闸门
   python3 iap_collector.py --selftest     # 用合成历史验证事件检测逻辑
 """
 import sys, os, re, json, html, time, argparse, urllib.request
@@ -52,6 +62,13 @@ ITUNES_LOOKUP = "https://itunes.apple.com/lookup?id={ids}&country={region}&limit
 SEED_LIMIT = 4500
 # 池规模容量检查：有 IAP 的 app 数距 SEED_LIMIT 不足此值时，selftest 发"临近"告警。
 POOL_WARN_HEADROOM = 300
+# 产出闸门：本班成功率低于此值视为链路故障（限流/改版/被墙），不写盘并 exit 2。
+# 实测正常班处理率 >99%（2026-11-20 非播种班 cn 1993/2000、us 1996/2000，
+# 跳过的都是已下架查不到的 App）；0.5 留足余量，只在「大面积失败」时触发，
+# 避免一次网络抖动就白丢一班数据。
+MIN_OK_RATIO = 0.5
+# 成功率低于此值时虽写盘但打 ::warning::（提前预警，不阻断）。
+WARN_OK_RATIO = 0.8
 
 
 def parse_app_name(body):
@@ -339,7 +356,7 @@ def enrich_events_itunes(region, events, current_free=None):
     return out, (current_free or [])
 
 
-def run(region, limit, delay):
+def run(region, limit, delay, min_ok_ratio=MIN_OK_RATIO):
     # 按北京时间（UTC+8）翻日：内购限免的 NEW 角标与「已免费 N 天」在北京时间凌晨 0 点更新，
     # 而非 CI runner 的 UTC 午夜（=北京时间 16:00），避免用户感知到的「今天」滞后。
     today = (datetime.now(timezone.utc) + timedelta(hours=8)).strftime("%Y-%m-%d")
@@ -367,8 +384,29 @@ def run(region, limit, delay):
         if i % 50 == 0:
             print(f"  ... {i}/{len(pool)} 已处理 {ok}，跳过 {skip}")
         time.sleep(delay)
-    hist["meta"].update({"updated": today, "pool_size": len(pool),
-                         "processed": ok, "skipped": skip})
+
+    # ---- 产出闸门（防静默失败）：判定放在写盘之前 ----
+    # 不通过就整班不落盘：meta.updated / collected_at 都不刷新，
+    # iap-free 也不会被冲成空数组，check_seed_health.py 能据陈旧度报警。
+    n = len(pool)
+    if n == 0:
+        print(f"::error::[{region}] 候选池为空（limit={limit}）："
+              f"history-{region}.json 可能缺失或播种失败，本班不写盘")
+        sys.exit(2)
+    ratio = ok / n
+    if ratio < min_ok_ratio:
+        print(f"::error::[{region}] 产出闸门拦下：处理 {ok}/{n} = {ratio:.1%}，"
+              f"低于下限 {min_ok_ratio:.0%}（跳过 {skip}）。疑似接口限流/页面改版，"
+              f"本班不写盘以保留旧数据")
+        sys.exit(2)
+    if ratio < WARN_OK_RATIO:
+        print(f"::warning::[{region}] 处理率偏低 {ok}/{n} = {ratio:.1%}"
+              f"（跳过 {skip}），数据可能不全，请留意本班日志")
+
+    hist["meta"].update({"updated": today, "pool_size": n,
+                         "processed": ok, "skipped": skip,
+                         "collected_at": datetime.now(timezone.utc)
+                                         .strftime("%Y-%m-%dT%H:%M:%SZ")})
     save_json(f"iap-history-{region}.json", hist)
     events, current_free = detect_events(hist, region, today)
     events, current_free = enrich_events_itunes(region, events, current_free)  # 补评分富化+App本体价；无评分不收录
@@ -441,12 +479,14 @@ def main():
     ap.add_argument("--region", choices=["cn", "us"], default="cn")
     ap.add_argument("--limit", type=int, default=2000)
     ap.add_argument("--delay", type=float, default=0.3)
+    ap.add_argument("--min-ok-ratio", type=float, default=MIN_OK_RATIO,
+                    help=f"产出闸门：本班处理率低于此值则不写盘并 exit 2（默认 {MIN_OK_RATIO}）")
     ap.add_argument("--selftest", action="store_true")
     args = ap.parse_args()
     if args.selftest:
         selftest()
         return
-    run(args.region, args.limit, args.delay)
+    run(args.region, args.limit, args.delay, args.min_ok_ratio)
 
 
 if __name__ == "__main__":

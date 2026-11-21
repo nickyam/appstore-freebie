@@ -4,25 +4,28 @@
 找出「平时收费、限时免费」的 App 与降价特价，生成静态 JSON 由前端渲染。
 数据来自 Apple 官方接口（iTunes RSS + Search API），图标走苹果 CDN，不做转存。
 
-> 设计原则：全部跑在 Cloudflare Pages（静态托管）+ GitHub Actions（每日比价），
-> **不依赖你那台阿里云服务器**，符合「阿里云只跑合规计算、内容/前端走 CF」的分工。
+> 设计原则：站点本身**零后端**——Cloudflare Pages 静态托管 + GitHub Actions 跑批，
+> 阿里云 ECS **只做两件事**（不参与数据计算）：
+> ① 准点调用 `workflow_dispatch` 触发跑批（绕开免费 runner 排队长尾）；
+> ② 跑一个国内镜像站（`appstore.limzero.com`，rsync 拉产物）。
+> 分工是「阿里云只做合规与调度、内容/前端走 CF」。
 
 ---
 
 ## 工作原理
 
-1. **GitHub Actions** 每 6 小时（北京时间 08:00 / 14:00 / 20:00 / 02:00）分别运行 `scripts/generate.py --country cn` 与 `--country us`：
+1. **GitHub Actions** 每 6 小时（北京时间 00:00 / 06:00 / 12:00 / 18:00 由 ECS 触发）分别运行 `scripts/generate.py --country cn` 与 `--country us`：
    - 构建「宽监控池」：抓取苹果 **22 个分类的付费榜 Top100 + 畅销榜 Top100** + 整体免费榜 Top200（去重后每区数千个易做限免的 App），
-     再与本地 **30 天价格历史**(`data/history-{country}.json`) 取并集——**哪怕 App 跌出榜单也持续跟踪**；
+     再与本地**价格历史**（`data/history-{country}.json`，每 App 最多 120 条日快照 + 永久原价基线）取并集——**哪怕 App 跌出榜单也持续跟踪**；
    - 用官方 `lookup` 接口逐个核对实时价格（按 100 个/批、礼貌限速）；
-   - 以 **30 天历史价格基线**判定（取代旧版「只和前一天比」），每 App 每区独立保存价格快照：
-     - 限免：当前价 = 0，且 30 天历史中**曾 > 0**，且连续为 0 的天数 ≤ 7（排除永久免费 / 长期免费）；天然覆盖「日内闪免」与「跨天」两种触发；
-     - 降价（特价）：当前价 < 30 天最高价，且**降幅 ≥ 50%**；
+   - 以**永久价格基线**判定（取代旧版「只和前一天比」；原价见过一次就永久记住，不随窗口裁剪消失），每 App 每区独立保存价格快照：
+     - 限免：当前价 = 0，且历史基线中**曾 > 0**，且连续为 0 的天数 ≤ 7（排除永久免费 / 长期免费）；天然覆盖「日内闪免」与「跨天」两种触发；
+     - 降价（特价）：当前价 < 历史最高价，且**降幅 ≥ 50%**；
    - 按「新触发优先、其次用户评分降序」排序，输出 `data/free-today-{country}.json`（每类最多展示 100 条，历史仍全量保留），历史回写后 commit 回仓库。
 2. **Cloudflare Pages** 部署仓库静态文件；前端 `assets/js/app.js` 按所选地区拉取
    同域 `data/free-today-{country}.json` 渲染，顶部菜单可在「🇨🇳 中国区 / 🇺🇸 美国区」间切换，卡片展示图标 / 开发者 / 分类 / 评分 / 价格。
 
-> 历史为空时首次运行只初始化（不报限免）；**1~2 天后** 30 天基线逐步建立即可稳定检出。监控池与历史越跑越准，限免/特价覆盖随天数提升。
+> 历史为空时首次运行只初始化（不报限免）；**1~2 天后**基线逐步建立即可稳定检出。监控池与历史越跑越准，限免/特价覆盖随天数提升。
 
 ---
 
@@ -68,32 +71,23 @@ python3 scripts/generate.py --country us
 
 ## AdSense 接入（变现）
 
-- `index.html` 已挂自动广告脚本，发布商 ID 为 `ca-pub-7114121088728794`
-  （如需更换，改 `<head>` 与各处 `data-ad-client`）。
-- 页面内 `<ins data-ad-slot="0000000000">` 的 `0000000000` 换成你在 AdSense 建的**内容广告单元 ID**。
-- 在 AdSense 后台「添加站点」提交你的域名，审核通过后广告自动生效。
+- 发布商 ID `ca-pub-7114121088728794`，已配在 `index.html` 的 `<head>` 与各处 `data-ad-client`。
+- **全站开启 Auto Ads**（页面级自动广告，`enable_page_level_ads: true`）：插位交给 Google
+  判定，代码里不再手工搬运列表广告位。
+- 详情页（`app/*.html`）另保留**一个手动顶部展示位**（`adSlotHTML()` / `pushAd()`，
+  slot `7735913921`），作为 Auto Ads 之外的稳定补充。
 
-### 信息流原生广告（in-feed，手动可控）
-- 卡片网格（本体限免/特价列表、内购限免列表）按固定间隔自动插入广告卡，外观与内容卡片等高对齐，做到无缝穿插。
-- 配置在 `assets/js/app.js` 顶部附近：`INFEED_AD_SLOT`（In-feed 单元专属 slot，不要复用顶部展示位）、
-  `INFEED_AD_LAYOUT_KEY`（后台「创建广告样式 > 手动」生成的 layout key）、`INFEED_AD_INTERVAL`（每隔多少张卡片插 1 张，当前 10，设 0 关闭）。
-- **为什么不用 Google 自动扫描**：卡片由 JS 动态生成，Google 的 feed 自动扫描看不到 DOM 里的 `.card`，扫描必然失败；
-  故采用**手动样式**方案——在 AdSense 后台为 In-feed 单元「创建广告样式（手动）」拿到 layout-key，写死到 `INFEED_AD_LAYOUT_KEY`，
-  前端用 `data-ad-format="fluid" + data-ad-layout-key` 渲染出匹配卡片样式的原生信息流广告（与反斗限免那种无缝效果一致）。
-  layout-key 留空时回退为 `data-ad-format="auto"`（普通展示广告，仍能展示但非真·原生）。
-- `index.html` 已关闭页面级自动广告（`enable_page_level_ads: false`），仅首页 feed 走手动 in-feed；独立页（`app/*.html`）仍保留自动广告补充。
-- **懒加载（2026-10-29 加）**：广告位不是渲染时就插入，而是先用 IntersectionObserver 监视「排在广告位置的内容卡」，
-  滚动接近（提前 `INFEED_AD_ROOT_MARGIN`，默认 400px）时才在该卡前面插入广告并请求。
-  同一时刻基本只有一个请求在飞，填充率明显高于「一次性请求十几个」。
-  > 实现坑（勿回退）：不能预先插一个 `display:none` 的占位壳再等它进视口——
-  > **`display:none` 的元素 IntersectionObserver 永不判定为 intersecting**，结果是广告一个都不加载；
-  > 而不隐藏又会当场留下空格子。所以只能拿真实内容卡当锚点。
-- **同一个 In-feed 单元在同一页重复使用是合规的**：Google 官方说明允许把同一个 In-feed 代码在 feed 里放多次
-  （2016 年起也取消了每页广告单元数量的硬上限）。真正的副作用是**填充率**——一页请求十几次时 AdSense 往往只给前几个填充，
-  其余返回 unfilled。为此前端加了兜底：`app.js` 的 `watchInFeedAds()` 会检测每个广告位是否被填充
-  （`data-ad-status="filled"` / 注入 iframe / 高度 > 0），超过 `INFEED_AD_FILL_TIMEOUT`（默认 6 秒）仍未填充的，
-  给卡片加 `.ad-empty` 隐藏，不会留下一排空方框。
-  > 合规前提：广告位必须以**可见**状态发起请求（不能 `display:none` 后请求），所以只做「事后隐藏」。
+### 卡片网格里的「自家推荐卡」（取代原 In-feed 广告）
+- 列表按固定间隔插入**自建推荐卡**而非谷歌 in-feed 广告：`assets/js/app.js` 的
+  `PROMO_INTERVAL`（当前 18，设 0 关闭）+ `PROMO_ITEMS`（4 条轮播：凌零集 / LibreTV /
+  美区 Apple ID 指南 / 极限零点）。纯静态 HTML，不加载任何第三方脚本。
+- **为什么放弃 in-feed 广告（2026-11 定案，勿回退）**：卡片由 JS 动态生成，Google 的 feed
+  自动扫描看不到 DOM 里的 `.card`，只能手工配 layout-key；跨域 iframe 让广告高度无法与内容卡
+  对齐，且一页请求十几次时只有前几个被填充、其余全 unfilled 留下空方框。换自家推荐卡后既保住
+  页面节奏，又把流量导回自有资产。
+
+### 图片加载
+- 卡片图标、详情页截图均已带 `loading="lazy"`；图标走苹果官方 CDN，不转存。
 
 ### ⚠️ 合规要点（关系到账号生死）
 - 本页已带**原创编辑内容**（限免是什么、我们怎么算、免责声明），避免被判「薄内容 / 抓取内容」。
@@ -110,7 +104,7 @@ python3 scripts/generate.py --country us
 - **调监控池 / 展示量**：`scripts/generate.py` 顶部 `GENRE_LIMIT`（每分类付费榜条数，RSS 实测每源上限 100）、
   `GROSS_LIMIT`（每分类畅销榜条数）、`FREE_LIMIT`（免费榜条数）、`APP_PAGE_MAX_AGE_DAYS`（独立页过期清理天数，默认 365）、`HISTORY_MAX_ENTRIES`（价格库软上限，默认 50000）、
   `DEAL_DROP_PCT`（降价判定降幅阈值）、`MAX_DISPLAY`（前端最多展示的限免/特价数）均可调。
-  > 注：原 `HISTORY_DAYS` 常量已废弃移除——价格历史改为「每 App 每区独立快照 + 30 天基线」持久化，不再按总天数裁剪。
+  > 注：原 `HISTORY_DAYS` 常量已废弃移除——价格历史改为「每 App 每区独立快照（`HISTORY_CAP=120` 条）+ 永久原价基线」持久化，不再按总天数裁剪；「30 天」只用于详情页价格走势图展示。
 - **改调度频率**：生成节奏由 ECS 的 `/etc/cron.d/freebie-dispatch`（daily.yml 每日 4 班 00:00/06:00/12:00/18:00 北京）与 `/etc/cron.d/freebie-dispatch-full`（daily-full.yml 每日 03:30 北京）控制，镜像同步 `/etc/cron.d/freebie-sync` 每 2 小时拉取一次即可；调度都在 ECS 的 `/etc/cron.d/` 下，改频率直接改对应文件，无需动 GitHub cron。
 - **出英文版拉海外流量**：复制一套 `index.html` 文案为英文，可抬高 AdSense RPM（中国区流量 RPM 偏低）。
 
@@ -126,7 +120,7 @@ appstore-freebie/
 │   └── js/app.js           # 按地区拉取 data/free-today-{country}.json 并渲染
 ├── scripts/generate.py     # 比价生成器（支持 --country cn/us，GitHub Actions 调用）
 ├── data/
-│   ├── history-cn.json     # 中国区 30 天价格历史（每 App 每区独立快照，自动累积）
+│   ├── history-cn.json     # 中国区价格历史（每 App 独立快照 + 永久原价基线；🔴 不上线，见下）
 │   ├── history-us.json     # 美国区 30 天价格历史
 │   ├── free-today-cn.json  # 中国区每日限免/特价清单（前端读取）
 │   └── free-today-us.json  # 美国区每日限免/特价清单（前端读取）

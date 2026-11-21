@@ -15,19 +15,23 @@ name: verify-freebies
 #   2) **独立并发组 freebie-verify**（不是 freebie-update）：
 #      校验必须能在主跑批排队期间照常跑完，否则就失去了时效意义；
 #      同时校验不推 main、不改数据，故不会与主跑批抢 git 推送。
-#   3) 只在**确有失效条目**时才 dispatch daily.yml 去下架；
+#   3) 只在**确有失效条目**时才 dispatch takedown.yml 去下架；
 #      校验通过则本工作流什么都不做（无提交、无消耗）。
 #   4) 定时由 ECS 的 /etc/cron.d/freebie-verify 准点触发（workflow_dispatch），
 #      不用 GitHub 自带 cron —— 后者实测延迟 2~5 小时，等于没有。
-#      （ECS 上还有一条更快的本地通道：scripts/verify_and_trigger.sh 直接在
-#        ECS 本地跑校验并 dispatch，不必绕 GitHub Actions。）
+#
+# ⚠️ 当前「在线」的校验通道是 ECS 本地的 scripts/verify_and_trigger.sh（每 2 小时
+#    cron 直跑，不绕 GitHub Actions），本工作流实际已不在自动链路上、只作手动兜底。
+#    保留它是因为多一条手动通道无成本；但**不要**把它当成自动下架的依赖。
+#    历史上它 dispatch 的是 daily.yml（3h 全量跑批），已改为 takedown.yml
+#    （精确删条目 ~20s，AGENTS.md 铁律 8）。
 #
 # 仓库为 public → GitHub Actions 对其免费无限，加此工作流不消耗额度。
 on:
   workflow_dispatch:
     inputs:
       dispatch_on_stale:
-        description: '发现失效条目时是否立即触发 daily 跑批下架'
+        description: '发现失效条目时是否立即触发 takedown 下架'
         type: boolean
         default: true
       region:
@@ -96,16 +100,19 @@ jobs:
             --out "$GITHUB_STEP_SUMMARY" \
             --stale "$STALE_COUNT" --missing "$MISSING_COUNT"
 
-      # 🔴 只在确有失效时才触发主跑批去下架 —— 复用 generate.py 既有的
-      #    「促销粘性」下架逻辑，本工作流不自己改数据。
-      - name: Trigger daily batch to remove stale entries
+      # 🔴 只在确有失效时才触发下架 —— 用 takedown.yml 而不是 daily.yml：
+      #    takedown 精确删条目 + 删页 + 重写 sitemap，实测约 20 秒；
+      #    daily 是 3 小时的全量跑批，为一个下架拉起一次纯属浪费，还会挤占
+      #    freebie-update 并发组、顶掉下一个正班（AGENTS.md 铁律 8）。
+      #    本工作流自己仍不改数据，写页权仍在 generate.py / takedown 脚本。
+      - name: Trigger takedown batch to remove stale entries
         if: steps.verify.outputs.stale_count != '0' && inputs.dispatch_on_stale != false
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          echo "检测到 ${{ steps.verify.outputs.stale_count }} 条失效条目，触发 daily 跑批下架…"
-          gh workflow run daily.yml --ref main
-          echo "已 dispatch daily.yml"
+          echo "检测到 ${{ steps.verify.outputs.stale_count }} 条失效条目，触发 takedown 下架…"
+          gh workflow run takedown.yml --ref main
+          echo "已 dispatch takedown.yml"
 
       - name: No stale entries
         if: steps.verify.outputs.stale_count == '0'

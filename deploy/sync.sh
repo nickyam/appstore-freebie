@@ -87,6 +87,22 @@ echo "[sync] 同步网站文件到站点根目录…"
 #   仅用 --delete 不会删除被排除的文件，所以必须加 --delete-excluded，
 #   才能真正清掉站点根目录里历史遗留的 .git / scripts / deploy /
 #   .github / README.md（早期 git clone 到站点根目录留下的）。
+#
+# 🔴 内部状态文件不上线（2026-11-21）：
+#   data/iap-history-*.json（cn 10MB + us 8.6MB）纯属内部台账（含播种心跳、
+#   错误串、逐 IAP 变价史），前端从不 fetch（app.js 只取 free-today /
+#   iap-free / iap-current-free），verify_live_freebies.py 也不读它。
+#   排除后：ECS 磁盘少 18MB、git 拉取后 rsync 少搬 18MB、也避免
+#   /data/iap-history-us.json 被公网直接下载。
+#   CF Pages 侧对应的是「构建命令 rm -f data/history-* data/iap-history-*」，
+#   CF 上两份都可删；但 ECS **只能删 iap-history**，原因见下。
+#
+# 🔴 data/history-*.json 必须留在部署目录 —— 不要"顺手"排除！
+#   scripts/verify_live_freebies.py 读它取「历史最高价 mx」判定特价失效
+#   （max_price_of）；文件缺失时它返回 None 并 continue，**不报错**，
+#   结果是特价失效检测被静默关闭（每轮 verify 都变瞎子，还看不出来）。
+#   将来若要一并排除，必须先把 verify 的 history 源改指向内容源缓存
+#   /root/.freebie-repo-cache/data（那里有完整 history），再动 rsync。
 rsync -a --delete --delete-excluded \
   --exclude '.git' \
   --exclude '.gitignore' \
@@ -94,6 +110,9 @@ rsync -a --delete --delete-excluded \
   --exclude 'scripts' \
   --exclude 'deploy' \
   --exclude 'README.md' \
+  --exclude 'AGENTS.md' \
+  --exclude 'data/iap-history-cn.json' \
+  --exclude 'data/iap-history-us.json' \
   "$REPO_TMP/" "$DEPLOY_DIR/"
 
 # ---- 4. 修正权限（1Panel / 容器内以 www 读取）----

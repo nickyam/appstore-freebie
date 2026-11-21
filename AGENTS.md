@@ -1,6 +1,6 @@
 # AGENTS.md — 苹果限免雷达（appstore-freebie）
 
-> 最后复核：2026-10-30。本文件是**索引与红线清单**，权威细节以各脚本头部 docstring 为准；当铁律 7 的播种班 limit、监控池规模或判定阈值变更时，必须同步回顾本文件。
+> 最后复核：2026-11-21。本文件是**索引与红线清单**，权威细节以各脚本头部 docstring 为准；当铁律 7 的播种班 limit、监控池规模或判定阈值变更时，必须同步回顾本文件。
 
 纯静态站点：抓苹果中国区/美国区官方价格，识别「限时免费」App 与降价特价。
 架构 = Cloudflare Pages（静态托管）+ GitHub Actions（每日比价）+ 阿里云 ECS（准点触发 CI）。
@@ -77,6 +77,25 @@
    - 校验的**数据源**在 ECS 上是「站点部署目录里的 data/」（用户此刻正在看的那份），
      不是从 GitHub clone —— 大陆→GitHub 链路不稳会拖垮校验时效，
      且 main 可能还没同步到站点，验的不是用户看到的东西。
+   - 🔴 **`data/history-*.json` 必须留在部署目录**：特价失效判定靠 `max_price_of()`
+     读它的 `mx`（历史最高价），文件缺失时不报错、直接 `continue`，
+     等于**静默关掉特价失效检测**。`deploy/sync.sh` 因此只排除
+     `data/iap-history-*.json`（前端不 fetch、verify 不读）；想再排除 history，
+     必须先把 verify 的 history 源改指向 `/root/.freebie-repo-cache/data`。
+
+9. **防静默失败：带 continue-on-error 的步骤必须自带产出闸门（2026-11-21）**
+   - 背景：`daily.yml` 里 seed / iap_collector / probe 都带 `continue-on-error`，
+     失败不阻断跑批——2026-10-24/25 播种死了两天、2026-11-19 播种心跳停滞两天，
+     都是人工核查才发现；同期 `iap_collector` 若整池失败，会把 `iap-free-*`
+     冲成空数组、页面照常生成、CI 全绿。
+   - 两道防线（**改任一侧都要同步另一侧**）：
+     - `iap_collector.run()` 的**产出闸门**：处理率 < `--min-ok-ratio`（默认 0.5）
+       就**不写盘**并 `exit 2`，旧数据保留；0.5~0.8 打 `::warning::` 但照常写。
+     - `check_seed_health.py`（daily.yml **末步、不带 continue-on-error**）：
+       ① 播种心跳 `seed_last_ok` 陈旧 > 33h 或 fail > ok → 红；
+       ② 采集新鲜度 `collected_at` 陈旧 > 15h → 红（班际间隔 6h）。
+   - 新增任何 `continue-on-error` 步骤时，必须同时给一道「产出合理性」判定，
+     否则该步骤的失败永远看不见。
 
 ## 常见坑（踩过的，别再踩）
 
@@ -104,15 +123,20 @@
   `HISTORY_CAP=120` 天的窗口还没走满。
   根治（在 CF 后台改，不在仓库里）：Pages 项目 → Settings → Build configuration →
   Build command 填 `rm -f data/history-*.json data/iap-history-*.json`，输出目录留空。
+  **✅ 2026-11-21 已确认线上配置生效**（截图核对：构建命令如上、输出目录/根目录留空、
+  生产分支 main、自动部署已启用）。
   依据：前端（`assets/js/app.js`）只 fetch `free-today-*` / `iap-free-*` / `iap-current-free-*`
   / `iap-presence-*`，**从不读 `history-*`**，那 4 个 history 文件纯属 Actions 内部状态，
   排除后对站点零影响。另注：Pages 的 Git 集成**不认 `.assetsignore`**（那是 Workers Static
   Assets 的机制），别试图用文件排除。
-  历史文件被 CF 排除后 ECS 不受影响：`deploy/sync.sh` 是从 GitHub 拉源码再 rsync，不读 CF。
+  ECS 侧不同步排除 —— `deploy/sync.sh` 只排除 `data/iap-history-*.json`（省 18MB），
+  **`history-*.json` 必须留着**（verify 判特价失效要用，见铁律 8 末尾）。
 
 ## 验证与运行
 
 - 改 iap_collector 后：`python3 scripts/iap_collector.py --selftest`（合成历史验证付费→免费判定）。
+- **查数据健康（只读，秒级）**：`python3 scripts/check_seed_health.py`
+  ——播种心跳 + 采集新鲜度，与 daily.yml 末步同一份逻辑，本地就能复现红 X 的原因。
 - 改 daily*.yml / verify-freebies.yml 后：校验 YAML 语法。
 - 改 generate 相关：谨慎跑 `python3 scripts/generate.py --country cn --full`（会写 data 与 app/，确认在可回滚环境或 CI 验证）。
 - 本地预览：`python3 -m http.server 8080`。
