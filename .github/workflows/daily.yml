@@ -12,11 +12,12 @@ name: daily-freebie
 #                                失败——把「API 不可达被静默吞掉」变成红 X 报警（2026-10-25 A 方案）。
 #   2) 内购价格历史采集（iap_collector.py，cn + us）—— US 必须在非大陆 IP 跑（本 runner 即 GitHub 托管，非 CN）；
 #      同样 continue-on-error，采集抽风不会拖垮本体更新。
-#      扫描量按班次（2026-10-27 分级调度改造）：播种班（UTC 22/23）limit=4500——
-#      配合主池"按最近变价降序"排序，4500 已能覆盖两区全部"有 IAP 的 app"（cn≈3574 /
-#      us≈3780，均 < 4500）+ 少量无记录余量，等于砍掉无 IAP 死重而非砍事件 app，单班
-#      IAP 采集从 ~182min 降到 ~87min；其余 3 班 limit=2000 快速刷新热点。分钟免费，
-#      改造目的不是省额度，而是缩短播种班时长、提高扫描价值密度。
+#      扫描量按班次（2026-10-27 分级调度改造）：播种班（UTC 22/23）limit=5000——
+#      配合主池"按最近变价降序"排序，5000 已能覆盖两区全部"有 IAP 的 app"（2026-11-22
+#      实测 cn≈3926 / us≈4207，均 < 5000）+ 无记录余量，等于砍掉无 IAP 死重而非砍事件
+#      app，单班 IAP 采集从 ~182min 降到 ~90min 量级；其余 3 班 limit=2000 快速刷新热点。
+#      分钟免费，改造目的不是省额度，而是缩短播种班时长、提高扫描价值密度。
+#      （2026-11-22 由 4500 调至 5000：us 区 4207 距 4500 仅剩 293，触发容量告警。）
 #   3) 内购存在性探测（probe_iap_presence.py，cn + us）—— 抓 App Store 商品页的
 #      hasInAppPurchases，写 data/iap-presence-{region}.json，为「本体限免」卡片打
 #      「含内购 / 纯买断」徽章。必须在生成之前跑（generate 读取该文件加 has_iap 字段）。
@@ -68,7 +69,7 @@ jobs:
           python-version: "3.11"
 
       # 自检 + 池规模容量告警（AGENTS.md 铁律 7 安全阀）：检测"付费→免费"判定逻辑，
-      # 并检查两区"有 IAP 的 app 数"是否逼近播种班 limit=4500；逼近/超限时在 CI 日志
+      # 并检查两区"有 IAP 的 app 数"是否逼近播种班 limit=5000；逼近/超限时在 CI 日志
       # 发 ::warning::/::error:: 注解提示调大 limit。只读 data/iap-history，不改文件。
       # continue-on-error：自检不过不阻断当日数据更新（与采集步骤同策略）。
       - name: IAP collector selftest (含池规模容量告警)
@@ -100,19 +101,19 @@ jobs:
       - name: Collect IAP prices (cn)
         continue-on-error: true
         run: |
-          # 播种班（北京 06:00 = UTC 22/23 时）扫 4500：主池已按"最近变价"降序，
-          # 4500 覆盖全部有 IAP 的 app + 余量；其余 3 班扫 2000 刷新热点。
+          # 播种班（北京 06:00 = UTC 22/23 时）扫 5000：主池已按"最近变价"降序，
+          # 5000 覆盖全部有 IAP 的 app + 余量；其余 3 班扫 2000 刷新热点。
           HR="$RUN_HOUR"
-          if [ "$HR" = "22" ] || [ "$HR" = "23" ]; then LIMIT=4500; else LIMIT=2000; fi
-          echo "cn 内购采集：limit=$LIMIT（播种班=4500 覆盖全量热点 / 其余班=2000 刷新热点）"
+          if [ "$HR" = "22" ] || [ "$HR" = "23" ]; then LIMIT=5000; else LIMIT=2000; fi
+          echo "cn 内购采集：limit=$LIMIT（播种班=5000 覆盖全量热点 / 其余班=2000 刷新热点）"
           python scripts/iap_collector.py --region cn --limit $LIMIT --delay 0.3
 
       - name: Collect IAP prices (us)
         continue-on-error: true
         run: |
           HR="$RUN_HOUR"
-          if [ "$HR" = "22" ] || [ "$HR" = "23" ]; then LIMIT=4500; else LIMIT=2000; fi
-          echo "us 内购采集：limit=$LIMIT（播种班=4500 覆盖全量热点 / 其余班=2000 刷新热点）"
+          if [ "$HR" = "22" ] || [ "$HR" = "23" ]; then LIMIT=5000; else LIMIT=2000; fi
+          echo "us 内购采集：limit=$LIMIT（播种班=5000 覆盖全量热点 / 其余班=2000 刷新热点）"
           python scripts/iap_collector.py --region us --limit $LIMIT --delay 0.3
 
       # 「本体限免」卡片的「含内购 / 纯买断」徽章数据（probe_iap_presence.py 独写
@@ -168,8 +169,8 @@ jobs:
               python scripts/seed_from_apprcn.py || echo "::warning::apprcn 播种失败（非致命，沿用已有 history）"
               python scripts/seed_iap_from_apprcn.py || echo "::warning::iap apprcn 播种失败（非致命，沿用已有 history）"
             fi
-            # 与「Collect IAP prices」步骤保持一致：播种班 4500，其余班 2000
-            if [ "$HR" = "22" ] || [ "$HR" = "23" ]; then LIMIT=4500; else LIMIT=2000; fi
+            # 与「Collect IAP prices」步骤保持一致：播种班 5000，其余班 2000
+            if [ "$HR" = "22" ] || [ "$HR" = "23" ]; then LIMIT=5000; else LIMIT=2000; fi
             python scripts/iap_collector.py --region cn --limit $LIMIT --delay 0.3 || echo "::warning::cn 内购采集失败（非致命）"
             python scripts/iap_collector.py --region us --limit $LIMIT --delay 0.3 || echo "::warning::us 内购采集失败（非致命）"
             # 徽章数据（本体限免「含内购/纯买断」）——须在生成之前
@@ -222,7 +223,8 @@ jobs:
 
       # A 方案（防静默失败）——放在最后：即使播种心跳异常，本次采集/生成/推送也已落地，
       # 红 X 只作报警、绝不阻断数据更新（放在 seed 之后会因健康检查失败而中断生成，已挪到末位）。
-      # 读的是最近一次播种写入的心跳：缺失 / 陈旧 >30h / 最近失败晚于成功 → 任务失败（红 X）。
+      # 读的是最近一次播种写入的心跳：缺失 / 陈旧 >33h / 最近失败晚于成功 → 任务失败（红 X）；
+      # 另查采集新鲜度（meta.collected_at 陈旧 >15h 同样红），防「采集写盘全失败但页面照常生成」。
       # 非播种时段也检查（读上班次心跳），防「从来没人播种成功」。
       - name: Seed health check (防静默失败，末班报警，不阻断数据)
         run: python scripts/check_seed_health.py

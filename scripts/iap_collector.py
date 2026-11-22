@@ -59,7 +59,9 @@ ITUNES_LOOKUP = "https://itunes.apple.com/lookup?id={ids}&country={region}&limit
 # 保持一致（AGENTS.md 铁律 7 安全阀）：主池按"最近变价"降序后，LIMIT 名额优先覆盖
 # 近期变价 App；一旦"有 IAP 的 app 数"接近/超过此值，播种班就开始裁掉变价较旧的
 # IAP-app，可能漏检限免。监控池规模变更时要一并调大。
-SEED_LIMIT = 4500
+# 2026-11-22 由 4500 调到 5000：us 区有 IAP 的 app 数已达 4207（距 4500 仅 293，
+# 触发 POOL_WARN_HEADROOM=300 告警），按 ~16 个/天增长约两周即触顶，提前留余量。
+SEED_LIMIT = 5000
 # 池规模容量检查：有 IAP 的 app 数距 SEED_LIMIT 不足此值时，selftest 发"临近"告警。
 POOL_WARN_HEADROOM = 300
 # 产出闸门：本班成功率低于此值视为链路故障（限流/改版/被墙），不写盘并 exit 2。
@@ -97,7 +99,7 @@ def load_pool(region, limit):
       iap-history 查不到的 app（无 IAP / 尚未被扫过）排在最后。
       这样每个班次的 limit 名额优先落在"近期刚变价、最可能正在限免"的 App 上；
       而无 IAP 的死重被 limit 裁掉也不影响检测质量——它们本就没有可限免的内购。
-      两区"有 IAP 的 app 数"（cn≈3574 / us≈3780）均 < 播种班 limit(4500)，
+      两区"有 IAP 的 app 数"（2026-11-22 实测 cn≈3926 / us≈4207）均 < 播种班 limit(5000)，
       故排序后等于"扫完全部有 IAP 的 app + 少量无记录余量"，无损已知 app 的检测。
     """
     ids, seen = [], set()
@@ -157,7 +159,7 @@ def load_pool(region, limit):
         for i, _ in get_game_ids(region, cap):
             add(i)
     # limit <= 0 表示「不截断，扫全池」（保留既有全量能力，仅 CI 播种班不再默认传 0；
-    # 2026-10-27 起播种班改传 4500，兼顾覆盖与单班时长）。
+    # 2026-10-27 起播种班改传 4500，2026-11-22 起调至 5000，兼顾覆盖与单班时长）。
     return ids[:limit] if limit and limit > 0 else ids
 
 
